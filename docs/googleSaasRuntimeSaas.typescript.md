@@ -4,7 +4,7 @@
 
 ### GoogleSaasRuntimeSaas <a name="GoogleSaasRuntimeSaas" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaas"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_saas_runtime_saas google_saas_runtime_saas}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_saas_runtime_saas google_saas_runtime_saas}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaas.Initializer"></a>
 
@@ -74,9 +74,11 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaas.moveFromId">moveFromId</a></code> | Move the resource corresponding to "id" to this resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaas.moveTo">moveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaas.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaas.putApplicationTemplate">putApplicationTemplate</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaas.putLocations">putLocations</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaas.putTimeouts">putTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaas.resetAnnotations">resetAnnotations</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaas.resetApplicationTemplate">resetApplicationTemplate</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaas.resetDeletionPolicy">resetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaas.resetId">resetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaas.resetLabels">resetLabels</a></code> | *No description.* |
@@ -395,6 +397,18 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 
 ---
 
+##### `putApplicationTemplate` <a name="putApplicationTemplate" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaas.putApplicationTemplate"></a>
+
+```typescript
+public putApplicationTemplate(value: GoogleSaasRuntimeSaasApplicationTemplate): void
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaas.putApplicationTemplate.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplate">GoogleSaasRuntimeSaasApplicationTemplate</a>
+
+---
+
 ##### `putLocations` <a name="putLocations" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaas.putLocations"></a>
 
 ```typescript
@@ -423,6 +437,12 @@ public putTimeouts(value: GoogleSaasRuntimeSaasTimeouts): void
 
 ```typescript
 public resetAnnotations(): void
+```
+
+##### `resetApplicationTemplate` <a name="resetApplicationTemplate" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaas.resetApplicationTemplate"></a>
+
+```typescript
+public resetApplicationTemplate(): void
 ```
 
 ##### `resetDeletionPolicy` <a name="resetDeletionPolicy" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaas.resetDeletionPolicy"></a>
@@ -564,7 +584,7 @@ The construct id used in the generated config for the GoogleSaasRuntimeSaas to i
 
 The id of the existing GoogleSaasRuntimeSaas that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_saas_runtime_saas#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_saas_runtime_saas#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -594,17 +614,23 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaas.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaas.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaas.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaas.property.applicationTemplate">applicationTemplate</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplateOutputReference">GoogleSaasRuntimeSaasApplicationTemplateOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaas.property.blueprintRepo">blueprintRepo</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaas.property.conditions">conditions</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsList">GoogleSaasRuntimeSaasConditionsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaas.property.createTime">createTime</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaas.property.effectiveAnnotations">effectiveAnnotations</a></code> | <code>cdktn.StringMap</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaas.property.effectiveLabels">effectiveLabels</a></code> | <code>cdktn.StringMap</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaas.property.error">error</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorList">GoogleSaasRuntimeSaasErrorList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaas.property.etag">etag</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaas.property.locations">locations</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasLocationsList">GoogleSaasRuntimeSaasLocationsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaas.property.name">name</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaas.property.state">state</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaas.property.terraformLabels">terraformLabels</a></code> | <code>cdktn.StringMap</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaas.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasTimeoutsOutputReference">GoogleSaasRuntimeSaasTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaas.property.uid">uid</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaas.property.updateTime">updateTime</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaas.property.annotationsInput">annotationsInput</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaas.property.applicationTemplateInput">applicationTemplateInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplate">GoogleSaasRuntimeSaasApplicationTemplate</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaas.property.deletionPolicyInput">deletionPolicyInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaas.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaas.property.labelsInput">labelsInput</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
@@ -765,6 +791,36 @@ public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteEx
 
 ---
 
+##### `applicationTemplate`<sup>Required</sup> <a name="applicationTemplate" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaas.property.applicationTemplate"></a>
+
+```typescript
+public readonly applicationTemplate: GoogleSaasRuntimeSaasApplicationTemplateOutputReference;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplateOutputReference">GoogleSaasRuntimeSaasApplicationTemplateOutputReference</a>
+
+---
+
+##### `blueprintRepo`<sup>Required</sup> <a name="blueprintRepo" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaas.property.blueprintRepo"></a>
+
+```typescript
+public readonly blueprintRepo: string;
+```
+
+- *Type:* string
+
+---
+
+##### `conditions`<sup>Required</sup> <a name="conditions" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaas.property.conditions"></a>
+
+```typescript
+public readonly conditions: GoogleSaasRuntimeSaasConditionsList;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsList">GoogleSaasRuntimeSaasConditionsList</a>
+
+---
+
 ##### `createTime`<sup>Required</sup> <a name="createTime" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaas.property.createTime"></a>
 
 ```typescript
@@ -795,6 +851,16 @@ public readonly effectiveLabels: StringMap;
 
 ---
 
+##### `error`<sup>Required</sup> <a name="error" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaas.property.error"></a>
+
+```typescript
+public readonly error: GoogleSaasRuntimeSaasErrorList;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorList">GoogleSaasRuntimeSaasErrorList</a>
+
+---
+
 ##### `etag`<sup>Required</sup> <a name="etag" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaas.property.etag"></a>
 
 ```typescript
@@ -819,6 +885,16 @@ public readonly locations: GoogleSaasRuntimeSaasLocationsList;
 
 ```typescript
 public readonly name: string;
+```
+
+- *Type:* string
+
+---
+
+##### `state`<sup>Required</sup> <a name="state" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaas.property.state"></a>
+
+```typescript
+public readonly state: string;
 ```
 
 - *Type:* string
@@ -872,6 +948,16 @@ public readonly annotationsInput: {[ key: string ]: string};
 ```
 
 - *Type:* {[ key: string ]: string}
+
+---
+
+##### `applicationTemplateInput`<sup>Optional</sup> <a name="applicationTemplateInput" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaas.property.applicationTemplateInput"></a>
+
+```typescript
+public readonly applicationTemplateInput: GoogleSaasRuntimeSaasApplicationTemplate;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplate">GoogleSaasRuntimeSaasApplicationTemplate</a>
 
 ---
 
@@ -1045,6 +1131,67 @@ public readonly tfResourceType: string;
 
 ## Structs <a name="Structs" id="Structs"></a>
 
+### GoogleSaasRuntimeSaasApplicationTemplate <a name="GoogleSaasRuntimeSaasApplicationTemplate" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplate"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplate.Initializer"></a>
+
+```typescript
+import { googleSaasRuntimeSaas } from '@cdktn/provider-google-beta'
+
+const googleSaasRuntimeSaasApplicationTemplate: googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplate = { ... }
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplate.property.applicationTemplate">applicationTemplate</a></code> | <code>string</code> | Reference to the ApplicationTemplate resource, in the format 'projects/{project}/locations/{location}/spaces/{space}/applicationTemplates/{applicationTemplate}'. |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplate.property.revision">revision</a></code> | <code>string</code> | Revision of the ApplicationTemplate to import, as a full resource name prefixed by 'application_template': 'projects/{project}/locations/{location}/spaces/{space}/applicationTemplates/{applicationTemplate}/revisions/{revision}'. |
+
+---
+
+##### `applicationTemplate`<sup>Required</sup> <a name="applicationTemplate" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplate.property.applicationTemplate"></a>
+
+```typescript
+public readonly applicationTemplate: string;
+```
+
+- *Type:* string
+
+Reference to the ApplicationTemplate resource, in the format 'projects/{project}/locations/{location}/spaces/{space}/applicationTemplates/{applicationTemplate}'.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_saas_runtime_saas#application_template GoogleSaasRuntimeSaas#application_template}
+
+---
+
+##### `revision`<sup>Optional</sup> <a name="revision" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplate.property.revision"></a>
+
+```typescript
+public readonly revision: string;
+```
+
+- *Type:* string
+
+Revision of the ApplicationTemplate to import, as a full resource name prefixed by 'application_template': 'projects/{project}/locations/{location}/spaces/{space}/applicationTemplates/{applicationTemplate}/revisions/{revision}'.
+
+Changes to the revision trigger a new import. If empty, the service
+stores 'application_template' but doesn't import it.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_saas_runtime_saas#revision GoogleSaasRuntimeSaas#revision}
+
+---
+
+### GoogleSaasRuntimeSaasConditions <a name="GoogleSaasRuntimeSaasConditions" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditions"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditions.Initializer"></a>
+
+```typescript
+import { googleSaasRuntimeSaas } from '@cdktn/provider-google-beta'
+
+const googleSaasRuntimeSaasConditions: googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditions = { ... }
+```
+
+
 ### GoogleSaasRuntimeSaasConfig <a name="GoogleSaasRuntimeSaasConfig" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConfig"></a>
 
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConfig.Initializer"></a>
@@ -1069,11 +1216,12 @@ const googleSaasRuntimeSaasConfig: googleSaasRuntimeSaas.GoogleSaasRuntimeSaasCo
 | <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConfig.property.location">location</a></code> | <code>string</code> | Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122. |
 | <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConfig.property.saasId">saasId</a></code> | <code>string</code> | The ID value for the new saas. |
 | <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConfig.property.annotations">annotations</a></code> | <code>{[ key: string ]: string}</code> | Annotations is an unstructured key-value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConfig.property.applicationTemplate">applicationTemplate</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplate">GoogleSaasRuntimeSaasApplicationTemplate</a></code> | application_template block. |
 | <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_saas_runtime_saas#id GoogleSaasRuntimeSaas#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_saas_runtime_saas#id GoogleSaasRuntimeSaas#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConfig.property.labels">labels</a></code> | <code>{[ key: string ]: string}</code> | The labels on the resource, which can be used for categorization. similar to Kubernetes resource labels. |
 | <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConfig.property.locations">locations</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasLocations">GoogleSaasRuntimeSaasLocations</a>[]</code> | locations block. |
-| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_saas_runtime_saas#project GoogleSaasRuntimeSaas#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_saas_runtime_saas#project GoogleSaasRuntimeSaas#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasTimeouts">GoogleSaasRuntimeSaasTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1158,7 +1306,7 @@ public readonly location: string;
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_saas_runtime_saas#location GoogleSaasRuntimeSaas#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_saas_runtime_saas#location GoogleSaasRuntimeSaas#location}
 
 ---
 
@@ -1172,7 +1320,7 @@ public readonly saasId: string;
 
 The ID value for the new saas.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_saas_runtime_saas#saas_id GoogleSaasRuntimeSaas#saas_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_saas_runtime_saas#saas_id GoogleSaasRuntimeSaas#saas_id}
 
 ---
 
@@ -1193,7 +1341,21 @@ More info: https://kubernetes.io/docs/user-guide/annotations
 **Note**: This field is non-authoritative, and will only manage the annotations present in your configuration.
 Please refer to the field 'effective_annotations' for all of the annotations present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_saas_runtime_saas#annotations GoogleSaasRuntimeSaas#annotations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_saas_runtime_saas#annotations GoogleSaasRuntimeSaas#annotations}
+
+---
+
+##### `applicationTemplate`<sup>Optional</sup> <a name="applicationTemplate" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConfig.property.applicationTemplate"></a>
+
+```typescript
+public readonly applicationTemplate: GoogleSaasRuntimeSaasApplicationTemplate;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplate">GoogleSaasRuntimeSaasApplicationTemplate</a>
+
+application_template block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_saas_runtime_saas#application_template GoogleSaasRuntimeSaas#application_template}
 
 ---
 
@@ -1215,7 +1377,7 @@ management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_saas_runtime_saas#deletion_policy GoogleSaasRuntimeSaas#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_saas_runtime_saas#deletion_policy GoogleSaasRuntimeSaas#deletion_policy}
 
 ---
 
@@ -1227,7 +1389,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_saas_runtime_saas#id GoogleSaasRuntimeSaas#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_saas_runtime_saas#id GoogleSaasRuntimeSaas#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1247,7 +1409,7 @@ The labels on the resource, which can be used for categorization. similar to Kub
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_saas_runtime_saas#labels GoogleSaasRuntimeSaas#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_saas_runtime_saas#labels GoogleSaasRuntimeSaas#labels}
 
 ---
 
@@ -1261,7 +1423,7 @@ public readonly locations: IResolvable | GoogleSaasRuntimeSaasLocations[];
 
 locations block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_saas_runtime_saas#locations GoogleSaasRuntimeSaas#locations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_saas_runtime_saas#locations GoogleSaasRuntimeSaas#locations}
 
 ---
 
@@ -1273,7 +1435,7 @@ public readonly project: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_saas_runtime_saas#project GoogleSaasRuntimeSaas#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_saas_runtime_saas#project GoogleSaasRuntimeSaas#project}.
 
 ---
 
@@ -1287,9 +1449,20 @@ public readonly timeouts: GoogleSaasRuntimeSaasTimeouts;
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_saas_runtime_saas#timeouts GoogleSaasRuntimeSaas#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_saas_runtime_saas#timeouts GoogleSaasRuntimeSaas#timeouts}
 
 ---
+
+### GoogleSaasRuntimeSaasError <a name="GoogleSaasRuntimeSaasError" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasError"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasError.Initializer"></a>
+
+```typescript
+import { googleSaasRuntimeSaas } from '@cdktn/provider-google-beta'
+
+const googleSaasRuntimeSaasError: googleSaasRuntimeSaas.GoogleSaasRuntimeSaasError = { ... }
+```
+
 
 ### GoogleSaasRuntimeSaasLocations <a name="GoogleSaasRuntimeSaasLocations" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasLocations"></a>
 
@@ -1319,7 +1492,7 @@ public readonly name: string;
 
 Name of location.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_saas_runtime_saas#name GoogleSaasRuntimeSaas#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_saas_runtime_saas#name GoogleSaasRuntimeSaas#name}
 
 ---
 
@@ -1337,9 +1510,9 @@ const googleSaasRuntimeSaasTimeouts: googleSaasRuntimeSaas.GoogleSaasRuntimeSaas
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_saas_runtime_saas#create GoogleSaasRuntimeSaas#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_saas_runtime_saas#delete GoogleSaasRuntimeSaas#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_saas_runtime_saas#update GoogleSaasRuntimeSaas#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_saas_runtime_saas#create GoogleSaasRuntimeSaas#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_saas_runtime_saas#delete GoogleSaasRuntimeSaas#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_saas_runtime_saas#update GoogleSaasRuntimeSaas#update}. |
 
 ---
 
@@ -1351,7 +1524,7 @@ public readonly create: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_saas_runtime_saas#create GoogleSaasRuntimeSaas#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_saas_runtime_saas#create GoogleSaasRuntimeSaas#create}.
 
 ---
 
@@ -1363,7 +1536,7 @@ public readonly delete: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_saas_runtime_saas#delete GoogleSaasRuntimeSaas#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_saas_runtime_saas#delete GoogleSaasRuntimeSaas#delete}.
 
 ---
 
@@ -1375,11 +1548,1231 @@ public readonly update: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_saas_runtime_saas#update GoogleSaasRuntimeSaas#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_saas_runtime_saas#update GoogleSaasRuntimeSaas#update}.
 
 ---
 
 ## Classes <a name="Classes" id="Classes"></a>
+
+### GoogleSaasRuntimeSaasApplicationTemplateOutputReference <a name="GoogleSaasRuntimeSaasApplicationTemplateOutputReference" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplateOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplateOutputReference.Initializer"></a>
+
+```typescript
+import { googleSaasRuntimeSaas } from '@cdktn/provider-google-beta'
+
+new googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplateOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplateOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplateOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplateOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplateOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplateOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplateOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplateOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplateOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplateOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplateOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplateOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplateOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplateOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplateOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplateOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplateOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplateOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplateOutputReference.resetRevision">resetRevision</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplateOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplateOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplateOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplateOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplateOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplateOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplateOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplateOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplateOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplateOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplateOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplateOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplateOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplateOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplateOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplateOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplateOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplateOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplateOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplateOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplateOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplateOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplateOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplateOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `resetRevision` <a name="resetRevision" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplateOutputReference.resetRevision"></a>
+
+```typescript
+public resetRevision(): void
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplateOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplateOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplateOutputReference.property.syncOperation">syncOperation</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplateOutputReference.property.applicationTemplateInput">applicationTemplateInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplateOutputReference.property.revisionInput">revisionInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplateOutputReference.property.applicationTemplate">applicationTemplate</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplateOutputReference.property.revision">revision</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplateOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplate">GoogleSaasRuntimeSaasApplicationTemplate</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplateOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplateOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `syncOperation`<sup>Required</sup> <a name="syncOperation" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplateOutputReference.property.syncOperation"></a>
+
+```typescript
+public readonly syncOperation: string;
+```
+
+- *Type:* string
+
+---
+
+##### `applicationTemplateInput`<sup>Optional</sup> <a name="applicationTemplateInput" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplateOutputReference.property.applicationTemplateInput"></a>
+
+```typescript
+public readonly applicationTemplateInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `revisionInput`<sup>Optional</sup> <a name="revisionInput" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplateOutputReference.property.revisionInput"></a>
+
+```typescript
+public readonly revisionInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `applicationTemplate`<sup>Required</sup> <a name="applicationTemplate" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplateOutputReference.property.applicationTemplate"></a>
+
+```typescript
+public readonly applicationTemplate: string;
+```
+
+- *Type:* string
+
+---
+
+##### `revision`<sup>Required</sup> <a name="revision" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplateOutputReference.property.revision"></a>
+
+```typescript
+public readonly revision: string;
+```
+
+- *Type:* string
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplateOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: GoogleSaasRuntimeSaasApplicationTemplate;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasApplicationTemplate">GoogleSaasRuntimeSaasApplicationTemplate</a>
+
+---
+
+
+### GoogleSaasRuntimeSaasConditionsList <a name="GoogleSaasRuntimeSaasConditionsList" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsList.Initializer"></a>
+
+```typescript
+import { googleSaasRuntimeSaas } from '@cdktn/provider-google-beta'
+
+new googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsList(terraformResource: IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* boolean
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsList.allWithMapKey">allWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsList.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsList.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsList.get">get</a></code> | *No description.* |
+
+---
+
+##### `allWithMapKey` <a name="allWithMapKey" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsList.allWithMapKey"></a>
+
+```typescript
+public allWithMapKey(mapKeyAttributeName: string): DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* string
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsList.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsList.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsList.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsList.get"></a>
+
+```typescript
+public get(index: number): GoogleSaasRuntimeSaasConditionsOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsList.get.parameter.index"></a>
+
+- *Type:* number
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsList.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsList.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsList.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsList.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+
+### GoogleSaasRuntimeSaasConditionsOutputReference <a name="GoogleSaasRuntimeSaasConditionsOutputReference" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsOutputReference.Initializer"></a>
+
+```typescript
+import { googleSaasRuntimeSaas } from '@cdktn/provider-google-beta'
+
+new googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>number</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* number
+
+the index of this item in the list.
+
+---
+
+##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* boolean
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsOutputReference.property.lastTransitionTime">lastTransitionTime</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsOutputReference.property.message">message</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsOutputReference.property.reason">reason</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsOutputReference.property.status">status</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsOutputReference.property.type">type</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditions">GoogleSaasRuntimeSaasConditions</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `lastTransitionTime`<sup>Required</sup> <a name="lastTransitionTime" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsOutputReference.property.lastTransitionTime"></a>
+
+```typescript
+public readonly lastTransitionTime: string;
+```
+
+- *Type:* string
+
+---
+
+##### `message`<sup>Required</sup> <a name="message" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsOutputReference.property.message"></a>
+
+```typescript
+public readonly message: string;
+```
+
+- *Type:* string
+
+---
+
+##### `reason`<sup>Required</sup> <a name="reason" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsOutputReference.property.reason"></a>
+
+```typescript
+public readonly reason: string;
+```
+
+- *Type:* string
+
+---
+
+##### `status`<sup>Required</sup> <a name="status" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsOutputReference.property.status"></a>
+
+```typescript
+public readonly status: string;
+```
+
+- *Type:* string
+
+---
+
+##### `type`<sup>Required</sup> <a name="type" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsOutputReference.property.type"></a>
+
+```typescript
+public readonly type: string;
+```
+
+- *Type:* string
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditionsOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: GoogleSaasRuntimeSaasConditions;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasConditions">GoogleSaasRuntimeSaasConditions</a>
+
+---
+
+
+### GoogleSaasRuntimeSaasErrorList <a name="GoogleSaasRuntimeSaasErrorList" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorList.Initializer"></a>
+
+```typescript
+import { googleSaasRuntimeSaas } from '@cdktn/provider-google-beta'
+
+new googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorList(terraformResource: IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* boolean
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorList.allWithMapKey">allWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorList.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorList.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorList.get">get</a></code> | *No description.* |
+
+---
+
+##### `allWithMapKey` <a name="allWithMapKey" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorList.allWithMapKey"></a>
+
+```typescript
+public allWithMapKey(mapKeyAttributeName: string): DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* string
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorList.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorList.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorList.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorList.get"></a>
+
+```typescript
+public get(index: number): GoogleSaasRuntimeSaasErrorOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorList.get.parameter.index"></a>
+
+- *Type:* number
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorList.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorList.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorList.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorList.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+
+### GoogleSaasRuntimeSaasErrorOutputReference <a name="GoogleSaasRuntimeSaasErrorOutputReference" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorOutputReference.Initializer"></a>
+
+```typescript
+import { googleSaasRuntimeSaas } from '@cdktn/provider-google-beta'
+
+new googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>number</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* number
+
+the index of this item in the list.
+
+---
+
+##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* boolean
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorOutputReference.property.code">code</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorOutputReference.property.message">message</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasError">GoogleSaasRuntimeSaasError</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `code`<sup>Required</sup> <a name="code" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorOutputReference.property.code"></a>
+
+```typescript
+public readonly code: number;
+```
+
+- *Type:* number
+
+---
+
+##### `message`<sup>Required</sup> <a name="message" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorOutputReference.property.message"></a>
+
+```typescript
+public readonly message: string;
+```
+
+- *Type:* string
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasErrorOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: GoogleSaasRuntimeSaasError;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasError">GoogleSaasRuntimeSaasError</a>
+
+---
+
 
 ### GoogleSaasRuntimeSaasLocationsList <a name="GoogleSaasRuntimeSaasLocationsList" id="@cdktn/provider-google-beta.googleSaasRuntimeSaas.GoogleSaasRuntimeSaasLocationsList"></a>
 

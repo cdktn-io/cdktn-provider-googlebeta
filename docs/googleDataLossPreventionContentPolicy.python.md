@@ -4,7 +4,7 @@
 
 ### GoogleDataLossPreventionContentPolicy <a name="GoogleDataLossPreventionContentPolicy" id="@cdktn/provider-google-beta.googleDataLossPreventionContentPolicy.GoogleDataLossPreventionContentPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy google_data_loss_prevention_content_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy google_data_loss_prevention_content_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataLossPreventionContentPolicy.GoogleDataLossPreventionContentPolicy.Initializer"></a>
 
@@ -53,7 +53,7 @@ googleDataLossPreventionContentPolicy.GoogleDataLossPreventionContentPolicy(
 | <code><a href="#@cdktn/provider-google-beta.googleDataLossPreventionContentPolicy.GoogleDataLossPreventionContentPolicy.Initializer.parameter.deletionPolicy">deletion_policy</a></code> | <code>str</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataLossPreventionContentPolicy.GoogleDataLossPreventionContentPolicy.Initializer.parameter.displayName">display_name</a></code> | <code>str</code> | Display name (max 63 chars). |
 | <code><a href="#@cdktn/provider-google-beta.googleDataLossPreventionContentPolicy.GoogleDataLossPreventionContentPolicy.Initializer.parameter.failedToScanSupportedFileType">failed_to_scan_supported_file_type</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataLossPreventionContentPolicy.GoogleDataLossPreventionContentPolicyFailedToScanSupportedFileType">GoogleDataLossPreventionContentPolicyFailedToScanSupportedFileType</a></code> | failed_to_scan_supported_file_type block. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataLossPreventionContentPolicy.GoogleDataLossPreventionContentPolicy.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#id GoogleDataLossPreventionContentPolicy#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataLossPreventionContentPolicy.GoogleDataLossPreventionContentPolicy.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#id GoogleDataLossPreventionContentPolicy#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataLossPreventionContentPolicy.GoogleDataLossPreventionContentPolicy.Initializer.parameter.inputTooLarge">input_too_large</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataLossPreventionContentPolicy.GoogleDataLossPreventionContentPolicyInputTooLarge">GoogleDataLossPreventionContentPolicyInputTooLarge</a></code> | input_too_large block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataLossPreventionContentPolicy.GoogleDataLossPreventionContentPolicy.Initializer.parameter.inspectConfig">inspect_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataLossPreventionContentPolicy.GoogleDataLossPreventionContentPolicyInspectConfig">GoogleDataLossPreventionContentPolicyInspectConfig</a></code> | inspect_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataLossPreventionContentPolicy.GoogleDataLossPreventionContentPolicy.Initializer.parameter.loggingConfigs">logging_configs</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleDataLossPreventionContentPolicy.GoogleDataLossPreventionContentPolicyLoggingConfigs">GoogleDataLossPreventionContentPolicyLoggingConfigs</a>]</code> | logging_configs block. |
@@ -130,7 +130,7 @@ The parent of the content policy in any of the following formats:.
 
 * 'projects/{{project}}/locations/{{location}}'
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#parent GoogleDataLossPreventionContentPolicy#parent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#parent GoogleDataLossPreventionContentPolicy#parent}
 
 ---
 
@@ -140,7 +140,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 rules block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#rules GoogleDataLossPreventionContentPolicy#rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#rules GoogleDataLossPreventionContentPolicy#rules}
 
 ---
 
@@ -150,7 +150,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 default_action block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#default_action GoogleDataLossPreventionContentPolicy#default_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#default_action GoogleDataLossPreventionContentPolicy#default_action}
 
 ---
 
@@ -167,7 +167,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#deletion_policy GoogleDataLossPreventionContentPolicy#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#deletion_policy GoogleDataLossPreventionContentPolicy#deletion_policy}
 
 ---
 
@@ -177,7 +177,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Display name (max 63 chars).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#display_name GoogleDataLossPreventionContentPolicy#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#display_name GoogleDataLossPreventionContentPolicy#display_name}
 
 ---
 
@@ -187,7 +187,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 failed_to_scan_supported_file_type block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#failed_to_scan_supported_file_type GoogleDataLossPreventionContentPolicy#failed_to_scan_supported_file_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#failed_to_scan_supported_file_type GoogleDataLossPreventionContentPolicy#failed_to_scan_supported_file_type}
 
 ---
 
@@ -195,7 +195,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#id GoogleDataLossPreventionContentPolicy#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#id GoogleDataLossPreventionContentPolicy#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -208,7 +208,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 input_too_large block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#input_too_large GoogleDataLossPreventionContentPolicy#input_too_large}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#input_too_large GoogleDataLossPreventionContentPolicy#input_too_large}
 
 ---
 
@@ -218,7 +218,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 inspect_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#inspect_config GoogleDataLossPreventionContentPolicy#inspect_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#inspect_config GoogleDataLossPreventionContentPolicy#inspect_config}
 
 ---
 
@@ -228,7 +228,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 logging_configs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#logging_configs GoogleDataLossPreventionContentPolicy#logging_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#logging_configs GoogleDataLossPreventionContentPolicy#logging_configs}
 
 ---
 
@@ -238,7 +238,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#timeouts GoogleDataLossPreventionContentPolicy#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#timeouts GoogleDataLossPreventionContentPolicy#timeouts}
 
 ---
 
@@ -248,7 +248,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 unsupported_file_type block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#unsupported_file_type GoogleDataLossPreventionContentPolicy#unsupported_file_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#unsupported_file_type GoogleDataLossPreventionContentPolicy#unsupported_file_type}
 
 ---
 
@@ -663,7 +663,7 @@ def put_default_action(
 
 If set, the verdict will be returned to the user. Possible values: ["ALLOW", "BLOCK"] Possible values: ["ALLOW", "BLOCK"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#return_verdict GoogleDataLossPreventionContentPolicy#return_verdict}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#return_verdict GoogleDataLossPreventionContentPolicy#return_verdict}
 
 ---
 
@@ -681,7 +681,7 @@ def put_failed_to_scan_supported_file_type(
 
 If set, the verdict will be returned to the user. Possible values: ["ALLOW", "BLOCK"] Possible values: ["ALLOW", "BLOCK"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#return_verdict GoogleDataLossPreventionContentPolicy#return_verdict}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#return_verdict GoogleDataLossPreventionContentPolicy#return_verdict}
 
 ---
 
@@ -699,7 +699,7 @@ def put_input_too_large(
 
 If set, the verdict will be returned to the user. Possible values: ["ALLOW", "BLOCK"] Possible values: ["ALLOW", "BLOCK"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#return_verdict GoogleDataLossPreventionContentPolicy#return_verdict}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#return_verdict GoogleDataLossPreventionContentPolicy#return_verdict}
 
 ---
 
@@ -727,7 +727,7 @@ List of options defining data content to scan.
 
 If empty, text, images, and other content will be included. Possible values: ["CONTENT_TEXT", "CONTENT_IMAGE"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#content_options GoogleDataLossPreventionContentPolicy#content_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#content_options GoogleDataLossPreventionContentPolicy#content_options}
 
 ---
 
@@ -737,7 +737,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 custom_info_types block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#custom_info_types GoogleDataLossPreventionContentPolicy#custom_info_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#custom_info_types GoogleDataLossPreventionContentPolicy#custom_info_types}
 
 ---
 
@@ -747,7 +747,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 When true, excludes type information of the findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#exclude_info_types GoogleDataLossPreventionContentPolicy#exclude_info_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#exclude_info_types GoogleDataLossPreventionContentPolicy#exclude_info_types}
 
 ---
 
@@ -757,7 +757,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 When true, a contextual quote from the data that triggered a finding is included in the response.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#include_quote GoogleDataLossPreventionContentPolicy#include_quote}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#include_quote GoogleDataLossPreventionContentPolicy#include_quote}
 
 ---
 
@@ -767,7 +767,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 info_types block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#info_types GoogleDataLossPreventionContentPolicy#info_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#info_types GoogleDataLossPreventionContentPolicy#info_types}
 
 ---
 
@@ -777,7 +777,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 limits block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#limits GoogleDataLossPreventionContentPolicy#limits}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#limits GoogleDataLossPreventionContentPolicy#limits}
 
 ---
 
@@ -789,7 +789,7 @@ Only returns findings equal or above this threshold.
 
 See https://cloud.google.com/dlp/docs/likelihood for more info Default value: "POSSIBLE" Possible values: ["VERY_UNLIKELY", "UNLIKELY", "POSSIBLE", "LIKELY", "VERY_LIKELY"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#min_likelihood GoogleDataLossPreventionContentPolicy#min_likelihood}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#min_likelihood GoogleDataLossPreventionContentPolicy#min_likelihood}
 
 ---
 
@@ -799,7 +799,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 min_likelihood_per_info_type block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#min_likelihood_per_info_type GoogleDataLossPreventionContentPolicy#min_likelihood_per_info_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#min_likelihood_per_info_type GoogleDataLossPreventionContentPolicy#min_likelihood_per_info_type}
 
 ---
 
@@ -809,7 +809,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 rule_set block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#rule_set GoogleDataLossPreventionContentPolicy#rule_set}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#rule_set GoogleDataLossPreventionContentPolicy#rule_set}
 
 ---
 
@@ -855,7 +855,7 @@ def put_timeouts(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#create GoogleDataLossPreventionContentPolicy#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#create GoogleDataLossPreventionContentPolicy#create}.
 
 ---
 
@@ -863,7 +863,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#delete GoogleDataLossPreventionContentPolicy#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#delete GoogleDataLossPreventionContentPolicy#delete}.
 
 ---
 
@@ -871,7 +871,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#update GoogleDataLossPreventionContentPolicy#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#update GoogleDataLossPreventionContentPolicy#update}.
 
 ---
 
@@ -889,7 +889,7 @@ def put_unsupported_file_type(
 
 If set, the verdict will be returned to the user. Possible values: ["ALLOW", "BLOCK"] Possible values: ["ALLOW", "BLOCK"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#return_verdict GoogleDataLossPreventionContentPolicy#return_verdict}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#return_verdict GoogleDataLossPreventionContentPolicy#return_verdict}
 
 ---
 
@@ -1067,7 +1067,7 @@ The construct id used in the generated config for the GoogleDataLossPreventionCo
 
 The id of the existing GoogleDataLossPreventionContentPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1617,7 +1617,7 @@ googleDataLossPreventionContentPolicy.GoogleDataLossPreventionContentPolicyConfi
 | <code><a href="#@cdktn/provider-google-beta.googleDataLossPreventionContentPolicy.GoogleDataLossPreventionContentPolicyConfig.property.deletionPolicy">deletion_policy</a></code> | <code>str</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataLossPreventionContentPolicy.GoogleDataLossPreventionContentPolicyConfig.property.displayName">display_name</a></code> | <code>str</code> | Display name (max 63 chars). |
 | <code><a href="#@cdktn/provider-google-beta.googleDataLossPreventionContentPolicy.GoogleDataLossPreventionContentPolicyConfig.property.failedToScanSupportedFileType">failed_to_scan_supported_file_type</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataLossPreventionContentPolicy.GoogleDataLossPreventionContentPolicyFailedToScanSupportedFileType">GoogleDataLossPreventionContentPolicyFailedToScanSupportedFileType</a></code> | failed_to_scan_supported_file_type block. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataLossPreventionContentPolicy.GoogleDataLossPreventionContentPolicyConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#id GoogleDataLossPreventionContentPolicy#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataLossPreventionContentPolicy.GoogleDataLossPreventionContentPolicyConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#id GoogleDataLossPreventionContentPolicy#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataLossPreventionContentPolicy.GoogleDataLossPreventionContentPolicyConfig.property.inputTooLarge">input_too_large</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataLossPreventionContentPolicy.GoogleDataLossPreventionContentPolicyInputTooLarge">GoogleDataLossPreventionContentPolicyInputTooLarge</a></code> | input_too_large block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataLossPreventionContentPolicy.GoogleDataLossPreventionContentPolicyConfig.property.inspectConfig">inspect_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataLossPreventionContentPolicy.GoogleDataLossPreventionContentPolicyInspectConfig">GoogleDataLossPreventionContentPolicyInspectConfig</a></code> | inspect_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataLossPreventionContentPolicy.GoogleDataLossPreventionContentPolicyConfig.property.loggingConfigs">logging_configs</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleDataLossPreventionContentPolicy.GoogleDataLossPreventionContentPolicyLoggingConfigs">GoogleDataLossPreventionContentPolicyLoggingConfigs</a>]</code> | logging_configs block. |
@@ -1708,7 +1708,7 @@ The parent of the content policy in any of the following formats:.
 
 * 'projects/{{project}}/locations/{{location}}'
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#parent GoogleDataLossPreventionContentPolicy#parent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#parent GoogleDataLossPreventionContentPolicy#parent}
 
 ---
 
@@ -1722,7 +1722,7 @@ rules: IResolvable | typing.List[GoogleDataLossPreventionContentPolicyRules]
 
 rules block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#rules GoogleDataLossPreventionContentPolicy#rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#rules GoogleDataLossPreventionContentPolicy#rules}
 
 ---
 
@@ -1736,7 +1736,7 @@ default_action: GoogleDataLossPreventionContentPolicyDefaultAction
 
 default_action block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#default_action GoogleDataLossPreventionContentPolicy#default_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#default_action GoogleDataLossPreventionContentPolicy#default_action}
 
 ---
 
@@ -1757,7 +1757,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#deletion_policy GoogleDataLossPreventionContentPolicy#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#deletion_policy GoogleDataLossPreventionContentPolicy#deletion_policy}
 
 ---
 
@@ -1771,7 +1771,7 @@ display_name: str
 
 Display name (max 63 chars).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#display_name GoogleDataLossPreventionContentPolicy#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#display_name GoogleDataLossPreventionContentPolicy#display_name}
 
 ---
 
@@ -1785,7 +1785,7 @@ failed_to_scan_supported_file_type: GoogleDataLossPreventionContentPolicyFailedT
 
 failed_to_scan_supported_file_type block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#failed_to_scan_supported_file_type GoogleDataLossPreventionContentPolicy#failed_to_scan_supported_file_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#failed_to_scan_supported_file_type GoogleDataLossPreventionContentPolicy#failed_to_scan_supported_file_type}
 
 ---
 
@@ -1797,7 +1797,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#id GoogleDataLossPreventionContentPolicy#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#id GoogleDataLossPreventionContentPolicy#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1814,7 +1814,7 @@ input_too_large: GoogleDataLossPreventionContentPolicyInputTooLarge
 
 input_too_large block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#input_too_large GoogleDataLossPreventionContentPolicy#input_too_large}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#input_too_large GoogleDataLossPreventionContentPolicy#input_too_large}
 
 ---
 
@@ -1828,7 +1828,7 @@ inspect_config: GoogleDataLossPreventionContentPolicyInspectConfig
 
 inspect_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#inspect_config GoogleDataLossPreventionContentPolicy#inspect_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#inspect_config GoogleDataLossPreventionContentPolicy#inspect_config}
 
 ---
 
@@ -1842,7 +1842,7 @@ logging_configs: IResolvable | typing.List[GoogleDataLossPreventionContentPolicy
 
 logging_configs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#logging_configs GoogleDataLossPreventionContentPolicy#logging_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#logging_configs GoogleDataLossPreventionContentPolicy#logging_configs}
 
 ---
 
@@ -1856,7 +1856,7 @@ timeouts: GoogleDataLossPreventionContentPolicyTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#timeouts GoogleDataLossPreventionContentPolicy#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#timeouts GoogleDataLossPreventionContentPolicy#timeouts}
 
 ---
 
@@ -1870,7 +1870,7 @@ unsupported_file_type: GoogleDataLossPreventionContentPolicyUnsupportedFileType
 
 unsupported_file_type block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#unsupported_file_type GoogleDataLossPreventionContentPolicy#unsupported_file_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#unsupported_file_type GoogleDataLossPreventionContentPolicy#unsupported_file_type}
 
 ---
 
@@ -1904,7 +1904,7 @@ return_verdict: str
 
 If set, the verdict will be returned to the user. Possible values: ["ALLOW", "BLOCK"] Possible values: ["ALLOW", "BLOCK"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#return_verdict GoogleDataLossPreventionContentPolicy#return_verdict}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#return_verdict GoogleDataLossPreventionContentPolicy#return_verdict}
 
 ---
 
@@ -1960,7 +1960,7 @@ return_verdict: str
 
 If set, the verdict will be returned to the user. Possible values: ["ALLOW", "BLOCK"] Possible values: ["ALLOW", "BLOCK"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#return_verdict GoogleDataLossPreventionContentPolicy#return_verdict}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#return_verdict GoogleDataLossPreventionContentPolicy#return_verdict}
 
 ---
 
@@ -1994,7 +1994,7 @@ return_verdict: str
 
 If set, the verdict will be returned to the user. Possible values: ["ALLOW", "BLOCK"] Possible values: ["ALLOW", "BLOCK"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#return_verdict GoogleDataLossPreventionContentPolicy#return_verdict}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#return_verdict GoogleDataLossPreventionContentPolicy#return_verdict}
 
 ---
 
@@ -2046,7 +2046,7 @@ List of options defining data content to scan.
 
 If empty, text, images, and other content will be included. Possible values: ["CONTENT_TEXT", "CONTENT_IMAGE"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#content_options GoogleDataLossPreventionContentPolicy#content_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#content_options GoogleDataLossPreventionContentPolicy#content_options}
 
 ---
 
@@ -2060,7 +2060,7 @@ custom_info_types: IResolvable | typing.List[GoogleDataLossPreventionContentPoli
 
 custom_info_types block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#custom_info_types GoogleDataLossPreventionContentPolicy#custom_info_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#custom_info_types GoogleDataLossPreventionContentPolicy#custom_info_types}
 
 ---
 
@@ -2074,7 +2074,7 @@ exclude_info_types: bool | IResolvable
 
 When true, excludes type information of the findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#exclude_info_types GoogleDataLossPreventionContentPolicy#exclude_info_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#exclude_info_types GoogleDataLossPreventionContentPolicy#exclude_info_types}
 
 ---
 
@@ -2088,7 +2088,7 @@ include_quote: bool | IResolvable
 
 When true, a contextual quote from the data that triggered a finding is included in the response.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#include_quote GoogleDataLossPreventionContentPolicy#include_quote}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#include_quote GoogleDataLossPreventionContentPolicy#include_quote}
 
 ---
 
@@ -2102,7 +2102,7 @@ info_types: IResolvable | typing.List[GoogleDataLossPreventionContentPolicyInspe
 
 info_types block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#info_types GoogleDataLossPreventionContentPolicy#info_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#info_types GoogleDataLossPreventionContentPolicy#info_types}
 
 ---
 
@@ -2116,7 +2116,7 @@ limits: GoogleDataLossPreventionContentPolicyInspectConfigLimits
 
 limits block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#limits GoogleDataLossPreventionContentPolicy#limits}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#limits GoogleDataLossPreventionContentPolicy#limits}
 
 ---
 
@@ -2132,7 +2132,7 @@ Only returns findings equal or above this threshold.
 
 See https://cloud.google.com/dlp/docs/likelihood for more info Default value: "POSSIBLE" Possible values: ["VERY_UNLIKELY", "UNLIKELY", "POSSIBLE", "LIKELY", "VERY_LIKELY"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#min_likelihood GoogleDataLossPreventionContentPolicy#min_likelihood}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#min_likelihood GoogleDataLossPreventionContentPolicy#min_likelihood}
 
 ---
 
@@ -2146,7 +2146,7 @@ min_likelihood_per_info_type: IResolvable | typing.List[GoogleDataLossPrevention
 
 min_likelihood_per_info_type block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#min_likelihood_per_info_type GoogleDataLossPreventionContentPolicy#min_likelihood_per_info_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#min_likelihood_per_info_type GoogleDataLossPreventionContentPolicy#min_likelihood_per_info_type}
 
 ---
 
@@ -2160,7 +2160,7 @@ rule_set: IResolvable | typing.List[GoogleDataLossPreventionContentPolicyInspect
 
 rule_set block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#rule_set GoogleDataLossPreventionContentPolicy#rule_set}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#rule_set GoogleDataLossPreventionContentPolicy#rule_set}
 
 ---
 
@@ -2214,7 +2214,7 @@ info_type: GoogleDataLossPreventionContentPolicyInspectConfigCustomInfoTypesInfo
 
 info_type block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#info_type GoogleDataLossPreventionContentPolicy#info_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#info_type GoogleDataLossPreventionContentPolicy#info_type}
 
 ---
 
@@ -2228,7 +2228,7 @@ detection_rules: IResolvable | typing.List[GoogleDataLossPreventionContentPolicy
 
 detection_rules block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#detection_rules GoogleDataLossPreventionContentPolicy#detection_rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#detection_rules GoogleDataLossPreventionContentPolicy#detection_rules}
 
 ---
 
@@ -2242,7 +2242,7 @@ dictionary: GoogleDataLossPreventionContentPolicyInspectConfigCustomInfoTypesDic
 
 dictionary block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#dictionary GoogleDataLossPreventionContentPolicy#dictionary}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#dictionary GoogleDataLossPreventionContentPolicy#dictionary}
 
 ---
 
@@ -2258,7 +2258,7 @@ If set to EXCLUSION_TYPE_EXCLUDE this infoType will not cause a finding to be re
 
 It still can be used for rules matching. Possible values: ["EXCLUSION_TYPE_EXCLUDE"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#exclusion_type GoogleDataLossPreventionContentPolicy#exclusion_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#exclusion_type GoogleDataLossPreventionContentPolicy#exclusion_type}
 
 ---
 
@@ -2272,7 +2272,7 @@ file_label_info_type: GoogleDataLossPreventionContentPolicyInspectConfigCustomIn
 
 file_label_info_type block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#file_label_info_type GoogleDataLossPreventionContentPolicy#file_label_info_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#file_label_info_type GoogleDataLossPreventionContentPolicy#file_label_info_type}
 
 ---
 
@@ -2289,7 +2289,7 @@ Likelihood to return for this CustomInfoType.
 This base value can be altered by a detection rule if the finding meets the criteria
 specified by the rule. Default value: "VERY_LIKELY" Possible values: ["VERY_UNLIKELY", "UNLIKELY", "POSSIBLE", "LIKELY", "VERY_LIKELY"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#likelihood GoogleDataLossPreventionContentPolicy#likelihood}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#likelihood GoogleDataLossPreventionContentPolicy#likelihood}
 
 ---
 
@@ -2303,7 +2303,7 @@ metadata_key_value_expression: GoogleDataLossPreventionContentPolicyInspectConfi
 
 metadata_key_value_expression block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#metadata_key_value_expression GoogleDataLossPreventionContentPolicy#metadata_key_value_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#metadata_key_value_expression GoogleDataLossPreventionContentPolicy#metadata_key_value_expression}
 
 ---
 
@@ -2317,7 +2317,7 @@ regex: GoogleDataLossPreventionContentPolicyInspectConfigCustomInfoTypesRegex
 
 regex block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#regex GoogleDataLossPreventionContentPolicy#regex}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#regex GoogleDataLossPreventionContentPolicy#regex}
 
 ---
 
@@ -2331,7 +2331,7 @@ sensitivity_score: GoogleDataLossPreventionContentPolicyInspectConfigCustomInfoT
 
 sensitivity_score block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#sensitivity_score GoogleDataLossPreventionContentPolicy#sensitivity_score}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#sensitivity_score GoogleDataLossPreventionContentPolicy#sensitivity_score}
 
 ---
 
@@ -2345,7 +2345,7 @@ stored_type: GoogleDataLossPreventionContentPolicyInspectConfigCustomInfoTypesSt
 
 stored_type block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#stored_type GoogleDataLossPreventionContentPolicy#stored_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#stored_type GoogleDataLossPreventionContentPolicy#stored_type}
 
 ---
 
@@ -2359,7 +2359,7 @@ surrogate_type: GoogleDataLossPreventionContentPolicyInspectConfigCustomInfoType
 
 surrogate_type block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#surrogate_type GoogleDataLossPreventionContentPolicy#surrogate_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#surrogate_type GoogleDataLossPreventionContentPolicy#surrogate_type}
 
 ---
 
@@ -2393,7 +2393,7 @@ hotword_rule: GoogleDataLossPreventionContentPolicyInspectConfigCustomInfoTypesD
 
 hotword_rule block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#hotword_rule GoogleDataLossPreventionContentPolicy#hotword_rule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#hotword_rule GoogleDataLossPreventionContentPolicy#hotword_rule}
 
 ---
 
@@ -2431,7 +2431,7 @@ hotword_regex: GoogleDataLossPreventionContentPolicyInspectConfigCustomInfoTypes
 
 hotword_regex block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#hotword_regex GoogleDataLossPreventionContentPolicy#hotword_regex}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#hotword_regex GoogleDataLossPreventionContentPolicy#hotword_regex}
 
 ---
 
@@ -2445,7 +2445,7 @@ likelihood_adjustment: GoogleDataLossPreventionContentPolicyInspectConfigCustomI
 
 likelihood_adjustment block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#likelihood_adjustment GoogleDataLossPreventionContentPolicy#likelihood_adjustment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#likelihood_adjustment GoogleDataLossPreventionContentPolicy#likelihood_adjustment}
 
 ---
 
@@ -2459,7 +2459,7 @@ proximity: GoogleDataLossPreventionContentPolicyInspectConfigCustomInfoTypesDete
 
 proximity block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#proximity GoogleDataLossPreventionContentPolicy#proximity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#proximity GoogleDataLossPreventionContentPolicy#proximity}
 
 ---
 
@@ -2495,7 +2495,7 @@ pattern: str
 
 Pattern defining the regular expression. Its syntax (https://github.com/google/re2/wiki/Syntax) can be found under the google/re2 repository on GitHub.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#pattern GoogleDataLossPreventionContentPolicy#pattern}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#pattern GoogleDataLossPreventionContentPolicy#pattern}
 
 ---
 
@@ -2512,7 +2512,7 @@ The index of the submatch to extract as findings.
 When not specified,
 the entire match is returned. No more than 3 may be included.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#group_indexes GoogleDataLossPreventionContentPolicy#group_indexes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#group_indexes GoogleDataLossPreventionContentPolicy#group_indexes}
 
 ---
 
@@ -2550,7 +2550,7 @@ Set the likelihood of a finding to a fixed value.
 
 Either this or relative_likelihood can be set. Possible values: ["VERY_UNLIKELY", "UNLIKELY", "POSSIBLE", "LIKELY", "VERY_LIKELY"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#fixed_likelihood GoogleDataLossPreventionContentPolicy#fixed_likelihood}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#fixed_likelihood GoogleDataLossPreventionContentPolicy#fixed_likelihood}
 
 ---
 
@@ -2564,7 +2564,7 @@ relative_likelihood: typing.Union[int, float]
 
 Increase or decrease the likelihood by the specified number of levels.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#relative_likelihood GoogleDataLossPreventionContentPolicy#relative_likelihood}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#relative_likelihood GoogleDataLossPreventionContentPolicy#relative_likelihood}
 
 ---
 
@@ -2600,7 +2600,7 @@ window_after: typing.Union[int, float]
 
 Number of characters after the finding to consider.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#window_after GoogleDataLossPreventionContentPolicy#window_after}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#window_after GoogleDataLossPreventionContentPolicy#window_after}
 
 ---
 
@@ -2614,7 +2614,7 @@ window_before: typing.Union[int, float]
 
 Number of characters before the finding to consider.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#window_before GoogleDataLossPreventionContentPolicy#window_before}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#window_before GoogleDataLossPreventionContentPolicy#window_before}
 
 ---
 
@@ -2650,7 +2650,7 @@ cloud_storage_path: GoogleDataLossPreventionContentPolicyInspectConfigCustomInfo
 
 cloud_storage_path block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#cloud_storage_path GoogleDataLossPreventionContentPolicy#cloud_storage_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#cloud_storage_path GoogleDataLossPreventionContentPolicy#cloud_storage_path}
 
 ---
 
@@ -2664,7 +2664,7 @@ word_list: GoogleDataLossPreventionContentPolicyInspectConfigCustomInfoTypesDict
 
 word_list block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#word_list GoogleDataLossPreventionContentPolicy#word_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#word_list GoogleDataLossPreventionContentPolicy#word_list}
 
 ---
 
@@ -2698,7 +2698,7 @@ path: str
 
 A url representing a file or path (no wildcards) in Cloud Storage. Example: 'gs://[BUCKET_NAME]/dictionary.txt'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#path GoogleDataLossPreventionContentPolicy#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#path GoogleDataLossPreventionContentPolicy#path}
 
 ---
 
@@ -2735,7 +2735,7 @@ Words or phrases defining the dictionary.
 The dictionary must contain at least one
 phrase and every phrase must contain at least 2 characters that are letters or digits.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#words GoogleDataLossPreventionContentPolicy#words}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#words GoogleDataLossPreventionContentPolicy#words}
 
 ---
 
@@ -2771,7 +2771,7 @@ google_drive_label: GoogleDataLossPreventionContentPolicyInspectConfigCustomInfo
 
 google_drive_label block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#google_drive_label GoogleDataLossPreventionContentPolicy#google_drive_label}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#google_drive_label GoogleDataLossPreventionContentPolicy#google_drive_label}
 
 ---
 
@@ -2785,7 +2785,7 @@ sensitivity_label: GoogleDataLossPreventionContentPolicyInspectConfigCustomInfoT
 
 sensitivity_label block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#sensitivity_label GoogleDataLossPreventionContentPolicy#sensitivity_label}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#sensitivity_label GoogleDataLossPreventionContentPolicy#sensitivity_label}
 
 ---
 
@@ -2821,7 +2821,7 @@ label_id: str
 
 The label ID of the Google Drive label.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#label_id GoogleDataLossPreventionContentPolicy#label_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#label_id GoogleDataLossPreventionContentPolicy#label_id}
 
 ---
 
@@ -2835,7 +2835,7 @@ label_fields_to_match: IResolvable | typing.List[GoogleDataLossPreventionContent
 
 label_fields_to_match block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#label_fields_to_match GoogleDataLossPreventionContentPolicy#label_fields_to_match}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#label_fields_to_match GoogleDataLossPreventionContentPolicy#label_fields_to_match}
 
 ---
 
@@ -2871,7 +2871,7 @@ id: str
 
 The identifier of the Label Field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#id GoogleDataLossPreventionContentPolicy#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#id GoogleDataLossPreventionContentPolicy#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2888,7 +2888,7 @@ value: str
 
 The value of the Label Field to match.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#value GoogleDataLossPreventionContentPolicy#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#value GoogleDataLossPreventionContentPolicy#value}
 
 ---
 
@@ -2922,7 +2922,7 @@ guid: str
 
 The GUID of the sensitivity label.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#guid GoogleDataLossPreventionContentPolicy#guid}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#guid GoogleDataLossPreventionContentPolicy#guid}
 
 ---
 
@@ -2963,7 +2963,7 @@ Name of the information type.
 Either a name of your choosing when creating a CustomInfoType, or one of the names
 listed at https://cloud.google.com/dlp/docs/infotypes-reference when specifying a built-in type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#name GoogleDataLossPreventionContentPolicy#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#name GoogleDataLossPreventionContentPolicy#name}
 
 ---
 
@@ -2977,7 +2977,7 @@ sensitivity_score: GoogleDataLossPreventionContentPolicyInspectConfigCustomInfoT
 
 sensitivity_score block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#sensitivity_score GoogleDataLossPreventionContentPolicy#sensitivity_score}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#sensitivity_score GoogleDataLossPreventionContentPolicy#sensitivity_score}
 
 ---
 
@@ -2991,7 +2991,7 @@ version: str
 
 Version name for this InfoType.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#version GoogleDataLossPreventionContentPolicy#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#version GoogleDataLossPreventionContentPolicy#version}
 
 ---
 
@@ -3025,7 +3025,7 @@ score: str
 
 The sensitivity score applied to the resource. Possible values: ["SENSITIVITY_LOW", "SENSITIVITY_MODERATE", "SENSITIVITY_HIGH"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#score GoogleDataLossPreventionContentPolicy#score}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#score GoogleDataLossPreventionContentPolicy#score}
 
 ---
 
@@ -3061,7 +3061,7 @@ key_regex: str
 
 The regular expression for the key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#key_regex GoogleDataLossPreventionContentPolicy#key_regex}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#key_regex GoogleDataLossPreventionContentPolicy#key_regex}
 
 ---
 
@@ -3075,7 +3075,7 @@ value_regex: str
 
 The regular expression for the value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#value_regex GoogleDataLossPreventionContentPolicy#value_regex}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#value_regex GoogleDataLossPreventionContentPolicy#value_regex}
 
 ---
 
@@ -3111,7 +3111,7 @@ pattern: str
 
 Pattern defining the regular expression. Its syntax (https://github.com/google/re2/wiki/Syntax) can be found under the google/re2 repository on GitHub.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#pattern GoogleDataLossPreventionContentPolicy#pattern}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#pattern GoogleDataLossPreventionContentPolicy#pattern}
 
 ---
 
@@ -3127,7 +3127,7 @@ The index of the submatch to extract as findings.
 
 When not specified, the entire match is returned. No more than 3 may be included.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#group_indexes GoogleDataLossPreventionContentPolicy#group_indexes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#group_indexes GoogleDataLossPreventionContentPolicy#group_indexes}
 
 ---
 
@@ -3161,7 +3161,7 @@ score: str
 
 The sensitivity score applied to the resource. Possible values: ["SENSITIVITY_LOW", "SENSITIVITY_MODERATE", "SENSITIVITY_HIGH"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#score GoogleDataLossPreventionContentPolicy#score}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#score GoogleDataLossPreventionContentPolicy#score}
 
 ---
 
@@ -3195,7 +3195,7 @@ name: str
 
 Resource name of the requested StoredInfoType, for example 'organizations/433245324/storedInfoTypes/432452342' or 'projects/project-id/storedInfoTypes/432452342'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#name GoogleDataLossPreventionContentPolicy#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#name GoogleDataLossPreventionContentPolicy#name}
 
 ---
 
@@ -3247,7 +3247,7 @@ Name of the information type.
 Either a name of your choosing when creating a CustomInfoType, or one of the names listed
 at https://cloud.google.com/dlp/docs/infotypes-reference when specifying a built-in type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#name GoogleDataLossPreventionContentPolicy#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#name GoogleDataLossPreventionContentPolicy#name}
 
 ---
 
@@ -3261,7 +3261,7 @@ sensitivity_score: GoogleDataLossPreventionContentPolicyInspectConfigInfoTypesSe
 
 sensitivity_score block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#sensitivity_score GoogleDataLossPreventionContentPolicy#sensitivity_score}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#sensitivity_score GoogleDataLossPreventionContentPolicy#sensitivity_score}
 
 ---
 
@@ -3275,7 +3275,7 @@ version: str
 
 Version of the information type to use. By default, the version is set to stable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#version GoogleDataLossPreventionContentPolicy#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#version GoogleDataLossPreventionContentPolicy#version}
 
 ---
 
@@ -3309,7 +3309,7 @@ score: str
 
 The sensitivity score applied to the resource. Possible values: ["SENSITIVITY_LOW", "SENSITIVITY_MODERATE", "SENSITIVITY_HIGH"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#score GoogleDataLossPreventionContentPolicy#score}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#score GoogleDataLossPreventionContentPolicy#score}
 
 ---
 
@@ -3347,7 +3347,7 @@ max_findings_per_item: typing.Union[int, float]
 
 Max number of findings that will be returned for each item scanned. The maximum returned is 2000.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#max_findings_per_item GoogleDataLossPreventionContentPolicy#max_findings_per_item}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#max_findings_per_item GoogleDataLossPreventionContentPolicy#max_findings_per_item}
 
 ---
 
@@ -3361,7 +3361,7 @@ max_findings_per_request: typing.Union[int, float]
 
 Max number of findings that will be returned per request/job. The maximum returned is 2000.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#max_findings_per_request GoogleDataLossPreventionContentPolicy#max_findings_per_request}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#max_findings_per_request GoogleDataLossPreventionContentPolicy#max_findings_per_request}
 
 ---
 
@@ -3375,7 +3375,7 @@ max_findings_per_info_type: IResolvable | typing.List[GoogleDataLossPreventionCo
 
 max_findings_per_info_type block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#max_findings_per_info_type GoogleDataLossPreventionContentPolicy#max_findings_per_info_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#max_findings_per_info_type GoogleDataLossPreventionContentPolicy#max_findings_per_info_type}
 
 ---
 
@@ -3411,7 +3411,7 @@ max_findings: typing.Union[int, float]
 
 Max findings limit for the given infoType.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#max_findings GoogleDataLossPreventionContentPolicy#max_findings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#max_findings GoogleDataLossPreventionContentPolicy#max_findings}
 
 ---
 
@@ -3425,7 +3425,7 @@ info_type: GoogleDataLossPreventionContentPolicyInspectConfigLimitsMaxFindingsPe
 
 info_type block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#info_type GoogleDataLossPreventionContentPolicy#info_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#info_type GoogleDataLossPreventionContentPolicy#info_type}
 
 ---
 
@@ -3466,7 +3466,7 @@ Name of the information type.
 Either a name of your choosing when creating a CustomInfoType, or one of the names listed
 at https://cloud.google.com/dlp/docs/infotypes-reference when specifying a built-in type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#name GoogleDataLossPreventionContentPolicy#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#name GoogleDataLossPreventionContentPolicy#name}
 
 ---
 
@@ -3480,7 +3480,7 @@ sensitivity_score: GoogleDataLossPreventionContentPolicyInspectConfigLimitsMaxFi
 
 sensitivity_score block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#sensitivity_score GoogleDataLossPreventionContentPolicy#sensitivity_score}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#sensitivity_score GoogleDataLossPreventionContentPolicy#sensitivity_score}
 
 ---
 
@@ -3494,7 +3494,7 @@ version: str
 
 Version name for this InfoType.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#version GoogleDataLossPreventionContentPolicy#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#version GoogleDataLossPreventionContentPolicy#version}
 
 ---
 
@@ -3528,7 +3528,7 @@ score: str
 
 The sensitivity score applied to the resource. Possible values: ["SENSITIVITY_LOW", "SENSITIVITY_MODERATE", "SENSITIVITY_HIGH"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#score GoogleDataLossPreventionContentPolicy#score}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#score GoogleDataLossPreventionContentPolicy#score}
 
 ---
 
@@ -3566,7 +3566,7 @@ Only returns findings equal or above this threshold.
 
 See https://cloud.google.com/dlp/docs/likelihood for more info. Possible values: ["VERY_UNLIKELY", "UNLIKELY", "POSSIBLE", "LIKELY", "VERY_LIKELY"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#min_likelihood GoogleDataLossPreventionContentPolicy#min_likelihood}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#min_likelihood GoogleDataLossPreventionContentPolicy#min_likelihood}
 
 ---
 
@@ -3580,7 +3580,7 @@ info_type: GoogleDataLossPreventionContentPolicyInspectConfigMinLikelihoodPerInf
 
 info_type block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#info_type GoogleDataLossPreventionContentPolicy#info_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#info_type GoogleDataLossPreventionContentPolicy#info_type}
 
 ---
 
@@ -3621,7 +3621,7 @@ Name of the information type.
 Either a name of your choosing when creating a CustomInfoType, or one of the names listed
 at https://cloud.google.com/dlp/docs/infotypes-reference when specifying a built-in type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#name GoogleDataLossPreventionContentPolicy#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#name GoogleDataLossPreventionContentPolicy#name}
 
 ---
 
@@ -3635,7 +3635,7 @@ sensitivity_score: GoogleDataLossPreventionContentPolicyInspectConfigMinLikeliho
 
 sensitivity_score block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#sensitivity_score GoogleDataLossPreventionContentPolicy#sensitivity_score}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#sensitivity_score GoogleDataLossPreventionContentPolicy#sensitivity_score}
 
 ---
 
@@ -3649,7 +3649,7 @@ version: str
 
 Version name for this InfoType.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#version GoogleDataLossPreventionContentPolicy#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#version GoogleDataLossPreventionContentPolicy#version}
 
 ---
 
@@ -3683,7 +3683,7 @@ score: str
 
 The sensitivity score applied to the resource. Possible values: ["SENSITIVITY_LOW", "SENSITIVITY_MODERATE", "SENSITIVITY_HIGH"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#score GoogleDataLossPreventionContentPolicy#score}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#score GoogleDataLossPreventionContentPolicy#score}
 
 ---
 
@@ -3719,7 +3719,7 @@ info_types: IResolvable | typing.List[GoogleDataLossPreventionContentPolicyInspe
 
 info_types block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#info_types GoogleDataLossPreventionContentPolicy#info_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#info_types GoogleDataLossPreventionContentPolicy#info_types}
 
 ---
 
@@ -3733,7 +3733,7 @@ rules: IResolvable | typing.List[GoogleDataLossPreventionContentPolicyInspectCon
 
 rules block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#rules GoogleDataLossPreventionContentPolicy#rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#rules GoogleDataLossPreventionContentPolicy#rules}
 
 ---
 
@@ -3774,7 +3774,7 @@ Name of the information type.
 Either a name of your choosing when creating a CustomInfoType, or one of the names listed
 at https://cloud.google.com/dlp/docs/infotypes-reference when specifying a built-in type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#name GoogleDataLossPreventionContentPolicy#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#name GoogleDataLossPreventionContentPolicy#name}
 
 ---
 
@@ -3788,7 +3788,7 @@ sensitivity_score: GoogleDataLossPreventionContentPolicyInspectConfigRuleSetInfo
 
 sensitivity_score block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#sensitivity_score GoogleDataLossPreventionContentPolicy#sensitivity_score}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#sensitivity_score GoogleDataLossPreventionContentPolicy#sensitivity_score}
 
 ---
 
@@ -3802,7 +3802,7 @@ version: str
 
 Version name for this InfoType.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#version GoogleDataLossPreventionContentPolicy#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#version GoogleDataLossPreventionContentPolicy#version}
 
 ---
 
@@ -3836,7 +3836,7 @@ score: str
 
 The sensitivity score applied to the resource. Possible values: ["SENSITIVITY_LOW", "SENSITIVITY_MODERATE", "SENSITIVITY_HIGH"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#score GoogleDataLossPreventionContentPolicy#score}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#score GoogleDataLossPreventionContentPolicy#score}
 
 ---
 
@@ -3874,7 +3874,7 @@ adjustment_rule: GoogleDataLossPreventionContentPolicyInspectConfigRuleSetRulesA
 
 adjustment_rule block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#adjustment_rule GoogleDataLossPreventionContentPolicy#adjustment_rule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#adjustment_rule GoogleDataLossPreventionContentPolicy#adjustment_rule}
 
 ---
 
@@ -3888,7 +3888,7 @@ exclusion_rule: GoogleDataLossPreventionContentPolicyInspectConfigRuleSetRulesEx
 
 exclusion_rule block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#exclusion_rule GoogleDataLossPreventionContentPolicy#exclusion_rule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#exclusion_rule GoogleDataLossPreventionContentPolicy#exclusion_rule}
 
 ---
 
@@ -3902,7 +3902,7 @@ hotword_rule: GoogleDataLossPreventionContentPolicyInspectConfigRuleSetRulesHotw
 
 hotword_rule block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#hotword_rule GoogleDataLossPreventionContentPolicy#hotword_rule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#hotword_rule GoogleDataLossPreventionContentPolicy#hotword_rule}
 
 ---
 
@@ -3940,7 +3940,7 @@ likelihood_adjustment: GoogleDataLossPreventionContentPolicyInspectConfigRuleSet
 
 likelihood_adjustment block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#likelihood_adjustment GoogleDataLossPreventionContentPolicy#likelihood_adjustment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#likelihood_adjustment GoogleDataLossPreventionContentPolicy#likelihood_adjustment}
 
 ---
 
@@ -3954,7 +3954,7 @@ adjust_by_image_findings: GoogleDataLossPreventionContentPolicyInspectConfigRule
 
 adjust_by_image_findings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#adjust_by_image_findings GoogleDataLossPreventionContentPolicy#adjust_by_image_findings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#adjust_by_image_findings GoogleDataLossPreventionContentPolicy#adjust_by_image_findings}
 
 ---
 
@@ -3968,7 +3968,7 @@ adjust_by_matching_info_types: GoogleDataLossPreventionContentPolicyInspectConfi
 
 adjust_by_matching_info_types block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#adjust_by_matching_info_types GoogleDataLossPreventionContentPolicy#adjust_by_matching_info_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#adjust_by_matching_info_types GoogleDataLossPreventionContentPolicy#adjust_by_matching_info_types}
 
 ---
 
@@ -4006,7 +4006,7 @@ info_types: IResolvable | typing.List[GoogleDataLossPreventionContentPolicyInspe
 
 info_types block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#info_types GoogleDataLossPreventionContentPolicy#info_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#info_types GoogleDataLossPreventionContentPolicy#info_types}
 
 ---
 
@@ -4020,7 +4020,7 @@ min_likelihood: str
 
 Minimum likelihood of the adjustByImageFindings infoTypes finding. Possible values: ["VERY_UNLIKELY", "UNLIKELY", "POSSIBLE", "LIKELY", "VERY_LIKELY"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#min_likelihood GoogleDataLossPreventionContentPolicy#min_likelihood}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#min_likelihood GoogleDataLossPreventionContentPolicy#min_likelihood}
 
 ---
 
@@ -4034,7 +4034,7 @@ image_containment_type: GoogleDataLossPreventionContentPolicyInspectConfigRuleSe
 
 image_containment_type block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#image_containment_type GoogleDataLossPreventionContentPolicy#image_containment_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#image_containment_type GoogleDataLossPreventionContentPolicy#image_containment_type}
 
 ---
 
@@ -4072,7 +4072,7 @@ encloses: GoogleDataLossPreventionContentPolicyInspectConfigRuleSetRulesAdjustme
 
 encloses block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#encloses GoogleDataLossPreventionContentPolicy#encloses}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#encloses GoogleDataLossPreventionContentPolicy#encloses}
 
 ---
 
@@ -4086,7 +4086,7 @@ fully_inside: GoogleDataLossPreventionContentPolicyInspectConfigRuleSetRulesAdju
 
 fully_inside block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#fully_inside GoogleDataLossPreventionContentPolicy#fully_inside}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#fully_inside GoogleDataLossPreventionContentPolicy#fully_inside}
 
 ---
 
@@ -4100,7 +4100,7 @@ overlaps: GoogleDataLossPreventionContentPolicyInspectConfigRuleSetRulesAdjustme
 
 overlaps block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#overlaps GoogleDataLossPreventionContentPolicy#overlaps}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#overlaps GoogleDataLossPreventionContentPolicy#overlaps}
 
 ---
 
@@ -4171,7 +4171,7 @@ name: str
 
 Name of the information type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#name GoogleDataLossPreventionContentPolicy#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#name GoogleDataLossPreventionContentPolicy#name}
 
 ---
 
@@ -4185,7 +4185,7 @@ sensitivity_score: GoogleDataLossPreventionContentPolicyInspectConfigRuleSetRule
 
 sensitivity_score block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#sensitivity_score GoogleDataLossPreventionContentPolicy#sensitivity_score}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#sensitivity_score GoogleDataLossPreventionContentPolicy#sensitivity_score}
 
 ---
 
@@ -4199,7 +4199,7 @@ version: str
 
 Version name for this InfoType.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#version GoogleDataLossPreventionContentPolicy#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#version GoogleDataLossPreventionContentPolicy#version}
 
 ---
 
@@ -4233,7 +4233,7 @@ score: str
 
 The sensitivity score applied to the resource. Possible values: ["SENSITIVITY_LOW", "SENSITIVITY_MODERATE", "SENSITIVITY_HIGH"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#score GoogleDataLossPreventionContentPolicy#score}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#score GoogleDataLossPreventionContentPolicy#score}
 
 ---
 
@@ -4271,7 +4271,7 @@ info_types: IResolvable | typing.List[GoogleDataLossPreventionContentPolicyInspe
 
 info_types block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#info_types GoogleDataLossPreventionContentPolicy#info_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#info_types GoogleDataLossPreventionContentPolicy#info_types}
 
 ---
 
@@ -4285,7 +4285,7 @@ matching_type: str
 
 How the adjustment rule is applied. Possible values: ["MATCHING_TYPE_FULL_MATCH", "MATCHING_TYPE_PARTIAL_MATCH", "MATCHING_TYPE_INVERSE_MATCH"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#matching_type GoogleDataLossPreventionContentPolicy#matching_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#matching_type GoogleDataLossPreventionContentPolicy#matching_type}
 
 ---
 
@@ -4299,7 +4299,7 @@ min_likelihood: str
 
 Minimum likelihood of the adjustByMatchingInfoTypes infoTypes finding. Possible values: ["VERY_UNLIKELY", "UNLIKELY", "POSSIBLE", "LIKELY", "VERY_LIKELY"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#min_likelihood GoogleDataLossPreventionContentPolicy#min_likelihood}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#min_likelihood GoogleDataLossPreventionContentPolicy#min_likelihood}
 
 ---
 
@@ -4337,7 +4337,7 @@ name: str
 
 Name of the information type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#name GoogleDataLossPreventionContentPolicy#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#name GoogleDataLossPreventionContentPolicy#name}
 
 ---
 
@@ -4351,7 +4351,7 @@ sensitivity_score: GoogleDataLossPreventionContentPolicyInspectConfigRuleSetRule
 
 sensitivity_score block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#sensitivity_score GoogleDataLossPreventionContentPolicy#sensitivity_score}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#sensitivity_score GoogleDataLossPreventionContentPolicy#sensitivity_score}
 
 ---
 
@@ -4365,7 +4365,7 @@ version: str
 
 Version name for this InfoType.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#version GoogleDataLossPreventionContentPolicy#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#version GoogleDataLossPreventionContentPolicy#version}
 
 ---
 
@@ -4399,7 +4399,7 @@ score: str
 
 The sensitivity score applied to the resource. Possible values: ["SENSITIVITY_LOW", "SENSITIVITY_MODERATE", "SENSITIVITY_HIGH"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#score GoogleDataLossPreventionContentPolicy#score}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#score GoogleDataLossPreventionContentPolicy#score}
 
 ---
 
@@ -4433,7 +4433,7 @@ fixed_likelihood: str
 
 Set the likelihood of a finding to a fixed value. Possible values: ["VERY_UNLIKELY", "UNLIKELY", "POSSIBLE", "LIKELY", "VERY_LIKELY"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#fixed_likelihood GoogleDataLossPreventionContentPolicy#fixed_likelihood}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#fixed_likelihood GoogleDataLossPreventionContentPolicy#fixed_likelihood}
 
 ---
 
@@ -4477,7 +4477,7 @@ matching_type: str
 
 How the rule is applied. See the documentation for more information: https://cloud.google.com/dlp/docs/reference/rest/v2/InspectConfig#MatchingType Possible values: ["MATCHING_TYPE_FULL_MATCH", "MATCHING_TYPE_PARTIAL_MATCH", "MATCHING_TYPE_INVERSE_MATCH", "MATCHING_TYPE_RULE_SPECIFIC"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#matching_type GoogleDataLossPreventionContentPolicy#matching_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#matching_type GoogleDataLossPreventionContentPolicy#matching_type}
 
 ---
 
@@ -4491,7 +4491,7 @@ dictionary: GoogleDataLossPreventionContentPolicyInspectConfigRuleSetRulesExclus
 
 dictionary block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#dictionary GoogleDataLossPreventionContentPolicy#dictionary}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#dictionary GoogleDataLossPreventionContentPolicy#dictionary}
 
 ---
 
@@ -4505,7 +4505,7 @@ exclude_by_hotword: GoogleDataLossPreventionContentPolicyInspectConfigRuleSetRul
 
 exclude_by_hotword block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#exclude_by_hotword GoogleDataLossPreventionContentPolicy#exclude_by_hotword}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#exclude_by_hotword GoogleDataLossPreventionContentPolicy#exclude_by_hotword}
 
 ---
 
@@ -4519,7 +4519,7 @@ exclude_by_image_findings: GoogleDataLossPreventionContentPolicyInspectConfigRul
 
 exclude_by_image_findings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#exclude_by_image_findings GoogleDataLossPreventionContentPolicy#exclude_by_image_findings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#exclude_by_image_findings GoogleDataLossPreventionContentPolicy#exclude_by_image_findings}
 
 ---
 
@@ -4533,7 +4533,7 @@ exclude_info_types: GoogleDataLossPreventionContentPolicyInspectConfigRuleSetRul
 
 exclude_info_types block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#exclude_info_types GoogleDataLossPreventionContentPolicy#exclude_info_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#exclude_info_types GoogleDataLossPreventionContentPolicy#exclude_info_types}
 
 ---
 
@@ -4547,7 +4547,7 @@ regex: GoogleDataLossPreventionContentPolicyInspectConfigRuleSetRulesExclusionRu
 
 regex block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#regex GoogleDataLossPreventionContentPolicy#regex}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#regex GoogleDataLossPreventionContentPolicy#regex}
 
 ---
 
@@ -4583,7 +4583,7 @@ cloud_storage_path: GoogleDataLossPreventionContentPolicyInspectConfigRuleSetRul
 
 cloud_storage_path block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#cloud_storage_path GoogleDataLossPreventionContentPolicy#cloud_storage_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#cloud_storage_path GoogleDataLossPreventionContentPolicy#cloud_storage_path}
 
 ---
 
@@ -4597,7 +4597,7 @@ word_list: GoogleDataLossPreventionContentPolicyInspectConfigRuleSetRulesExclusi
 
 word_list block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#word_list GoogleDataLossPreventionContentPolicy#word_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#word_list GoogleDataLossPreventionContentPolicy#word_list}
 
 ---
 
@@ -4631,7 +4631,7 @@ path: str
 
 A url representing a file or path (no wildcards) in Cloud Storage. Example: 'gs://[BUCKET_NAME]/dictionary.txt'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#path GoogleDataLossPreventionContentPolicy#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#path GoogleDataLossPreventionContentPolicy#path}
 
 ---
 
@@ -4668,7 +4668,7 @@ Words or phrases defining the dictionary.
 The dictionary must contain at least one
 phrase and every phrase must contain at least 2 characters that are letters or digits.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#words GoogleDataLossPreventionContentPolicy#words}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#words GoogleDataLossPreventionContentPolicy#words}
 
 ---
 
@@ -4704,7 +4704,7 @@ hotword_regex: GoogleDataLossPreventionContentPolicyInspectConfigRuleSetRulesExc
 
 hotword_regex block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#hotword_regex GoogleDataLossPreventionContentPolicy#hotword_regex}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#hotword_regex GoogleDataLossPreventionContentPolicy#hotword_regex}
 
 ---
 
@@ -4718,7 +4718,7 @@ proximity: GoogleDataLossPreventionContentPolicyInspectConfigRuleSetRulesExclusi
 
 proximity block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#proximity GoogleDataLossPreventionContentPolicy#proximity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#proximity GoogleDataLossPreventionContentPolicy#proximity}
 
 ---
 
@@ -4754,7 +4754,7 @@ pattern: str
 
 Pattern defining the regular expression. Its syntax (https://github.com/google/re2/wiki/Syntax) can be found under the google/re2 repository on GitHub.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#pattern GoogleDataLossPreventionContentPolicy#pattern}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#pattern GoogleDataLossPreventionContentPolicy#pattern}
 
 ---
 
@@ -4771,7 +4771,7 @@ The index of the submatch to extract as findings.
 When not specified,
 the entire match is returned. No more than 3 may be included.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#group_indexes GoogleDataLossPreventionContentPolicy#group_indexes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#group_indexes GoogleDataLossPreventionContentPolicy#group_indexes}
 
 ---
 
@@ -4807,7 +4807,7 @@ window_after: typing.Union[int, float]
 
 Number of characters after the finding to consider.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#window_after GoogleDataLossPreventionContentPolicy#window_after}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#window_after GoogleDataLossPreventionContentPolicy#window_after}
 
 ---
 
@@ -4821,7 +4821,7 @@ window_before: typing.Union[int, float]
 
 Number of characters before the finding to consider.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#window_before GoogleDataLossPreventionContentPolicy#window_before}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#window_before GoogleDataLossPreventionContentPolicy#window_before}
 
 ---
 
@@ -4857,7 +4857,7 @@ info_types: IResolvable | typing.List[GoogleDataLossPreventionContentPolicyInspe
 
 info_types block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#info_types GoogleDataLossPreventionContentPolicy#info_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#info_types GoogleDataLossPreventionContentPolicy#info_types}
 
 ---
 
@@ -4871,7 +4871,7 @@ image_containment_type: GoogleDataLossPreventionContentPolicyInspectConfigRuleSe
 
 image_containment_type block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#image_containment_type GoogleDataLossPreventionContentPolicy#image_containment_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#image_containment_type GoogleDataLossPreventionContentPolicy#image_containment_type}
 
 ---
 
@@ -4909,7 +4909,7 @@ encloses: GoogleDataLossPreventionContentPolicyInspectConfigRuleSetRulesExclusio
 
 encloses block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#encloses GoogleDataLossPreventionContentPolicy#encloses}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#encloses GoogleDataLossPreventionContentPolicy#encloses}
 
 ---
 
@@ -4923,7 +4923,7 @@ fully_inside: GoogleDataLossPreventionContentPolicyInspectConfigRuleSetRulesExcl
 
 fully_inside block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#fully_inside GoogleDataLossPreventionContentPolicy#fully_inside}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#fully_inside GoogleDataLossPreventionContentPolicy#fully_inside}
 
 ---
 
@@ -4937,7 +4937,7 @@ overlaps: GoogleDataLossPreventionContentPolicyInspectConfigRuleSetRulesExclusio
 
 overlaps block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#overlaps GoogleDataLossPreventionContentPolicy#overlaps}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#overlaps GoogleDataLossPreventionContentPolicy#overlaps}
 
 ---
 
@@ -5008,7 +5008,7 @@ name: str
 
 Name of the information type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#name GoogleDataLossPreventionContentPolicy#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#name GoogleDataLossPreventionContentPolicy#name}
 
 ---
 
@@ -5022,7 +5022,7 @@ sensitivity_score: GoogleDataLossPreventionContentPolicyInspectConfigRuleSetRule
 
 sensitivity_score block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#sensitivity_score GoogleDataLossPreventionContentPolicy#sensitivity_score}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#sensitivity_score GoogleDataLossPreventionContentPolicy#sensitivity_score}
 
 ---
 
@@ -5036,7 +5036,7 @@ version: str
 
 Version name for this InfoType.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#version GoogleDataLossPreventionContentPolicy#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#version GoogleDataLossPreventionContentPolicy#version}
 
 ---
 
@@ -5070,7 +5070,7 @@ score: str
 
 The sensitivity score applied to the resource. Possible values: ["SENSITIVITY_LOW", "SENSITIVITY_MODERATE", "SENSITIVITY_HIGH"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#score GoogleDataLossPreventionContentPolicy#score}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#score GoogleDataLossPreventionContentPolicy#score}
 
 ---
 
@@ -5104,7 +5104,7 @@ info_types: IResolvable | typing.List[GoogleDataLossPreventionContentPolicyInspe
 
 info_types block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#info_types GoogleDataLossPreventionContentPolicy#info_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#info_types GoogleDataLossPreventionContentPolicy#info_types}
 
 ---
 
@@ -5145,7 +5145,7 @@ Name of the information type.
 Either a name of your choosing when creating a CustomInfoType, or one of the names listed
 at https://cloud.google.com/dlp/docs/infotypes-reference when specifying a built-in type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#name GoogleDataLossPreventionContentPolicy#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#name GoogleDataLossPreventionContentPolicy#name}
 
 ---
 
@@ -5159,7 +5159,7 @@ sensitivity_score: GoogleDataLossPreventionContentPolicyInspectConfigRuleSetRule
 
 sensitivity_score block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#sensitivity_score GoogleDataLossPreventionContentPolicy#sensitivity_score}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#sensitivity_score GoogleDataLossPreventionContentPolicy#sensitivity_score}
 
 ---
 
@@ -5173,7 +5173,7 @@ version: str
 
 Version name for this InfoType.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#version GoogleDataLossPreventionContentPolicy#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#version GoogleDataLossPreventionContentPolicy#version}
 
 ---
 
@@ -5207,7 +5207,7 @@ score: str
 
 The sensitivity score applied to the resource. Possible values: ["SENSITIVITY_LOW", "SENSITIVITY_MODERATE", "SENSITIVITY_HIGH"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#score GoogleDataLossPreventionContentPolicy#score}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#score GoogleDataLossPreventionContentPolicy#score}
 
 ---
 
@@ -5243,7 +5243,7 @@ pattern: str
 
 Pattern defining the regular expression. Its syntax (https://github.com/google/re2/wiki/Syntax) can be found under the google/re2 repository on GitHub.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#pattern GoogleDataLossPreventionContentPolicy#pattern}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#pattern GoogleDataLossPreventionContentPolicy#pattern}
 
 ---
 
@@ -5259,7 +5259,7 @@ The index of the submatch to extract as findings.
 
 When not specified, the entire match is returned. No more than 3 may be included.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#group_indexes GoogleDataLossPreventionContentPolicy#group_indexes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#group_indexes GoogleDataLossPreventionContentPolicy#group_indexes}
 
 ---
 
@@ -5297,7 +5297,7 @@ hotword_regex: GoogleDataLossPreventionContentPolicyInspectConfigRuleSetRulesHot
 
 hotword_regex block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#hotword_regex GoogleDataLossPreventionContentPolicy#hotword_regex}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#hotword_regex GoogleDataLossPreventionContentPolicy#hotword_regex}
 
 ---
 
@@ -5311,7 +5311,7 @@ likelihood_adjustment: GoogleDataLossPreventionContentPolicyInspectConfigRuleSet
 
 likelihood_adjustment block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#likelihood_adjustment GoogleDataLossPreventionContentPolicy#likelihood_adjustment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#likelihood_adjustment GoogleDataLossPreventionContentPolicy#likelihood_adjustment}
 
 ---
 
@@ -5325,7 +5325,7 @@ proximity: GoogleDataLossPreventionContentPolicyInspectConfigRuleSetRulesHotword
 
 proximity block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#proximity GoogleDataLossPreventionContentPolicy#proximity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#proximity GoogleDataLossPreventionContentPolicy#proximity}
 
 ---
 
@@ -5361,7 +5361,7 @@ pattern: str
 
 Pattern defining the regular expression. Its syntax (https://github.com/google/re2/wiki/Syntax) can be found under the google/re2 repository on GitHub.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#pattern GoogleDataLossPreventionContentPolicy#pattern}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#pattern GoogleDataLossPreventionContentPolicy#pattern}
 
 ---
 
@@ -5378,7 +5378,7 @@ The index of the submatch to extract as findings.
 When not specified,
 the entire match is returned. No more than 3 may be included.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#group_indexes GoogleDataLossPreventionContentPolicy#group_indexes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#group_indexes GoogleDataLossPreventionContentPolicy#group_indexes}
 
 ---
 
@@ -5416,7 +5416,7 @@ Set the likelihood of a finding to a fixed value.
 
 Either this or relative_likelihood can be set. Possible values: ["VERY_UNLIKELY", "UNLIKELY", "POSSIBLE", "LIKELY", "VERY_LIKELY"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#fixed_likelihood GoogleDataLossPreventionContentPolicy#fixed_likelihood}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#fixed_likelihood GoogleDataLossPreventionContentPolicy#fixed_likelihood}
 
 ---
 
@@ -5437,7 +5437,7 @@ Likelihood may never drop below VERY_UNLIKELY or exceed VERY_LIKELY, so applying
 adjustment of 1 followed by an adjustment of -1 when base likelihood is VERY_LIKELY
 will result in a final likelihood of LIKELY. Either this or fixed_likelihood can be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#relative_likelihood GoogleDataLossPreventionContentPolicy#relative_likelihood}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#relative_likelihood GoogleDataLossPreventionContentPolicy#relative_likelihood}
 
 ---
 
@@ -5473,7 +5473,7 @@ window_after: typing.Union[int, float]
 
 Number of characters after the finding to consider. Either this or window_before must be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#window_after GoogleDataLossPreventionContentPolicy#window_after}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#window_after GoogleDataLossPreventionContentPolicy#window_after}
 
 ---
 
@@ -5487,7 +5487,7 @@ window_before: typing.Union[int, float]
 
 Number of characters before the finding to consider. Either this or window_after must be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#window_before GoogleDataLossPreventionContentPolicy#window_before}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#window_before GoogleDataLossPreventionContentPolicy#window_before}
 
 ---
 
@@ -5521,7 +5521,7 @@ log_to_big_query: GoogleDataLossPreventionContentPolicyLoggingConfigsLogToBigQue
 
 log_to_big_query block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#log_to_big_query GoogleDataLossPreventionContentPolicy#log_to_big_query}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#log_to_big_query GoogleDataLossPreventionContentPolicy#log_to_big_query}
 
 ---
 
@@ -5559,7 +5559,7 @@ dataset_id: str
 
 The dataset ID of the BigQuery table to log to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#dataset_id GoogleDataLossPreventionContentPolicy#dataset_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#dataset_id GoogleDataLossPreventionContentPolicy#dataset_id}
 
 ---
 
@@ -5573,7 +5573,7 @@ project_id: str
 
 The project ID of the BigQuery table to log to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#project_id GoogleDataLossPreventionContentPolicy#project_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#project_id GoogleDataLossPreventionContentPolicy#project_id}
 
 ---
 
@@ -5587,7 +5587,7 @@ table_id: str
 
 The table ID of the BigQuery table to log to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#table_id GoogleDataLossPreventionContentPolicy#table_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#table_id GoogleDataLossPreventionContentPolicy#table_id}
 
 ---
 
@@ -5623,7 +5623,7 @@ action: GoogleDataLossPreventionContentPolicyRulesAction
 
 action block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#action GoogleDataLossPreventionContentPolicy#action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#action GoogleDataLossPreventionContentPolicy#action}
 
 ---
 
@@ -5637,7 +5637,7 @@ conditions: IResolvable | typing.List[GoogleDataLossPreventionContentPolicyRules
 
 conditions block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#conditions GoogleDataLossPreventionContentPolicy#conditions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#conditions GoogleDataLossPreventionContentPolicy#conditions}
 
 ---
 
@@ -5671,7 +5671,7 @@ return_verdict: str
 
 If set, the verdict will be returned to the user. Possible values: ["ALLOW", "BLOCK"] Possible values: ["ALLOW", "BLOCK"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#return_verdict GoogleDataLossPreventionContentPolicy#return_verdict}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#return_verdict GoogleDataLossPreventionContentPolicy#return_verdict}
 
 ---
 
@@ -5705,7 +5705,7 @@ info_type_condition: GoogleDataLossPreventionContentPolicyRulesConditionsInfoTyp
 
 info_type_condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#info_type_condition GoogleDataLossPreventionContentPolicy#info_type_condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#info_type_condition GoogleDataLossPreventionContentPolicy#info_type_condition}
 
 ---
 
@@ -5743,7 +5743,7 @@ any_info_type: GoogleDataLossPreventionContentPolicyRulesConditionsInfoTypeCondi
 
 any_info_type block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#any_info_type GoogleDataLossPreventionContentPolicy#any_info_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#any_info_type GoogleDataLossPreventionContentPolicy#any_info_type}
 
 ---
 
@@ -5757,7 +5757,7 @@ info_types: GoogleDataLossPreventionContentPolicyRulesConditionsInfoTypeConditio
 
 info_types block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#info_types GoogleDataLossPreventionContentPolicy#info_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#info_types GoogleDataLossPreventionContentPolicy#info_types}
 
 ---
 
@@ -5771,7 +5771,7 @@ min_count: typing.Union[int, float]
 
 The minimum number of findings required for this condition to be met. Defaults to 1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#min_count GoogleDataLossPreventionContentPolicy#min_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#min_count GoogleDataLossPreventionContentPolicy#min_count}
 
 ---
 
@@ -5816,7 +5816,7 @@ info_type_names: typing.List[str]
 
 List of info type names.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#info_type_names GoogleDataLossPreventionContentPolicy#info_type_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#info_type_names GoogleDataLossPreventionContentPolicy#info_type_names}
 
 ---
 
@@ -5838,9 +5838,9 @@ googleDataLossPreventionContentPolicy.GoogleDataLossPreventionContentPolicyTimeo
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleDataLossPreventionContentPolicy.GoogleDataLossPreventionContentPolicyTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#create GoogleDataLossPreventionContentPolicy#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataLossPreventionContentPolicy.GoogleDataLossPreventionContentPolicyTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#delete GoogleDataLossPreventionContentPolicy#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataLossPreventionContentPolicy.GoogleDataLossPreventionContentPolicyTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#update GoogleDataLossPreventionContentPolicy#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataLossPreventionContentPolicy.GoogleDataLossPreventionContentPolicyTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#create GoogleDataLossPreventionContentPolicy#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataLossPreventionContentPolicy.GoogleDataLossPreventionContentPolicyTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#delete GoogleDataLossPreventionContentPolicy#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataLossPreventionContentPolicy.GoogleDataLossPreventionContentPolicyTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#update GoogleDataLossPreventionContentPolicy#update}. |
 
 ---
 
@@ -5852,7 +5852,7 @@ create: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#create GoogleDataLossPreventionContentPolicy#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#create GoogleDataLossPreventionContentPolicy#create}.
 
 ---
 
@@ -5864,7 +5864,7 @@ delete: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#delete GoogleDataLossPreventionContentPolicy#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#delete GoogleDataLossPreventionContentPolicy#delete}.
 
 ---
 
@@ -5876,7 +5876,7 @@ update: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#update GoogleDataLossPreventionContentPolicy#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#update GoogleDataLossPreventionContentPolicy#update}.
 
 ---
 
@@ -5910,7 +5910,7 @@ return_verdict: str
 
 If set, the verdict will be returned to the user. Possible values: ["ALLOW", "BLOCK"] Possible values: ["ALLOW", "BLOCK"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#return_verdict GoogleDataLossPreventionContentPolicy#return_verdict}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#return_verdict GoogleDataLossPreventionContentPolicy#return_verdict}
 
 ---
 
@@ -8700,7 +8700,7 @@ def put_hotword_regex(
 
 Pattern defining the regular expression. Its syntax (https://github.com/google/re2/wiki/Syntax) can be found under the google/re2 repository on GitHub.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#pattern GoogleDataLossPreventionContentPolicy#pattern}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#pattern GoogleDataLossPreventionContentPolicy#pattern}
 
 ---
 
@@ -8713,7 +8713,7 @@ The index of the submatch to extract as findings.
 When not specified,
 the entire match is returned. No more than 3 may be included.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#group_indexes GoogleDataLossPreventionContentPolicy#group_indexes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#group_indexes GoogleDataLossPreventionContentPolicy#group_indexes}
 
 ---
 
@@ -8734,7 +8734,7 @@ Set the likelihood of a finding to a fixed value.
 
 Either this or relative_likelihood can be set. Possible values: ["VERY_UNLIKELY", "UNLIKELY", "POSSIBLE", "LIKELY", "VERY_LIKELY"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#fixed_likelihood GoogleDataLossPreventionContentPolicy#fixed_likelihood}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#fixed_likelihood GoogleDataLossPreventionContentPolicy#fixed_likelihood}
 
 ---
 
@@ -8744,7 +8744,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Increase or decrease the likelihood by the specified number of levels.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#relative_likelihood GoogleDataLossPreventionContentPolicy#relative_likelihood}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#relative_likelihood GoogleDataLossPreventionContentPolicy#relative_likelihood}
 
 ---
 
@@ -8763,7 +8763,7 @@ def put_proximity(
 
 Number of characters after the finding to consider.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#window_after GoogleDataLossPreventionContentPolicy#window_after}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#window_after GoogleDataLossPreventionContentPolicy#window_after}
 
 ---
 
@@ -8773,7 +8773,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Number of characters before the finding to consider.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#window_before GoogleDataLossPreventionContentPolicy#window_before}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#window_before GoogleDataLossPreventionContentPolicy#window_before}
 
 ---
 
@@ -9657,7 +9657,7 @@ def put_hotword_rule(
 
 hotword_regex block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#hotword_regex GoogleDataLossPreventionContentPolicy#hotword_regex}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#hotword_regex GoogleDataLossPreventionContentPolicy#hotword_regex}
 
 ---
 
@@ -9667,7 +9667,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 likelihood_adjustment block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#likelihood_adjustment GoogleDataLossPreventionContentPolicy#likelihood_adjustment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#likelihood_adjustment GoogleDataLossPreventionContentPolicy#likelihood_adjustment}
 
 ---
 
@@ -9677,7 +9677,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 proximity block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#proximity GoogleDataLossPreventionContentPolicy#proximity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#proximity GoogleDataLossPreventionContentPolicy#proximity}
 
 ---
 
@@ -10297,7 +10297,7 @@ def put_cloud_storage_path(
 
 A url representing a file or path (no wildcards) in Cloud Storage. Example: 'gs://[BUCKET_NAME]/dictionary.txt'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#path GoogleDataLossPreventionContentPolicy#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#path GoogleDataLossPreventionContentPolicy#path}
 
 ---
 
@@ -10318,7 +10318,7 @@ Words or phrases defining the dictionary.
 The dictionary must contain at least one
 phrase and every phrase must contain at least 2 characters that are letters or digits.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#words GoogleDataLossPreventionContentPolicy#words}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#words GoogleDataLossPreventionContentPolicy#words}
 
 ---
 
@@ -11815,7 +11815,7 @@ def put_google_drive_label(
 
 The label ID of the Google Drive label.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#label_id GoogleDataLossPreventionContentPolicy#label_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#label_id GoogleDataLossPreventionContentPolicy#label_id}
 
 ---
 
@@ -11825,7 +11825,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 label_fields_to_match block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#label_fields_to_match GoogleDataLossPreventionContentPolicy#label_fields_to_match}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#label_fields_to_match GoogleDataLossPreventionContentPolicy#label_fields_to_match}
 
 ---
 
@@ -11843,7 +11843,7 @@ def put_sensitivity_label(
 
 The GUID of the sensitivity label.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#guid GoogleDataLossPreventionContentPolicy#guid}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#guid GoogleDataLossPreventionContentPolicy#guid}
 
 ---
 
@@ -12490,7 +12490,7 @@ def put_sensitivity_score(
 
 The sensitivity score applied to the resource. Possible values: ["SENSITIVITY_LOW", "SENSITIVITY_MODERATE", "SENSITIVITY_HIGH"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#score GoogleDataLossPreventionContentPolicy#score}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#score GoogleDataLossPreventionContentPolicy#score}
 
 ---
 
@@ -13698,7 +13698,7 @@ def put_dictionary(
 
 cloud_storage_path block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#cloud_storage_path GoogleDataLossPreventionContentPolicy#cloud_storage_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#cloud_storage_path GoogleDataLossPreventionContentPolicy#cloud_storage_path}
 
 ---
 
@@ -13708,7 +13708,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 word_list block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#word_list GoogleDataLossPreventionContentPolicy#word_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#word_list GoogleDataLossPreventionContentPolicy#word_list}
 
 ---
 
@@ -13727,7 +13727,7 @@ def put_file_label_info_type(
 
 google_drive_label block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#google_drive_label GoogleDataLossPreventionContentPolicy#google_drive_label}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#google_drive_label GoogleDataLossPreventionContentPolicy#google_drive_label}
 
 ---
 
@@ -13737,7 +13737,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 sensitivity_label block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#sensitivity_label GoogleDataLossPreventionContentPolicy#sensitivity_label}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#sensitivity_label GoogleDataLossPreventionContentPolicy#sensitivity_label}
 
 ---
 
@@ -13760,7 +13760,7 @@ Name of the information type.
 Either a name of your choosing when creating a CustomInfoType, or one of the names
 listed at https://cloud.google.com/dlp/docs/infotypes-reference when specifying a built-in type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#name GoogleDataLossPreventionContentPolicy#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#name GoogleDataLossPreventionContentPolicy#name}
 
 ---
 
@@ -13770,7 +13770,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 sensitivity_score block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#sensitivity_score GoogleDataLossPreventionContentPolicy#sensitivity_score}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#sensitivity_score GoogleDataLossPreventionContentPolicy#sensitivity_score}
 
 ---
 
@@ -13780,7 +13780,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Version name for this InfoType.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#version GoogleDataLossPreventionContentPolicy#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#version GoogleDataLossPreventionContentPolicy#version}
 
 ---
 
@@ -13799,7 +13799,7 @@ def put_metadata_key_value_expression(
 
 The regular expression for the key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#key_regex GoogleDataLossPreventionContentPolicy#key_regex}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#key_regex GoogleDataLossPreventionContentPolicy#key_regex}
 
 ---
 
@@ -13809,7 +13809,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The regular expression for the value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#value_regex GoogleDataLossPreventionContentPolicy#value_regex}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#value_regex GoogleDataLossPreventionContentPolicy#value_regex}
 
 ---
 
@@ -13828,7 +13828,7 @@ def put_regex(
 
 Pattern defining the regular expression. Its syntax (https://github.com/google/re2/wiki/Syntax) can be found under the google/re2 repository on GitHub.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#pattern GoogleDataLossPreventionContentPolicy#pattern}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#pattern GoogleDataLossPreventionContentPolicy#pattern}
 
 ---
 
@@ -13840,7 +13840,7 @@ The index of the submatch to extract as findings.
 
 When not specified, the entire match is returned. No more than 3 may be included.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#group_indexes GoogleDataLossPreventionContentPolicy#group_indexes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#group_indexes GoogleDataLossPreventionContentPolicy#group_indexes}
 
 ---
 
@@ -13858,7 +13858,7 @@ def put_sensitivity_score(
 
 The sensitivity score applied to the resource. Possible values: ["SENSITIVITY_LOW", "SENSITIVITY_MODERATE", "SENSITIVITY_HIGH"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#score GoogleDataLossPreventionContentPolicy#score}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#score GoogleDataLossPreventionContentPolicy#score}
 
 ---
 
@@ -13876,7 +13876,7 @@ def put_stored_type(
 
 Resource name of the requested StoredInfoType, for example 'organizations/433245324/storedInfoTypes/432452342' or 'projects/project-id/storedInfoTypes/432452342'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#name GoogleDataLossPreventionContentPolicy#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#name GoogleDataLossPreventionContentPolicy#name}
 
 ---
 
@@ -15871,7 +15871,7 @@ def put_sensitivity_score(
 
 The sensitivity score applied to the resource. Possible values: ["SENSITIVITY_LOW", "SENSITIVITY_MODERATE", "SENSITIVITY_HIGH"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#score GoogleDataLossPreventionContentPolicy#score}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#score GoogleDataLossPreventionContentPolicy#score}
 
 ---
 
@@ -16540,7 +16540,7 @@ def put_sensitivity_score(
 
 The sensitivity score applied to the resource. Possible values: ["SENSITIVITY_LOW", "SENSITIVITY_MODERATE", "SENSITIVITY_HIGH"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#score GoogleDataLossPreventionContentPolicy#score}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#score GoogleDataLossPreventionContentPolicy#score}
 
 ---
 
@@ -17403,7 +17403,7 @@ Name of the information type.
 Either a name of your choosing when creating a CustomInfoType, or one of the names listed
 at https://cloud.google.com/dlp/docs/infotypes-reference when specifying a built-in type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#name GoogleDataLossPreventionContentPolicy#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#name GoogleDataLossPreventionContentPolicy#name}
 
 ---
 
@@ -17413,7 +17413,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 sensitivity_score block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#sensitivity_score GoogleDataLossPreventionContentPolicy#sensitivity_score}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#sensitivity_score GoogleDataLossPreventionContentPolicy#sensitivity_score}
 
 ---
 
@@ -17423,7 +17423,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Version name for this InfoType.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#version GoogleDataLossPreventionContentPolicy#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#version GoogleDataLossPreventionContentPolicy#version}
 
 ---
 
@@ -18130,7 +18130,7 @@ def put_sensitivity_score(
 
 The sensitivity score applied to the resource. Possible values: ["SENSITIVITY_LOW", "SENSITIVITY_MODERATE", "SENSITIVITY_HIGH"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#score GoogleDataLossPreventionContentPolicy#score}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#score GoogleDataLossPreventionContentPolicy#score}
 
 ---
 
@@ -18993,7 +18993,7 @@ Name of the information type.
 Either a name of your choosing when creating a CustomInfoType, or one of the names listed
 at https://cloud.google.com/dlp/docs/infotypes-reference when specifying a built-in type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#name GoogleDataLossPreventionContentPolicy#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#name GoogleDataLossPreventionContentPolicy#name}
 
 ---
 
@@ -19003,7 +19003,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 sensitivity_score block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#sensitivity_score GoogleDataLossPreventionContentPolicy#sensitivity_score}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#sensitivity_score GoogleDataLossPreventionContentPolicy#sensitivity_score}
 
 ---
 
@@ -19013,7 +19013,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Version name for this InfoType.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#version GoogleDataLossPreventionContentPolicy#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#version GoogleDataLossPreventionContentPolicy#version}
 
 ---
 
@@ -19399,7 +19399,7 @@ def put_limits(
 
 Max number of findings that will be returned for each item scanned. The maximum returned is 2000.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#max_findings_per_item GoogleDataLossPreventionContentPolicy#max_findings_per_item}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#max_findings_per_item GoogleDataLossPreventionContentPolicy#max_findings_per_item}
 
 ---
 
@@ -19409,7 +19409,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Max number of findings that will be returned per request/job. The maximum returned is 2000.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#max_findings_per_request GoogleDataLossPreventionContentPolicy#max_findings_per_request}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#max_findings_per_request GoogleDataLossPreventionContentPolicy#max_findings_per_request}
 
 ---
 
@@ -19419,7 +19419,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 max_findings_per_info_type block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#max_findings_per_info_type GoogleDataLossPreventionContentPolicy#max_findings_per_info_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#max_findings_per_info_type GoogleDataLossPreventionContentPolicy#max_findings_per_info_type}
 
 ---
 
@@ -20184,7 +20184,7 @@ def put_sensitivity_score(
 
 The sensitivity score applied to the resource. Possible values: ["SENSITIVITY_LOW", "SENSITIVITY_MODERATE", "SENSITIVITY_HIGH"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#score GoogleDataLossPreventionContentPolicy#score}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#score GoogleDataLossPreventionContentPolicy#score}
 
 ---
 
@@ -22785,7 +22785,7 @@ def put_sensitivity_score(
 
 The sensitivity score applied to the resource. Possible values: ["SENSITIVITY_LOW", "SENSITIVITY_MODERATE", "SENSITIVITY_HIGH"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#score GoogleDataLossPreventionContentPolicy#score}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#score GoogleDataLossPreventionContentPolicy#score}
 
 ---
 
@@ -23456,7 +23456,7 @@ def put_image_containment_type(
 
 encloses block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#encloses GoogleDataLossPreventionContentPolicy#encloses}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#encloses GoogleDataLossPreventionContentPolicy#encloses}
 
 ---
 
@@ -23466,7 +23466,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 fully_inside block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#fully_inside GoogleDataLossPreventionContentPolicy#fully_inside}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#fully_inside GoogleDataLossPreventionContentPolicy#fully_inside}
 
 ---
 
@@ -23476,7 +23476,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 overlaps block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#overlaps GoogleDataLossPreventionContentPolicy#overlaps}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#overlaps GoogleDataLossPreventionContentPolicy#overlaps}
 
 ---
 
@@ -24047,7 +24047,7 @@ def put_sensitivity_score(
 
 The sensitivity score applied to the resource. Possible values: ["SENSITIVITY_LOW", "SENSITIVITY_MODERATE", "SENSITIVITY_HIGH"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#score GoogleDataLossPreventionContentPolicy#score}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#score GoogleDataLossPreventionContentPolicy#score}
 
 ---
 
@@ -25371,7 +25371,7 @@ def put_adjust_by_image_findings(
 
 info_types block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#info_types GoogleDataLossPreventionContentPolicy#info_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#info_types GoogleDataLossPreventionContentPolicy#info_types}
 
 ---
 
@@ -25381,7 +25381,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Minimum likelihood of the adjustByImageFindings infoTypes finding. Possible values: ["VERY_UNLIKELY", "UNLIKELY", "POSSIBLE", "LIKELY", "VERY_LIKELY"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#min_likelihood GoogleDataLossPreventionContentPolicy#min_likelihood}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#min_likelihood GoogleDataLossPreventionContentPolicy#min_likelihood}
 
 ---
 
@@ -25391,7 +25391,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 image_containment_type block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#image_containment_type GoogleDataLossPreventionContentPolicy#image_containment_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#image_containment_type GoogleDataLossPreventionContentPolicy#image_containment_type}
 
 ---
 
@@ -25411,7 +25411,7 @@ def put_adjust_by_matching_info_types(
 
 info_types block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#info_types GoogleDataLossPreventionContentPolicy#info_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#info_types GoogleDataLossPreventionContentPolicy#info_types}
 
 ---
 
@@ -25421,7 +25421,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 How the adjustment rule is applied. Possible values: ["MATCHING_TYPE_FULL_MATCH", "MATCHING_TYPE_PARTIAL_MATCH", "MATCHING_TYPE_INVERSE_MATCH"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#matching_type GoogleDataLossPreventionContentPolicy#matching_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#matching_type GoogleDataLossPreventionContentPolicy#matching_type}
 
 ---
 
@@ -25431,7 +25431,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Minimum likelihood of the adjustByMatchingInfoTypes infoTypes finding. Possible values: ["VERY_UNLIKELY", "UNLIKELY", "POSSIBLE", "LIKELY", "VERY_LIKELY"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#min_likelihood GoogleDataLossPreventionContentPolicy#min_likelihood}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#min_likelihood GoogleDataLossPreventionContentPolicy#min_likelihood}
 
 ---
 
@@ -25449,7 +25449,7 @@ def put_likelihood_adjustment(
 
 Set the likelihood of a finding to a fixed value. Possible values: ["VERY_UNLIKELY", "UNLIKELY", "POSSIBLE", "LIKELY", "VERY_LIKELY"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#fixed_likelihood GoogleDataLossPreventionContentPolicy#fixed_likelihood}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#fixed_likelihood GoogleDataLossPreventionContentPolicy#fixed_likelihood}
 
 ---
 
@@ -26119,7 +26119,7 @@ def put_cloud_storage_path(
 
 A url representing a file or path (no wildcards) in Cloud Storage. Example: 'gs://[BUCKET_NAME]/dictionary.txt'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#path GoogleDataLossPreventionContentPolicy#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#path GoogleDataLossPreventionContentPolicy#path}
 
 ---
 
@@ -26140,7 +26140,7 @@ Words or phrases defining the dictionary.
 The dictionary must contain at least one
 phrase and every phrase must contain at least 2 characters that are letters or digits.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#words GoogleDataLossPreventionContentPolicy#words}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#words GoogleDataLossPreventionContentPolicy#words}
 
 ---
 
@@ -27112,7 +27112,7 @@ def put_hotword_regex(
 
 Pattern defining the regular expression. Its syntax (https://github.com/google/re2/wiki/Syntax) can be found under the google/re2 repository on GitHub.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#pattern GoogleDataLossPreventionContentPolicy#pattern}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#pattern GoogleDataLossPreventionContentPolicy#pattern}
 
 ---
 
@@ -27125,7 +27125,7 @@ The index of the submatch to extract as findings.
 When not specified,
 the entire match is returned. No more than 3 may be included.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#group_indexes GoogleDataLossPreventionContentPolicy#group_indexes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#group_indexes GoogleDataLossPreventionContentPolicy#group_indexes}
 
 ---
 
@@ -27144,7 +27144,7 @@ def put_proximity(
 
 Number of characters after the finding to consider.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#window_after GoogleDataLossPreventionContentPolicy#window_after}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#window_after GoogleDataLossPreventionContentPolicy#window_after}
 
 ---
 
@@ -27154,7 +27154,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Number of characters before the finding to consider.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#window_before GoogleDataLossPreventionContentPolicy#window_before}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#window_before GoogleDataLossPreventionContentPolicy#window_before}
 
 ---
 
@@ -29219,7 +29219,7 @@ def put_sensitivity_score(
 
 The sensitivity score applied to the resource. Possible values: ["SENSITIVITY_LOW", "SENSITIVITY_MODERATE", "SENSITIVITY_HIGH"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#score GoogleDataLossPreventionContentPolicy#score}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#score GoogleDataLossPreventionContentPolicy#score}
 
 ---
 
@@ -29890,7 +29890,7 @@ def put_image_containment_type(
 
 encloses block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#encloses GoogleDataLossPreventionContentPolicy#encloses}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#encloses GoogleDataLossPreventionContentPolicy#encloses}
 
 ---
 
@@ -29900,7 +29900,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 fully_inside block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#fully_inside GoogleDataLossPreventionContentPolicy#fully_inside}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#fully_inside GoogleDataLossPreventionContentPolicy#fully_inside}
 
 ---
 
@@ -29910,7 +29910,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 overlaps block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#overlaps GoogleDataLossPreventionContentPolicy#overlaps}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#overlaps GoogleDataLossPreventionContentPolicy#overlaps}
 
 ---
 
@@ -30459,7 +30459,7 @@ def put_sensitivity_score(
 
 The sensitivity score applied to the resource. Possible values: ["SENSITIVITY_LOW", "SENSITIVITY_MODERATE", "SENSITIVITY_HIGH"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#score GoogleDataLossPreventionContentPolicy#score}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#score GoogleDataLossPreventionContentPolicy#score}
 
 ---
 
@@ -31447,7 +31447,7 @@ def put_dictionary(
 
 cloud_storage_path block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#cloud_storage_path GoogleDataLossPreventionContentPolicy#cloud_storage_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#cloud_storage_path GoogleDataLossPreventionContentPolicy#cloud_storage_path}
 
 ---
 
@@ -31457,7 +31457,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 word_list block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#word_list GoogleDataLossPreventionContentPolicy#word_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#word_list GoogleDataLossPreventionContentPolicy#word_list}
 
 ---
 
@@ -31476,7 +31476,7 @@ def put_exclude_by_hotword(
 
 hotword_regex block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#hotword_regex GoogleDataLossPreventionContentPolicy#hotword_regex}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#hotword_regex GoogleDataLossPreventionContentPolicy#hotword_regex}
 
 ---
 
@@ -31486,7 +31486,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 proximity block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#proximity GoogleDataLossPreventionContentPolicy#proximity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#proximity GoogleDataLossPreventionContentPolicy#proximity}
 
 ---
 
@@ -31505,7 +31505,7 @@ def put_exclude_by_image_findings(
 
 info_types block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#info_types GoogleDataLossPreventionContentPolicy#info_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#info_types GoogleDataLossPreventionContentPolicy#info_types}
 
 ---
 
@@ -31515,7 +31515,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 image_containment_type block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#image_containment_type GoogleDataLossPreventionContentPolicy#image_containment_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#image_containment_type GoogleDataLossPreventionContentPolicy#image_containment_type}
 
 ---
 
@@ -31533,7 +31533,7 @@ def put_exclude_info_types(
 
 info_types block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#info_types GoogleDataLossPreventionContentPolicy#info_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#info_types GoogleDataLossPreventionContentPolicy#info_types}
 
 ---
 
@@ -31552,7 +31552,7 @@ def put_regex(
 
 Pattern defining the regular expression. Its syntax (https://github.com/google/re2/wiki/Syntax) can be found under the google/re2 repository on GitHub.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#pattern GoogleDataLossPreventionContentPolicy#pattern}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#pattern GoogleDataLossPreventionContentPolicy#pattern}
 
 ---
 
@@ -31564,7 +31564,7 @@ The index of the submatch to extract as findings.
 
 When not specified, the entire match is returned. No more than 3 may be included.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#group_indexes GoogleDataLossPreventionContentPolicy#group_indexes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#group_indexes GoogleDataLossPreventionContentPolicy#group_indexes}
 
 ---
 
@@ -33004,7 +33004,7 @@ def put_hotword_regex(
 
 Pattern defining the regular expression. Its syntax (https://github.com/google/re2/wiki/Syntax) can be found under the google/re2 repository on GitHub.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#pattern GoogleDataLossPreventionContentPolicy#pattern}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#pattern GoogleDataLossPreventionContentPolicy#pattern}
 
 ---
 
@@ -33017,7 +33017,7 @@ The index of the submatch to extract as findings.
 When not specified,
 the entire match is returned. No more than 3 may be included.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#group_indexes GoogleDataLossPreventionContentPolicy#group_indexes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#group_indexes GoogleDataLossPreventionContentPolicy#group_indexes}
 
 ---
 
@@ -33038,7 +33038,7 @@ Set the likelihood of a finding to a fixed value.
 
 Either this or relative_likelihood can be set. Possible values: ["VERY_UNLIKELY", "UNLIKELY", "POSSIBLE", "LIKELY", "VERY_LIKELY"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#fixed_likelihood GoogleDataLossPreventionContentPolicy#fixed_likelihood}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#fixed_likelihood GoogleDataLossPreventionContentPolicy#fixed_likelihood}
 
 ---
 
@@ -33055,7 +33055,7 @@ Likelihood may never drop below VERY_UNLIKELY or exceed VERY_LIKELY, so applying
 adjustment of 1 followed by an adjustment of -1 when base likelihood is VERY_LIKELY
 will result in a final likelihood of LIKELY. Either this or fixed_likelihood can be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#relative_likelihood GoogleDataLossPreventionContentPolicy#relative_likelihood}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#relative_likelihood GoogleDataLossPreventionContentPolicy#relative_likelihood}
 
 ---
 
@@ -33074,7 +33074,7 @@ def put_proximity(
 
 Number of characters after the finding to consider. Either this or window_before must be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#window_after GoogleDataLossPreventionContentPolicy#window_after}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#window_after GoogleDataLossPreventionContentPolicy#window_after}
 
 ---
 
@@ -33084,7 +33084,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Number of characters before the finding to consider. Either this or window_after must be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#window_before GoogleDataLossPreventionContentPolicy#window_before}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#window_before GoogleDataLossPreventionContentPolicy#window_before}
 
 ---
 
@@ -33972,7 +33972,7 @@ def put_adjustment_rule(
 
 likelihood_adjustment block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#likelihood_adjustment GoogleDataLossPreventionContentPolicy#likelihood_adjustment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#likelihood_adjustment GoogleDataLossPreventionContentPolicy#likelihood_adjustment}
 
 ---
 
@@ -33982,7 +33982,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 adjust_by_image_findings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#adjust_by_image_findings GoogleDataLossPreventionContentPolicy#adjust_by_image_findings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#adjust_by_image_findings GoogleDataLossPreventionContentPolicy#adjust_by_image_findings}
 
 ---
 
@@ -33992,7 +33992,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 adjust_by_matching_info_types block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#adjust_by_matching_info_types GoogleDataLossPreventionContentPolicy#adjust_by_matching_info_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#adjust_by_matching_info_types GoogleDataLossPreventionContentPolicy#adjust_by_matching_info_types}
 
 ---
 
@@ -34015,7 +34015,7 @@ def put_exclusion_rule(
 
 How the rule is applied. See the documentation for more information: https://cloud.google.com/dlp/docs/reference/rest/v2/InspectConfig#MatchingType Possible values: ["MATCHING_TYPE_FULL_MATCH", "MATCHING_TYPE_PARTIAL_MATCH", "MATCHING_TYPE_INVERSE_MATCH", "MATCHING_TYPE_RULE_SPECIFIC"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#matching_type GoogleDataLossPreventionContentPolicy#matching_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#matching_type GoogleDataLossPreventionContentPolicy#matching_type}
 
 ---
 
@@ -34025,7 +34025,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 dictionary block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#dictionary GoogleDataLossPreventionContentPolicy#dictionary}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#dictionary GoogleDataLossPreventionContentPolicy#dictionary}
 
 ---
 
@@ -34035,7 +34035,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 exclude_by_hotword block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#exclude_by_hotword GoogleDataLossPreventionContentPolicy#exclude_by_hotword}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#exclude_by_hotword GoogleDataLossPreventionContentPolicy#exclude_by_hotword}
 
 ---
 
@@ -34045,7 +34045,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 exclude_by_image_findings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#exclude_by_image_findings GoogleDataLossPreventionContentPolicy#exclude_by_image_findings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#exclude_by_image_findings GoogleDataLossPreventionContentPolicy#exclude_by_image_findings}
 
 ---
 
@@ -34055,7 +34055,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 exclude_info_types block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#exclude_info_types GoogleDataLossPreventionContentPolicy#exclude_info_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#exclude_info_types GoogleDataLossPreventionContentPolicy#exclude_info_types}
 
 ---
 
@@ -34065,7 +34065,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 regex block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#regex GoogleDataLossPreventionContentPolicy#regex}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#regex GoogleDataLossPreventionContentPolicy#regex}
 
 ---
 
@@ -34085,7 +34085,7 @@ def put_hotword_rule(
 
 hotword_regex block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#hotword_regex GoogleDataLossPreventionContentPolicy#hotword_regex}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#hotword_regex GoogleDataLossPreventionContentPolicy#hotword_regex}
 
 ---
 
@@ -34095,7 +34095,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 likelihood_adjustment block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#likelihood_adjustment GoogleDataLossPreventionContentPolicy#likelihood_adjustment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#likelihood_adjustment GoogleDataLossPreventionContentPolicy#likelihood_adjustment}
 
 ---
 
@@ -34105,7 +34105,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 proximity block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#proximity GoogleDataLossPreventionContentPolicy#proximity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#proximity GoogleDataLossPreventionContentPolicy#proximity}
 
 ---
 
@@ -35015,7 +35015,7 @@ def put_log_to_big_query(
 
 The dataset ID of the BigQuery table to log to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#dataset_id GoogleDataLossPreventionContentPolicy#dataset_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#dataset_id GoogleDataLossPreventionContentPolicy#dataset_id}
 
 ---
 
@@ -35025,7 +35025,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The project ID of the BigQuery table to log to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#project_id GoogleDataLossPreventionContentPolicy#project_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#project_id GoogleDataLossPreventionContentPolicy#project_id}
 
 ---
 
@@ -35035,7 +35035,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The table ID of the BigQuery table to log to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#table_id GoogleDataLossPreventionContentPolicy#table_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#table_id GoogleDataLossPreventionContentPolicy#table_id}
 
 ---
 
@@ -36239,7 +36239,7 @@ def put_info_types(
 
 List of info type names.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#info_type_names GoogleDataLossPreventionContentPolicy#info_type_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#info_type_names GoogleDataLossPreventionContentPolicy#info_type_names}
 
 ---
 
@@ -36809,7 +36809,7 @@ def put_info_type_condition(
 
 any_info_type block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#any_info_type GoogleDataLossPreventionContentPolicy#any_info_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#any_info_type GoogleDataLossPreventionContentPolicy#any_info_type}
 
 ---
 
@@ -36819,7 +36819,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 info_types block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#info_types GoogleDataLossPreventionContentPolicy#info_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#info_types GoogleDataLossPreventionContentPolicy#info_types}
 
 ---
 
@@ -36829,7 +36829,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The minimum number of findings required for this condition to be met. Defaults to 1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#min_count GoogleDataLossPreventionContentPolicy#min_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#min_count GoogleDataLossPreventionContentPolicy#min_count}
 
 ---
 
@@ -37342,7 +37342,7 @@ def put_action(
 
 If set, the verdict will be returned to the user. Possible values: ["ALLOW", "BLOCK"] Possible values: ["ALLOW", "BLOCK"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_data_loss_prevention_content_policy#return_verdict GoogleDataLossPreventionContentPolicy#return_verdict}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_content_policy#return_verdict GoogleDataLossPreventionContentPolicy#return_verdict}
 
 ---
 

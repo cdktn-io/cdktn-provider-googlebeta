@@ -4,12 +4,12 @@
 
 ### GoogleGeminiDataAnalyticsDataAgentIamMember <a name="GoogleGeminiDataAnalyticsDataAgentIamMember" id="@cdktn/provider-google-beta.googleGeminiDataAnalyticsDataAgentIamMember.GoogleGeminiDataAnalyticsDataAgentIamMember"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_data_analytics_data_agent_iam_member google_gemini_data_analytics_data_agent_iam_member}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_data_analytics_data_agent_iam_member google_gemini_data_analytics_data_agent_iam_member}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGeminiDataAnalyticsDataAgentIamMember.GoogleGeminiDataAnalyticsDataAgentIamMember.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlegeminidataanalyticsdataagentiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlegeminidataanalyticsdataagentiammember"
 
 googlegeminidataanalyticsdataagentiammember.NewGoogleGeminiDataAnalyticsDataAgentIamMember(scope Construct, id *string, config GoogleGeminiDataAnalyticsDataAgentIamMemberConfig) GoogleGeminiDataAnalyticsDataAgentIamMember
 ```
@@ -441,7 +441,7 @@ func ResetProject()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleGeminiDataAnalyticsDataAgentIamMember.GoogleGeminiDataAnalyticsDataAgentIamMember.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlegeminidataanalyticsdataagentiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlegeminidataanalyticsdataagentiammember"
 
 googlegeminidataanalyticsdataagentiammember.GoogleGeminiDataAnalyticsDataAgentIamMember_IsConstruct(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleGeminiDataAnalyticsDataAgentIamMember.GoogleGeminiDataAnalyticsDataAgentIamMember.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlegeminidataanalyticsdataagentiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlegeminidataanalyticsdataagentiammember"
 
 googlegeminidataanalyticsdataagentiammember.GoogleGeminiDataAnalyticsDataAgentIamMember_IsTerraformElement(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ googlegeminidataanalyticsdataagentiammember.GoogleGeminiDataAnalyticsDataAgentIa
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleGeminiDataAnalyticsDataAgentIamMember.GoogleGeminiDataAnalyticsDataAgentIamMember.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlegeminidataanalyticsdataagentiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlegeminidataanalyticsdataagentiammember"
 
 googlegeminidataanalyticsdataagentiammember.GoogleGeminiDataAnalyticsDataAgentIamMember_IsTerraformResource(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ googlegeminidataanalyticsdataagentiammember.GoogleGeminiDataAnalyticsDataAgentIa
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleGeminiDataAnalyticsDataAgentIamMember.GoogleGeminiDataAnalyticsDataAgentIamMember.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlegeminidataanalyticsdataagentiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlegeminidataanalyticsdataagentiammember"
 
 googlegeminidataanalyticsdataagentiammember.GoogleGeminiDataAnalyticsDataAgentIamMember_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -530,7 +530,7 @@ The construct id used in the generated config for the GoogleGeminiDataAnalyticsD
 
 The id of the existing GoogleGeminiDataAnalyticsDataAgentIamMember that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_data_analytics_data_agent_iam_member#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_data_analytics_data_agent_iam_member#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -895,7 +895,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleGeminiDataAnalyticsDataAgentIamMember.GoogleGeminiDataAnalyticsDataAgentIamMemberCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlegeminidataanalyticsdataagentiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlegeminidataanalyticsdataagentiammember"
 
 &googlegeminidataanalyticsdataagentiammember.GoogleGeminiDataAnalyticsDataAgentIamMemberCondition {
 	Expression: *string,
@@ -908,9 +908,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlege
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleGeminiDataAnalyticsDataAgentIamMember.GoogleGeminiDataAnalyticsDataAgentIamMemberCondition.property.expression">Expression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_data_analytics_data_agent_iam_member#expression GoogleGeminiDataAnalyticsDataAgentIamMember#expression}. |
-| <code><a href="#@cdktn/provider-google-beta.googleGeminiDataAnalyticsDataAgentIamMember.GoogleGeminiDataAnalyticsDataAgentIamMemberCondition.property.title">Title</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_data_analytics_data_agent_iam_member#title GoogleGeminiDataAnalyticsDataAgentIamMember#title}. |
-| <code><a href="#@cdktn/provider-google-beta.googleGeminiDataAnalyticsDataAgentIamMember.GoogleGeminiDataAnalyticsDataAgentIamMemberCondition.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_data_analytics_data_agent_iam_member#description GoogleGeminiDataAnalyticsDataAgentIamMember#description}. |
+| <code><a href="#@cdktn/provider-google-beta.googleGeminiDataAnalyticsDataAgentIamMember.GoogleGeminiDataAnalyticsDataAgentIamMemberCondition.property.expression">Expression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_data_analytics_data_agent_iam_member#expression GoogleGeminiDataAnalyticsDataAgentIamMember#expression}. |
+| <code><a href="#@cdktn/provider-google-beta.googleGeminiDataAnalyticsDataAgentIamMember.GoogleGeminiDataAnalyticsDataAgentIamMemberCondition.property.title">Title</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_data_analytics_data_agent_iam_member#title GoogleGeminiDataAnalyticsDataAgentIamMember#title}. |
+| <code><a href="#@cdktn/provider-google-beta.googleGeminiDataAnalyticsDataAgentIamMember.GoogleGeminiDataAnalyticsDataAgentIamMemberCondition.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_data_analytics_data_agent_iam_member#description GoogleGeminiDataAnalyticsDataAgentIamMember#description}. |
 
 ---
 
@@ -922,7 +922,7 @@ Expression *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_data_analytics_data_agent_iam_member#expression GoogleGeminiDataAnalyticsDataAgentIamMember#expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_data_analytics_data_agent_iam_member#expression GoogleGeminiDataAnalyticsDataAgentIamMember#expression}.
 
 ---
 
@@ -934,7 +934,7 @@ Title *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_data_analytics_data_agent_iam_member#title GoogleGeminiDataAnalyticsDataAgentIamMember#title}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_data_analytics_data_agent_iam_member#title GoogleGeminiDataAnalyticsDataAgentIamMember#title}.
 
 ---
 
@@ -946,7 +946,7 @@ Description *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_data_analytics_data_agent_iam_member#description GoogleGeminiDataAnalyticsDataAgentIamMember#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_data_analytics_data_agent_iam_member#description GoogleGeminiDataAnalyticsDataAgentIamMember#description}.
 
 ---
 
@@ -955,7 +955,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleGeminiDataAnalyticsDataAgentIamMember.GoogleGeminiDataAnalyticsDataAgentIamMemberConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlegeminidataanalyticsdataagentiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlegeminidataanalyticsdataagentiammember"
 
 &googlegeminidataanalyticsdataagentiammember.GoogleGeminiDataAnalyticsDataAgentIamMemberConfig {
 	Connection: interface{},
@@ -968,7 +968,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlege
 	DataAgentId: *string,
 	Member: *string,
 	Role: *string,
-	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleGeminiDataAnalyticsDataAgentIamMember.GoogleGeminiDataAnalyticsDataAgentIamMemberCondition,
+	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleGeminiDataAnalyticsDataAgentIamMember.GoogleGeminiDataAnalyticsDataAgentIamMemberCondition,
 	Id: *string,
 	Location: *string,
 	Project: *string,
@@ -986,13 +986,13 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlege
 | <code><a href="#@cdktn/provider-google-beta.googleGeminiDataAnalyticsDataAgentIamMember.GoogleGeminiDataAnalyticsDataAgentIamMemberConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleGeminiDataAnalyticsDataAgentIamMember.GoogleGeminiDataAnalyticsDataAgentIamMemberConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleGeminiDataAnalyticsDataAgentIamMember.GoogleGeminiDataAnalyticsDataAgentIamMemberConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleGeminiDataAnalyticsDataAgentIamMember.GoogleGeminiDataAnalyticsDataAgentIamMemberConfig.property.dataAgentId">DataAgentId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_data_analytics_data_agent_iam_member#data_agent_id GoogleGeminiDataAnalyticsDataAgentIamMember#data_agent_id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleGeminiDataAnalyticsDataAgentIamMember.GoogleGeminiDataAnalyticsDataAgentIamMemberConfig.property.member">Member</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_data_analytics_data_agent_iam_member#member GoogleGeminiDataAnalyticsDataAgentIamMember#member}. |
-| <code><a href="#@cdktn/provider-google-beta.googleGeminiDataAnalyticsDataAgentIamMember.GoogleGeminiDataAnalyticsDataAgentIamMemberConfig.property.role">Role</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_data_analytics_data_agent_iam_member#role GoogleGeminiDataAnalyticsDataAgentIamMember#role}. |
+| <code><a href="#@cdktn/provider-google-beta.googleGeminiDataAnalyticsDataAgentIamMember.GoogleGeminiDataAnalyticsDataAgentIamMemberConfig.property.dataAgentId">DataAgentId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_data_analytics_data_agent_iam_member#data_agent_id GoogleGeminiDataAnalyticsDataAgentIamMember#data_agent_id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleGeminiDataAnalyticsDataAgentIamMember.GoogleGeminiDataAnalyticsDataAgentIamMemberConfig.property.member">Member</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_data_analytics_data_agent_iam_member#member GoogleGeminiDataAnalyticsDataAgentIamMember#member}. |
+| <code><a href="#@cdktn/provider-google-beta.googleGeminiDataAnalyticsDataAgentIamMember.GoogleGeminiDataAnalyticsDataAgentIamMemberConfig.property.role">Role</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_data_analytics_data_agent_iam_member#role GoogleGeminiDataAnalyticsDataAgentIamMember#role}. |
 | <code><a href="#@cdktn/provider-google-beta.googleGeminiDataAnalyticsDataAgentIamMember.GoogleGeminiDataAnalyticsDataAgentIamMemberConfig.property.condition">Condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleGeminiDataAnalyticsDataAgentIamMember.GoogleGeminiDataAnalyticsDataAgentIamMemberCondition">GoogleGeminiDataAnalyticsDataAgentIamMemberCondition</a></code> | condition block. |
-| <code><a href="#@cdktn/provider-google-beta.googleGeminiDataAnalyticsDataAgentIamMember.GoogleGeminiDataAnalyticsDataAgentIamMemberConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_data_analytics_data_agent_iam_member#id GoogleGeminiDataAnalyticsDataAgentIamMember#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleGeminiDataAnalyticsDataAgentIamMember.GoogleGeminiDataAnalyticsDataAgentIamMemberConfig.property.location">Location</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_data_analytics_data_agent_iam_member#location GoogleGeminiDataAnalyticsDataAgentIamMember#location}. |
-| <code><a href="#@cdktn/provider-google-beta.googleGeminiDataAnalyticsDataAgentIamMember.GoogleGeminiDataAnalyticsDataAgentIamMemberConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_data_analytics_data_agent_iam_member#project GoogleGeminiDataAnalyticsDataAgentIamMember#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleGeminiDataAnalyticsDataAgentIamMember.GoogleGeminiDataAnalyticsDataAgentIamMemberConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_data_analytics_data_agent_iam_member#id GoogleGeminiDataAnalyticsDataAgentIamMember#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleGeminiDataAnalyticsDataAgentIamMember.GoogleGeminiDataAnalyticsDataAgentIamMemberConfig.property.location">Location</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_data_analytics_data_agent_iam_member#location GoogleGeminiDataAnalyticsDataAgentIamMember#location}. |
+| <code><a href="#@cdktn/provider-google-beta.googleGeminiDataAnalyticsDataAgentIamMember.GoogleGeminiDataAnalyticsDataAgentIamMemberConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_data_analytics_data_agent_iam_member#project GoogleGeminiDataAnalyticsDataAgentIamMember#project}. |
 
 ---
 
@@ -1074,7 +1074,7 @@ DataAgentId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_data_analytics_data_agent_iam_member#data_agent_id GoogleGeminiDataAnalyticsDataAgentIamMember#data_agent_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_data_analytics_data_agent_iam_member#data_agent_id GoogleGeminiDataAnalyticsDataAgentIamMember#data_agent_id}.
 
 ---
 
@@ -1086,7 +1086,7 @@ Member *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_data_analytics_data_agent_iam_member#member GoogleGeminiDataAnalyticsDataAgentIamMember#member}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_data_analytics_data_agent_iam_member#member GoogleGeminiDataAnalyticsDataAgentIamMember#member}.
 
 ---
 
@@ -1098,7 +1098,7 @@ Role *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_data_analytics_data_agent_iam_member#role GoogleGeminiDataAnalyticsDataAgentIamMember#role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_data_analytics_data_agent_iam_member#role GoogleGeminiDataAnalyticsDataAgentIamMember#role}.
 
 ---
 
@@ -1112,7 +1112,7 @@ Condition GoogleGeminiDataAnalyticsDataAgentIamMemberCondition
 
 condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_data_analytics_data_agent_iam_member#condition GoogleGeminiDataAnalyticsDataAgentIamMember#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_data_analytics_data_agent_iam_member#condition GoogleGeminiDataAnalyticsDataAgentIamMember#condition}
 
 ---
 
@@ -1124,7 +1124,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_data_analytics_data_agent_iam_member#id GoogleGeminiDataAnalyticsDataAgentIamMember#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_data_analytics_data_agent_iam_member#id GoogleGeminiDataAnalyticsDataAgentIamMember#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1139,7 +1139,7 @@ Location *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_data_analytics_data_agent_iam_member#location GoogleGeminiDataAnalyticsDataAgentIamMember#location}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_data_analytics_data_agent_iam_member#location GoogleGeminiDataAnalyticsDataAgentIamMember#location}.
 
 ---
 
@@ -1151,7 +1151,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_data_analytics_data_agent_iam_member#project GoogleGeminiDataAnalyticsDataAgentIamMember#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_data_analytics_data_agent_iam_member#project GoogleGeminiDataAnalyticsDataAgentIamMember#project}.
 
 ---
 
@@ -1162,7 +1162,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGeminiDataAnalyticsDataAgentIamMember.GoogleGeminiDataAnalyticsDataAgentIamMemberConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlegeminidataanalyticsdataagentiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlegeminidataanalyticsdataagentiammember"
 
 googlegeminidataanalyticsdataagentiammember.NewGoogleGeminiDataAnalyticsDataAgentIamMemberConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleGeminiDataAnalyticsDataAgentIamMemberConditionOutputReference
 ```

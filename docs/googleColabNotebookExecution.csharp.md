@@ -4,7 +4,7 @@
 
 ### GoogleColabNotebookExecution <a name="GoogleColabNotebookExecution" id="@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecution"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution google_colab_notebook_execution}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution google_colab_notebook_execution}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecution.Initializer"></a>
 
@@ -88,6 +88,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecution.resetExecutionUser">ResetExecutionUser</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecution.resetGcsNotebookSource">ResetGcsNotebookSource</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecution.resetId">ResetId</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecution.resetKernelName">ResetKernelName</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecution.resetNotebookExecutionJobId">ResetNotebookExecutionJobId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecution.resetNotebookRuntimeTemplateResourceName">ResetNotebookRuntimeTemplateResourceName</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecution.resetProject">ResetProject</a></code> | *No description.* |
@@ -526,6 +527,12 @@ private void ResetGcsNotebookSource()
 private void ResetId()
 ```
 
+##### `ResetKernelName` <a name="ResetKernelName" id="@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecution.resetKernelName"></a>
+
+```csharp
+private void ResetKernelName()
+```
+
 ##### `ResetNotebookExecutionJobId` <a name="ResetNotebookExecutionJobId" id="@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecution.resetNotebookExecutionJobId"></a>
 
 ```csharp
@@ -665,7 +672,7 @@ The construct id used in the generated config for the GoogleColabNotebookExecuti
 
 The id of the existing GoogleColabNotebookExecution that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -711,6 +718,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecution.property.gcsNotebookSourceInput">GcsNotebookSourceInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionGcsNotebookSource">GoogleColabNotebookExecutionGcsNotebookSource</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecution.property.gcsOutputUriInput">GcsOutputUriInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecution.property.idInput">IdInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecution.property.kernelNameInput">KernelNameInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecution.property.locationInput">LocationInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecution.property.notebookExecutionJobIdInput">NotebookExecutionJobIdInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecution.property.notebookRuntimeTemplateResourceNameInput">NotebookRuntimeTemplateResourceNameInput</a></code> | <code>string</code> | *No description.* |
@@ -724,6 +732,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecution.property.executionUser">ExecutionUser</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecution.property.gcsOutputUri">GcsOutputUri</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecution.property.id">Id</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecution.property.kernelName">KernelName</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecution.property.location">Location</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecution.property.notebookExecutionJobId">NotebookExecutionJobId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecution.property.notebookRuntimeTemplateResourceName">NotebookRuntimeTemplateResourceName</a></code> | <code>string</code> | *No description.* |
@@ -1034,6 +1043,16 @@ public string IdInput { get; }
 
 ---
 
+##### `KernelNameInput`<sup>Optional</sup> <a name="KernelNameInput" id="@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecution.property.kernelNameInput"></a>
+
+```csharp
+public string KernelNameInput { get; }
+```
+
+- *Type:* string
+
+---
+
 ##### `LocationInput`<sup>Optional</sup> <a name="LocationInput" id="@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecution.property.locationInput"></a>
 
 ```csharp
@@ -1164,6 +1183,16 @@ public string Id { get; }
 
 ---
 
+##### `KernelName`<sup>Required</sup> <a name="KernelName" id="@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecution.property.kernelName"></a>
+
+```csharp
+public string KernelName { get; }
+```
+
+- *Type:* string
+
+---
+
 ##### `Location`<sup>Required</sup> <a name="Location" id="@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecution.property.location"></a>
 
 ```csharp
@@ -1260,6 +1289,7 @@ new GoogleColabNotebookExecutionConfig {
     string ExecutionUser = null,
     GoogleColabNotebookExecutionGcsNotebookSource GcsNotebookSource = null,
     string Id = null,
+    string KernelName = null,
     string NotebookExecutionJobId = null,
     string NotebookRuntimeTemplateResourceName = null,
     string Project = null,
@@ -1290,10 +1320,11 @@ new GoogleColabNotebookExecutionConfig {
 | <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionConfig.property.executionTimeout">ExecutionTimeout</a></code> | <code>string</code> | Max running time of the execution job in seconds (default 86400s / 24 hrs). |
 | <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionConfig.property.executionUser">ExecutionUser</a></code> | <code>string</code> | The user email to run the execution as. |
 | <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionConfig.property.gcsNotebookSource">GcsNotebookSource</a></code> | <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionGcsNotebookSource">GoogleColabNotebookExecutionGcsNotebookSource</a></code> | gcs_notebook_source block. |
-| <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#id GoogleColabNotebookExecution#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#id GoogleColabNotebookExecution#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionConfig.property.kernelName">KernelName</a></code> | <code>string</code> | The name of the kernel to use during notebook execution. If unset, the default kernel is used. |
 | <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionConfig.property.notebookExecutionJobId">NotebookExecutionJobId</a></code> | <code>string</code> | User specified ID for the Notebook Execution Job. |
 | <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionConfig.property.notebookRuntimeTemplateResourceName">NotebookRuntimeTemplateResourceName</a></code> | <code>string</code> | The NotebookRuntimeTemplate to source compute configuration from. |
-| <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#project GoogleColabNotebookExecution#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#project GoogleColabNotebookExecution#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionConfig.property.serviceAccount">ServiceAccount</a></code> | <code>string</code> | The service account to run the execution as. |
 | <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionTimeouts">GoogleColabNotebookExecutionTimeouts</a></code> | timeouts block. |
 | <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionConfig.property.workbenchRuntime">WorkbenchRuntime</a></code> | <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntime">GoogleColabNotebookExecutionWorkbenchRuntime</a></code> | workbench_runtime block. |
@@ -1380,7 +1411,7 @@ public string DisplayName { get; set; }
 
 Required. The display name of the Notebook Execution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#display_name GoogleColabNotebookExecution#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#display_name GoogleColabNotebookExecution#display_name}
 
 ---
 
@@ -1394,7 +1425,7 @@ public string GcsOutputUri { get; set; }
 
 The Cloud Storage location to upload the result to. Format:'gs://bucket-name'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#gcs_output_uri GoogleColabNotebookExecution#gcs_output_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#gcs_output_uri GoogleColabNotebookExecution#gcs_output_uri}
 
 ---
 
@@ -1408,7 +1439,7 @@ public string Location { get; set; }
 
 The location for the resource: https://cloud.google.com/colab/docs/locations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#location GoogleColabNotebookExecution#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#location GoogleColabNotebookExecution#location}
 
 ---
 
@@ -1422,7 +1453,7 @@ public GoogleColabNotebookExecutionCustomEnvironmentSpec CustomEnvironmentSpec {
 
 custom_environment_spec block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#custom_environment_spec GoogleColabNotebookExecution#custom_environment_spec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#custom_environment_spec GoogleColabNotebookExecution#custom_environment_spec}
 
 ---
 
@@ -1436,7 +1467,7 @@ public GoogleColabNotebookExecutionDataformRepositorySource DataformRepositorySo
 
 dataform_repository_source block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#dataform_repository_source GoogleColabNotebookExecution#dataform_repository_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#dataform_repository_source GoogleColabNotebookExecution#dataform_repository_source}
 
 ---
 
@@ -1457,7 +1488,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#deletion_policy GoogleColabNotebookExecution#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#deletion_policy GoogleColabNotebookExecution#deletion_policy}
 
 ---
 
@@ -1471,7 +1502,7 @@ public GoogleColabNotebookExecutionDirectNotebookSource DirectNotebookSource { g
 
 direct_notebook_source block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#direct_notebook_source GoogleColabNotebookExecution#direct_notebook_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#direct_notebook_source GoogleColabNotebookExecution#direct_notebook_source}
 
 ---
 
@@ -1485,7 +1516,7 @@ public string ExecutionTimeout { get; set; }
 
 Max running time of the execution job in seconds (default 86400s / 24 hrs).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#execution_timeout GoogleColabNotebookExecution#execution_timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#execution_timeout GoogleColabNotebookExecution#execution_timeout}
 
 ---
 
@@ -1499,7 +1530,7 @@ public string ExecutionUser { get; set; }
 
 The user email to run the execution as.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#execution_user GoogleColabNotebookExecution#execution_user}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#execution_user GoogleColabNotebookExecution#execution_user}
 
 ---
 
@@ -1513,7 +1544,7 @@ public GoogleColabNotebookExecutionGcsNotebookSource GcsNotebookSource { get; se
 
 gcs_notebook_source block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#gcs_notebook_source GoogleColabNotebookExecution#gcs_notebook_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#gcs_notebook_source GoogleColabNotebookExecution#gcs_notebook_source}
 
 ---
 
@@ -1525,10 +1556,24 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#id GoogleColabNotebookExecution#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#id GoogleColabNotebookExecution#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+
+---
+
+##### `KernelName`<sup>Optional</sup> <a name="KernelName" id="@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionConfig.property.kernelName"></a>
+
+```csharp
+public string KernelName { get; set; }
+```
+
+- *Type:* string
+
+The name of the kernel to use during notebook execution. If unset, the default kernel is used.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#kernel_name GoogleColabNotebookExecution#kernel_name}
 
 ---
 
@@ -1542,7 +1587,7 @@ public string NotebookExecutionJobId { get; set; }
 
 User specified ID for the Notebook Execution Job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#notebook_execution_job_id GoogleColabNotebookExecution#notebook_execution_job_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#notebook_execution_job_id GoogleColabNotebookExecution#notebook_execution_job_id}
 
 ---
 
@@ -1556,7 +1601,7 @@ public string NotebookRuntimeTemplateResourceName { get; set; }
 
 The NotebookRuntimeTemplate to source compute configuration from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#notebook_runtime_template_resource_name GoogleColabNotebookExecution#notebook_runtime_template_resource_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#notebook_runtime_template_resource_name GoogleColabNotebookExecution#notebook_runtime_template_resource_name}
 
 ---
 
@@ -1568,7 +1613,7 @@ public string Project { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#project GoogleColabNotebookExecution#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#project GoogleColabNotebookExecution#project}.
 
 ---
 
@@ -1582,7 +1627,7 @@ public string ServiceAccount { get; set; }
 
 The service account to run the execution as.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#service_account GoogleColabNotebookExecution#service_account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#service_account GoogleColabNotebookExecution#service_account}
 
 ---
 
@@ -1596,7 +1641,7 @@ public GoogleColabNotebookExecutionTimeouts Timeouts { get; set; }
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#timeouts GoogleColabNotebookExecution#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#timeouts GoogleColabNotebookExecution#timeouts}
 
 ---
 
@@ -1610,7 +1655,7 @@ public GoogleColabNotebookExecutionWorkbenchRuntime WorkbenchRuntime { get; set;
 
 workbench_runtime block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#workbench_runtime GoogleColabNotebookExecution#workbench_runtime}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#workbench_runtime GoogleColabNotebookExecution#workbench_runtime}
 
 ---
 
@@ -1650,7 +1695,7 @@ public GoogleColabNotebookExecutionCustomEnvironmentSpecMachineSpec MachineSpec 
 
 machine_spec block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#machine_spec GoogleColabNotebookExecution#machine_spec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#machine_spec GoogleColabNotebookExecution#machine_spec}
 
 ---
 
@@ -1664,7 +1709,7 @@ public GoogleColabNotebookExecutionCustomEnvironmentSpecNetworkSpec NetworkSpec 
 
 network_spec block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#network_spec GoogleColabNotebookExecution#network_spec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#network_spec GoogleColabNotebookExecution#network_spec}
 
 ---
 
@@ -1678,7 +1723,7 @@ public GoogleColabNotebookExecutionCustomEnvironmentSpecPersistentDiskSpec Persi
 
 persistent_disk_spec block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#persistent_disk_spec GoogleColabNotebookExecution#persistent_disk_spec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#persistent_disk_spec GoogleColabNotebookExecution#persistent_disk_spec}
 
 ---
 
@@ -1692,7 +1737,7 @@ public GoogleColabNotebookExecutionCustomEnvironmentSpecShieldedInstanceConfig S
 
 shielded_instance_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#shielded_instance_config GoogleColabNotebookExecution#shielded_instance_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#shielded_instance_config GoogleColabNotebookExecution#shielded_instance_config}
 
 ---
 
@@ -1730,7 +1775,7 @@ public double AcceleratorCount { get; set; }
 
 The number of accelerators used by the runtime.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#accelerator_count GoogleColabNotebookExecution#accelerator_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#accelerator_count GoogleColabNotebookExecution#accelerator_count}
 
 ---
 
@@ -1744,7 +1789,7 @@ public string AcceleratorType { get; set; }
 
 The type of hardware accelerator used by the runtime. If specified, acceleratorCount must also be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#accelerator_type GoogleColabNotebookExecution#accelerator_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#accelerator_type GoogleColabNotebookExecution#accelerator_type}
 
 ---
 
@@ -1758,7 +1803,7 @@ public string MachineType { get; set; }
 
 The Compute Engine machine type selected for the runtime.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#machine_type GoogleColabNotebookExecution#machine_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#machine_type GoogleColabNotebookExecution#machine_type}
 
 ---
 
@@ -1796,7 +1841,7 @@ public bool|IResolvable EnableInternetAccess { get; set; }
 
 Enable public internet access for the runtime.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#enable_internet_access GoogleColabNotebookExecution#enable_internet_access}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#enable_internet_access GoogleColabNotebookExecution#enable_internet_access}
 
 ---
 
@@ -1810,7 +1855,7 @@ public string Network { get; set; }
 
 The name of the VPC that this runtime is in.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#network GoogleColabNotebookExecution#network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#network GoogleColabNotebookExecution#network}
 
 ---
 
@@ -1824,7 +1869,7 @@ public string Subnetwork { get; set; }
 
 The name of the subnetwork that this runtime is in.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#subnetwork GoogleColabNotebookExecution#subnetwork}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#subnetwork GoogleColabNotebookExecution#subnetwork}
 
 ---
 
@@ -1862,7 +1907,7 @@ The disk size of the runtime in GB.
 
 If specified, the diskType must also be specified. The minimum size is 10GB and the maximum is 65536GB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#disk_size_gb GoogleColabNotebookExecution#disk_size_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#disk_size_gb GoogleColabNotebookExecution#disk_size_gb}
 
 ---
 
@@ -1876,7 +1921,7 @@ public string DiskType { get; set; }
 
 The type of the persistent disk.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#disk_type GoogleColabNotebookExecution#disk_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#disk_type GoogleColabNotebookExecution#disk_type}
 
 ---
 
@@ -1916,7 +1961,7 @@ Defines whether the instance has integrity monitoring enabled.
 
 Enables monitoring and attestation of the boot integrity of the instance. The attestation is performed against the integrity policy baseline. This baseline is initially derived from the implicitly trusted boot image when the instance is created. Enabled by default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#enable_integrity_monitoring GoogleColabNotebookExecution#enable_integrity_monitoring}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#enable_integrity_monitoring GoogleColabNotebookExecution#enable_integrity_monitoring}
 
 ---
 
@@ -1932,7 +1977,7 @@ Defines whether the instance has Secure Boot enabled.
 
 Secure Boot helps ensure that the system only runs authentic software by verifying the digital signature of all boot components, and halting the boot process if signature verification fails. Disabled by default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#enable_secure_boot GoogleColabNotebookExecution#enable_secure_boot}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#enable_secure_boot GoogleColabNotebookExecution#enable_secure_boot}
 
 ---
 
@@ -1946,7 +1991,7 @@ public bool|IResolvable EnableVtpm { get; set; }
 
 Defines whether the instance has the vTPM enabled. Enabled by default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#enable_vtpm GoogleColabNotebookExecution#enable_vtpm}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#enable_vtpm GoogleColabNotebookExecution#enable_vtpm}
 
 ---
 
@@ -1982,7 +2027,7 @@ public string DataformRepositoryResourceName { get; set; }
 
 The resource name of the Dataform Repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#dataform_repository_resource_name GoogleColabNotebookExecution#dataform_repository_resource_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#dataform_repository_resource_name GoogleColabNotebookExecution#dataform_repository_resource_name}
 
 ---
 
@@ -1996,7 +2041,7 @@ public string CommitSha { get; set; }
 
 The commit SHA to read repository with. If unset, the file will be read at HEAD.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#commit_sha GoogleColabNotebookExecution#commit_sha}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#commit_sha GoogleColabNotebookExecution#commit_sha}
 
 ---
 
@@ -2030,7 +2075,7 @@ public string Content { get; set; }
 
 The base64-encoded contents of the input notebook file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#content GoogleColabNotebookExecution#content}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#content GoogleColabNotebookExecution#content}
 
 ---
 
@@ -2066,7 +2111,7 @@ public string Uri { get; set; }
 
 The Cloud Storage uri pointing to the ipynb file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#uri GoogleColabNotebookExecution#uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#uri GoogleColabNotebookExecution#uri}
 
 ---
 
@@ -2082,7 +2127,7 @@ The version of the Cloud Storage object to read.
 
 If unset, the current version of the object is read. See https://cloud.google.com/storage/docs/metadata#generation-number.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#generation GoogleColabNotebookExecution#generation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#generation GoogleColabNotebookExecution#generation}
 
 ---
 
@@ -2103,8 +2148,8 @@ new GoogleColabNotebookExecutionTimeouts {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#create GoogleColabNotebookExecution#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#delete GoogleColabNotebookExecution#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#create GoogleColabNotebookExecution#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#delete GoogleColabNotebookExecution#delete}. |
 
 ---
 
@@ -2116,7 +2161,7 @@ public string Create { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#create GoogleColabNotebookExecution#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#create GoogleColabNotebookExecution#create}.
 
 ---
 
@@ -2128,7 +2173,7 @@ public string Delete { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#delete GoogleColabNotebookExecution#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#delete GoogleColabNotebookExecution#delete}.
 
 ---
 
@@ -2140,7 +2185,8 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 using Io.Cdktn.Providers.GoogleBeta;
 
 new GoogleColabNotebookExecutionWorkbenchRuntime {
-    GoogleColabNotebookExecutionWorkbenchRuntimeVmImage VmImage
+    GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImage CustomContainerImage = null,
+    GoogleColabNotebookExecutionWorkbenchRuntimeVmImage VmImage = null
 };
 ```
 
@@ -2148,11 +2194,26 @@ new GoogleColabNotebookExecutionWorkbenchRuntime {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntime.property.customContainerImage">CustomContainerImage</a></code> | <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImage">GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImage</a></code> | custom_container_image block. |
 | <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntime.property.vmImage">VmImage</a></code> | <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeVmImage">GoogleColabNotebookExecutionWorkbenchRuntimeVmImage</a></code> | vm_image block. |
 
 ---
 
-##### `VmImage`<sup>Required</sup> <a name="VmImage" id="@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntime.property.vmImage"></a>
+##### `CustomContainerImage`<sup>Optional</sup> <a name="CustomContainerImage" id="@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntime.property.customContainerImage"></a>
+
+```csharp
+public GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImage CustomContainerImage { get; set; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImage">GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImage</a>
+
+custom_container_image block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#custom_container_image GoogleColabNotebookExecution#custom_container_image}
+
+---
+
+##### `VmImage`<sup>Optional</sup> <a name="VmImage" id="@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntime.property.vmImage"></a>
 
 ```csharp
 public GoogleColabNotebookExecutionWorkbenchRuntimeVmImage VmImage { get; set; }
@@ -2162,7 +2223,57 @@ public GoogleColabNotebookExecutionWorkbenchRuntimeVmImage VmImage { get; set; }
 
 vm_image block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#vm_image GoogleColabNotebookExecution#vm_image}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#vm_image GoogleColabNotebookExecution#vm_image}
+
+---
+
+### GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImage <a name="GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImage" id="@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImage"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImage.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+new GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImage {
+    string Repository,
+    string Tag = null
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImage.property.repository">Repository</a></code> | <code>string</code> | The path to the container image repository. For example: gcr.io/{project_id}/{imageName}. |
+| <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImage.property.tag">Tag</a></code> | <code>string</code> | The tag of the container image. If not specified, this defaults to the latest tag. |
+
+---
+
+##### `Repository`<sup>Required</sup> <a name="Repository" id="@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImage.property.repository"></a>
+
+```csharp
+public string Repository { get; set; }
+```
+
+- *Type:* string
+
+The path to the container image repository. For example: gcr.io/{project_id}/{imageName}.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#repository GoogleColabNotebookExecution#repository}
+
+---
+
+##### `Tag`<sup>Optional</sup> <a name="Tag" id="@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImage.property.tag"></a>
+
+```csharp
+public string Tag { get; set; }
+```
+
+- *Type:* string
+
+The tag of the container image. If not specified, this defaults to the latest tag.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#tag GoogleColabNotebookExecution#tag}
 
 ---
 
@@ -2200,7 +2311,7 @@ public string Family { get; set; }
 
 Use this VM image family to find the image; the newest image in this family will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#family GoogleColabNotebookExecution#family}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#family GoogleColabNotebookExecution#family}
 
 ---
 
@@ -2214,7 +2325,7 @@ public string Name { get; set; }
 
 Use VM image name to find the image.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#name GoogleColabNotebookExecution#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#name GoogleColabNotebookExecution#name}
 
 ---
 
@@ -2228,7 +2339,7 @@ public string Project { get; set; }
 
 The name of the Google Cloud project that this VM image belongs to. Format: {project_id}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#project GoogleColabNotebookExecution#project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#project GoogleColabNotebookExecution#project}
 
 ---
 
@@ -5144,6 +5255,306 @@ public IResolvable|GoogleColabNotebookExecutionTimeouts InternalValue { get; }
 ---
 
 
+### GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference <a name="GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference" id="@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+new GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference.resetTag">ResetTag</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetTag` <a name="ResetTag" id="@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference.resetTag"></a>
+
+```csharp
+private void ResetTag()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference.property.repositoryInput">RepositoryInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference.property.tagInput">TagInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference.property.repository">Repository</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference.property.tag">Tag</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImage">GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImage</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `RepositoryInput`<sup>Optional</sup> <a name="RepositoryInput" id="@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference.property.repositoryInput"></a>
+
+```csharp
+public string RepositoryInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `TagInput`<sup>Optional</sup> <a name="TagInput" id="@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference.property.tagInput"></a>
+
+```csharp
+public string TagInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Repository`<sup>Required</sup> <a name="Repository" id="@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference.property.repository"></a>
+
+```csharp
+public string Repository { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Tag`<sup>Required</sup> <a name="Tag" id="@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference.property.tag"></a>
+
+```csharp
+public string Tag { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference.property.internalValue"></a>
+
+```csharp
+public GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImage InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImage">GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImage</a>
+
+---
+
+
 ### GoogleColabNotebookExecutionWorkbenchRuntimeOutputReference <a name="GoogleColabNotebookExecutionWorkbenchRuntimeOutputReference" id="@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeOutputReference.Initializer"></a>
@@ -5194,7 +5605,10 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeOutputReference.putCustomContainerImage">PutCustomContainerImage</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeOutputReference.putVmImage">PutVmImage</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeOutputReference.resetCustomContainerImage">ResetCustomContainerImage</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeOutputReference.resetVmImage">ResetVmImage</a></code> | *No description.* |
 
 ---
 
@@ -5348,6 +5762,18 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `PutCustomContainerImage` <a name="PutCustomContainerImage" id="@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeOutputReference.putCustomContainerImage"></a>
+
+```csharp
+private void PutCustomContainerImage(GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImage Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeOutputReference.putCustomContainerImage.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImage">GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImage</a>
+
+---
+
 ##### `PutVmImage` <a name="PutVmImage" id="@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeOutputReference.putVmImage"></a>
 
 ```csharp
@@ -5360,6 +5786,18 @@ private void PutVmImage(GoogleColabNotebookExecutionWorkbenchRuntimeVmImage Valu
 
 ---
 
+##### `ResetCustomContainerImage` <a name="ResetCustomContainerImage" id="@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeOutputReference.resetCustomContainerImage"></a>
+
+```csharp
+private void ResetCustomContainerImage()
+```
+
+##### `ResetVmImage` <a name="ResetVmImage" id="@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeOutputReference.resetVmImage"></a>
+
+```csharp
+private void ResetVmImage()
+```
+
 
 #### Properties <a name="Properties" id="Properties"></a>
 
@@ -5367,7 +5805,9 @@ private void PutVmImage(GoogleColabNotebookExecutionWorkbenchRuntimeVmImage Valu
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeOutputReference.property.customContainerImage">CustomContainerImage</a></code> | <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference">GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeOutputReference.property.vmImage">VmImage</a></code> | <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeVmImageOutputReference">GoogleColabNotebookExecutionWorkbenchRuntimeVmImageOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeOutputReference.property.customContainerImageInput">CustomContainerImageInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImage">GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImage</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeOutputReference.property.vmImageInput">VmImageInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeVmImage">GoogleColabNotebookExecutionWorkbenchRuntimeVmImage</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntime">GoogleColabNotebookExecutionWorkbenchRuntime</a></code> | *No description.* |
 
@@ -5397,6 +5837,16 @@ public string Fqn { get; }
 
 ---
 
+##### `CustomContainerImage`<sup>Required</sup> <a name="CustomContainerImage" id="@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeOutputReference.property.customContainerImage"></a>
+
+```csharp
+public GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference CustomContainerImage { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference">GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference</a>
+
+---
+
 ##### `VmImage`<sup>Required</sup> <a name="VmImage" id="@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeOutputReference.property.vmImage"></a>
 
 ```csharp
@@ -5404,6 +5854,16 @@ public GoogleColabNotebookExecutionWorkbenchRuntimeVmImageOutputReference VmImag
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeVmImageOutputReference">GoogleColabNotebookExecutionWorkbenchRuntimeVmImageOutputReference</a>
+
+---
+
+##### `CustomContainerImageInput`<sup>Optional</sup> <a name="CustomContainerImageInput" id="@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeOutputReference.property.customContainerImageInput"></a>
+
+```csharp
+public GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImage CustomContainerImageInput { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleColabNotebookExecution.GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImage">GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImage</a>
 
 ---
 

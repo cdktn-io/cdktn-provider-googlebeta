@@ -4,12 +4,12 @@
 
 ### GoogleChronicleCaseCloseDefinition <a name="GoogleChronicleCaseCloseDefinition" id="@cdktn/provider-google-beta.googleChronicleCaseCloseDefinition.GoogleChronicleCaseCloseDefinition"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_close_definition google_chronicle_case_close_definition}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_chronicle_case_close_definition google_chronicle_case_close_definition}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleCaseCloseDefinition.GoogleChronicleCaseCloseDefinition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlechroniclecaseclosedefinition"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlechroniclecaseclosedefinition"
 
 googlechroniclecaseclosedefinition.NewGoogleChronicleCaseCloseDefinition(scope Construct, id *string, config GoogleChronicleCaseCloseDefinitionConfig) GoogleChronicleCaseCloseDefinition
 ```
@@ -441,7 +441,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleChronicleCaseCloseDefinition.GoogleChronicleCaseCloseDefinition.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlechroniclecaseclosedefinition"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlechroniclecaseclosedefinition"
 
 googlechroniclecaseclosedefinition.GoogleChronicleCaseCloseDefinition_IsConstruct(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleChronicleCaseCloseDefinition.GoogleChronicleCaseCloseDefinition.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlechroniclecaseclosedefinition"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlechroniclecaseclosedefinition"
 
 googlechroniclecaseclosedefinition.GoogleChronicleCaseCloseDefinition_IsTerraformElement(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ googlechroniclecaseclosedefinition.GoogleChronicleCaseCloseDefinition_IsTerrafor
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleChronicleCaseCloseDefinition.GoogleChronicleCaseCloseDefinition.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlechroniclecaseclosedefinition"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlechroniclecaseclosedefinition"
 
 googlechroniclecaseclosedefinition.GoogleChronicleCaseCloseDefinition_IsTerraformResource(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ googlechroniclecaseclosedefinition.GoogleChronicleCaseCloseDefinition_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleChronicleCaseCloseDefinition.GoogleChronicleCaseCloseDefinition.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlechroniclecaseclosedefinition"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlechroniclecaseclosedefinition"
 
 googlechroniclecaseclosedefinition.GoogleChronicleCaseCloseDefinition_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -530,7 +530,7 @@ The construct id used in the generated config for the GoogleChronicleCaseCloseDe
 
 The id of the existing GoogleChronicleCaseCloseDefinition that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_close_definition#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_chronicle_case_close_definition#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -928,7 +928,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleCaseCloseDefinition.GoogleChronicleCaseCloseDefinitionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlechroniclecaseclosedefinition"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlechroniclecaseclosedefinition"
 
 &googlechroniclecaseclosedefinition.GoogleChronicleCaseCloseDefinitionConfig {
 	Connection: interface{},
@@ -945,7 +945,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlech
 	DeletionPolicy: *string,
 	Id: *string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleChronicleCaseCloseDefinition.GoogleChronicleCaseCloseDefinitionTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleChronicleCaseCloseDefinition.GoogleChronicleCaseCloseDefinitionTimeouts,
 }
 ```
 
@@ -965,8 +965,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlech
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleCaseCloseDefinition.GoogleChronicleCaseCloseDefinitionConfig.property.location">Location</a></code> | <code>*string</code> | The location of the resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleCaseCloseDefinition.GoogleChronicleCaseCloseDefinitionConfig.property.rootCause">RootCause</a></code> | <code>*string</code> | Provides detailed description about the specific root cause option. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleCaseCloseDefinition.GoogleChronicleCaseCloseDefinitionConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleCaseCloseDefinition.GoogleChronicleCaseCloseDefinitionConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_close_definition#id GoogleChronicleCaseCloseDefinition#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleCaseCloseDefinition.GoogleChronicleCaseCloseDefinitionConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_close_definition#project GoogleChronicleCaseCloseDefinition#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleCaseCloseDefinition.GoogleChronicleCaseCloseDefinitionConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_chronicle_case_close_definition#id GoogleChronicleCaseCloseDefinition#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleCaseCloseDefinition.GoogleChronicleCaseCloseDefinitionConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_chronicle_case_close_definition#project GoogleChronicleCaseCloseDefinition#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleCaseCloseDefinition.GoogleChronicleCaseCloseDefinitionConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleCaseCloseDefinition.GoogleChronicleCaseCloseDefinitionTimeouts">GoogleChronicleCaseCloseDefinitionTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1051,7 +1051,7 @@ CloseReason *string
 
 Specify why the case was closed. Possible values: ["MALICIOUS", "NOT_MALICIOUS", "MAINTENANCE", "INCONCLUSIVE"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_close_definition#close_reason GoogleChronicleCaseCloseDefinition#close_reason}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_chronicle_case_close_definition#close_reason GoogleChronicleCaseCloseDefinition#close_reason}
 
 ---
 
@@ -1065,7 +1065,7 @@ Instance *string
 
 The unique identifier for the Chronicle instance, which is the same as the customer ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_close_definition#instance GoogleChronicleCaseCloseDefinition#instance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_chronicle_case_close_definition#instance GoogleChronicleCaseCloseDefinition#instance}
 
 ---
 
@@ -1081,7 +1081,7 @@ The location of the resource.
 
 This is the geographical region where the Chronicle instance resides, such as "us" or "europe-west2".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_close_definition#location GoogleChronicleCaseCloseDefinition#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_chronicle_case_close_definition#location GoogleChronicleCaseCloseDefinition#location}
 
 ---
 
@@ -1095,7 +1095,7 @@ RootCause *string
 
 Provides detailed description about the specific root cause option.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_close_definition#root_cause GoogleChronicleCaseCloseDefinition#root_cause}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_chronicle_case_close_definition#root_cause GoogleChronicleCaseCloseDefinition#root_cause}
 
 ---
 
@@ -1116,7 +1116,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_close_definition#deletion_policy GoogleChronicleCaseCloseDefinition#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_chronicle_case_close_definition#deletion_policy GoogleChronicleCaseCloseDefinition#deletion_policy}
 
 ---
 
@@ -1128,7 +1128,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_close_definition#id GoogleChronicleCaseCloseDefinition#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_chronicle_case_close_definition#id GoogleChronicleCaseCloseDefinition#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1143,7 +1143,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_close_definition#project GoogleChronicleCaseCloseDefinition#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_chronicle_case_close_definition#project GoogleChronicleCaseCloseDefinition#project}.
 
 ---
 
@@ -1157,7 +1157,7 @@ Timeouts GoogleChronicleCaseCloseDefinitionTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_close_definition#timeouts GoogleChronicleCaseCloseDefinition#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_chronicle_case_close_definition#timeouts GoogleChronicleCaseCloseDefinition#timeouts}
 
 ---
 
@@ -1166,7 +1166,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleCaseCloseDefinition.GoogleChronicleCaseCloseDefinitionTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlechroniclecaseclosedefinition"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlechroniclecaseclosedefinition"
 
 &googlechroniclecaseclosedefinition.GoogleChronicleCaseCloseDefinitionTimeouts {
 	Create: *string,
@@ -1179,9 +1179,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlech
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleCaseCloseDefinition.GoogleChronicleCaseCloseDefinitionTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_close_definition#create GoogleChronicleCaseCloseDefinition#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleCaseCloseDefinition.GoogleChronicleCaseCloseDefinitionTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_close_definition#delete GoogleChronicleCaseCloseDefinition#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleCaseCloseDefinition.GoogleChronicleCaseCloseDefinitionTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_close_definition#update GoogleChronicleCaseCloseDefinition#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleCaseCloseDefinition.GoogleChronicleCaseCloseDefinitionTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_chronicle_case_close_definition#create GoogleChronicleCaseCloseDefinition#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleCaseCloseDefinition.GoogleChronicleCaseCloseDefinitionTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_chronicle_case_close_definition#delete GoogleChronicleCaseCloseDefinition#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleCaseCloseDefinition.GoogleChronicleCaseCloseDefinitionTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_chronicle_case_close_definition#update GoogleChronicleCaseCloseDefinition#update}. |
 
 ---
 
@@ -1193,7 +1193,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_close_definition#create GoogleChronicleCaseCloseDefinition#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_chronicle_case_close_definition#create GoogleChronicleCaseCloseDefinition#create}.
 
 ---
 
@@ -1205,7 +1205,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_close_definition#delete GoogleChronicleCaseCloseDefinition#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_chronicle_case_close_definition#delete GoogleChronicleCaseCloseDefinition#delete}.
 
 ---
 
@@ -1217,7 +1217,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_close_definition#update GoogleChronicleCaseCloseDefinition#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_chronicle_case_close_definition#update GoogleChronicleCaseCloseDefinition#update}.
 
 ---
 
@@ -1228,7 +1228,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleCaseCloseDefinition.GoogleChronicleCaseCloseDefinitionTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlechroniclecaseclosedefinition"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlechroniclecaseclosedefinition"
 
 googlechroniclecaseclosedefinition.NewGoogleChronicleCaseCloseDefinitionTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleChronicleCaseCloseDefinitionTimeoutsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### GoogleComputeRegionSecurityPolicy <a name="GoogleComputeRegionSecurityPolicy" id="@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy google_compute_region_security_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy google_compute_region_security_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionsecuritypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecomputeregionsecuritypolicy"
 
 googlecomputeregionsecuritypolicy.NewGoogleComputeRegionSecurityPolicy(scope Construct, id *string, config GoogleComputeRegionSecurityPolicyConfig) GoogleComputeRegionSecurityPolicy
 ```
@@ -542,7 +542,7 @@ func ResetUserDefinedFields()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionsecuritypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecomputeregionsecuritypolicy"
 
 googlecomputeregionsecuritypolicy.GoogleComputeRegionSecurityPolicy_IsConstruct(x interface{}) *bool
 ```
@@ -574,7 +574,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionsecuritypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecomputeregionsecuritypolicy"
 
 googlecomputeregionsecuritypolicy.GoogleComputeRegionSecurityPolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -588,7 +588,7 @@ googlecomputeregionsecuritypolicy.GoogleComputeRegionSecurityPolicy_IsTerraformE
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicy.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionsecuritypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecomputeregionsecuritypolicy"
 
 googlecomputeregionsecuritypolicy.GoogleComputeRegionSecurityPolicy_IsTerraformResource(x interface{}) *bool
 ```
@@ -602,7 +602,7 @@ googlecomputeregionsecuritypolicy.GoogleComputeRegionSecurityPolicy_IsTerraformR
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionsecuritypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecomputeregionsecuritypolicy"
 
 googlecomputeregionsecuritypolicy.GoogleComputeRegionSecurityPolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -631,7 +631,7 @@ The construct id used in the generated config for the GoogleComputeRegionSecurit
 
 The id of the existing GoogleComputeRegionSecurityPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1139,10 +1139,10 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyAdvancedOptionsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionsecuritypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecomputeregionsecuritypolicy"
 
 &googlecomputeregionsecuritypolicy.GoogleComputeRegionSecurityPolicyAdvancedOptionsConfig {
-	JsonCustomConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyAdvancedOptionsConfigJsonCustomConfig,
+	JsonCustomConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyAdvancedOptionsConfigJsonCustomConfig,
 	JsonParsing: *string,
 	LogLevel: *string,
 	RequestBodyInspectionSize: *string,
@@ -1172,7 +1172,7 @@ JsonCustomConfig GoogleComputeRegionSecurityPolicyAdvancedOptionsConfigJsonCusto
 
 json_custom_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#json_custom_config GoogleComputeRegionSecurityPolicy#json_custom_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#json_custom_config GoogleComputeRegionSecurityPolicy#json_custom_config}
 
 ---
 
@@ -1186,7 +1186,7 @@ JsonParsing *string
 
 JSON body parsing. Supported values include: "DISABLED", "STANDARD", "STANDARD_WITH_GRAPHQL". Possible values: ["DISABLED", "STANDARD", "STANDARD_WITH_GRAPHQL"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#json_parsing GoogleComputeRegionSecurityPolicy#json_parsing}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#json_parsing GoogleComputeRegionSecurityPolicy#json_parsing}
 
 ---
 
@@ -1200,7 +1200,7 @@ LogLevel *string
 
 Logging level. Supported values include: "NORMAL", "VERBOSE". Possible values: ["NORMAL", "VERBOSE"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#log_level GoogleComputeRegionSecurityPolicy#log_level}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#log_level GoogleComputeRegionSecurityPolicy#log_level}
 
 ---
 
@@ -1217,7 +1217,7 @@ The maximum request size chosen by the customer with Waf enabled.
 Values supported are "8KB", "16KB, "32KB", "48KB" and "64KB".
 Values are case insensitive. Possible values: ["8KB", "16KB", "32KB", "48KB", "64KB"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#request_body_inspection_size GoogleComputeRegionSecurityPolicy#request_body_inspection_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#request_body_inspection_size GoogleComputeRegionSecurityPolicy#request_body_inspection_size}
 
 ---
 
@@ -1231,7 +1231,7 @@ UserIpRequestHeaders *[]*string
 
 An optional list of case-insensitive request header names to use for resolving the callers client IP address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#user_ip_request_headers GoogleComputeRegionSecurityPolicy#user_ip_request_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#user_ip_request_headers GoogleComputeRegionSecurityPolicy#user_ip_request_headers}
 
 ---
 
@@ -1240,7 +1240,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyAdvancedOptionsConfigJsonCustomConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionsecuritypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecomputeregionsecuritypolicy"
 
 &googlecomputeregionsecuritypolicy.GoogleComputeRegionSecurityPolicyAdvancedOptionsConfigJsonCustomConfig {
 	ContentTypes: *[]*string,
@@ -1265,7 +1265,7 @@ ContentTypes *[]*string
 
 A list of custom Content-Type header values to apply the JSON parsing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#content_types GoogleComputeRegionSecurityPolicy#content_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#content_types GoogleComputeRegionSecurityPolicy#content_types}
 
 ---
 
@@ -1274,7 +1274,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionsecuritypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecomputeregionsecuritypolicy"
 
 &googlecomputeregionsecuritypolicy.GoogleComputeRegionSecurityPolicyConfig {
 	Connection: interface{},
@@ -1285,15 +1285,15 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleco
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	Name: *string,
-	AdvancedOptionsConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyAdvancedOptionsConfig,
-	DdosProtectionConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyDdosProtectionConfig,
+	AdvancedOptionsConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyAdvancedOptionsConfig,
+	DdosProtectionConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyDdosProtectionConfig,
 	DeletionPolicy: *string,
 	Description: *string,
 	Id: *string,
 	Project: *string,
 	Region: *string,
 	Rules: interface{},
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyTimeouts,
 	Type: *string,
 	UserDefinedFields: interface{},
 }
@@ -1315,8 +1315,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleco
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyConfig.property.ddosProtectionConfig">DdosProtectionConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyDdosProtectionConfig">GoogleComputeRegionSecurityPolicyDdosProtectionConfig</a></code> | ddos_protection_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyConfig.property.description">Description</a></code> | <code>*string</code> | An optional description of this resource. Provide this property when you create the resource. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#id GoogleComputeRegionSecurityPolicy#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#project GoogleComputeRegionSecurityPolicy#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#id GoogleComputeRegionSecurityPolicy#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#project GoogleComputeRegionSecurityPolicy#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyConfig.property.region">Region</a></code> | <code>*string</code> | The Region in which the created Region Security Policy should reside. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyConfig.property.rules">Rules</a></code> | <code>interface{}</code> | rules block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyTimeouts">GoogleComputeRegionSecurityPolicyTimeouts</a></code> | timeouts block. |
@@ -1408,7 +1408,7 @@ Name of the resource.
 Provided by the client when the resource is created. The name must be 1-63 characters long, and comply with RFC1035.
 Specifically, the name must be 1-63 characters long and match the regular expression [a-z](%5B-a-z0-9%5D*%5Ba-z0-9%5D)? which means the first character must be a lowercase letter, and all following characters must be a dash, lowercase letter, or digit, except the last character, which cannot be a dash.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#name GoogleComputeRegionSecurityPolicy#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#name GoogleComputeRegionSecurityPolicy#name}
 
 ---
 
@@ -1422,7 +1422,7 @@ AdvancedOptionsConfig GoogleComputeRegionSecurityPolicyAdvancedOptionsConfig
 
 advanced_options_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#advanced_options_config GoogleComputeRegionSecurityPolicy#advanced_options_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#advanced_options_config GoogleComputeRegionSecurityPolicy#advanced_options_config}
 
 ---
 
@@ -1436,7 +1436,7 @@ DdosProtectionConfig GoogleComputeRegionSecurityPolicyDdosProtectionConfig
 
 ddos_protection_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#ddos_protection_config GoogleComputeRegionSecurityPolicy#ddos_protection_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#ddos_protection_config GoogleComputeRegionSecurityPolicy#ddos_protection_config}
 
 ---
 
@@ -1457,7 +1457,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#deletion_policy GoogleComputeRegionSecurityPolicy#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#deletion_policy GoogleComputeRegionSecurityPolicy#deletion_policy}
 
 ---
 
@@ -1471,7 +1471,7 @@ Description *string
 
 An optional description of this resource. Provide this property when you create the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#description GoogleComputeRegionSecurityPolicy#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#description GoogleComputeRegionSecurityPolicy#description}
 
 ---
 
@@ -1483,7 +1483,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#id GoogleComputeRegionSecurityPolicy#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#id GoogleComputeRegionSecurityPolicy#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1498,7 +1498,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#project GoogleComputeRegionSecurityPolicy#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#project GoogleComputeRegionSecurityPolicy#project}.
 
 ---
 
@@ -1514,7 +1514,7 @@ The Region in which the created Region Security Policy should reside.
 
 If it is not provided, the provider region is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#region GoogleComputeRegionSecurityPolicy#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#region GoogleComputeRegionSecurityPolicy#region}
 
 ---
 
@@ -1528,7 +1528,7 @@ Rules interface{}
 
 rules block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#rules GoogleComputeRegionSecurityPolicy#rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#rules GoogleComputeRegionSecurityPolicy#rules}
 
 ---
 
@@ -1542,7 +1542,7 @@ Timeouts GoogleComputeRegionSecurityPolicyTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#timeouts GoogleComputeRegionSecurityPolicy#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#timeouts GoogleComputeRegionSecurityPolicy#timeouts}
 
 ---
 
@@ -1561,7 +1561,7 @@ The type indicates the intended use of the security policy.
 * CLOUD_ARMOR_NETWORK: Cloud Armor network policies can be configured to filter packets targeting network load balancing resources such as backend services, target pools, target instances, and instances with external IPs. They filter requests before the request is served from the application.
   This field can be set only at resource creation time. Possible values: ["CLOUD_ARMOR", "CLOUD_ARMOR_EDGE", "CLOUD_ARMOR_NETWORK"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#type GoogleComputeRegionSecurityPolicy#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#type GoogleComputeRegionSecurityPolicy#type}
 
 ---
 
@@ -1575,7 +1575,7 @@ UserDefinedFields interface{}
 
 user_defined_fields block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#user_defined_fields GoogleComputeRegionSecurityPolicy#user_defined_fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#user_defined_fields GoogleComputeRegionSecurityPolicy#user_defined_fields}
 
 ---
 
@@ -1584,7 +1584,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyDdosProtectionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionsecuritypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecomputeregionsecuritypolicy"
 
 &googlecomputeregionsecuritypolicy.GoogleComputeRegionSecurityPolicyDdosProtectionConfig {
 	DdosProtection: *string,
@@ -1612,7 +1612,7 @@ Google Cloud Armor offers the following options to help protect systems against 
 * ADVANCED: additional protections for Managed Protection Plus subscribers who use network load balancers, protocol forwarding, or VMs with public IP addresses.
 * ADVANCED_PREVIEW: flag to enable the security policy in preview mode. Possible values: ["ADVANCED", "ADVANCED_PREVIEW", "STANDARD"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#ddos_protection GoogleComputeRegionSecurityPolicy#ddos_protection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#ddos_protection GoogleComputeRegionSecurityPolicy#ddos_protection}
 
 ---
 
@@ -1621,17 +1621,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyRules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionsecuritypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecomputeregionsecuritypolicy"
 
 &googlecomputeregionsecuritypolicy.GoogleComputeRegionSecurityPolicyRules {
 	Action: *string,
 	Priority: *f64,
 	Description: *string,
-	Match: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyRulesMatch,
-	NetworkMatch: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyRulesNetworkMatch,
-	PreconfiguredWafConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfig,
+	Match: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyRulesMatch,
+	NetworkMatch: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyRulesNetworkMatch,
+	PreconfiguredWafConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfig,
 	Preview: interface{},
-	RateLimitOptions: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyRulesRateLimitOptions,
+	RateLimitOptions: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyRulesRateLimitOptions,
 }
 ```
 
@@ -1666,7 +1666,7 @@ The Action to perform when the rule is matched. The following are the valid acti
 * redirect: redirect to a different target. This can either be an internal reCAPTCHA redirect, or an external URL-based redirect via a 302 response. Parameters for this action can be configured via redirectOptions. This action is only supported in Global Security Policies of type CLOUD_ARMOR.
 * throttle: limit client traffic to the configured threshold. Configure parameters for this action in rateLimitOptions. Requires rateLimitOptions to be set for this.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#action GoogleComputeRegionSecurityPolicy#action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#action GoogleComputeRegionSecurityPolicy#action}
 
 ---
 
@@ -1683,7 +1683,7 @@ An integer indicating the priority of a rule in the list.
 The priority must be a positive value between 0 and 2147483647.
 Rules are evaluated from highest to lowest priority where 0 is the highest priority and 2147483647 is the lowest priority.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#priority GoogleComputeRegionSecurityPolicy#priority}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#priority GoogleComputeRegionSecurityPolicy#priority}
 
 ---
 
@@ -1697,7 +1697,7 @@ Description *string
 
 An optional description of this resource. Provide this property when you create the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#description GoogleComputeRegionSecurityPolicy#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#description GoogleComputeRegionSecurityPolicy#description}
 
 ---
 
@@ -1711,7 +1711,7 @@ Match GoogleComputeRegionSecurityPolicyRulesMatch
 
 match block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#match GoogleComputeRegionSecurityPolicy#match}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#match GoogleComputeRegionSecurityPolicy#match}
 
 ---
 
@@ -1725,7 +1725,7 @@ NetworkMatch GoogleComputeRegionSecurityPolicyRulesNetworkMatch
 
 network_match block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#network_match GoogleComputeRegionSecurityPolicy#network_match}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#network_match GoogleComputeRegionSecurityPolicy#network_match}
 
 ---
 
@@ -1739,7 +1739,7 @@ PreconfiguredWafConfig GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafCon
 
 preconfigured_waf_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#preconfigured_waf_config GoogleComputeRegionSecurityPolicy#preconfigured_waf_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#preconfigured_waf_config GoogleComputeRegionSecurityPolicy#preconfigured_waf_config}
 
 ---
 
@@ -1753,7 +1753,7 @@ Preview interface{}
 
 If set to true, the specified action is not enforced.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#preview GoogleComputeRegionSecurityPolicy#preview}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#preview GoogleComputeRegionSecurityPolicy#preview}
 
 ---
 
@@ -1767,7 +1767,7 @@ RateLimitOptions GoogleComputeRegionSecurityPolicyRulesRateLimitOptions
 
 rate_limit_options block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#rate_limit_options GoogleComputeRegionSecurityPolicy#rate_limit_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#rate_limit_options GoogleComputeRegionSecurityPolicy#rate_limit_options}
 
 ---
 
@@ -1776,11 +1776,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyRulesMatch.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionsecuritypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecomputeregionsecuritypolicy"
 
 &googlecomputeregionsecuritypolicy.GoogleComputeRegionSecurityPolicyRulesMatch {
-	Config: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyRulesMatchConfig,
-	Expr: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyRulesMatchExpr,
+	Config: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyRulesMatchConfig,
+	Expr: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyRulesMatchExpr,
 	VersionedExpr: *string,
 }
 ```
@@ -1805,7 +1805,7 @@ Config GoogleComputeRegionSecurityPolicyRulesMatchConfig
 
 config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#config GoogleComputeRegionSecurityPolicy#config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#config GoogleComputeRegionSecurityPolicy#config}
 
 ---
 
@@ -1819,7 +1819,7 @@ Expr GoogleComputeRegionSecurityPolicyRulesMatchExpr
 
 expr block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#expr GoogleComputeRegionSecurityPolicy#expr}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#expr GoogleComputeRegionSecurityPolicy#expr}
 
 ---
 
@@ -1836,7 +1836,7 @@ Preconfigured versioned expression.
 If this field is specified, config must also be specified.
 Available preconfigured expressions along with their requirements are: SRC_IPS_V1 - must specify the corresponding srcIpRange field in config. Possible values: ["SRC_IPS_V1"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#versioned_expr GoogleComputeRegionSecurityPolicy#versioned_expr}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#versioned_expr GoogleComputeRegionSecurityPolicy#versioned_expr}
 
 ---
 
@@ -1845,7 +1845,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyRulesMatchConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionsecuritypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecomputeregionsecuritypolicy"
 
 &googlecomputeregionsecuritypolicy.GoogleComputeRegionSecurityPolicyRulesMatchConfig {
 	SrcIpRanges: *[]*string,
@@ -1870,7 +1870,7 @@ SrcIpRanges *[]*string
 
 CIDR IP address range. Maximum number of srcIpRanges allowed is 10.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#src_ip_ranges GoogleComputeRegionSecurityPolicy#src_ip_ranges}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#src_ip_ranges GoogleComputeRegionSecurityPolicy#src_ip_ranges}
 
 ---
 
@@ -1879,7 +1879,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyRulesMatchExpr.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionsecuritypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecomputeregionsecuritypolicy"
 
 &googlecomputeregionsecuritypolicy.GoogleComputeRegionSecurityPolicyRulesMatchExpr {
 	Expression: *string,
@@ -1906,7 +1906,7 @@ Textual representation of an expression in Common Expression Language syntax.
 
 The application context of the containing message determines which well-known feature set of CEL is supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#expression GoogleComputeRegionSecurityPolicy#expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#expression GoogleComputeRegionSecurityPolicy#expression}
 
 ---
 
@@ -1915,7 +1915,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyRulesNetworkMatch.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionsecuritypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecomputeregionsecuritypolicy"
 
 &googlecomputeregionsecuritypolicy.GoogleComputeRegionSecurityPolicyRulesNetworkMatch {
 	DestIpRanges: *[]*string,
@@ -1954,7 +1954,7 @@ DestIpRanges *[]*string
 
 Destination IPv4/IPv6 addresses or CIDR prefixes, in standard text format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#dest_ip_ranges GoogleComputeRegionSecurityPolicy#dest_ip_ranges}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#dest_ip_ranges GoogleComputeRegionSecurityPolicy#dest_ip_ranges}
 
 ---
 
@@ -1970,7 +1970,7 @@ Destination port numbers for TCP/UDP/SCTP.
 
 Each element can be a 16-bit unsigned decimal number (e.g. "80") or range (e.g. "0-1023").
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#dest_ports GoogleComputeRegionSecurityPolicy#dest_ports}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#dest_ports GoogleComputeRegionSecurityPolicy#dest_ports}
 
 ---
 
@@ -1986,7 +1986,7 @@ IPv4 protocol / IPv6 next header (after extension headers).
 
 Each element can be an 8-bit unsigned decimal number (e.g. "6"), range (e.g. "253-254"), or one of the following protocol names: "tcp", "udp", "icmp", "esp", "ah", "ipip", or "sctp".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#ip_protocols GoogleComputeRegionSecurityPolicy#ip_protocols}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#ip_protocols GoogleComputeRegionSecurityPolicy#ip_protocols}
 
 ---
 
@@ -2000,7 +2000,7 @@ SrcAsns *[]*f64
 
 BGP Autonomous System Number associated with the source IP address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#src_asns GoogleComputeRegionSecurityPolicy#src_asns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#src_asns GoogleComputeRegionSecurityPolicy#src_asns}
 
 ---
 
@@ -2014,7 +2014,7 @@ SrcIpRanges *[]*string
 
 Source IPv4/IPv6 addresses or CIDR prefixes, in standard text format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#src_ip_ranges GoogleComputeRegionSecurityPolicy#src_ip_ranges}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#src_ip_ranges GoogleComputeRegionSecurityPolicy#src_ip_ranges}
 
 ---
 
@@ -2030,7 +2030,7 @@ Source port numbers for TCP/UDP/SCTP.
 
 Each element can be a 16-bit unsigned decimal number (e.g. "80") or range (e.g. "0-1023").
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#src_ports GoogleComputeRegionSecurityPolicy#src_ports}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#src_ports GoogleComputeRegionSecurityPolicy#src_ports}
 
 ---
 
@@ -2044,7 +2044,7 @@ SrcRegionCodes *[]*string
 
 Two-letter ISO 3166-1 alpha-2 country code associated with the source IP address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#src_region_codes GoogleComputeRegionSecurityPolicy#src_region_codes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#src_region_codes GoogleComputeRegionSecurityPolicy#src_region_codes}
 
 ---
 
@@ -2058,7 +2058,7 @@ UserDefinedFields interface{}
 
 user_defined_fields block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#user_defined_fields GoogleComputeRegionSecurityPolicy#user_defined_fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#user_defined_fields GoogleComputeRegionSecurityPolicy#user_defined_fields}
 
 ---
 
@@ -2067,7 +2067,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyRulesNetworkMatchUserDefinedFields.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionsecuritypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecomputeregionsecuritypolicy"
 
 &googlecomputeregionsecuritypolicy.GoogleComputeRegionSecurityPolicyRulesNetworkMatchUserDefinedFields {
 	Name: *string,
@@ -2094,7 +2094,7 @@ Name *string
 
 Name of the user-defined field, as given in the definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#name GoogleComputeRegionSecurityPolicy#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#name GoogleComputeRegionSecurityPolicy#name}
 
 ---
 
@@ -2110,7 +2110,7 @@ Matching values of the field.
 
 Each element can be a 32-bit unsigned decimal or hexadecimal (starting with "0x") number (e.g. "64") or range (e.g. "0x400-0x7ff").
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#values GoogleComputeRegionSecurityPolicy#values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#values GoogleComputeRegionSecurityPolicy#values}
 
 ---
 
@@ -2119,7 +2119,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionsecuritypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecomputeregionsecuritypolicy"
 
 &googlecomputeregionsecuritypolicy.GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfig {
 	Exclusion: interface{},
@@ -2144,7 +2144,7 @@ Exclusion interface{}
 
 exclusion block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#exclusion GoogleComputeRegionSecurityPolicy#exclusion}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#exclusion GoogleComputeRegionSecurityPolicy#exclusion}
 
 ---
 
@@ -2153,7 +2153,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusion.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionsecuritypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecomputeregionsecuritypolicy"
 
 &googlecomputeregionsecuritypolicy.GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusion {
 	TargetRuleSet: *string,
@@ -2190,7 +2190,7 @@ TargetRuleSet *string
 
 Target WAF rule set to apply the preconfigured WAF exclusion.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#target_rule_set GoogleComputeRegionSecurityPolicy#target_rule_set}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#target_rule_set GoogleComputeRegionSecurityPolicy#target_rule_set}
 
 ---
 
@@ -2204,7 +2204,7 @@ RequestBody interface{}
 
 request_body block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#request_body GoogleComputeRegionSecurityPolicy#request_body}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#request_body GoogleComputeRegionSecurityPolicy#request_body}
 
 ---
 
@@ -2218,7 +2218,7 @@ RequestCookie interface{}
 
 request_cookie block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#request_cookie GoogleComputeRegionSecurityPolicy#request_cookie}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#request_cookie GoogleComputeRegionSecurityPolicy#request_cookie}
 
 ---
 
@@ -2232,7 +2232,7 @@ RequestHeader interface{}
 
 request_header block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#request_header GoogleComputeRegionSecurityPolicy#request_header}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#request_header GoogleComputeRegionSecurityPolicy#request_header}
 
 ---
 
@@ -2246,7 +2246,7 @@ RequestQueryParam interface{}
 
 request_query_param block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#request_query_param GoogleComputeRegionSecurityPolicy#request_query_param}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#request_query_param GoogleComputeRegionSecurityPolicy#request_query_param}
 
 ---
 
@@ -2260,7 +2260,7 @@ RequestUri interface{}
 
 request_uri block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#request_uri GoogleComputeRegionSecurityPolicy#request_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#request_uri GoogleComputeRegionSecurityPolicy#request_uri}
 
 ---
 
@@ -2276,7 +2276,7 @@ A list of target rule IDs under the WAF rule set to apply the preconfigured WAF 
 
 If omitted, it refers to all the rule IDs under the WAF rule set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#target_rule_ids GoogleComputeRegionSecurityPolicy#target_rule_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#target_rule_ids GoogleComputeRegionSecurityPolicy#target_rule_ids}
 
 ---
 
@@ -2285,7 +2285,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestBody.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionsecuritypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecomputeregionsecuritypolicy"
 
 &googlecomputeregionsecuritypolicy.GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestBody {
 	Operator: *string,
@@ -2319,7 +2319,7 @@ ENDS_WITH: The operator matches if the field value ends with the specified value
 CONTAINS: The operator matches if the field value contains the specified value.
 EQUALS_ANY: The operator matches if the field value is any value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#operator GoogleComputeRegionSecurityPolicy#operator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#operator GoogleComputeRegionSecurityPolicy#operator}
 
 ---
 
@@ -2335,7 +2335,7 @@ A request field matching the specified value will be excluded from inspection du
 
 The field value must be given if the field operator is not EQUALS_ANY, and cannot be given if the field operator is EQUALS_ANY.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#value GoogleComputeRegionSecurityPolicy#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#value GoogleComputeRegionSecurityPolicy#value}
 
 ---
 
@@ -2344,7 +2344,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestCookie.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionsecuritypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecomputeregionsecuritypolicy"
 
 &googlecomputeregionsecuritypolicy.GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestCookie {
 	Operator: *string,
@@ -2378,7 +2378,7 @@ ENDS_WITH: The operator matches if the field value ends with the specified value
 CONTAINS: The operator matches if the field value contains the specified value.
 EQUALS_ANY: The operator matches if the field value is any value. Possible values: ["CONTAINS", "ENDS_WITH", "EQUALS", "EQUALS_ANY", "STARTS_WITH"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#operator GoogleComputeRegionSecurityPolicy#operator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#operator GoogleComputeRegionSecurityPolicy#operator}
 
 ---
 
@@ -2394,7 +2394,7 @@ A request field matching the specified value will be excluded from inspection du
 
 The field value must be given if the field operator is not EQUALS_ANY, and cannot be given if the field operator is EQUALS_ANY.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#value GoogleComputeRegionSecurityPolicy#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#value GoogleComputeRegionSecurityPolicy#value}
 
 ---
 
@@ -2403,7 +2403,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestHeader.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionsecuritypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecomputeregionsecuritypolicy"
 
 &googlecomputeregionsecuritypolicy.GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestHeader {
 	Operator: *string,
@@ -2437,7 +2437,7 @@ ENDS_WITH: The operator matches if the field value ends with the specified value
 CONTAINS: The operator matches if the field value contains the specified value.
 EQUALS_ANY: The operator matches if the field value is any value. Possible values: ["CONTAINS", "ENDS_WITH", "EQUALS", "EQUALS_ANY", "STARTS_WITH"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#operator GoogleComputeRegionSecurityPolicy#operator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#operator GoogleComputeRegionSecurityPolicy#operator}
 
 ---
 
@@ -2453,7 +2453,7 @@ A request field matching the specified value will be excluded from inspection du
 
 The field value must be given if the field operator is not EQUALS_ANY, and cannot be given if the field operator is EQUALS_ANY.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#value GoogleComputeRegionSecurityPolicy#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#value GoogleComputeRegionSecurityPolicy#value}
 
 ---
 
@@ -2462,7 +2462,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestQueryParam.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionsecuritypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecomputeregionsecuritypolicy"
 
 &googlecomputeregionsecuritypolicy.GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestQueryParam {
 	Operator: *string,
@@ -2496,7 +2496,7 @@ ENDS_WITH: The operator matches if the field value ends with the specified value
 CONTAINS: The operator matches if the field value contains the specified value.
 EQUALS_ANY: The operator matches if the field value is any value. Possible values: ["CONTAINS", "ENDS_WITH", "EQUALS", "EQUALS_ANY", "STARTS_WITH"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#operator GoogleComputeRegionSecurityPolicy#operator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#operator GoogleComputeRegionSecurityPolicy#operator}
 
 ---
 
@@ -2512,7 +2512,7 @@ A request field matching the specified value will be excluded from inspection du
 
 The field value must be given if the field operator is not EQUALS_ANY, and cannot be given if the field operator is EQUALS_ANY.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#value GoogleComputeRegionSecurityPolicy#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#value GoogleComputeRegionSecurityPolicy#value}
 
 ---
 
@@ -2521,7 +2521,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestUri.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionsecuritypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecomputeregionsecuritypolicy"
 
 &googlecomputeregionsecuritypolicy.GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestUri {
 	Operator: *string,
@@ -2555,7 +2555,7 @@ ENDS_WITH: The operator matches if the field value ends with the specified value
 CONTAINS: The operator matches if the field value contains the specified value.
 EQUALS_ANY: The operator matches if the field value is any value. Possible values: ["CONTAINS", "ENDS_WITH", "EQUALS", "EQUALS_ANY", "STARTS_WITH"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#operator GoogleComputeRegionSecurityPolicy#operator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#operator GoogleComputeRegionSecurityPolicy#operator}
 
 ---
 
@@ -2571,7 +2571,7 @@ A request field matching the specified value will be excluded from inspection du
 
 The field value must be given if the field operator is not EQUALS_ANY, and cannot be given if the field operator is EQUALS_ANY.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#value GoogleComputeRegionSecurityPolicy#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#value GoogleComputeRegionSecurityPolicy#value}
 
 ---
 
@@ -2580,17 +2580,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyRulesRateLimitOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionsecuritypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecomputeregionsecuritypolicy"
 
 &googlecomputeregionsecuritypolicy.GoogleComputeRegionSecurityPolicyRulesRateLimitOptions {
 	BanDurationSec: *f64,
-	BanThreshold: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyRulesRateLimitOptionsBanThreshold,
+	BanThreshold: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyRulesRateLimitOptionsBanThreshold,
 	ConformAction: *string,
 	EnforceOnKey: *string,
 	EnforceOnKeyConfigs: interface{},
 	EnforceOnKeyName: *string,
 	ExceedAction: *string,
-	RateLimitThreshold: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyRulesRateLimitOptionsRateLimitThreshold,
+	RateLimitThreshold: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyRulesRateLimitOptionsRateLimitThreshold,
 }
 ```
 
@@ -2621,7 +2621,7 @@ Can only be specified if the action for the rule is "rate_based_ban".
 
 If specified, determines the time (in seconds) the traffic will continue to be banned by the rate limit after the rate falls below the threshold.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#ban_duration_sec GoogleComputeRegionSecurityPolicy#ban_duration_sec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#ban_duration_sec GoogleComputeRegionSecurityPolicy#ban_duration_sec}
 
 ---
 
@@ -2635,7 +2635,7 @@ BanThreshold GoogleComputeRegionSecurityPolicyRulesRateLimitOptionsBanThreshold
 
 ban_threshold block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#ban_threshold GoogleComputeRegionSecurityPolicy#ban_threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#ban_threshold GoogleComputeRegionSecurityPolicy#ban_threshold}
 
 ---
 
@@ -2649,7 +2649,7 @@ ConformAction *string
 
 Action to take for requests that are under the configured rate limit threshold. Valid option is "allow" only.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#conform_action GoogleComputeRegionSecurityPolicy#conform_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#conform_action GoogleComputeRegionSecurityPolicy#conform_action}
 
 ---
 
@@ -2677,7 +2677,7 @@ Possible values are:
 * TLS_JA4_FINGERPRINT: JA4 TLS/SSL fingerprint if the client connects using HTTPS, HTTP/2 or HTTP/3. If not available, the key type defaults to ALL.
 * USER_IP: The IP address of the originating client, which is resolved based on "userIpRequestHeaders" configured with the security policy. If there is no "userIpRequestHeaders" configuration or an IP address cannot be resolved from it, the key type defaults to IP. Possible values: ["ALL", "IP", "HTTP_HEADER", "XFF_IP", "HTTP_COOKIE", "HTTP_PATH", "SNI", "REGION_CODE", "TLS_JA3_FINGERPRINT", "TLS_JA4_FINGERPRINT", "USER_IP"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#enforce_on_key GoogleComputeRegionSecurityPolicy#enforce_on_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#enforce_on_key GoogleComputeRegionSecurityPolicy#enforce_on_key}
 
 ---
 
@@ -2691,7 +2691,7 @@ EnforceOnKeyConfigs interface{}
 
 enforce_on_key_configs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#enforce_on_key_configs GoogleComputeRegionSecurityPolicy#enforce_on_key_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#enforce_on_key_configs GoogleComputeRegionSecurityPolicy#enforce_on_key_configs}
 
 ---
 
@@ -2707,7 +2707,7 @@ Rate limit key name applicable only for the following key types: HTTP_HEADER -- 
 
 HTTP_COOKIE -- Name of the HTTP cookie whose value is taken as the key value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#enforce_on_key_name GoogleComputeRegionSecurityPolicy#enforce_on_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#enforce_on_key_name GoogleComputeRegionSecurityPolicy#enforce_on_key_name}
 
 ---
 
@@ -2723,7 +2723,7 @@ Action to take for requests that are above the configured rate limit threshold, 
 
 Valid options are deny(STATUS), where valid values for STATUS are 403, 404, 429, and 502.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#exceed_action GoogleComputeRegionSecurityPolicy#exceed_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#exceed_action GoogleComputeRegionSecurityPolicy#exceed_action}
 
 ---
 
@@ -2737,7 +2737,7 @@ RateLimitThreshold GoogleComputeRegionSecurityPolicyRulesRateLimitOptionsRateLim
 
 rate_limit_threshold block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#rate_limit_threshold GoogleComputeRegionSecurityPolicy#rate_limit_threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#rate_limit_threshold GoogleComputeRegionSecurityPolicy#rate_limit_threshold}
 
 ---
 
@@ -2746,7 +2746,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyRulesRateLimitOptionsBanThreshold.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionsecuritypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecomputeregionsecuritypolicy"
 
 &googlecomputeregionsecuritypolicy.GoogleComputeRegionSecurityPolicyRulesRateLimitOptionsBanThreshold {
 	Count: *f64,
@@ -2773,7 +2773,7 @@ Count *f64
 
 Number of HTTP(S) requests for calculating the threshold.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#count GoogleComputeRegionSecurityPolicy#count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#count GoogleComputeRegionSecurityPolicy#count}
 
 ---
 
@@ -2787,7 +2787,7 @@ IntervalSec *f64
 
 Interval over which the threshold is computed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#interval_sec GoogleComputeRegionSecurityPolicy#interval_sec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#interval_sec GoogleComputeRegionSecurityPolicy#interval_sec}
 
 ---
 
@@ -2796,7 +2796,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyRulesRateLimitOptionsEnforceOnKeyConfigs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionsecuritypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecomputeregionsecuritypolicy"
 
 &googlecomputeregionsecuritypolicy.GoogleComputeRegionSecurityPolicyRulesRateLimitOptionsEnforceOnKeyConfigs {
 	EnforceOnKeyName: *string,
@@ -2825,7 +2825,7 @@ Rate limit key name applicable only for the following key types: HTTP_HEADER -- 
 
 HTTP_COOKIE -- Name of the HTTP cookie whose value is taken as the key value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#enforce_on_key_name GoogleComputeRegionSecurityPolicy#enforce_on_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#enforce_on_key_name GoogleComputeRegionSecurityPolicy#enforce_on_key_name}
 
 ---
 
@@ -2853,7 +2853,7 @@ Possible values are:
 * TLS_JA4_FINGERPRINT: JA4 TLS/SSL fingerprint if the client connects using HTTPS, HTTP/2 or HTTP/3. If not available, the key type defaults to ALL.
 * USER_IP: The IP address of the originating client, which is resolved based on "userIpRequestHeaders" configured with the security policy. If there is no "userIpRequestHeaders" configuration or an IP address cannot be resolved from it, the key type defaults to IP. Possible values: ["ALL", "IP", "HTTP_HEADER", "XFF_IP", "HTTP_COOKIE", "HTTP_PATH", "SNI", "REGION_CODE", "TLS_JA3_FINGERPRINT", "TLS_JA4_FINGERPRINT", "USER_IP"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#enforce_on_key_type GoogleComputeRegionSecurityPolicy#enforce_on_key_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#enforce_on_key_type GoogleComputeRegionSecurityPolicy#enforce_on_key_type}
 
 ---
 
@@ -2862,7 +2862,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyRulesRateLimitOptionsRateLimitThreshold.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionsecuritypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecomputeregionsecuritypolicy"
 
 &googlecomputeregionsecuritypolicy.GoogleComputeRegionSecurityPolicyRulesRateLimitOptionsRateLimitThreshold {
 	Count: *f64,
@@ -2889,7 +2889,7 @@ Count *f64
 
 Number of HTTP(S) requests for calculating the threshold.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#count GoogleComputeRegionSecurityPolicy#count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#count GoogleComputeRegionSecurityPolicy#count}
 
 ---
 
@@ -2903,7 +2903,7 @@ IntervalSec *f64
 
 Interval over which the threshold is computed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#interval_sec GoogleComputeRegionSecurityPolicy#interval_sec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#interval_sec GoogleComputeRegionSecurityPolicy#interval_sec}
 
 ---
 
@@ -2912,7 +2912,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionsecuritypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecomputeregionsecuritypolicy"
 
 &googlecomputeregionsecuritypolicy.GoogleComputeRegionSecurityPolicyTimeouts {
 	Create: *string,
@@ -2925,9 +2925,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleco
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#create GoogleComputeRegionSecurityPolicy#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#delete GoogleComputeRegionSecurityPolicy#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#update GoogleComputeRegionSecurityPolicy#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#create GoogleComputeRegionSecurityPolicy#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#delete GoogleComputeRegionSecurityPolicy#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#update GoogleComputeRegionSecurityPolicy#update}. |
 
 ---
 
@@ -2939,7 +2939,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#create GoogleComputeRegionSecurityPolicy#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#create GoogleComputeRegionSecurityPolicy#create}.
 
 ---
 
@@ -2951,7 +2951,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#delete GoogleComputeRegionSecurityPolicy#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#delete GoogleComputeRegionSecurityPolicy#delete}.
 
 ---
 
@@ -2963,7 +2963,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#update GoogleComputeRegionSecurityPolicy#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#update GoogleComputeRegionSecurityPolicy#update}.
 
 ---
 
@@ -2972,7 +2972,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyUserDefinedFields.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionsecuritypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecomputeregionsecuritypolicy"
 
 &googlecomputeregionsecuritypolicy.GoogleComputeRegionSecurityPolicyUserDefinedFields {
 	Base: *string,
@@ -3012,7 +3012,7 @@ Possible values are:
 * TCP: Points to the beginning of the TCP header, skipping over any IPv4 options or IPv6 extension headers. Not present for non-first fragments.
 * UDP: Points to the beginning of the UDP header, skipping over any IPv4 options or IPv6 extension headers. Not present for non-first fragments. Possible values: ["IPV4", "IPV6", "TCP", "UDP"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#base GoogleComputeRegionSecurityPolicy#base}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#base GoogleComputeRegionSecurityPolicy#base}
 
 ---
 
@@ -3029,7 +3029,7 @@ If specified, apply this mask (bitwise AND) to the field to ignore bits before m
 Encoded as a hexadecimal number (starting with "0x").
 The last byte of the field (in network byte order) corresponds to the least significant byte of the mask.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#mask GoogleComputeRegionSecurityPolicy#mask}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#mask GoogleComputeRegionSecurityPolicy#mask}
 
 ---
 
@@ -3043,7 +3043,7 @@ Name *string
 
 The name of this field. Must be unique within the policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#name GoogleComputeRegionSecurityPolicy#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#name GoogleComputeRegionSecurityPolicy#name}
 
 ---
 
@@ -3057,7 +3057,7 @@ Offset *f64
 
 Offset of the first byte of the field (in network byte order) relative to 'base'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#offset GoogleComputeRegionSecurityPolicy#offset}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#offset GoogleComputeRegionSecurityPolicy#offset}
 
 ---
 
@@ -3071,7 +3071,7 @@ Size *f64
 
 Size of the field in bytes. Valid values: 1-4.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_region_security_policy#size GoogleComputeRegionSecurityPolicy#size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_region_security_policy#size GoogleComputeRegionSecurityPolicy#size}
 
 ---
 
@@ -3082,7 +3082,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyAdvancedOptionsConfigJsonCustomConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionsecuritypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecomputeregionsecuritypolicy"
 
 googlecomputeregionsecuritypolicy.NewGoogleComputeRegionSecurityPolicyAdvancedOptionsConfigJsonCustomConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeRegionSecurityPolicyAdvancedOptionsConfigJsonCustomConfigOutputReference
 ```
@@ -3353,7 +3353,7 @@ func InternalValue() GoogleComputeRegionSecurityPolicyAdvancedOptionsConfigJsonC
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyAdvancedOptionsConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionsecuritypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecomputeregionsecuritypolicy"
 
 googlecomputeregionsecuritypolicy.NewGoogleComputeRegionSecurityPolicyAdvancedOptionsConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeRegionSecurityPolicyAdvancedOptionsConfigOutputReference
 ```
@@ -3760,7 +3760,7 @@ func InternalValue() GoogleComputeRegionSecurityPolicyAdvancedOptionsConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyDdosProtectionConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionsecuritypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecomputeregionsecuritypolicy"
 
 googlecomputeregionsecuritypolicy.NewGoogleComputeRegionSecurityPolicyDdosProtectionConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeRegionSecurityPolicyDdosProtectionConfigOutputReference
 ```
@@ -4031,7 +4031,7 @@ func InternalValue() GoogleComputeRegionSecurityPolicyDdosProtectionConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyRulesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionsecuritypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecomputeregionsecuritypolicy"
 
 googlecomputeregionsecuritypolicy.NewGoogleComputeRegionSecurityPolicyRulesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeRegionSecurityPolicyRulesList
 ```
@@ -4191,7 +4191,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyRulesMatchConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionsecuritypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecomputeregionsecuritypolicy"
 
 googlecomputeregionsecuritypolicy.NewGoogleComputeRegionSecurityPolicyRulesMatchConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeRegionSecurityPolicyRulesMatchConfigOutputReference
 ```
@@ -4469,7 +4469,7 @@ func InternalValue() GoogleComputeRegionSecurityPolicyRulesMatchConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyRulesMatchExprOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionsecuritypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecomputeregionsecuritypolicy"
 
 googlecomputeregionsecuritypolicy.NewGoogleComputeRegionSecurityPolicyRulesMatchExprOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeRegionSecurityPolicyRulesMatchExprOutputReference
 ```
@@ -4740,7 +4740,7 @@ func InternalValue() GoogleComputeRegionSecurityPolicyRulesMatchExpr
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyRulesMatchOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionsecuritypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecomputeregionsecuritypolicy"
 
 googlecomputeregionsecuritypolicy.NewGoogleComputeRegionSecurityPolicyRulesMatchOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeRegionSecurityPolicyRulesMatchOutputReference
 ```
@@ -5102,7 +5102,7 @@ func InternalValue() GoogleComputeRegionSecurityPolicyRulesMatch
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyRulesNetworkMatchOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionsecuritypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecomputeregionsecuritypolicy"
 
 googlecomputeregionsecuritypolicy.NewGoogleComputeRegionSecurityPolicyRulesNetworkMatchOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeRegionSecurityPolicyRulesNetworkMatchOutputReference
 ```
@@ -5596,7 +5596,7 @@ func InternalValue() GoogleComputeRegionSecurityPolicyRulesNetworkMatch
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyRulesNetworkMatchUserDefinedFieldsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionsecuritypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecomputeregionsecuritypolicy"
 
 googlecomputeregionsecuritypolicy.NewGoogleComputeRegionSecurityPolicyRulesNetworkMatchUserDefinedFieldsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeRegionSecurityPolicyRulesNetworkMatchUserDefinedFieldsList
 ```
@@ -5756,7 +5756,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyRulesNetworkMatchUserDefinedFieldsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionsecuritypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecomputeregionsecuritypolicy"
 
 googlecomputeregionsecuritypolicy.NewGoogleComputeRegionSecurityPolicyRulesNetworkMatchUserDefinedFieldsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeRegionSecurityPolicyRulesNetworkMatchUserDefinedFieldsOutputReference
 ```
@@ -6081,7 +6081,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyRulesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionsecuritypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecomputeregionsecuritypolicy"
 
 googlecomputeregionsecuritypolicy.NewGoogleComputeRegionSecurityPolicyRulesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeRegionSecurityPolicyRulesOutputReference
 ```
@@ -6618,7 +6618,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionsecuritypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecomputeregionsecuritypolicy"
 
 googlecomputeregionsecuritypolicy.NewGoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionList
 ```
@@ -6778,7 +6778,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionsecuritypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecomputeregionsecuritypolicy"
 
 googlecomputeregionsecuritypolicy.NewGoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionOutputReference
 ```
@@ -7306,7 +7306,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestBodyList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionsecuritypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecomputeregionsecuritypolicy"
 
 googlecomputeregionsecuritypolicy.NewGoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestBodyList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestBodyList
 ```
@@ -7466,7 +7466,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestBodyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionsecuritypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecomputeregionsecuritypolicy"
 
 googlecomputeregionsecuritypolicy.NewGoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestBodyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestBodyOutputReference
 ```
@@ -7784,7 +7784,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestCookieList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionsecuritypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecomputeregionsecuritypolicy"
 
 googlecomputeregionsecuritypolicy.NewGoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestCookieList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestCookieList
 ```
@@ -7944,7 +7944,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestCookieOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionsecuritypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecomputeregionsecuritypolicy"
 
 googlecomputeregionsecuritypolicy.NewGoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestCookieOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestCookieOutputReference
 ```
@@ -8262,7 +8262,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestHeaderList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionsecuritypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecomputeregionsecuritypolicy"
 
 googlecomputeregionsecuritypolicy.NewGoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestHeaderList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestHeaderList
 ```
@@ -8422,7 +8422,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestHeaderOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionsecuritypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecomputeregionsecuritypolicy"
 
 googlecomputeregionsecuritypolicy.NewGoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestHeaderOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestHeaderOutputReference
 ```
@@ -8740,7 +8740,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestQueryParamList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionsecuritypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecomputeregionsecuritypolicy"
 
 googlecomputeregionsecuritypolicy.NewGoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestQueryParamList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestQueryParamList
 ```
@@ -8900,7 +8900,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestQueryParamOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionsecuritypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecomputeregionsecuritypolicy"
 
 googlecomputeregionsecuritypolicy.NewGoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestQueryParamOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestQueryParamOutputReference
 ```
@@ -9218,7 +9218,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestUriList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionsecuritypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecomputeregionsecuritypolicy"
 
 googlecomputeregionsecuritypolicy.NewGoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestUriList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestUriList
 ```
@@ -9378,7 +9378,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestUriOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionsecuritypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecomputeregionsecuritypolicy"
 
 googlecomputeregionsecuritypolicy.NewGoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestUriOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestUriOutputReference
 ```
@@ -9696,7 +9696,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionsecuritypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecomputeregionsecuritypolicy"
 
 googlecomputeregionsecuritypolicy.NewGoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigOutputReference
 ```
@@ -9987,7 +9987,7 @@ func InternalValue() GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyRulesRateLimitOptionsBanThresholdOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionsecuritypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecomputeregionsecuritypolicy"
 
 googlecomputeregionsecuritypolicy.NewGoogleComputeRegionSecurityPolicyRulesRateLimitOptionsBanThresholdOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeRegionSecurityPolicyRulesRateLimitOptionsBanThresholdOutputReference
 ```
@@ -10294,7 +10294,7 @@ func InternalValue() GoogleComputeRegionSecurityPolicyRulesRateLimitOptionsBanTh
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyRulesRateLimitOptionsEnforceOnKeyConfigsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionsecuritypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecomputeregionsecuritypolicy"
 
 googlecomputeregionsecuritypolicy.NewGoogleComputeRegionSecurityPolicyRulesRateLimitOptionsEnforceOnKeyConfigsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeRegionSecurityPolicyRulesRateLimitOptionsEnforceOnKeyConfigsList
 ```
@@ -10454,7 +10454,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyRulesRateLimitOptionsEnforceOnKeyConfigsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionsecuritypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecomputeregionsecuritypolicy"
 
 googlecomputeregionsecuritypolicy.NewGoogleComputeRegionSecurityPolicyRulesRateLimitOptionsEnforceOnKeyConfigsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeRegionSecurityPolicyRulesRateLimitOptionsEnforceOnKeyConfigsOutputReference
 ```
@@ -10779,7 +10779,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyRulesRateLimitOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionsecuritypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecomputeregionsecuritypolicy"
 
 googlecomputeregionsecuritypolicy.NewGoogleComputeRegionSecurityPolicyRulesRateLimitOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeRegionSecurityPolicyRulesRateLimitOptionsOutputReference
 ```
@@ -11299,7 +11299,7 @@ func InternalValue() GoogleComputeRegionSecurityPolicyRulesRateLimitOptions
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyRulesRateLimitOptionsRateLimitThresholdOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionsecuritypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecomputeregionsecuritypolicy"
 
 googlecomputeregionsecuritypolicy.NewGoogleComputeRegionSecurityPolicyRulesRateLimitOptionsRateLimitThresholdOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeRegionSecurityPolicyRulesRateLimitOptionsRateLimitThresholdOutputReference
 ```
@@ -11606,7 +11606,7 @@ func InternalValue() GoogleComputeRegionSecurityPolicyRulesRateLimitOptionsRateL
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionsecuritypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecomputeregionsecuritypolicy"
 
 googlecomputeregionsecuritypolicy.NewGoogleComputeRegionSecurityPolicyTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeRegionSecurityPolicyTimeoutsOutputReference
 ```
@@ -11942,7 +11942,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyUserDefinedFieldsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionsecuritypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecomputeregionsecuritypolicy"
 
 googlecomputeregionsecuritypolicy.NewGoogleComputeRegionSecurityPolicyUserDefinedFieldsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeRegionSecurityPolicyUserDefinedFieldsList
 ```
@@ -12102,7 +12102,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionSecurityPolicy.GoogleComputeRegionSecurityPolicyUserDefinedFieldsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionsecuritypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlecomputeregionsecuritypolicy"
 
 googlecomputeregionsecuritypolicy.NewGoogleComputeRegionSecurityPolicyUserDefinedFieldsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeRegionSecurityPolicyUserDefinedFieldsOutputReference
 ```

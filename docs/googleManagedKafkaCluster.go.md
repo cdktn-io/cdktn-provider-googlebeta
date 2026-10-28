@@ -4,12 +4,12 @@
 
 ### GoogleManagedKafkaCluster <a name="GoogleManagedKafkaCluster" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaCluster"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_managed_kafka_cluster google_managed_kafka_cluster}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_managed_kafka_cluster google_managed_kafka_cluster}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaCluster.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemanagedkafkacluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlemanagedkafkacluster"
 
 googlemanagedkafkacluster.NewGoogleManagedKafkaCluster(scope Construct, id *string, config GoogleManagedKafkaClusterConfig) GoogleManagedKafkaCluster
 ```
@@ -541,7 +541,7 @@ func ResetTlsConfig()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaCluster.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemanagedkafkacluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlemanagedkafkacluster"
 
 googlemanagedkafkacluster.GoogleManagedKafkaCluster_IsConstruct(x interface{}) *bool
 ```
@@ -573,7 +573,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaCluster.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemanagedkafkacluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlemanagedkafkacluster"
 
 googlemanagedkafkacluster.GoogleManagedKafkaCluster_IsTerraformElement(x interface{}) *bool
 ```
@@ -587,7 +587,7 @@ googlemanagedkafkacluster.GoogleManagedKafkaCluster_IsTerraformElement(x interfa
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaCluster.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemanagedkafkacluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlemanagedkafkacluster"
 
 googlemanagedkafkacluster.GoogleManagedKafkaCluster_IsTerraformResource(x interface{}) *bool
 ```
@@ -601,7 +601,7 @@ googlemanagedkafkacluster.GoogleManagedKafkaCluster_IsTerraformResource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaCluster.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemanagedkafkacluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlemanagedkafkacluster"
 
 googlemanagedkafkacluster.GoogleManagedKafkaCluster_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -630,7 +630,7 @@ The construct id used in the generated config for the GoogleManagedKafkaCluster 
 
 The id of the existing GoogleManagedKafkaCluster that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_managed_kafka_cluster#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_managed_kafka_cluster#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1204,7 +1204,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterBrokerCapacityConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemanagedkafkacluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlemanagedkafkacluster"
 
 &googlemanagedkafkacluster.GoogleManagedKafkaClusterBrokerCapacityConfig {
 	DiskSizeGib: *string,
@@ -1229,7 +1229,7 @@ DiskSizeGib *string
 
 The disk to provision for each broker in Gibibytes. Minimum: 100 GiB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_managed_kafka_cluster#disk_size_gib GoogleManagedKafkaCluster#disk_size_gib}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_managed_kafka_cluster#disk_size_gib GoogleManagedKafkaCluster#disk_size_gib}
 
 ---
 
@@ -1238,7 +1238,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterCapacityConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemanagedkafkacluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlemanagedkafkacluster"
 
 &googlemanagedkafkacluster.GoogleManagedKafkaClusterCapacityConfig {
 	MemoryBytes: *string,
@@ -1267,7 +1267,7 @@ The memory to provision for the cluster in bytes.
 
 The value must be between 1 GiB and 8 GiB per vCPU. Ex. 1024Mi, 4Gi.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_managed_kafka_cluster#memory_bytes GoogleManagedKafkaCluster#memory_bytes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_managed_kafka_cluster#memory_bytes GoogleManagedKafkaCluster#memory_bytes}
 
 ---
 
@@ -1281,7 +1281,7 @@ VcpuCount *string
 
 The number of vCPUs to provision for the cluster. The minimum is 3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_managed_kafka_cluster#vcpu_count GoogleManagedKafkaCluster#vcpu_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_managed_kafka_cluster#vcpu_count GoogleManagedKafkaCluster#vcpu_count}
 
 ---
 
@@ -1290,7 +1290,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemanagedkafkacluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlemanagedkafkacluster"
 
 &googlemanagedkafkacluster.GoogleManagedKafkaClusterConfig {
 	Connection: interface{},
@@ -1300,19 +1300,19 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlema
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	CapacityConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleManagedKafkaCluster.GoogleManagedKafkaClusterCapacityConfig,
+	CapacityConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleManagedKafkaCluster.GoogleManagedKafkaClusterCapacityConfig,
 	ClusterId: *string,
-	GcpConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfig,
+	GcpConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfig,
 	Location: *string,
-	BrokerCapacityConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleManagedKafkaCluster.GoogleManagedKafkaClusterBrokerCapacityConfig,
+	BrokerCapacityConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleManagedKafkaCluster.GoogleManagedKafkaClusterBrokerCapacityConfig,
 	DeletionPolicy: *string,
 	Id: *string,
 	KafkaVersion: *string,
 	Labels: *map[string]*string,
 	Project: *string,
-	RebalanceConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleManagedKafkaCluster.GoogleManagedKafkaClusterRebalanceConfig,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleManagedKafkaCluster.GoogleManagedKafkaClusterTimeouts,
-	TlsConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleManagedKafkaCluster.GoogleManagedKafkaClusterTlsConfig,
+	RebalanceConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleManagedKafkaCluster.GoogleManagedKafkaClusterRebalanceConfig,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleManagedKafkaCluster.GoogleManagedKafkaClusterTimeouts,
+	TlsConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleManagedKafkaCluster.GoogleManagedKafkaClusterTlsConfig,
 }
 ```
 
@@ -1333,10 +1333,10 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlema
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterConfig.property.location">Location</a></code> | <code>*string</code> | ID of the location of the Kafka resource. See https://cloud.google.com/managed-kafka/docs/locations for a list of supported locations. |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterConfig.property.brokerCapacityConfig">BrokerCapacityConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterBrokerCapacityConfig">GoogleManagedKafkaClusterBrokerCapacityConfig</a></code> | broker_capacity_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_managed_kafka_cluster#id GoogleManagedKafkaCluster#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterConfig.property.kafkaVersion">KafkaVersion</a></code> | <code>*string</code> | The Apache Kafka version of the cluster (for example, '3.7.x', '4.3.x'). If not specified during cluster creation, defaults to '3.7.x'. |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_managed_kafka_cluster#id GoogleManagedKafkaCluster#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterConfig.property.kafkaVersion">KafkaVersion</a></code> | <code>*string</code> | The Apache Kafka version of the cluster. |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterConfig.property.labels">Labels</a></code> | <code>*map[string]*string</code> | List of label KEY=VALUE pairs to add. |
-| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_managed_kafka_cluster#project GoogleManagedKafkaCluster#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_managed_kafka_cluster#project GoogleManagedKafkaCluster#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterConfig.property.rebalanceConfig">RebalanceConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterRebalanceConfig">GoogleManagedKafkaClusterRebalanceConfig</a></code> | rebalance_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterTimeouts">GoogleManagedKafkaClusterTimeouts</a></code> | timeouts block. |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterConfig.property.tlsConfig">TlsConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterTlsConfig">GoogleManagedKafkaClusterTlsConfig</a></code> | tls_config block. |
@@ -1423,7 +1423,7 @@ CapacityConfig GoogleManagedKafkaClusterCapacityConfig
 
 capacity_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_managed_kafka_cluster#capacity_config GoogleManagedKafkaCluster#capacity_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_managed_kafka_cluster#capacity_config GoogleManagedKafkaCluster#capacity_config}
 
 ---
 
@@ -1439,7 +1439,7 @@ The ID to use for the cluster, which will become the final component of the clus
 
 The ID must be 1-63 characters long, and match the regular expression '[a-z](%5B-a-z0-9%5D*%5Ba-z0-9%5D)?' to comply with RFC 1035. This value is structured like: 'my-cluster-id'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_managed_kafka_cluster#cluster_id GoogleManagedKafkaCluster#cluster_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_managed_kafka_cluster#cluster_id GoogleManagedKafkaCluster#cluster_id}
 
 ---
 
@@ -1453,7 +1453,7 @@ GcpConfig GoogleManagedKafkaClusterGcpConfig
 
 gcp_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_managed_kafka_cluster#gcp_config GoogleManagedKafkaCluster#gcp_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_managed_kafka_cluster#gcp_config GoogleManagedKafkaCluster#gcp_config}
 
 ---
 
@@ -1467,7 +1467,7 @@ Location *string
 
 ID of the location of the Kafka resource. See https://cloud.google.com/managed-kafka/docs/locations for a list of supported locations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_managed_kafka_cluster#location GoogleManagedKafkaCluster#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_managed_kafka_cluster#location GoogleManagedKafkaCluster#location}
 
 ---
 
@@ -1481,7 +1481,7 @@ BrokerCapacityConfig GoogleManagedKafkaClusterBrokerCapacityConfig
 
 broker_capacity_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_managed_kafka_cluster#broker_capacity_config GoogleManagedKafkaCluster#broker_capacity_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_managed_kafka_cluster#broker_capacity_config GoogleManagedKafkaCluster#broker_capacity_config}
 
 ---
 
@@ -1502,7 +1502,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_managed_kafka_cluster#deletion_policy GoogleManagedKafkaCluster#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_managed_kafka_cluster#deletion_policy GoogleManagedKafkaCluster#deletion_policy}
 
 ---
 
@@ -1514,7 +1514,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_managed_kafka_cluster#id GoogleManagedKafkaCluster#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_managed_kafka_cluster#id GoogleManagedKafkaCluster#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1529,9 +1529,13 @@ KafkaVersion *string
 
 - *Type:* *string
 
-The Apache Kafka version of the cluster (for example, '3.7.x', '4.3.x'). If not specified during cluster creation, defaults to '3.7.x'.
+The Apache Kafka version of the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_managed_kafka_cluster#kafka_version GoogleManagedKafkaCluster#kafka_version}
+Specifically, this value is the finalized metadata version.
+If not specified during cluster creation, defaults to '3.7.x'.
+If you manage Kafka versions outside of Terraform, leave this field unset to avoid a permanent diff.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_managed_kafka_cluster#kafka_version GoogleManagedKafkaCluster#kafka_version}
 
 ---
 
@@ -1550,7 +1554,7 @@ Keys must start with a lowercase character and contain only hyphens (-), undersc
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_managed_kafka_cluster#labels GoogleManagedKafkaCluster#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_managed_kafka_cluster#labels GoogleManagedKafkaCluster#labels}
 
 ---
 
@@ -1562,7 +1566,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_managed_kafka_cluster#project GoogleManagedKafkaCluster#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_managed_kafka_cluster#project GoogleManagedKafkaCluster#project}.
 
 ---
 
@@ -1576,7 +1580,7 @@ RebalanceConfig GoogleManagedKafkaClusterRebalanceConfig
 
 rebalance_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_managed_kafka_cluster#rebalance_config GoogleManagedKafkaCluster#rebalance_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_managed_kafka_cluster#rebalance_config GoogleManagedKafkaCluster#rebalance_config}
 
 ---
 
@@ -1590,7 +1594,7 @@ Timeouts GoogleManagedKafkaClusterTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_managed_kafka_cluster#timeouts GoogleManagedKafkaCluster#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_managed_kafka_cluster#timeouts GoogleManagedKafkaCluster#timeouts}
 
 ---
 
@@ -1604,7 +1608,7 @@ TlsConfig GoogleManagedKafkaClusterTlsConfig
 
 tls_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_managed_kafka_cluster#tls_config GoogleManagedKafkaCluster#tls_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_managed_kafka_cluster#tls_config GoogleManagedKafkaCluster#tls_config}
 
 ---
 
@@ -1613,10 +1617,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemanagedkafkacluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlemanagedkafkacluster"
 
 &googlemanagedkafkacluster.GoogleManagedKafkaClusterGcpConfig {
-	AccessConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfig,
+	AccessConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfig,
 	KmsKey: *string,
 }
 ```
@@ -1640,7 +1644,7 @@ AccessConfig GoogleManagedKafkaClusterGcpConfigAccessConfig
 
 access_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_managed_kafka_cluster#access_config GoogleManagedKafkaCluster#access_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_managed_kafka_cluster#access_config GoogleManagedKafkaCluster#access_config}
 
 ---
 
@@ -1656,7 +1660,7 @@ The Cloud KMS Key name to use for encryption.
 
 The key must be located in the same region as the cluster and cannot be changed. Must be in the format 'projects/PROJECT_ID/locations/LOCATION/keyRings/KEY_RING/cryptoKeys/KEY'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_managed_kafka_cluster#kms_key GoogleManagedKafkaCluster#kms_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_managed_kafka_cluster#kms_key GoogleManagedKafkaCluster#kms_key}
 
 ---
 
@@ -1665,11 +1669,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemanagedkafkacluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlemanagedkafkacluster"
 
 &googlemanagedkafkacluster.GoogleManagedKafkaClusterGcpConfigAccessConfig {
 	NetworkConfigs: interface{},
-	PublicClusterConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfig,
+	PublicClusterConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfig,
 }
 ```
 
@@ -1692,7 +1696,7 @@ NetworkConfigs interface{}
 
 network_configs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_managed_kafka_cluster#network_configs GoogleManagedKafkaCluster#network_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_managed_kafka_cluster#network_configs GoogleManagedKafkaCluster#network_configs}
 
 ---
 
@@ -1706,7 +1710,7 @@ PublicClusterConfig GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterC
 
 public_cluster_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_managed_kafka_cluster#public_cluster_config GoogleManagedKafkaCluster#public_cluster_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_managed_kafka_cluster#public_cluster_config GoogleManagedKafkaCluster#public_cluster_config}
 
 ---
 
@@ -1715,7 +1719,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigNetworkConfigs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemanagedkafkacluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlemanagedkafkacluster"
 
 &googlemanagedkafkacluster.GoogleManagedKafkaClusterGcpConfigAccessConfigNetworkConfigs {
 	Subnet: *string,
@@ -1742,7 +1746,7 @@ Name of the VPC subnet from which the cluster is accessible.
 
 Both broker and bootstrap server IP addresses and DNS entries are automatically created in the subnet. There can only be one subnet per network, and the subnet must be located in the same region as the cluster. The project may differ. The name of the subnet must be in the format 'projects/PROJECT_ID/regions/REGION/subnetworks/SUBNET'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_managed_kafka_cluster#subnet GoogleManagedKafkaCluster#subnet}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_managed_kafka_cluster#subnet GoogleManagedKafkaCluster#subnet}
 
 ---
 
@@ -1751,7 +1755,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemanagedkafkacluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlemanagedkafkacluster"
 
 &googlemanagedkafkacluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfig {
 	AllowedSourceIpRanges: *[]*string,
@@ -1778,7 +1782,7 @@ A list of IPv4 addresses or CIDR ranges that are allowed to connect to the clust
 
 To protect your cluster, allow access from only trusted external IP ranges. Don't expose your cluster to untrusted ranges.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_managed_kafka_cluster#allowed_source_ip_ranges GoogleManagedKafkaCluster#allowed_source_ip_ranges}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_managed_kafka_cluster#allowed_source_ip_ranges GoogleManagedKafkaCluster#allowed_source_ip_ranges}
 
 ---
 
@@ -1787,7 +1791,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemanagedkafkacluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlemanagedkafkacluster"
 
 &googlemanagedkafkacluster.GoogleManagedKafkaClusterPublicClusterDetails {
 
@@ -1800,7 +1804,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlema
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterRebalanceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemanagedkafkacluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlemanagedkafkacluster"
 
 &googlemanagedkafkacluster.GoogleManagedKafkaClusterRebalanceConfig {
 	Mode: *string,
@@ -1825,7 +1829,7 @@ Mode *string
 
 The rebalance behavior for the cluster. When not specified, defaults to 'NO_REBALANCE'. Possible values: 'MODE_UNSPECIFIED', 'NO_REBALANCE', 'AUTO_REBALANCE_ON_SCALE_UP'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_managed_kafka_cluster#mode GoogleManagedKafkaCluster#mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_managed_kafka_cluster#mode GoogleManagedKafkaCluster#mode}
 
 ---
 
@@ -1834,7 +1838,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemanagedkafkacluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlemanagedkafkacluster"
 
 &googlemanagedkafkacluster.GoogleManagedKafkaClusterTimeouts {
 	Create: *string,
@@ -1847,9 +1851,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlema
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_managed_kafka_cluster#create GoogleManagedKafkaCluster#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_managed_kafka_cluster#delete GoogleManagedKafkaCluster#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_managed_kafka_cluster#update GoogleManagedKafkaCluster#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_managed_kafka_cluster#create GoogleManagedKafkaCluster#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_managed_kafka_cluster#delete GoogleManagedKafkaCluster#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_managed_kafka_cluster#update GoogleManagedKafkaCluster#update}. |
 
 ---
 
@@ -1861,7 +1865,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_managed_kafka_cluster#create GoogleManagedKafkaCluster#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_managed_kafka_cluster#create GoogleManagedKafkaCluster#create}.
 
 ---
 
@@ -1873,7 +1877,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_managed_kafka_cluster#delete GoogleManagedKafkaCluster#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_managed_kafka_cluster#delete GoogleManagedKafkaCluster#delete}.
 
 ---
 
@@ -1885,7 +1889,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_managed_kafka_cluster#update GoogleManagedKafkaCluster#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_managed_kafka_cluster#update GoogleManagedKafkaCluster#update}.
 
 ---
 
@@ -1894,11 +1898,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterTlsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemanagedkafkacluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlemanagedkafkacluster"
 
 &googlemanagedkafkacluster.GoogleManagedKafkaClusterTlsConfig {
 	SslPrincipalMappingRules: *string,
-	TrustConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleManagedKafkaCluster.GoogleManagedKafkaClusterTlsConfigTrustConfig,
+	TrustConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleManagedKafkaCluster.GoogleManagedKafkaClusterTlsConfigTrustConfig,
 }
 ```
 
@@ -1923,7 +1927,7 @@ The rules for mapping mTLS certificate Distinguished Names (DNs) to shortened pr
 
 This field corresponds exactly to the ssl.principal.mapping.rules broker config and matches the format and syntax defined in the Apache Kafka documentation. Setting or modifying this field will trigger a rolling restart of the Kafka brokers to apply the change. An empty string means that the default Kafka behavior is used. Example: 'RULE:^CN=(.?),OU=ServiceUsers.$/$1@example.com/,DEFAULT'
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_managed_kafka_cluster#ssl_principal_mapping_rules GoogleManagedKafkaCluster#ssl_principal_mapping_rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_managed_kafka_cluster#ssl_principal_mapping_rules GoogleManagedKafkaCluster#ssl_principal_mapping_rules}
 
 ---
 
@@ -1937,7 +1941,7 @@ TrustConfig GoogleManagedKafkaClusterTlsConfigTrustConfig
 
 trust_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_managed_kafka_cluster#trust_config GoogleManagedKafkaCluster#trust_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_managed_kafka_cluster#trust_config GoogleManagedKafkaCluster#trust_config}
 
 ---
 
@@ -1946,7 +1950,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterTlsConfigTrustConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemanagedkafkacluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlemanagedkafkacluster"
 
 &googlemanagedkafkacluster.GoogleManagedKafkaClusterTlsConfigTrustConfig {
 	CasConfigs: interface{},
@@ -1971,7 +1975,7 @@ CasConfigs interface{}
 
 cas_configs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_managed_kafka_cluster#cas_configs GoogleManagedKafkaCluster#cas_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_managed_kafka_cluster#cas_configs GoogleManagedKafkaCluster#cas_configs}
 
 ---
 
@@ -1980,7 +1984,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterTlsConfigTrustConfigCasConfigs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemanagedkafkacluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlemanagedkafkacluster"
 
 &googlemanagedkafkacluster.GoogleManagedKafkaClusterTlsConfigTrustConfigCasConfigs {
 	CaPool: *string,
@@ -2007,7 +2011,7 @@ The name of the CA pool to pull CA certificates from.
 
 The CA pool does not need to be in the same project or location as the Kafka cluster. Must be in the format 'projects/PROJECT_ID/locations/LOCATION/caPools/CA_POOL_ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_managed_kafka_cluster#ca_pool GoogleManagedKafkaCluster#ca_pool}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_managed_kafka_cluster#ca_pool GoogleManagedKafkaCluster#ca_pool}
 
 ---
 
@@ -2018,7 +2022,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterBrokerCapacityConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemanagedkafkacluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlemanagedkafkacluster"
 
 googlemanagedkafkacluster.NewGoogleManagedKafkaClusterBrokerCapacityConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleManagedKafkaClusterBrokerCapacityConfigOutputReference
 ```
@@ -2296,7 +2300,7 @@ func InternalValue() GoogleManagedKafkaClusterBrokerCapacityConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterCapacityConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemanagedkafkacluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlemanagedkafkacluster"
 
 googlemanagedkafkacluster.NewGoogleManagedKafkaClusterCapacityConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleManagedKafkaClusterCapacityConfigOutputReference
 ```
@@ -2589,7 +2593,7 @@ func InternalValue() GoogleManagedKafkaClusterCapacityConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigNetworkConfigsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemanagedkafkacluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlemanagedkafkacluster"
 
 googlemanagedkafkacluster.NewGoogleManagedKafkaClusterGcpConfigAccessConfigNetworkConfigsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleManagedKafkaClusterGcpConfigAccessConfigNetworkConfigsList
 ```
@@ -2749,7 +2753,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigNetworkConfigsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemanagedkafkacluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlemanagedkafkacluster"
 
 googlemanagedkafkacluster.NewGoogleManagedKafkaClusterGcpConfigAccessConfigNetworkConfigsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleManagedKafkaClusterGcpConfigAccessConfigNetworkConfigsOutputReference
 ```
@@ -3038,7 +3042,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemanagedkafkacluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlemanagedkafkacluster"
 
 googlemanagedkafkacluster.NewGoogleManagedKafkaClusterGcpConfigAccessConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleManagedKafkaClusterGcpConfigAccessConfigOutputReference
 ```
@@ -3364,7 +3368,7 @@ func InternalValue() GoogleManagedKafkaClusterGcpConfigAccessConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemanagedkafkacluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlemanagedkafkacluster"
 
 googlemanagedkafkacluster.NewGoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfigOutputReference
 ```
@@ -3635,7 +3639,7 @@ func InternalValue() GoogleManagedKafkaClusterGcpConfigAccessConfigPublicCluster
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterGcpConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemanagedkafkacluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlemanagedkafkacluster"
 
 googlemanagedkafkacluster.NewGoogleManagedKafkaClusterGcpConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleManagedKafkaClusterGcpConfigOutputReference
 ```
@@ -3948,7 +3952,7 @@ func InternalValue() GoogleManagedKafkaClusterGcpConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemanagedkafkacluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlemanagedkafkacluster"
 
 googlemanagedkafkacluster.NewGoogleManagedKafkaClusterPublicClusterDetailsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleManagedKafkaClusterPublicClusterDetailsList
 ```
@@ -4097,7 +4101,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterPublicClusterDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemanagedkafkacluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlemanagedkafkacluster"
 
 googlemanagedkafkacluster.NewGoogleManagedKafkaClusterPublicClusterDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleManagedKafkaClusterPublicClusterDetailsOutputReference
 ```
@@ -4386,7 +4390,7 @@ func InternalValue() GoogleManagedKafkaClusterPublicClusterDetails
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterRebalanceConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemanagedkafkacluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlemanagedkafkacluster"
 
 googlemanagedkafkacluster.NewGoogleManagedKafkaClusterRebalanceConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleManagedKafkaClusterRebalanceConfigOutputReference
 ```
@@ -4664,7 +4668,7 @@ func InternalValue() GoogleManagedKafkaClusterRebalanceConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemanagedkafkacluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlemanagedkafkacluster"
 
 googlemanagedkafkacluster.NewGoogleManagedKafkaClusterTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleManagedKafkaClusterTimeoutsOutputReference
 ```
@@ -5000,7 +5004,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterTlsConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemanagedkafkacluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlemanagedkafkacluster"
 
 googlemanagedkafkacluster.NewGoogleManagedKafkaClusterTlsConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleManagedKafkaClusterTlsConfigOutputReference
 ```
@@ -5320,7 +5324,7 @@ func InternalValue() GoogleManagedKafkaClusterTlsConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterTlsConfigTrustConfigCasConfigsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemanagedkafkacluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlemanagedkafkacluster"
 
 googlemanagedkafkacluster.NewGoogleManagedKafkaClusterTlsConfigTrustConfigCasConfigsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleManagedKafkaClusterTlsConfigTrustConfigCasConfigsList
 ```
@@ -5480,7 +5484,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterTlsConfigTrustConfigCasConfigsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemanagedkafkacluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlemanagedkafkacluster"
 
 googlemanagedkafkacluster.NewGoogleManagedKafkaClusterTlsConfigTrustConfigCasConfigsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleManagedKafkaClusterTlsConfigTrustConfigCasConfigsOutputReference
 ```
@@ -5769,7 +5773,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleManagedKafkaCluster.GoogleManagedKafkaClusterTlsConfigTrustConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemanagedkafkacluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlemanagedkafkacluster"
 
 googlemanagedkafkacluster.NewGoogleManagedKafkaClusterTlsConfigTrustConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleManagedKafkaClusterTlsConfigTrustConfigOutputReference
 ```

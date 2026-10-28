@@ -4,12 +4,12 @@
 
 ### GoogleNetworkConnectivityHub <a name="GoogleNetworkConnectivityHub" id="@cdktn/provider-google-beta.googleNetworkConnectivityHub.GoogleNetworkConnectivityHub"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_connectivity_hub google_network_connectivity_hub}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_network_connectivity_hub google_network_connectivity_hub}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkConnectivityHub.GoogleNetworkConnectivityHub.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworkconnectivityhub"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlenetworkconnectivityhub"
 
 googlenetworkconnectivityhub.NewGoogleNetworkConnectivityHub(scope Construct, id *string, config GoogleNetworkConnectivityHubConfig) GoogleNetworkConnectivityHub
 ```
@@ -503,7 +503,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleNetworkConnectivityHub.GoogleNetworkConnectivityHub.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworkconnectivityhub"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlenetworkconnectivityhub"
 
 googlenetworkconnectivityhub.GoogleNetworkConnectivityHub_IsConstruct(x interface{}) *bool
 ```
@@ -535,7 +535,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleNetworkConnectivityHub.GoogleNetworkConnectivityHub.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworkconnectivityhub"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlenetworkconnectivityhub"
 
 googlenetworkconnectivityhub.GoogleNetworkConnectivityHub_IsTerraformElement(x interface{}) *bool
 ```
@@ -549,7 +549,7 @@ googlenetworkconnectivityhub.GoogleNetworkConnectivityHub_IsTerraformElement(x i
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleNetworkConnectivityHub.GoogleNetworkConnectivityHub.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworkconnectivityhub"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlenetworkconnectivityhub"
 
 googlenetworkconnectivityhub.GoogleNetworkConnectivityHub_IsTerraformResource(x interface{}) *bool
 ```
@@ -563,7 +563,7 @@ googlenetworkconnectivityhub.GoogleNetworkConnectivityHub_IsTerraformResource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleNetworkConnectivityHub.GoogleNetworkConnectivityHub.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworkconnectivityhub"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlenetworkconnectivityhub"
 
 googlenetworkconnectivityhub.GoogleNetworkConnectivityHub_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -592,7 +592,7 @@ The construct id used in the generated config for the GoogleNetworkConnectivityH
 
 The id of the existing GoogleNetworkConnectivityHub that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_connectivity_hub#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_network_connectivity_hub#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1111,7 +1111,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkConnectivityHub.GoogleNetworkConnectivityHubConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworkconnectivityhub"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlenetworkconnectivityhub"
 
 &googlenetworkconnectivityhub.GoogleNetworkConnectivityHubConfig {
 	Connection: interface{},
@@ -1124,14 +1124,14 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlene
 	DeletionPolicy: *string,
 	Description: *string,
 	ExportPsc: interface{},
-	ExportPscConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleNetworkConnectivityHub.GoogleNetworkConnectivityHubExportPscConfig,
+	ExportPscConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleNetworkConnectivityHub.GoogleNetworkConnectivityHubExportPscConfig,
 	Id: *string,
 	Labels: *map[string]*string,
 	Name: *string,
 	PolicyMode: *string,
 	PresetTopology: *string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleNetworkConnectivityHub.GoogleNetworkConnectivityHubTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleNetworkConnectivityHub.GoogleNetworkConnectivityHubTimeouts,
 }
 ```
 
@@ -1150,12 +1150,12 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlene
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityHub.GoogleNetworkConnectivityHubConfig.property.description">Description</a></code> | <code>*string</code> | An optional description of the hub. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityHub.GoogleNetworkConnectivityHubConfig.property.exportPsc">ExportPsc</a></code> | <code>interface{}</code> | Whether Private Service Connect transitivity is enabled for the hub. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityHub.GoogleNetworkConnectivityHubConfig.property.exportPscConfig">ExportPscConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityHub.GoogleNetworkConnectivityHubExportPscConfig">GoogleNetworkConnectivityHubExportPscConfig</a></code> | export_psc_config block. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityHub.GoogleNetworkConnectivityHubConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_connectivity_hub#id GoogleNetworkConnectivityHub#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityHub.GoogleNetworkConnectivityHubConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_network_connectivity_hub#id GoogleNetworkConnectivityHub#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityHub.GoogleNetworkConnectivityHubConfig.property.labels">Labels</a></code> | <code>*map[string]*string</code> | Optional labels in key:value format. For more information about labels, see [Requirements for labels](https://docs.cloud.google.com/resource-manager/docs/creating-managing-labels#requirements). |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityHub.GoogleNetworkConnectivityHubConfig.property.name">Name</a></code> | <code>*string</code> | Immutable. The name of the hub. Hub names must be unique. They use the following form: 'projects/{project_number}/locations/global/hubs/{hub_id}'. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityHub.GoogleNetworkConnectivityHubConfig.property.policyMode">PolicyMode</a></code> | <code>*string</code> | Optional. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityHub.GoogleNetworkConnectivityHubConfig.property.presetTopology">PresetTopology</a></code> | <code>*string</code> | Optional. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityHub.GoogleNetworkConnectivityHubConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_connectivity_hub#project GoogleNetworkConnectivityHub#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityHub.GoogleNetworkConnectivityHubConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_network_connectivity_hub#project GoogleNetworkConnectivityHub#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityHub.GoogleNetworkConnectivityHubConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityHub.GoogleNetworkConnectivityHubTimeouts">GoogleNetworkConnectivityHubTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1247,7 +1247,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_connectivity_hub#deletion_policy GoogleNetworkConnectivityHub#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_network_connectivity_hub#deletion_policy GoogleNetworkConnectivityHub#deletion_policy}
 
 ---
 
@@ -1261,7 +1261,7 @@ Description *string
 
 An optional description of the hub.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_connectivity_hub#description GoogleNetworkConnectivityHub#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_network_connectivity_hub#description GoogleNetworkConnectivityHub#description}
 
 ---
 
@@ -1277,7 +1277,7 @@ Whether Private Service Connect transitivity is enabled for the hub.
 
 If true, Private Service Connect endpoints in VPC spokes attached to the hub are made accessible to other VPC spokes attached to the hub. The default value is false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_connectivity_hub#export_psc GoogleNetworkConnectivityHub#export_psc}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_network_connectivity_hub#export_psc GoogleNetworkConnectivityHub#export_psc}
 
 ---
 
@@ -1291,7 +1291,7 @@ ExportPscConfig GoogleNetworkConnectivityHubExportPscConfig
 
 export_psc_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_connectivity_hub#export_psc_config GoogleNetworkConnectivityHub#export_psc_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_network_connectivity_hub#export_psc_config GoogleNetworkConnectivityHub#export_psc_config}
 
 ---
 
@@ -1303,7 +1303,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_connectivity_hub#id GoogleNetworkConnectivityHub#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_network_connectivity_hub#id GoogleNetworkConnectivityHub#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1323,7 +1323,7 @@ Optional labels in key:value format. For more information about labels, see [Req
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_connectivity_hub#labels GoogleNetworkConnectivityHub#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_network_connectivity_hub#labels GoogleNetworkConnectivityHub#labels}
 
 ---
 
@@ -1337,7 +1337,7 @@ Name *string
 
 Immutable. The name of the hub. Hub names must be unique. They use the following form: 'projects/{project_number}/locations/global/hubs/{hub_id}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_connectivity_hub#name GoogleNetworkConnectivityHub#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_network_connectivity_hub#name GoogleNetworkConnectivityHub#name}
 
 ---
 
@@ -1353,7 +1353,7 @@ Optional.
 
 The policy mode of this hub. This field can be either PRESET or CUSTOM. If unspecified, the policyMode defaults to PRESET. Possible values: ["CUSTOM", "PRESET"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_connectivity_hub#policy_mode GoogleNetworkConnectivityHub#policy_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_network_connectivity_hub#policy_mode GoogleNetworkConnectivityHub#policy_mode}
 
 ---
 
@@ -1369,7 +1369,7 @@ Optional.
 
 The topology implemented in this hub. Currently, this field is only used when policyMode = PRESET. The available preset topologies are MESH and STAR. If presetTopology is unspecified and policyMode = PRESET, the presetTopology defaults to MESH. When policyMode = CUSTOM, the presetTopology is set to PRESET_TOPOLOGY_UNSPECIFIED. Possible values: ["MESH", "STAR", "HYBRID_INSPECTION"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_connectivity_hub#preset_topology GoogleNetworkConnectivityHub#preset_topology}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_network_connectivity_hub#preset_topology GoogleNetworkConnectivityHub#preset_topology}
 
 ---
 
@@ -1381,7 +1381,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_connectivity_hub#project GoogleNetworkConnectivityHub#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_network_connectivity_hub#project GoogleNetworkConnectivityHub#project}.
 
 ---
 
@@ -1395,7 +1395,7 @@ Timeouts GoogleNetworkConnectivityHubTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_connectivity_hub#timeouts GoogleNetworkConnectivityHub#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_network_connectivity_hub#timeouts GoogleNetworkConnectivityHub#timeouts}
 
 ---
 
@@ -1404,7 +1404,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkConnectivityHub.GoogleNetworkConnectivityHubExportPscConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworkconnectivityhub"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlenetworkconnectivityhub"
 
 &googlenetworkconnectivityhub.GoogleNetworkConnectivityHubExportPscConfig {
 	GlobalGoogleApis: interface{},
@@ -1431,7 +1431,7 @@ GlobalGoogleApis interface{}
 
 Whether Private Service Connect endpoints for global Google APIs are propagated. The default value is false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_connectivity_hub#global_google_apis GoogleNetworkConnectivityHub#global_google_apis}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_network_connectivity_hub#global_google_apis GoogleNetworkConnectivityHub#global_google_apis}
 
 ---
 
@@ -1445,7 +1445,7 @@ PublishedServicesAndRegionalGoogleApis interface{}
 
 Whether Private Service Connect endpoints for published services (regional ILBs) and regional Google APIs are propagated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_connectivity_hub#published_services_and_regional_google_apis GoogleNetworkConnectivityHub#published_services_and_regional_google_apis}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_network_connectivity_hub#published_services_and_regional_google_apis GoogleNetworkConnectivityHub#published_services_and_regional_google_apis}
 
 ---
 
@@ -1454,7 +1454,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkConnectivityHub.GoogleNetworkConnectivityHubRoutingVpcs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworkconnectivityhub"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlenetworkconnectivityhub"
 
 &googlenetworkconnectivityhub.GoogleNetworkConnectivityHubRoutingVpcs {
 
@@ -1467,7 +1467,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlene
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkConnectivityHub.GoogleNetworkConnectivityHubTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworkconnectivityhub"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlenetworkconnectivityhub"
 
 &googlenetworkconnectivityhub.GoogleNetworkConnectivityHubTimeouts {
 	Create: *string,
@@ -1480,9 +1480,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlene
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityHub.GoogleNetworkConnectivityHubTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_connectivity_hub#create GoogleNetworkConnectivityHub#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityHub.GoogleNetworkConnectivityHubTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_connectivity_hub#delete GoogleNetworkConnectivityHub#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityHub.GoogleNetworkConnectivityHubTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_connectivity_hub#update GoogleNetworkConnectivityHub#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityHub.GoogleNetworkConnectivityHubTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_network_connectivity_hub#create GoogleNetworkConnectivityHub#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityHub.GoogleNetworkConnectivityHubTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_network_connectivity_hub#delete GoogleNetworkConnectivityHub#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityHub.GoogleNetworkConnectivityHubTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_network_connectivity_hub#update GoogleNetworkConnectivityHub#update}. |
 
 ---
 
@@ -1494,7 +1494,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_connectivity_hub#create GoogleNetworkConnectivityHub#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_network_connectivity_hub#create GoogleNetworkConnectivityHub#create}.
 
 ---
 
@@ -1506,7 +1506,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_connectivity_hub#delete GoogleNetworkConnectivityHub#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_network_connectivity_hub#delete GoogleNetworkConnectivityHub#delete}.
 
 ---
 
@@ -1518,7 +1518,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_connectivity_hub#update GoogleNetworkConnectivityHub#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_network_connectivity_hub#update GoogleNetworkConnectivityHub#update}.
 
 ---
 
@@ -1529,7 +1529,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkConnectivityHub.GoogleNetworkConnectivityHubExportPscConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworkconnectivityhub"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlenetworkconnectivityhub"
 
 googlenetworkconnectivityhub.NewGoogleNetworkConnectivityHubExportPscConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleNetworkConnectivityHubExportPscConfigOutputReference
 ```
@@ -1836,7 +1836,7 @@ func InternalValue() GoogleNetworkConnectivityHubExportPscConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkConnectivityHub.GoogleNetworkConnectivityHubRoutingVpcsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworkconnectivityhub"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlenetworkconnectivityhub"
 
 googlenetworkconnectivityhub.NewGoogleNetworkConnectivityHubRoutingVpcsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleNetworkConnectivityHubRoutingVpcsList
 ```
@@ -1985,7 +1985,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkConnectivityHub.GoogleNetworkConnectivityHubRoutingVpcsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworkconnectivityhub"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlenetworkconnectivityhub"
 
 googlenetworkconnectivityhub.NewGoogleNetworkConnectivityHubRoutingVpcsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleNetworkConnectivityHubRoutingVpcsOutputReference
 ```
@@ -2263,7 +2263,7 @@ func InternalValue() GoogleNetworkConnectivityHubRoutingVpcs
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkConnectivityHub.GoogleNetworkConnectivityHubTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworkconnectivityhub"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlenetworkconnectivityhub"
 
 googlenetworkconnectivityhub.NewGoogleNetworkConnectivityHubTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleNetworkConnectivityHubTimeoutsOutputReference
 ```

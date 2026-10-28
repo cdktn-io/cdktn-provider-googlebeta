@@ -4,7 +4,7 @@
 
 ### GoogleGeminiGdaObservabilitySetting <a name="GoogleGeminiGdaObservabilitySetting" id="@cdktn/provider-google-beta.googleGeminiGdaObservabilitySetting.GoogleGeminiGdaObservabilitySetting"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gda_observability_setting google_gemini_gda_observability_setting}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_gda_observability_setting google_gemini_gda_observability_setting}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGeminiGdaObservabilitySetting.GoogleGeminiGdaObservabilitySetting.Initializer"></a>
 
@@ -47,9 +47,9 @@ googleGeminiGdaObservabilitySetting.GoogleGeminiGdaObservabilitySetting(
 | <code><a href="#@cdktn/provider-google-beta.googleGeminiGdaObservabilitySetting.GoogleGeminiGdaObservabilitySetting.Initializer.parameter.location">location</a></code> | <code>str</code> | Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122. |
 | <code><a href="#@cdktn/provider-google-beta.googleGeminiGdaObservabilitySetting.GoogleGeminiGdaObservabilitySetting.Initializer.parameter.conversationalAnalyticsSetting">conversational_analytics_setting</a></code> | <code><a href="#@cdktn/provider-google-beta.googleGeminiGdaObservabilitySetting.GoogleGeminiGdaObservabilitySettingConversationalAnalyticsSetting">GoogleGeminiGdaObservabilitySettingConversationalAnalyticsSetting</a></code> | conversational_analytics_setting block. |
 | <code><a href="#@cdktn/provider-google-beta.googleGeminiGdaObservabilitySetting.GoogleGeminiGdaObservabilitySetting.Initializer.parameter.deletionPolicy">deletion_policy</a></code> | <code>str</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleGeminiGdaObservabilitySetting.GoogleGeminiGdaObservabilitySetting.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gda_observability_setting#id GoogleGeminiGdaObservabilitySetting#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleGeminiGdaObservabilitySetting.GoogleGeminiGdaObservabilitySetting.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_gda_observability_setting#id GoogleGeminiGdaObservabilitySetting#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleGeminiGdaObservabilitySetting.GoogleGeminiGdaObservabilitySetting.Initializer.parameter.labels">labels</a></code> | <code>typing.Mapping[str]</code> | Labels as key value pairs. |
-| <code><a href="#@cdktn/provider-google-beta.googleGeminiGdaObservabilitySetting.GoogleGeminiGdaObservabilitySetting.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gda_observability_setting#project GoogleGeminiGdaObservabilitySetting#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleGeminiGdaObservabilitySetting.GoogleGeminiGdaObservabilitySetting.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_gda_observability_setting#project GoogleGeminiGdaObservabilitySetting#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleGeminiGdaObservabilitySetting.GoogleGeminiGdaObservabilitySetting.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleGeminiGdaObservabilitySetting.GoogleGeminiGdaObservabilitySettingTimeouts">GoogleGeminiGdaObservabilitySettingTimeouts</a></code> | timeouts block. |
 
 ---
@@ -120,7 +120,7 @@ Must be unique amongst siblings in the same scope
 
 Id of the Gda Observability Setting.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gda_observability_setting#gda_observability_setting_id GoogleGeminiGdaObservabilitySetting#gda_observability_setting_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_gda_observability_setting#gda_observability_setting_id GoogleGeminiGdaObservabilitySetting#gda_observability_setting_id}
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gda_observability_setting#location GoogleGeminiGdaObservabilitySetting#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_gda_observability_setting#location GoogleGeminiGdaObservabilitySetting#location}
 
 ---
 
@@ -140,7 +140,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 conversational_analytics_setting block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gda_observability_setting#conversational_analytics_setting GoogleGeminiGdaObservabilitySetting#conversational_analytics_setting}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_gda_observability_setting#conversational_analytics_setting GoogleGeminiGdaObservabilitySetting#conversational_analytics_setting}
 
 ---
 
@@ -157,7 +157,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gda_observability_setting#deletion_policy GoogleGeminiGdaObservabilitySetting#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_gda_observability_setting#deletion_policy GoogleGeminiGdaObservabilitySetting#deletion_policy}
 
 ---
 
@@ -165,7 +165,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gda_observability_setting#id GoogleGeminiGdaObservabilitySetting#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_gda_observability_setting#id GoogleGeminiGdaObservabilitySetting#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -181,7 +181,7 @@ Labels as key value pairs.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gda_observability_setting#labels GoogleGeminiGdaObservabilitySetting#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_gda_observability_setting#labels GoogleGeminiGdaObservabilitySetting#labels}
 
 ---
 
@@ -189,7 +189,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gda_observability_setting#project GoogleGeminiGdaObservabilitySetting#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_gda_observability_setting#project GoogleGeminiGdaObservabilitySetting#project}.
 
 ---
 
@@ -199,7 +199,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gda_observability_setting#timeouts GoogleGeminiGdaObservabilitySetting#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_gda_observability_setting#timeouts GoogleGeminiGdaObservabilitySetting#timeouts}
 
 ---
 
@@ -607,7 +607,7 @@ def put_conversational_analytics_setting(
 
 Whether to enable feedback.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gda_observability_setting#feedback_enabled GoogleGeminiGdaObservabilitySetting#feedback_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_gda_observability_setting#feedback_enabled GoogleGeminiGdaObservabilitySetting#feedback_enabled}
 
 ---
 
@@ -617,7 +617,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Whether to enable logging.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gda_observability_setting#logging_enabled GoogleGeminiGdaObservabilitySetting#logging_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_gda_observability_setting#logging_enabled GoogleGeminiGdaObservabilitySetting#logging_enabled}
 
 ---
 
@@ -627,7 +627,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Whether to enable metrics.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gda_observability_setting#metrics_enabled GoogleGeminiGdaObservabilitySetting#metrics_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_gda_observability_setting#metrics_enabled GoogleGeminiGdaObservabilitySetting#metrics_enabled}
 
 ---
 
@@ -637,7 +637,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Whether to enable traces.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gda_observability_setting#traces_enabled GoogleGeminiGdaObservabilitySetting#traces_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_gda_observability_setting#traces_enabled GoogleGeminiGdaObservabilitySetting#traces_enabled}
 
 ---
 
@@ -655,7 +655,7 @@ def put_timeouts(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gda_observability_setting#create GoogleGeminiGdaObservabilitySetting#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_gda_observability_setting#create GoogleGeminiGdaObservabilitySetting#create}.
 
 ---
 
@@ -663,7 +663,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gda_observability_setting#delete GoogleGeminiGdaObservabilitySetting#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_gda_observability_setting#delete GoogleGeminiGdaObservabilitySetting#delete}.
 
 ---
 
@@ -671,7 +671,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gda_observability_setting#update GoogleGeminiGdaObservabilitySetting#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_gda_observability_setting#update GoogleGeminiGdaObservabilitySetting#update}.
 
 ---
 
@@ -825,7 +825,7 @@ The construct id used in the generated config for the GoogleGeminiGdaObservabili
 
 The id of the existing GoogleGeminiGdaObservabilitySetting that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gda_observability_setting#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_gda_observability_setting#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1292,9 +1292,9 @@ googleGeminiGdaObservabilitySetting.GoogleGeminiGdaObservabilitySettingConfig(
 | <code><a href="#@cdktn/provider-google-beta.googleGeminiGdaObservabilitySetting.GoogleGeminiGdaObservabilitySettingConfig.property.location">location</a></code> | <code>str</code> | Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122. |
 | <code><a href="#@cdktn/provider-google-beta.googleGeminiGdaObservabilitySetting.GoogleGeminiGdaObservabilitySettingConfig.property.conversationalAnalyticsSetting">conversational_analytics_setting</a></code> | <code><a href="#@cdktn/provider-google-beta.googleGeminiGdaObservabilitySetting.GoogleGeminiGdaObservabilitySettingConversationalAnalyticsSetting">GoogleGeminiGdaObservabilitySettingConversationalAnalyticsSetting</a></code> | conversational_analytics_setting block. |
 | <code><a href="#@cdktn/provider-google-beta.googleGeminiGdaObservabilitySetting.GoogleGeminiGdaObservabilitySettingConfig.property.deletionPolicy">deletion_policy</a></code> | <code>str</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleGeminiGdaObservabilitySetting.GoogleGeminiGdaObservabilitySettingConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gda_observability_setting#id GoogleGeminiGdaObservabilitySetting#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleGeminiGdaObservabilitySetting.GoogleGeminiGdaObservabilitySettingConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_gda_observability_setting#id GoogleGeminiGdaObservabilitySetting#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleGeminiGdaObservabilitySetting.GoogleGeminiGdaObservabilitySettingConfig.property.labels">labels</a></code> | <code>typing.Mapping[str]</code> | Labels as key value pairs. |
-| <code><a href="#@cdktn/provider-google-beta.googleGeminiGdaObservabilitySetting.GoogleGeminiGdaObservabilitySettingConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gda_observability_setting#project GoogleGeminiGdaObservabilitySetting#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleGeminiGdaObservabilitySetting.GoogleGeminiGdaObservabilitySettingConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_gda_observability_setting#project GoogleGeminiGdaObservabilitySetting#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleGeminiGdaObservabilitySetting.GoogleGeminiGdaObservabilitySettingConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleGeminiGdaObservabilitySetting.GoogleGeminiGdaObservabilitySettingTimeouts">GoogleGeminiGdaObservabilitySettingTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1379,7 +1379,7 @@ gda_observability_setting_id: str
 
 Id of the Gda Observability Setting.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gda_observability_setting#gda_observability_setting_id GoogleGeminiGdaObservabilitySetting#gda_observability_setting_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_gda_observability_setting#gda_observability_setting_id GoogleGeminiGdaObservabilitySetting#gda_observability_setting_id}
 
 ---
 
@@ -1393,7 +1393,7 @@ location: str
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gda_observability_setting#location GoogleGeminiGdaObservabilitySetting#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_gda_observability_setting#location GoogleGeminiGdaObservabilitySetting#location}
 
 ---
 
@@ -1407,7 +1407,7 @@ conversational_analytics_setting: GoogleGeminiGdaObservabilitySettingConversatio
 
 conversational_analytics_setting block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gda_observability_setting#conversational_analytics_setting GoogleGeminiGdaObservabilitySetting#conversational_analytics_setting}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_gda_observability_setting#conversational_analytics_setting GoogleGeminiGdaObservabilitySetting#conversational_analytics_setting}
 
 ---
 
@@ -1428,7 +1428,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gda_observability_setting#deletion_policy GoogleGeminiGdaObservabilitySetting#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_gda_observability_setting#deletion_policy GoogleGeminiGdaObservabilitySetting#deletion_policy}
 
 ---
 
@@ -1440,7 +1440,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gda_observability_setting#id GoogleGeminiGdaObservabilitySetting#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_gda_observability_setting#id GoogleGeminiGdaObservabilitySetting#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1460,7 +1460,7 @@ Labels as key value pairs.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gda_observability_setting#labels GoogleGeminiGdaObservabilitySetting#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_gda_observability_setting#labels GoogleGeminiGdaObservabilitySetting#labels}
 
 ---
 
@@ -1472,7 +1472,7 @@ project: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gda_observability_setting#project GoogleGeminiGdaObservabilitySetting#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_gda_observability_setting#project GoogleGeminiGdaObservabilitySetting#project}.
 
 ---
 
@@ -1486,7 +1486,7 @@ timeouts: GoogleGeminiGdaObservabilitySettingTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gda_observability_setting#timeouts GoogleGeminiGdaObservabilitySetting#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_gda_observability_setting#timeouts GoogleGeminiGdaObservabilitySetting#timeouts}
 
 ---
 
@@ -1526,7 +1526,7 @@ feedback_enabled: bool | IResolvable
 
 Whether to enable feedback.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gda_observability_setting#feedback_enabled GoogleGeminiGdaObservabilitySetting#feedback_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_gda_observability_setting#feedback_enabled GoogleGeminiGdaObservabilitySetting#feedback_enabled}
 
 ---
 
@@ -1540,7 +1540,7 @@ logging_enabled: bool | IResolvable
 
 Whether to enable logging.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gda_observability_setting#logging_enabled GoogleGeminiGdaObservabilitySetting#logging_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_gda_observability_setting#logging_enabled GoogleGeminiGdaObservabilitySetting#logging_enabled}
 
 ---
 
@@ -1554,7 +1554,7 @@ metrics_enabled: bool | IResolvable
 
 Whether to enable metrics.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gda_observability_setting#metrics_enabled GoogleGeminiGdaObservabilitySetting#metrics_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_gda_observability_setting#metrics_enabled GoogleGeminiGdaObservabilitySetting#metrics_enabled}
 
 ---
 
@@ -1568,7 +1568,7 @@ traces_enabled: bool | IResolvable
 
 Whether to enable traces.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gda_observability_setting#traces_enabled GoogleGeminiGdaObservabilitySetting#traces_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_gda_observability_setting#traces_enabled GoogleGeminiGdaObservabilitySetting#traces_enabled}
 
 ---
 
@@ -1590,9 +1590,9 @@ googleGeminiGdaObservabilitySetting.GoogleGeminiGdaObservabilitySettingTimeouts(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleGeminiGdaObservabilitySetting.GoogleGeminiGdaObservabilitySettingTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gda_observability_setting#create GoogleGeminiGdaObservabilitySetting#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleGeminiGdaObservabilitySetting.GoogleGeminiGdaObservabilitySettingTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gda_observability_setting#delete GoogleGeminiGdaObservabilitySetting#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleGeminiGdaObservabilitySetting.GoogleGeminiGdaObservabilitySettingTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gda_observability_setting#update GoogleGeminiGdaObservabilitySetting#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleGeminiGdaObservabilitySetting.GoogleGeminiGdaObservabilitySettingTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_gda_observability_setting#create GoogleGeminiGdaObservabilitySetting#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleGeminiGdaObservabilitySetting.GoogleGeminiGdaObservabilitySettingTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_gda_observability_setting#delete GoogleGeminiGdaObservabilitySetting#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleGeminiGdaObservabilitySetting.GoogleGeminiGdaObservabilitySettingTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_gda_observability_setting#update GoogleGeminiGdaObservabilitySetting#update}. |
 
 ---
 
@@ -1604,7 +1604,7 @@ create: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gda_observability_setting#create GoogleGeminiGdaObservabilitySetting#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_gda_observability_setting#create GoogleGeminiGdaObservabilitySetting#create}.
 
 ---
 
@@ -1616,7 +1616,7 @@ delete: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gda_observability_setting#delete GoogleGeminiGdaObservabilitySetting#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_gda_observability_setting#delete GoogleGeminiGdaObservabilitySetting#delete}.
 
 ---
 
@@ -1628,7 +1628,7 @@ update: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gda_observability_setting#update GoogleGeminiGdaObservabilitySetting#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_gemini_gda_observability_setting#update GoogleGeminiGdaObservabilitySetting#update}.
 
 ---
 

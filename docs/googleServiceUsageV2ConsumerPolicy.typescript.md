@@ -4,7 +4,7 @@
 
 ### GoogleServiceUsageV2ConsumerPolicy <a name="GoogleServiceUsageV2ConsumerPolicy" id="@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_service_usage_v2_consumer_policy google_service_usage_v2_consumer_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_service_usage_v2_consumer_policy google_service_usage_v2_consumer_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicy.Initializer"></a>
 
@@ -396,12 +396,12 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 ##### `putEnableRules` <a name="putEnableRules" id="@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicy.putEnableRules"></a>
 
 ```typescript
-public putEnableRules(value: IResolvable | GoogleServiceUsageV2ConsumerPolicyEnableRules[]): void
+public putEnableRules(value: GoogleServiceUsageV2ConsumerPolicyEnableRules): void
 ```
 
 ###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicy.putEnableRules.parameter.value"></a>
 
-- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRules">GoogleServiceUsageV2ConsumerPolicyEnableRules</a>[]
+- *Type:* <a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRules">GoogleServiceUsageV2ConsumerPolicyEnableRules</a>
 
 ---
 
@@ -550,7 +550,7 @@ The construct id used in the generated config for the GoogleServiceUsageV2Consum
 
 The id of the existing GoogleServiceUsageV2ConsumerPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_service_usage_v2_consumer_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_service_usage_v2_consumer_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -580,12 +580,12 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicy.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicy.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicy.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicy.property.enableRules">enableRules</a></code> | <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRulesList">GoogleServiceUsageV2ConsumerPolicyEnableRulesList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicy.property.enableRules">enableRules</a></code> | <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference">GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicy.property.etag">etag</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicy.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyTimeoutsOutputReference">GoogleServiceUsageV2ConsumerPolicyTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicy.property.checkUsageOnRemoveInput">checkUsageOnRemoveInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicy.property.deletionPolicyInput">deletionPolicyInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicy.property.enableRulesInput">enableRulesInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRules">GoogleServiceUsageV2ConsumerPolicyEnableRules</a>[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicy.property.enableRulesInput">enableRulesInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRules">GoogleServiceUsageV2ConsumerPolicyEnableRules</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicy.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicy.property.nameInput">nameInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicy.property.parentInput">parentInput</a></code> | <code>string</code> | *No description.* |
@@ -745,10 +745,10 @@ public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteEx
 ##### `enableRules`<sup>Required</sup> <a name="enableRules" id="@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicy.property.enableRules"></a>
 
 ```typescript
-public readonly enableRules: GoogleServiceUsageV2ConsumerPolicyEnableRulesList;
+public readonly enableRules: GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference;
 ```
 
-- *Type:* <a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRulesList">GoogleServiceUsageV2ConsumerPolicyEnableRulesList</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference">GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference</a>
 
 ---
 
@@ -795,10 +795,10 @@ public readonly deletionPolicyInput: string;
 ##### `enableRulesInput`<sup>Optional</sup> <a name="enableRulesInput" id="@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicy.property.enableRulesInput"></a>
 
 ```typescript
-public readonly enableRulesInput: IResolvable | GoogleServiceUsageV2ConsumerPolicyEnableRules[];
+public readonly enableRulesInput: GoogleServiceUsageV2ConsumerPolicyEnableRules;
 ```
 
-- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRules">GoogleServiceUsageV2ConsumerPolicyEnableRules</a>[]
+- *Type:* <a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRules">GoogleServiceUsageV2ConsumerPolicyEnableRules</a>
 
 ---
 
@@ -953,14 +953,14 @@ const googleServiceUsageV2ConsumerPolicyConfig: googleServiceUsageV2ConsumerPoli
 | <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyConfig.property.enableRules">enableRules</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRules">GoogleServiceUsageV2ConsumerPolicyEnableRules</a>[]</code> | enable_rules block. |
+| <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyConfig.property.enableRules">enableRules</a></code> | <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRules">GoogleServiceUsageV2ConsumerPolicyEnableRules</a></code> | enable_rules block. |
 | <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyConfig.property.name">name</a></code> | <code>string</code> | The name of the policy. Currently only the “default” policy name is supported. |
 | <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyConfig.property.parent">parent</a></code> | <code>string</code> | The name of the parent. |
-| <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyConfig.property.checkUsageOnRemove">checkUsageOnRemove</a></code> | <code>boolean \| cdktn.IResolvable</code> | (Optional) Default value is false. |
+| <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyConfig.property.checkUsageOnRemove">checkUsageOnRemove</a></code> | <code>boolean \| cdktn.IResolvable</code> | Default value is false. This field is deprecated and has no effect. |
 | <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_service_usage_v2_consumer_policy#id GoogleServiceUsageV2ConsumerPolicy#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_service_usage_v2_consumer_policy#id GoogleServiceUsageV2ConsumerPolicy#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyTimeouts">GoogleServiceUsageV2ConsumerPolicyTimeouts</a></code> | timeouts block. |
-| <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyConfig.property.validateDependencies">validateDependencies</a></code> | <code>boolean \| cdktn.IResolvable</code> | (Optional) Default value is true. |
+| <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyConfig.property.validateDependencies">validateDependencies</a></code> | <code>boolean \| cdktn.IResolvable</code> | Default value is true. |
 
 ---
 
@@ -1037,14 +1037,14 @@ public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteEx
 ##### `enableRules`<sup>Required</sup> <a name="enableRules" id="@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyConfig.property.enableRules"></a>
 
 ```typescript
-public readonly enableRules: IResolvable | GoogleServiceUsageV2ConsumerPolicyEnableRules[];
+public readonly enableRules: GoogleServiceUsageV2ConsumerPolicyEnableRules;
 ```
 
-- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRules">GoogleServiceUsageV2ConsumerPolicyEnableRules</a>[]
+- *Type:* <a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRules">GoogleServiceUsageV2ConsumerPolicyEnableRules</a>
 
 enable_rules block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_service_usage_v2_consumer_policy#enable_rules GoogleServiceUsageV2ConsumerPolicy#enable_rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_service_usage_v2_consumer_policy#enable_rules GoogleServiceUsageV2ConsumerPolicy#enable_rules}
 
 ---
 
@@ -1058,7 +1058,7 @@ public readonly name: string;
 
 The name of the policy. Currently only the “default” policy name is supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_service_usage_v2_consumer_policy#name GoogleServiceUsageV2ConsumerPolicy#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_service_usage_v2_consumer_policy#name GoogleServiceUsageV2ConsumerPolicy#name}
 
 ---
 
@@ -1074,7 +1074,7 @@ The name of the parent.
 
 It can be a project, folder or organization in the format of  projects/<project_id or project_number>, folders/<folder_number> or organizations/<org_number> .
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_service_usage_v2_consumer_policy#parent GoogleServiceUsageV2ConsumerPolicy#parent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_service_usage_v2_consumer_policy#parent GoogleServiceUsageV2ConsumerPolicy#parent}
 
 ---
 
@@ -1086,11 +1086,9 @@ public readonly checkUsageOnRemove: boolean | IResolvable;
 
 - *Type:* boolean | cdktn.IResolvable
 
-(Optional) Default value is false.
+Default value is false. This field is deprecated and has no effect.
 
-If true, the usage of the service to be removed will be checked. If the service has been used within the past 30 days or was enabled in the last 3 days, an error will be thrown.
-
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_service_usage_v2_consumer_policy#check_usage_on_remove GoogleServiceUsageV2ConsumerPolicy#check_usage_on_remove}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_service_usage_v2_consumer_policy#check_usage_on_remove GoogleServiceUsageV2ConsumerPolicy#check_usage_on_remove}
 
 ---
 
@@ -1112,7 +1110,7 @@ management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_service_usage_v2_consumer_policy#deletion_policy GoogleServiceUsageV2ConsumerPolicy#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_service_usage_v2_consumer_policy#deletion_policy GoogleServiceUsageV2ConsumerPolicy#deletion_policy}
 
 ---
 
@@ -1124,7 +1122,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_service_usage_v2_consumer_policy#id GoogleServiceUsageV2ConsumerPolicy#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_service_usage_v2_consumer_policy#id GoogleServiceUsageV2ConsumerPolicy#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1141,7 +1139,7 @@ public readonly timeouts: GoogleServiceUsageV2ConsumerPolicyTimeouts;
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_service_usage_v2_consumer_policy#timeouts GoogleServiceUsageV2ConsumerPolicy#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_service_usage_v2_consumer_policy#timeouts GoogleServiceUsageV2ConsumerPolicy#timeouts}
 
 ---
 
@@ -1153,11 +1151,11 @@ public readonly validateDependencies: boolean | IResolvable;
 
 - *Type:* boolean | cdktn.IResolvable
 
-(Optional) Default value is true.
+Default value is true.
 
 If true, this flag enforces dependency management within the consumer policy. When adding a new service, it verifies that all its dependencies are already present/added in the policy. Conversely, when removing a service, it ensures that no other services within the policy depend on the service to be removed. If the validation fails, a comprehensive message will be presented, outlining the missing dependencies and providing instructions on how to address the issue.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_service_usage_v2_consumer_policy#validate_dependencies GoogleServiceUsageV2ConsumerPolicy#validate_dependencies}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_service_usage_v2_consumer_policy#validate_dependencies GoogleServiceUsageV2ConsumerPolicy#validate_dependencies}
 
 ---
 
@@ -1175,7 +1173,22 @@ const googleServiceUsageV2ConsumerPolicyEnableRules: googleServiceUsageV2Consume
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRules.property.services">services</a></code> | <code>string[]</code> | (Optional): List of service names to be enabled in the format of services/<service_name>. |
+| <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRules.property.catalogs">catalogs</a></code> | <code>string[]</code> | List of service catalog names to be enabled in the format of catalogs/<catalog_name>, for example catalogs/default-cloud-services. |
+| <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRules.property.services">services</a></code> | <code>string[]</code> | List of service names to be enabled in the format of services/<service_name>. |
+
+---
+
+##### `catalogs`<sup>Optional</sup> <a name="catalogs" id="@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRules.property.catalogs"></a>
+
+```typescript
+public readonly catalogs: string[];
+```
+
+- *Type:* string[]
+
+List of service catalog names to be enabled in the format of catalogs/<catalog_name>, for example catalogs/default-cloud-services.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_service_usage_v2_consumer_policy#catalogs GoogleServiceUsageV2ConsumerPolicy#catalogs}
 
 ---
 
@@ -1187,9 +1200,9 @@ public readonly services: string[];
 
 - *Type:* string[]
 
-(Optional): List of service names to be enabled in the format of services/<service_name>.
+List of service names to be enabled in the format of services/<service_name>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_service_usage_v2_consumer_policy#services GoogleServiceUsageV2ConsumerPolicy#services}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_service_usage_v2_consumer_policy#services GoogleServiceUsageV2ConsumerPolicy#services}
 
 ---
 
@@ -1207,9 +1220,9 @@ const googleServiceUsageV2ConsumerPolicyTimeouts: googleServiceUsageV2ConsumerPo
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_service_usage_v2_consumer_policy#create GoogleServiceUsageV2ConsumerPolicy#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_service_usage_v2_consumer_policy#delete GoogleServiceUsageV2ConsumerPolicy#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_service_usage_v2_consumer_policy#update GoogleServiceUsageV2ConsumerPolicy#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_service_usage_v2_consumer_policy#create GoogleServiceUsageV2ConsumerPolicy#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_service_usage_v2_consumer_policy#delete GoogleServiceUsageV2ConsumerPolicy#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_service_usage_v2_consumer_policy#update GoogleServiceUsageV2ConsumerPolicy#update}. |
 
 ---
 
@@ -1221,7 +1234,7 @@ public readonly create: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_service_usage_v2_consumer_policy#create GoogleServiceUsageV2ConsumerPolicy#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_service_usage_v2_consumer_policy#create GoogleServiceUsageV2ConsumerPolicy#create}.
 
 ---
 
@@ -1233,7 +1246,7 @@ public readonly delete: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_service_usage_v2_consumer_policy#delete GoogleServiceUsageV2ConsumerPolicy#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_service_usage_v2_consumer_policy#delete GoogleServiceUsageV2ConsumerPolicy#delete}.
 
 ---
 
@@ -1245,171 +1258,11 @@ public readonly update: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_service_usage_v2_consumer_policy#update GoogleServiceUsageV2ConsumerPolicy#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_service_usage_v2_consumer_policy#update GoogleServiceUsageV2ConsumerPolicy#update}.
 
 ---
 
 ## Classes <a name="Classes" id="Classes"></a>
-
-### GoogleServiceUsageV2ConsumerPolicyEnableRulesList <a name="GoogleServiceUsageV2ConsumerPolicyEnableRulesList" id="@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRulesList"></a>
-
-#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRulesList.Initializer"></a>
-
-```typescript
-import { googleServiceUsageV2ConsumerPolicy } from '@cdktn/provider-google-beta'
-
-new googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRulesList(terraformResource: IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean)
-```
-
-| **Name** | **Type** | **Description** |
-| --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRulesList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
-| <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRulesList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
-| <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRulesList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
-
----
-
-##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRulesList.Initializer.parameter.terraformResource"></a>
-
-- *Type:* cdktn.IInterpolatingParent
-
-The parent resource.
-
----
-
-##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRulesList.Initializer.parameter.terraformAttribute"></a>
-
-- *Type:* string
-
-The attribute on the parent resource this class is referencing.
-
----
-
-##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRulesList.Initializer.parameter.wrapsSet"></a>
-
-- *Type:* boolean
-
-whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
-
----
-
-#### Methods <a name="Methods" id="Methods"></a>
-
-| **Name** | **Description** |
-| --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRulesList.allWithMapKey">allWithMapKey</a></code> | Creating an iterator for this complex list. |
-| <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRulesList.computeFqn">computeFqn</a></code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRulesList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
-| <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRulesList.toString">toString</a></code> | Return a string representation of this resolvable object. |
-| <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRulesList.get">get</a></code> | *No description.* |
-
----
-
-##### `allWithMapKey` <a name="allWithMapKey" id="@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRulesList.allWithMapKey"></a>
-
-```typescript
-public allWithMapKey(mapKeyAttributeName: string): DynamicListTerraformIterator
-```
-
-Creating an iterator for this complex list.
-
-The list will be converted into a map with the mapKeyAttributeName as the key.
-
-###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRulesList.allWithMapKey.parameter.mapKeyAttributeName"></a>
-
-- *Type:* string
-
----
-
-##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRulesList.computeFqn"></a>
-
-```typescript
-public computeFqn(): string
-```
-
-##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRulesList.resolve"></a>
-
-```typescript
-public resolve(_context: IResolveContext): any
-```
-
-Produce the Token's value at resolution time.
-
-###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRulesList.resolve.parameter._context"></a>
-
-- *Type:* cdktn.IResolveContext
-
----
-
-##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRulesList.toString"></a>
-
-```typescript
-public toString(): string
-```
-
-Return a string representation of this resolvable object.
-
-Returns a reversible string representation.
-
-##### `get` <a name="get" id="@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRulesList.get"></a>
-
-```typescript
-public get(index: number): GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference
-```
-
-###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRulesList.get.parameter.index"></a>
-
-- *Type:* number
-
-the index of the item to return.
-
----
-
-
-#### Properties <a name="Properties" id="Properties"></a>
-
-| **Name** | **Type** | **Description** |
-| --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRulesList.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
-| <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRulesList.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRulesList.property.internalValue">internalValue</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRules">GoogleServiceUsageV2ConsumerPolicyEnableRules</a>[]</code> | *No description.* |
-
----
-
-##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRulesList.property.creationStack"></a>
-
-```typescript
-public readonly creationStack: string[];
-```
-
-- *Type:* string[]
-
-The creation stack of this resolvable which will be appended to errors thrown during resolution.
-
-If this returns an empty array the stack will not be attached.
-
----
-
-##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRulesList.property.fqn"></a>
-
-```typescript
-public readonly fqn: string;
-```
-
-- *Type:* string
-
----
-
-##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRulesList.property.internalValue"></a>
-
-```typescript
-public readonly internalValue: IResolvable | GoogleServiceUsageV2ConsumerPolicyEnableRules[];
-```
-
-- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRules">GoogleServiceUsageV2ConsumerPolicyEnableRules</a>[]
-
----
-
 
 ### GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference <a name="GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference" id="@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference"></a>
 
@@ -1418,15 +1271,13 @@ public readonly internalValue: IResolvable | GoogleServiceUsageV2ConsumerPolicyE
 ```typescript
 import { googleServiceUsageV2ConsumerPolicy } from '@cdktn/provider-google-beta'
 
-new googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean)
+new googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
-| <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>number</code> | the index of this item in the list. |
-| <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
 
 ---
 
@@ -1443,22 +1294,6 @@ The parent resource.
 - *Type:* string
 
 The attribute on the parent resource this class is referencing.
-
----
-
-##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference.Initializer.parameter.complexObjectIndex"></a>
-
-- *Type:* number
-
-the index of this item in the list.
-
----
-
-##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
-
-- *Type:* boolean
-
-whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 
 ---
 
@@ -1479,6 +1314,7 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 | <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference.resetCatalogs">resetCatalogs</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference.resetServices">resetServices</a></code> | *No description.* |
 
 ---
@@ -1633,6 +1469,12 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `resetCatalogs` <a name="resetCatalogs" id="@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference.resetCatalogs"></a>
+
+```typescript
+public resetCatalogs(): void
+```
+
 ##### `resetServices` <a name="resetServices" id="@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference.resetServices"></a>
 
 ```typescript
@@ -1646,9 +1488,11 @@ public resetServices(): void
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference.property.catalogsInput">catalogsInput</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference.property.servicesInput">servicesInput</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference.property.catalogs">catalogs</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference.property.services">services</a></code> | <code>string[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference.property.internalValue">internalValue</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRules">GoogleServiceUsageV2ConsumerPolicyEnableRules</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRules">GoogleServiceUsageV2ConsumerPolicyEnableRules</a></code> | *No description.* |
 
 ---
 
@@ -1676,10 +1520,30 @@ public readonly fqn: string;
 
 ---
 
+##### `catalogsInput`<sup>Optional</sup> <a name="catalogsInput" id="@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference.property.catalogsInput"></a>
+
+```typescript
+public readonly catalogsInput: string[];
+```
+
+- *Type:* string[]
+
+---
+
 ##### `servicesInput`<sup>Optional</sup> <a name="servicesInput" id="@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference.property.servicesInput"></a>
 
 ```typescript
 public readonly servicesInput: string[];
+```
+
+- *Type:* string[]
+
+---
+
+##### `catalogs`<sup>Required</sup> <a name="catalogs" id="@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference.property.catalogs"></a>
+
+```typescript
+public readonly catalogs: string[];
 ```
 
 - *Type:* string[]
@@ -1699,10 +1563,10 @@ public readonly services: string[];
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRulesOutputReference.property.internalValue"></a>
 
 ```typescript
-public readonly internalValue: IResolvable | GoogleServiceUsageV2ConsumerPolicyEnableRules;
+public readonly internalValue: GoogleServiceUsageV2ConsumerPolicyEnableRules;
 ```
 
-- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRules">GoogleServiceUsageV2ConsumerPolicyEnableRules</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleServiceUsageV2ConsumerPolicy.GoogleServiceUsageV2ConsumerPolicyEnableRules">GoogleServiceUsageV2ConsumerPolicyEnableRules</a>
 
 ---
 

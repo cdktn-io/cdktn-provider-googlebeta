@@ -4,7 +4,7 @@
 
 ### GoogleMonitoringSnooze <a name="GoogleMonitoringSnooze" id="@cdktn/provider-google-beta.googleMonitoringSnooze.GoogleMonitoringSnooze"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_monitoring_snooze google_monitoring_snooze}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_monitoring_snooze google_monitoring_snooze}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMonitoringSnooze.GoogleMonitoringSnooze.Initializer"></a>
 
@@ -44,8 +44,8 @@ googleMonitoringSnooze.GoogleMonitoringSnooze(
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringSnooze.GoogleMonitoringSnooze.Initializer.parameter.criteria">criteria</a></code> | <code><a href="#@cdktn/provider-google-beta.googleMonitoringSnooze.GoogleMonitoringSnoozeCriteria">GoogleMonitoringSnoozeCriteria</a></code> | criteria block. |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringSnooze.GoogleMonitoringSnooze.Initializer.parameter.displayName">display_name</a></code> | <code>str</code> | A display name for the Snooze. This can be, at most, 512 unicode characters. |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringSnooze.GoogleMonitoringSnooze.Initializer.parameter.interval">interval</a></code> | <code><a href="#@cdktn/provider-google-beta.googleMonitoringSnooze.GoogleMonitoringSnoozeInterval">GoogleMonitoringSnoozeInterval</a></code> | interval block. |
-| <code><a href="#@cdktn/provider-google-beta.googleMonitoringSnooze.GoogleMonitoringSnooze.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_monitoring_snooze#id GoogleMonitoringSnooze#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleMonitoringSnooze.GoogleMonitoringSnooze.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_monitoring_snooze#project GoogleMonitoringSnooze#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMonitoringSnooze.GoogleMonitoringSnooze.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_monitoring_snooze#id GoogleMonitoringSnooze#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMonitoringSnooze.GoogleMonitoringSnooze.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_monitoring_snooze#project GoogleMonitoringSnooze#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringSnooze.GoogleMonitoringSnooze.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleMonitoringSnooze.GoogleMonitoringSnoozeTimeouts">GoogleMonitoringSnoozeTimeouts</a></code> | timeouts block. |
 
 ---
@@ -116,7 +116,7 @@ Must be unique amongst siblings in the same scope
 
 criteria block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_monitoring_snooze#criteria GoogleMonitoringSnooze#criteria}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_monitoring_snooze#criteria GoogleMonitoringSnooze#criteria}
 
 ---
 
@@ -126,7 +126,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A display name for the Snooze. This can be, at most, 512 unicode characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_monitoring_snooze#display_name GoogleMonitoringSnooze#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_monitoring_snooze#display_name GoogleMonitoringSnooze#display_name}
 
 ---
 
@@ -136,7 +136,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 interval block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_monitoring_snooze#interval GoogleMonitoringSnooze#interval}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_monitoring_snooze#interval GoogleMonitoringSnooze#interval}
 
 ---
 
@@ -144,7 +144,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_monitoring_snooze#id GoogleMonitoringSnooze#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_monitoring_snooze#id GoogleMonitoringSnooze#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -155,7 +155,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_monitoring_snooze#project GoogleMonitoringSnooze#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_monitoring_snooze#project GoogleMonitoringSnooze#project}.
 
 ---
 
@@ -165,7 +165,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_monitoring_snooze#timeouts GoogleMonitoringSnooze#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_monitoring_snooze#timeouts GoogleMonitoringSnooze#timeouts}
 
 ---
 
@@ -586,7 +586,7 @@ of us-central1:
 
 "filter": "resource.labels.instance_id="1234567890" AND metric.labels.instance_name="test_group" AND metadata.user_labels.foo="bar" AND metadata.system_labels.region="us-central1""
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_monitoring_snooze#filter GoogleMonitoringSnooze#filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_monitoring_snooze#filter GoogleMonitoringSnooze#filter}
 
 ---
 
@@ -601,7 +601,7 @@ There is a limit of 16 policies per snooze. This limit is checked during
 snooze creation. Exactly 1 alert policy is required if filter is specified
 at the same time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_monitoring_snooze#policies GoogleMonitoringSnooze#policies}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_monitoring_snooze#policies GoogleMonitoringSnooze#policies}
 
 ---
 
@@ -624,7 +624,7 @@ A timestamp in RFC3339 UTC "Zulu" format, with nanosecond resolution and
 up to nine fractional digits. Examples: "2014-10-02T15:01:23Z" and
 "2014-10-02T15:01:23.045123456Z".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_monitoring_snooze#end_time GoogleMonitoringSnooze#end_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_monitoring_snooze#end_time GoogleMonitoringSnooze#end_time}
 
 ---
 
@@ -640,7 +640,7 @@ A timestamp in RFC3339 UTC "Zulu" format, with nanosecond resolution and
 up to nine fractional digits. Examples: "2014-10-02T15:01:23Z" and
 "2014-10-02T15:01:23.045123456Z".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_monitoring_snooze#start_time GoogleMonitoringSnooze#start_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_monitoring_snooze#start_time GoogleMonitoringSnooze#start_time}
 
 ---
 
@@ -658,7 +658,7 @@ def put_timeouts(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_monitoring_snooze#create GoogleMonitoringSnooze#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_monitoring_snooze#create GoogleMonitoringSnooze#create}.
 
 ---
 
@@ -666,7 +666,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_monitoring_snooze#delete GoogleMonitoringSnooze#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_monitoring_snooze#delete GoogleMonitoringSnooze#delete}.
 
 ---
 
@@ -674,7 +674,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_monitoring_snooze#update GoogleMonitoringSnooze#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_monitoring_snooze#update GoogleMonitoringSnooze#update}.
 
 ---
 
@@ -810,7 +810,7 @@ The construct id used in the generated config for the GoogleMonitoringSnooze to 
 
 The id of the existing GoogleMonitoringSnooze that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_monitoring_snooze#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_monitoring_snooze#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1186,8 +1186,8 @@ googleMonitoringSnooze.GoogleMonitoringSnoozeConfig(
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringSnooze.GoogleMonitoringSnoozeConfig.property.criteria">criteria</a></code> | <code><a href="#@cdktn/provider-google-beta.googleMonitoringSnooze.GoogleMonitoringSnoozeCriteria">GoogleMonitoringSnoozeCriteria</a></code> | criteria block. |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringSnooze.GoogleMonitoringSnoozeConfig.property.displayName">display_name</a></code> | <code>str</code> | A display name for the Snooze. This can be, at most, 512 unicode characters. |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringSnooze.GoogleMonitoringSnoozeConfig.property.interval">interval</a></code> | <code><a href="#@cdktn/provider-google-beta.googleMonitoringSnooze.GoogleMonitoringSnoozeInterval">GoogleMonitoringSnoozeInterval</a></code> | interval block. |
-| <code><a href="#@cdktn/provider-google-beta.googleMonitoringSnooze.GoogleMonitoringSnoozeConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_monitoring_snooze#id GoogleMonitoringSnooze#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleMonitoringSnooze.GoogleMonitoringSnoozeConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_monitoring_snooze#project GoogleMonitoringSnooze#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMonitoringSnooze.GoogleMonitoringSnoozeConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_monitoring_snooze#id GoogleMonitoringSnooze#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMonitoringSnooze.GoogleMonitoringSnoozeConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_monitoring_snooze#project GoogleMonitoringSnooze#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringSnooze.GoogleMonitoringSnoozeConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleMonitoringSnooze.GoogleMonitoringSnoozeTimeouts">GoogleMonitoringSnoozeTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1272,7 +1272,7 @@ criteria: GoogleMonitoringSnoozeCriteria
 
 criteria block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_monitoring_snooze#criteria GoogleMonitoringSnooze#criteria}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_monitoring_snooze#criteria GoogleMonitoringSnooze#criteria}
 
 ---
 
@@ -1286,7 +1286,7 @@ display_name: str
 
 A display name for the Snooze. This can be, at most, 512 unicode characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_monitoring_snooze#display_name GoogleMonitoringSnooze#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_monitoring_snooze#display_name GoogleMonitoringSnooze#display_name}
 
 ---
 
@@ -1300,7 +1300,7 @@ interval: GoogleMonitoringSnoozeInterval
 
 interval block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_monitoring_snooze#interval GoogleMonitoringSnooze#interval}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_monitoring_snooze#interval GoogleMonitoringSnooze#interval}
 
 ---
 
@@ -1312,7 +1312,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_monitoring_snooze#id GoogleMonitoringSnooze#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_monitoring_snooze#id GoogleMonitoringSnooze#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1327,7 +1327,7 @@ project: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_monitoring_snooze#project GoogleMonitoringSnooze#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_monitoring_snooze#project GoogleMonitoringSnooze#project}.
 
 ---
 
@@ -1341,7 +1341,7 @@ timeouts: GoogleMonitoringSnoozeTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_monitoring_snooze#timeouts GoogleMonitoringSnooze#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_monitoring_snooze#timeouts GoogleMonitoringSnooze#timeouts}
 
 ---
 
@@ -1394,7 +1394,7 @@ of us-central1:
 
 "filter": "resource.labels.instance_id="1234567890" AND metric.labels.instance_name="test_group" AND metadata.user_labels.foo="bar" AND metadata.system_labels.region="us-central1""
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_monitoring_snooze#filter GoogleMonitoringSnooze#filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_monitoring_snooze#filter GoogleMonitoringSnooze#filter}
 
 ---
 
@@ -1413,7 +1413,7 @@ There is a limit of 16 policies per snooze. This limit is checked during
 snooze creation. Exactly 1 alert policy is required if filter is specified
 at the same time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_monitoring_snooze#policies GoogleMonitoringSnooze#policies}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_monitoring_snooze#policies GoogleMonitoringSnooze#policies}
 
 ---
 
@@ -1453,7 +1453,7 @@ A timestamp in RFC3339 UTC "Zulu" format, with nanosecond resolution and
 up to nine fractional digits. Examples: "2014-10-02T15:01:23Z" and
 "2014-10-02T15:01:23.045123456Z".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_monitoring_snooze#end_time GoogleMonitoringSnooze#end_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_monitoring_snooze#end_time GoogleMonitoringSnooze#end_time}
 
 ---
 
@@ -1473,7 +1473,7 @@ A timestamp in RFC3339 UTC "Zulu" format, with nanosecond resolution and
 up to nine fractional digits. Examples: "2014-10-02T15:01:23Z" and
 "2014-10-02T15:01:23.045123456Z".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_monitoring_snooze#start_time GoogleMonitoringSnooze#start_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_monitoring_snooze#start_time GoogleMonitoringSnooze#start_time}
 
 ---
 
@@ -1495,9 +1495,9 @@ googleMonitoringSnooze.GoogleMonitoringSnoozeTimeouts(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleMonitoringSnooze.GoogleMonitoringSnoozeTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_monitoring_snooze#create GoogleMonitoringSnooze#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleMonitoringSnooze.GoogleMonitoringSnoozeTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_monitoring_snooze#delete GoogleMonitoringSnooze#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleMonitoringSnooze.GoogleMonitoringSnoozeTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_monitoring_snooze#update GoogleMonitoringSnooze#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMonitoringSnooze.GoogleMonitoringSnoozeTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_monitoring_snooze#create GoogleMonitoringSnooze#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMonitoringSnooze.GoogleMonitoringSnoozeTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_monitoring_snooze#delete GoogleMonitoringSnooze#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMonitoringSnooze.GoogleMonitoringSnoozeTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_monitoring_snooze#update GoogleMonitoringSnooze#update}. |
 
 ---
 
@@ -1509,7 +1509,7 @@ create: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_monitoring_snooze#create GoogleMonitoringSnooze#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_monitoring_snooze#create GoogleMonitoringSnooze#create}.
 
 ---
 
@@ -1521,7 +1521,7 @@ delete: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_monitoring_snooze#delete GoogleMonitoringSnooze#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_monitoring_snooze#delete GoogleMonitoringSnooze#delete}.
 
 ---
 
@@ -1533,7 +1533,7 @@ update: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_monitoring_snooze#update GoogleMonitoringSnooze#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_monitoring_snooze#update GoogleMonitoringSnooze#update}.
 
 ---
 

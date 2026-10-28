@@ -4,12 +4,12 @@
 
 ### GoogleSecureSourceManagerHook <a name="GoogleSecureSourceManagerHook" id="@cdktn/provider-google-beta.googleSecureSourceManagerHook.GoogleSecureSourceManagerHook"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_secure_source_manager_hook google_secure_source_manager_hook}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_secure_source_manager_hook google_secure_source_manager_hook}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSecureSourceManagerHook.GoogleSecureSourceManagerHook.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlesecuresourcemanagerhook"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlesecuresourcemanagerhook"
 
 googlesecuresourcemanagerhook.NewGoogleSecureSourceManagerHook(scope Construct, id *string, config GoogleSecureSourceManagerHookConfig) GoogleSecureSourceManagerHook
 ```
@@ -489,7 +489,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleSecureSourceManagerHook.GoogleSecureSourceManagerHook.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlesecuresourcemanagerhook"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlesecuresourcemanagerhook"
 
 googlesecuresourcemanagerhook.GoogleSecureSourceManagerHook_IsConstruct(x interface{}) *bool
 ```
@@ -521,7 +521,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleSecureSourceManagerHook.GoogleSecureSourceManagerHook.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlesecuresourcemanagerhook"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlesecuresourcemanagerhook"
 
 googlesecuresourcemanagerhook.GoogleSecureSourceManagerHook_IsTerraformElement(x interface{}) *bool
 ```
@@ -535,7 +535,7 @@ googlesecuresourcemanagerhook.GoogleSecureSourceManagerHook_IsTerraformElement(x
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleSecureSourceManagerHook.GoogleSecureSourceManagerHook.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlesecuresourcemanagerhook"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlesecuresourcemanagerhook"
 
 googlesecuresourcemanagerhook.GoogleSecureSourceManagerHook_IsTerraformResource(x interface{}) *bool
 ```
@@ -549,7 +549,7 @@ googlesecuresourcemanagerhook.GoogleSecureSourceManagerHook_IsTerraformResource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleSecureSourceManagerHook.GoogleSecureSourceManagerHook.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlesecuresourcemanagerhook"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlesecuresourcemanagerhook"
 
 googlesecuresourcemanagerhook.GoogleSecureSourceManagerHook_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -578,7 +578,7 @@ The construct id used in the generated config for the GoogleSecureSourceManagerH
 
 The id of the existing GoogleSecureSourceManagerHook that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_secure_source_manager_hook#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_secure_source_manager_hook#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1108,7 +1108,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSecureSourceManagerHook.GoogleSecureSourceManagerHookConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlesecuresourcemanagerhook"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlesecuresourcemanagerhook"
 
 &googlesecuresourcemanagerhook.GoogleSecureSourceManagerHookConfig {
 	Connection: interface{},
@@ -1127,10 +1127,10 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlese
 	Events: *[]*string,
 	Id: *string,
 	Project: *string,
-	PushOption: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleSecureSourceManagerHook.GoogleSecureSourceManagerHookPushOption,
+	PushOption: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleSecureSourceManagerHook.GoogleSecureSourceManagerHookPushOption,
 	SensitiveQueryString: *string,
 	ServiceAccountAuth: interface{},
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleSecureSourceManagerHook.GoogleSecureSourceManagerHookTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleSecureSourceManagerHook.GoogleSecureSourceManagerHookTimeouts,
 }
 ```
 
@@ -1152,8 +1152,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlese
 | <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerHook.GoogleSecureSourceManagerHookConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerHook.GoogleSecureSourceManagerHookConfig.property.disabled">Disabled</a></code> | <code>interface{}</code> | Determines if the hook disabled or not. Set to true to stop sending traffic. |
 | <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerHook.GoogleSecureSourceManagerHookConfig.property.events">Events</a></code> | <code>*[]*string</code> | The events that trigger hook on. Possible values: ["PUSH", "PULL_REQUEST", "PULL_REQUEST_COMMENT"]. |
-| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerHook.GoogleSecureSourceManagerHookConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_secure_source_manager_hook#id GoogleSecureSourceManagerHook#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerHook.GoogleSecureSourceManagerHookConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_secure_source_manager_hook#project GoogleSecureSourceManagerHook#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerHook.GoogleSecureSourceManagerHookConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_secure_source_manager_hook#id GoogleSecureSourceManagerHook#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerHook.GoogleSecureSourceManagerHookConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_secure_source_manager_hook#project GoogleSecureSourceManagerHook#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerHook.GoogleSecureSourceManagerHookConfig.property.pushOption">PushOption</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerHook.GoogleSecureSourceManagerHookPushOption">GoogleSecureSourceManagerHookPushOption</a></code> | push_option block. |
 | <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerHook.GoogleSecureSourceManagerHookConfig.property.sensitiveQueryString">SensitiveQueryString</a></code> | <code>*string</code> | The sensitive query string to be appended to the target URI. |
 | <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerHook.GoogleSecureSourceManagerHookConfig.property.serviceAccountAuth">ServiceAccountAuth</a></code> | <code>interface{}</code> | Determines if the hook uses the Repository Service Account to generate an OIDC ID Token for webhook authentication. |
@@ -1241,7 +1241,7 @@ HookId *string
 
 The ID for the Hook.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_secure_source_manager_hook#hook_id GoogleSecureSourceManagerHook#hook_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_secure_source_manager_hook#hook_id GoogleSecureSourceManagerHook#hook_id}
 
 ---
 
@@ -1255,7 +1255,7 @@ Location *string
 
 The location for the Repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_secure_source_manager_hook#location GoogleSecureSourceManagerHook#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_secure_source_manager_hook#location GoogleSecureSourceManagerHook#location}
 
 ---
 
@@ -1269,7 +1269,7 @@ RepositoryId *string
 
 The ID for the Repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_secure_source_manager_hook#repository_id GoogleSecureSourceManagerHook#repository_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_secure_source_manager_hook#repository_id GoogleSecureSourceManagerHook#repository_id}
 
 ---
 
@@ -1283,7 +1283,7 @@ TargetUri *string
 
 The target URI to which the payloads will be delivered.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_secure_source_manager_hook#target_uri GoogleSecureSourceManagerHook#target_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_secure_source_manager_hook#target_uri GoogleSecureSourceManagerHook#target_uri}
 
 ---
 
@@ -1304,7 +1304,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_secure_source_manager_hook#deletion_policy GoogleSecureSourceManagerHook#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_secure_source_manager_hook#deletion_policy GoogleSecureSourceManagerHook#deletion_policy}
 
 ---
 
@@ -1318,7 +1318,7 @@ Disabled interface{}
 
 Determines if the hook disabled or not. Set to true to stop sending traffic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_secure_source_manager_hook#disabled GoogleSecureSourceManagerHook#disabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_secure_source_manager_hook#disabled GoogleSecureSourceManagerHook#disabled}
 
 ---
 
@@ -1332,7 +1332,7 @@ Events *[]*string
 
 The events that trigger hook on. Possible values: ["PUSH", "PULL_REQUEST", "PULL_REQUEST_COMMENT"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_secure_source_manager_hook#events GoogleSecureSourceManagerHook#events}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_secure_source_manager_hook#events GoogleSecureSourceManagerHook#events}
 
 ---
 
@@ -1344,7 +1344,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_secure_source_manager_hook#id GoogleSecureSourceManagerHook#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_secure_source_manager_hook#id GoogleSecureSourceManagerHook#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1359,7 +1359,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_secure_source_manager_hook#project GoogleSecureSourceManagerHook#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_secure_source_manager_hook#project GoogleSecureSourceManagerHook#project}.
 
 ---
 
@@ -1373,7 +1373,7 @@ PushOption GoogleSecureSourceManagerHookPushOption
 
 push_option block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_secure_source_manager_hook#push_option GoogleSecureSourceManagerHook#push_option}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_secure_source_manager_hook#push_option GoogleSecureSourceManagerHook#push_option}
 
 ---
 
@@ -1387,7 +1387,7 @@ SensitiveQueryString *string
 
 The sensitive query string to be appended to the target URI.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_secure_source_manager_hook#sensitive_query_string GoogleSecureSourceManagerHook#sensitive_query_string}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_secure_source_manager_hook#sensitive_query_string GoogleSecureSourceManagerHook#sensitive_query_string}
 
 ---
 
@@ -1401,7 +1401,7 @@ ServiceAccountAuth interface{}
 
 Determines if the hook uses the Repository Service Account to generate an OIDC ID Token for webhook authentication.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_secure_source_manager_hook#service_account_auth GoogleSecureSourceManagerHook#service_account_auth}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_secure_source_manager_hook#service_account_auth GoogleSecureSourceManagerHook#service_account_auth}
 
 ---
 
@@ -1415,7 +1415,7 @@ Timeouts GoogleSecureSourceManagerHookTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_secure_source_manager_hook#timeouts GoogleSecureSourceManagerHook#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_secure_source_manager_hook#timeouts GoogleSecureSourceManagerHook#timeouts}
 
 ---
 
@@ -1424,7 +1424,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSecureSourceManagerHook.GoogleSecureSourceManagerHookPushOption.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlesecuresourcemanagerhook"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlesecuresourcemanagerhook"
 
 &googlesecuresourcemanagerhook.GoogleSecureSourceManagerHookPushOption {
 	BranchFilter: *string,
@@ -1453,7 +1453,7 @@ Specified as glob pattern. If empty or *, events for all branches are
 reported. Examples: main, {main,release*}.
 See https://pkg.go.dev/github.com/gobwas/glob documentation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_secure_source_manager_hook#branch_filter GoogleSecureSourceManagerHook#branch_filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_secure_source_manager_hook#branch_filter GoogleSecureSourceManagerHook#branch_filter}
 
 ---
 
@@ -1462,7 +1462,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSecureSourceManagerHook.GoogleSecureSourceManagerHookTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlesecuresourcemanagerhook"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlesecuresourcemanagerhook"
 
 &googlesecuresourcemanagerhook.GoogleSecureSourceManagerHookTimeouts {
 	Create: *string,
@@ -1475,9 +1475,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlese
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerHook.GoogleSecureSourceManagerHookTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_secure_source_manager_hook#create GoogleSecureSourceManagerHook#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerHook.GoogleSecureSourceManagerHookTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_secure_source_manager_hook#delete GoogleSecureSourceManagerHook#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerHook.GoogleSecureSourceManagerHookTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_secure_source_manager_hook#update GoogleSecureSourceManagerHook#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerHook.GoogleSecureSourceManagerHookTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_secure_source_manager_hook#create GoogleSecureSourceManagerHook#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerHook.GoogleSecureSourceManagerHookTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_secure_source_manager_hook#delete GoogleSecureSourceManagerHook#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerHook.GoogleSecureSourceManagerHookTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_secure_source_manager_hook#update GoogleSecureSourceManagerHook#update}. |
 
 ---
 
@@ -1489,7 +1489,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_secure_source_manager_hook#create GoogleSecureSourceManagerHook#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_secure_source_manager_hook#create GoogleSecureSourceManagerHook#create}.
 
 ---
 
@@ -1501,7 +1501,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_secure_source_manager_hook#delete GoogleSecureSourceManagerHook#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_secure_source_manager_hook#delete GoogleSecureSourceManagerHook#delete}.
 
 ---
 
@@ -1513,7 +1513,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_secure_source_manager_hook#update GoogleSecureSourceManagerHook#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_secure_source_manager_hook#update GoogleSecureSourceManagerHook#update}.
 
 ---
 
@@ -1524,7 +1524,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSecureSourceManagerHook.GoogleSecureSourceManagerHookPushOptionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlesecuresourcemanagerhook"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlesecuresourcemanagerhook"
 
 googlesecuresourcemanagerhook.NewGoogleSecureSourceManagerHookPushOptionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleSecureSourceManagerHookPushOptionOutputReference
 ```
@@ -1802,7 +1802,7 @@ func InternalValue() GoogleSecureSourceManagerHookPushOption
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSecureSourceManagerHook.GoogleSecureSourceManagerHookTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlesecuresourcemanagerhook"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlesecuresourcemanagerhook"
 
 googlesecuresourcemanagerhook.NewGoogleSecureSourceManagerHookTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleSecureSourceManagerHookTimeoutsOutputReference
 ```

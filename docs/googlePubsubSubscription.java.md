@@ -4,7 +4,7 @@
 
 ### GooglePubsubSubscription <a name="GooglePubsubSubscription" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscription"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription google_pubsub_subscription}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription google_pubsub_subscription}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscription.Initializer"></a>
 
@@ -23,6 +23,7 @@ GooglePubsubSubscription.Builder.create(Construct scope, java.lang.String id)
     .topic(java.lang.String)
 //  .ackDeadlineSeconds(java.lang.Number)
 //  .bigqueryConfig(GooglePubsubSubscriptionBigqueryConfig)
+//  .bigtableConfig(GooglePubsubSubscriptionBigtableConfig)
 //  .cloudStorageConfig(GooglePubsubSubscriptionCloudStorageConfig)
 //  .deadLetterPolicy(GooglePubsubSubscriptionDeadLetterPolicy)
 //  .deletionPolicy(java.lang.String)
@@ -58,6 +59,7 @@ GooglePubsubSubscription.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscription.Initializer.parameter.topic">topic</a></code> | <code>java.lang.String</code> | A reference to a Topic resource, of the form projects/{project}/topics/{{name}} (as in the id property of a google_pubsub_topic), or just a topic name if the topic is in the same project as the subscription. |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscription.Initializer.parameter.ackDeadlineSeconds">ackDeadlineSeconds</a></code> | <code>java.lang.Number</code> | This value is the maximum time after a subscriber receives a message before the subscriber should acknowledge the message. |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscription.Initializer.parameter.bigqueryConfig">bigqueryConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigqueryConfig">GooglePubsubSubscriptionBigqueryConfig</a></code> | bigquery_config block. |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscription.Initializer.parameter.bigtableConfig">bigtableConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfig">GooglePubsubSubscriptionBigtableConfig</a></code> | bigtable_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscription.Initializer.parameter.cloudStorageConfig">cloudStorageConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionCloudStorageConfig">GooglePubsubSubscriptionCloudStorageConfig</a></code> | cloud_storage_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscription.Initializer.parameter.deadLetterPolicy">deadLetterPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionDeadLetterPolicy">GooglePubsubSubscriptionDeadLetterPolicy</a></code> | dead_letter_policy block. |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscription.Initializer.parameter.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
@@ -65,11 +67,11 @@ GooglePubsubSubscription.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscription.Initializer.parameter.enableMessageOrdering">enableMessageOrdering</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | If 'true', messages published with the same orderingKey in PubsubMessage will be delivered to the subscribers in the order in which they are received by the Pub/Sub system. |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscription.Initializer.parameter.expirationPolicy">expirationPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionExpirationPolicy">GooglePubsubSubscriptionExpirationPolicy</a></code> | expiration_policy block. |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscription.Initializer.parameter.filter">filter</a></code> | <code>java.lang.String</code> | The subscription only delivers the messages that match the filter. |
-| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscription.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#id GooglePubsubSubscription#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscription.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#id GooglePubsubSubscription#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscription.Initializer.parameter.labels">labels</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | A set of key/value label pairs to assign to this Subscription. |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscription.Initializer.parameter.messageRetentionDuration">messageRetentionDuration</a></code> | <code>java.lang.String</code> | How long to retain unacknowledged messages in the subscription's backlog, from the moment a message is published. |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscription.Initializer.parameter.messageTransforms">messageTransforms</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionMessageTransforms">GooglePubsubSubscriptionMessageTransforms</a>></code> | message_transforms block. |
-| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscription.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#project GooglePubsubSubscription#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscription.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#project GooglePubsubSubscription#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscription.Initializer.parameter.pushConfig">pushConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionPushConfig">GooglePubsubSubscriptionPushConfig</a></code> | push_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscription.Initializer.parameter.retainAckedMessages">retainAckedMessages</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Indicates whether to retain acknowledged messages. |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscription.Initializer.parameter.retryPolicy">retryPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionRetryPolicy">GooglePubsubSubscriptionRetryPolicy</a></code> | retry_policy block. |
@@ -144,7 +146,7 @@ Must be unique amongst siblings in the same scope
 
 Name of the subscription.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#name GooglePubsubSubscription#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#name GooglePubsubSubscription#name}
 
 ---
 
@@ -154,7 +156,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A reference to a Topic resource, of the form projects/{project}/topics/{{name}} (as in the id property of a google_pubsub_topic), or just a topic name if the topic is in the same project as the subscription.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#topic GooglePubsubSubscription#topic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#topic GooglePubsubSubscription#topic}
 
 ---
 
@@ -182,7 +184,7 @@ for the call to the push endpoint.
 If the subscriber never acknowledges the message, the Pub/Sub system
 will eventually redeliver the message.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#ack_deadline_seconds GooglePubsubSubscription#ack_deadline_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#ack_deadline_seconds GooglePubsubSubscription#ack_deadline_seconds}
 
 ---
 
@@ -192,7 +194,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 bigquery_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#bigquery_config GooglePubsubSubscription#bigquery_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#bigquery_config GooglePubsubSubscription#bigquery_config}
+
+---
+
+##### `bigtableConfig`<sup>Optional</sup> <a name="bigtableConfig" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscription.Initializer.parameter.bigtableConfig"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfig">GooglePubsubSubscriptionBigtableConfig</a>
+
+bigtable_config block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#bigtable_config GooglePubsubSubscription#bigtable_config}
 
 ---
 
@@ -202,7 +214,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 cloud_storage_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#cloud_storage_config GooglePubsubSubscription#cloud_storage_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#cloud_storage_config GooglePubsubSubscription#cloud_storage_config}
 
 ---
 
@@ -212,7 +224,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 dead_letter_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#dead_letter_policy GooglePubsubSubscription#dead_letter_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#dead_letter_policy GooglePubsubSubscription#dead_letter_policy}
 
 ---
 
@@ -229,7 +241,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#deletion_policy GooglePubsubSubscription#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#deletion_policy GooglePubsubSubscription#deletion_policy}
 
 ---
 
@@ -244,7 +256,7 @@ If 'true', Pub/Sub provides the following guarantees for the delivery of a messa
 Note that subscribers may still receive multiple copies of a message when 'enable_exactly_once_delivery'
 is true if the message was published multiple times by a publisher client. These copies are considered distinct by Pub/Sub and have distinct messageId values
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#enable_exactly_once_delivery GooglePubsubSubscription#enable_exactly_once_delivery}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#enable_exactly_once_delivery GooglePubsubSubscription#enable_exactly_once_delivery}
 
 ---
 
@@ -257,7 +269,7 @@ If 'true', messages published with the same orderingKey in PubsubMessage will be
 Otherwise, they
 may be delivered in any order.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#enable_message_ordering GooglePubsubSubscription#enable_message_ordering}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#enable_message_ordering GooglePubsubSubscription#enable_message_ordering}
 
 ---
 
@@ -267,7 +279,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 expiration_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#expiration_policy GooglePubsubSubscription#expiration_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#expiration_policy GooglePubsubSubscription#expiration_policy}
 
 ---
 
@@ -281,7 +293,7 @@ Pub/Sub automatically acknowledges the messages that don't match the filter. You
 by their attributes. The maximum length of a filter is 256 bytes. After creating the subscription,
 you can't modify the filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#filter GooglePubsubSubscription#filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#filter GooglePubsubSubscription#filter}
 
 ---
 
@@ -289,7 +301,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#id GooglePubsubSubscription#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#id GooglePubsubSubscription#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -305,7 +317,7 @@ A set of key/value label pairs to assign to this Subscription.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#labels GooglePubsubSubscription#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#labels GooglePubsubSubscription#labels}
 
 ---
 
@@ -324,7 +336,7 @@ than 31 days ('"2678400s"') or less than 10 minutes ('"600s"').
 A duration in seconds with up to nine fractional digits, terminated
 by 's'. Example: '"600.5s"'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#message_retention_duration GooglePubsubSubscription#message_retention_duration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#message_retention_duration GooglePubsubSubscription#message_retention_duration}
 
 ---
 
@@ -334,7 +346,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 message_transforms block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#message_transforms GooglePubsubSubscription#message_transforms}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#message_transforms GooglePubsubSubscription#message_transforms}
 
 ---
 
@@ -342,7 +354,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#project GooglePubsubSubscription#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#project GooglePubsubSubscription#project}.
 
 ---
 
@@ -352,7 +364,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 push_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#push_config GooglePubsubSubscription#push_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#push_config GooglePubsubSubscription#push_config}
 
 ---
 
@@ -367,7 +379,7 @@ messages are not expunged from the subscription's backlog, even if
 they are acknowledged, until they fall out of the
 messageRetentionDuration window.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#retain_acked_messages GooglePubsubSubscription#retain_acked_messages}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#retain_acked_messages GooglePubsubSubscription#retain_acked_messages}
 
 ---
 
@@ -377,7 +389,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 retry_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#retry_policy GooglePubsubSubscription#retry_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#retry_policy GooglePubsubSubscription#retry_policy}
 
 ---
 
@@ -396,7 +408,7 @@ time and modifying this field after creation will trigger recreation. To
 apply tags to an existing resource, see the 'google_tags_tag_value'
 resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#tags GooglePubsubSubscription#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#tags GooglePubsubSubscription#tags}
 
 ---
 
@@ -406,7 +418,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#timeouts GooglePubsubSubscription#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#timeouts GooglePubsubSubscription#timeouts}
 
 ---
 
@@ -439,6 +451,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscription.moveTo">moveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscription.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscription.putBigqueryConfig">putBigqueryConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscription.putBigtableConfig">putBigtableConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscription.putCloudStorageConfig">putCloudStorageConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscription.putDeadLetterPolicy">putDeadLetterPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscription.putExpirationPolicy">putExpirationPolicy</a></code> | *No description.* |
@@ -448,6 +461,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscription.putTimeouts">putTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscription.resetAckDeadlineSeconds">resetAckDeadlineSeconds</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscription.resetBigqueryConfig">resetBigqueryConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscription.resetBigtableConfig">resetBigtableConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscription.resetCloudStorageConfig">resetCloudStorageConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscription.resetDeadLetterPolicy">resetDeadLetterPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscription.resetDeletionPolicy">resetDeletionPolicy</a></code> | *No description.* |
@@ -791,6 +805,18 @@ public void putBigqueryConfig(GooglePubsubSubscriptionBigqueryConfig value)
 
 ---
 
+##### `putBigtableConfig` <a name="putBigtableConfig" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscription.putBigtableConfig"></a>
+
+```java
+public void putBigtableConfig(GooglePubsubSubscriptionBigtableConfig value)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscription.putBigtableConfig.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfig">GooglePubsubSubscriptionBigtableConfig</a>
+
+---
+
 ##### `putCloudStorageConfig` <a name="putCloudStorageConfig" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscription.putCloudStorageConfig"></a>
 
 ```java
@@ -885,6 +911,12 @@ public void resetAckDeadlineSeconds()
 
 ```java
 public void resetBigqueryConfig()
+```
+
+##### `resetBigtableConfig` <a name="resetBigtableConfig" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscription.resetBigtableConfig"></a>
+
+```java
+public void resetBigtableConfig()
 ```
 
 ##### `resetCloudStorageConfig` <a name="resetCloudStorageConfig" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscription.resetCloudStorageConfig"></a>
@@ -1092,7 +1124,7 @@ The construct id used in the generated config for the GooglePubsubSubscription t
 
 The id of the existing GooglePubsubSubscription that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1123,6 +1155,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscription.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscription.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscription.property.bigqueryConfig">bigqueryConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigqueryConfigOutputReference">GooglePubsubSubscriptionBigqueryConfigOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscription.property.bigtableConfig">bigtableConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference">GooglePubsubSubscriptionBigtableConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscription.property.cloudStorageConfig">cloudStorageConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionCloudStorageConfigOutputReference">GooglePubsubSubscriptionCloudStorageConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscription.property.deadLetterPolicy">deadLetterPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionDeadLetterPolicyOutputReference">GooglePubsubSubscriptionDeadLetterPolicyOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscription.property.effectiveLabels">effectiveLabels</a></code> | <code>io.cdktn.cdktn.StringMap</code> | *No description.* |
@@ -1134,6 +1167,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscription.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionTimeoutsOutputReference">GooglePubsubSubscriptionTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscription.property.ackDeadlineSecondsInput">ackDeadlineSecondsInput</a></code> | <code>java.lang.Number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscription.property.bigqueryConfigInput">bigqueryConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigqueryConfig">GooglePubsubSubscriptionBigqueryConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscription.property.bigtableConfigInput">bigtableConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfig">GooglePubsubSubscriptionBigtableConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscription.property.cloudStorageConfigInput">cloudStorageConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionCloudStorageConfig">GooglePubsubSubscriptionCloudStorageConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscription.property.deadLetterPolicyInput">deadLetterPolicyInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionDeadLetterPolicy">GooglePubsubSubscriptionDeadLetterPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscription.property.deletionPolicyInput">deletionPolicyInput</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -1321,6 +1355,16 @@ public GooglePubsubSubscriptionBigqueryConfigOutputReference getBigqueryConfig()
 
 ---
 
+##### `bigtableConfig`<sup>Required</sup> <a name="bigtableConfig" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscription.property.bigtableConfig"></a>
+
+```java
+public GooglePubsubSubscriptionBigtableConfigOutputReference getBigtableConfig();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference">GooglePubsubSubscriptionBigtableConfigOutputReference</a>
+
+---
+
 ##### `cloudStorageConfig`<sup>Required</sup> <a name="cloudStorageConfig" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscription.property.cloudStorageConfig"></a>
 
 ```java
@@ -1428,6 +1472,16 @@ public GooglePubsubSubscriptionBigqueryConfig getBigqueryConfigInput();
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigqueryConfig">GooglePubsubSubscriptionBigqueryConfig</a>
+
+---
+
+##### `bigtableConfigInput`<sup>Optional</sup> <a name="bigtableConfigInput" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscription.property.bigtableConfigInput"></a>
+
+```java
+public GooglePubsubSubscriptionBigtableConfig getBigtableConfigInput();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfig">GooglePubsubSubscriptionBigtableConfig</a>
 
 ---
 
@@ -1811,7 +1865,7 @@ public java.lang.String getTable();
 
 The name of the table to which to write data, of the form {projectId}.{datasetId}.{tableId}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#table GooglePubsubSubscription#table}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#table GooglePubsubSubscription#table}
 
 ---
 
@@ -1828,7 +1882,7 @@ When true and use_topic_schema or use_table_schema is true, any fields that are 
 Otherwise, the schemas must be kept in sync
 and any messages with extra fields are not written and remain in the subscription's backlog.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#drop_unknown_fields GooglePubsubSubscription#drop_unknown_fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#drop_unknown_fields GooglePubsubSubscription#drop_unknown_fields}
 
 ---
 
@@ -1842,7 +1896,7 @@ public java.lang.String getServiceAccountEmail();
 
 The service account to use to write to BigQuery. If not specified, the Pub/Sub [service agent](https://cloud.google.com/iam/docs/service-agents), service-{project_number}@gcp-sa-pubsub.iam.gserviceaccount.com, is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#service_account_email GooglePubsubSubscription#service_account_email}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#service_account_email GooglePubsubSubscription#service_account_email}
 
 ---
 
@@ -1859,7 +1913,7 @@ When true, use the BigQuery table's schema as the columns to write to in BigQuer
 Messages
 must be published in JSON format. Only one of use_topic_schema and use_table_schema can be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#use_table_schema GooglePubsubSubscription#use_table_schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#use_table_schema GooglePubsubSubscription#use_table_schema}
 
 ---
 
@@ -1875,7 +1929,7 @@ When true, use the topic's schema as the columns to write to in BigQuery, if it 
 
 Only one of use_topic_schema and use_table_schema can be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#use_topic_schema GooglePubsubSubscription#use_topic_schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#use_topic_schema GooglePubsubSubscription#use_topic_schema}
 
 ---
 
@@ -1891,9 +1945,237 @@ When true, write the subscription name, messageId, publishTime, attributes, and 
 
 The subscription name, messageId, and publishTime fields are put in their own columns while all other message properties (other than data) are written to a JSON object in the attributes column.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#write_metadata GooglePubsubSubscription#write_metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#write_metadata GooglePubsubSubscription#write_metadata}
 
 ---
+
+### GooglePubsubSubscriptionBigtableConfig <a name="GooglePubsubSubscriptionBigtableConfig" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfig.Initializer"></a>
+
+```java
+import io.cdktn.providers.google_beta.google_pubsub_subscription.GooglePubsubSubscriptionBigtableConfig;
+
+GooglePubsubSubscriptionBigtableConfig.builder()
+    .table(java.lang.String)
+//  .appProfileId(java.lang.String)
+//  .columnFamilyMapping(GooglePubsubSubscriptionBigtableConfigColumnFamilyMapping)
+//  .serviceAccountEmail(java.lang.String)
+//  .writeMetadata(java.lang.Boolean|IResolvable)
+    .build();
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfig.property.table">table</a></code> | <code>java.lang.String</code> | The unique name of the table to write messages to, of the form 'projects/{project}/instances/{instance}/tables/{table}'. |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfig.property.appProfileId">appProfileId</a></code> | <code>java.lang.String</code> | The app profile to use for the Bigtable writes. |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfig.property.columnFamilyMapping">columnFamilyMapping</a></code> | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMapping">GooglePubsubSubscriptionBigtableConfigColumnFamilyMapping</a></code> | column_family_mapping block. |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfig.property.serviceAccountEmail">serviceAccountEmail</a></code> | <code>java.lang.String</code> | The service account to use to write to Bigtable. |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfig.property.writeMetadata">writeMetadata</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | When true, write the subscription name, messageId, publishTime, attributes, and orderingKey to additional columns in the table under the 'pubsub_metadata' column family. |
+
+---
+
+##### `table`<sup>Required</sup> <a name="table" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfig.property.table"></a>
+
+```java
+public java.lang.String getTable();
+```
+
+- *Type:* java.lang.String
+
+The unique name of the table to write messages to, of the form 'projects/{project}/instances/{instance}/tables/{table}'.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#table GooglePubsubSubscription#table}
+
+---
+
+##### `appProfileId`<sup>Optional</sup> <a name="appProfileId" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfig.property.appProfileId"></a>
+
+```java
+public java.lang.String getAppProfileId();
+```
+
+- *Type:* java.lang.String
+
+The app profile to use for the Bigtable writes.
+
+If not specified, the "default" application
+profile will be used. The app profile must use single-cluster routing.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#app_profile_id GooglePubsubSubscription#app_profile_id}
+
+---
+
+##### `columnFamilyMapping`<sup>Optional</sup> <a name="columnFamilyMapping" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfig.property.columnFamilyMapping"></a>
+
+```java
+public GooglePubsubSubscriptionBigtableConfigColumnFamilyMapping getColumnFamilyMapping();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMapping">GooglePubsubSubscriptionBigtableConfigColumnFamilyMapping</a>
+
+column_family_mapping block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#column_family_mapping GooglePubsubSubscription#column_family_mapping}
+
+---
+
+##### `serviceAccountEmail`<sup>Optional</sup> <a name="serviceAccountEmail" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfig.property.serviceAccountEmail"></a>
+
+```java
+public java.lang.String getServiceAccountEmail();
+```
+
+- *Type:* java.lang.String
+
+The service account to use to write to Bigtable.
+
+The subscription creator or updater that
+specifies this field must have 'iam.serviceAccounts.actAs' permission on the service account.
+If not specified, the Pub/Sub [service agent](https://cloud.google.com/iam/docs/service-agents),
+service-{project_number}@gcp-sa-pubsub.iam.gserviceaccount.com, is used.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#service_account_email GooglePubsubSubscription#service_account_email}
+
+---
+
+##### `writeMetadata`<sup>Optional</sup> <a name="writeMetadata" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfig.property.writeMetadata"></a>
+
+```java
+public java.lang.Boolean|IResolvable getWriteMetadata();
+```
+
+- *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
+
+When true, write the subscription name, messageId, publishTime, attributes, and orderingKey to additional columns in the table under the 'pubsub_metadata' column family.
+
+The subscription name,
+messageId, and publishTime fields are put in their own columns while all other message properties
+(other than data) are written to a JSON object in the attributes column.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#write_metadata GooglePubsubSubscription#write_metadata}
+
+---
+
+### GooglePubsubSubscriptionBigtableConfigColumnFamilyMapping <a name="GooglePubsubSubscriptionBigtableConfigColumnFamilyMapping" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMapping"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMapping.Initializer"></a>
+
+```java
+import io.cdktn.providers.google_beta.google_pubsub_subscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMapping;
+
+GooglePubsubSubscriptionBigtableConfigColumnFamilyMapping.builder()
+//  .delimitedKey(GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKey)
+//  .rowKeySchema(GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchema)
+    .build();
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMapping.property.delimitedKey">delimitedKey</a></code> | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKey">GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKey</a></code> | delimited_key block. |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMapping.property.rowKeySchema">rowKeySchema</a></code> | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchema">GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchema</a></code> | row_key_schema block. |
+
+---
+
+##### `delimitedKey`<sup>Optional</sup> <a name="delimitedKey" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMapping.property.delimitedKey"></a>
+
+```java
+public GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKey getDelimitedKey();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKey">GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKey</a>
+
+delimited_key block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#delimited_key GooglePubsubSubscription#delimited_key}
+
+---
+
+##### `rowKeySchema`<sup>Optional</sup> <a name="rowKeySchema" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMapping.property.rowKeySchema"></a>
+
+```java
+public GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchema getRowKeySchema();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchema">GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchema</a>
+
+row_key_schema block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#row_key_schema GooglePubsubSubscription#row_key_schema}
+
+---
+
+### GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKey <a name="GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKey" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKey"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKey.Initializer"></a>
+
+```java
+import io.cdktn.providers.google_beta.google_pubsub_subscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKey;
+
+GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKey.builder()
+    .keyFields(java.util.List<java.lang.String>)
+//  .delimiter(java.lang.String)
+    .build();
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKey.property.keyFields">keyFields</a></code> | <code>java.util.List<java.lang.String></code> | The key fields to construct the row key from. |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKey.property.delimiter">delimiter</a></code> | <code>java.lang.String</code> | The byte sequence used to delimit concatenated key fields, as a base64-encoded string (for example, 'Iw==' for '#'). |
+
+---
+
+##### `keyFields`<sup>Required</sup> <a name="keyFields" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKey.property.keyFields"></a>
+
+```java
+public java.util.List<java.lang.String> getKeyFields();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+The key fields to construct the row key from.
+
+The fields must be present in the message
+as top-level fields; JSON path expressions will not traverse into nested objects.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#key_fields GooglePubsubSubscription#key_fields}
+
+---
+
+##### `delimiter`<sup>Optional</sup> <a name="delimiter" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKey.property.delimiter"></a>
+
+```java
+public java.lang.String getDelimiter();
+```
+
+- *Type:* java.lang.String
+
+The byte sequence used to delimit concatenated key fields, as a base64-encoded string (for example, 'Iw==' for '#').
+
+Must be specified if multiple key fields are used. The
+delimiter must contain at least 1 character and at most 50 characters.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#delimiter GooglePubsubSubscription#delimiter}
+
+---
+
+### GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchema <a name="GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchema" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchema"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchema.Initializer"></a>
+
+```java
+import io.cdktn.providers.google_beta.google_pubsub_subscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchema;
+
+GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchema.builder()
+    .build();
+```
+
 
 ### GooglePubsubSubscriptionCloudStorageConfig <a name="GooglePubsubSubscriptionCloudStorageConfig" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionCloudStorageConfig"></a>
 
@@ -1945,7 +2227,7 @@ User-provided name for the Cloud Storage bucket.
 
 The bucket must be created by the user. The bucket name must be without any prefix like "gs://".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#bucket GooglePubsubSubscription#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#bucket GooglePubsubSubscription#bucket}
 
 ---
 
@@ -1959,7 +2241,7 @@ public GooglePubsubSubscriptionCloudStorageConfigAvroConfig getAvroConfig();
 
 avro_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#avro_config GooglePubsubSubscription#avro_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#avro_config GooglePubsubSubscription#avro_config}
 
 ---
 
@@ -1973,7 +2255,7 @@ public java.lang.String getFilenameDatetimeFormat();
 
 User-provided format string specifying how to represent datetimes in Cloud Storage filenames.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#filename_datetime_format GooglePubsubSubscription#filename_datetime_format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#filename_datetime_format GooglePubsubSubscription#filename_datetime_format}
 
 ---
 
@@ -1987,7 +2269,7 @@ public java.lang.String getFilenamePrefix();
 
 User-provided prefix for Cloud Storage filename.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#filename_prefix GooglePubsubSubscription#filename_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#filename_prefix GooglePubsubSubscription#filename_prefix}
 
 ---
 
@@ -2001,7 +2283,7 @@ public java.lang.String getFilenameSuffix();
 
 User-provided suffix for Cloud Storage filename. Must not end in "/".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#filename_suffix GooglePubsubSubscription#filename_suffix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#filename_suffix GooglePubsubSubscription#filename_suffix}
 
 ---
 
@@ -2018,7 +2300,7 @@ The maximum bytes that can be written to a Cloud Storage file before a new file 
 Min 1 KB, max 10 GiB.
 The maxBytes limit may be exceeded in cases where messages are larger than the limit.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#max_bytes GooglePubsubSubscription#max_bytes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#max_bytes GooglePubsubSubscription#max_bytes}
 
 ---
 
@@ -2036,7 +2318,7 @@ Min 1 minute, max 10 minutes, default 5 minutes.
 May not exceed the subscription's acknowledgement deadline.
 A duration in seconds with up to nine fractional digits, ending with 's'. Example: "3.5s".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#max_duration GooglePubsubSubscription#max_duration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#max_duration GooglePubsubSubscription#max_duration}
 
 ---
 
@@ -2052,7 +2334,7 @@ The maximum messages that can be written to a Cloud Storage file before a new fi
 
 Min 1000 messages.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#max_messages GooglePubsubSubscription#max_messages}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#max_messages GooglePubsubSubscription#max_messages}
 
 ---
 
@@ -2066,7 +2348,7 @@ public java.lang.String getServiceAccountEmail();
 
 The service account to use to write to Cloud Storage. If not specified, the Pub/Sub [service agent](https://cloud.google.com/iam/docs/service-agents), service-{project_number}@gcp-sa-pubsub.iam.gserviceaccount.com, is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#service_account_email GooglePubsubSubscription#service_account_email}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#service_account_email GooglePubsubSubscription#service_account_email}
 
 ---
 
@@ -2080,7 +2362,7 @@ public GooglePubsubSubscriptionCloudStorageConfigTextConfig getTextConfig();
 
 text_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#text_config GooglePubsubSubscription#text_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#text_config GooglePubsubSubscription#text_config}
 
 ---
 
@@ -2116,7 +2398,7 @@ public java.lang.Boolean|IResolvable getUseTopicSchema();
 
 When true, the output Cloud Storage file will be serialized using the topic schema, if it exists.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#use_topic_schema GooglePubsubSubscription#use_topic_schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#use_topic_schema GooglePubsubSubscription#use_topic_schema}
 
 ---
 
@@ -2130,7 +2412,7 @@ public java.lang.Boolean|IResolvable getWriteMetadata();
 
 When true, write the subscription name, messageId, publishTime, attributes, and orderingKey as additional fields in the output.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#write_metadata GooglePubsubSubscription#write_metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#write_metadata GooglePubsubSubscription#write_metadata}
 
 ---
 
@@ -2165,6 +2447,7 @@ GooglePubsubSubscriptionConfig.builder()
     .topic(java.lang.String)
 //  .ackDeadlineSeconds(java.lang.Number)
 //  .bigqueryConfig(GooglePubsubSubscriptionBigqueryConfig)
+//  .bigtableConfig(GooglePubsubSubscriptionBigtableConfig)
 //  .cloudStorageConfig(GooglePubsubSubscriptionCloudStorageConfig)
 //  .deadLetterPolicy(GooglePubsubSubscriptionDeadLetterPolicy)
 //  .deletionPolicy(java.lang.String)
@@ -2200,6 +2483,7 @@ GooglePubsubSubscriptionConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionConfig.property.topic">topic</a></code> | <code>java.lang.String</code> | A reference to a Topic resource, of the form projects/{project}/topics/{{name}} (as in the id property of a google_pubsub_topic), or just a topic name if the topic is in the same project as the subscription. |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionConfig.property.ackDeadlineSeconds">ackDeadlineSeconds</a></code> | <code>java.lang.Number</code> | This value is the maximum time after a subscriber receives a message before the subscriber should acknowledge the message. |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionConfig.property.bigqueryConfig">bigqueryConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigqueryConfig">GooglePubsubSubscriptionBigqueryConfig</a></code> | bigquery_config block. |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionConfig.property.bigtableConfig">bigtableConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfig">GooglePubsubSubscriptionBigtableConfig</a></code> | bigtable_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionConfig.property.cloudStorageConfig">cloudStorageConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionCloudStorageConfig">GooglePubsubSubscriptionCloudStorageConfig</a></code> | cloud_storage_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionConfig.property.deadLetterPolicy">deadLetterPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionDeadLetterPolicy">GooglePubsubSubscriptionDeadLetterPolicy</a></code> | dead_letter_policy block. |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
@@ -2207,11 +2491,11 @@ GooglePubsubSubscriptionConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionConfig.property.enableMessageOrdering">enableMessageOrdering</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | If 'true', messages published with the same orderingKey in PubsubMessage will be delivered to the subscribers in the order in which they are received by the Pub/Sub system. |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionConfig.property.expirationPolicy">expirationPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionExpirationPolicy">GooglePubsubSubscriptionExpirationPolicy</a></code> | expiration_policy block. |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionConfig.property.filter">filter</a></code> | <code>java.lang.String</code> | The subscription only delivers the messages that match the filter. |
-| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#id GooglePubsubSubscription#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#id GooglePubsubSubscription#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionConfig.property.labels">labels</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | A set of key/value label pairs to assign to this Subscription. |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionConfig.property.messageRetentionDuration">messageRetentionDuration</a></code> | <code>java.lang.String</code> | How long to retain unacknowledged messages in the subscription's backlog, from the moment a message is published. |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionConfig.property.messageTransforms">messageTransforms</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionMessageTransforms">GooglePubsubSubscriptionMessageTransforms</a>></code> | message_transforms block. |
-| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#project GooglePubsubSubscription#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#project GooglePubsubSubscription#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionConfig.property.pushConfig">pushConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionPushConfig">GooglePubsubSubscriptionPushConfig</a></code> | push_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionConfig.property.retainAckedMessages">retainAckedMessages</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Indicates whether to retain acknowledged messages. |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionConfig.property.retryPolicy">retryPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionRetryPolicy">GooglePubsubSubscriptionRetryPolicy</a></code> | retry_policy block. |
@@ -2300,7 +2584,7 @@ public java.lang.String getName();
 
 Name of the subscription.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#name GooglePubsubSubscription#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#name GooglePubsubSubscription#name}
 
 ---
 
@@ -2314,7 +2598,7 @@ public java.lang.String getTopic();
 
 A reference to a Topic resource, of the form projects/{project}/topics/{{name}} (as in the id property of a google_pubsub_topic), or just a topic name if the topic is in the same project as the subscription.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#topic GooglePubsubSubscription#topic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#topic GooglePubsubSubscription#topic}
 
 ---
 
@@ -2346,7 +2630,7 @@ for the call to the push endpoint.
 If the subscriber never acknowledges the message, the Pub/Sub system
 will eventually redeliver the message.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#ack_deadline_seconds GooglePubsubSubscription#ack_deadline_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#ack_deadline_seconds GooglePubsubSubscription#ack_deadline_seconds}
 
 ---
 
@@ -2360,7 +2644,21 @@ public GooglePubsubSubscriptionBigqueryConfig getBigqueryConfig();
 
 bigquery_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#bigquery_config GooglePubsubSubscription#bigquery_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#bigquery_config GooglePubsubSubscription#bigquery_config}
+
+---
+
+##### `bigtableConfig`<sup>Optional</sup> <a name="bigtableConfig" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionConfig.property.bigtableConfig"></a>
+
+```java
+public GooglePubsubSubscriptionBigtableConfig getBigtableConfig();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfig">GooglePubsubSubscriptionBigtableConfig</a>
+
+bigtable_config block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#bigtable_config GooglePubsubSubscription#bigtable_config}
 
 ---
 
@@ -2374,7 +2672,7 @@ public GooglePubsubSubscriptionCloudStorageConfig getCloudStorageConfig();
 
 cloud_storage_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#cloud_storage_config GooglePubsubSubscription#cloud_storage_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#cloud_storage_config GooglePubsubSubscription#cloud_storage_config}
 
 ---
 
@@ -2388,7 +2686,7 @@ public GooglePubsubSubscriptionDeadLetterPolicy getDeadLetterPolicy();
 
 dead_letter_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#dead_letter_policy GooglePubsubSubscription#dead_letter_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#dead_letter_policy GooglePubsubSubscription#dead_letter_policy}
 
 ---
 
@@ -2409,7 +2707,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#deletion_policy GooglePubsubSubscription#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#deletion_policy GooglePubsubSubscription#deletion_policy}
 
 ---
 
@@ -2428,7 +2726,7 @@ If 'true', Pub/Sub provides the following guarantees for the delivery of a messa
 Note that subscribers may still receive multiple copies of a message when 'enable_exactly_once_delivery'
 is true if the message was published multiple times by a publisher client. These copies are considered distinct by Pub/Sub and have distinct messageId values
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#enable_exactly_once_delivery GooglePubsubSubscription#enable_exactly_once_delivery}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#enable_exactly_once_delivery GooglePubsubSubscription#enable_exactly_once_delivery}
 
 ---
 
@@ -2445,7 +2743,7 @@ If 'true', messages published with the same orderingKey in PubsubMessage will be
 Otherwise, they
 may be delivered in any order.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#enable_message_ordering GooglePubsubSubscription#enable_message_ordering}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#enable_message_ordering GooglePubsubSubscription#enable_message_ordering}
 
 ---
 
@@ -2459,7 +2757,7 @@ public GooglePubsubSubscriptionExpirationPolicy getExpirationPolicy();
 
 expiration_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#expiration_policy GooglePubsubSubscription#expiration_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#expiration_policy GooglePubsubSubscription#expiration_policy}
 
 ---
 
@@ -2477,7 +2775,7 @@ Pub/Sub automatically acknowledges the messages that don't match the filter. You
 by their attributes. The maximum length of a filter is 256 bytes. After creating the subscription,
 you can't modify the filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#filter GooglePubsubSubscription#filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#filter GooglePubsubSubscription#filter}
 
 ---
 
@@ -2489,7 +2787,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#id GooglePubsubSubscription#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#id GooglePubsubSubscription#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2509,7 +2807,7 @@ A set of key/value label pairs to assign to this Subscription.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#labels GooglePubsubSubscription#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#labels GooglePubsubSubscription#labels}
 
 ---
 
@@ -2532,7 +2830,7 @@ than 31 days ('"2678400s"') or less than 10 minutes ('"600s"').
 A duration in seconds with up to nine fractional digits, terminated
 by 's'. Example: '"600.5s"'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#message_retention_duration GooglePubsubSubscription#message_retention_duration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#message_retention_duration GooglePubsubSubscription#message_retention_duration}
 
 ---
 
@@ -2546,7 +2844,7 @@ public IResolvable|java.util.List<GooglePubsubSubscriptionMessageTransforms> get
 
 message_transforms block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#message_transforms GooglePubsubSubscription#message_transforms}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#message_transforms GooglePubsubSubscription#message_transforms}
 
 ---
 
@@ -2558,7 +2856,7 @@ public java.lang.String getProject();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#project GooglePubsubSubscription#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#project GooglePubsubSubscription#project}.
 
 ---
 
@@ -2572,7 +2870,7 @@ public GooglePubsubSubscriptionPushConfig getPushConfig();
 
 push_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#push_config GooglePubsubSubscription#push_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#push_config GooglePubsubSubscription#push_config}
 
 ---
 
@@ -2591,7 +2889,7 @@ messages are not expunged from the subscription's backlog, even if
 they are acknowledged, until they fall out of the
 messageRetentionDuration window.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#retain_acked_messages GooglePubsubSubscription#retain_acked_messages}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#retain_acked_messages GooglePubsubSubscription#retain_acked_messages}
 
 ---
 
@@ -2605,7 +2903,7 @@ public GooglePubsubSubscriptionRetryPolicy getRetryPolicy();
 
 retry_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#retry_policy GooglePubsubSubscription#retry_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#retry_policy GooglePubsubSubscription#retry_policy}
 
 ---
 
@@ -2628,7 +2926,7 @@ time and modifying this field after creation will trigger recreation. To
 apply tags to an existing resource, see the 'google_tags_tag_value'
 resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#tags GooglePubsubSubscription#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#tags GooglePubsubSubscription#tags}
 
 ---
 
@@ -2642,7 +2940,7 @@ public GooglePubsubSubscriptionTimeouts getTimeouts();
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#timeouts GooglePubsubSubscription#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#timeouts GooglePubsubSubscription#timeouts}
 
 ---
 
@@ -2687,7 +2985,7 @@ The operation will fail if the topic does not exist.
 Users should ensure that there is a subscription attached to this topic
 since messages published to a topic with no subscriptions are lost.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#dead_letter_topic GooglePubsubSubscription#dead_letter_topic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#dead_letter_topic GooglePubsubSubscription#dead_letter_topic}
 
 ---
 
@@ -2711,7 +3009,7 @@ This field will be honored on a best effort basis.
 
 If this parameter is 0, a default value of 5 is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#max_delivery_attempts GooglePubsubSubscription#max_delivery_attempts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#max_delivery_attempts GooglePubsubSubscription#max_delivery_attempts}
 
 ---
 
@@ -2751,7 +3049,7 @@ If ttl is set to "", the associated resource never expires.
 A duration in seconds with up to nine fractional digits, terminated by 's'.
 Example - "3.5s".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#ttl GooglePubsubSubscription#ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#ttl GooglePubsubSubscription#ttl}
 
 ---
 
@@ -2789,7 +3087,7 @@ public GooglePubsubSubscriptionMessageTransformsAiInference getAiInference();
 
 ai_inference block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#ai_inference GooglePubsubSubscription#ai_inference}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#ai_inference GooglePubsubSubscription#ai_inference}
 
 ---
 
@@ -2806,7 +3104,7 @@ Controls whether or not to use this transform.
 If not set or 'false',
 the transform will be applied to messages. Default: 'true'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#disabled GooglePubsubSubscription#disabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#disabled GooglePubsubSubscription#disabled}
 
 ---
 
@@ -2820,7 +3118,7 @@ public GooglePubsubSubscriptionMessageTransformsJavascriptUdf getJavascriptUdf()
 
 javascript_udf block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#javascript_udf GooglePubsubSubscription#javascript_udf}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#javascript_udf GooglePubsubSubscription#javascript_udf}
 
 ---
 
@@ -2860,7 +3158,7 @@ The endpoint to a Vertex AI model of the form 'projects/{project}/locations/{loc
 
 Vertex AI API requests will be sent to this endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#endpoint GooglePubsubSubscription#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#endpoint GooglePubsubSubscription#endpoint}
 
 ---
 
@@ -2874,7 +3172,7 @@ public java.lang.String getServiceAccountEmail();
 
 The service account to use to make prediction requests against endpoints.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#service_account_email GooglePubsubSubscription#service_account_email}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#service_account_email GooglePubsubSubscription#service_account_email}
 
 ---
 
@@ -2888,7 +3186,7 @@ public GooglePubsubSubscriptionMessageTransformsAiInferenceUnstructuredInference
 
 unstructured_inference block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#unstructured_inference GooglePubsubSubscription#unstructured_inference}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#unstructured_inference GooglePubsubSubscription#unstructured_inference}
 
 ---
 
@@ -2925,7 +3223,7 @@ A parameters object to be included in each inference request.
 The parameters object is combined with the data field of the Pub/Sub
 message to form the inference request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#parameters GooglePubsubSubscription#parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#parameters GooglePubsubSubscription#parameters}
 
 ---
 
@@ -2975,7 +3273,7 @@ public java.lang.String getFunctionName();
 
 Name of the JavaScript function that should be applied to Pub/Sub messages.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#function_name GooglePubsubSubscription#function_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#function_name GooglePubsubSubscription#function_name}
 
 ---
 
@@ -3015,7 +3313,7 @@ public java.lang.String getPushEndpoint();
 
 A URL locating the endpoint to which messages should be pushed. For example, a Webhook endpoint might use "https://example.com/push".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#push_endpoint GooglePubsubSubscription#push_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#push_endpoint GooglePubsubSubscription#push_endpoint}
 
 ---
 
@@ -3051,7 +3349,7 @@ The possible values for this attribute are:
 * v1beta1: uses the push format defined in the v1beta1 Pub/Sub API.
 * v1 or v1beta2: uses the push format defined in the v1 Pub/Sub API.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#attributes GooglePubsubSubscription#attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#attributes GooglePubsubSubscription#attributes}
 
 ---
 
@@ -3065,7 +3363,7 @@ public GooglePubsubSubscriptionPushConfigNoWrapper getNoWrapper();
 
 no_wrapper block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#no_wrapper GooglePubsubSubscription#no_wrapper}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#no_wrapper GooglePubsubSubscription#no_wrapper}
 
 ---
 
@@ -3079,7 +3377,7 @@ public GooglePubsubSubscriptionPushConfigOidcToken getOidcToken();
 
 oidc_token block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#oidc_token GooglePubsubSubscription#oidc_token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#oidc_token GooglePubsubSubscription#oidc_token}
 
 ---
 
@@ -3116,7 +3414,7 @@ When true, writes the Pub/Sub message metadata to 'x-goog-pubsub-<KEY>:<VAL>' he
 Writes the
 Pub/Sub message attributes to '<KEY>:<VAL>' headers of the HTTP request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#write_metadata GooglePubsubSubscription#write_metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#write_metadata GooglePubsubSubscription#write_metadata}
 
 ---
 
@@ -3156,7 +3454,7 @@ The caller (for subscriptions.create, subscriptions.patch, and
 subscriptions.modifyPushConfig RPCs) must have the
 iam.serviceAccounts.actAs permission for the service account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#service_account_email GooglePubsubSubscription#service_account_email}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#service_account_email GooglePubsubSubscription#service_account_email}
 
 ---
 
@@ -3177,7 +3475,7 @@ for the audience field is not supported. More info about the OIDC JWT
 token audience here: https://tools.ietf.org/html/rfc7519#section-4.1.3
 Note: if not specified, the Push endpoint URL will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#audience GooglePubsubSubscription#audience}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#audience GooglePubsubSubscription#audience}
 
 ---
 
@@ -3216,7 +3514,7 @@ The maximum delay between consecutive deliveries of a given message.
 Value should be between 0 and 600 seconds. Defaults to 600 seconds.
 A duration in seconds with up to nine fractional digits, terminated by 's'. Example: "3.5s".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#maximum_backoff GooglePubsubSubscription#maximum_backoff}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#maximum_backoff GooglePubsubSubscription#maximum_backoff}
 
 ---
 
@@ -3233,7 +3531,7 @@ The minimum delay between consecutive deliveries of a given message.
 Value should be between 0 and 600 seconds. Defaults to 10 seconds.
 A duration in seconds with up to nine fractional digits, terminated by 's'. Example: "3.5s".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#minimum_backoff GooglePubsubSubscription#minimum_backoff}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#minimum_backoff GooglePubsubSubscription#minimum_backoff}
 
 ---
 
@@ -3255,9 +3553,9 @@ GooglePubsubSubscriptionTimeouts.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#create GooglePubsubSubscription#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#delete GooglePubsubSubscription#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#update GooglePubsubSubscription#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#create GooglePubsubSubscription#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#delete GooglePubsubSubscription#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#update GooglePubsubSubscription#update}. |
 
 ---
 
@@ -3269,7 +3567,7 @@ public java.lang.String getCreate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#create GooglePubsubSubscription#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#create GooglePubsubSubscription#create}.
 
 ---
 
@@ -3281,7 +3579,7 @@ public java.lang.String getDelete();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#delete GooglePubsubSubscription#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#delete GooglePubsubSubscription#delete}.
 
 ---
 
@@ -3293,7 +3591,7 @@ public java.lang.String getUpdate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_pubsub_subscription#update GooglePubsubSubscription#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_pubsub_subscription#update GooglePubsubSubscription#update}.
 
 ---
 
@@ -3711,6 +4009,1299 @@ public GooglePubsubSubscriptionBigqueryConfig getInternalValue();
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigqueryConfig">GooglePubsubSubscriptionBigqueryConfig</a>
+
+---
+
+
+### GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference <a name="GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference.Initializer"></a>
+
+```java
+import io.cdktn.providers.google_beta.google_pubsub_subscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference;
+
+new GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference(IInterpolatingParent terraformResource, java.lang.String terraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>io.cdktn.cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>java.lang.String</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* io.cdktn.cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference.resetDelimiter">resetDelimiter</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference.computeFqn"></a>
+
+```java
+public java.lang.String computeFqn()
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference.getAnyMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Object> getAnyMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference.getBooleanAttribute"></a>
+
+```java
+public IResolvable getBooleanAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference.getBooleanMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Boolean> getBooleanMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference.getListAttribute"></a>
+
+```java
+public java.util.List<java.lang.String> getListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference.getNumberAttribute"></a>
+
+```java
+public java.lang.Number getNumberAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference.getNumberListAttribute"></a>
+
+```java
+public java.util.List<java.lang.Number> getNumberListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference.getNumberMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Number> getNumberMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference.getStringAttribute"></a>
+
+```java
+public java.lang.String getStringAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference.getStringMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.String> getStringMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference.interpolationForAttribute"></a>
+
+```java
+public IResolvable interpolationForAttribute(java.lang.String property)
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference.resolve"></a>
+
+```java
+public java.lang.Object resolve(IResolveContext _context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference.resolve.parameter._context"></a>
+
+- *Type:* io.cdktn.cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference.toString"></a>
+
+```java
+public java.lang.String toString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `resetDelimiter` <a name="resetDelimiter" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference.resetDelimiter"></a>
+
+```java
+public void resetDelimiter()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference.property.delimiterInput">delimiterInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference.property.keyFieldsInput">keyFieldsInput</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference.property.delimiter">delimiter</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference.property.keyFields">keyFields</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKey">GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKey</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference.property.creationStack"></a>
+
+```java
+public java.util.List<java.lang.String> getCreationStack();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference.property.fqn"></a>
+
+```java
+public java.lang.String getFqn();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `delimiterInput`<sup>Optional</sup> <a name="delimiterInput" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference.property.delimiterInput"></a>
+
+```java
+public java.lang.String getDelimiterInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `keyFieldsInput`<sup>Optional</sup> <a name="keyFieldsInput" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference.property.keyFieldsInput"></a>
+
+```java
+public java.util.List<java.lang.String> getKeyFieldsInput();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+---
+
+##### `delimiter`<sup>Required</sup> <a name="delimiter" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference.property.delimiter"></a>
+
+```java
+public java.lang.String getDelimiter();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `keyFields`<sup>Required</sup> <a name="keyFields" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference.property.keyFields"></a>
+
+```java
+public java.util.List<java.lang.String> getKeyFields();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference.property.internalValue"></a>
+
+```java
+public GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKey getInternalValue();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKey">GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKey</a>
+
+---
+
+
+### GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference <a name="GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference.Initializer"></a>
+
+```java
+import io.cdktn.providers.google_beta.google_pubsub_subscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference;
+
+new GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference(IInterpolatingParent terraformResource, java.lang.String terraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>io.cdktn.cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>java.lang.String</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* io.cdktn.cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference.putDelimitedKey">putDelimitedKey</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference.putRowKeySchema">putRowKeySchema</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference.resetDelimitedKey">resetDelimitedKey</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference.resetRowKeySchema">resetRowKeySchema</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference.computeFqn"></a>
+
+```java
+public java.lang.String computeFqn()
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference.getAnyMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Object> getAnyMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference.getBooleanAttribute"></a>
+
+```java
+public IResolvable getBooleanAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference.getBooleanMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Boolean> getBooleanMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference.getListAttribute"></a>
+
+```java
+public java.util.List<java.lang.String> getListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference.getNumberAttribute"></a>
+
+```java
+public java.lang.Number getNumberAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference.getNumberListAttribute"></a>
+
+```java
+public java.util.List<java.lang.Number> getNumberListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference.getNumberMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Number> getNumberMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference.getStringAttribute"></a>
+
+```java
+public java.lang.String getStringAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference.getStringMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.String> getStringMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference.interpolationForAttribute"></a>
+
+```java
+public IResolvable interpolationForAttribute(java.lang.String property)
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference.resolve"></a>
+
+```java
+public java.lang.Object resolve(IResolveContext _context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference.resolve.parameter._context"></a>
+
+- *Type:* io.cdktn.cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference.toString"></a>
+
+```java
+public java.lang.String toString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `putDelimitedKey` <a name="putDelimitedKey" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference.putDelimitedKey"></a>
+
+```java
+public void putDelimitedKey(GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKey value)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference.putDelimitedKey.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKey">GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKey</a>
+
+---
+
+##### `putRowKeySchema` <a name="putRowKeySchema" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference.putRowKeySchema"></a>
+
+```java
+public void putRowKeySchema(GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchema value)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference.putRowKeySchema.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchema">GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchema</a>
+
+---
+
+##### `resetDelimitedKey` <a name="resetDelimitedKey" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference.resetDelimitedKey"></a>
+
+```java
+public void resetDelimitedKey()
+```
+
+##### `resetRowKeySchema` <a name="resetRowKeySchema" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference.resetRowKeySchema"></a>
+
+```java
+public void resetRowKeySchema()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference.property.delimitedKey">delimitedKey</a></code> | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference">GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference.property.rowKeySchema">rowKeySchema</a></code> | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchemaOutputReference">GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchemaOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference.property.delimitedKeyInput">delimitedKeyInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKey">GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKey</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference.property.rowKeySchemaInput">rowKeySchemaInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchema">GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchema</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMapping">GooglePubsubSubscriptionBigtableConfigColumnFamilyMapping</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference.property.creationStack"></a>
+
+```java
+public java.util.List<java.lang.String> getCreationStack();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference.property.fqn"></a>
+
+```java
+public java.lang.String getFqn();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `delimitedKey`<sup>Required</sup> <a name="delimitedKey" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference.property.delimitedKey"></a>
+
+```java
+public GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference getDelimitedKey();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference">GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKeyOutputReference</a>
+
+---
+
+##### `rowKeySchema`<sup>Required</sup> <a name="rowKeySchema" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference.property.rowKeySchema"></a>
+
+```java
+public GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchemaOutputReference getRowKeySchema();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchemaOutputReference">GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchemaOutputReference</a>
+
+---
+
+##### `delimitedKeyInput`<sup>Optional</sup> <a name="delimitedKeyInput" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference.property.delimitedKeyInput"></a>
+
+```java
+public GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKey getDelimitedKeyInput();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKey">GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKey</a>
+
+---
+
+##### `rowKeySchemaInput`<sup>Optional</sup> <a name="rowKeySchemaInput" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference.property.rowKeySchemaInput"></a>
+
+```java
+public GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchema getRowKeySchemaInput();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchema">GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchema</a>
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference.property.internalValue"></a>
+
+```java
+public GooglePubsubSubscriptionBigtableConfigColumnFamilyMapping getInternalValue();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMapping">GooglePubsubSubscriptionBigtableConfigColumnFamilyMapping</a>
+
+---
+
+
+### GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchemaOutputReference <a name="GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchemaOutputReference" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchemaOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchemaOutputReference.Initializer"></a>
+
+```java
+import io.cdktn.providers.google_beta.google_pubsub_subscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchemaOutputReference;
+
+new GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchemaOutputReference(IInterpolatingParent terraformResource, java.lang.String terraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchemaOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>io.cdktn.cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchemaOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>java.lang.String</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchemaOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* io.cdktn.cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchemaOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchemaOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchemaOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchemaOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchemaOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchemaOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchemaOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchemaOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchemaOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchemaOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchemaOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchemaOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchemaOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchemaOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchemaOutputReference.computeFqn"></a>
+
+```java
+public java.lang.String computeFqn()
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchemaOutputReference.getAnyMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Object> getAnyMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchemaOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchemaOutputReference.getBooleanAttribute"></a>
+
+```java
+public IResolvable getBooleanAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchemaOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchemaOutputReference.getBooleanMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Boolean> getBooleanMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchemaOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchemaOutputReference.getListAttribute"></a>
+
+```java
+public java.util.List<java.lang.String> getListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchemaOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchemaOutputReference.getNumberAttribute"></a>
+
+```java
+public java.lang.Number getNumberAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchemaOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchemaOutputReference.getNumberListAttribute"></a>
+
+```java
+public java.util.List<java.lang.Number> getNumberListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchemaOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchemaOutputReference.getNumberMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Number> getNumberMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchemaOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchemaOutputReference.getStringAttribute"></a>
+
+```java
+public java.lang.String getStringAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchemaOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchemaOutputReference.getStringMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.String> getStringMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchemaOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchemaOutputReference.interpolationForAttribute"></a>
+
+```java
+public IResolvable interpolationForAttribute(java.lang.String property)
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchemaOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchemaOutputReference.resolve"></a>
+
+```java
+public java.lang.Object resolve(IResolveContext _context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchemaOutputReference.resolve.parameter._context"></a>
+
+- *Type:* io.cdktn.cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchemaOutputReference.toString"></a>
+
+```java
+public java.lang.String toString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchemaOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchemaOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchemaOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchema">GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchema</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchemaOutputReference.property.creationStack"></a>
+
+```java
+public java.util.List<java.lang.String> getCreationStack();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchemaOutputReference.property.fqn"></a>
+
+```java
+public java.lang.String getFqn();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchemaOutputReference.property.internalValue"></a>
+
+```java
+public GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchema getInternalValue();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchema">GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchema</a>
+
+---
+
+
+### GooglePubsubSubscriptionBigtableConfigOutputReference <a name="GooglePubsubSubscriptionBigtableConfigOutputReference" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.Initializer"></a>
+
+```java
+import io.cdktn.providers.google_beta.google_pubsub_subscription.GooglePubsubSubscriptionBigtableConfigOutputReference;
+
+new GooglePubsubSubscriptionBigtableConfigOutputReference(IInterpolatingParent terraformResource, java.lang.String terraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>io.cdktn.cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>java.lang.String</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* io.cdktn.cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.putColumnFamilyMapping">putColumnFamilyMapping</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.resetAppProfileId">resetAppProfileId</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.resetColumnFamilyMapping">resetColumnFamilyMapping</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.resetServiceAccountEmail">resetServiceAccountEmail</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.resetWriteMetadata">resetWriteMetadata</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.computeFqn"></a>
+
+```java
+public java.lang.String computeFqn()
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.getAnyMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Object> getAnyMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.getBooleanAttribute"></a>
+
+```java
+public IResolvable getBooleanAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.getBooleanMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Boolean> getBooleanMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.getListAttribute"></a>
+
+```java
+public java.util.List<java.lang.String> getListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.getNumberAttribute"></a>
+
+```java
+public java.lang.Number getNumberAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.getNumberListAttribute"></a>
+
+```java
+public java.util.List<java.lang.Number> getNumberListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.getNumberMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Number> getNumberMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.getStringAttribute"></a>
+
+```java
+public java.lang.String getStringAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.getStringMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.String> getStringMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.interpolationForAttribute"></a>
+
+```java
+public IResolvable interpolationForAttribute(java.lang.String property)
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.resolve"></a>
+
+```java
+public java.lang.Object resolve(IResolveContext _context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.resolve.parameter._context"></a>
+
+- *Type:* io.cdktn.cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.toString"></a>
+
+```java
+public java.lang.String toString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `putColumnFamilyMapping` <a name="putColumnFamilyMapping" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.putColumnFamilyMapping"></a>
+
+```java
+public void putColumnFamilyMapping(GooglePubsubSubscriptionBigtableConfigColumnFamilyMapping value)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.putColumnFamilyMapping.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMapping">GooglePubsubSubscriptionBigtableConfigColumnFamilyMapping</a>
+
+---
+
+##### `resetAppProfileId` <a name="resetAppProfileId" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.resetAppProfileId"></a>
+
+```java
+public void resetAppProfileId()
+```
+
+##### `resetColumnFamilyMapping` <a name="resetColumnFamilyMapping" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.resetColumnFamilyMapping"></a>
+
+```java
+public void resetColumnFamilyMapping()
+```
+
+##### `resetServiceAccountEmail` <a name="resetServiceAccountEmail" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.resetServiceAccountEmail"></a>
+
+```java
+public void resetServiceAccountEmail()
+```
+
+##### `resetWriteMetadata` <a name="resetWriteMetadata" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.resetWriteMetadata"></a>
+
+```java
+public void resetWriteMetadata()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.property.columnFamilyMapping">columnFamilyMapping</a></code> | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference">GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.property.state">state</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.property.appProfileIdInput">appProfileIdInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.property.columnFamilyMappingInput">columnFamilyMappingInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMapping">GooglePubsubSubscriptionBigtableConfigColumnFamilyMapping</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.property.serviceAccountEmailInput">serviceAccountEmailInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.property.tableInput">tableInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.property.writeMetadataInput">writeMetadataInput</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.property.appProfileId">appProfileId</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.property.serviceAccountEmail">serviceAccountEmail</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.property.table">table</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.property.writeMetadata">writeMetadata</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfig">GooglePubsubSubscriptionBigtableConfig</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.property.creationStack"></a>
+
+```java
+public java.util.List<java.lang.String> getCreationStack();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.property.fqn"></a>
+
+```java
+public java.lang.String getFqn();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `columnFamilyMapping`<sup>Required</sup> <a name="columnFamilyMapping" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.property.columnFamilyMapping"></a>
+
+```java
+public GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference getColumnFamilyMapping();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference">GooglePubsubSubscriptionBigtableConfigColumnFamilyMappingOutputReference</a>
+
+---
+
+##### `state`<sup>Required</sup> <a name="state" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.property.state"></a>
+
+```java
+public java.lang.String getState();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `appProfileIdInput`<sup>Optional</sup> <a name="appProfileIdInput" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.property.appProfileIdInput"></a>
+
+```java
+public java.lang.String getAppProfileIdInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `columnFamilyMappingInput`<sup>Optional</sup> <a name="columnFamilyMappingInput" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.property.columnFamilyMappingInput"></a>
+
+```java
+public GooglePubsubSubscriptionBigtableConfigColumnFamilyMapping getColumnFamilyMappingInput();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigColumnFamilyMapping">GooglePubsubSubscriptionBigtableConfigColumnFamilyMapping</a>
+
+---
+
+##### `serviceAccountEmailInput`<sup>Optional</sup> <a name="serviceAccountEmailInput" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.property.serviceAccountEmailInput"></a>
+
+```java
+public java.lang.String getServiceAccountEmailInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `tableInput`<sup>Optional</sup> <a name="tableInput" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.property.tableInput"></a>
+
+```java
+public java.lang.String getTableInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `writeMetadataInput`<sup>Optional</sup> <a name="writeMetadataInput" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.property.writeMetadataInput"></a>
+
+```java
+public java.lang.Boolean|IResolvable getWriteMetadataInput();
+```
+
+- *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
+
+---
+
+##### `appProfileId`<sup>Required</sup> <a name="appProfileId" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.property.appProfileId"></a>
+
+```java
+public java.lang.String getAppProfileId();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `serviceAccountEmail`<sup>Required</sup> <a name="serviceAccountEmail" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.property.serviceAccountEmail"></a>
+
+```java
+public java.lang.String getServiceAccountEmail();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `table`<sup>Required</sup> <a name="table" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.property.table"></a>
+
+```java
+public java.lang.String getTable();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `writeMetadata`<sup>Required</sup> <a name="writeMetadata" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.property.writeMetadata"></a>
+
+```java
+public java.lang.Boolean|IResolvable getWriteMetadata();
+```
+
+- *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfigOutputReference.property.internalValue"></a>
+
+```java
+public GooglePubsubSubscriptionBigtableConfig getInternalValue();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googlePubsubSubscription.GooglePubsubSubscriptionBigtableConfig">GooglePubsubSubscriptionBigtableConfig</a>
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### GoogleBigtableAppProfile <a name="GoogleBigtableAppProfile" id="@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfile"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigtable_app_profile google_bigtable_app_profile}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigtable_app_profile google_bigtable_app_profile}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfile.Initializer"></a>
 
@@ -632,7 +632,7 @@ The construct id used in the generated config for the GoogleBigtableAppProfile t
 
 The id of the existing GoogleBigtableAppProfile that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigtable_app_profile#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigtable_app_profile#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1193,12 +1193,12 @@ new GoogleBigtableAppProfileConfig {
 | <code><a href="#@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileConfig.property.dataBoostIsolationReadOnly">DataBoostIsolationReadOnly</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileDataBoostIsolationReadOnly">GoogleBigtableAppProfileDataBoostIsolationReadOnly</a></code> | data_boost_isolation_read_only block. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileConfig.property.description">Description</a></code> | <code>string</code> | Long form description of the use case for this app profile. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigtable_app_profile#id GoogleBigtableAppProfile#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigtable_app_profile#id GoogleBigtableAppProfile#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileConfig.property.ignoreWarnings">IgnoreWarnings</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | If true, ignore safety checks when deleting/updating the app profile. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileConfig.property.instance">Instance</a></code> | <code>string</code> | The name of the instance to create the app profile within. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileConfig.property.multiClusterRoutingClusterIds">MultiClusterRoutingClusterIds</a></code> | <code>string[]</code> | The set of clusters to route to. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileConfig.property.multiClusterRoutingUseAny">MultiClusterRoutingUseAny</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | If true, read/write requests are routed to the nearest cluster in the instance, and will fail over to the nearest cluster that is available in the event of transient errors or delays. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigtable_app_profile#project GoogleBigtableAppProfile#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigtable_app_profile#project GoogleBigtableAppProfile#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileConfig.property.rowAffinity">RowAffinity</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | Must be used with multi-cluster routing. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileConfig.property.singleClusterRouting">SingleClusterRouting</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileSingleClusterRouting">GoogleBigtableAppProfileSingleClusterRouting</a></code> | single_cluster_routing block. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileConfig.property.standardIsolation">StandardIsolation</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolation">GoogleBigtableAppProfileStandardIsolation</a></code> | standard_isolation block. |
@@ -1286,7 +1286,7 @@ public string AppProfileId { get; set; }
 
 The unique name of the app profile in the form '[_a-zA-Z0-9][-_.a-zA-Z0-9]*'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigtable_app_profile#app_profile_id GoogleBigtableAppProfile#app_profile_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigtable_app_profile#app_profile_id GoogleBigtableAppProfile#app_profile_id}
 
 ---
 
@@ -1300,7 +1300,7 @@ public GoogleBigtableAppProfileDataBoostIsolationReadOnly DataBoostIsolationRead
 
 data_boost_isolation_read_only block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigtable_app_profile#data_boost_isolation_read_only GoogleBigtableAppProfile#data_boost_isolation_read_only}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigtable_app_profile#data_boost_isolation_read_only GoogleBigtableAppProfile#data_boost_isolation_read_only}
 
 ---
 
@@ -1321,7 +1321,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigtable_app_profile#deletion_policy GoogleBigtableAppProfile#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigtable_app_profile#deletion_policy GoogleBigtableAppProfile#deletion_policy}
 
 ---
 
@@ -1335,7 +1335,7 @@ public string Description { get; set; }
 
 Long form description of the use case for this app profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigtable_app_profile#description GoogleBigtableAppProfile#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigtable_app_profile#description GoogleBigtableAppProfile#description}
 
 ---
 
@@ -1347,7 +1347,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigtable_app_profile#id GoogleBigtableAppProfile#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigtable_app_profile#id GoogleBigtableAppProfile#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1364,7 +1364,7 @@ public bool|IResolvable IgnoreWarnings { get; set; }
 
 If true, ignore safety checks when deleting/updating the app profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigtable_app_profile#ignore_warnings GoogleBigtableAppProfile#ignore_warnings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigtable_app_profile#ignore_warnings GoogleBigtableAppProfile#ignore_warnings}
 
 ---
 
@@ -1378,7 +1378,7 @@ public string Instance { get; set; }
 
 The name of the instance to create the app profile within.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigtable_app_profile#instance GoogleBigtableAppProfile#instance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigtable_app_profile#instance GoogleBigtableAppProfile#instance}
 
 ---
 
@@ -1394,7 +1394,7 @@ The set of clusters to route to.
 
 The order is ignored; clusters will be tried in order of distance. If left empty, all clusters are eligible.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigtable_app_profile#multi_cluster_routing_cluster_ids GoogleBigtableAppProfile#multi_cluster_routing_cluster_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigtable_app_profile#multi_cluster_routing_cluster_ids GoogleBigtableAppProfile#multi_cluster_routing_cluster_ids}
 
 ---
 
@@ -1411,7 +1411,7 @@ If true, read/write requests are routed to the nearest cluster in the instance, 
 Clusters in a region are considered equidistant. Choosing this option sacrifices read-your-writes
 consistency to improve availability.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigtable_app_profile#multi_cluster_routing_use_any GoogleBigtableAppProfile#multi_cluster_routing_use_any}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigtable_app_profile#multi_cluster_routing_use_any GoogleBigtableAppProfile#multi_cluster_routing_use_any}
 
 ---
 
@@ -1423,7 +1423,7 @@ public string Project { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigtable_app_profile#project GoogleBigtableAppProfile#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigtable_app_profile#project GoogleBigtableAppProfile#project}.
 
 ---
 
@@ -1439,7 +1439,7 @@ Must be used with multi-cluster routing.
 
 If true, then this app profile will use row affinity sticky routing. With row affinity, Bigtable will route single row key requests based on the row key, rather than randomly. Instead, each row key will be assigned to a cluster by Cloud Bigtable, and will stick to that cluster. Choosing this option improves read-your-writes consistency for most requests under most circumstances, without sacrificing availability. Consistency is not guaranteed, as requests may still fail over between clusters in the event of errors or latency.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigtable_app_profile#row_affinity GoogleBigtableAppProfile#row_affinity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigtable_app_profile#row_affinity GoogleBigtableAppProfile#row_affinity}
 
 ---
 
@@ -1453,7 +1453,7 @@ public GoogleBigtableAppProfileSingleClusterRouting SingleClusterRouting { get; 
 
 single_cluster_routing block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigtable_app_profile#single_cluster_routing GoogleBigtableAppProfile#single_cluster_routing}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigtable_app_profile#single_cluster_routing GoogleBigtableAppProfile#single_cluster_routing}
 
 ---
 
@@ -1467,7 +1467,7 @@ public GoogleBigtableAppProfileStandardIsolation StandardIsolation { get; set; }
 
 standard_isolation block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigtable_app_profile#standard_isolation GoogleBigtableAppProfile#standard_isolation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigtable_app_profile#standard_isolation GoogleBigtableAppProfile#standard_isolation}
 
 ---
 
@@ -1481,7 +1481,7 @@ public GoogleBigtableAppProfileTimeouts Timeouts { get; set; }
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigtable_app_profile#timeouts GoogleBigtableAppProfile#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigtable_app_profile#timeouts GoogleBigtableAppProfile#timeouts}
 
 ---
 
@@ -1515,7 +1515,7 @@ public string ComputeBillingOwner { get; set; }
 
 The Compute Billing Owner for this Data Boost App Profile. Possible values: ["HOST_PAYS"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigtable_app_profile#compute_billing_owner GoogleBigtableAppProfile#compute_billing_owner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigtable_app_profile#compute_billing_owner GoogleBigtableAppProfile#compute_billing_owner}
 
 ---
 
@@ -1551,7 +1551,7 @@ public string ClusterId { get; set; }
 
 The cluster to which read/write requests should be routed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigtable_app_profile#cluster_id GoogleBigtableAppProfile#cluster_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigtable_app_profile#cluster_id GoogleBigtableAppProfile#cluster_id}
 
 ---
 
@@ -1567,7 +1567,7 @@ If true, CheckAndMutateRow and ReadModifyWriteRow requests are allowed by this a
 
 It is unsafe to send these requests to the same table/row/column in multiple clusters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigtable_app_profile#allow_transactional_writes GoogleBigtableAppProfile#allow_transactional_writes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigtable_app_profile#allow_transactional_writes GoogleBigtableAppProfile#allow_transactional_writes}
 
 ---
 
@@ -1579,7 +1579,8 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 using Io.Cdktn.Providers.GoogleBeta;
 
 new GoogleBigtableAppProfileStandardIsolation {
-    string Priority
+    string Priority,
+    GoogleBigtableAppProfileStandardIsolationMemoryConfig MemoryConfig = null
 };
 ```
 
@@ -1588,6 +1589,7 @@ new GoogleBigtableAppProfileStandardIsolation {
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolation.property.priority">Priority</a></code> | <code>string</code> | The priority of requests sent using this app profile. Possible values: ["PRIORITY_LOW", "PRIORITY_MEDIUM", "PRIORITY_HIGH"]. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolation.property.memoryConfig">MemoryConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationMemoryConfig">GoogleBigtableAppProfileStandardIsolationMemoryConfig</a></code> | memory_config block. |
 
 ---
 
@@ -1601,9 +1603,36 @@ public string Priority { get; set; }
 
 The priority of requests sent using this app profile. Possible values: ["PRIORITY_LOW", "PRIORITY_MEDIUM", "PRIORITY_HIGH"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigtable_app_profile#priority GoogleBigtableAppProfile#priority}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigtable_app_profile#priority GoogleBigtableAppProfile#priority}
 
 ---
+
+##### `MemoryConfig`<sup>Optional</sup> <a name="MemoryConfig" id="@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolation.property.memoryConfig"></a>
+
+```csharp
+public GoogleBigtableAppProfileStandardIsolationMemoryConfig MemoryConfig { get; set; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationMemoryConfig">GoogleBigtableAppProfileStandardIsolationMemoryConfig</a>
+
+memory_config block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigtable_app_profile#memory_config GoogleBigtableAppProfile#memory_config}
+
+---
+
+### GoogleBigtableAppProfileStandardIsolationMemoryConfig <a name="GoogleBigtableAppProfileStandardIsolationMemoryConfig" id="@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationMemoryConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationMemoryConfig.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+new GoogleBigtableAppProfileStandardIsolationMemoryConfig {
+
+};
+```
+
 
 ### GoogleBigtableAppProfileTimeouts <a name="GoogleBigtableAppProfileTimeouts" id="@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileTimeouts"></a>
 
@@ -1623,9 +1652,9 @@ new GoogleBigtableAppProfileTimeouts {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigtable_app_profile#create GoogleBigtableAppProfile#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigtable_app_profile#delete GoogleBigtableAppProfile#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigtable_app_profile#update GoogleBigtableAppProfile#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigtable_app_profile#create GoogleBigtableAppProfile#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigtable_app_profile#delete GoogleBigtableAppProfile#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigtable_app_profile#update GoogleBigtableAppProfile#update}. |
 
 ---
 
@@ -1637,7 +1666,7 @@ public string Create { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigtable_app_profile#create GoogleBigtableAppProfile#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigtable_app_profile#create GoogleBigtableAppProfile#create}.
 
 ---
 
@@ -1649,7 +1678,7 @@ public string Delete { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigtable_app_profile#delete GoogleBigtableAppProfile#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigtable_app_profile#delete GoogleBigtableAppProfile#delete}.
 
 ---
 
@@ -1661,7 +1690,7 @@ public string Update { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigtable_app_profile#update GoogleBigtableAppProfile#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigtable_app_profile#update GoogleBigtableAppProfile#update}.
 
 ---
 
@@ -2238,6 +2267,255 @@ public GoogleBigtableAppProfileSingleClusterRouting InternalValue { get; }
 ---
 
 
+### GoogleBigtableAppProfileStandardIsolationMemoryConfigOutputReference <a name="GoogleBigtableAppProfileStandardIsolationMemoryConfigOutputReference" id="@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationMemoryConfigOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationMemoryConfigOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+new GoogleBigtableAppProfileStandardIsolationMemoryConfigOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationMemoryConfigOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationMemoryConfigOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationMemoryConfigOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationMemoryConfigOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationMemoryConfigOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationMemoryConfigOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationMemoryConfigOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationMemoryConfigOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationMemoryConfigOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationMemoryConfigOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationMemoryConfigOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationMemoryConfigOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationMemoryConfigOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationMemoryConfigOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationMemoryConfigOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationMemoryConfigOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationMemoryConfigOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationMemoryConfigOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationMemoryConfigOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationMemoryConfigOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationMemoryConfigOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationMemoryConfigOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationMemoryConfigOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationMemoryConfigOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationMemoryConfigOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationMemoryConfigOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationMemoryConfigOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationMemoryConfigOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationMemoryConfigOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationMemoryConfigOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationMemoryConfigOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationMemoryConfigOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationMemoryConfigOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationMemoryConfigOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationMemoryConfigOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationMemoryConfigOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationMemoryConfigOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationMemoryConfigOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationMemoryConfigOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationMemoryConfigOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationMemoryConfigOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationMemoryConfigOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationMemoryConfigOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationMemoryConfigOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationMemoryConfig">GoogleBigtableAppProfileStandardIsolationMemoryConfig</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationMemoryConfigOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationMemoryConfigOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationMemoryConfigOutputReference.property.internalValue"></a>
+
+```csharp
+public GoogleBigtableAppProfileStandardIsolationMemoryConfig InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationMemoryConfig">GoogleBigtableAppProfileStandardIsolationMemoryConfig</a>
+
+---
+
+
 ### GoogleBigtableAppProfileStandardIsolationOutputReference <a name="GoogleBigtableAppProfileStandardIsolationOutputReference" id="@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationOutputReference.Initializer"></a>
@@ -2288,6 +2566,8 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationOutputReference.putMemoryConfig">PutMemoryConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationOutputReference.resetMemoryConfig">ResetMemoryConfig</a></code> | *No description.* |
 
 ---
 
@@ -2441,6 +2721,24 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `PutMemoryConfig` <a name="PutMemoryConfig" id="@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationOutputReference.putMemoryConfig"></a>
+
+```csharp
+private void PutMemoryConfig(GoogleBigtableAppProfileStandardIsolationMemoryConfig Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationOutputReference.putMemoryConfig.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationMemoryConfig">GoogleBigtableAppProfileStandardIsolationMemoryConfig</a>
+
+---
+
+##### `ResetMemoryConfig` <a name="ResetMemoryConfig" id="@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationOutputReference.resetMemoryConfig"></a>
+
+```csharp
+private void ResetMemoryConfig()
+```
+
 
 #### Properties <a name="Properties" id="Properties"></a>
 
@@ -2448,6 +2746,8 @@ Returns a reversible string representation.
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationOutputReference.property.memoryConfig">MemoryConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationMemoryConfigOutputReference">GoogleBigtableAppProfileStandardIsolationMemoryConfigOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationOutputReference.property.memoryConfigInput">MemoryConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationMemoryConfig">GoogleBigtableAppProfileStandardIsolationMemoryConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationOutputReference.property.priorityInput">PriorityInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationOutputReference.property.priority">Priority</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolation">GoogleBigtableAppProfileStandardIsolation</a></code> | *No description.* |
@@ -2475,6 +2775,26 @@ public string Fqn { get; }
 ```
 
 - *Type:* string
+
+---
+
+##### `MemoryConfig`<sup>Required</sup> <a name="MemoryConfig" id="@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationOutputReference.property.memoryConfig"></a>
+
+```csharp
+public GoogleBigtableAppProfileStandardIsolationMemoryConfigOutputReference MemoryConfig { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationMemoryConfigOutputReference">GoogleBigtableAppProfileStandardIsolationMemoryConfigOutputReference</a>
+
+---
+
+##### `MemoryConfigInput`<sup>Optional</sup> <a name="MemoryConfigInput" id="@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationOutputReference.property.memoryConfigInput"></a>
+
+```csharp
+public GoogleBigtableAppProfileStandardIsolationMemoryConfig MemoryConfigInput { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationMemoryConfig">GoogleBigtableAppProfileStandardIsolationMemoryConfig</a>
 
 ---
 

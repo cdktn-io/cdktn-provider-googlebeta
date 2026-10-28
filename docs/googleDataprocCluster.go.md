@@ -4,12 +4,12 @@
 
 ### GoogleDataprocCluster <a name="GoogleDataprocCluster" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocCluster"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster google_dataproc_cluster}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster google_dataproc_cluster}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocCluster.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocCluster(scope Construct, id *string, config GoogleDataprocClusterConfig) GoogleDataprocCluster
 ```
@@ -502,7 +502,7 @@ func ResetVirtualClusterConfig()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocCluster.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.GoogleDataprocCluster_IsConstruct(x interface{}) *bool
 ```
@@ -534,7 +534,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocCluster.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.GoogleDataprocCluster_IsTerraformElement(x interface{}) *bool
 ```
@@ -548,7 +548,7 @@ googledataproccluster.GoogleDataprocCluster_IsTerraformElement(x interface{}) *b
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocCluster.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.GoogleDataprocCluster_IsTerraformResource(x interface{}) *bool
 ```
@@ -562,7 +562,7 @@ googledataproccluster.GoogleDataprocCluster_IsTerraformResource(x interface{}) *
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocCluster.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.GoogleDataprocCluster_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -591,7 +591,7 @@ The construct id used in the generated config for the GoogleDataprocCluster to i
 
 The id of the existing GoogleDataprocCluster that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1033,28 +1033,31 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 &googledataproccluster.GoogleDataprocClusterClusterConfig {
-	AutoscalingConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDataprocCluster.GoogleDataprocClusterClusterConfigAutoscalingConfig,
+	AutoscalingConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleDataprocCluster.GoogleDataprocClusterClusterConfigAutoscalingConfig,
 	AuxiliaryNodeGroups: interface{},
 	ClusterTier: *string,
 	ClusterType: *string,
-	DataprocMetricConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDataprocCluster.GoogleDataprocClusterClusterConfigDataprocMetricConfig,
-	EncryptionConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDataprocCluster.GoogleDataprocClusterClusterConfigEncryptionConfig,
-	EndpointConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDataprocCluster.GoogleDataprocClusterClusterConfigEndpointConfig,
+	DataprocMetricConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleDataprocCluster.GoogleDataprocClusterClusterConfigDataprocMetricConfig,
+	EncryptionConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleDataprocCluster.GoogleDataprocClusterClusterConfigEncryptionConfig,
+	EndpointConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleDataprocCluster.GoogleDataprocClusterClusterConfigEndpointConfig,
 	Engine: *string,
-	GceClusterConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDataprocCluster.GoogleDataprocClusterClusterConfigGceClusterConfig,
+	GceClusterConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleDataprocCluster.GoogleDataprocClusterClusterConfigGceClusterConfig,
 	InitializationAction: interface{},
-	LifecycleConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDataprocCluster.GoogleDataprocClusterClusterConfigLifecycleConfig,
-	MasterConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfig,
-	MetastoreConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDataprocCluster.GoogleDataprocClusterClusterConfigMetastoreConfig,
-	PreemptibleWorkerConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfig,
-	SecurityConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecurityConfig,
-	SoftwareConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDataprocCluster.GoogleDataprocClusterClusterConfigSoftwareConfig,
+	LifecycleConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleDataprocCluster.GoogleDataprocClusterClusterConfigLifecycleConfig,
+	MasterConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfig,
+	MasterFlexibleConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfig,
+	MetastoreConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleDataprocCluster.GoogleDataprocClusterClusterConfigMetastoreConfig,
+	PreemptibleWorkerConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfig,
+	SecondaryWorkerFlexibleConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfig,
+	SecurityConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecurityConfig,
+	SoftwareConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleDataprocCluster.GoogleDataprocClusterClusterConfigSoftwareConfig,
 	StagingBucket: *string,
 	TempBucket: *string,
-	WorkerConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfig,
+	WorkerConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfig,
+	WorkerFlexibleConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfig,
 }
 ```
 
@@ -1074,13 +1077,16 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleda
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfig.property.initializationAction">InitializationAction</a></code> | <code>interface{}</code> | initialization_action block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfig.property.lifecycleConfig">LifecycleConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigLifecycleConfig">GoogleDataprocClusterClusterConfigLifecycleConfig</a></code> | lifecycle_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfig.property.masterConfig">MasterConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfig">GoogleDataprocClusterClusterConfigMasterConfig</a></code> | master_config block. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfig.property.masterFlexibleConfig">MasterFlexibleConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfig">GoogleDataprocClusterClusterConfigMasterFlexibleConfig</a></code> | master_flexible_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfig.property.metastoreConfig">MetastoreConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMetastoreConfig">GoogleDataprocClusterClusterConfigMetastoreConfig</a></code> | metastore_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfig.property.preemptibleWorkerConfig">PreemptibleWorkerConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfig">GoogleDataprocClusterClusterConfigPreemptibleWorkerConfig</a></code> | preemptible_worker_config block. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfig.property.secondaryWorkerFlexibleConfig">SecondaryWorkerFlexibleConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfig">GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfig</a></code> | secondary_worker_flexible_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfig.property.securityConfig">SecurityConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecurityConfig">GoogleDataprocClusterClusterConfigSecurityConfig</a></code> | security_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfig.property.softwareConfig">SoftwareConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSoftwareConfig">GoogleDataprocClusterClusterConfigSoftwareConfig</a></code> | software_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfig.property.stagingBucket">StagingBucket</a></code> | <code>*string</code> | The Cloud Storage staging bucket used to stage files, such as Hadoop jars, between client machines and the cluster. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfig.property.tempBucket">TempBucket</a></code> | <code>*string</code> | The Cloud Storage temp bucket used to store ephemeral cluster and jobs data, such as Spark and MapReduce history files. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfig.property.workerConfig">WorkerConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfig">GoogleDataprocClusterClusterConfigWorkerConfig</a></code> | worker_config block. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfig.property.workerFlexibleConfig">WorkerFlexibleConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfig">GoogleDataprocClusterClusterConfigWorkerFlexibleConfig</a></code> | worker_flexible_config block. |
 
 ---
 
@@ -1094,7 +1100,7 @@ AutoscalingConfig GoogleDataprocClusterClusterConfigAutoscalingConfig
 
 autoscaling_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#autoscaling_config GoogleDataprocCluster#autoscaling_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#autoscaling_config GoogleDataprocCluster#autoscaling_config}
 
 ---
 
@@ -1108,7 +1114,7 @@ AuxiliaryNodeGroups interface{}
 
 auxiliary_node_groups block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#auxiliary_node_groups GoogleDataprocCluster#auxiliary_node_groups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#auxiliary_node_groups GoogleDataprocCluster#auxiliary_node_groups}
 
 ---
 
@@ -1122,7 +1128,7 @@ ClusterTier *string
 
 Specifies the tier of the cluster created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#cluster_tier GoogleDataprocCluster#cluster_tier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#cluster_tier GoogleDataprocCluster#cluster_tier}
 
 ---
 
@@ -1136,7 +1142,7 @@ ClusterType *string
 
 The type of the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#cluster_type GoogleDataprocCluster#cluster_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#cluster_type GoogleDataprocCluster#cluster_type}
 
 ---
 
@@ -1150,7 +1156,7 @@ DataprocMetricConfig GoogleDataprocClusterClusterConfigDataprocMetricConfig
 
 dataproc_metric_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#dataproc_metric_config GoogleDataprocCluster#dataproc_metric_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#dataproc_metric_config GoogleDataprocCluster#dataproc_metric_config}
 
 ---
 
@@ -1164,7 +1170,7 @@ EncryptionConfig GoogleDataprocClusterClusterConfigEncryptionConfig
 
 encryption_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#encryption_config GoogleDataprocCluster#encryption_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#encryption_config GoogleDataprocCluster#encryption_config}
 
 ---
 
@@ -1178,7 +1184,7 @@ EndpointConfig GoogleDataprocClusterClusterConfigEndpointConfig
 
 endpoint_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#endpoint_config GoogleDataprocCluster#endpoint_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#endpoint_config GoogleDataprocCluster#endpoint_config}
 
 ---
 
@@ -1192,7 +1198,7 @@ Engine *string
 
 Specifies the engine of the cluster created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#engine GoogleDataprocCluster#engine}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#engine GoogleDataprocCluster#engine}
 
 ---
 
@@ -1206,7 +1212,7 @@ GceClusterConfig GoogleDataprocClusterClusterConfigGceClusterConfig
 
 gce_cluster_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#gce_cluster_config GoogleDataprocCluster#gce_cluster_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#gce_cluster_config GoogleDataprocCluster#gce_cluster_config}
 
 ---
 
@@ -1220,7 +1226,7 @@ InitializationAction interface{}
 
 initialization_action block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#initialization_action GoogleDataprocCluster#initialization_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#initialization_action GoogleDataprocCluster#initialization_action}
 
 ---
 
@@ -1234,7 +1240,7 @@ LifecycleConfig GoogleDataprocClusterClusterConfigLifecycleConfig
 
 lifecycle_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#lifecycle_config GoogleDataprocCluster#lifecycle_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#lifecycle_config GoogleDataprocCluster#lifecycle_config}
 
 ---
 
@@ -1248,7 +1254,21 @@ MasterConfig GoogleDataprocClusterClusterConfigMasterConfig
 
 master_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#master_config GoogleDataprocCluster#master_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#master_config GoogleDataprocCluster#master_config}
+
+---
+
+##### `MasterFlexibleConfig`<sup>Optional</sup> <a name="MasterFlexibleConfig" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfig.property.masterFlexibleConfig"></a>
+
+```go
+MasterFlexibleConfig GoogleDataprocClusterClusterConfigMasterFlexibleConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfig">GoogleDataprocClusterClusterConfigMasterFlexibleConfig</a>
+
+master_flexible_config block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#master_flexible_config GoogleDataprocCluster#master_flexible_config}
 
 ---
 
@@ -1262,7 +1282,7 @@ MetastoreConfig GoogleDataprocClusterClusterConfigMetastoreConfig
 
 metastore_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#metastore_config GoogleDataprocCluster#metastore_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#metastore_config GoogleDataprocCluster#metastore_config}
 
 ---
 
@@ -1276,7 +1296,21 @@ PreemptibleWorkerConfig GoogleDataprocClusterClusterConfigPreemptibleWorkerConfi
 
 preemptible_worker_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#preemptible_worker_config GoogleDataprocCluster#preemptible_worker_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#preemptible_worker_config GoogleDataprocCluster#preemptible_worker_config}
+
+---
+
+##### `SecondaryWorkerFlexibleConfig`<sup>Optional</sup> <a name="SecondaryWorkerFlexibleConfig" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfig.property.secondaryWorkerFlexibleConfig"></a>
+
+```go
+SecondaryWorkerFlexibleConfig GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfig">GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfig</a>
+
+secondary_worker_flexible_config block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#secondary_worker_flexible_config GoogleDataprocCluster#secondary_worker_flexible_config}
 
 ---
 
@@ -1290,7 +1324,7 @@ SecurityConfig GoogleDataprocClusterClusterConfigSecurityConfig
 
 security_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#security_config GoogleDataprocCluster#security_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#security_config GoogleDataprocCluster#security_config}
 
 ---
 
@@ -1304,7 +1338,7 @@ SoftwareConfig GoogleDataprocClusterClusterConfigSoftwareConfig
 
 software_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#software_config GoogleDataprocCluster#software_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#software_config GoogleDataprocCluster#software_config}
 
 ---
 
@@ -1320,7 +1354,7 @@ The Cloud Storage staging bucket used to stage files, such as Hadoop jars, betwe
 
 Note: If you don't explicitly specify a staging_bucket then GCP will auto create / assign one for you. However, you are not guaranteed an auto generated bucket which is solely dedicated to your cluster; it may be shared with other clusters in the same region/zone also choosing to use the auto generation option.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#staging_bucket GoogleDataprocCluster#staging_bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#staging_bucket GoogleDataprocCluster#staging_bucket}
 
 ---
 
@@ -1336,7 +1370,7 @@ The Cloud Storage temp bucket used to store ephemeral cluster and jobs data, suc
 
 Note: If you don't explicitly specify a temp_bucket then GCP will auto create / assign one for you.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#temp_bucket GoogleDataprocCluster#temp_bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#temp_bucket GoogleDataprocCluster#temp_bucket}
 
 ---
 
@@ -1350,7 +1384,21 @@ WorkerConfig GoogleDataprocClusterClusterConfigWorkerConfig
 
 worker_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#worker_config GoogleDataprocCluster#worker_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#worker_config GoogleDataprocCluster#worker_config}
+
+---
+
+##### `WorkerFlexibleConfig`<sup>Optional</sup> <a name="WorkerFlexibleConfig" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfig.property.workerFlexibleConfig"></a>
+
+```go
+WorkerFlexibleConfig GoogleDataprocClusterClusterConfigWorkerFlexibleConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfig">GoogleDataprocClusterClusterConfigWorkerFlexibleConfig</a>
+
+worker_flexible_config block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#worker_flexible_config GoogleDataprocCluster#worker_flexible_config}
 
 ---
 
@@ -1359,7 +1407,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigAutoscalingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 &googledataproccluster.GoogleDataprocClusterClusterConfigAutoscalingConfig {
 	PolicyUri: *string,
@@ -1384,7 +1432,7 @@ PolicyUri *string
 
 The autoscaling policy used by the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#policy_uri GoogleDataprocCluster#policy_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#policy_uri GoogleDataprocCluster#policy_uri}
 
 ---
 
@@ -1393,7 +1441,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigAuxiliaryNodeGroups.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 &googledataproccluster.GoogleDataprocClusterClusterConfigAuxiliaryNodeGroups {
 	NodeGroup: interface{},
@@ -1420,7 +1468,7 @@ NodeGroup interface{}
 
 node_group block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#node_group GoogleDataprocCluster#node_group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#node_group GoogleDataprocCluster#node_group}
 
 ---
 
@@ -1436,7 +1484,7 @@ A node group ID.
 
 Generated if not specified. The ID must contain only letters (a-z, A-Z), numbers (0-9), underscores (_), and hyphens (-). Cannot begin or end with underscore or hyphen. Must consist of from 3 to 33 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#node_group_id GoogleDataprocCluster#node_group_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#node_group_id GoogleDataprocCluster#node_group_id}
 
 ---
 
@@ -1445,11 +1493,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 &googledataproccluster.GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroup {
 	Roles: *[]*string,
-	NodeGroupConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDataprocCluster.GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeGroupConfig,
+	NodeGroupConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleDataprocCluster.GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeGroupConfig,
 }
 ```
 
@@ -1472,7 +1520,7 @@ Roles *[]*string
 
 Node group roles.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#roles GoogleDataprocCluster#roles}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#roles GoogleDataprocCluster#roles}
 
 ---
 
@@ -1486,7 +1534,7 @@ NodeGroupConfig GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNo
 
 node_group_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#node_group_config GoogleDataprocCluster#node_group_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#node_group_config GoogleDataprocCluster#node_group_config}
 
 ---
 
@@ -1495,11 +1543,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 &googledataproccluster.GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeGroupConfig {
 	Accelerators: interface{},
-	DiskConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDataprocCluster.GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeGroupConfigDiskConfig,
+	DiskConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleDataprocCluster.GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeGroupConfigDiskConfig,
 	MachineType: *string,
 	MinCpuPlatform: *string,
 	NumInstances: *f64,
@@ -1528,7 +1576,7 @@ Accelerators interface{}
 
 accelerators block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#accelerators GoogleDataprocCluster#accelerators}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#accelerators GoogleDataprocCluster#accelerators}
 
 ---
 
@@ -1542,7 +1590,7 @@ DiskConfig GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeGro
 
 disk_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#disk_config GoogleDataprocCluster#disk_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#disk_config GoogleDataprocCluster#disk_config}
 
 ---
 
@@ -1556,7 +1604,7 @@ MachineType *string
 
 The name of a Google Compute Engine machine type to create for the master.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#machine_type GoogleDataprocCluster#machine_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#machine_type GoogleDataprocCluster#machine_type}
 
 ---
 
@@ -1572,7 +1620,7 @@ The name of a minimum generation of CPU family for the auxiliary node group.
 
 If not specified, GCP will default to a predetermined computed value for each zone.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#min_cpu_platform GoogleDataprocCluster#min_cpu_platform}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#min_cpu_platform GoogleDataprocCluster#min_cpu_platform}
 
 ---
 
@@ -1586,7 +1634,7 @@ NumInstances *f64
 
 Specifies the number of auxiliary nodes to create. If not specified, GCP will default to a predetermined computed value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#num_instances GoogleDataprocCluster#num_instances}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#num_instances GoogleDataprocCluster#num_instances}
 
 ---
 
@@ -1595,7 +1643,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeGroupConfigAccelerators.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 &googledataproccluster.GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeGroupConfigAccelerators {
 	AcceleratorCount: *f64,
@@ -1624,7 +1672,7 @@ The number of the accelerator cards of this type exposed to this instance.
 
 Often restricted to one of 1, 2, 4, or 8.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#accelerator_count GoogleDataprocCluster#accelerator_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#accelerator_count GoogleDataprocCluster#accelerator_count}
 
 ---
 
@@ -1638,7 +1686,7 @@ AcceleratorType *string
 
 The short name of the accelerator type to expose to this instance. For example, nvidia-tesla-k80.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#accelerator_type GoogleDataprocCluster#accelerator_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#accelerator_type GoogleDataprocCluster#accelerator_type}
 
 ---
 
@@ -1647,7 +1695,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeGroupConfigDiskConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 &googledataproccluster.GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeGroupConfigDiskConfig {
 	BootDiskProvisionedIops: *f64,
@@ -1684,7 +1732,7 @@ Indicates how many IOPS to provision for the disk.
 
 This sets the number of I/O operations per second that the disk can handle.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#boot_disk_provisioned_iops GoogleDataprocCluster#boot_disk_provisioned_iops}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#boot_disk_provisioned_iops GoogleDataprocCluster#boot_disk_provisioned_iops}
 
 ---
 
@@ -1700,7 +1748,7 @@ Indicates how much throughput to provision for the disk.
 
 This sets the number of throughput mb per second that the disk can handle.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#boot_disk_provisioned_throughput GoogleDataprocCluster#boot_disk_provisioned_throughput}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#boot_disk_provisioned_throughput GoogleDataprocCluster#boot_disk_provisioned_throughput}
 
 ---
 
@@ -1716,7 +1764,7 @@ Size of the primary disk attached to each node, specified in GB.
 
 The primary disk contains the boot volume and system libraries, and the smallest allowed disk size is 10GB. GCP will default to a predetermined computed value if not set (currently 500GB). Note: If SSDs are not attached, it also contains the HDFS data blocks and Hadoop working directories.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#boot_disk_size_gb GoogleDataprocCluster#boot_disk_size_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#boot_disk_size_gb GoogleDataprocCluster#boot_disk_size_gb}
 
 ---
 
@@ -1730,7 +1778,7 @@ BootDiskType *string
 
 The disk type of the primary disk attached to each node. Such as "pd-ssd" or "pd-standard". Defaults to "pd-standard".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#boot_disk_type GoogleDataprocCluster#boot_disk_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#boot_disk_type GoogleDataprocCluster#boot_disk_type}
 
 ---
 
@@ -1744,7 +1792,7 @@ LocalSsdInterface *string
 
 Interface type of local SSDs (default is "scsi"). Valid values: "scsi" (Small Computer System Interface), "nvme" (Non-Volatile Memory Express).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#local_ssd_interface GoogleDataprocCluster#local_ssd_interface}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#local_ssd_interface GoogleDataprocCluster#local_ssd_interface}
 
 ---
 
@@ -1758,7 +1806,7 @@ NumLocalSsds *f64
 
 The amount of local SSD disks that will be attached to each master cluster node. Defaults to 0.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#num_local_ssds GoogleDataprocCluster#num_local_ssds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#num_local_ssds GoogleDataprocCluster#num_local_ssds}
 
 ---
 
@@ -1767,7 +1815,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigDataprocMetricConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 &googledataproccluster.GoogleDataprocClusterClusterConfigDataprocMetricConfig {
 	Metrics: interface{},
@@ -1792,7 +1840,7 @@ Metrics interface{}
 
 metrics block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#metrics GoogleDataprocCluster#metrics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#metrics GoogleDataprocCluster#metrics}
 
 ---
 
@@ -1801,7 +1849,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigDataprocMetricConfigMetrics.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 &googledataproccluster.GoogleDataprocClusterClusterConfigDataprocMetricConfigMetrics {
 	MetricSource: *string,
@@ -1828,7 +1876,7 @@ MetricSource *string
 
 A source for the collection of Dataproc OSS metrics (see [available OSS metrics] (https://cloud.google.com//dataproc/docs/guides/monitoring#available_oss_metrics)).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#metric_source GoogleDataprocCluster#metric_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#metric_source GoogleDataprocCluster#metric_source}
 
 ---
 
@@ -1842,7 +1890,7 @@ MetricOverrides *[]*string
 
 Specify one or more [available OSS metrics] (https://cloud.google.com/dataproc/docs/guides/monitoring#available_oss_metrics) to collect.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#metric_overrides GoogleDataprocCluster#metric_overrides}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#metric_overrides GoogleDataprocCluster#metric_overrides}
 
 ---
 
@@ -1851,7 +1899,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigEncryptionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 &googledataproccluster.GoogleDataprocClusterClusterConfigEncryptionConfig {
 	KmsKeyName: *string,
@@ -1876,7 +1924,7 @@ KmsKeyName *string
 
 The Cloud KMS key name to use for PD disk encryption for all instances in the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#kms_key_name GoogleDataprocCluster#kms_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#kms_key_name GoogleDataprocCluster#kms_key_name}
 
 ---
 
@@ -1885,7 +1933,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigEndpointConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 &googledataproccluster.GoogleDataprocClusterClusterConfigEndpointConfig {
 	EnableHttpPortAccess: interface{},
@@ -1912,7 +1960,7 @@ The flag to enable http access to specific ports on the cluster from external so
 
 Defaults to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#enable_http_port_access GoogleDataprocCluster#enable_http_port_access}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#enable_http_port_access GoogleDataprocCluster#enable_http_port_access}
 
 ---
 
@@ -1921,19 +1969,19 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigGceClusterConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 &googledataproccluster.GoogleDataprocClusterClusterConfigGceClusterConfig {
-	ConfidentialInstanceConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDataprocCluster.GoogleDataprocClusterClusterConfigGceClusterConfigConfidentialInstanceConfig,
+	ConfidentialInstanceConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleDataprocCluster.GoogleDataprocClusterClusterConfigGceClusterConfigConfidentialInstanceConfig,
 	InternalIpOnly: interface{},
 	Metadata: *map[string]*string,
 	Network: *string,
-	NodeGroupAffinity: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDataprocCluster.GoogleDataprocClusterClusterConfigGceClusterConfigNodeGroupAffinity,
-	ReservationAffinity: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDataprocCluster.GoogleDataprocClusterClusterConfigGceClusterConfigReservationAffinity,
+	NodeGroupAffinity: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleDataprocCluster.GoogleDataprocClusterClusterConfigGceClusterConfigNodeGroupAffinity,
+	ReservationAffinity: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleDataprocCluster.GoogleDataprocClusterClusterConfigGceClusterConfigReservationAffinity,
 	ResourceManagerTags: *map[string]*string,
 	ServiceAccount: *string,
 	ServiceAccountScopes: *[]*string,
-	ShieldedInstanceConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDataprocCluster.GoogleDataprocClusterClusterConfigGceClusterConfigShieldedInstanceConfig,
+	ShieldedInstanceConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleDataprocCluster.GoogleDataprocClusterClusterConfigGceClusterConfigShieldedInstanceConfig,
 	Subnetwork: *string,
 	Tags: *[]*string,
 	Zone: *string,
@@ -1970,7 +2018,7 @@ ConfidentialInstanceConfig GoogleDataprocClusterClusterConfigGceClusterConfigCon
 
 confidential_instance_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#confidential_instance_config GoogleDataprocCluster#confidential_instance_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#confidential_instance_config GoogleDataprocCluster#confidential_instance_config}
 
 ---
 
@@ -1986,7 +2034,7 @@ By default, clusters are not restricted to internal IP addresses, and will have 
 
 If set to true, all instances in the cluster will only have internal IP addresses. Note: Private Google Access (also known as privateIpGoogleAccess) must be enabled on the subnetwork that the cluster will be launched in.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#internal_ip_only GoogleDataprocCluster#internal_ip_only}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#internal_ip_only GoogleDataprocCluster#internal_ip_only}
 
 ---
 
@@ -2000,7 +2048,7 @@ Metadata *map[string]*string
 
 A map of the Compute Engine metadata entries to add to all instances.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#metadata GoogleDataprocCluster#metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#metadata GoogleDataprocCluster#metadata}
 
 ---
 
@@ -2016,7 +2064,7 @@ The name or self_link of the Google Compute Engine network to the cluster will b
 
 Conflicts with subnetwork. If neither is specified, this defaults to the "default" network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#network GoogleDataprocCluster#network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#network GoogleDataprocCluster#network}
 
 ---
 
@@ -2030,7 +2078,7 @@ NodeGroupAffinity GoogleDataprocClusterClusterConfigGceClusterConfigNodeGroupAff
 
 node_group_affinity block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#node_group_affinity GoogleDataprocCluster#node_group_affinity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#node_group_affinity GoogleDataprocCluster#node_group_affinity}
 
 ---
 
@@ -2044,7 +2092,7 @@ ReservationAffinity GoogleDataprocClusterClusterConfigGceClusterConfigReservatio
 
 reservation_affinity block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#reservation_affinity GoogleDataprocCluster#reservation_affinity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#reservation_affinity GoogleDataprocCluster#reservation_affinity}
 
 ---
 
@@ -2060,7 +2108,7 @@ A map of resource manager tags to add to all instances.
 
 Keys must be in the format tagKeys/{tag_key_id} and values in the format tagValues/{tag_value_id}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#resource_manager_tags GoogleDataprocCluster#resource_manager_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#resource_manager_tags GoogleDataprocCluster#resource_manager_tags}
 
 ---
 
@@ -2074,7 +2122,7 @@ ServiceAccount *string
 
 The service account to be used by the Node VMs. If not specified, the "default" service account is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#service_account GoogleDataprocCluster#service_account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#service_account GoogleDataprocCluster#service_account}
 
 ---
 
@@ -2090,7 +2138,7 @@ The set of Google API scopes to be made available on all of the node VMs under t
 
 These can be either FQDNs, or scope aliases.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#service_account_scopes GoogleDataprocCluster#service_account_scopes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#service_account_scopes GoogleDataprocCluster#service_account_scopes}
 
 ---
 
@@ -2104,7 +2152,7 @@ ShieldedInstanceConfig GoogleDataprocClusterClusterConfigGceClusterConfigShielde
 
 shielded_instance_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#shielded_instance_config GoogleDataprocCluster#shielded_instance_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#shielded_instance_config GoogleDataprocCluster#shielded_instance_config}
 
 ---
 
@@ -2118,7 +2166,7 @@ Subnetwork *string
 
 The name or self_link of the Google Compute Engine subnetwork the cluster will be part of. Conflicts with network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#subnetwork GoogleDataprocCluster#subnetwork}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#subnetwork GoogleDataprocCluster#subnetwork}
 
 ---
 
@@ -2134,7 +2182,7 @@ The list of instance tags applied to instances in the cluster.
 
 Tags are used to identify valid sources or targets for network firewalls.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#tags GoogleDataprocCluster#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#tags GoogleDataprocCluster#tags}
 
 ---
 
@@ -2148,7 +2196,7 @@ Zone *string
 
 The GCP zone where your data is stored and used (i.e. where the master and the worker nodes will be created in). If region is set to 'global' (default) then zone is mandatory, otherwise GCP is able to make use of Auto Zone Placement to determine this automatically for you. Note: This setting additionally determines and restricts which computing resources are available for use with other configs such as cluster_config.master_config.machine_type and cluster_config.worker_config.machine_type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#zone GoogleDataprocCluster#zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#zone GoogleDataprocCluster#zone}
 
 ---
 
@@ -2157,7 +2205,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigGceClusterConfigConfidentialInstanceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 &googledataproccluster.GoogleDataprocClusterClusterConfigGceClusterConfigConfidentialInstanceConfig {
 	ConfidentialInstanceType: *string,
@@ -2184,7 +2232,7 @@ ConfidentialInstanceType *string
 
 Defines the type of Confidential Compute technology to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#confidential_instance_type GoogleDataprocCluster#confidential_instance_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#confidential_instance_type GoogleDataprocCluster#confidential_instance_type}
 
 ---
 
@@ -2198,7 +2246,7 @@ EnableConfidentialCompute interface{}
 
 Defines whether the instance should have confidential compute enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#enable_confidential_compute GoogleDataprocCluster#enable_confidential_compute}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#enable_confidential_compute GoogleDataprocCluster#enable_confidential_compute}
 
 ---
 
@@ -2207,7 +2255,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigGceClusterConfigNodeGroupAffinity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 &googledataproccluster.GoogleDataprocClusterClusterConfigGceClusterConfigNodeGroupAffinity {
 	NodeGroupUri: *string,
@@ -2232,7 +2280,7 @@ NodeGroupUri *string
 
 The URI of a sole-tenant that the cluster will be created on.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#node_group_uri GoogleDataprocCluster#node_group_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#node_group_uri GoogleDataprocCluster#node_group_uri}
 
 ---
 
@@ -2241,7 +2289,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigGceClusterConfigReservationAffinity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 &googledataproccluster.GoogleDataprocClusterClusterConfigGceClusterConfigReservationAffinity {
 	ConsumeReservationType: *string,
@@ -2270,7 +2318,7 @@ ConsumeReservationType *string
 
 Type of reservation to consume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#consume_reservation_type GoogleDataprocCluster#consume_reservation_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#consume_reservation_type GoogleDataprocCluster#consume_reservation_type}
 
 ---
 
@@ -2284,7 +2332,7 @@ Key *string
 
 Corresponds to the label key of reservation resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#key GoogleDataprocCluster#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#key GoogleDataprocCluster#key}
 
 ---
 
@@ -2298,7 +2346,7 @@ Values *[]*string
 
 Corresponds to the label values of reservation resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#values GoogleDataprocCluster#values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#values GoogleDataprocCluster#values}
 
 ---
 
@@ -2307,7 +2355,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigGceClusterConfigShieldedInstanceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 &googledataproccluster.GoogleDataprocClusterClusterConfigGceClusterConfigShieldedInstanceConfig {
 	EnableIntegrityMonitoring: interface{},
@@ -2336,7 +2384,7 @@ EnableIntegrityMonitoring interface{}
 
 Defines whether instances have integrity monitoring enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#enable_integrity_monitoring GoogleDataprocCluster#enable_integrity_monitoring}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#enable_integrity_monitoring GoogleDataprocCluster#enable_integrity_monitoring}
 
 ---
 
@@ -2350,7 +2398,7 @@ EnableSecureBoot interface{}
 
 Defines whether instances have Secure Boot enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#enable_secure_boot GoogleDataprocCluster#enable_secure_boot}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#enable_secure_boot GoogleDataprocCluster#enable_secure_boot}
 
 ---
 
@@ -2364,7 +2412,7 @@ EnableVtpm interface{}
 
 Defines whether instances have the vTPM enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#enable_vtpm GoogleDataprocCluster#enable_vtpm}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#enable_vtpm GoogleDataprocCluster#enable_vtpm}
 
 ---
 
@@ -2373,7 +2421,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigInitializationAction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 &googledataproccluster.GoogleDataprocClusterClusterConfigInitializationAction {
 	Script: *string,
@@ -2402,7 +2450,7 @@ The script to be executed during initialization of the cluster.
 
 The script must be a GCS file with a gs:// prefix.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#script GoogleDataprocCluster#script}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#script GoogleDataprocCluster#script}
 
 ---
 
@@ -2418,7 +2466,7 @@ The maximum duration (in seconds) which script is allowed to take to execute its
 
 GCP will default to a predetermined computed value if not set (currently 300).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#timeout_sec GoogleDataprocCluster#timeout_sec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#timeout_sec GoogleDataprocCluster#timeout_sec}
 
 ---
 
@@ -2427,7 +2475,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigLifecycleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 &googledataproccluster.GoogleDataprocClusterClusterConfigLifecycleConfig {
 	AutoDeleteTime: *string,
@@ -2458,7 +2506,7 @@ AutoDeleteTime *string
 
 The time when cluster will be auto-deleted. A timestamp in RFC3339 UTC "Zulu" format, accurate to nanoseconds. Example: "2014-10-02T15:01:23.045123456Z".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#auto_delete_time GoogleDataprocCluster#auto_delete_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#auto_delete_time GoogleDataprocCluster#auto_delete_time}
 
 ---
 
@@ -2472,7 +2520,7 @@ AutoStopTime *string
 
 The time when cluster will be auto-stopped. A timestamp in RFC3339 UTC "Zulu" format, accurate to nanoseconds. Example: "2014-10-02T15:01:23.045123456Z".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#auto_stop_time GoogleDataprocCluster#auto_stop_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#auto_stop_time GoogleDataprocCluster#auto_stop_time}
 
 ---
 
@@ -2488,7 +2536,7 @@ The duration to keep the cluster alive while idling (no jobs running).
 
 After this TTL, the cluster will be deleted. Valid range: [300s, 1209600s].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#idle_delete_ttl GoogleDataprocCluster#idle_delete_ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#idle_delete_ttl GoogleDataprocCluster#idle_delete_ttl}
 
 ---
 
@@ -2504,7 +2552,7 @@ The duration to keep the cluster started while idling (no jobs running).
 
 After this TTL, the cluster will be stopped. Valid range: [10m, 14d].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#idle_stop_ttl GoogleDataprocCluster#idle_stop_ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#idle_stop_ttl GoogleDataprocCluster#idle_stop_ttl}
 
 ---
 
@@ -2513,13 +2561,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 &googledataproccluster.GoogleDataprocClusterClusterConfigMasterConfig {
 	Accelerators: interface{},
-	DiskConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigDiskConfig,
+	DiskConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigDiskConfig,
 	ImageUri: *string,
-	InstanceFlexibilityPolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicy,
+	InstanceFlexibilityPolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicy,
 	MachineType: *string,
 	MinCpuPlatform: *string,
 	NumInstances: *f64,
@@ -2550,7 +2598,7 @@ Accelerators interface{}
 
 accelerators block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#accelerators GoogleDataprocCluster#accelerators}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#accelerators GoogleDataprocCluster#accelerators}
 
 ---
 
@@ -2564,7 +2612,7 @@ DiskConfig GoogleDataprocClusterClusterConfigMasterConfigDiskConfig
 
 disk_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#disk_config GoogleDataprocCluster#disk_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#disk_config GoogleDataprocCluster#disk_config}
 
 ---
 
@@ -2578,7 +2626,7 @@ ImageUri *string
 
 The URI for the image to use for this master.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#image_uri GoogleDataprocCluster#image_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#image_uri GoogleDataprocCluster#image_uri}
 
 ---
 
@@ -2592,7 +2640,7 @@ InstanceFlexibilityPolicy GoogleDataprocClusterClusterConfigMasterConfigInstance
 
 instance_flexibility_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#instance_flexibility_policy GoogleDataprocCluster#instance_flexibility_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#instance_flexibility_policy GoogleDataprocCluster#instance_flexibility_policy}
 
 ---
 
@@ -2606,7 +2654,7 @@ MachineType *string
 
 The name of a Google Compute Engine machine type to create for the master.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#machine_type GoogleDataprocCluster#machine_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#machine_type GoogleDataprocCluster#machine_type}
 
 ---
 
@@ -2622,7 +2670,7 @@ The name of a minimum generation of CPU family for the master.
 
 If not specified, GCP will default to a predetermined computed value for each zone.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#min_cpu_platform GoogleDataprocCluster#min_cpu_platform}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#min_cpu_platform GoogleDataprocCluster#min_cpu_platform}
 
 ---
 
@@ -2636,7 +2684,7 @@ NumInstances *f64
 
 Specifies the number of master nodes to create. If not specified, GCP will default to a predetermined computed value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#num_instances GoogleDataprocCluster#num_instances}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#num_instances GoogleDataprocCluster#num_instances}
 
 ---
 
@@ -2645,7 +2693,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigAccelerators.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 &googledataproccluster.GoogleDataprocClusterClusterConfigMasterConfigAccelerators {
 	AcceleratorCount: *f64,
@@ -2674,7 +2722,7 @@ The number of the accelerator cards of this type exposed to this instance.
 
 Often restricted to one of 1, 2, 4, or 8.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#accelerator_count GoogleDataprocCluster#accelerator_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#accelerator_count GoogleDataprocCluster#accelerator_count}
 
 ---
 
@@ -2688,7 +2736,7 @@ AcceleratorType *string
 
 The short name of the accelerator type to expose to this instance. For example, nvidia-tesla-k80.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#accelerator_type GoogleDataprocCluster#accelerator_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#accelerator_type GoogleDataprocCluster#accelerator_type}
 
 ---
 
@@ -2697,7 +2745,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigDiskConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 &googledataproccluster.GoogleDataprocClusterClusterConfigMasterConfigDiskConfig {
 	AttachedDiskConfig: interface{},
@@ -2734,7 +2782,7 @@ AttachedDiskConfig interface{}
 
 attached_disk_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#attached_disk_config GoogleDataprocCluster#attached_disk_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#attached_disk_config GoogleDataprocCluster#attached_disk_config}
 
 ---
 
@@ -2750,7 +2798,7 @@ Indicates how many IOPS to provision for the disk.
 
 This sets the number of I/O operations per second that the disk can handle.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#boot_disk_provisioned_iops GoogleDataprocCluster#boot_disk_provisioned_iops}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#boot_disk_provisioned_iops GoogleDataprocCluster#boot_disk_provisioned_iops}
 
 ---
 
@@ -2766,7 +2814,7 @@ Indicates how much throughput to provision for the disk.
 
 This sets the number of throughput mb per second that the disk can handle.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#boot_disk_provisioned_throughput GoogleDataprocCluster#boot_disk_provisioned_throughput}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#boot_disk_provisioned_throughput GoogleDataprocCluster#boot_disk_provisioned_throughput}
 
 ---
 
@@ -2782,7 +2830,7 @@ Size of the primary disk attached to each node, specified in GB.
 
 The primary disk contains the boot volume and system libraries, and the smallest allowed disk size is 10GB. GCP will default to a predetermined computed value if not set (currently 500GB). Note: If SSDs are not attached, it also contains the HDFS data blocks and Hadoop working directories.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#boot_disk_size_gb GoogleDataprocCluster#boot_disk_size_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#boot_disk_size_gb GoogleDataprocCluster#boot_disk_size_gb}
 
 ---
 
@@ -2796,7 +2844,7 @@ BootDiskType *string
 
 The disk type of the primary disk attached to each node. Such as "pd-ssd" or "pd-standard". Defaults to "pd-standard".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#boot_disk_type GoogleDataprocCluster#boot_disk_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#boot_disk_type GoogleDataprocCluster#boot_disk_type}
 
 ---
 
@@ -2810,7 +2858,7 @@ LocalSsdInterface *string
 
 Interface type of local SSDs (default is "scsi"). Valid values: "scsi" (Small Computer System Interface), "nvme" (Non-Volatile Memory Express).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#local_ssd_interface GoogleDataprocCluster#local_ssd_interface}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#local_ssd_interface GoogleDataprocCluster#local_ssd_interface}
 
 ---
 
@@ -2824,7 +2872,7 @@ NumLocalSsds *f64
 
 The amount of local SSD disks that will be attached to each master cluster node. Defaults to 0.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#num_local_ssds GoogleDataprocCluster#num_local_ssds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#num_local_ssds GoogleDataprocCluster#num_local_ssds}
 
 ---
 
@@ -2833,7 +2881,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigDiskConfigAttachedDiskConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 &googledataproccluster.GoogleDataprocClusterClusterConfigMasterConfigDiskConfigAttachedDiskConfig {
 	DiskSizeGb: *f64,
@@ -2866,7 +2914,7 @@ DiskSizeGb *f64
 
 Size of the attached disk, specified in GB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#disk_size_gb GoogleDataprocCluster#disk_size_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#disk_size_gb GoogleDataprocCluster#disk_size_gb}
 
 ---
 
@@ -2880,7 +2928,7 @@ DiskType *string
 
 The disk type of the attached disk. Such as "pd-ssd" or "pd-standard".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#disk_type GoogleDataprocCluster#disk_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#disk_type GoogleDataprocCluster#disk_type}
 
 ---
 
@@ -2896,7 +2944,7 @@ Indicates how many IOPS to provision for the disk.
 
 This sets the number of I/O operations per second that the disk can handle.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#provisioned_iops GoogleDataprocCluster#provisioned_iops}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#provisioned_iops GoogleDataprocCluster#provisioned_iops}
 
 ---
 
@@ -2912,7 +2960,7 @@ Indicates how much throughput to provision for the disk.
 
 This sets the number of throughput mb per second that the disk can handle.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#provisioned_throughput GoogleDataprocCluster#provisioned_throughput}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#provisioned_throughput GoogleDataprocCluster#provisioned_throughput}
 
 ---
 
@@ -2926,7 +2974,7 @@ Type *string
 
 The disk type of the attached disk. Currently only supports Hyperdisks: "hyperdisk-balanced", "hyperdisk-extreme", "hyperdisk-ml", "hyperdisk-throughput".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#type GoogleDataprocCluster#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#type GoogleDataprocCluster#type}
 
 ---
 
@@ -2935,7 +2983,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 &googledataproccluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicy {
 	InstanceSelectionList: interface{},
@@ -2960,7 +3008,7 @@ InstanceSelectionList interface{}
 
 instance_selection_list block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#instance_selection_list GoogleDataprocCluster#instance_selection_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#instance_selection_list GoogleDataprocCluster#instance_selection_list}
 
 ---
 
@@ -2969,7 +3017,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 &googledataproccluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfig {
 	AttachedDiskConfig: interface{},
@@ -3006,7 +3054,7 @@ AttachedDiskConfig interface{}
 
 attached_disk_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#attached_disk_config GoogleDataprocCluster#attached_disk_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#attached_disk_config GoogleDataprocCluster#attached_disk_config}
 
 ---
 
@@ -3022,7 +3070,7 @@ Indicates how many IOPS to provision for the disk.
 
 This sets the number of I/O operations per second that the disk can handle.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#boot_disk_provisioned_iops GoogleDataprocCluster#boot_disk_provisioned_iops}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#boot_disk_provisioned_iops GoogleDataprocCluster#boot_disk_provisioned_iops}
 
 ---
 
@@ -3038,7 +3086,7 @@ Indicates how much throughput to provision for the disk.
 
 This sets the number of throughput mb per second that the disk can handle.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#boot_disk_provisioned_throughput GoogleDataprocCluster#boot_disk_provisioned_throughput}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#boot_disk_provisioned_throughput GoogleDataprocCluster#boot_disk_provisioned_throughput}
 
 ---
 
@@ -3052,7 +3100,7 @@ BootDiskSizeGb *f64
 
 Size of the primary disk attached to each node, specified in GB. The smallest allowed disk size is 10GB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#boot_disk_size_gb GoogleDataprocCluster#boot_disk_size_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#boot_disk_size_gb GoogleDataprocCluster#boot_disk_size_gb}
 
 ---
 
@@ -3066,7 +3114,7 @@ BootDiskType *string
 
 The disk type of the primary disk attached to each node. Such as "pd-ssd" or "pd-standard".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#boot_disk_type GoogleDataprocCluster#boot_disk_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#boot_disk_type GoogleDataprocCluster#boot_disk_type}
 
 ---
 
@@ -3082,7 +3130,7 @@ Interface type of local SSDs (no Local SSDs or NVMe).
 
 Valid values: "scsi" (Small Computer System Interface), "nvme" (Non-Volatile Memory Express).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#local_ssd_interface GoogleDataprocCluster#local_ssd_interface}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#local_ssd_interface GoogleDataprocCluster#local_ssd_interface}
 
 ---
 
@@ -3096,7 +3144,7 @@ NumLocalSsds *f64
 
 The amount of local SSD disks that will be attached to each cluster node. Defaults to 0.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#num_local_ssds GoogleDataprocCluster#num_local_ssds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#num_local_ssds GoogleDataprocCluster#num_local_ssds}
 
 ---
 
@@ -3105,7 +3153,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfigAttachedDiskConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 &googledataproccluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfigAttachedDiskConfig {
 	DiskSizeGb: *f64,
@@ -3138,7 +3186,7 @@ DiskSizeGb *f64
 
 Size of the attached disk, specified in GB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#disk_size_gb GoogleDataprocCluster#disk_size_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#disk_size_gb GoogleDataprocCluster#disk_size_gb}
 
 ---
 
@@ -3152,7 +3200,7 @@ DiskType *string
 
 The disk type of the attached disk. Such as "pd-ssd" or "pd-standard".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#disk_type GoogleDataprocCluster#disk_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#disk_type GoogleDataprocCluster#disk_type}
 
 ---
 
@@ -3168,7 +3216,7 @@ Indicates how many IOPS to provision for the disk.
 
 This sets the number of I/O operations per second that the disk can handle.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#provisioned_iops GoogleDataprocCluster#provisioned_iops}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#provisioned_iops GoogleDataprocCluster#provisioned_iops}
 
 ---
 
@@ -3184,7 +3232,7 @@ Indicates how much throughput to provision for the disk.
 
 This sets the number of throughput mb per second that the disk can handle.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#provisioned_throughput GoogleDataprocCluster#provisioned_throughput}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#provisioned_throughput GoogleDataprocCluster#provisioned_throughput}
 
 ---
 
@@ -3198,7 +3246,7 @@ Type *string
 
 The disk type of the attached disk. Currently only supports Hyperdisks: "hyperdisk-balanced", "hyperdisk-extreme", "hyperdisk-ml", "hyperdisk-throughput".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#type GoogleDataprocCluster#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#type GoogleDataprocCluster#type}
 
 ---
 
@@ -3207,10 +3255,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 &googledataproccluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStruct {
-	DiskConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfig,
+	DiskConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfig,
 	MachineTypes: *[]*string,
 	Rank: *f64,
 }
@@ -3236,7 +3284,7 @@ DiskConfig GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPoli
 
 disk_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#disk_config GoogleDataprocCluster#disk_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#disk_config GoogleDataprocCluster#disk_config}
 
 ---
 
@@ -3250,7 +3298,7 @@ MachineTypes *[]*string
 
 Full machine-type names, e.g. "n1-standard-16".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#machine_types GoogleDataprocCluster#machine_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#machine_types GoogleDataprocCluster#machine_types}
 
 ---
 
@@ -3266,7 +3314,7 @@ Preference of this instance selection.
 
 Lower number means higher preference. Dataproc will first try to create a VM based on the machine-type with priority rank and fallback to next rank based on availability. Machine types and instance selections with the same priority have the same preference.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#rank GoogleDataprocCluster#rank}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#rank GoogleDataprocCluster#rank}
 
 ---
 
@@ -3275,7 +3323,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResults.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 &googledataproccluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResults {
 
@@ -3283,12 +3331,100 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleda
 ```
 
 
+### GoogleDataprocClusterClusterConfigMasterFlexibleConfig <a name="GoogleDataprocClusterClusterConfigMasterFlexibleConfig" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfig.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
+
+&googledataproccluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfig {
+	CoreCount: *f64,
+	BootDiskSizeGb: *f64,
+	HardwareClass: *string,
+	NumInstances: *f64,
+}
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfig.property.coreCount">CoreCount</a></code> | <code>*f64</code> | The number of vCPUs per instance. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfig.property.bootDiskSizeGb">BootDiskSizeGb</a></code> | <code>*f64</code> | The boot disk size in GB. Changing this forces a new resource to be created. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfig.property.hardwareClass">HardwareClass</a></code> | <code>*string</code> | The hardware class of instances. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfig.property.numInstances">NumInstances</a></code> | <code>*f64</code> | Specifies the number of master instances to create. |
+
+---
+
+##### `CoreCount`<sup>Required</sup> <a name="CoreCount" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfig.property.coreCount"></a>
+
+```go
+CoreCount *f64
+```
+
+- *Type:* *f64
+
+The number of vCPUs per instance.
+
+Must be a power of 2: 2, 4, 8, 16, or 32. Changing this forces a new resource to be created.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#core_count GoogleDataprocCluster#core_count}
+
+---
+
+##### `BootDiskSizeGb`<sup>Optional</sup> <a name="BootDiskSizeGb" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfig.property.bootDiskSizeGb"></a>
+
+```go
+BootDiskSizeGb *f64
+```
+
+- *Type:* *f64
+
+The boot disk size in GB. Changing this forces a new resource to be created.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#boot_disk_size_gb GoogleDataprocCluster#boot_disk_size_gb}
+
+---
+
+##### `HardwareClass`<sup>Optional</sup> <a name="HardwareClass" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfig.property.hardwareClass"></a>
+
+```go
+HardwareClass *string
+```
+
+- *Type:* *string
+
+The hardware class of instances.
+
+Allowed values are "STANDARD" and "PERFORMANCE". Defaults to "STANDARD". Changing this forces a new resource to be created.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#hardware_class GoogleDataprocCluster#hardware_class}
+
+---
+
+##### `NumInstances`<sup>Optional</sup> <a name="NumInstances" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfig.property.numInstances"></a>
+
+```go
+NumInstances *f64
+```
+
+- *Type:* *f64
+
+Specifies the number of master instances to create.
+
+In High Obtainability (HO) mode, this must be 1. Defaults to 1. Changing this forces a new resource to be created.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#num_instances GoogleDataprocCluster#num_instances}
+
+---
+
 ### GoogleDataprocClusterClusterConfigMetastoreConfig <a name="GoogleDataprocClusterClusterConfigMetastoreConfig" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMetastoreConfig"></a>
 
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMetastoreConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 &googledataproccluster.GoogleDataprocClusterClusterConfigMetastoreConfig {
 	DataprocMetastoreService: *string,
@@ -3313,7 +3449,7 @@ DataprocMetastoreService *string
 
 Resource name of an existing Dataproc Metastore service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#dataproc_metastore_service GoogleDataprocCluster#dataproc_metastore_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#dataproc_metastore_service GoogleDataprocCluster#dataproc_metastore_service}
 
 ---
 
@@ -3322,11 +3458,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 &googledataproccluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfig {
-	DiskConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfig,
-	InstanceFlexibilityPolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigInstanceFlexibilityPolicy,
+	DiskConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfig,
+	InstanceFlexibilityPolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigInstanceFlexibilityPolicy,
 	NumInstances: *f64,
 	Preemptibility: *string,
 }
@@ -3353,7 +3489,7 @@ DiskConfig GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfig
 
 disk_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#disk_config GoogleDataprocCluster#disk_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#disk_config GoogleDataprocCluster#disk_config}
 
 ---
 
@@ -3367,7 +3503,7 @@ InstanceFlexibilityPolicy GoogleDataprocClusterClusterConfigPreemptibleWorkerCon
 
 instance_flexibility_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#instance_flexibility_policy GoogleDataprocCluster#instance_flexibility_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#instance_flexibility_policy GoogleDataprocCluster#instance_flexibility_policy}
 
 ---
 
@@ -3381,7 +3517,7 @@ NumInstances *f64
 
 Specifies the number of preemptible nodes to create. Defaults to 0.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#num_instances GoogleDataprocCluster#num_instances}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#num_instances GoogleDataprocCluster#num_instances}
 
 ---
 
@@ -3395,7 +3531,7 @@ Preemptibility *string
 
 Specifies the preemptibility of the secondary nodes. Defaults to PREEMPTIBLE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#preemptibility GoogleDataprocCluster#preemptibility}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#preemptibility GoogleDataprocCluster#preemptibility}
 
 ---
 
@@ -3404,7 +3540,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 &googledataproccluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfig {
 	AttachedDiskConfig: interface{},
@@ -3441,7 +3577,7 @@ AttachedDiskConfig interface{}
 
 attached_disk_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#attached_disk_config GoogleDataprocCluster#attached_disk_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#attached_disk_config GoogleDataprocCluster#attached_disk_config}
 
 ---
 
@@ -3457,7 +3593,7 @@ Indicates how many IOPS to provision for the disk.
 
 This sets the number of I/O operations per second that the disk can handle.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#boot_disk_provisioned_iops GoogleDataprocCluster#boot_disk_provisioned_iops}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#boot_disk_provisioned_iops GoogleDataprocCluster#boot_disk_provisioned_iops}
 
 ---
 
@@ -3473,7 +3609,7 @@ Indicates how much throughput to provision for the disk.
 
 This sets the number of throughput mb per second that the disk can handle.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#boot_disk_provisioned_throughput GoogleDataprocCluster#boot_disk_provisioned_throughput}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#boot_disk_provisioned_throughput GoogleDataprocCluster#boot_disk_provisioned_throughput}
 
 ---
 
@@ -3489,7 +3625,7 @@ Size of the primary disk attached to each preemptible worker node, specified in 
 
 The smallest allowed disk size is 10GB. GCP will default to a predetermined computed value if not set (currently 500GB). Note: If SSDs are not attached, it also contains the HDFS data blocks and Hadoop working directories.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#boot_disk_size_gb GoogleDataprocCluster#boot_disk_size_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#boot_disk_size_gb GoogleDataprocCluster#boot_disk_size_gb}
 
 ---
 
@@ -3505,7 +3641,7 @@ The disk type of the primary disk attached to each preemptible worker node.
 
 Such as "pd-ssd" or "pd-standard". Defaults to "pd-standard".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#boot_disk_type GoogleDataprocCluster#boot_disk_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#boot_disk_type GoogleDataprocCluster#boot_disk_type}
 
 ---
 
@@ -3519,7 +3655,7 @@ LocalSsdInterface *string
 
 Interface type of local SSDs (default is "scsi"). Valid values: "scsi" (Small Computer System Interface), "nvme" (Non-Volatile Memory Express).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#local_ssd_interface GoogleDataprocCluster#local_ssd_interface}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#local_ssd_interface GoogleDataprocCluster#local_ssd_interface}
 
 ---
 
@@ -3533,7 +3669,7 @@ NumLocalSsds *f64
 
 The amount of local SSD disks that will be attached to each preemptible worker node. Defaults to 0.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#num_local_ssds GoogleDataprocCluster#num_local_ssds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#num_local_ssds GoogleDataprocCluster#num_local_ssds}
 
 ---
 
@@ -3542,7 +3678,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigAttachedDiskConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 &googledataproccluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigAttachedDiskConfig {
 	DiskSizeGb: *f64,
@@ -3575,7 +3711,7 @@ DiskSizeGb *f64
 
 Size of the attached disk, specified in GB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#disk_size_gb GoogleDataprocCluster#disk_size_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#disk_size_gb GoogleDataprocCluster#disk_size_gb}
 
 ---
 
@@ -3589,7 +3725,7 @@ DiskType *string
 
 The disk type of the attached disk. Such as "pd-ssd" or "pd-standard".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#disk_type GoogleDataprocCluster#disk_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#disk_type GoogleDataprocCluster#disk_type}
 
 ---
 
@@ -3605,7 +3741,7 @@ Indicates how many IOPS to provision for the disk.
 
 This sets the number of I/O operations per second that the disk can handle.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#provisioned_iops GoogleDataprocCluster#provisioned_iops}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#provisioned_iops GoogleDataprocCluster#provisioned_iops}
 
 ---
 
@@ -3621,7 +3757,7 @@ Indicates how much throughput to provision for the disk.
 
 This sets the number of throughput mb per second that the disk can handle.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#provisioned_throughput GoogleDataprocCluster#provisioned_throughput}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#provisioned_throughput GoogleDataprocCluster#provisioned_throughput}
 
 ---
 
@@ -3635,7 +3771,7 @@ Type *string
 
 The disk type of the attached disk. Currently only supports Hyperdisks: "hyperdisk-balanced", "hyperdisk-extreme", "hyperdisk-ml", "hyperdisk-throughput".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#type GoogleDataprocCluster#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#type GoogleDataprocCluster#type}
 
 ---
 
@@ -3644,11 +3780,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigInstanceFlexibilityPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 &googledataproccluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigInstanceFlexibilityPolicy {
 	InstanceSelectionList: interface{},
-	ProvisioningModelMix: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigInstanceFlexibilityPolicyProvisioningModelMix,
+	ProvisioningModelMix: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigInstanceFlexibilityPolicyProvisioningModelMix,
 }
 ```
 
@@ -3671,7 +3807,7 @@ InstanceSelectionList interface{}
 
 instance_selection_list block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#instance_selection_list GoogleDataprocCluster#instance_selection_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#instance_selection_list GoogleDataprocCluster#instance_selection_list}
 
 ---
 
@@ -3685,7 +3821,7 @@ ProvisioningModelMix GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigIn
 
 provisioning_model_mix block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#provisioning_model_mix GoogleDataprocCluster#provisioning_model_mix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#provisioning_model_mix GoogleDataprocCluster#provisioning_model_mix}
 
 ---
 
@@ -3694,7 +3830,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 &googledataproccluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfig {
 	AttachedDiskConfig: interface{},
@@ -3731,7 +3867,7 @@ AttachedDiskConfig interface{}
 
 attached_disk_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#attached_disk_config GoogleDataprocCluster#attached_disk_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#attached_disk_config GoogleDataprocCluster#attached_disk_config}
 
 ---
 
@@ -3747,7 +3883,7 @@ Indicates how many IOPS to provision for the disk.
 
 This sets the number of I/O operations per second that the disk can handle.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#boot_disk_provisioned_iops GoogleDataprocCluster#boot_disk_provisioned_iops}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#boot_disk_provisioned_iops GoogleDataprocCluster#boot_disk_provisioned_iops}
 
 ---
 
@@ -3763,7 +3899,7 @@ Indicates how much throughput to provision for the disk.
 
 This sets the number of throughput mb per second that the disk can handle.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#boot_disk_provisioned_throughput GoogleDataprocCluster#boot_disk_provisioned_throughput}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#boot_disk_provisioned_throughput GoogleDataprocCluster#boot_disk_provisioned_throughput}
 
 ---
 
@@ -3777,7 +3913,7 @@ BootDiskSizeGb *f64
 
 Size of the primary disk attached to each node, specified in GB. The smallest allowed disk size is 10GB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#boot_disk_size_gb GoogleDataprocCluster#boot_disk_size_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#boot_disk_size_gb GoogleDataprocCluster#boot_disk_size_gb}
 
 ---
 
@@ -3791,7 +3927,7 @@ BootDiskType *string
 
 The disk type of the primary disk attached to each node. Such as "pd-ssd" or "pd-standard".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#boot_disk_type GoogleDataprocCluster#boot_disk_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#boot_disk_type GoogleDataprocCluster#boot_disk_type}
 
 ---
 
@@ -3807,7 +3943,7 @@ Interface type of local SSDs (no Local SSDs or NVMe).
 
 Valid values: "scsi" (Small Computer System Interface), "nvme" (Non-Volatile Memory Express).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#local_ssd_interface GoogleDataprocCluster#local_ssd_interface}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#local_ssd_interface GoogleDataprocCluster#local_ssd_interface}
 
 ---
 
@@ -3821,7 +3957,7 @@ NumLocalSsds *f64
 
 The amount of local SSD disks that will be attached to each cluster node. Defaults to 0.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#num_local_ssds GoogleDataprocCluster#num_local_ssds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#num_local_ssds GoogleDataprocCluster#num_local_ssds}
 
 ---
 
@@ -3830,7 +3966,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfigAttachedDiskConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 &googledataproccluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfigAttachedDiskConfig {
 	DiskSizeGb: *f64,
@@ -3863,7 +3999,7 @@ DiskSizeGb *f64
 
 Size of the attached disk, specified in GB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#disk_size_gb GoogleDataprocCluster#disk_size_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#disk_size_gb GoogleDataprocCluster#disk_size_gb}
 
 ---
 
@@ -3877,7 +4013,7 @@ DiskType *string
 
 The disk type of the attached disk. Such as "pd-ssd" or "pd-standard".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#disk_type GoogleDataprocCluster#disk_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#disk_type GoogleDataprocCluster#disk_type}
 
 ---
 
@@ -3893,7 +4029,7 @@ Indicates how many IOPS to provision for the disk.
 
 This sets the number of I/O operations per second that the disk can handle.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#provisioned_iops GoogleDataprocCluster#provisioned_iops}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#provisioned_iops GoogleDataprocCluster#provisioned_iops}
 
 ---
 
@@ -3909,7 +4045,7 @@ Indicates how much throughput to provision for the disk.
 
 This sets the number of throughput mb per second that the disk can handle.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#provisioned_throughput GoogleDataprocCluster#provisioned_throughput}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#provisioned_throughput GoogleDataprocCluster#provisioned_throughput}
 
 ---
 
@@ -3923,7 +4059,7 @@ Type *string
 
 The disk type of the attached disk. Currently only supports Hyperdisks: "hyperdisk-balanced", "hyperdisk-extreme", "hyperdisk-ml", "hyperdisk-throughput".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#type GoogleDataprocCluster#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#type GoogleDataprocCluster#type}
 
 ---
 
@@ -3932,10 +4068,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 &googledataproccluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStruct {
-	DiskConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfig,
+	DiskConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfig,
 	MachineTypes: *[]*string,
 	Rank: *f64,
 }
@@ -3961,7 +4097,7 @@ DiskConfig GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigInstanceFlex
 
 disk_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#disk_config GoogleDataprocCluster#disk_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#disk_config GoogleDataprocCluster#disk_config}
 
 ---
 
@@ -3975,7 +4111,7 @@ MachineTypes *[]*string
 
 Full machine-type names, e.g. "n1-standard-16".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#machine_types GoogleDataprocCluster#machine_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#machine_types GoogleDataprocCluster#machine_types}
 
 ---
 
@@ -3991,7 +4127,7 @@ Preference of this instance selection.
 
 Lower number means higher preference. Dataproc will first try to create a VM based on the machine-type with priority rank and fallback to next rank based on availability. Machine types and instance selections with the same priority have the same preference.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#rank GoogleDataprocCluster#rank}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#rank GoogleDataprocCluster#rank}
 
 ---
 
@@ -4000,7 +4136,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResults.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 &googledataproccluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResults {
 
@@ -4013,7 +4149,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleda
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigInstanceFlexibilityPolicyProvisioningModelMix.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 &googledataproccluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigInstanceFlexibilityPolicyProvisioningModelMix {
 	StandardCapacityBase: *f64,
@@ -4040,7 +4176,7 @@ StandardCapacityBase *f64
 
 The base capacity that will always use Standard VMs to avoid risk of more preemption than the minimum capacity you need.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#standard_capacity_base GoogleDataprocCluster#standard_capacity_base}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#standard_capacity_base GoogleDataprocCluster#standard_capacity_base}
 
 ---
 
@@ -4054,7 +4190,95 @@ StandardCapacityPercentAboveBase *f64
 
 The percentage of target capacity that should use Standard VM. The remaining percentage will use Spot VMs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#standard_capacity_percent_above_base GoogleDataprocCluster#standard_capacity_percent_above_base}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#standard_capacity_percent_above_base GoogleDataprocCluster#standard_capacity_percent_above_base}
+
+---
+
+### GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfig <a name="GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfig" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfig.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
+
+&googledataproccluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfig {
+	CoreCount: *f64,
+	BootDiskSizeGb: *f64,
+	HardwareClass: *string,
+	NumInstances: *f64,
+}
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfig.property.coreCount">CoreCount</a></code> | <code>*f64</code> | The number of vCPUs per instance. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfig.property.bootDiskSizeGb">BootDiskSizeGb</a></code> | <code>*f64</code> | The boot disk size in GB. Changing this forces a new resource to be created. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfig.property.hardwareClass">HardwareClass</a></code> | <code>*string</code> | The hardware class of instances. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfig.property.numInstances">NumInstances</a></code> | <code>*f64</code> | Specifies the number of secondary worker instances to create. |
+
+---
+
+##### `CoreCount`<sup>Required</sup> <a name="CoreCount" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfig.property.coreCount"></a>
+
+```go
+CoreCount *f64
+```
+
+- *Type:* *f64
+
+The number of vCPUs per instance.
+
+Must be a power of 2: 2, 4, 8, 16, or 32. Changing this forces a new resource to be created.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#core_count GoogleDataprocCluster#core_count}
+
+---
+
+##### `BootDiskSizeGb`<sup>Optional</sup> <a name="BootDiskSizeGb" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfig.property.bootDiskSizeGb"></a>
+
+```go
+BootDiskSizeGb *f64
+```
+
+- *Type:* *f64
+
+The boot disk size in GB. Changing this forces a new resource to be created.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#boot_disk_size_gb GoogleDataprocCluster#boot_disk_size_gb}
+
+---
+
+##### `HardwareClass`<sup>Optional</sup> <a name="HardwareClass" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfig.property.hardwareClass"></a>
+
+```go
+HardwareClass *string
+```
+
+- *Type:* *string
+
+The hardware class of instances.
+
+Allowed values are "STANDARD" and "PERFORMANCE". Defaults to "STANDARD". Changing this forces a new resource to be created.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#hardware_class GoogleDataprocCluster#hardware_class}
+
+---
+
+##### `NumInstances`<sup>Optional</sup> <a name="NumInstances" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfig.property.numInstances"></a>
+
+```go
+NumInstances *f64
+```
+
+- *Type:* *f64
+
+Specifies the number of secondary worker instances to create.
+
+Represents the desired capacity of the group and is updatable in place. Defaults to 0; can be scaled down to 0.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#num_instances GoogleDataprocCluster#num_instances}
 
 ---
 
@@ -4063,11 +4287,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecurityConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 &googledataproccluster.GoogleDataprocClusterClusterConfigSecurityConfig {
-	IdentityConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecurityConfigIdentityConfig,
-	KerberosConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecurityConfigKerberosConfig,
+	IdentityConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecurityConfigIdentityConfig,
+	KerberosConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecurityConfigKerberosConfig,
 }
 ```
 
@@ -4090,7 +4314,7 @@ IdentityConfig GoogleDataprocClusterClusterConfigSecurityConfigIdentityConfig
 
 identity_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#identity_config GoogleDataprocCluster#identity_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#identity_config GoogleDataprocCluster#identity_config}
 
 ---
 
@@ -4104,7 +4328,7 @@ KerberosConfig GoogleDataprocClusterClusterConfigSecurityConfigKerberosConfig
 
 kerberos_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#kerberos_config GoogleDataprocCluster#kerberos_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#kerberos_config GoogleDataprocCluster#kerberos_config}
 
 ---
 
@@ -4113,7 +4337,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecurityConfigIdentityConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 &googledataproccluster.GoogleDataprocClusterClusterConfigSecurityConfigIdentityConfig {
 	UserServiceAccountMapping: *map[string]*string,
@@ -4138,7 +4362,7 @@ UserServiceAccountMapping *map[string]*string
 
 User to service account mappings for multi-tenancy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#user_service_account_mapping GoogleDataprocCluster#user_service_account_mapping}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#user_service_account_mapping GoogleDataprocCluster#user_service_account_mapping}
 
 ---
 
@@ -4147,7 +4371,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecurityConfigKerberosConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 &googledataproccluster.GoogleDataprocClusterClusterConfigSecurityConfigKerberosConfig {
 	KmsKeyUri: *string,
@@ -4200,7 +4424,7 @@ KmsKeyUri *string
 
 The uri of the KMS key used to encrypt various sensitive files.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#kms_key_uri GoogleDataprocCluster#kms_key_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#kms_key_uri GoogleDataprocCluster#kms_key_uri}
 
 ---
 
@@ -4214,7 +4438,7 @@ RootPrincipalPasswordUri *string
 
 The cloud Storage URI of a KMS encrypted file containing the root principal password.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#root_principal_password_uri GoogleDataprocCluster#root_principal_password_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#root_principal_password_uri GoogleDataprocCluster#root_principal_password_uri}
 
 ---
 
@@ -4228,7 +4452,7 @@ CrossRealmTrustAdminServer *string
 
 The admin server (IP or hostname) for the remote trusted realm in a cross realm trust relationship.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#cross_realm_trust_admin_server GoogleDataprocCluster#cross_realm_trust_admin_server}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#cross_realm_trust_admin_server GoogleDataprocCluster#cross_realm_trust_admin_server}
 
 ---
 
@@ -4242,7 +4466,7 @@ CrossRealmTrustKdc *string
 
 The KDC (IP or hostname) for the remote trusted realm in a cross realm trust relationship.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#cross_realm_trust_kdc GoogleDataprocCluster#cross_realm_trust_kdc}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#cross_realm_trust_kdc GoogleDataprocCluster#cross_realm_trust_kdc}
 
 ---
 
@@ -4256,7 +4480,7 @@ CrossRealmTrustRealm *string
 
 The remote realm the Dataproc on-cluster KDC will trust, should the user enable cross realm trust.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#cross_realm_trust_realm GoogleDataprocCluster#cross_realm_trust_realm}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#cross_realm_trust_realm GoogleDataprocCluster#cross_realm_trust_realm}
 
 ---
 
@@ -4270,7 +4494,7 @@ CrossRealmTrustSharedPasswordUri *string
 
 The Cloud Storage URI of a KMS encrypted file containing the shared password between the on-cluster Kerberos realm and the remote trusted realm, in a cross realm trust relationship.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#cross_realm_trust_shared_password_uri GoogleDataprocCluster#cross_realm_trust_shared_password_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#cross_realm_trust_shared_password_uri GoogleDataprocCluster#cross_realm_trust_shared_password_uri}
 
 ---
 
@@ -4284,7 +4508,7 @@ EnableKerberos interface{}
 
 Flag to indicate whether to Kerberize the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#enable_kerberos GoogleDataprocCluster#enable_kerberos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#enable_kerberos GoogleDataprocCluster#enable_kerberos}
 
 ---
 
@@ -4298,7 +4522,7 @@ KdcDbKeyUri *string
 
 The Cloud Storage URI of a KMS encrypted file containing the master key of the KDC database.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#kdc_db_key_uri GoogleDataprocCluster#kdc_db_key_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#kdc_db_key_uri GoogleDataprocCluster#kdc_db_key_uri}
 
 ---
 
@@ -4314,7 +4538,7 @@ The Cloud Storage URI of a KMS encrypted file containing the password to the use
 
 For the self-signed certificate, this password is generated by Dataproc.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#key_password_uri GoogleDataprocCluster#key_password_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#key_password_uri GoogleDataprocCluster#key_password_uri}
 
 ---
 
@@ -4331,7 +4555,7 @@ The Cloud Storage URI of a KMS encrypted file containing the password to the use
 For the self-signed certificate, this password is generated
 by Dataproc
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#keystore_password_uri GoogleDataprocCluster#keystore_password_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#keystore_password_uri GoogleDataprocCluster#keystore_password_uri}
 
 ---
 
@@ -4347,7 +4571,7 @@ The Cloud Storage URI of the keystore file used for SSL encryption.
 
 If not provided, Dataproc will provide a self-signed certificate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#keystore_uri GoogleDataprocCluster#keystore_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#keystore_uri GoogleDataprocCluster#keystore_uri}
 
 ---
 
@@ -4361,7 +4585,7 @@ Realm *string
 
 The name of the on-cluster Kerberos realm. If not specified, the uppercased domain of hostnames will be the realm.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#realm GoogleDataprocCluster#realm}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#realm GoogleDataprocCluster#realm}
 
 ---
 
@@ -4375,7 +4599,7 @@ TgtLifetimeHours *f64
 
 The lifetime of the ticket granting ticket, in hours.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#tgt_lifetime_hours GoogleDataprocCluster#tgt_lifetime_hours}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#tgt_lifetime_hours GoogleDataprocCluster#tgt_lifetime_hours}
 
 ---
 
@@ -4391,7 +4615,7 @@ The Cloud Storage URI of a KMS encrypted file containing the password to the use
 
 For the self-signed certificate, this password is generated by Dataproc.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#truststore_password_uri GoogleDataprocCluster#truststore_password_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#truststore_password_uri GoogleDataprocCluster#truststore_password_uri}
 
 ---
 
@@ -4407,7 +4631,7 @@ The Cloud Storage URI of the truststore file used for SSL encryption.
 
 If not provided, Dataproc will provide a self-signed certificate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#truststore_uri GoogleDataprocCluster#truststore_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#truststore_uri GoogleDataprocCluster#truststore_uri}
 
 ---
 
@@ -4416,7 +4640,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSoftwareConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 &googledataproccluster.GoogleDataprocClusterClusterConfigSoftwareConfig {
 	ImageVersion: *string,
@@ -4447,7 +4671,7 @@ The Cloud Dataproc image version to use for the cluster - this controls the sets
 
 If not specified, defaults to the latest version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#image_version GoogleDataprocCluster#image_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#image_version GoogleDataprocCluster#image_version}
 
 ---
 
@@ -4461,7 +4685,7 @@ OptionalComponents *[]*string
 
 The set of optional components to activate on the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#optional_components GoogleDataprocCluster#optional_components}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#optional_components GoogleDataprocCluster#optional_components}
 
 ---
 
@@ -4475,7 +4699,7 @@ OverrideProperties *map[string]*string
 
 A list of override and additional properties (key/value pairs) used to modify various aspects of the common configuration files used when creating a cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#override_properties GoogleDataprocCluster#override_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#override_properties GoogleDataprocCluster#override_properties}
 
 ---
 
@@ -4484,13 +4708,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 &googledataproccluster.GoogleDataprocClusterClusterConfigWorkerConfig {
 	Accelerators: interface{},
-	DiskConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigDiskConfig,
+	DiskConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigDiskConfig,
 	ImageUri: *string,
-	InstanceFlexibilityPolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicy,
+	InstanceFlexibilityPolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicy,
 	MachineType: *string,
 	MinCpuPlatform: *string,
 	MinNumInstances: *f64,
@@ -4523,7 +4747,7 @@ Accelerators interface{}
 
 accelerators block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#accelerators GoogleDataprocCluster#accelerators}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#accelerators GoogleDataprocCluster#accelerators}
 
 ---
 
@@ -4537,7 +4761,7 @@ DiskConfig GoogleDataprocClusterClusterConfigWorkerConfigDiskConfig
 
 disk_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#disk_config GoogleDataprocCluster#disk_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#disk_config GoogleDataprocCluster#disk_config}
 
 ---
 
@@ -4551,7 +4775,7 @@ ImageUri *string
 
 The URI for the image to use for this master/worker.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#image_uri GoogleDataprocCluster#image_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#image_uri GoogleDataprocCluster#image_uri}
 
 ---
 
@@ -4565,7 +4789,7 @@ InstanceFlexibilityPolicy GoogleDataprocClusterClusterConfigWorkerConfigInstance
 
 instance_flexibility_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#instance_flexibility_policy GoogleDataprocCluster#instance_flexibility_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#instance_flexibility_policy GoogleDataprocCluster#instance_flexibility_policy}
 
 ---
 
@@ -4579,7 +4803,7 @@ MachineType *string
 
 The name of a Google Compute Engine machine type to create for the master/worker.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#machine_type GoogleDataprocCluster#machine_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#machine_type GoogleDataprocCluster#machine_type}
 
 ---
 
@@ -4595,7 +4819,7 @@ The name of a minimum generation of CPU family for the master/worker.
 
 If not specified, GCP will default to a predetermined computed value for each zone.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#min_cpu_platform GoogleDataprocCluster#min_cpu_platform}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#min_cpu_platform GoogleDataprocCluster#min_cpu_platform}
 
 ---
 
@@ -4609,7 +4833,7 @@ MinNumInstances *f64
 
 The minimum number of primary worker instances to create.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#min_num_instances GoogleDataprocCluster#min_num_instances}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#min_num_instances GoogleDataprocCluster#min_num_instances}
 
 ---
 
@@ -4623,7 +4847,7 @@ NumInstances *f64
 
 Specifies the number of worker nodes to create. If not specified, GCP will default to a predetermined computed value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#num_instances GoogleDataprocCluster#num_instances}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#num_instances GoogleDataprocCluster#num_instances}
 
 ---
 
@@ -4632,7 +4856,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigAccelerators.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 &googledataproccluster.GoogleDataprocClusterClusterConfigWorkerConfigAccelerators {
 	AcceleratorCount: *f64,
@@ -4661,7 +4885,7 @@ The number of the accelerator cards of this type exposed to this instance.
 
 Often restricted to one of 1, 2, 4, or 8.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#accelerator_count GoogleDataprocCluster#accelerator_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#accelerator_count GoogleDataprocCluster#accelerator_count}
 
 ---
 
@@ -4675,7 +4899,7 @@ AcceleratorType *string
 
 The short name of the accelerator type to expose to this instance. For example, nvidia-tesla-k80.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#accelerator_type GoogleDataprocCluster#accelerator_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#accelerator_type GoogleDataprocCluster#accelerator_type}
 
 ---
 
@@ -4684,7 +4908,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigDiskConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 &googledataproccluster.GoogleDataprocClusterClusterConfigWorkerConfigDiskConfig {
 	AttachedDiskConfig: interface{},
@@ -4721,7 +4945,7 @@ AttachedDiskConfig interface{}
 
 attached_disk_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#attached_disk_config GoogleDataprocCluster#attached_disk_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#attached_disk_config GoogleDataprocCluster#attached_disk_config}
 
 ---
 
@@ -4737,7 +4961,7 @@ Indicates how many IOPS to provision for the disk.
 
 This sets the number of I/O operations per second that the disk can handle.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#boot_disk_provisioned_iops GoogleDataprocCluster#boot_disk_provisioned_iops}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#boot_disk_provisioned_iops GoogleDataprocCluster#boot_disk_provisioned_iops}
 
 ---
 
@@ -4753,7 +4977,7 @@ Indicates how much throughput to provision for the disk.
 
 This sets the number of throughput mb per second that the disk can handle.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#boot_disk_provisioned_throughput GoogleDataprocCluster#boot_disk_provisioned_throughput}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#boot_disk_provisioned_throughput GoogleDataprocCluster#boot_disk_provisioned_throughput}
 
 ---
 
@@ -4769,7 +4993,7 @@ Size of the primary disk attached to each node, specified in GB.
 
 The primary disk contains the boot volume and system libraries, and the smallest allowed disk size is 10GB. GCP will default to a predetermined computed value if not set (currently 500GB). Note: If SSDs are not attached, it also contains the HDFS data blocks and Hadoop working directories.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#boot_disk_size_gb GoogleDataprocCluster#boot_disk_size_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#boot_disk_size_gb GoogleDataprocCluster#boot_disk_size_gb}
 
 ---
 
@@ -4783,7 +5007,7 @@ BootDiskType *string
 
 The disk type of the primary disk attached to each node. Such as "pd-ssd" or "pd-standard". Defaults to "pd-standard".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#boot_disk_type GoogleDataprocCluster#boot_disk_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#boot_disk_type GoogleDataprocCluster#boot_disk_type}
 
 ---
 
@@ -4797,7 +5021,7 @@ LocalSsdInterface *string
 
 Interface type of local SSDs (default is "scsi"). Valid values: "scsi" (Small Computer System Interface), "nvme" (Non-Volatile Memory Express).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#local_ssd_interface GoogleDataprocCluster#local_ssd_interface}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#local_ssd_interface GoogleDataprocCluster#local_ssd_interface}
 
 ---
 
@@ -4811,7 +5035,7 @@ NumLocalSsds *f64
 
 The amount of local SSD disks that will be attached to each master cluster node. Defaults to 0.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#num_local_ssds GoogleDataprocCluster#num_local_ssds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#num_local_ssds GoogleDataprocCluster#num_local_ssds}
 
 ---
 
@@ -4820,7 +5044,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigAttachedDiskConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 &googledataproccluster.GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigAttachedDiskConfig {
 	DiskSizeGb: *f64,
@@ -4853,7 +5077,7 @@ DiskSizeGb *f64
 
 Size of the attached disk, specified in GB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#disk_size_gb GoogleDataprocCluster#disk_size_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#disk_size_gb GoogleDataprocCluster#disk_size_gb}
 
 ---
 
@@ -4867,7 +5091,7 @@ DiskType *string
 
 The disk type of the attached disk. Such as "pd-ssd" or "pd-standard".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#disk_type GoogleDataprocCluster#disk_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#disk_type GoogleDataprocCluster#disk_type}
 
 ---
 
@@ -4883,7 +5107,7 @@ Indicates how many IOPS to provision for the disk.
 
 This sets the number of I/O operations per second that the disk can handle.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#provisioned_iops GoogleDataprocCluster#provisioned_iops}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#provisioned_iops GoogleDataprocCluster#provisioned_iops}
 
 ---
 
@@ -4899,7 +5123,7 @@ Indicates how much throughput to provision for the disk.
 
 This sets the number of throughput mb per second that the disk can handle.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#provisioned_throughput GoogleDataprocCluster#provisioned_throughput}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#provisioned_throughput GoogleDataprocCluster#provisioned_throughput}
 
 ---
 
@@ -4913,7 +5137,7 @@ Type *string
 
 The disk type of the attached disk. Currently only supports Hyperdisks: "hyperdisk-balanced", "hyperdisk-extreme", "hyperdisk-ml", "hyperdisk-throughput".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#type GoogleDataprocCluster#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#type GoogleDataprocCluster#type}
 
 ---
 
@@ -4922,7 +5146,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 &googledataproccluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicy {
 	InstanceSelectionList: interface{},
@@ -4947,7 +5171,7 @@ InstanceSelectionList interface{}
 
 instance_selection_list block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#instance_selection_list GoogleDataprocCluster#instance_selection_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#instance_selection_list GoogleDataprocCluster#instance_selection_list}
 
 ---
 
@@ -4956,7 +5180,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 &googledataproccluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfig {
 	AttachedDiskConfig: interface{},
@@ -4993,7 +5217,7 @@ AttachedDiskConfig interface{}
 
 attached_disk_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#attached_disk_config GoogleDataprocCluster#attached_disk_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#attached_disk_config GoogleDataprocCluster#attached_disk_config}
 
 ---
 
@@ -5009,7 +5233,7 @@ Indicates how many IOPS to provision for the disk.
 
 This sets the number of I/O operations per second that the disk can handle.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#boot_disk_provisioned_iops GoogleDataprocCluster#boot_disk_provisioned_iops}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#boot_disk_provisioned_iops GoogleDataprocCluster#boot_disk_provisioned_iops}
 
 ---
 
@@ -5025,7 +5249,7 @@ Indicates how much throughput to provision for the disk.
 
 This sets the number of throughput mb per second that the disk can handle.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#boot_disk_provisioned_throughput GoogleDataprocCluster#boot_disk_provisioned_throughput}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#boot_disk_provisioned_throughput GoogleDataprocCluster#boot_disk_provisioned_throughput}
 
 ---
 
@@ -5039,7 +5263,7 @@ BootDiskSizeGb *f64
 
 Size of the primary disk attached to each node, specified in GB. The smallest allowed disk size is 10GB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#boot_disk_size_gb GoogleDataprocCluster#boot_disk_size_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#boot_disk_size_gb GoogleDataprocCluster#boot_disk_size_gb}
 
 ---
 
@@ -5053,7 +5277,7 @@ BootDiskType *string
 
 The disk type of the primary disk attached to each node. Such as "pd-ssd" or "pd-standard".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#boot_disk_type GoogleDataprocCluster#boot_disk_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#boot_disk_type GoogleDataprocCluster#boot_disk_type}
 
 ---
 
@@ -5069,7 +5293,7 @@ Interface type of local SSDs (no Local SSDs or NVMe).
 
 Valid values: "scsi" (Small Computer System Interface), "nvme" (Non-Volatile Memory Express).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#local_ssd_interface GoogleDataprocCluster#local_ssd_interface}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#local_ssd_interface GoogleDataprocCluster#local_ssd_interface}
 
 ---
 
@@ -5083,7 +5307,7 @@ NumLocalSsds *f64
 
 The amount of local SSD disks that will be attached to each cluster node. Defaults to 0.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#num_local_ssds GoogleDataprocCluster#num_local_ssds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#num_local_ssds GoogleDataprocCluster#num_local_ssds}
 
 ---
 
@@ -5092,7 +5316,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfigAttachedDiskConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 &googledataproccluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfigAttachedDiskConfig {
 	DiskSizeGb: *f64,
@@ -5125,7 +5349,7 @@ DiskSizeGb *f64
 
 Size of the attached disk, specified in GB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#disk_size_gb GoogleDataprocCluster#disk_size_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#disk_size_gb GoogleDataprocCluster#disk_size_gb}
 
 ---
 
@@ -5139,7 +5363,7 @@ DiskType *string
 
 The disk type of the attached disk. Such as "pd-ssd" or "pd-standard".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#disk_type GoogleDataprocCluster#disk_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#disk_type GoogleDataprocCluster#disk_type}
 
 ---
 
@@ -5155,7 +5379,7 @@ Indicates how many IOPS to provision for the disk.
 
 This sets the number of I/O operations per second that the disk can handle.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#provisioned_iops GoogleDataprocCluster#provisioned_iops}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#provisioned_iops GoogleDataprocCluster#provisioned_iops}
 
 ---
 
@@ -5171,7 +5395,7 @@ Indicates how much throughput to provision for the disk.
 
 This sets the number of throughput mb per second that the disk can handle.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#provisioned_throughput GoogleDataprocCluster#provisioned_throughput}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#provisioned_throughput GoogleDataprocCluster#provisioned_throughput}
 
 ---
 
@@ -5185,7 +5409,7 @@ Type *string
 
 The disk type of the attached disk. Currently only supports Hyperdisks: "hyperdisk-balanced", "hyperdisk-extreme", "hyperdisk-ml", "hyperdisk-throughput".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#type GoogleDataprocCluster#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#type GoogleDataprocCluster#type}
 
 ---
 
@@ -5194,10 +5418,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 &googledataproccluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStruct {
-	DiskConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfig,
+	DiskConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfig,
 	MachineTypes: *[]*string,
 	Rank: *f64,
 }
@@ -5223,7 +5447,7 @@ DiskConfig GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPoli
 
 disk_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#disk_config GoogleDataprocCluster#disk_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#disk_config GoogleDataprocCluster#disk_config}
 
 ---
 
@@ -5237,7 +5461,7 @@ MachineTypes *[]*string
 
 Full machine-type names, e.g. "n1-standard-16".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#machine_types GoogleDataprocCluster#machine_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#machine_types GoogleDataprocCluster#machine_types}
 
 ---
 
@@ -5253,7 +5477,7 @@ Preference of this instance selection.
 
 Lower number means higher preference. Dataproc will first try to create a VM based on the machine-type with priority rank and fallback to next rank based on availability. Machine types and instance selections with the same priority have the same preference.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#rank GoogleDataprocCluster#rank}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#rank GoogleDataprocCluster#rank}
 
 ---
 
@@ -5262,7 +5486,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResults.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 &googledataproccluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResults {
 
@@ -5270,12 +5494,100 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleda
 ```
 
 
+### GoogleDataprocClusterClusterConfigWorkerFlexibleConfig <a name="GoogleDataprocClusterClusterConfigWorkerFlexibleConfig" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfig.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
+
+&googledataproccluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfig {
+	CoreCount: *f64,
+	NumInstances: *f64,
+	BootDiskSizeGb: *f64,
+	HardwareClass: *string,
+}
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfig.property.coreCount">CoreCount</a></code> | <code>*f64</code> | The number of vCPUs per instance. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfig.property.numInstances">NumInstances</a></code> | <code>*f64</code> | Specifies the number of worker instances to create. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfig.property.bootDiskSizeGb">BootDiskSizeGb</a></code> | <code>*f64</code> | The boot disk size in GB. Changing this forces a new resource to be created. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfig.property.hardwareClass">HardwareClass</a></code> | <code>*string</code> | The hardware class of instances. |
+
+---
+
+##### `CoreCount`<sup>Required</sup> <a name="CoreCount" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfig.property.coreCount"></a>
+
+```go
+CoreCount *f64
+```
+
+- *Type:* *f64
+
+The number of vCPUs per instance.
+
+Must be a power of 2: 2, 4, 8, 16, or 32. Changing this forces a new resource to be created.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#core_count GoogleDataprocCluster#core_count}
+
+---
+
+##### `NumInstances`<sup>Required</sup> <a name="NumInstances" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfig.property.numInstances"></a>
+
+```go
+NumInstances *f64
+```
+
+- *Type:* *f64
+
+Specifies the number of worker instances to create.
+
+Represents the desired capacity of the group and is updatable in place.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#num_instances GoogleDataprocCluster#num_instances}
+
+---
+
+##### `BootDiskSizeGb`<sup>Optional</sup> <a name="BootDiskSizeGb" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfig.property.bootDiskSizeGb"></a>
+
+```go
+BootDiskSizeGb *f64
+```
+
+- *Type:* *f64
+
+The boot disk size in GB. Changing this forces a new resource to be created.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#boot_disk_size_gb GoogleDataprocCluster#boot_disk_size_gb}
+
+---
+
+##### `HardwareClass`<sup>Optional</sup> <a name="HardwareClass" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfig.property.hardwareClass"></a>
+
+```go
+HardwareClass *string
+```
+
+- *Type:* *string
+
+The hardware class of instances.
+
+Allowed values are "STANDARD" and "PERFORMANCE". Defaults to "STANDARD". Changing this forces a new resource to be created.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#hardware_class GoogleDataprocCluster#hardware_class}
+
+---
+
 ### GoogleDataprocClusterConfig <a name="GoogleDataprocClusterConfig" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterConfig"></a>
 
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 &googledataproccluster.GoogleDataprocClusterConfig {
 	Connection: interface{},
@@ -5286,15 +5598,15 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleda
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	Name: *string,
-	ClusterConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDataprocCluster.GoogleDataprocClusterClusterConfig,
+	ClusterConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleDataprocCluster.GoogleDataprocClusterClusterConfig,
 	DeletionPolicy: *string,
 	GracefulDecommissionTimeout: *string,
 	Id: *string,
 	Labels: *map[string]*string,
 	Project: *string,
 	Region: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDataprocCluster.GoogleDataprocClusterTimeouts,
-	VirtualClusterConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDataprocCluster.GoogleDataprocClusterVirtualClusterConfig,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleDataprocCluster.GoogleDataprocClusterTimeouts,
+	VirtualClusterConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleDataprocCluster.GoogleDataprocClusterVirtualClusterConfig,
 }
 ```
 
@@ -5313,7 +5625,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleda
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterConfig.property.clusterConfig">ClusterConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfig">GoogleDataprocClusterClusterConfig</a></code> | cluster_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterConfig.property.gracefulDecommissionTimeout">GracefulDecommissionTimeout</a></code> | <code>*string</code> | The timeout duration which allows graceful decomissioning when you change the number of worker nodes directly through a terraform apply. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#id GoogleDataprocCluster#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#id GoogleDataprocCluster#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterConfig.property.labels">Labels</a></code> | <code>*map[string]*string</code> | The list of the labels (key/value pairs) configured on the resource and to be applied to instances in the cluster. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterConfig.property.project">Project</a></code> | <code>*string</code> | The ID of the project in which the cluster will exist. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterConfig.property.region">Region</a></code> | <code>*string</code> | The region in which the cluster and associated nodes will be created in. Defaults to global. |
@@ -5402,7 +5714,7 @@ Name *string
 
 The name of the cluster, unique within the project and zone.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#name GoogleDataprocCluster#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#name GoogleDataprocCluster#name}
 
 ---
 
@@ -5416,7 +5728,7 @@ ClusterConfig GoogleDataprocClusterClusterConfig
 
 cluster_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#cluster_config GoogleDataprocCluster#cluster_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#cluster_config GoogleDataprocCluster#cluster_config}
 
 ---
 
@@ -5437,7 +5749,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#deletion_policy GoogleDataprocCluster#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#deletion_policy GoogleDataprocCluster#deletion_policy}
 
 ---
 
@@ -5451,7 +5763,7 @@ GracefulDecommissionTimeout *string
 
 The timeout duration which allows graceful decomissioning when you change the number of worker nodes directly through a terraform apply.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#graceful_decommission_timeout GoogleDataprocCluster#graceful_decommission_timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#graceful_decommission_timeout GoogleDataprocCluster#graceful_decommission_timeout}
 
 ---
 
@@ -5463,7 +5775,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#id GoogleDataprocCluster#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#id GoogleDataprocCluster#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -5483,7 +5795,7 @@ The list of the labels (key/value pairs) configured on the resource and to be ap
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#labels GoogleDataprocCluster#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#labels GoogleDataprocCluster#labels}
 
 ---
 
@@ -5499,7 +5811,7 @@ The ID of the project in which the cluster will exist.
 
 If it is not provided, the provider project is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#project GoogleDataprocCluster#project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#project GoogleDataprocCluster#project}
 
 ---
 
@@ -5513,7 +5825,7 @@ Region *string
 
 The region in which the cluster and associated nodes will be created in. Defaults to global.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#region GoogleDataprocCluster#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#region GoogleDataprocCluster#region}
 
 ---
 
@@ -5527,7 +5839,7 @@ Timeouts GoogleDataprocClusterTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#timeouts GoogleDataprocCluster#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#timeouts GoogleDataprocCluster#timeouts}
 
 ---
 
@@ -5541,7 +5853,7 @@ VirtualClusterConfig GoogleDataprocClusterVirtualClusterConfig
 
 virtual_cluster_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#virtual_cluster_config GoogleDataprocCluster#virtual_cluster_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#virtual_cluster_config GoogleDataprocCluster#virtual_cluster_config}
 
 ---
 
@@ -5550,7 +5862,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 &googledataproccluster.GoogleDataprocClusterTimeouts {
 	Create: *string,
@@ -5563,9 +5875,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleda
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#create GoogleDataprocCluster#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#delete GoogleDataprocCluster#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#update GoogleDataprocCluster#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#create GoogleDataprocCluster#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#delete GoogleDataprocCluster#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#update GoogleDataprocCluster#update}. |
 
 ---
 
@@ -5577,7 +5889,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#create GoogleDataprocCluster#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#create GoogleDataprocCluster#create}.
 
 ---
 
@@ -5589,7 +5901,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#delete GoogleDataprocCluster#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#delete GoogleDataprocCluster#delete}.
 
 ---
 
@@ -5601,7 +5913,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#update GoogleDataprocCluster#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#update GoogleDataprocCluster#update}.
 
 ---
 
@@ -5610,11 +5922,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterVirtualClusterConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 &googledataproccluster.GoogleDataprocClusterVirtualClusterConfig {
-	AuxiliaryServicesConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDataprocCluster.GoogleDataprocClusterVirtualClusterConfigAuxiliaryServicesConfig,
-	KubernetesClusterConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDataprocCluster.GoogleDataprocClusterVirtualClusterConfigKubernetesClusterConfig,
+	AuxiliaryServicesConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleDataprocCluster.GoogleDataprocClusterVirtualClusterConfigAuxiliaryServicesConfig,
+	KubernetesClusterConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleDataprocCluster.GoogleDataprocClusterVirtualClusterConfigKubernetesClusterConfig,
 	StagingBucket: *string,
 }
 ```
@@ -5639,7 +5951,7 @@ AuxiliaryServicesConfig GoogleDataprocClusterVirtualClusterConfigAuxiliaryServic
 
 auxiliary_services_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#auxiliary_services_config GoogleDataprocCluster#auxiliary_services_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#auxiliary_services_config GoogleDataprocCluster#auxiliary_services_config}
 
 ---
 
@@ -5653,7 +5965,7 @@ KubernetesClusterConfig GoogleDataprocClusterVirtualClusterConfigKubernetesClust
 
 kubernetes_cluster_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#kubernetes_cluster_config GoogleDataprocCluster#kubernetes_cluster_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#kubernetes_cluster_config GoogleDataprocCluster#kubernetes_cluster_config}
 
 ---
 
@@ -5669,7 +5981,7 @@ A Cloud Storage bucket used to stage job dependencies, config files, and job dri
 
 If you do not specify a staging bucket, Cloud Dataproc will determine a Cloud Storage location (US, ASIA, or EU) for your cluster's staging bucket according to the Compute Engine zone where your cluster is deployed, and then create and manage this project-level, per-location bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#staging_bucket GoogleDataprocCluster#staging_bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#staging_bucket GoogleDataprocCluster#staging_bucket}
 
 ---
 
@@ -5678,11 +5990,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterVirtualClusterConfigAuxiliaryServicesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 &googledataproccluster.GoogleDataprocClusterVirtualClusterConfigAuxiliaryServicesConfig {
-	MetastoreConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDataprocCluster.GoogleDataprocClusterVirtualClusterConfigAuxiliaryServicesConfigMetastoreConfig,
-	SparkHistoryServerConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDataprocCluster.GoogleDataprocClusterVirtualClusterConfigAuxiliaryServicesConfigSparkHistoryServerConfig,
+	MetastoreConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleDataprocCluster.GoogleDataprocClusterVirtualClusterConfigAuxiliaryServicesConfigMetastoreConfig,
+	SparkHistoryServerConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleDataprocCluster.GoogleDataprocClusterVirtualClusterConfigAuxiliaryServicesConfigSparkHistoryServerConfig,
 }
 ```
 
@@ -5705,7 +6017,7 @@ MetastoreConfig GoogleDataprocClusterVirtualClusterConfigAuxiliaryServicesConfig
 
 metastore_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#metastore_config GoogleDataprocCluster#metastore_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#metastore_config GoogleDataprocCluster#metastore_config}
 
 ---
 
@@ -5719,7 +6031,7 @@ SparkHistoryServerConfig GoogleDataprocClusterVirtualClusterConfigAuxiliaryServi
 
 spark_history_server_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#spark_history_server_config GoogleDataprocCluster#spark_history_server_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#spark_history_server_config GoogleDataprocCluster#spark_history_server_config}
 
 ---
 
@@ -5728,7 +6040,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterVirtualClusterConfigAuxiliaryServicesConfigMetastoreConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 &googledataproccluster.GoogleDataprocClusterVirtualClusterConfigAuxiliaryServicesConfigMetastoreConfig {
 	DataprocMetastoreService: *string,
@@ -5753,7 +6065,7 @@ DataprocMetastoreService *string
 
 The Hive Metastore configuration for this workload.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#dataproc_metastore_service GoogleDataprocCluster#dataproc_metastore_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#dataproc_metastore_service GoogleDataprocCluster#dataproc_metastore_service}
 
 ---
 
@@ -5762,7 +6074,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterVirtualClusterConfigAuxiliaryServicesConfigSparkHistoryServerConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 &googledataproccluster.GoogleDataprocClusterVirtualClusterConfigAuxiliaryServicesConfigSparkHistoryServerConfig {
 	DataprocCluster: *string,
@@ -5787,7 +6099,7 @@ DataprocCluster *string
 
 Resource name of an existing Dataproc Cluster to act as a Spark History Server for the workload.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#dataproc_cluster GoogleDataprocCluster#dataproc_cluster}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#dataproc_cluster GoogleDataprocCluster#dataproc_cluster}
 
 ---
 
@@ -5796,11 +6108,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterVirtualClusterConfigKubernetesClusterConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 &googledataproccluster.GoogleDataprocClusterVirtualClusterConfigKubernetesClusterConfig {
-	GkeClusterConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDataprocCluster.GoogleDataprocClusterVirtualClusterConfigKubernetesClusterConfigGkeClusterConfig,
-	KubernetesSoftwareConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDataprocCluster.GoogleDataprocClusterVirtualClusterConfigKubernetesClusterConfigKubernetesSoftwareConfig,
+	GkeClusterConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleDataprocCluster.GoogleDataprocClusterVirtualClusterConfigKubernetesClusterConfigGkeClusterConfig,
+	KubernetesSoftwareConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleDataprocCluster.GoogleDataprocClusterVirtualClusterConfigKubernetesClusterConfigKubernetesSoftwareConfig,
 	KubernetesNamespace: *string,
 }
 ```
@@ -5825,7 +6137,7 @@ GkeClusterConfig GoogleDataprocClusterVirtualClusterConfigKubernetesClusterConfi
 
 gke_cluster_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#gke_cluster_config GoogleDataprocCluster#gke_cluster_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#gke_cluster_config GoogleDataprocCluster#gke_cluster_config}
 
 ---
 
@@ -5839,7 +6151,7 @@ KubernetesSoftwareConfig GoogleDataprocClusterVirtualClusterConfigKubernetesClus
 
 kubernetes_software_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#kubernetes_software_config GoogleDataprocCluster#kubernetes_software_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#kubernetes_software_config GoogleDataprocCluster#kubernetes_software_config}
 
 ---
 
@@ -5855,7 +6167,7 @@ A namespace within the Kubernetes cluster to deploy into.
 
 If this namespace does not exist, it is created. If it exists, Dataproc verifies that another Dataproc VirtualCluster is not installed into it. If not specified, the name of the Dataproc Cluster is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#kubernetes_namespace GoogleDataprocCluster#kubernetes_namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#kubernetes_namespace GoogleDataprocCluster#kubernetes_namespace}
 
 ---
 
@@ -5864,7 +6176,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterVirtualClusterConfigKubernetesClusterConfigGkeClusterConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 &googledataproccluster.GoogleDataprocClusterVirtualClusterConfigKubernetesClusterConfigGkeClusterConfig {
 	GkeClusterTarget: *string,
@@ -5893,7 +6205,7 @@ A target GKE cluster to deploy to.
 
 It must be in the same project and region as the Dataproc cluster (the GKE cluster can be zonal or regional). Format: 'projects/{project}/locations/{location}/clusters/{cluster_id}'
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#gke_cluster_target GoogleDataprocCluster#gke_cluster_target}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#gke_cluster_target GoogleDataprocCluster#gke_cluster_target}
 
 ---
 
@@ -5907,7 +6219,7 @@ NodePoolTarget interface{}
 
 node_pool_target block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#node_pool_target GoogleDataprocCluster#node_pool_target}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#node_pool_target GoogleDataprocCluster#node_pool_target}
 
 ---
 
@@ -5916,12 +6228,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterVirtualClusterConfigKubernetesClusterConfigGkeClusterConfigNodePoolTarget.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 &googledataproccluster.GoogleDataprocClusterVirtualClusterConfigKubernetesClusterConfigGkeClusterConfigNodePoolTarget {
 	NodePool: *string,
 	Roles: *[]*string,
-	NodePoolConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDataprocCluster.GoogleDataprocClusterVirtualClusterConfigKubernetesClusterConfigGkeClusterConfigNodePoolTargetNodePoolConfig,
+	NodePoolConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleDataprocCluster.GoogleDataprocClusterVirtualClusterConfigKubernetesClusterConfigGkeClusterConfigNodePoolTargetNodePoolConfig,
 }
 ```
 
@@ -5945,7 +6257,7 @@ NodePool *string
 
 The target GKE node pool. Format: 'projects/{project}/locations/{location}/clusters/{cluster}/nodePools/{nodePool}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#node_pool GoogleDataprocCluster#node_pool}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#node_pool GoogleDataprocCluster#node_pool}
 
 ---
 
@@ -5959,7 +6271,7 @@ Roles *[]*string
 
 The roles associated with the GKE node pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#roles GoogleDataprocCluster#roles}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#roles GoogleDataprocCluster#roles}
 
 ---
 
@@ -5973,7 +6285,7 @@ NodePoolConfig GoogleDataprocClusterVirtualClusterConfigKubernetesClusterConfigG
 
 node_pool_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#node_pool_config GoogleDataprocCluster#node_pool_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#node_pool_config GoogleDataprocCluster#node_pool_config}
 
 ---
 
@@ -5982,12 +6294,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterVirtualClusterConfigKubernetesClusterConfigGkeClusterConfigNodePoolTargetNodePoolConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 &googledataproccluster.GoogleDataprocClusterVirtualClusterConfigKubernetesClusterConfigGkeClusterConfigNodePoolTargetNodePoolConfig {
 	Locations: *[]*string,
-	Autoscaling: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDataprocCluster.GoogleDataprocClusterVirtualClusterConfigKubernetesClusterConfigGkeClusterConfigNodePoolTargetNodePoolConfigAutoscaling,
-	Config: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleDataprocCluster.GoogleDataprocClusterVirtualClusterConfigKubernetesClusterConfigGkeClusterConfigNodePoolTargetNodePoolConfigConfig,
+	Autoscaling: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleDataprocCluster.GoogleDataprocClusterVirtualClusterConfigKubernetesClusterConfigGkeClusterConfigNodePoolTargetNodePoolConfigAutoscaling,
+	Config: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleDataprocCluster.GoogleDataprocClusterVirtualClusterConfigKubernetesClusterConfigGkeClusterConfigNodePoolTargetNodePoolConfigConfig,
 }
 ```
 
@@ -6011,7 +6323,7 @@ Locations *[]*string
 
 The list of Compute Engine zones where node pool nodes associated with a Dataproc on GKE virtual cluster will be located.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#locations GoogleDataprocCluster#locations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#locations GoogleDataprocCluster#locations}
 
 ---
 
@@ -6025,7 +6337,7 @@ Autoscaling GoogleDataprocClusterVirtualClusterConfigKubernetesClusterConfigGkeC
 
 autoscaling block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#autoscaling GoogleDataprocCluster#autoscaling}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#autoscaling GoogleDataprocCluster#autoscaling}
 
 ---
 
@@ -6039,7 +6351,7 @@ Config GoogleDataprocClusterVirtualClusterConfigKubernetesClusterConfigGkeCluste
 
 config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#config GoogleDataprocCluster#config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#config GoogleDataprocCluster#config}
 
 ---
 
@@ -6048,7 +6360,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterVirtualClusterConfigKubernetesClusterConfigGkeClusterConfigNodePoolTargetNodePoolConfigAutoscaling.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 &googledataproccluster.GoogleDataprocClusterVirtualClusterConfigKubernetesClusterConfigGkeClusterConfigNodePoolTargetNodePoolConfigAutoscaling {
 	MaxNodeCount: *f64,
@@ -6075,7 +6387,7 @@ MaxNodeCount *f64
 
 The maximum number of nodes in the node pool. Must be >= minNodeCount, and must be > 0.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#max_node_count GoogleDataprocCluster#max_node_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#max_node_count GoogleDataprocCluster#max_node_count}
 
 ---
 
@@ -6089,7 +6401,7 @@ MinNodeCount *f64
 
 The minimum number of nodes in the node pool. Must be >= 0 and <= maxNodeCount.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#min_node_count GoogleDataprocCluster#min_node_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#min_node_count GoogleDataprocCluster#min_node_count}
 
 ---
 
@@ -6098,7 +6410,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterVirtualClusterConfigKubernetesClusterConfigGkeClusterConfigNodePoolTargetNodePoolConfigConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 &googledataproccluster.GoogleDataprocClusterVirtualClusterConfigKubernetesClusterConfigGkeClusterConfigNodePoolTargetNodePoolConfigConfig {
 	LocalSsdCount: *f64,
@@ -6131,7 +6443,7 @@ LocalSsdCount *f64
 
 The minimum number of nodes in the node pool. Must be >= 0 and <= maxNodeCount.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#local_ssd_count GoogleDataprocCluster#local_ssd_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#local_ssd_count GoogleDataprocCluster#local_ssd_count}
 
 ---
 
@@ -6145,7 +6457,7 @@ MachineType *string
 
 The name of a Compute Engine machine type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#machine_type GoogleDataprocCluster#machine_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#machine_type GoogleDataprocCluster#machine_type}
 
 ---
 
@@ -6161,7 +6473,7 @@ Minimum CPU platform to be used by this instance.
 
 The instance may be scheduled on the specified or a newer CPU platform. Specify the friendly names of CPU platforms, such as "Intel Haswell" or "Intel Sandy Bridge".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#min_cpu_platform GoogleDataprocCluster#min_cpu_platform}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#min_cpu_platform GoogleDataprocCluster#min_cpu_platform}
 
 ---
 
@@ -6177,7 +6489,7 @@ Whether the nodes are created as preemptible VM instances.
 
 Preemptible nodes cannot be used in a node pool with the CONTROLLER role or in the DEFAULT node pool if the CONTROLLER role is not assigned (the DEFAULT node pool will assume the CONTROLLER role).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#preemptible GoogleDataprocCluster#preemptible}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#preemptible GoogleDataprocCluster#preemptible}
 
 ---
 
@@ -6191,7 +6503,7 @@ Spot interface{}
 
 Spot flag for enabling Spot VM, which is a rebrand of the existing preemptible flag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#spot GoogleDataprocCluster#spot}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#spot GoogleDataprocCluster#spot}
 
 ---
 
@@ -6200,7 +6512,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterVirtualClusterConfigKubernetesClusterConfigKubernetesSoftwareConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 &googledataproccluster.GoogleDataprocClusterVirtualClusterConfigKubernetesClusterConfigKubernetesSoftwareConfig {
 	ComponentVersion: *map[string]*string,
@@ -6229,7 +6541,7 @@ The components that should be installed in this Dataproc cluster.
 
 The key must be a string from the KubernetesComponent enumeration. The value is the version of the software to be installed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#component_version GoogleDataprocCluster#component_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#component_version GoogleDataprocCluster#component_version}
 
 ---
 
@@ -6243,7 +6555,7 @@ Properties *map[string]*string
 
 The properties to set on daemon config files. Property keys are specified in prefix:property format, for example spark:spark.kubernetes.container.image.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dataproc_cluster#properties GoogleDataprocCluster#properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dataproc_cluster#properties GoogleDataprocCluster#properties}
 
 ---
 
@@ -6254,7 +6566,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigAutoscalingConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterClusterConfigAutoscalingConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocClusterClusterConfigAutoscalingConfigOutputReference
 ```
@@ -6525,7 +6837,7 @@ func InternalValue() GoogleDataprocClusterClusterConfigAutoscalingConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsList
 ```
@@ -6685,7 +6997,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupList
 ```
@@ -6845,7 +7157,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeGroupConfigAcceleratorsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeGroupConfigAcceleratorsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeGroupConfigAcceleratorsList
 ```
@@ -7005,7 +7317,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeGroupConfigAcceleratorsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeGroupConfigAcceleratorsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeGroupConfigAcceleratorsOutputReference
 ```
@@ -7316,7 +7628,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeGroupConfigDiskConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeGroupConfigDiskConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeGroupConfigDiskConfigOutputReference
 ```
@@ -7739,7 +8051,7 @@ func InternalValue() GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGr
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeGroupConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeGroupConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupNodeGroupConfigOutputReference
 ```
@@ -8170,7 +8482,7 @@ func InternalValue() GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGr
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsNodeGroupOutputReference
 ```
@@ -8512,7 +8824,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDataprocClusterClusterConfigAuxiliaryNodeGroupsOutputReference
 ```
@@ -8843,7 +9155,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigDataprocMetricConfigMetricsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterClusterConfigDataprocMetricConfigMetricsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDataprocClusterClusterConfigDataprocMetricConfigMetricsList
 ```
@@ -9003,7 +9315,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigDataprocMetricConfigMetricsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterClusterConfigDataprocMetricConfigMetricsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDataprocClusterClusterConfigDataprocMetricConfigMetricsOutputReference
 ```
@@ -9321,7 +9633,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigDataprocMetricConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterClusterConfigDataprocMetricConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocClusterClusterConfigDataprocMetricConfigOutputReference
 ```
@@ -9605,7 +9917,7 @@ func InternalValue() GoogleDataprocClusterClusterConfigDataprocMetricConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigEncryptionConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterClusterConfigEncryptionConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocClusterClusterConfigEncryptionConfigOutputReference
 ```
@@ -9876,7 +10188,7 @@ func InternalValue() GoogleDataprocClusterClusterConfigEncryptionConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigEndpointConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterClusterConfigEndpointConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocClusterClusterConfigEndpointConfigOutputReference
 ```
@@ -10158,7 +10470,7 @@ func InternalValue() GoogleDataprocClusterClusterConfigEndpointConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigGceClusterConfigConfidentialInstanceConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterClusterConfigGceClusterConfigConfidentialInstanceConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocClusterClusterConfigGceClusterConfigConfidentialInstanceConfigOutputReference
 ```
@@ -10465,7 +10777,7 @@ func InternalValue() GoogleDataprocClusterClusterConfigGceClusterConfigConfident
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigGceClusterConfigNodeGroupAffinityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterClusterConfigGceClusterConfigNodeGroupAffinityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocClusterClusterConfigGceClusterConfigNodeGroupAffinityOutputReference
 ```
@@ -10736,7 +11048,7 @@ func InternalValue() GoogleDataprocClusterClusterConfigGceClusterConfigNodeGroup
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigGceClusterConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterClusterConfigGceClusterConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocClusterClusterConfigGceClusterConfigOutputReference
 ```
@@ -11414,7 +11726,7 @@ func InternalValue() GoogleDataprocClusterClusterConfigGceClusterConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigGceClusterConfigReservationAffinityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterClusterConfigGceClusterConfigReservationAffinityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocClusterClusterConfigGceClusterConfigReservationAffinityOutputReference
 ```
@@ -11750,7 +12062,7 @@ func InternalValue() GoogleDataprocClusterClusterConfigGceClusterConfigReservati
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigGceClusterConfigShieldedInstanceConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterClusterConfigGceClusterConfigShieldedInstanceConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocClusterClusterConfigGceClusterConfigShieldedInstanceConfigOutputReference
 ```
@@ -12086,7 +12398,7 @@ func InternalValue() GoogleDataprocClusterClusterConfigGceClusterConfigShieldedI
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigInitializationActionList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterClusterConfigInitializationActionList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDataprocClusterClusterConfigInitializationActionList
 ```
@@ -12246,7 +12558,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigInitializationActionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterClusterConfigInitializationActionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDataprocClusterClusterConfigInitializationActionOutputReference
 ```
@@ -12564,7 +12876,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigLifecycleConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterClusterConfigLifecycleConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocClusterClusterConfigLifecycleConfigOutputReference
 ```
@@ -12940,7 +13252,7 @@ func InternalValue() GoogleDataprocClusterClusterConfigLifecycleConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigAcceleratorsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterClusterConfigMasterConfigAcceleratorsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDataprocClusterClusterConfigMasterConfigAcceleratorsList
 ```
@@ -13100,7 +13412,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigAcceleratorsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterClusterConfigMasterConfigAcceleratorsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDataprocClusterClusterConfigMasterConfigAcceleratorsOutputReference
 ```
@@ -13411,7 +13723,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigDiskConfigAttachedDiskConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterClusterConfigMasterConfigDiskConfigAttachedDiskConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDataprocClusterClusterConfigMasterConfigDiskConfigAttachedDiskConfigList
 ```
@@ -13571,7 +13883,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigDiskConfigAttachedDiskConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterClusterConfigMasterConfigDiskConfigAttachedDiskConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDataprocClusterClusterConfigMasterConfigDiskConfigAttachedDiskConfigOutputReference
 ```
@@ -13983,7 +14295,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigDiskConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterClusterConfigMasterConfigDiskConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocClusterClusterConfigMasterConfigDiskConfigOutputReference
 ```
@@ -14448,7 +14760,7 @@ func InternalValue() GoogleDataprocClusterClusterConfigMasterConfigDiskConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfigAttachedDiskConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfigAttachedDiskConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfigAttachedDiskConfigList
 ```
@@ -14608,7 +14920,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfigAttachedDiskConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfigAttachedDiskConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfigAttachedDiskConfigOutputReference
 ```
@@ -15020,7 +15332,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfigOutputReference
 ```
@@ -15485,7 +15797,7 @@ func InternalValue() GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructList
 ```
@@ -15645,7 +15957,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference
 ```
@@ -16012,7 +16324,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsList
 ```
@@ -16161,7 +16473,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference
 ```
@@ -16450,7 +16762,7 @@ func InternalValue() GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference
 ```
@@ -16752,7 +17064,7 @@ func InternalValue() GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterClusterConfigMasterConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocClusterClusterConfigMasterConfigOutputReference
 ```
@@ -17249,12 +17561,370 @@ func InternalValue() GoogleDataprocClusterClusterConfigMasterConfig
 ---
 
 
+### GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference <a name="GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
+
+googledataproccluster.NewGoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.resetBootDiskSizeGb">ResetBootDiskSizeGb</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.resetHardwareClass">ResetHardwareClass</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.resetNumInstances">ResetNumInstances</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetBootDiskSizeGb` <a name="ResetBootDiskSizeGb" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.resetBootDiskSizeGb"></a>
+
+```go
+func ResetBootDiskSizeGb()
+```
+
+##### `ResetHardwareClass` <a name="ResetHardwareClass" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.resetHardwareClass"></a>
+
+```go
+func ResetHardwareClass()
+```
+
+##### `ResetNumInstances` <a name="ResetNumInstances" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.resetNumInstances"></a>
+
+```go
+func ResetNumInstances()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.property.bootDiskSizeGbInput">BootDiskSizeGbInput</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.property.coreCountInput">CoreCountInput</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.property.hardwareClassInput">HardwareClassInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.property.numInstancesInput">NumInstancesInput</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.property.bootDiskSizeGb">BootDiskSizeGb</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.property.coreCount">CoreCount</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.property.hardwareClass">HardwareClass</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.property.numInstances">NumInstances</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfig">GoogleDataprocClusterClusterConfigMasterFlexibleConfig</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `BootDiskSizeGbInput`<sup>Optional</sup> <a name="BootDiskSizeGbInput" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.property.bootDiskSizeGbInput"></a>
+
+```go
+func BootDiskSizeGbInput() *f64
+```
+
+- *Type:* *f64
+
+---
+
+##### `CoreCountInput`<sup>Optional</sup> <a name="CoreCountInput" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.property.coreCountInput"></a>
+
+```go
+func CoreCountInput() *f64
+```
+
+- *Type:* *f64
+
+---
+
+##### `HardwareClassInput`<sup>Optional</sup> <a name="HardwareClassInput" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.property.hardwareClassInput"></a>
+
+```go
+func HardwareClassInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `NumInstancesInput`<sup>Optional</sup> <a name="NumInstancesInput" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.property.numInstancesInput"></a>
+
+```go
+func NumInstancesInput() *f64
+```
+
+- *Type:* *f64
+
+---
+
+##### `BootDiskSizeGb`<sup>Required</sup> <a name="BootDiskSizeGb" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.property.bootDiskSizeGb"></a>
+
+```go
+func BootDiskSizeGb() *f64
+```
+
+- *Type:* *f64
+
+---
+
+##### `CoreCount`<sup>Required</sup> <a name="CoreCount" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.property.coreCount"></a>
+
+```go
+func CoreCount() *f64
+```
+
+- *Type:* *f64
+
+---
+
+##### `HardwareClass`<sup>Required</sup> <a name="HardwareClass" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.property.hardwareClass"></a>
+
+```go
+func HardwareClass() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `NumInstances`<sup>Required</sup> <a name="NumInstances" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.property.numInstances"></a>
+
+```go
+func NumInstances() *f64
+```
+
+- *Type:* *f64
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() GoogleDataprocClusterClusterConfigMasterFlexibleConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfig">GoogleDataprocClusterClusterConfigMasterFlexibleConfig</a>
+
+---
+
+
 ### GoogleDataprocClusterClusterConfigMetastoreConfigOutputReference <a name="GoogleDataprocClusterClusterConfigMetastoreConfigOutputReference" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMetastoreConfigOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMetastoreConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterClusterConfigMetastoreConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocClusterClusterConfigMetastoreConfigOutputReference
 ```
@@ -17525,7 +18195,7 @@ func InternalValue() GoogleDataprocClusterClusterConfigMetastoreConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterClusterConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocClusterClusterConfigOutputReference
 ```
@@ -17579,11 +18249,14 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.putInitializationAction">PutInitializationAction</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.putLifecycleConfig">PutLifecycleConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.putMasterConfig">PutMasterConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.putMasterFlexibleConfig">PutMasterFlexibleConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.putMetastoreConfig">PutMetastoreConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.putPreemptibleWorkerConfig">PutPreemptibleWorkerConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.putSecondaryWorkerFlexibleConfig">PutSecondaryWorkerFlexibleConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.putSecurityConfig">PutSecurityConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.putSoftwareConfig">PutSoftwareConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.putWorkerConfig">PutWorkerConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.putWorkerFlexibleConfig">PutWorkerFlexibleConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.resetAutoscalingConfig">ResetAutoscalingConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.resetAuxiliaryNodeGroups">ResetAuxiliaryNodeGroups</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.resetClusterTier">ResetClusterTier</a></code> | *No description.* |
@@ -17596,13 +18269,16 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.resetInitializationAction">ResetInitializationAction</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.resetLifecycleConfig">ResetLifecycleConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.resetMasterConfig">ResetMasterConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.resetMasterFlexibleConfig">ResetMasterFlexibleConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.resetMetastoreConfig">ResetMetastoreConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.resetPreemptibleWorkerConfig">ResetPreemptibleWorkerConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.resetSecondaryWorkerFlexibleConfig">ResetSecondaryWorkerFlexibleConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.resetSecurityConfig">ResetSecurityConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.resetSoftwareConfig">ResetSoftwareConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.resetStagingBucket">ResetStagingBucket</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.resetTempBucket">ResetTempBucket</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.resetWorkerConfig">ResetWorkerConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.resetWorkerFlexibleConfig">ResetWorkerFlexibleConfig</a></code> | *No description.* |
 
 ---
 
@@ -17864,6 +18540,18 @@ func PutMasterConfig(value GoogleDataprocClusterClusterConfigMasterConfig)
 
 ---
 
+##### `PutMasterFlexibleConfig` <a name="PutMasterFlexibleConfig" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.putMasterFlexibleConfig"></a>
+
+```go
+func PutMasterFlexibleConfig(value GoogleDataprocClusterClusterConfigMasterFlexibleConfig)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.putMasterFlexibleConfig.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfig">GoogleDataprocClusterClusterConfigMasterFlexibleConfig</a>
+
+---
+
 ##### `PutMetastoreConfig` <a name="PutMetastoreConfig" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.putMetastoreConfig"></a>
 
 ```go
@@ -17885,6 +18573,18 @@ func PutPreemptibleWorkerConfig(value GoogleDataprocClusterClusterConfigPreempti
 ###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.putPreemptibleWorkerConfig.parameter.value"></a>
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfig">GoogleDataprocClusterClusterConfigPreemptibleWorkerConfig</a>
+
+---
+
+##### `PutSecondaryWorkerFlexibleConfig` <a name="PutSecondaryWorkerFlexibleConfig" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.putSecondaryWorkerFlexibleConfig"></a>
+
+```go
+func PutSecondaryWorkerFlexibleConfig(value GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfig)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.putSecondaryWorkerFlexibleConfig.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfig">GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfig</a>
 
 ---
 
@@ -17921,6 +18621,18 @@ func PutWorkerConfig(value GoogleDataprocClusterClusterConfigWorkerConfig)
 ###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.putWorkerConfig.parameter.value"></a>
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfig">GoogleDataprocClusterClusterConfigWorkerConfig</a>
+
+---
+
+##### `PutWorkerFlexibleConfig` <a name="PutWorkerFlexibleConfig" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.putWorkerFlexibleConfig"></a>
+
+```go
+func PutWorkerFlexibleConfig(value GoogleDataprocClusterClusterConfigWorkerFlexibleConfig)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.putWorkerFlexibleConfig.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfig">GoogleDataprocClusterClusterConfigWorkerFlexibleConfig</a>
 
 ---
 
@@ -17996,6 +18708,12 @@ func ResetLifecycleConfig()
 func ResetMasterConfig()
 ```
 
+##### `ResetMasterFlexibleConfig` <a name="ResetMasterFlexibleConfig" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.resetMasterFlexibleConfig"></a>
+
+```go
+func ResetMasterFlexibleConfig()
+```
+
 ##### `ResetMetastoreConfig` <a name="ResetMetastoreConfig" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.resetMetastoreConfig"></a>
 
 ```go
@@ -18006,6 +18724,12 @@ func ResetMetastoreConfig()
 
 ```go
 func ResetPreemptibleWorkerConfig()
+```
+
+##### `ResetSecondaryWorkerFlexibleConfig` <a name="ResetSecondaryWorkerFlexibleConfig" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.resetSecondaryWorkerFlexibleConfig"></a>
+
+```go
+func ResetSecondaryWorkerFlexibleConfig()
 ```
 
 ##### `ResetSecurityConfig` <a name="ResetSecurityConfig" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.resetSecurityConfig"></a>
@@ -18038,6 +18762,12 @@ func ResetTempBucket()
 func ResetWorkerConfig()
 ```
 
+##### `ResetWorkerFlexibleConfig` <a name="ResetWorkerFlexibleConfig" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.resetWorkerFlexibleConfig"></a>
+
+```go
+func ResetWorkerFlexibleConfig()
+```
+
 
 #### Properties <a name="Properties" id="Properties"></a>
 
@@ -18055,11 +18785,14 @@ func ResetWorkerConfig()
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.property.initializationAction">InitializationAction</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigInitializationActionList">GoogleDataprocClusterClusterConfigInitializationActionList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.property.lifecycleConfig">LifecycleConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigLifecycleConfigOutputReference">GoogleDataprocClusterClusterConfigLifecycleConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.property.masterConfig">MasterConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigOutputReference">GoogleDataprocClusterClusterConfigMasterConfigOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.property.masterFlexibleConfig">MasterFlexibleConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference">GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.property.metastoreConfig">MetastoreConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMetastoreConfigOutputReference">GoogleDataprocClusterClusterConfigMetastoreConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.property.preemptibleWorkerConfig">PreemptibleWorkerConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigOutputReference">GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.property.secondaryWorkerFlexibleConfig">SecondaryWorkerFlexibleConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference">GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.property.securityConfig">SecurityConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecurityConfigOutputReference">GoogleDataprocClusterClusterConfigSecurityConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.property.softwareConfig">SoftwareConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSoftwareConfigOutputReference">GoogleDataprocClusterClusterConfigSoftwareConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.property.workerConfig">WorkerConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigOutputReference">GoogleDataprocClusterClusterConfigWorkerConfigOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.property.workerFlexibleConfig">WorkerFlexibleConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference">GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.property.autoscalingConfigInput">AutoscalingConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigAutoscalingConfig">GoogleDataprocClusterClusterConfigAutoscalingConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.property.auxiliaryNodeGroupsInput">AuxiliaryNodeGroupsInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.property.clusterTierInput">ClusterTierInput</a></code> | <code>*string</code> | *No description.* |
@@ -18072,13 +18805,16 @@ func ResetWorkerConfig()
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.property.initializationActionInput">InitializationActionInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.property.lifecycleConfigInput">LifecycleConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigLifecycleConfig">GoogleDataprocClusterClusterConfigLifecycleConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.property.masterConfigInput">MasterConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfig">GoogleDataprocClusterClusterConfigMasterConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.property.masterFlexibleConfigInput">MasterFlexibleConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfig">GoogleDataprocClusterClusterConfigMasterFlexibleConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.property.metastoreConfigInput">MetastoreConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMetastoreConfig">GoogleDataprocClusterClusterConfigMetastoreConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.property.preemptibleWorkerConfigInput">PreemptibleWorkerConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfig">GoogleDataprocClusterClusterConfigPreemptibleWorkerConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.property.secondaryWorkerFlexibleConfigInput">SecondaryWorkerFlexibleConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfig">GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.property.securityConfigInput">SecurityConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecurityConfig">GoogleDataprocClusterClusterConfigSecurityConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.property.softwareConfigInput">SoftwareConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSoftwareConfig">GoogleDataprocClusterClusterConfigSoftwareConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.property.stagingBucketInput">StagingBucketInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.property.tempBucketInput">TempBucketInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.property.workerConfigInput">WorkerConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfig">GoogleDataprocClusterClusterConfigWorkerConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.property.workerFlexibleConfigInput">WorkerFlexibleConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfig">GoogleDataprocClusterClusterConfigWorkerFlexibleConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.property.clusterTier">ClusterTier</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.property.clusterType">ClusterType</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.property.engine">Engine</a></code> | <code>*string</code> | *No description.* |
@@ -18212,6 +18948,16 @@ func MasterConfig() GoogleDataprocClusterClusterConfigMasterConfigOutputReferenc
 
 ---
 
+##### `MasterFlexibleConfig`<sup>Required</sup> <a name="MasterFlexibleConfig" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.property.masterFlexibleConfig"></a>
+
+```go
+func MasterFlexibleConfig() GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference">GoogleDataprocClusterClusterConfigMasterFlexibleConfigOutputReference</a>
+
+---
+
 ##### `MetastoreConfig`<sup>Required</sup> <a name="MetastoreConfig" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.property.metastoreConfig"></a>
 
 ```go
@@ -18229,6 +18975,16 @@ func PreemptibleWorkerConfig() GoogleDataprocClusterClusterConfigPreemptibleWork
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigOutputReference">GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigOutputReference</a>
+
+---
+
+##### `SecondaryWorkerFlexibleConfig`<sup>Required</sup> <a name="SecondaryWorkerFlexibleConfig" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.property.secondaryWorkerFlexibleConfig"></a>
+
+```go
+func SecondaryWorkerFlexibleConfig() GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference">GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference</a>
 
 ---
 
@@ -18259,6 +19015,16 @@ func WorkerConfig() GoogleDataprocClusterClusterConfigWorkerConfigOutputReferenc
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigOutputReference">GoogleDataprocClusterClusterConfigWorkerConfigOutputReference</a>
+
+---
+
+##### `WorkerFlexibleConfig`<sup>Required</sup> <a name="WorkerFlexibleConfig" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.property.workerFlexibleConfig"></a>
+
+```go
+func WorkerFlexibleConfig() GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference">GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference</a>
 
 ---
 
@@ -18382,6 +19148,16 @@ func MasterConfigInput() GoogleDataprocClusterClusterConfigMasterConfig
 
 ---
 
+##### `MasterFlexibleConfigInput`<sup>Optional</sup> <a name="MasterFlexibleConfigInput" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.property.masterFlexibleConfigInput"></a>
+
+```go
+func MasterFlexibleConfigInput() GoogleDataprocClusterClusterConfigMasterFlexibleConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterFlexibleConfig">GoogleDataprocClusterClusterConfigMasterFlexibleConfig</a>
+
+---
+
 ##### `MetastoreConfigInput`<sup>Optional</sup> <a name="MetastoreConfigInput" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.property.metastoreConfigInput"></a>
 
 ```go
@@ -18399,6 +19175,16 @@ func PreemptibleWorkerConfigInput() GoogleDataprocClusterClusterConfigPreemptibl
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfig">GoogleDataprocClusterClusterConfigPreemptibleWorkerConfig</a>
+
+---
+
+##### `SecondaryWorkerFlexibleConfigInput`<sup>Optional</sup> <a name="SecondaryWorkerFlexibleConfigInput" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.property.secondaryWorkerFlexibleConfigInput"></a>
+
+```go
+func SecondaryWorkerFlexibleConfigInput() GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfig">GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfig</a>
 
 ---
 
@@ -18449,6 +19235,16 @@ func WorkerConfigInput() GoogleDataprocClusterClusterConfigWorkerConfig
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfig">GoogleDataprocClusterClusterConfigWorkerConfig</a>
+
+---
+
+##### `WorkerFlexibleConfigInput`<sup>Optional</sup> <a name="WorkerFlexibleConfigInput" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigOutputReference.property.workerFlexibleConfigInput"></a>
+
+```go
+func WorkerFlexibleConfigInput() GoogleDataprocClusterClusterConfigWorkerFlexibleConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfig">GoogleDataprocClusterClusterConfigWorkerFlexibleConfig</a>
 
 ---
 
@@ -18518,7 +19314,7 @@ func InternalValue() GoogleDataprocClusterClusterConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigAttachedDiskConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigAttachedDiskConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigAttachedDiskConfigList
 ```
@@ -18678,7 +19474,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigAttachedDiskConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigAttachedDiskConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigAttachedDiskConfigOutputReference
 ```
@@ -19090,7 +19886,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigOutputReference
 ```
@@ -19555,7 +20351,7 @@ func InternalValue() GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfigAttachedDiskConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterClusterConfigPreemptibleWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfigAttachedDiskConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfigAttachedDiskConfigList
 ```
@@ -19715,7 +20511,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfigAttachedDiskConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterClusterConfigPreemptibleWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfigAttachedDiskConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfigAttachedDiskConfigOutputReference
 ```
@@ -20127,7 +20923,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterClusterConfigPreemptibleWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfigOutputReference
 ```
@@ -20592,7 +21388,7 @@ func InternalValue() GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigIn
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterClusterConfigPreemptibleWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructList
 ```
@@ -20752,7 +21548,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterClusterConfigPreemptibleWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference
 ```
@@ -21119,7 +21915,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterClusterConfigPreemptibleWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsList
 ```
@@ -21268,7 +22064,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterClusterConfigPreemptibleWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference
 ```
@@ -21557,7 +22353,7 @@ func InternalValue() GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigIn
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigInstanceFlexibilityPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterClusterConfigPreemptibleWorkerConfigInstanceFlexibilityPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigInstanceFlexibilityPolicyOutputReference
 ```
@@ -21901,7 +22697,7 @@ func InternalValue() GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigIn
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigInstanceFlexibilityPolicyProvisioningModelMixOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterClusterConfigPreemptibleWorkerConfigInstanceFlexibilityPolicyProvisioningModelMixOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigInstanceFlexibilityPolicyProvisioningModelMixOutputReference
 ```
@@ -22208,7 +23004,7 @@ func InternalValue() GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigIn
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterClusterConfigPreemptibleWorkerConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigOutputReference
 ```
@@ -22605,12 +23401,370 @@ func InternalValue() GoogleDataprocClusterClusterConfigPreemptibleWorkerConfig
 ---
 
 
+### GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference <a name="GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
+
+googledataproccluster.NewGoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.resetBootDiskSizeGb">ResetBootDiskSizeGb</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.resetHardwareClass">ResetHardwareClass</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.resetNumInstances">ResetNumInstances</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetBootDiskSizeGb` <a name="ResetBootDiskSizeGb" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.resetBootDiskSizeGb"></a>
+
+```go
+func ResetBootDiskSizeGb()
+```
+
+##### `ResetHardwareClass` <a name="ResetHardwareClass" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.resetHardwareClass"></a>
+
+```go
+func ResetHardwareClass()
+```
+
+##### `ResetNumInstances` <a name="ResetNumInstances" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.resetNumInstances"></a>
+
+```go
+func ResetNumInstances()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.property.bootDiskSizeGbInput">BootDiskSizeGbInput</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.property.coreCountInput">CoreCountInput</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.property.hardwareClassInput">HardwareClassInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.property.numInstancesInput">NumInstancesInput</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.property.bootDiskSizeGb">BootDiskSizeGb</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.property.coreCount">CoreCount</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.property.hardwareClass">HardwareClass</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.property.numInstances">NumInstances</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfig">GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfig</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `BootDiskSizeGbInput`<sup>Optional</sup> <a name="BootDiskSizeGbInput" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.property.bootDiskSizeGbInput"></a>
+
+```go
+func BootDiskSizeGbInput() *f64
+```
+
+- *Type:* *f64
+
+---
+
+##### `CoreCountInput`<sup>Optional</sup> <a name="CoreCountInput" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.property.coreCountInput"></a>
+
+```go
+func CoreCountInput() *f64
+```
+
+- *Type:* *f64
+
+---
+
+##### `HardwareClassInput`<sup>Optional</sup> <a name="HardwareClassInput" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.property.hardwareClassInput"></a>
+
+```go
+func HardwareClassInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `NumInstancesInput`<sup>Optional</sup> <a name="NumInstancesInput" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.property.numInstancesInput"></a>
+
+```go
+func NumInstancesInput() *f64
+```
+
+- *Type:* *f64
+
+---
+
+##### `BootDiskSizeGb`<sup>Required</sup> <a name="BootDiskSizeGb" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.property.bootDiskSizeGb"></a>
+
+```go
+func BootDiskSizeGb() *f64
+```
+
+- *Type:* *f64
+
+---
+
+##### `CoreCount`<sup>Required</sup> <a name="CoreCount" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.property.coreCount"></a>
+
+```go
+func CoreCount() *f64
+```
+
+- *Type:* *f64
+
+---
+
+##### `HardwareClass`<sup>Required</sup> <a name="HardwareClass" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.property.hardwareClass"></a>
+
+```go
+func HardwareClass() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `NumInstances`<sup>Required</sup> <a name="NumInstances" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.property.numInstances"></a>
+
+```go
+func NumInstances() *f64
+```
+
+- *Type:* *f64
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfigOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfig">GoogleDataprocClusterClusterConfigSecondaryWorkerFlexibleConfig</a>
+
+---
+
+
 ### GoogleDataprocClusterClusterConfigSecurityConfigIdentityConfigOutputReference <a name="GoogleDataprocClusterClusterConfigSecurityConfigIdentityConfigOutputReference" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecurityConfigIdentityConfigOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecurityConfigIdentityConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterClusterConfigSecurityConfigIdentityConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocClusterClusterConfigSecurityConfigIdentityConfigOutputReference
 ```
@@ -22881,7 +24035,7 @@ func InternalValue() GoogleDataprocClusterClusterConfigSecurityConfigIdentityCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecurityConfigKerberosConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterClusterConfigSecurityConfigKerberosConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocClusterClusterConfigSecurityConfigKerberosConfigOutputReference
 ```
@@ -23551,7 +24705,7 @@ func InternalValue() GoogleDataprocClusterClusterConfigSecurityConfigKerberosCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSecurityConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterClusterConfigSecurityConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocClusterClusterConfigSecurityConfigOutputReference
 ```
@@ -23884,7 +25038,7 @@ func InternalValue() GoogleDataprocClusterClusterConfigSecurityConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigSoftwareConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterClusterConfigSoftwareConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocClusterClusterConfigSoftwareConfigOutputReference
 ```
@@ -24231,7 +25385,7 @@ func InternalValue() GoogleDataprocClusterClusterConfigSoftwareConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigAcceleratorsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterClusterConfigWorkerConfigAcceleratorsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDataprocClusterClusterConfigWorkerConfigAcceleratorsList
 ```
@@ -24391,7 +25545,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigAcceleratorsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterClusterConfigWorkerConfigAcceleratorsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDataprocClusterClusterConfigWorkerConfigAcceleratorsOutputReference
 ```
@@ -24702,7 +25856,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigAttachedDiskConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterClusterConfigWorkerConfigDiskConfigAttachedDiskConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigAttachedDiskConfigList
 ```
@@ -24862,7 +26016,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigAttachedDiskConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterClusterConfigWorkerConfigDiskConfigAttachedDiskConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigAttachedDiskConfigOutputReference
 ```
@@ -25274,7 +26428,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference
 ```
@@ -25739,7 +26893,7 @@ func InternalValue() GoogleDataprocClusterClusterConfigWorkerConfigDiskConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfigAttachedDiskConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfigAttachedDiskConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfigAttachedDiskConfigList
 ```
@@ -25899,7 +27053,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfigAttachedDiskConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfigAttachedDiskConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfigAttachedDiskConfigOutputReference
 ```
@@ -26311,7 +27465,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfigOutputReference
 ```
@@ -26776,7 +27930,7 @@ func InternalValue() GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructList
 ```
@@ -26936,7 +28090,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListStructOutputReference
 ```
@@ -27303,7 +28457,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsList
 ```
@@ -27452,7 +28606,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionResultsOutputReference
 ```
@@ -27741,7 +28895,7 @@ func InternalValue() GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference
 ```
@@ -28043,7 +29197,7 @@ func InternalValue() GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterClusterConfigWorkerConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocClusterClusterConfigWorkerConfigOutputReference
 ```
@@ -28569,12 +29723,363 @@ func InternalValue() GoogleDataprocClusterClusterConfigWorkerConfig
 ---
 
 
+### GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference <a name="GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
+
+googledataproccluster.NewGoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference.resetBootDiskSizeGb">ResetBootDiskSizeGb</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference.resetHardwareClass">ResetHardwareClass</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetBootDiskSizeGb` <a name="ResetBootDiskSizeGb" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference.resetBootDiskSizeGb"></a>
+
+```go
+func ResetBootDiskSizeGb()
+```
+
+##### `ResetHardwareClass` <a name="ResetHardwareClass" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference.resetHardwareClass"></a>
+
+```go
+func ResetHardwareClass()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference.property.bootDiskSizeGbInput">BootDiskSizeGbInput</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference.property.coreCountInput">CoreCountInput</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference.property.hardwareClassInput">HardwareClassInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference.property.numInstancesInput">NumInstancesInput</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference.property.bootDiskSizeGb">BootDiskSizeGb</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference.property.coreCount">CoreCount</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference.property.hardwareClass">HardwareClass</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference.property.numInstances">NumInstances</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfig">GoogleDataprocClusterClusterConfigWorkerFlexibleConfig</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `BootDiskSizeGbInput`<sup>Optional</sup> <a name="BootDiskSizeGbInput" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference.property.bootDiskSizeGbInput"></a>
+
+```go
+func BootDiskSizeGbInput() *f64
+```
+
+- *Type:* *f64
+
+---
+
+##### `CoreCountInput`<sup>Optional</sup> <a name="CoreCountInput" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference.property.coreCountInput"></a>
+
+```go
+func CoreCountInput() *f64
+```
+
+- *Type:* *f64
+
+---
+
+##### `HardwareClassInput`<sup>Optional</sup> <a name="HardwareClassInput" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference.property.hardwareClassInput"></a>
+
+```go
+func HardwareClassInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `NumInstancesInput`<sup>Optional</sup> <a name="NumInstancesInput" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference.property.numInstancesInput"></a>
+
+```go
+func NumInstancesInput() *f64
+```
+
+- *Type:* *f64
+
+---
+
+##### `BootDiskSizeGb`<sup>Required</sup> <a name="BootDiskSizeGb" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference.property.bootDiskSizeGb"></a>
+
+```go
+func BootDiskSizeGb() *f64
+```
+
+- *Type:* *f64
+
+---
+
+##### `CoreCount`<sup>Required</sup> <a name="CoreCount" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference.property.coreCount"></a>
+
+```go
+func CoreCount() *f64
+```
+
+- *Type:* *f64
+
+---
+
+##### `HardwareClass`<sup>Required</sup> <a name="HardwareClass" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference.property.hardwareClass"></a>
+
+```go
+func HardwareClass() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `NumInstances`<sup>Required</sup> <a name="NumInstances" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference.property.numInstances"></a>
+
+```go
+func NumInstances() *f64
+```
+
+- *Type:* *f64
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfigOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() GoogleDataprocClusterClusterConfigWorkerFlexibleConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerFlexibleConfig">GoogleDataprocClusterClusterConfigWorkerFlexibleConfig</a>
+
+---
+
+
 ### GoogleDataprocClusterTimeoutsOutputReference <a name="GoogleDataprocClusterTimeoutsOutputReference" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterTimeoutsOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocClusterTimeoutsOutputReference
 ```
@@ -28910,7 +30415,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterVirtualClusterConfigAuxiliaryServicesConfigMetastoreConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterVirtualClusterConfigAuxiliaryServicesConfigMetastoreConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocClusterVirtualClusterConfigAuxiliaryServicesConfigMetastoreConfigOutputReference
 ```
@@ -29188,7 +30693,7 @@ func InternalValue() GoogleDataprocClusterVirtualClusterConfigAuxiliaryServicesC
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterVirtualClusterConfigAuxiliaryServicesConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterVirtualClusterConfigAuxiliaryServicesConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocClusterVirtualClusterConfigAuxiliaryServicesConfigOutputReference
 ```
@@ -29521,7 +31026,7 @@ func InternalValue() GoogleDataprocClusterVirtualClusterConfigAuxiliaryServicesC
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterVirtualClusterConfigAuxiliaryServicesConfigSparkHistoryServerConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterVirtualClusterConfigAuxiliaryServicesConfigSparkHistoryServerConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocClusterVirtualClusterConfigAuxiliaryServicesConfigSparkHistoryServerConfigOutputReference
 ```
@@ -29799,7 +31304,7 @@ func InternalValue() GoogleDataprocClusterVirtualClusterConfigAuxiliaryServicesC
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterVirtualClusterConfigKubernetesClusterConfigGkeClusterConfigNodePoolTargetList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterVirtualClusterConfigKubernetesClusterConfigGkeClusterConfigNodePoolTargetList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDataprocClusterVirtualClusterConfigKubernetesClusterConfigGkeClusterConfigNodePoolTargetList
 ```
@@ -29959,7 +31464,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterVirtualClusterConfigKubernetesClusterConfigGkeClusterConfigNodePoolTargetNodePoolConfigAutoscalingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterVirtualClusterConfigKubernetesClusterConfigGkeClusterConfigNodePoolTargetNodePoolConfigAutoscalingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocClusterVirtualClusterConfigKubernetesClusterConfigGkeClusterConfigNodePoolTargetNodePoolConfigAutoscalingOutputReference
 ```
@@ -30266,7 +31771,7 @@ func InternalValue() GoogleDataprocClusterVirtualClusterConfigKubernetesClusterC
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterVirtualClusterConfigKubernetesClusterConfigGkeClusterConfigNodePoolTargetNodePoolConfigConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterVirtualClusterConfigKubernetesClusterConfigGkeClusterConfigNodePoolTargetNodePoolConfigConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocClusterVirtualClusterConfigKubernetesClusterConfigGkeClusterConfigNodePoolTargetNodePoolConfigConfigOutputReference
 ```
@@ -30660,7 +32165,7 @@ func InternalValue() GoogleDataprocClusterVirtualClusterConfigKubernetesClusterC
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterVirtualClusterConfigKubernetesClusterConfigGkeClusterConfigNodePoolTargetNodePoolConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterVirtualClusterConfigKubernetesClusterConfigGkeClusterConfigNodePoolTargetNodePoolConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocClusterVirtualClusterConfigKubernetesClusterConfigGkeClusterConfigNodePoolTargetNodePoolConfigOutputReference
 ```
@@ -31015,7 +32520,7 @@ func InternalValue() GoogleDataprocClusterVirtualClusterConfigKubernetesClusterC
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterVirtualClusterConfigKubernetesClusterConfigGkeClusterConfigNodePoolTargetOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterVirtualClusterConfigKubernetesClusterConfigGkeClusterConfigNodePoolTargetOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDataprocClusterVirtualClusterConfigKubernetesClusterConfigGkeClusterConfigNodePoolTargetOutputReference
 ```
@@ -31368,7 +32873,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterVirtualClusterConfigKubernetesClusterConfigGkeClusterConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterVirtualClusterConfigKubernetesClusterConfigGkeClusterConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocClusterVirtualClusterConfigKubernetesClusterConfigGkeClusterConfigOutputReference
 ```
@@ -31688,7 +33193,7 @@ func InternalValue() GoogleDataprocClusterVirtualClusterConfigKubernetesClusterC
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterVirtualClusterConfigKubernetesClusterConfigKubernetesSoftwareConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterVirtualClusterConfigKubernetesClusterConfigKubernetesSoftwareConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocClusterVirtualClusterConfigKubernetesClusterConfigKubernetesSoftwareConfigOutputReference
 ```
@@ -31988,7 +33493,7 @@ func InternalValue() GoogleDataprocClusterVirtualClusterConfigKubernetesClusterC
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterVirtualClusterConfigKubernetesClusterConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterVirtualClusterConfigKubernetesClusterConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocClusterVirtualClusterConfigKubernetesClusterConfigOutputReference
 ```
@@ -32336,7 +33841,7 @@ func InternalValue() GoogleDataprocClusterVirtualClusterConfigKubernetesClusterC
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterVirtualClusterConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataproccluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googledataproccluster"
 
 googledataproccluster.NewGoogleDataprocClusterVirtualClusterConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataprocClusterVirtualClusterConfigOutputReference
 ```

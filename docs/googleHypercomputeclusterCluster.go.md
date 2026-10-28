@@ -4,12 +4,12 @@
 
 ### GoogleHypercomputeclusterCluster <a name="GoogleHypercomputeclusterCluster" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterCluster"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster google_hypercomputecluster_cluster}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster google_hypercomputecluster_cluster}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterCluster.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterCluster(scope Construct, id *string, config GoogleHypercomputeclusterClusterConfig) GoogleHypercomputeclusterCluster
 ```
@@ -528,7 +528,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterCluster.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.GoogleHypercomputeclusterCluster_IsConstruct(x interface{}) *bool
 ```
@@ -560,7 +560,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterCluster.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.GoogleHypercomputeclusterCluster_IsTerraformElement(x interface{}) *bool
 ```
@@ -574,7 +574,7 @@ googlehypercomputeclustercluster.GoogleHypercomputeclusterCluster_IsTerraformEle
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterCluster.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.GoogleHypercomputeclusterCluster_IsTerraformResource(x interface{}) *bool
 ```
@@ -588,7 +588,7 @@ googlehypercomputeclustercluster.GoogleHypercomputeclusterCluster_IsTerraformRes
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterCluster.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.GoogleHypercomputeclusterCluster_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -617,7 +617,7 @@ The construct id used in the generated config for the GoogleHypercomputeclusterC
 
 The id of the existing GoogleHypercomputeclusterCluster that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1147,10 +1147,10 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResources.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterComputeResources {
-	Config: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfig,
+	Config: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfig,
 	Id: *string,
 }
 ```
@@ -1160,7 +1160,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehy
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResources.property.config">Config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfig">GoogleHypercomputeclusterClusterComputeResourcesConfig</a></code> | config block. |
-| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResources.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#id GoogleHypercomputeclusterCluster#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResources.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#id GoogleHypercomputeclusterCluster#id}. |
 
 ---
 
@@ -1174,7 +1174,7 @@ Config GoogleHypercomputeclusterClusterComputeResourcesConfig
 
 config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#config GoogleHypercomputeclusterCluster#config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#config GoogleHypercomputeclusterCluster#config}
 
 ---
 
@@ -1186,7 +1186,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#id GoogleHypercomputeclusterCluster#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#id GoogleHypercomputeclusterCluster#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1198,13 +1198,13 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterComputeResourcesConfig {
-	NewFlexStartInstances: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstances,
-	NewOnDemandInstances: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstances,
-	NewReservedInstances: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewReservedInstances,
-	NewSpotInstances: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstances,
+	NewFlexStartInstances: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstances,
+	NewOnDemandInstances: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstances,
+	NewReservedInstances: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewReservedInstances,
+	NewSpotInstances: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstances,
 }
 ```
 
@@ -1229,7 +1229,7 @@ NewFlexStartInstances GoogleHypercomputeclusterClusterComputeResourcesConfigNewF
 
 new_flex_start_instances block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#new_flex_start_instances GoogleHypercomputeclusterCluster#new_flex_start_instances}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#new_flex_start_instances GoogleHypercomputeclusterCluster#new_flex_start_instances}
 
 ---
 
@@ -1243,7 +1243,7 @@ NewOnDemandInstances GoogleHypercomputeclusterClusterComputeResourcesConfigNewOn
 
 new_on_demand_instances block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#new_on_demand_instances GoogleHypercomputeclusterCluster#new_on_demand_instances}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#new_on_demand_instances GoogleHypercomputeclusterCluster#new_on_demand_instances}
 
 ---
 
@@ -1257,7 +1257,7 @@ NewReservedInstances GoogleHypercomputeclusterClusterComputeResourcesConfigNewRe
 
 new_reserved_instances block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#new_reserved_instances GoogleHypercomputeclusterCluster#new_reserved_instances}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#new_reserved_instances GoogleHypercomputeclusterCluster#new_reserved_instances}
 
 ---
 
@@ -1271,7 +1271,7 @@ NewSpotInstances GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotIn
 
 new_spot_instances block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#new_spot_instances GoogleHypercomputeclusterCluster#new_spot_instances}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#new_spot_instances GoogleHypercomputeclusterCluster#new_spot_instances}
 
 ---
 
@@ -1280,12 +1280,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstances.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstances {
 	MachineType: *string,
 	MaxDuration: *string,
 	Zone: *string,
+	NetworkTags: *[]*string,
 }
 ```
 
@@ -1296,6 +1297,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehy
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstances.property.machineType">MachineType</a></code> | <code>*string</code> | Name of the Compute Engine [machine type](https://cloud.google.com/compute/docs/machine-resource) to use, e.g. 'n2-standard-2'. |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstances.property.maxDuration">MaxDuration</a></code> | <code>*string</code> | Specifies the time limit for created instances. Instances will be terminated at the end of this duration. |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstances.property.zone">Zone</a></code> | <code>*string</code> | Name of the zone in which VM instances should run, e.g., 'us-central1-a'. Must be in the same region as the cluster, and must match the zone of any other resources specified in the cluster. |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstances.property.networkTags">NetworkTags</a></code> | <code>*[]*string</code> | A list of network tags to attach to the VM instances. A maximum of 64 network tags are allowed. |
 
 ---
 
@@ -1309,7 +1311,7 @@ MachineType *string
 
 Name of the Compute Engine [machine type](https://cloud.google.com/compute/docs/machine-resource) to use, e.g. 'n2-standard-2'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#machine_type GoogleHypercomputeclusterCluster#machine_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#machine_type GoogleHypercomputeclusterCluster#machine_type}
 
 ---
 
@@ -1323,7 +1325,7 @@ MaxDuration *string
 
 Specifies the time limit for created instances. Instances will be terminated at the end of this duration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#max_duration GoogleHypercomputeclusterCluster#max_duration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#max_duration GoogleHypercomputeclusterCluster#max_duration}
 
 ---
 
@@ -1337,7 +1339,21 @@ Zone *string
 
 Name of the zone in which VM instances should run, e.g., 'us-central1-a'. Must be in the same region as the cluster, and must match the zone of any other resources specified in the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#zone GoogleHypercomputeclusterCluster#zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#zone GoogleHypercomputeclusterCluster#zone}
+
+---
+
+##### `NetworkTags`<sup>Optional</sup> <a name="NetworkTags" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstances.property.networkTags"></a>
+
+```go
+NetworkTags *[]*string
+```
+
+- *Type:* *[]*string
+
+A list of network tags to attach to the VM instances. A maximum of 64 network tags are allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#network_tags GoogleHypercomputeclusterCluster#network_tags}
 
 ---
 
@@ -1346,11 +1362,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstances.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstances {
 	MachineType: *string,
 	Zone: *string,
+	NetworkTags: *[]*string,
 }
 ```
 
@@ -1360,6 +1377,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehy
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstances.property.machineType">MachineType</a></code> | <code>*string</code> | Name of the Compute Engine [machine type](https://cloud.google.com/compute/docs/machine-resource) to use, e.g. 'n2-standard-2'. |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstances.property.zone">Zone</a></code> | <code>*string</code> | Name of the zone in which VM instances should run, e.g., 'us-central1-a'. Must be in the same region as the cluster, and must match the zone of any other resources specified in the cluster. |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstances.property.networkTags">NetworkTags</a></code> | <code>*[]*string</code> | A list of network tags to attach to the VM instances. A maximum of 64 network tags are allowed. |
 
 ---
 
@@ -1373,7 +1391,7 @@ MachineType *string
 
 Name of the Compute Engine [machine type](https://cloud.google.com/compute/docs/machine-resource) to use, e.g. 'n2-standard-2'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#machine_type GoogleHypercomputeclusterCluster#machine_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#machine_type GoogleHypercomputeclusterCluster#machine_type}
 
 ---
 
@@ -1387,7 +1405,21 @@ Zone *string
 
 Name of the zone in which VM instances should run, e.g., 'us-central1-a'. Must be in the same region as the cluster, and must match the zone of any other resources specified in the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#zone GoogleHypercomputeclusterCluster#zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#zone GoogleHypercomputeclusterCluster#zone}
+
+---
+
+##### `NetworkTags`<sup>Optional</sup> <a name="NetworkTags" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstances.property.networkTags"></a>
+
+```go
+NetworkTags *[]*string
+```
+
+- *Type:* *[]*string
+
+A list of network tags to attach to the VM instances. A maximum of 64 network tags are allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#network_tags GoogleHypercomputeclusterCluster#network_tags}
 
 ---
 
@@ -1396,9 +1428,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewReservedInstances.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewReservedInstances {
+	NetworkTags: *[]*string,
 	Reservation: *string,
 }
 ```
@@ -1407,7 +1440,22 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehy
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewReservedInstances.property.networkTags">NetworkTags</a></code> | <code>*[]*string</code> | A list of network tags to attach to the VM instances. A maximum of 64 network tags are allowed. |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewReservedInstances.property.reservation">Reservation</a></code> | <code>*string</code> | Name of the reservation from which VM instances should be created, in the format 'projects/{project}/zones/{zone}/reservations/{reservation}'. |
+
+---
+
+##### `NetworkTags`<sup>Optional</sup> <a name="NetworkTags" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewReservedInstances.property.networkTags"></a>
+
+```go
+NetworkTags *[]*string
+```
+
+- *Type:* *[]*string
+
+A list of network tags to attach to the VM instances. A maximum of 64 network tags are allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#network_tags GoogleHypercomputeclusterCluster#network_tags}
 
 ---
 
@@ -1421,7 +1469,7 @@ Reservation *string
 
 Name of the reservation from which VM instances should be created, in the format 'projects/{project}/zones/{zone}/reservations/{reservation}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#reservation GoogleHypercomputeclusterCluster#reservation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#reservation GoogleHypercomputeclusterCluster#reservation}
 
 ---
 
@@ -1430,11 +1478,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstances.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstances {
 	MachineType: *string,
 	Zone: *string,
+	NetworkTags: *[]*string,
 	TerminationAction: *string,
 }
 ```
@@ -1445,6 +1494,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehy
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstances.property.machineType">MachineType</a></code> | <code>*string</code> | Name of the Compute Engine [machine type](https://cloud.google.com/compute/docs/machine-resource) to use, e.g. 'n2-standard-2'. |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstances.property.zone">Zone</a></code> | <code>*string</code> | Name of the zone in which VM instances should run, e.g., 'us-central1-a'. Must be in the same region as the cluster, and must match the zone of any other resources specified in the cluster. |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstances.property.networkTags">NetworkTags</a></code> | <code>*[]*string</code> | A list of network tags to attach to the VM instances. A maximum of 64 network tags are allowed. |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstances.property.terminationAction">TerminationAction</a></code> | <code>*string</code> | Specifies the termination action of the instance Possible values: STOP DELETE. |
 
 ---
@@ -1459,7 +1509,7 @@ MachineType *string
 
 Name of the Compute Engine [machine type](https://cloud.google.com/compute/docs/machine-resource) to use, e.g. 'n2-standard-2'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#machine_type GoogleHypercomputeclusterCluster#machine_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#machine_type GoogleHypercomputeclusterCluster#machine_type}
 
 ---
 
@@ -1473,7 +1523,21 @@ Zone *string
 
 Name of the zone in which VM instances should run, e.g., 'us-central1-a'. Must be in the same region as the cluster, and must match the zone of any other resources specified in the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#zone GoogleHypercomputeclusterCluster#zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#zone GoogleHypercomputeclusterCluster#zone}
+
+---
+
+##### `NetworkTags`<sup>Optional</sup> <a name="NetworkTags" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstances.property.networkTags"></a>
+
+```go
+NetworkTags *[]*string
+```
+
+- *Type:* *[]*string
+
+A list of network tags to attach to the VM instances. A maximum of 64 network tags are allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#network_tags GoogleHypercomputeclusterCluster#network_tags}
 
 ---
 
@@ -1487,7 +1551,7 @@ TerminationAction *string
 
 Specifies the termination action of the instance Possible values: STOP DELETE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#termination_action GoogleHypercomputeclusterCluster#termination_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#termination_action GoogleHypercomputeclusterCluster#termination_action}
 
 ---
 
@@ -1496,7 +1560,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterConfig {
 	Connection: interface{},
@@ -1514,10 +1578,10 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehy
 	Description: *string,
 	Id: *string,
 	Labels: *map[string]*string,
-	Orchestrator: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestrator,
+	Orchestrator: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestrator,
 	Project: *string,
 	StorageResources: interface{},
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterTimeouts,
 }
 ```
 
@@ -1538,10 +1602,10 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehy
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterConfig.property.computeResources">ComputeResources</a></code> | <code>interface{}</code> | compute_resources block. |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterConfig.property.description">Description</a></code> | <code>*string</code> | User-provided description of the cluster. |
-| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#id GoogleHypercomputeclusterCluster#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#id GoogleHypercomputeclusterCluster#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterConfig.property.labels">Labels</a></code> | <code>*map[string]*string</code> | [Labels](https://cloud.google.com/compute/docs/labeling-resources) applied to the cluster. Labels can be used to organize clusters and to filter them in queries. |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterConfig.property.orchestrator">Orchestrator</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestrator">GoogleHypercomputeclusterClusterOrchestrator</a></code> | orchestrator block. |
-| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#project GoogleHypercomputeclusterCluster#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#project GoogleHypercomputeclusterCluster#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterConfig.property.storageResources">StorageResources</a></code> | <code>interface{}</code> | storage_resources block. |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterTimeouts">GoogleHypercomputeclusterClusterTimeouts</a></code> | timeouts block. |
 
@@ -1630,7 +1694,7 @@ ID of the cluster to create.
 Must start with a lowercase letter,
 use only lowercase letters and numbers, and be at most 10 characters long.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#cluster_id GoogleHypercomputeclusterCluster#cluster_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#cluster_id GoogleHypercomputeclusterCluster#cluster_id}
 
 ---
 
@@ -1644,7 +1708,7 @@ Location *string
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#location GoogleHypercomputeclusterCluster#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#location GoogleHypercomputeclusterCluster#location}
 
 ---
 
@@ -1658,7 +1722,7 @@ NetworkResources interface{}
 
 network_resources block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#network_resources GoogleHypercomputeclusterCluster#network_resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#network_resources GoogleHypercomputeclusterCluster#network_resources}
 
 ---
 
@@ -1672,7 +1736,7 @@ ComputeResources interface{}
 
 compute_resources block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#compute_resources GoogleHypercomputeclusterCluster#compute_resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#compute_resources GoogleHypercomputeclusterCluster#compute_resources}
 
 ---
 
@@ -1693,7 +1757,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#deletion_policy GoogleHypercomputeclusterCluster#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#deletion_policy GoogleHypercomputeclusterCluster#deletion_policy}
 
 ---
 
@@ -1707,7 +1771,7 @@ Description *string
 
 User-provided description of the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#description GoogleHypercomputeclusterCluster#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#description GoogleHypercomputeclusterCluster#description}
 
 ---
 
@@ -1719,7 +1783,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#id GoogleHypercomputeclusterCluster#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#id GoogleHypercomputeclusterCluster#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1739,7 +1803,7 @@ Labels *map[string]*string
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#labels GoogleHypercomputeclusterCluster#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#labels GoogleHypercomputeclusterCluster#labels}
 
 ---
 
@@ -1753,7 +1817,7 @@ Orchestrator GoogleHypercomputeclusterClusterOrchestrator
 
 orchestrator block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#orchestrator GoogleHypercomputeclusterCluster#orchestrator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#orchestrator GoogleHypercomputeclusterCluster#orchestrator}
 
 ---
 
@@ -1765,7 +1829,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#project GoogleHypercomputeclusterCluster#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#project GoogleHypercomputeclusterCluster#project}.
 
 ---
 
@@ -1779,7 +1843,7 @@ StorageResources interface{}
 
 storage_resources block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#storage_resources GoogleHypercomputeclusterCluster#storage_resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#storage_resources GoogleHypercomputeclusterCluster#storage_resources}
 
 ---
 
@@ -1793,7 +1857,7 @@ Timeouts GoogleHypercomputeclusterClusterTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#timeouts GoogleHypercomputeclusterCluster#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#timeouts GoogleHypercomputeclusterCluster#timeouts}
 
 ---
 
@@ -1802,11 +1866,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterNetworkResources.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterNetworkResources {
 	Id: *string,
-	Config: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterNetworkResourcesConfig,
+	Config: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterNetworkResourcesConfig,
 }
 ```
 
@@ -1814,7 +1878,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehy
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterNetworkResources.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#id GoogleHypercomputeclusterCluster#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterNetworkResources.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#id GoogleHypercomputeclusterCluster#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterNetworkResources.property.config">Config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterNetworkResourcesConfig">GoogleHypercomputeclusterClusterNetworkResourcesConfig</a></code> | config block. |
 
 ---
@@ -1827,7 +1891,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#id GoogleHypercomputeclusterCluster#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#id GoogleHypercomputeclusterCluster#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1844,7 +1908,7 @@ Config GoogleHypercomputeclusterClusterNetworkResourcesConfig
 
 config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#config GoogleHypercomputeclusterCluster#config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#config GoogleHypercomputeclusterCluster#config}
 
 ---
 
@@ -1853,11 +1917,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterNetworkResourcesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterNetworkResourcesConfig {
-	ExistingNetwork: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterNetworkResourcesConfigExistingNetwork,
-	NewNetwork: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterNetworkResourcesConfigNewNetwork,
+	ExistingNetwork: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterNetworkResourcesConfigExistingNetwork,
+	NewNetwork: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterNetworkResourcesConfigNewNetwork,
 }
 ```
 
@@ -1880,7 +1944,7 @@ ExistingNetwork GoogleHypercomputeclusterClusterNetworkResourcesConfigExistingNe
 
 existing_network block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#existing_network GoogleHypercomputeclusterCluster#existing_network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#existing_network GoogleHypercomputeclusterCluster#existing_network}
 
 ---
 
@@ -1894,7 +1958,7 @@ NewNetwork GoogleHypercomputeclusterClusterNetworkResourcesConfigNewNetwork
 
 new_network block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#new_network GoogleHypercomputeclusterCluster#new_network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#new_network GoogleHypercomputeclusterCluster#new_network}
 
 ---
 
@@ -1903,7 +1967,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterNetworkResourcesConfigExistingNetwork.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterNetworkResourcesConfigExistingNetwork {
 	Network: *string,
@@ -1930,7 +1994,7 @@ Network *string
 
 Name of the network to import, in the format 'projects/{project}/global/networks/{network}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#network GoogleHypercomputeclusterCluster#network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#network GoogleHypercomputeclusterCluster#network}
 
 ---
 
@@ -1944,7 +2008,7 @@ Subnetwork *string
 
 Particular subnetwork to use, in the format 'projects/{project}/regions/{region}/subnetworks/{subnetwork}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#subnetwork GoogleHypercomputeclusterCluster#subnetwork}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#subnetwork GoogleHypercomputeclusterCluster#subnetwork}
 
 ---
 
@@ -1953,7 +2017,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterNetworkResourcesConfigNewNetwork.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterNetworkResourcesConfigNewNetwork {
 	Network: *string,
@@ -1980,7 +2044,7 @@ Network *string
 
 Name of the network to create, in the format 'projects/{project}/global/networks/{network}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#network GoogleHypercomputeclusterCluster#network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#network GoogleHypercomputeclusterCluster#network}
 
 ---
 
@@ -1994,7 +2058,7 @@ Description *string
 
 Description of the network. Maximum of 2048 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#description GoogleHypercomputeclusterCluster#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#description GoogleHypercomputeclusterCluster#description}
 
 ---
 
@@ -2003,7 +2067,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterNetworkResourcesNetwork.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterNetworkResourcesNetwork {
 
@@ -2016,10 +2080,10 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehy
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestrator.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterOrchestrator {
-	Slurm: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurm,
+	Slurm: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurm,
 }
 ```
 
@@ -2041,7 +2105,7 @@ Slurm GoogleHypercomputeclusterClusterOrchestratorSlurm
 
 slurm block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#slurm GoogleHypercomputeclusterCluster#slurm}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#slurm GoogleHypercomputeclusterCluster#slurm}
 
 ---
 
@@ -2050,10 +2114,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurm.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterOrchestratorSlurm {
-	LoginNodes: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodes,
+	LoginNodes: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodes,
 	NodeSets: interface{},
 	Partitions: interface{},
 	DefaultPartition: *string,
@@ -2085,7 +2149,7 @@ LoginNodes GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodes
 
 login_nodes block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#login_nodes GoogleHypercomputeclusterCluster#login_nodes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#login_nodes GoogleHypercomputeclusterCluster#login_nodes}
 
 ---
 
@@ -2099,7 +2163,7 @@ NodeSets interface{}
 
 node_sets block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#node_sets GoogleHypercomputeclusterCluster#node_sets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#node_sets GoogleHypercomputeclusterCluster#node_sets}
 
 ---
 
@@ -2113,7 +2177,7 @@ Partitions interface{}
 
 partitions block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#partitions GoogleHypercomputeclusterCluster#partitions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#partitions GoogleHypercomputeclusterCluster#partitions}
 
 ---
 
@@ -2130,7 +2194,7 @@ Default partition to use for submitted jobs that do not explicitly specify a par
 Required if and only if there is more than one partition, in
 which case it must match the id of one of the partitions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#default_partition GoogleHypercomputeclusterCluster#default_partition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#default_partition GoogleHypercomputeclusterCluster#default_partition}
 
 ---
 
@@ -2144,7 +2208,7 @@ EpilogBashScripts *[]*string
 
 Slurm [epilog scripts](https://slurm.schedmd.com/prolog_epilog.html), which will be executed by compute nodes whenever a node finishes running a job. Values must not be empty.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#epilog_bash_scripts GoogleHypercomputeclusterCluster#epilog_bash_scripts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#epilog_bash_scripts GoogleHypercomputeclusterCluster#epilog_bash_scripts}
 
 ---
 
@@ -2158,7 +2222,7 @@ PrologBashScripts *[]*string
 
 Slurm [prolog scripts](https://slurm.schedmd.com/prolog_epilog.html), which will be executed by compute nodes before a node begins running a new job. Values must not be empty.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#prolog_bash_scripts GoogleHypercomputeclusterCluster#prolog_bash_scripts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#prolog_bash_scripts GoogleHypercomputeclusterCluster#prolog_bash_scripts}
 
 ---
 
@@ -2167,16 +2231,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodes {
 	Count: *string,
 	MachineType: *string,
 	Zone: *string,
-	BootDisk: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesBootDisk,
+	BootDisk: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesBootDisk,
 	EnableOsLogin: interface{},
 	EnablePublicIps: interface{},
 	Labels: *map[string]*string,
+	NetworkTags: *[]*string,
 	StartupScript: *string,
 	StorageConfigs: interface{},
 }
@@ -2193,6 +2258,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehy
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodes.property.enableOsLogin">EnableOsLogin</a></code> | <code>interface{}</code> | Whether [OS Login](https://cloud.google.com/compute/docs/oslogin) should be enabled on login node instances. |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodes.property.enablePublicIps">EnablePublicIps</a></code> | <code>interface{}</code> | Whether login node instances should be assigned [external IP addresses](https://cloud.google.com/compute/docs/ip-addresses#externaladdresses). |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodes.property.labels">Labels</a></code> | <code>*map[string]*string</code> | [Labels](https://cloud.google.com/compute/docs/labeling-resources) that should be applied to each login node instance. |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodes.property.networkTags">NetworkTags</a></code> | <code>*[]*string</code> | A list of network tags to attach to the VM instances. A maximum of 64 network tags are allowed. |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodes.property.startupScript">StartupScript</a></code> | <code>*string</code> | [Startup script](https://cloud.google.com/compute/docs/instances/startup-scripts/linux) to be run on each login node instance. Max 256KB. The script must complete within the system-defined default timeout of 5 minutes. For tasks that require more time, consider running them in the background using methods such as '&' or 'nohup'. |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodes.property.storageConfigs">StorageConfigs</a></code> | <code>interface{}</code> | storage_configs block. |
 
@@ -2208,7 +2274,7 @@ Count *string
 
 Number of login node instances to create.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#count GoogleHypercomputeclusterCluster#count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#count GoogleHypercomputeclusterCluster#count}
 
 ---
 
@@ -2222,7 +2288,7 @@ MachineType *string
 
 Name of the Compute Engine [machine type](https://cloud.google.com/compute/docs/machine-resource) to use for login nodes, e.g. 'n2-standard-2'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#machine_type GoogleHypercomputeclusterCluster#machine_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#machine_type GoogleHypercomputeclusterCluster#machine_type}
 
 ---
 
@@ -2236,7 +2302,7 @@ Zone *string
 
 Name of the zone in which login nodes should run, e.g., 'us-central1-a'. Must be in the same region as the cluster, and must match the zone of any other resources specified in the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#zone GoogleHypercomputeclusterCluster#zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#zone GoogleHypercomputeclusterCluster#zone}
 
 ---
 
@@ -2250,7 +2316,7 @@ BootDisk GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesBootDisk
 
 boot_disk block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#boot_disk GoogleHypercomputeclusterCluster#boot_disk}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#boot_disk GoogleHypercomputeclusterCluster#boot_disk}
 
 ---
 
@@ -2264,7 +2330,7 @@ EnableOsLogin interface{}
 
 Whether [OS Login](https://cloud.google.com/compute/docs/oslogin) should be enabled on login node instances.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#enable_os_login GoogleHypercomputeclusterCluster#enable_os_login}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#enable_os_login GoogleHypercomputeclusterCluster#enable_os_login}
 
 ---
 
@@ -2278,7 +2344,7 @@ EnablePublicIps interface{}
 
 Whether login node instances should be assigned [external IP addresses](https://cloud.google.com/compute/docs/ip-addresses#externaladdresses).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#enable_public_ips GoogleHypercomputeclusterCluster#enable_public_ips}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#enable_public_ips GoogleHypercomputeclusterCluster#enable_public_ips}
 
 ---
 
@@ -2292,7 +2358,21 @@ Labels *map[string]*string
 
 [Labels](https://cloud.google.com/compute/docs/labeling-resources) that should be applied to each login node instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#labels GoogleHypercomputeclusterCluster#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#labels GoogleHypercomputeclusterCluster#labels}
+
+---
+
+##### `NetworkTags`<sup>Optional</sup> <a name="NetworkTags" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodes.property.networkTags"></a>
+
+```go
+NetworkTags *[]*string
+```
+
+- *Type:* *[]*string
+
+A list of network tags to attach to the VM instances. A maximum of 64 network tags are allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#network_tags GoogleHypercomputeclusterCluster#network_tags}
 
 ---
 
@@ -2306,7 +2386,7 @@ StartupScript *string
 
 [Startup script](https://cloud.google.com/compute/docs/instances/startup-scripts/linux) to be run on each login node instance. Max 256KB. The script must complete within the system-defined default timeout of 5 minutes. For tasks that require more time, consider running them in the background using methods such as '&' or 'nohup'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#startup_script GoogleHypercomputeclusterCluster#startup_script}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#startup_script GoogleHypercomputeclusterCluster#startup_script}
 
 ---
 
@@ -2320,7 +2400,7 @@ StorageConfigs interface{}
 
 storage_configs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#storage_configs GoogleHypercomputeclusterCluster#storage_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#storage_configs GoogleHypercomputeclusterCluster#storage_configs}
 
 ---
 
@@ -2329,7 +2409,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesBootDisk.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesBootDisk {
 	SizeGb: *string,
@@ -2356,7 +2436,7 @@ SizeGb *string
 
 Size of the disk in gigabytes. Must be at least 10GB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#size_gb GoogleHypercomputeclusterCluster#size_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#size_gb GoogleHypercomputeclusterCluster#size_gb}
 
 ---
 
@@ -2370,7 +2450,7 @@ Type *string
 
 [Persistent disk type](https://cloud.google.com/compute/docs/disks#disk-types), in the format 'projects/{project}/zones/{zone}/diskTypes/{disk_type}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#type GoogleHypercomputeclusterCluster#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#type GoogleHypercomputeclusterCluster#type}
 
 ---
 
@@ -2379,7 +2459,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesInstances.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesInstances {
 
@@ -2392,7 +2472,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehy
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesStorageConfigs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesStorageConfigs {
 	Id: *string,
@@ -2419,7 +2499,7 @@ Id *string
 
 ID of the storage resource to mount, which must match a key in the cluster's [storage_resources](Cluster.storage_resources).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#id GoogleHypercomputeclusterCluster#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#id GoogleHypercomputeclusterCluster#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2436,7 +2516,7 @@ LocalMount *string
 
 A directory inside the VM instance's file system where the storage resource should be mounted (e.g., '/mnt/share').
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#local_mount GoogleHypercomputeclusterCluster#local_mount}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#local_mount GoogleHypercomputeclusterCluster#local_mount}
 
 ---
 
@@ -2445,12 +2525,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmNodeSets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterOrchestratorSlurmNodeSets {
 	Id: *string,
 	ComputeId: *string,
-	ComputeInstance: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsComputeInstance,
+	ComputeInstance: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsComputeInstance,
 	MaxDynamicNodeCount: *string,
 	StaticNodeCount: *string,
 	StorageConfigs: interface{},
@@ -2484,7 +2564,7 @@ Must conform to
 [RFC-1034](https://datatracker.ietf.org/doc/html/rfc1034) (lower-case,
 alphanumeric, and at most 63 characters).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#id GoogleHypercomputeclusterCluster#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#id GoogleHypercomputeclusterCluster#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2501,7 +2581,7 @@ ComputeId *string
 
 ID of the compute resource on which this nodeset will run. Must match a key in the cluster's [compute_resources](Cluster.compute_resources).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#compute_id GoogleHypercomputeclusterCluster#compute_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#compute_id GoogleHypercomputeclusterCluster#compute_id}
 
 ---
 
@@ -2515,7 +2595,7 @@ ComputeInstance GoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsCompute
 
 compute_instance block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#compute_instance GoogleHypercomputeclusterCluster#compute_instance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#compute_instance GoogleHypercomputeclusterCluster#compute_instance}
 
 ---
 
@@ -2534,7 +2614,7 @@ number of additional nodes the cluster can bring online. Leave empty if you
 do not want the cluster to create nodes dynamically, and instead rely only
 on static nodes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#max_dynamic_node_count GoogleHypercomputeclusterCluster#max_dynamic_node_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#max_dynamic_node_count GoogleHypercomputeclusterCluster#max_dynamic_node_count}
 
 ---
 
@@ -2551,7 +2631,7 @@ Number of nodes to be statically created for this nodeset.
 The cluster will
 attempt to ensure that at least this many nodes exist at all times.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#static_node_count GoogleHypercomputeclusterCluster#static_node_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#static_node_count GoogleHypercomputeclusterCluster#static_node_count}
 
 ---
 
@@ -2565,7 +2645,7 @@ StorageConfigs interface{}
 
 storage_configs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#storage_configs GoogleHypercomputeclusterCluster#storage_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#storage_configs GoogleHypercomputeclusterCluster#storage_configs}
 
 ---
 
@@ -2574,10 +2654,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsComputeInstance.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsComputeInstance {
-	BootDisk: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsComputeInstanceBootDisk,
+	BootDisk: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsComputeInstanceBootDisk,
 	Labels: *map[string]*string,
 	StartupScript: *string,
 }
@@ -2603,7 +2683,7 @@ BootDisk GoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsComputeInstanc
 
 boot_disk block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#boot_disk GoogleHypercomputeclusterCluster#boot_disk}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#boot_disk GoogleHypercomputeclusterCluster#boot_disk}
 
 ---
 
@@ -2617,7 +2697,7 @@ Labels *map[string]*string
 
 [Labels](https://cloud.google.com/compute/docs/labeling-resources) that should be applied to each VM instance in the nodeset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#labels GoogleHypercomputeclusterCluster#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#labels GoogleHypercomputeclusterCluster#labels}
 
 ---
 
@@ -2631,7 +2711,7 @@ StartupScript *string
 
 [Startup script](https://cloud.google.com/compute/docs/instances/startup-scripts/linux) to be run on each VM instance in the nodeset. Max 256KB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#startup_script GoogleHypercomputeclusterCluster#startup_script}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#startup_script GoogleHypercomputeclusterCluster#startup_script}
 
 ---
 
@@ -2640,7 +2720,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsComputeInstanceBootDisk.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsComputeInstanceBootDisk {
 	SizeGb: *string,
@@ -2667,7 +2747,7 @@ SizeGb *string
 
 Size of the disk in gigabytes. Must be at least 10GB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#size_gb GoogleHypercomputeclusterCluster#size_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#size_gb GoogleHypercomputeclusterCluster#size_gb}
 
 ---
 
@@ -2681,7 +2761,7 @@ Type *string
 
 [Persistent disk type](https://cloud.google.com/compute/docs/disks#disk-types), in the format 'projects/{project}/zones/{zone}/diskTypes/{disk_type}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#type GoogleHypercomputeclusterCluster#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#type GoogleHypercomputeclusterCluster#type}
 
 ---
 
@@ -2690,7 +2770,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsStorageConfigs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsStorageConfigs {
 	Id: *string,
@@ -2717,7 +2797,7 @@ Id *string
 
 ID of the storage resource to mount, which must match a key in the cluster's [storage_resources](Cluster.storage_resources).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#id GoogleHypercomputeclusterCluster#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#id GoogleHypercomputeclusterCluster#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2734,7 +2814,7 @@ LocalMount *string
 
 A directory inside the VM instance's file system where the storage resource should be mounted (e.g., '/mnt/share').
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#local_mount GoogleHypercomputeclusterCluster#local_mount}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#local_mount GoogleHypercomputeclusterCluster#local_mount}
 
 ---
 
@@ -2743,7 +2823,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmPartitions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterOrchestratorSlurmPartitions {
 	Id: *string,
@@ -2774,7 +2854,7 @@ Must conform to
 [RFC-1034](https://datatracker.ietf.org/doc/html/rfc1034) (lower-case,
 alphanumeric, and at most 63 characters).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#id GoogleHypercomputeclusterCluster#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#id GoogleHypercomputeclusterCluster#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2791,7 +2871,7 @@ NodeSetIds *[]*string
 
 IDs of the nodesets that make up this partition. Values must match SlurmNodeSet.id.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#node_set_ids GoogleHypercomputeclusterCluster#node_set_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#node_set_ids GoogleHypercomputeclusterCluster#node_set_ids}
 
 ---
 
@@ -2800,10 +2880,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResources.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterStorageResources {
-	Config: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfig,
+	Config: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfig,
 	Id: *string,
 }
 ```
@@ -2813,7 +2893,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehy
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResources.property.config">Config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfig">GoogleHypercomputeclusterClusterStorageResourcesConfig</a></code> | config block. |
-| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResources.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#id GoogleHypercomputeclusterCluster#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResources.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#id GoogleHypercomputeclusterCluster#id}. |
 
 ---
 
@@ -2827,7 +2907,7 @@ Config GoogleHypercomputeclusterClusterStorageResourcesConfig
 
 config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#config GoogleHypercomputeclusterCluster#config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#config GoogleHypercomputeclusterCluster#config}
 
 ---
 
@@ -2839,7 +2919,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#id GoogleHypercomputeclusterCluster#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#id GoogleHypercomputeclusterCluster#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2851,7 +2931,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesBucket.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterStorageResourcesBucket {
 
@@ -2864,15 +2944,16 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehy
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterStorageResourcesConfig {
-	ExistingBucket: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingBucket,
-	ExistingFilestore: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingFilestore,
-	ExistingLustre: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingLustre,
-	NewBucket: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucket,
-	NewFilestore: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewFilestore,
-	NewLustre: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewLustre,
+	ExistingBucket: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingBucket,
+	ExistingFilestore: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingFilestore,
+	ExistingLustre: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingLustre,
+	ExistingNfs: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfs,
+	NewBucket: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucket,
+	NewFilestore: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewFilestore,
+	NewLustre: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewLustre,
 }
 ```
 
@@ -2883,6 +2964,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehy
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfig.property.existingBucket">ExistingBucket</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingBucket">GoogleHypercomputeclusterClusterStorageResourcesConfigExistingBucket</a></code> | existing_bucket block. |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfig.property.existingFilestore">ExistingFilestore</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingFilestore">GoogleHypercomputeclusterClusterStorageResourcesConfigExistingFilestore</a></code> | existing_filestore block. |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfig.property.existingLustre">ExistingLustre</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingLustre">GoogleHypercomputeclusterClusterStorageResourcesConfigExistingLustre</a></code> | existing_lustre block. |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfig.property.existingNfs">ExistingNfs</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfs">GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfs</a></code> | existing_nfs block. |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfig.property.newBucket">NewBucket</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucket">GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucket</a></code> | new_bucket block. |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfig.property.newFilestore">NewFilestore</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewFilestore">GoogleHypercomputeclusterClusterStorageResourcesConfigNewFilestore</a></code> | new_filestore block. |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfig.property.newLustre">NewLustre</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewLustre">GoogleHypercomputeclusterClusterStorageResourcesConfigNewLustre</a></code> | new_lustre block. |
@@ -2899,7 +2981,7 @@ ExistingBucket GoogleHypercomputeclusterClusterStorageResourcesConfigExistingBuc
 
 existing_bucket block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#existing_bucket GoogleHypercomputeclusterCluster#existing_bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#existing_bucket GoogleHypercomputeclusterCluster#existing_bucket}
 
 ---
 
@@ -2913,7 +2995,7 @@ ExistingFilestore GoogleHypercomputeclusterClusterStorageResourcesConfigExisting
 
 existing_filestore block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#existing_filestore GoogleHypercomputeclusterCluster#existing_filestore}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#existing_filestore GoogleHypercomputeclusterCluster#existing_filestore}
 
 ---
 
@@ -2927,7 +3009,21 @@ ExistingLustre GoogleHypercomputeclusterClusterStorageResourcesConfigExistingLus
 
 existing_lustre block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#existing_lustre GoogleHypercomputeclusterCluster#existing_lustre}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#existing_lustre GoogleHypercomputeclusterCluster#existing_lustre}
+
+---
+
+##### `ExistingNfs`<sup>Optional</sup> <a name="ExistingNfs" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfig.property.existingNfs"></a>
+
+```go
+ExistingNfs GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfs
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfs">GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfs</a>
+
+existing_nfs block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#existing_nfs GoogleHypercomputeclusterCluster#existing_nfs}
 
 ---
 
@@ -2941,7 +3037,7 @@ NewBucket GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucket
 
 new_bucket block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#new_bucket GoogleHypercomputeclusterCluster#new_bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#new_bucket GoogleHypercomputeclusterCluster#new_bucket}
 
 ---
 
@@ -2955,7 +3051,7 @@ NewFilestore GoogleHypercomputeclusterClusterStorageResourcesConfigNewFilestore
 
 new_filestore block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#new_filestore GoogleHypercomputeclusterCluster#new_filestore}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#new_filestore GoogleHypercomputeclusterCluster#new_filestore}
 
 ---
 
@@ -2969,7 +3065,7 @@ NewLustre GoogleHypercomputeclusterClusterStorageResourcesConfigNewLustre
 
 new_lustre block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#new_lustre GoogleHypercomputeclusterCluster#new_lustre}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#new_lustre GoogleHypercomputeclusterCluster#new_lustre}
 
 ---
 
@@ -2978,7 +3074,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingBucket.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingBucket {
 	Bucket: *string,
@@ -3003,7 +3099,7 @@ Bucket *string
 
 Name of the Cloud Storage bucket to import.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#bucket GoogleHypercomputeclusterCluster#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#bucket GoogleHypercomputeclusterCluster#bucket}
 
 ---
 
@@ -3012,7 +3108,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingFilestore.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingFilestore {
 	Filestore: *string,
@@ -3037,7 +3133,7 @@ Filestore *string
 
 Name of the Filestore instance to import, in the format 'projects/{project}/locations/{location}/instances/{instance}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#filestore GoogleHypercomputeclusterCluster#filestore}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#filestore GoogleHypercomputeclusterCluster#filestore}
 
 ---
 
@@ -3046,7 +3142,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingLustre.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingLustre {
 	Lustre: *string,
@@ -3071,7 +3167,73 @@ Lustre *string
 
 Name of the Managed Lustre instance to import, in the format 'projects/{project}/locations/{location}/instances/{instance}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#lustre GoogleHypercomputeclusterCluster#lustre}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#lustre GoogleHypercomputeclusterCluster#lustre}
+
+---
+
+### GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfs <a name="GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfs" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfs"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfs.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
+
+&googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfs {
+	RemoteMount: *string,
+	ServerIpAddress: *string,
+	MountOptions: *string,
+}
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfs.property.remoteMount">RemoteMount</a></code> | <code>*string</code> | Remote mount path of the NFS share. |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfs.property.serverIpAddress">ServerIpAddress</a></code> | <code>*string</code> | Server IP address of the NFS share. |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfs.property.mountOptions">MountOptions</a></code> | <code>*string</code> | Options to mount the NFS share, as expected by fs_mntops field in fstab(5), for example: "rw,vers=4.1,nconnect=2,noatime". |
+
+---
+
+##### `RemoteMount`<sup>Required</sup> <a name="RemoteMount" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfs.property.remoteMount"></a>
+
+```go
+RemoteMount *string
+```
+
+- *Type:* *string
+
+Remote mount path of the NFS share.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#remote_mount GoogleHypercomputeclusterCluster#remote_mount}
+
+---
+
+##### `ServerIpAddress`<sup>Required</sup> <a name="ServerIpAddress" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfs.property.serverIpAddress"></a>
+
+```go
+ServerIpAddress *string
+```
+
+- *Type:* *string
+
+Server IP address of the NFS share.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#server_ip_address GoogleHypercomputeclusterCluster#server_ip_address}
+
+---
+
+##### `MountOptions`<sup>Optional</sup> <a name="MountOptions" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfs.property.mountOptions"></a>
+
+```go
+MountOptions *string
+```
+
+- *Type:* *string
+
+Options to mount the NFS share, as expected by fs_mntops field in fstab(5), for example: "rw,vers=4.1,nconnect=2,noatime".
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#mount_options GoogleHypercomputeclusterCluster#mount_options}
 
 ---
 
@@ -3080,12 +3242,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucket.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucket {
 	Bucket: *string,
-	Autoclass: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketAutoclass,
-	HierarchicalNamespace: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketHierarchicalNamespace,
+	Autoclass: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketAutoclass,
+	HierarchicalNamespace: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketHierarchicalNamespace,
 	StorageClass: *string,
 }
 ```
@@ -3111,7 +3273,7 @@ Bucket *string
 
 Name of the Cloud Storage bucket to create.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#bucket GoogleHypercomputeclusterCluster#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#bucket GoogleHypercomputeclusterCluster#bucket}
 
 ---
 
@@ -3125,7 +3287,7 @@ Autoclass GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketAutocla
 
 autoclass block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#autoclass GoogleHypercomputeclusterCluster#autoclass}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#autoclass GoogleHypercomputeclusterCluster#autoclass}
 
 ---
 
@@ -3139,7 +3301,7 @@ HierarchicalNamespace GoogleHypercomputeclusterClusterStorageResourcesConfigNewB
 
 hierarchical_namespace block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#hierarchical_namespace GoogleHypercomputeclusterCluster#hierarchical_namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#hierarchical_namespace GoogleHypercomputeclusterCluster#hierarchical_namespace}
 
 ---
 
@@ -3153,7 +3315,7 @@ StorageClass *string
 
 If set, uses the provided storage class as the bucket's default storage class. Possible values: STANDARD NEARLINE COLDLINE ARCHIVE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#storage_class GoogleHypercomputeclusterCluster#storage_class}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#storage_class GoogleHypercomputeclusterCluster#storage_class}
 
 ---
 
@@ -3162,7 +3324,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketAutoclass.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketAutoclass {
 	Enabled: interface{},
@@ -3189,7 +3351,7 @@ Enabled interface{}
 
 Enables Auto-class feature.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#enabled GoogleHypercomputeclusterCluster#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#enabled GoogleHypercomputeclusterCluster#enabled}
 
 ---
 
@@ -3203,7 +3365,7 @@ TerminalStorageClass *string
 
 Terminal storage class of the autoclass bucket Possible values: NEARLINE ARCHIVE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#terminal_storage_class GoogleHypercomputeclusterCluster#terminal_storage_class}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#terminal_storage_class GoogleHypercomputeclusterCluster#terminal_storage_class}
 
 ---
 
@@ -3212,7 +3374,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketHierarchicalNamespace.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketHierarchicalNamespace {
 	Enabled: interface{},
@@ -3237,7 +3399,7 @@ Enabled interface{}
 
 Enables hierarchical namespace setup for the bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#enabled GoogleHypercomputeclusterCluster#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#enabled GoogleHypercomputeclusterCluster#enabled}
 
 ---
 
@@ -3246,7 +3408,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewFilestore.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewFilestore {
 	FileShares: interface{},
@@ -3279,7 +3441,7 @@ FileShares interface{}
 
 file_shares block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#file_shares GoogleHypercomputeclusterCluster#file_shares}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#file_shares GoogleHypercomputeclusterCluster#file_shares}
 
 ---
 
@@ -3293,7 +3455,7 @@ Filestore *string
 
 Name of the Filestore instance to create, in the format 'projects/{project}/locations/{location}/instances/{instance}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#filestore GoogleHypercomputeclusterCluster#filestore}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#filestore GoogleHypercomputeclusterCluster#filestore}
 
 ---
 
@@ -3307,7 +3469,7 @@ Tier *string
 
 Service tier to use for the instance. Possible values: ZONAL REGIONAL Possible values: ["TIER_UNSPECIFIED", "ZONAL", "REGIONAL"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#tier GoogleHypercomputeclusterCluster#tier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#tier GoogleHypercomputeclusterCluster#tier}
 
 ---
 
@@ -3321,7 +3483,7 @@ Description *string
 
 Description of the instance. Maximum of 2048 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#description GoogleHypercomputeclusterCluster#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#description GoogleHypercomputeclusterCluster#description}
 
 ---
 
@@ -3341,7 +3503,7 @@ Possible values:
 NFSV3
 NFSV41 Possible values: ["PROTOCOL_UNSPECIFIED", "NFSV3", "NFSV41"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#protocol GoogleHypercomputeclusterCluster#protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#protocol GoogleHypercomputeclusterCluster#protocol}
 
 ---
 
@@ -3350,7 +3512,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewFilestoreFileShares.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewFilestoreFileShares {
 	CapacityGb: *string,
@@ -3377,7 +3539,7 @@ CapacityGb *string
 
 Size of the filestore in GB. Must be between 1024 and 102400, and must meet scalability requirements described at https://cloud.google.com/filestore/docs/service-tiers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#capacity_gb GoogleHypercomputeclusterCluster#capacity_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#capacity_gb GoogleHypercomputeclusterCluster#capacity_gb}
 
 ---
 
@@ -3391,7 +3553,7 @@ FileShare *string
 
 Filestore share location.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#file_share GoogleHypercomputeclusterCluster#file_share}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#file_share GoogleHypercomputeclusterCluster#file_share}
 
 ---
 
@@ -3400,7 +3562,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewLustre.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewLustre {
 	CapacityGb: *string,
@@ -3433,7 +3595,7 @@ CapacityGb *string
 
 Storage capacity of the instance in gibibytes (GiB). Allowed values are between 18000 and 7632000.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#capacity_gb GoogleHypercomputeclusterCluster#capacity_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#capacity_gb GoogleHypercomputeclusterCluster#capacity_gb}
 
 ---
 
@@ -3451,7 +3613,7 @@ This name is used by client-side tools,
 including when mounting the instance. Must be 8 characters or less and can
 only contain letters and numbers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#filesystem GoogleHypercomputeclusterCluster#filesystem}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#filesystem GoogleHypercomputeclusterCluster#filesystem}
 
 ---
 
@@ -3465,7 +3627,7 @@ Lustre *string
 
 Name of the Managed Lustre instance to create, in the format 'projects/{project}/locations/{location}/instances/{instance}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#lustre GoogleHypercomputeclusterCluster#lustre}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#lustre GoogleHypercomputeclusterCluster#lustre}
 
 ---
 
@@ -3479,7 +3641,7 @@ Description *string
 
 Description of the Managed Lustre instance. Maximum of 2048 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#description GoogleHypercomputeclusterCluster#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#description GoogleHypercomputeclusterCluster#description}
 
 ---
 
@@ -3498,7 +3660,7 @@ Valid values are 125, 250,
 capacities](https://cloud.google.com/managed-lustre/docs/create-instance#performance-tiers)
 for more information.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#per_unit_storage_throughput GoogleHypercomputeclusterCluster#per_unit_storage_throughput}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#per_unit_storage_throughput GoogleHypercomputeclusterCluster#per_unit_storage_throughput}
 
 ---
 
@@ -3507,7 +3669,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesFilestore.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterStorageResourcesFilestore {
 
@@ -3520,7 +3682,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehy
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesLustre.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterStorageResourcesLustre {
 
@@ -3533,7 +3695,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehy
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterTimeouts {
 	Create: *string,
@@ -3546,9 +3708,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehy
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#create GoogleHypercomputeclusterCluster#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#delete GoogleHypercomputeclusterCluster#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#update GoogleHypercomputeclusterCluster#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#create GoogleHypercomputeclusterCluster#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#delete GoogleHypercomputeclusterCluster#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#update GoogleHypercomputeclusterCluster#update}. |
 
 ---
 
@@ -3560,7 +3722,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#create GoogleHypercomputeclusterCluster#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#create GoogleHypercomputeclusterCluster#create}.
 
 ---
 
@@ -3572,7 +3734,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#delete GoogleHypercomputeclusterCluster#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#delete GoogleHypercomputeclusterCluster#delete}.
 
 ---
 
@@ -3584,7 +3746,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#update GoogleHypercomputeclusterCluster#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#update GoogleHypercomputeclusterCluster#update}.
 
 ---
 
@@ -3595,7 +3757,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstancesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstancesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstancesOutputReference
 ```
@@ -3640,6 +3802,7 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstancesOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstancesOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstancesOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstancesOutputReference.resetNetworkTags">ResetNetworkTags</a></code> | *No description.* |
 
 ---
 
@@ -3793,6 +3956,12 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `ResetNetworkTags` <a name="ResetNetworkTags" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstancesOutputReference.resetNetworkTags"></a>
+
+```go
+func ResetNetworkTags()
+```
+
 
 #### Properties <a name="Properties" id="Properties"></a>
 
@@ -3802,9 +3971,11 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstancesOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstancesOutputReference.property.machineTypeInput">MachineTypeInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstancesOutputReference.property.maxDurationInput">MaxDurationInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstancesOutputReference.property.networkTagsInput">NetworkTagsInput</a></code> | <code>*[]*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstancesOutputReference.property.zoneInput">ZoneInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstancesOutputReference.property.machineType">MachineType</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstancesOutputReference.property.maxDuration">MaxDuration</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstancesOutputReference.property.networkTags">NetworkTags</a></code> | <code>*[]*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstancesOutputReference.property.zone">Zone</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstancesOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstances">GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstances</a></code> | *No description.* |
 
@@ -3854,6 +4025,16 @@ func MaxDurationInput() *string
 
 ---
 
+##### `NetworkTagsInput`<sup>Optional</sup> <a name="NetworkTagsInput" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstancesOutputReference.property.networkTagsInput"></a>
+
+```go
+func NetworkTagsInput() *[]*string
+```
+
+- *Type:* *[]*string
+
+---
+
 ##### `ZoneInput`<sup>Optional</sup> <a name="ZoneInput" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstancesOutputReference.property.zoneInput"></a>
 
 ```go
@@ -3884,6 +4065,16 @@ func MaxDuration() *string
 
 ---
 
+##### `NetworkTags`<sup>Required</sup> <a name="NetworkTags" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstancesOutputReference.property.networkTags"></a>
+
+```go
+func NetworkTags() *[]*string
+```
+
+- *Type:* *[]*string
+
+---
+
 ##### `Zone`<sup>Required</sup> <a name="Zone" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstancesOutputReference.property.zone"></a>
 
 ```go
@@ -3910,7 +4101,7 @@ func InternalValue() GoogleHypercomputeclusterClusterComputeResourcesConfigNewFl
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstancesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstancesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstancesOutputReference
 ```
@@ -3955,6 +4146,7 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstancesOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstancesOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstancesOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstancesOutputReference.resetNetworkTags">ResetNetworkTags</a></code> | *No description.* |
 
 ---
 
@@ -4108,6 +4300,12 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `ResetNetworkTags` <a name="ResetNetworkTags" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstancesOutputReference.resetNetworkTags"></a>
+
+```go
+func ResetNetworkTags()
+```
+
 
 #### Properties <a name="Properties" id="Properties"></a>
 
@@ -4116,8 +4314,10 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstancesOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstancesOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstancesOutputReference.property.machineTypeInput">MachineTypeInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstancesOutputReference.property.networkTagsInput">NetworkTagsInput</a></code> | <code>*[]*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstancesOutputReference.property.zoneInput">ZoneInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstancesOutputReference.property.machineType">MachineType</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstancesOutputReference.property.networkTags">NetworkTags</a></code> | <code>*[]*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstancesOutputReference.property.zone">Zone</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstancesOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstances">GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstances</a></code> | *No description.* |
 
@@ -4157,6 +4357,16 @@ func MachineTypeInput() *string
 
 ---
 
+##### `NetworkTagsInput`<sup>Optional</sup> <a name="NetworkTagsInput" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstancesOutputReference.property.networkTagsInput"></a>
+
+```go
+func NetworkTagsInput() *[]*string
+```
+
+- *Type:* *[]*string
+
+---
+
 ##### `ZoneInput`<sup>Optional</sup> <a name="ZoneInput" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstancesOutputReference.property.zoneInput"></a>
 
 ```go
@@ -4174,6 +4384,16 @@ func MachineType() *string
 ```
 
 - *Type:* *string
+
+---
+
+##### `NetworkTags`<sup>Required</sup> <a name="NetworkTags" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstancesOutputReference.property.networkTags"></a>
+
+```go
+func NetworkTags() *[]*string
+```
+
+- *Type:* *[]*string
 
 ---
 
@@ -4203,7 +4423,7 @@ func InternalValue() GoogleHypercomputeclusterClusterComputeResourcesConfigNewOn
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewReservedInstancesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterComputeResourcesConfigNewReservedInstancesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleHypercomputeclusterClusterComputeResourcesConfigNewReservedInstancesOutputReference
 ```
@@ -4248,6 +4468,7 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewReservedInstancesOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewReservedInstancesOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewReservedInstancesOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewReservedInstancesOutputReference.resetNetworkTags">ResetNetworkTags</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewReservedInstancesOutputReference.resetReservation">ResetReservation</a></code> | *No description.* |
 
 ---
@@ -4402,6 +4623,12 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `ResetNetworkTags` <a name="ResetNetworkTags" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewReservedInstancesOutputReference.resetNetworkTags"></a>
+
+```go
+func ResetNetworkTags()
+```
+
 ##### `ResetReservation` <a name="ResetReservation" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewReservedInstancesOutputReference.resetReservation"></a>
 
 ```go
@@ -4415,7 +4642,9 @@ func ResetReservation()
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewReservedInstancesOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewReservedInstancesOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewReservedInstancesOutputReference.property.networkTagsInput">NetworkTagsInput</a></code> | <code>*[]*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewReservedInstancesOutputReference.property.reservationInput">ReservationInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewReservedInstancesOutputReference.property.networkTags">NetworkTags</a></code> | <code>*[]*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewReservedInstancesOutputReference.property.reservation">Reservation</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewReservedInstancesOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewReservedInstances">GoogleHypercomputeclusterClusterComputeResourcesConfigNewReservedInstances</a></code> | *No description.* |
 
@@ -4445,6 +4674,16 @@ func Fqn() *string
 
 ---
 
+##### `NetworkTagsInput`<sup>Optional</sup> <a name="NetworkTagsInput" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewReservedInstancesOutputReference.property.networkTagsInput"></a>
+
+```go
+func NetworkTagsInput() *[]*string
+```
+
+- *Type:* *[]*string
+
+---
+
 ##### `ReservationInput`<sup>Optional</sup> <a name="ReservationInput" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewReservedInstancesOutputReference.property.reservationInput"></a>
 
 ```go
@@ -4452,6 +4691,16 @@ func ReservationInput() *string
 ```
 
 - *Type:* *string
+
+---
+
+##### `NetworkTags`<sup>Required</sup> <a name="NetworkTags" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewReservedInstancesOutputReference.property.networkTags"></a>
+
+```go
+func NetworkTags() *[]*string
+```
+
+- *Type:* *[]*string
 
 ---
 
@@ -4481,7 +4730,7 @@ func InternalValue() GoogleHypercomputeclusterClusterComputeResourcesConfigNewRe
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstancesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstancesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstancesOutputReference
 ```
@@ -4526,6 +4775,7 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstancesOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstancesOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstancesOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstancesOutputReference.resetNetworkTags">ResetNetworkTags</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstancesOutputReference.resetTerminationAction">ResetTerminationAction</a></code> | *No description.* |
 
 ---
@@ -4680,6 +4930,12 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `ResetNetworkTags` <a name="ResetNetworkTags" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstancesOutputReference.resetNetworkTags"></a>
+
+```go
+func ResetNetworkTags()
+```
+
 ##### `ResetTerminationAction` <a name="ResetTerminationAction" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstancesOutputReference.resetTerminationAction"></a>
 
 ```go
@@ -4694,9 +4950,11 @@ func ResetTerminationAction()
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstancesOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstancesOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstancesOutputReference.property.machineTypeInput">MachineTypeInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstancesOutputReference.property.networkTagsInput">NetworkTagsInput</a></code> | <code>*[]*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstancesOutputReference.property.terminationActionInput">TerminationActionInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstancesOutputReference.property.zoneInput">ZoneInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstancesOutputReference.property.machineType">MachineType</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstancesOutputReference.property.networkTags">NetworkTags</a></code> | <code>*[]*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstancesOutputReference.property.terminationAction">TerminationAction</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstancesOutputReference.property.zone">Zone</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstancesOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstances">GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstances</a></code> | *No description.* |
@@ -4737,6 +4995,16 @@ func MachineTypeInput() *string
 
 ---
 
+##### `NetworkTagsInput`<sup>Optional</sup> <a name="NetworkTagsInput" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstancesOutputReference.property.networkTagsInput"></a>
+
+```go
+func NetworkTagsInput() *[]*string
+```
+
+- *Type:* *[]*string
+
+---
+
 ##### `TerminationActionInput`<sup>Optional</sup> <a name="TerminationActionInput" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstancesOutputReference.property.terminationActionInput"></a>
 
 ```go
@@ -4764,6 +5032,16 @@ func MachineType() *string
 ```
 
 - *Type:* *string
+
+---
+
+##### `NetworkTags`<sup>Required</sup> <a name="NetworkTags" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstancesOutputReference.property.networkTags"></a>
+
+```go
+func NetworkTags() *[]*string
+```
+
+- *Type:* *[]*string
 
 ---
 
@@ -4803,7 +5081,7 @@ func InternalValue() GoogleHypercomputeclusterClusterComputeResourcesConfigNewSp
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterComputeResourcesConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleHypercomputeclusterClusterComputeResourcesConfigOutputReference
 ```
@@ -5220,7 +5498,7 @@ func InternalValue() GoogleHypercomputeclusterClusterComputeResourcesConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterComputeResourcesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleHypercomputeclusterClusterComputeResourcesList
 ```
@@ -5380,7 +5658,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterComputeResourcesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleHypercomputeclusterClusterComputeResourcesOutputReference
 ```
@@ -5704,7 +5982,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterNetworkResourcesConfigExistingNetworkOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterNetworkResourcesConfigExistingNetworkOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleHypercomputeclusterClusterNetworkResourcesConfigExistingNetworkOutputReference
 ```
@@ -5997,7 +6275,7 @@ func InternalValue() GoogleHypercomputeclusterClusterNetworkResourcesConfigExist
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterNetworkResourcesConfigNewNetworkOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterNetworkResourcesConfigNewNetworkOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleHypercomputeclusterClusterNetworkResourcesConfigNewNetworkOutputReference
 ```
@@ -6297,7 +6575,7 @@ func InternalValue() GoogleHypercomputeclusterClusterNetworkResourcesConfigNewNe
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterNetworkResourcesConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterNetworkResourcesConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleHypercomputeclusterClusterNetworkResourcesConfigOutputReference
 ```
@@ -6630,7 +6908,7 @@ func InternalValue() GoogleHypercomputeclusterClusterNetworkResourcesConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterNetworkResourcesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterNetworkResourcesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleHypercomputeclusterClusterNetworkResourcesList
 ```
@@ -6790,7 +7068,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterNetworkResourcesNetworkList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterNetworkResourcesNetworkList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleHypercomputeclusterClusterNetworkResourcesNetworkList
 ```
@@ -6939,7 +7217,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterNetworkResourcesNetworkOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterNetworkResourcesNetworkOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleHypercomputeclusterClusterNetworkResourcesNetworkOutputReference
 ```
@@ -7228,7 +7506,7 @@ func InternalValue() GoogleHypercomputeclusterClusterNetworkResourcesNetwork
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterNetworkResourcesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterNetworkResourcesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleHypercomputeclusterClusterNetworkResourcesOutputReference
 ```
@@ -7570,7 +7848,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterOrchestratorOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleHypercomputeclusterClusterOrchestratorOutputReference
 ```
@@ -7861,7 +8139,7 @@ func InternalValue() GoogleHypercomputeclusterClusterOrchestrator
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesBootDiskOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesBootDiskOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesBootDiskOutputReference
 ```
@@ -8154,7 +8432,7 @@ func InternalValue() GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodes
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesInstancesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesInstancesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesInstancesList
 ```
@@ -8303,7 +8581,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesInstancesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesInstancesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesInstancesOutputReference
 ```
@@ -8581,7 +8859,7 @@ func InternalValue() GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodes
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOutputReference
 ```
@@ -8632,6 +8910,7 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOutputReference.resetEnableOsLogin">ResetEnableOsLogin</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOutputReference.resetEnablePublicIps">ResetEnablePublicIps</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOutputReference.resetLabels">ResetLabels</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOutputReference.resetNetworkTags">ResetNetworkTags</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOutputReference.resetStartupScript">ResetStartupScript</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOutputReference.resetStorageConfigs">ResetStorageConfigs</a></code> | *No description.* |
 
@@ -8835,6 +9114,12 @@ func ResetEnablePublicIps()
 func ResetLabels()
 ```
 
+##### `ResetNetworkTags` <a name="ResetNetworkTags" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOutputReference.resetNetworkTags"></a>
+
+```go
+func ResetNetworkTags()
+```
+
 ##### `ResetStartupScript` <a name="ResetStartupScript" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOutputReference.resetStartupScript"></a>
 
 ```go
@@ -8863,6 +9148,7 @@ func ResetStorageConfigs()
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOutputReference.property.enablePublicIpsInput">EnablePublicIpsInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOutputReference.property.labelsInput">LabelsInput</a></code> | <code>*map[string]*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOutputReference.property.machineTypeInput">MachineTypeInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOutputReference.property.networkTagsInput">NetworkTagsInput</a></code> | <code>*[]*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOutputReference.property.startupScriptInput">StartupScriptInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOutputReference.property.storageConfigsInput">StorageConfigsInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOutputReference.property.zoneInput">ZoneInput</a></code> | <code>*string</code> | *No description.* |
@@ -8871,6 +9157,7 @@ func ResetStorageConfigs()
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOutputReference.property.enablePublicIps">EnablePublicIps</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOutputReference.property.labels">Labels</a></code> | <code>*map[string]*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOutputReference.property.machineType">MachineType</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOutputReference.property.networkTags">NetworkTags</a></code> | <code>*[]*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOutputReference.property.startupScript">StartupScript</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOutputReference.property.zone">Zone</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodes">GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodes</a></code> | *No description.* |
@@ -8991,6 +9278,16 @@ func MachineTypeInput() *string
 
 ---
 
+##### `NetworkTagsInput`<sup>Optional</sup> <a name="NetworkTagsInput" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOutputReference.property.networkTagsInput"></a>
+
+```go
+func NetworkTagsInput() *[]*string
+```
+
+- *Type:* *[]*string
+
+---
+
 ##### `StartupScriptInput`<sup>Optional</sup> <a name="StartupScriptInput" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOutputReference.property.startupScriptInput"></a>
 
 ```go
@@ -9071,6 +9368,16 @@ func MachineType() *string
 
 ---
 
+##### `NetworkTags`<sup>Required</sup> <a name="NetworkTags" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOutputReference.property.networkTags"></a>
+
+```go
+func NetworkTags() *[]*string
+```
+
+- *Type:* *[]*string
+
+---
+
 ##### `StartupScript`<sup>Required</sup> <a name="StartupScript" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOutputReference.property.startupScript"></a>
 
 ```go
@@ -9107,7 +9414,7 @@ func InternalValue() GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodes
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesStorageConfigsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesStorageConfigsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesStorageConfigsList
 ```
@@ -9267,7 +9574,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesStorageConfigsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesStorageConfigsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesStorageConfigsOutputReference
 ```
@@ -9578,7 +9885,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsComputeInstanceBootDiskOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsComputeInstanceBootDiskOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsComputeInstanceBootDiskOutputReference
 ```
@@ -9871,7 +10178,7 @@ func InternalValue() GoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsComputeInstanceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsComputeInstanceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsComputeInstanceOutputReference
 ```
@@ -10220,7 +10527,7 @@ func InternalValue() GoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsList
 ```
@@ -10380,7 +10687,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsOutputReference
 ```
@@ -10840,7 +11147,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsStorageConfigsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsStorageConfigsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsStorageConfigsList
 ```
@@ -11000,7 +11307,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsStorageConfigsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsStorageConfigsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsStorageConfigsOutputReference
 ```
@@ -11311,7 +11618,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterOrchestratorSlurmOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleHypercomputeclusterClusterOrchestratorSlurmOutputReference
 ```
@@ -11752,7 +12059,7 @@ func InternalValue() GoogleHypercomputeclusterClusterOrchestratorSlurm
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmPartitionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterOrchestratorSlurmPartitionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleHypercomputeclusterClusterOrchestratorSlurmPartitionsList
 ```
@@ -11912,7 +12219,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmPartitionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterOrchestratorSlurmPartitionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleHypercomputeclusterClusterOrchestratorSlurmPartitionsOutputReference
 ```
@@ -12223,7 +12530,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesBucketList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterStorageResourcesBucketList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleHypercomputeclusterClusterStorageResourcesBucketList
 ```
@@ -12372,7 +12679,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesBucketOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterStorageResourcesBucketOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleHypercomputeclusterClusterStorageResourcesBucketOutputReference
 ```
@@ -12650,7 +12957,7 @@ func InternalValue() GoogleHypercomputeclusterClusterStorageResourcesBucket
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingBucketOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterStorageResourcesConfigExistingBucketOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleHypercomputeclusterClusterStorageResourcesConfigExistingBucketOutputReference
 ```
@@ -12921,7 +13228,7 @@ func InternalValue() GoogleHypercomputeclusterClusterStorageResourcesConfigExist
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingFilestoreOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterStorageResourcesConfigExistingFilestoreOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleHypercomputeclusterClusterStorageResourcesConfigExistingFilestoreOutputReference
 ```
@@ -13192,7 +13499,7 @@ func InternalValue() GoogleHypercomputeclusterClusterStorageResourcesConfigExist
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingLustreOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterStorageResourcesConfigExistingLustreOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleHypercomputeclusterClusterStorageResourcesConfigExistingLustreOutputReference
 ```
@@ -13458,12 +13765,334 @@ func InternalValue() GoogleHypercomputeclusterClusterStorageResourcesConfigExist
 ---
 
 
+### GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference <a name="GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
+
+googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.resetMountOptions">ResetMountOptions</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetMountOptions` <a name="ResetMountOptions" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.resetMountOptions"></a>
+
+```go
+func ResetMountOptions()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.property.mountOptionsInput">MountOptionsInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.property.remoteMountInput">RemoteMountInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.property.serverIpAddressInput">ServerIpAddressInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.property.mountOptions">MountOptions</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.property.remoteMount">RemoteMount</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.property.serverIpAddress">ServerIpAddress</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfs">GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfs</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `MountOptionsInput`<sup>Optional</sup> <a name="MountOptionsInput" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.property.mountOptionsInput"></a>
+
+```go
+func MountOptionsInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `RemoteMountInput`<sup>Optional</sup> <a name="RemoteMountInput" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.property.remoteMountInput"></a>
+
+```go
+func RemoteMountInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `ServerIpAddressInput`<sup>Optional</sup> <a name="ServerIpAddressInput" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.property.serverIpAddressInput"></a>
+
+```go
+func ServerIpAddressInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `MountOptions`<sup>Required</sup> <a name="MountOptions" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.property.mountOptions"></a>
+
+```go
+func MountOptions() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `RemoteMount`<sup>Required</sup> <a name="RemoteMount" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.property.remoteMount"></a>
+
+```go
+func RemoteMount() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `ServerIpAddress`<sup>Required</sup> <a name="ServerIpAddress" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.property.serverIpAddress"></a>
+
+```go
+func ServerIpAddress() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfs
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfs">GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfs</a>
+
+---
+
+
 ### GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketAutoclassOutputReference <a name="GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketAutoclassOutputReference" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketAutoclassOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketAutoclassOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketAutoclassOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketAutoclassOutputReference
 ```
@@ -13763,7 +14392,7 @@ func InternalValue() GoogleHypercomputeclusterClusterStorageResourcesConfigNewBu
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketHierarchicalNamespaceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketHierarchicalNamespaceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketHierarchicalNamespaceOutputReference
 ```
@@ -14041,7 +14670,7 @@ func InternalValue() GoogleHypercomputeclusterClusterStorageResourcesConfigNewBu
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketOutputReference
 ```
@@ -14425,7 +15054,7 @@ func InternalValue() GoogleHypercomputeclusterClusterStorageResourcesConfigNewBu
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewFilestoreFileSharesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterStorageResourcesConfigNewFilestoreFileSharesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleHypercomputeclusterClusterStorageResourcesConfigNewFilestoreFileSharesList
 ```
@@ -14585,7 +15214,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewFilestoreFileSharesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterStorageResourcesConfigNewFilestoreFileSharesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleHypercomputeclusterClusterStorageResourcesConfigNewFilestoreFileSharesOutputReference
 ```
@@ -14896,7 +15525,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewFilestoreOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterStorageResourcesConfigNewFilestoreOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleHypercomputeclusterClusterStorageResourcesConfigNewFilestoreOutputReference
 ```
@@ -15282,7 +15911,7 @@ func InternalValue() GoogleHypercomputeclusterClusterStorageResourcesConfigNewFi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewLustreOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterStorageResourcesConfigNewLustreOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleHypercomputeclusterClusterStorageResourcesConfigNewLustreOutputReference
 ```
@@ -15655,7 +16284,7 @@ func InternalValue() GoogleHypercomputeclusterClusterStorageResourcesConfigNewLu
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference
 ```
@@ -15703,12 +16332,14 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.putExistingBucket">PutExistingBucket</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.putExistingFilestore">PutExistingFilestore</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.putExistingLustre">PutExistingLustre</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.putExistingNfs">PutExistingNfs</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.putNewBucket">PutNewBucket</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.putNewFilestore">PutNewFilestore</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.putNewLustre">PutNewLustre</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.resetExistingBucket">ResetExistingBucket</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.resetExistingFilestore">ResetExistingFilestore</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.resetExistingLustre">ResetExistingLustre</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.resetExistingNfs">ResetExistingNfs</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.resetNewBucket">ResetNewBucket</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.resetNewFilestore">ResetNewFilestore</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.resetNewLustre">ResetNewLustre</a></code> | *No description.* |
@@ -15901,6 +16532,18 @@ func PutExistingLustre(value GoogleHypercomputeclusterClusterStorageResourcesCon
 
 ---
 
+##### `PutExistingNfs` <a name="PutExistingNfs" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.putExistingNfs"></a>
+
+```go
+func PutExistingNfs(value GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfs)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.putExistingNfs.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfs">GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfs</a>
+
+---
+
 ##### `PutNewBucket` <a name="PutNewBucket" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.putNewBucket"></a>
 
 ```go
@@ -15955,6 +16598,12 @@ func ResetExistingFilestore()
 func ResetExistingLustre()
 ```
 
+##### `ResetExistingNfs` <a name="ResetExistingNfs" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.resetExistingNfs"></a>
+
+```go
+func ResetExistingNfs()
+```
+
 ##### `ResetNewBucket` <a name="ResetNewBucket" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.resetNewBucket"></a>
 
 ```go
@@ -15983,12 +16632,14 @@ func ResetNewLustre()
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.property.existingBucket">ExistingBucket</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingBucketOutputReference">GoogleHypercomputeclusterClusterStorageResourcesConfigExistingBucketOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.property.existingFilestore">ExistingFilestore</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingFilestoreOutputReference">GoogleHypercomputeclusterClusterStorageResourcesConfigExistingFilestoreOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.property.existingLustre">ExistingLustre</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingLustreOutputReference">GoogleHypercomputeclusterClusterStorageResourcesConfigExistingLustreOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.property.existingNfs">ExistingNfs</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference">GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.property.newBucket">NewBucket</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketOutputReference">GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.property.newFilestore">NewFilestore</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewFilestoreOutputReference">GoogleHypercomputeclusterClusterStorageResourcesConfigNewFilestoreOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.property.newLustre">NewLustre</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewLustreOutputReference">GoogleHypercomputeclusterClusterStorageResourcesConfigNewLustreOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.property.existingBucketInput">ExistingBucketInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingBucket">GoogleHypercomputeclusterClusterStorageResourcesConfigExistingBucket</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.property.existingFilestoreInput">ExistingFilestoreInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingFilestore">GoogleHypercomputeclusterClusterStorageResourcesConfigExistingFilestore</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.property.existingLustreInput">ExistingLustreInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingLustre">GoogleHypercomputeclusterClusterStorageResourcesConfigExistingLustre</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.property.existingNfsInput">ExistingNfsInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfs">GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfs</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.property.newBucketInput">NewBucketInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucket">GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucket</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.property.newFilestoreInput">NewFilestoreInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewFilestore">GoogleHypercomputeclusterClusterStorageResourcesConfigNewFilestore</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.property.newLustreInput">NewLustreInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewLustre">GoogleHypercomputeclusterClusterStorageResourcesConfigNewLustre</a></code> | *No description.* |
@@ -16047,6 +16698,16 @@ func ExistingLustre() GoogleHypercomputeclusterClusterStorageResourcesConfigExis
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingLustreOutputReference">GoogleHypercomputeclusterClusterStorageResourcesConfigExistingLustreOutputReference</a>
+
+---
+
+##### `ExistingNfs`<sup>Required</sup> <a name="ExistingNfs" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.property.existingNfs"></a>
+
+```go
+func ExistingNfs() GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference">GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference</a>
 
 ---
 
@@ -16110,6 +16771,16 @@ func ExistingLustreInput() GoogleHypercomputeclusterClusterStorageResourcesConfi
 
 ---
 
+##### `ExistingNfsInput`<sup>Optional</sup> <a name="ExistingNfsInput" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.property.existingNfsInput"></a>
+
+```go
+func ExistingNfsInput() GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfs
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfs">GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfs</a>
+
+---
+
 ##### `NewBucketInput`<sup>Optional</sup> <a name="NewBucketInput" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.property.newBucketInput"></a>
 
 ```go
@@ -16156,7 +16827,7 @@ func InternalValue() GoogleHypercomputeclusterClusterStorageResourcesConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesFilestoreList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterStorageResourcesFilestoreList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleHypercomputeclusterClusterStorageResourcesFilestoreList
 ```
@@ -16305,7 +16976,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesFilestoreOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterStorageResourcesFilestoreOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleHypercomputeclusterClusterStorageResourcesFilestoreOutputReference
 ```
@@ -16583,7 +17254,7 @@ func InternalValue() GoogleHypercomputeclusterClusterStorageResourcesFilestore
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterStorageResourcesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleHypercomputeclusterClusterStorageResourcesList
 ```
@@ -16743,7 +17414,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesLustreList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterStorageResourcesLustreList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleHypercomputeclusterClusterStorageResourcesLustreList
 ```
@@ -16892,7 +17563,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesLustreOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterStorageResourcesLustreOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleHypercomputeclusterClusterStorageResourcesLustreOutputReference
 ```
@@ -17170,7 +17841,7 @@ func InternalValue() GoogleHypercomputeclusterClusterStorageResourcesLustre
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterStorageResourcesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleHypercomputeclusterClusterStorageResourcesOutputReference
 ```
@@ -17527,7 +18198,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleHypercomputeclusterClusterTimeoutsOutputReference
 ```

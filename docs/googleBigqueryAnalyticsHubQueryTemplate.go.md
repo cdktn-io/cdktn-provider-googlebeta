@@ -4,12 +4,12 @@
 
 ### GoogleBigqueryAnalyticsHubQueryTemplate <a name="GoogleBigqueryAnalyticsHubQueryTemplate" id="@cdktn/provider-google-beta.googleBigqueryAnalyticsHubQueryTemplate.GoogleBigqueryAnalyticsHubQueryTemplate"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_analytics_hub_query_template google_bigquery_analytics_hub_query_template}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_analytics_hub_query_template google_bigquery_analytics_hub_query_template}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryAnalyticsHubQueryTemplate.GoogleBigqueryAnalyticsHubQueryTemplate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigqueryanalyticshubquerytemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebigqueryanalyticshubquerytemplate"
 
 googlebigqueryanalyticshubquerytemplate.NewGoogleBigqueryAnalyticsHubQueryTemplate(scope Construct, id *string, config GoogleBigqueryAnalyticsHubQueryTemplateConfig) GoogleBigqueryAnalyticsHubQueryTemplate
 ```
@@ -509,7 +509,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleBigqueryAnalyticsHubQueryTemplate.GoogleBigqueryAnalyticsHubQueryTemplate.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigqueryanalyticshubquerytemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebigqueryanalyticshubquerytemplate"
 
 googlebigqueryanalyticshubquerytemplate.GoogleBigqueryAnalyticsHubQueryTemplate_IsConstruct(x interface{}) *bool
 ```
@@ -541,7 +541,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleBigqueryAnalyticsHubQueryTemplate.GoogleBigqueryAnalyticsHubQueryTemplate.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigqueryanalyticshubquerytemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebigqueryanalyticshubquerytemplate"
 
 googlebigqueryanalyticshubquerytemplate.GoogleBigqueryAnalyticsHubQueryTemplate_IsTerraformElement(x interface{}) *bool
 ```
@@ -555,7 +555,7 @@ googlebigqueryanalyticshubquerytemplate.GoogleBigqueryAnalyticsHubQueryTemplate_
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleBigqueryAnalyticsHubQueryTemplate.GoogleBigqueryAnalyticsHubQueryTemplate.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigqueryanalyticshubquerytemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebigqueryanalyticshubquerytemplate"
 
 googlebigqueryanalyticshubquerytemplate.GoogleBigqueryAnalyticsHubQueryTemplate_IsTerraformResource(x interface{}) *bool
 ```
@@ -569,7 +569,7 @@ googlebigqueryanalyticshubquerytemplate.GoogleBigqueryAnalyticsHubQueryTemplate_
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleBigqueryAnalyticsHubQueryTemplate.GoogleBigqueryAnalyticsHubQueryTemplate.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigqueryanalyticshubquerytemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebigqueryanalyticshubquerytemplate"
 
 googlebigqueryanalyticshubquerytemplate.GoogleBigqueryAnalyticsHubQueryTemplate_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -598,7 +598,7 @@ The construct id used in the generated config for the GoogleBigqueryAnalyticsHub
 
 The id of the existing GoogleBigqueryAnalyticsHubQueryTemplate that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_analytics_hub_query_template#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_analytics_hub_query_template#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1150,7 +1150,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryAnalyticsHubQueryTemplate.GoogleBigqueryAnalyticsHubQueryTemplateConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigqueryanalyticshubquerytemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebigqueryanalyticshubquerytemplate"
 
 &googlebigqueryanalyticshubquerytemplate.GoogleBigqueryAnalyticsHubQueryTemplateConfig {
 	Connection: interface{},
@@ -1167,13 +1167,13 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebi
 	DeletionPolicy: *string,
 	Description: *string,
 	Documentation: *string,
-	EncryptionConfiguration: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleBigqueryAnalyticsHubQueryTemplate.GoogleBigqueryAnalyticsHubQueryTemplateEncryptionConfiguration,
+	EncryptionConfiguration: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleBigqueryAnalyticsHubQueryTemplate.GoogleBigqueryAnalyticsHubQueryTemplateEncryptionConfiguration,
 	Id: *string,
 	PrimaryContact: *string,
 	Project: *string,
-	Routine: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleBigqueryAnalyticsHubQueryTemplate.GoogleBigqueryAnalyticsHubQueryTemplateRoutine,
+	Routine: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleBigqueryAnalyticsHubQueryTemplate.GoogleBigqueryAnalyticsHubQueryTemplateRoutine,
 	Submit: interface{},
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleBigqueryAnalyticsHubQueryTemplate.GoogleBigqueryAnalyticsHubQueryTemplateTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleBigqueryAnalyticsHubQueryTemplate.GoogleBigqueryAnalyticsHubQueryTemplateTimeouts,
 }
 ```
 
@@ -1196,9 +1196,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebi
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryAnalyticsHubQueryTemplate.GoogleBigqueryAnalyticsHubQueryTemplateConfig.property.description">Description</a></code> | <code>*string</code> | Short description of the QueryTemplate. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryAnalyticsHubQueryTemplate.GoogleBigqueryAnalyticsHubQueryTemplateConfig.property.documentation">Documentation</a></code> | <code>*string</code> | Documentation describing the QueryTemplate. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryAnalyticsHubQueryTemplate.GoogleBigqueryAnalyticsHubQueryTemplateConfig.property.encryptionConfiguration">EncryptionConfiguration</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryAnalyticsHubQueryTemplate.GoogleBigqueryAnalyticsHubQueryTemplateEncryptionConfiguration">GoogleBigqueryAnalyticsHubQueryTemplateEncryptionConfiguration</a></code> | encryption_configuration block. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryAnalyticsHubQueryTemplate.GoogleBigqueryAnalyticsHubQueryTemplateConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_analytics_hub_query_template#id GoogleBigqueryAnalyticsHubQueryTemplate#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryAnalyticsHubQueryTemplate.GoogleBigqueryAnalyticsHubQueryTemplateConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_analytics_hub_query_template#id GoogleBigqueryAnalyticsHubQueryTemplate#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryAnalyticsHubQueryTemplate.GoogleBigqueryAnalyticsHubQueryTemplateConfig.property.primaryContact">PrimaryContact</a></code> | <code>*string</code> | Email or URL of the primary point of contact of the QueryTemplate. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryAnalyticsHubQueryTemplate.GoogleBigqueryAnalyticsHubQueryTemplateConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_analytics_hub_query_template#project GoogleBigqueryAnalyticsHubQueryTemplate#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryAnalyticsHubQueryTemplate.GoogleBigqueryAnalyticsHubQueryTemplateConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_analytics_hub_query_template#project GoogleBigqueryAnalyticsHubQueryTemplate#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryAnalyticsHubQueryTemplate.GoogleBigqueryAnalyticsHubQueryTemplateConfig.property.routine">Routine</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryAnalyticsHubQueryTemplate.GoogleBigqueryAnalyticsHubQueryTemplateRoutine">GoogleBigqueryAnalyticsHubQueryTemplateRoutine</a></code> | routine block. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryAnalyticsHubQueryTemplate.GoogleBigqueryAnalyticsHubQueryTemplateConfig.property.submit">Submit</a></code> | <code>interface{}</code> | If set to 'true', the QueryTemplate will be submitted for approval and cannot be updated afterwards. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryAnalyticsHubQueryTemplate.GoogleBigqueryAnalyticsHubQueryTemplateConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryAnalyticsHubQueryTemplate.GoogleBigqueryAnalyticsHubQueryTemplateTimeouts">GoogleBigqueryAnalyticsHubQueryTemplateTimeouts</a></code> | timeouts block. |
@@ -1287,7 +1287,7 @@ The ID of the data exchange.
 
 Must contain only Unicode letters, numbers (0-9), underscores (_). Should not use characters that require URL-escaping, or characters outside of ASCII, spaces.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_analytics_hub_query_template#data_exchange_id GoogleBigqueryAnalyticsHubQueryTemplate#data_exchange_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_analytics_hub_query_template#data_exchange_id GoogleBigqueryAnalyticsHubQueryTemplate#data_exchange_id}
 
 ---
 
@@ -1306,7 +1306,7 @@ contain only Unicode letters, numbers (0-9), underscores (_), dashes (-),
 spaces ( ), ampersands (&) and can't start or end with spaces. Default
 value is an empty string.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_analytics_hub_query_template#display_name GoogleBigqueryAnalyticsHubQueryTemplate#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_analytics_hub_query_template#display_name GoogleBigqueryAnalyticsHubQueryTemplate#display_name}
 
 ---
 
@@ -1320,7 +1320,7 @@ Location *string
 
 The name of the location this data exchange query template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_analytics_hub_query_template#location GoogleBigqueryAnalyticsHubQueryTemplate#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_analytics_hub_query_template#location GoogleBigqueryAnalyticsHubQueryTemplate#location}
 
 ---
 
@@ -1334,7 +1334,7 @@ QueryTemplateId *string
 
 Unique QueryTemplate ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_analytics_hub_query_template#query_template_id GoogleBigqueryAnalyticsHubQueryTemplate#query_template_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_analytics_hub_query_template#query_template_id GoogleBigqueryAnalyticsHubQueryTemplate#query_template_id}
 
 ---
 
@@ -1348,7 +1348,7 @@ DeletionPolicy *string
 
 This field uses a custom implementation please refer to documentation under /hashicorp/terraform-provider-google-beta/website/docs/r/bigquery_analytics_hub_query_template.html.markdown for specifics.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_analytics_hub_query_template#deletion_policy GoogleBigqueryAnalyticsHubQueryTemplate#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_analytics_hub_query_template#deletion_policy GoogleBigqueryAnalyticsHubQueryTemplate#deletion_policy}
 
 ---
 
@@ -1367,7 +1367,7 @@ Unicode non-characters and C0 and C1 control codes except tabs,
 new lines, carriage returns, and page breaks.
 Default value is an empty string. Max length: 2000 bytes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_analytics_hub_query_template#description GoogleBigqueryAnalyticsHubQueryTemplate#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_analytics_hub_query_template#description GoogleBigqueryAnalyticsHubQueryTemplate#description}
 
 ---
 
@@ -1381,7 +1381,7 @@ Documentation *string
 
 Documentation describing the QueryTemplate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_analytics_hub_query_template#documentation GoogleBigqueryAnalyticsHubQueryTemplate#documentation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_analytics_hub_query_template#documentation GoogleBigqueryAnalyticsHubQueryTemplate#documentation}
 
 ---
 
@@ -1395,7 +1395,7 @@ EncryptionConfiguration GoogleBigqueryAnalyticsHubQueryTemplateEncryptionConfigu
 
 encryption_configuration block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_analytics_hub_query_template#encryption_configuration GoogleBigqueryAnalyticsHubQueryTemplate#encryption_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_analytics_hub_query_template#encryption_configuration GoogleBigqueryAnalyticsHubQueryTemplate#encryption_configuration}
 
 ---
 
@@ -1407,7 +1407,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_analytics_hub_query_template#id GoogleBigqueryAnalyticsHubQueryTemplate#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_analytics_hub_query_template#id GoogleBigqueryAnalyticsHubQueryTemplate#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1424,7 +1424,7 @@ PrimaryContact *string
 
 Email or URL of the primary point of contact of the QueryTemplate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_analytics_hub_query_template#primary_contact GoogleBigqueryAnalyticsHubQueryTemplate#primary_contact}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_analytics_hub_query_template#primary_contact GoogleBigqueryAnalyticsHubQueryTemplate#primary_contact}
 
 ---
 
@@ -1436,7 +1436,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_analytics_hub_query_template#project GoogleBigqueryAnalyticsHubQueryTemplate#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_analytics_hub_query_template#project GoogleBigqueryAnalyticsHubQueryTemplate#project}.
 
 ---
 
@@ -1450,7 +1450,7 @@ Routine GoogleBigqueryAnalyticsHubQueryTemplateRoutine
 
 routine block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_analytics_hub_query_template#routine GoogleBigqueryAnalyticsHubQueryTemplate#routine}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_analytics_hub_query_template#routine GoogleBigqueryAnalyticsHubQueryTemplate#routine}
 
 ---
 
@@ -1466,7 +1466,7 @@ If set to 'true', the QueryTemplate will be submitted for approval and cannot be
 
 This is a one-time action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_analytics_hub_query_template#submit GoogleBigqueryAnalyticsHubQueryTemplate#submit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_analytics_hub_query_template#submit GoogleBigqueryAnalyticsHubQueryTemplate#submit}
 
 ---
 
@@ -1480,7 +1480,7 @@ Timeouts GoogleBigqueryAnalyticsHubQueryTemplateTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_analytics_hub_query_template#timeouts GoogleBigqueryAnalyticsHubQueryTemplate#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_analytics_hub_query_template#timeouts GoogleBigqueryAnalyticsHubQueryTemplate#timeouts}
 
 ---
 
@@ -1489,7 +1489,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryAnalyticsHubQueryTemplate.GoogleBigqueryAnalyticsHubQueryTemplateEncryptionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigqueryanalyticshubquerytemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebigqueryanalyticshubquerytemplate"
 
 &googlebigqueryanalyticshubquerytemplate.GoogleBigqueryAnalyticsHubQueryTemplateEncryptionConfiguration {
 	KmsKeyName: *string,
@@ -1514,7 +1514,7 @@ KmsKeyName *string
 
 The KMS key used to encrypt the query template. Format: 'projects/{project}/locations/{location}/keyRings/{keyring}/cryptoKeys/{key}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_analytics_hub_query_template#kms_key_name GoogleBigqueryAnalyticsHubQueryTemplate#kms_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_analytics_hub_query_template#kms_key_name GoogleBigqueryAnalyticsHubQueryTemplate#kms_key_name}
 
 ---
 
@@ -1523,7 +1523,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryAnalyticsHubQueryTemplate.GoogleBigqueryAnalyticsHubQueryTemplateRoutine.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigqueryanalyticshubquerytemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebigqueryanalyticshubquerytemplate"
 
 &googlebigqueryanalyticshubquerytemplate.GoogleBigqueryAnalyticsHubQueryTemplateRoutine {
 	DefinitionBody: *string,
@@ -1550,7 +1550,7 @@ DefinitionBody *string
 
 SQL query logic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_analytics_hub_query_template#definition_body GoogleBigqueryAnalyticsHubQueryTemplate#definition_body}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_analytics_hub_query_template#definition_body GoogleBigqueryAnalyticsHubQueryTemplate#definition_body}
 
 ---
 
@@ -1564,7 +1564,7 @@ RoutineType *string
 
 Type of routine (e.g., TABLE_VALUED_FUNCTION). Possible values: ["TABLE_VALUED_FUNCTION"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_analytics_hub_query_template#routine_type GoogleBigqueryAnalyticsHubQueryTemplate#routine_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_analytics_hub_query_template#routine_type GoogleBigqueryAnalyticsHubQueryTemplate#routine_type}
 
 ---
 
@@ -1573,7 +1573,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryAnalyticsHubQueryTemplate.GoogleBigqueryAnalyticsHubQueryTemplateTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigqueryanalyticshubquerytemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebigqueryanalyticshubquerytemplate"
 
 &googlebigqueryanalyticshubquerytemplate.GoogleBigqueryAnalyticsHubQueryTemplateTimeouts {
 	Create: *string,
@@ -1586,9 +1586,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebi
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryAnalyticsHubQueryTemplate.GoogleBigqueryAnalyticsHubQueryTemplateTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_analytics_hub_query_template#create GoogleBigqueryAnalyticsHubQueryTemplate#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryAnalyticsHubQueryTemplate.GoogleBigqueryAnalyticsHubQueryTemplateTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_analytics_hub_query_template#delete GoogleBigqueryAnalyticsHubQueryTemplate#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryAnalyticsHubQueryTemplate.GoogleBigqueryAnalyticsHubQueryTemplateTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_analytics_hub_query_template#update GoogleBigqueryAnalyticsHubQueryTemplate#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryAnalyticsHubQueryTemplate.GoogleBigqueryAnalyticsHubQueryTemplateTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_analytics_hub_query_template#create GoogleBigqueryAnalyticsHubQueryTemplate#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryAnalyticsHubQueryTemplate.GoogleBigqueryAnalyticsHubQueryTemplateTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_analytics_hub_query_template#delete GoogleBigqueryAnalyticsHubQueryTemplate#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryAnalyticsHubQueryTemplate.GoogleBigqueryAnalyticsHubQueryTemplateTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_analytics_hub_query_template#update GoogleBigqueryAnalyticsHubQueryTemplate#update}. |
 
 ---
 
@@ -1600,7 +1600,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_analytics_hub_query_template#create GoogleBigqueryAnalyticsHubQueryTemplate#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_analytics_hub_query_template#create GoogleBigqueryAnalyticsHubQueryTemplate#create}.
 
 ---
 
@@ -1612,7 +1612,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_analytics_hub_query_template#delete GoogleBigqueryAnalyticsHubQueryTemplate#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_analytics_hub_query_template#delete GoogleBigqueryAnalyticsHubQueryTemplate#delete}.
 
 ---
 
@@ -1624,7 +1624,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_analytics_hub_query_template#update GoogleBigqueryAnalyticsHubQueryTemplate#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_analytics_hub_query_template#update GoogleBigqueryAnalyticsHubQueryTemplate#update}.
 
 ---
 
@@ -1635,7 +1635,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryAnalyticsHubQueryTemplate.GoogleBigqueryAnalyticsHubQueryTemplateEncryptionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigqueryanalyticshubquerytemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebigqueryanalyticshubquerytemplate"
 
 googlebigqueryanalyticshubquerytemplate.NewGoogleBigqueryAnalyticsHubQueryTemplateEncryptionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigqueryAnalyticsHubQueryTemplateEncryptionConfigurationOutputReference
 ```
@@ -1906,7 +1906,7 @@ func InternalValue() GoogleBigqueryAnalyticsHubQueryTemplateEncryptionConfigurat
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryAnalyticsHubQueryTemplate.GoogleBigqueryAnalyticsHubQueryTemplateRoutineOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigqueryanalyticshubquerytemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebigqueryanalyticshubquerytemplate"
 
 googlebigqueryanalyticshubquerytemplate.NewGoogleBigqueryAnalyticsHubQueryTemplateRoutineOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigqueryAnalyticsHubQueryTemplateRoutineOutputReference
 ```
@@ -2213,7 +2213,7 @@ func InternalValue() GoogleBigqueryAnalyticsHubQueryTemplateRoutine
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryAnalyticsHubQueryTemplate.GoogleBigqueryAnalyticsHubQueryTemplateTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigqueryanalyticshubquerytemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebigqueryanalyticshubquerytemplate"
 
 googlebigqueryanalyticshubquerytemplate.NewGoogleBigqueryAnalyticsHubQueryTemplateTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigqueryAnalyticsHubQueryTemplateTimeoutsOutputReference
 ```

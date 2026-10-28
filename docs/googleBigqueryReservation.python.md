@@ -4,7 +4,7 @@
 
 ### GoogleBigqueryReservation <a name="GoogleBigqueryReservation" id="@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation google_bigquery_reservation}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation google_bigquery_reservation}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservation.Initializer"></a>
 
@@ -35,6 +35,7 @@ googleBigqueryReservation.GoogleBigqueryReservation(
   project: str = None,
   reservation_group: str = None,
   scaling_mode: str = None,
+  scheduling_policy: GoogleBigqueryReservationSchedulingPolicy = None,
   secondary_location: str = None,
   timeouts: GoogleBigqueryReservationTimeouts = None
 )
@@ -57,14 +58,15 @@ googleBigqueryReservation.GoogleBigqueryReservation(
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservation.Initializer.parameter.concurrency">concurrency</a></code> | <code>typing.Union[int, float]</code> | Maximum number of queries that are allowed to run concurrently in this reservation. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservation.Initializer.parameter.deletionPolicy">deletion_policy</a></code> | <code>str</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservation.Initializer.parameter.edition">edition</a></code> | <code>str</code> | The edition type. Valid values are STANDARD, ENTERPRISE, ENTERPRISE_PLUS. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservation.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation#id GoogleBigqueryReservation#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservation.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation#id GoogleBigqueryReservation#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservation.Initializer.parameter.ignoreIdleSlots">ignore_idle_slots</a></code> | <code>bool \| cdktn.IResolvable</code> | If false, any query using this reservation will use idle slots from other reservations within the same admin project. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservation.Initializer.parameter.labels">labels</a></code> | <code>typing.Mapping[str]</code> | The labels associated with this reservation. You can use these to organize and group your reservations. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservation.Initializer.parameter.location">location</a></code> | <code>str</code> | The geographic location where the transfer config should reside. Examples: US, EU, asia-northeast1. The default value is US. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservation.Initializer.parameter.maxSlots">max_slots</a></code> | <code>typing.Union[int, float]</code> | The overall max slots for the reservation, covering slotCapacity (baseline), idle slots (if ignoreIdleSlots is false) and scaled slots. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservation.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation#project GoogleBigqueryReservation#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservation.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation#project GoogleBigqueryReservation#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservation.Initializer.parameter.reservationGroup">reservation_group</a></code> | <code>str</code> | The reservation group that this reservation belongs to. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservation.Initializer.parameter.scalingMode">scaling_mode</a></code> | <code>str</code> | The scaling mode for the reservation. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservation.Initializer.parameter.schedulingPolicy">scheduling_policy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicy">GoogleBigqueryReservationSchedulingPolicy</a></code> | scheduling_policy block. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservation.Initializer.parameter.secondaryLocation">secondary_location</a></code> | <code>str</code> | The current location of the reservation's secondary replica. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservation.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationTimeouts">GoogleBigqueryReservationTimeouts</a></code> | timeouts block. |
 
@@ -136,7 +138,7 @@ Must be unique amongst siblings in the same scope
 
 The name of the reservation. This field must only contain alphanumeric characters or dash.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation#name GoogleBigqueryReservation#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation#name GoogleBigqueryReservation#name}
 
 ---
 
@@ -149,7 +151,7 @@ Minimum slots available to this reservation.
 A slot is a unit of computational power in BigQuery, and serves as the
 unit of parallelism. Queries using this reservation might use more slots during runtime if ignoreIdleSlots is set to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation#slot_capacity GoogleBigqueryReservation#slot_capacity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation#slot_capacity GoogleBigqueryReservation#slot_capacity}
 
 ---
 
@@ -159,7 +161,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 autoscale block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation#autoscale GoogleBigqueryReservation#autoscale}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation#autoscale GoogleBigqueryReservation#autoscale}
 
 ---
 
@@ -171,7 +173,7 @@ Maximum number of queries that are allowed to run concurrently in this reservati
 
 This is a soft limit due to asynchronous nature of the system and various optimizations for small queries. Default value is 0 which means that concurrency will be automatically set based on the reservation size.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation#concurrency GoogleBigqueryReservation#concurrency}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation#concurrency GoogleBigqueryReservation#concurrency}
 
 ---
 
@@ -188,7 +190,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation#deletion_policy GoogleBigqueryReservation#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation#deletion_policy GoogleBigqueryReservation#deletion_policy}
 
 ---
 
@@ -198,7 +200,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The edition type. Valid values are STANDARD, ENTERPRISE, ENTERPRISE_PLUS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation#edition GoogleBigqueryReservation#edition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation#edition GoogleBigqueryReservation#edition}
 
 ---
 
@@ -206,7 +208,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation#id GoogleBigqueryReservation#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation#id GoogleBigqueryReservation#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -222,7 +224,7 @@ If false, any query using this reservation will use idle slots from other reserv
 If true, a query using this reservation will execute with the slot
 capacity specified above at most.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation#ignore_idle_slots GoogleBigqueryReservation#ignore_idle_slots}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation#ignore_idle_slots GoogleBigqueryReservation#ignore_idle_slots}
 
 ---
 
@@ -235,7 +237,7 @@ The labels associated with this reservation. You can use these to organize and g
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation#labels GoogleBigqueryReservation#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation#labels GoogleBigqueryReservation#labels}
 
 ---
 
@@ -245,7 +247,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The geographic location where the transfer config should reside. Examples: US, EU, asia-northeast1. The default value is US.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation#location GoogleBigqueryReservation#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation#location GoogleBigqueryReservation#location}
 
 ---
 
@@ -294,7 +296,7 @@ Please note that if maxSlots is set to 0, we will treat it as unset. Customers c
 maxSlots to 0 and set scalingMode to SCALING_MODE_UNSPECIFIED to disable the maxSlots
 feature.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation#max_slots GoogleBigqueryReservation#max_slots}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation#max_slots GoogleBigqueryReservation#max_slots}
 
 ---
 
@@ -302,7 +304,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation#project GoogleBigqueryReservation#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation#project GoogleBigqueryReservation#project}.
 
 ---
 
@@ -312,7 +314,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The reservation group that this reservation belongs to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation#reservation_group GoogleBigqueryReservation#reservation_group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation#reservation_group GoogleBigqueryReservation#reservation_group}
 
 ---
 
@@ -360,7 +362,17 @@ available in other reservations, it will scale up to 1000 slots with 200 baselin
 autoscaling slots. Please note, in this mode, the ignoreIdleSlots field must be set to false.
 Otherwise the request will be rejected with error code google.rpc.Code.INVALID_ARGUMENT. Possible values: ["SCALING_MODE_UNSPECIFIED", "AUTOSCALE_ONLY", "IDLE_SLOTS_ONLY", "ALL_SLOTS"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation#scaling_mode GoogleBigqueryReservation#scaling_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation#scaling_mode GoogleBigqueryReservation#scaling_mode}
+
+---
+
+##### `scheduling_policy`<sup>Optional</sup> <a name="scheduling_policy" id="@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservation.Initializer.parameter.schedulingPolicy"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicy">GoogleBigqueryReservationSchedulingPolicy</a>
+
+scheduling_policy block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation#scheduling_policy GoogleBigqueryReservation#scheduling_policy}
 
 ---
 
@@ -375,7 +387,7 @@ reservations using the managed disaster recovery feature. Users can set this in 
 reservation calls to create a failover reservation or in update reservation calls to convert
 a non-failover reservation to a failover reservation(or vice versa).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation#secondary_location GoogleBigqueryReservation#secondary_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation#secondary_location GoogleBigqueryReservation#secondary_location}
 
 ---
 
@@ -385,7 +397,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation#timeouts GoogleBigqueryReservation#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation#timeouts GoogleBigqueryReservation#timeouts}
 
 ---
 
@@ -418,6 +430,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservation.moveTo">move_to</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservation.moveToId">move_to_id</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservation.putAutoscale">put_autoscale</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservation.putSchedulingPolicy">put_scheduling_policy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservation.putTimeouts">put_timeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservation.resetAutoscale">reset_autoscale</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservation.resetConcurrency">reset_concurrency</a></code> | *No description.* |
@@ -431,6 +444,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservation.resetProject">reset_project</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservation.resetReservationGroup">reset_reservation_group</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservation.resetScalingMode">reset_scaling_mode</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservation.resetSchedulingPolicy">reset_scheduling_policy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservation.resetSecondaryLocation">reset_secondary_location</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservation.resetTimeouts">reset_timeouts</a></code> | *No description.* |
 
@@ -798,7 +812,36 @@ def put_autoscale(
 
 Number of slots to be scaled when needed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation#max_slots GoogleBigqueryReservation#max_slots}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation#max_slots GoogleBigqueryReservation#max_slots}
+
+---
+
+##### `put_scheduling_policy` <a name="put_scheduling_policy" id="@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservation.putSchedulingPolicy"></a>
+
+```python
+def put_scheduling_policy(
+  concurrency: typing.Union[int, float] = None,
+  max_slots: typing.Union[int, float] = None
+) -> None
+```
+
+###### `concurrency`<sup>Optional</sup> <a name="concurrency" id="@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservation.putSchedulingPolicy.parameter.concurrency"></a>
+
+- *Type:* typing.Union[int, float]
+
+If present and > 0, the reservation will attempt to limit the concurrency of jobs running for any particular project within it to the given value.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation#concurrency GoogleBigqueryReservation#concurrency}
+
+---
+
+###### `max_slots`<sup>Optional</sup> <a name="max_slots" id="@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservation.putSchedulingPolicy.parameter.maxSlots"></a>
+
+- *Type:* typing.Union[int, float]
+
+If present and > 0, the reservation will attempt to limit the slot consumption of queries running for any particular project within it to the given value.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation#max_slots GoogleBigqueryReservation#max_slots}
 
 ---
 
@@ -816,7 +859,7 @@ def put_timeouts(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation#create GoogleBigqueryReservation#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation#create GoogleBigqueryReservation#create}.
 
 ---
 
@@ -824,7 +867,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation#delete GoogleBigqueryReservation#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation#delete GoogleBigqueryReservation#delete}.
 
 ---
 
@@ -832,7 +875,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation#update GoogleBigqueryReservation#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation#update GoogleBigqueryReservation#update}.
 
 ---
 
@@ -906,6 +949,12 @@ def reset_reservation_group() -> None
 
 ```python
 def reset_scaling_mode() -> None
+```
+
+##### `reset_scheduling_policy` <a name="reset_scheduling_policy" id="@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservation.resetSchedulingPolicy"></a>
+
+```python
+def reset_scheduling_policy() -> None
 ```
 
 ##### `reset_secondary_location` <a name="reset_secondary_location" id="@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservation.resetSecondaryLocation"></a>
@@ -1034,7 +1083,7 @@ The construct id used in the generated config for the GoogleBigqueryReservation 
 
 The id of the existing GoogleBigqueryReservation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1069,6 +1118,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservation.property.originalPrimaryLocation">original_primary_location</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservation.property.primaryLocation">primary_location</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservation.property.replicationStatus">replication_status</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationReplicationStatusList">GoogleBigqueryReservationReplicationStatusList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservation.property.schedulingPolicy">scheduling_policy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicyOutputReference">GoogleBigqueryReservationSchedulingPolicyOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservation.property.terraformLabels">terraform_labels</a></code> | <code>cdktn.StringMap</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservation.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationTimeoutsOutputReference">GoogleBigqueryReservationTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservation.property.autoscaleInput">autoscale_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationAutoscale">GoogleBigqueryReservationAutoscale</a></code> | *No description.* |
@@ -1084,6 +1134,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservation.property.projectInput">project_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservation.property.reservationGroupInput">reservation_group_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservation.property.scalingModeInput">scaling_mode_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservation.property.schedulingPolicyInput">scheduling_policy_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicy">GoogleBigqueryReservationSchedulingPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservation.property.secondaryLocationInput">secondary_location_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservation.property.slotCapacityInput">slot_capacity_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservation.property.timeoutsInput">timeouts_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationTimeouts">GoogleBigqueryReservationTimeouts</a></code> | *No description.* |
@@ -1296,6 +1347,16 @@ replication_status: GoogleBigqueryReservationReplicationStatusList
 
 ---
 
+##### `scheduling_policy`<sup>Required</sup> <a name="scheduling_policy" id="@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservation.property.schedulingPolicy"></a>
+
+```python
+scheduling_policy: GoogleBigqueryReservationSchedulingPolicyOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicyOutputReference">GoogleBigqueryReservationSchedulingPolicyOutputReference</a>
+
+---
+
 ##### `terraform_labels`<sup>Required</sup> <a name="terraform_labels" id="@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservation.property.terraformLabels"></a>
 
 ```python
@@ -1443,6 +1504,16 @@ scaling_mode_input: str
 ```
 
 - *Type:* str
+
+---
+
+##### `scheduling_policy_input`<sup>Optional</sup> <a name="scheduling_policy_input" id="@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservation.property.schedulingPolicyInput"></a>
+
+```python
+scheduling_policy_input: GoogleBigqueryReservationSchedulingPolicy
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicy">GoogleBigqueryReservationSchedulingPolicy</a>
 
 ---
 
@@ -1666,7 +1737,7 @@ max_slots: typing.Union[int, float]
 
 Number of slots to be scaled when needed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation#max_slots GoogleBigqueryReservation#max_slots}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation#max_slots GoogleBigqueryReservation#max_slots}
 
 ---
 
@@ -1699,6 +1770,7 @@ googleBigqueryReservation.GoogleBigqueryReservationConfig(
   project: str = None,
   reservation_group: str = None,
   scaling_mode: str = None,
+  scheduling_policy: GoogleBigqueryReservationSchedulingPolicy = None,
   secondary_location: str = None,
   timeouts: GoogleBigqueryReservationTimeouts = None
 )
@@ -1721,14 +1793,15 @@ googleBigqueryReservation.GoogleBigqueryReservationConfig(
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationConfig.property.concurrency">concurrency</a></code> | <code>typing.Union[int, float]</code> | Maximum number of queries that are allowed to run concurrently in this reservation. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationConfig.property.deletionPolicy">deletion_policy</a></code> | <code>str</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationConfig.property.edition">edition</a></code> | <code>str</code> | The edition type. Valid values are STANDARD, ENTERPRISE, ENTERPRISE_PLUS. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation#id GoogleBigqueryReservation#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation#id GoogleBigqueryReservation#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationConfig.property.ignoreIdleSlots">ignore_idle_slots</a></code> | <code>bool \| cdktn.IResolvable</code> | If false, any query using this reservation will use idle slots from other reservations within the same admin project. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationConfig.property.labels">labels</a></code> | <code>typing.Mapping[str]</code> | The labels associated with this reservation. You can use these to organize and group your reservations. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationConfig.property.location">location</a></code> | <code>str</code> | The geographic location where the transfer config should reside. Examples: US, EU, asia-northeast1. The default value is US. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationConfig.property.maxSlots">max_slots</a></code> | <code>typing.Union[int, float]</code> | The overall max slots for the reservation, covering slotCapacity (baseline), idle slots (if ignoreIdleSlots is false) and scaled slots. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation#project GoogleBigqueryReservation#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation#project GoogleBigqueryReservation#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationConfig.property.reservationGroup">reservation_group</a></code> | <code>str</code> | The reservation group that this reservation belongs to. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationConfig.property.scalingMode">scaling_mode</a></code> | <code>str</code> | The scaling mode for the reservation. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationConfig.property.schedulingPolicy">scheduling_policy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicy">GoogleBigqueryReservationSchedulingPolicy</a></code> | scheduling_policy block. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationConfig.property.secondaryLocation">secondary_location</a></code> | <code>str</code> | The current location of the reservation's secondary replica. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationTimeouts">GoogleBigqueryReservationTimeouts</a></code> | timeouts block. |
 
@@ -1814,7 +1887,7 @@ name: str
 
 The name of the reservation. This field must only contain alphanumeric characters or dash.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation#name GoogleBigqueryReservation#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation#name GoogleBigqueryReservation#name}
 
 ---
 
@@ -1831,7 +1904,7 @@ Minimum slots available to this reservation.
 A slot is a unit of computational power in BigQuery, and serves as the
 unit of parallelism. Queries using this reservation might use more slots during runtime if ignoreIdleSlots is set to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation#slot_capacity GoogleBigqueryReservation#slot_capacity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation#slot_capacity GoogleBigqueryReservation#slot_capacity}
 
 ---
 
@@ -1845,7 +1918,7 @@ autoscale: GoogleBigqueryReservationAutoscale
 
 autoscale block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation#autoscale GoogleBigqueryReservation#autoscale}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation#autoscale GoogleBigqueryReservation#autoscale}
 
 ---
 
@@ -1861,7 +1934,7 @@ Maximum number of queries that are allowed to run concurrently in this reservati
 
 This is a soft limit due to asynchronous nature of the system and various optimizations for small queries. Default value is 0 which means that concurrency will be automatically set based on the reservation size.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation#concurrency GoogleBigqueryReservation#concurrency}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation#concurrency GoogleBigqueryReservation#concurrency}
 
 ---
 
@@ -1882,7 +1955,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation#deletion_policy GoogleBigqueryReservation#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation#deletion_policy GoogleBigqueryReservation#deletion_policy}
 
 ---
 
@@ -1896,7 +1969,7 @@ edition: str
 
 The edition type. Valid values are STANDARD, ENTERPRISE, ENTERPRISE_PLUS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation#edition GoogleBigqueryReservation#edition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation#edition GoogleBigqueryReservation#edition}
 
 ---
 
@@ -1908,7 +1981,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation#id GoogleBigqueryReservation#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation#id GoogleBigqueryReservation#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1928,7 +2001,7 @@ If false, any query using this reservation will use idle slots from other reserv
 If true, a query using this reservation will execute with the slot
 capacity specified above at most.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation#ignore_idle_slots GoogleBigqueryReservation#ignore_idle_slots}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation#ignore_idle_slots GoogleBigqueryReservation#ignore_idle_slots}
 
 ---
 
@@ -1945,7 +2018,7 @@ The labels associated with this reservation. You can use these to organize and g
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation#labels GoogleBigqueryReservation#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation#labels GoogleBigqueryReservation#labels}
 
 ---
 
@@ -1959,7 +2032,7 @@ location: str
 
 The geographic location where the transfer config should reside. Examples: US, EU, asia-northeast1. The default value is US.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation#location GoogleBigqueryReservation#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation#location GoogleBigqueryReservation#location}
 
 ---
 
@@ -2012,7 +2085,7 @@ Please note that if maxSlots is set to 0, we will treat it as unset. Customers c
 maxSlots to 0 and set scalingMode to SCALING_MODE_UNSPECIFIED to disable the maxSlots
 feature.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation#max_slots GoogleBigqueryReservation#max_slots}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation#max_slots GoogleBigqueryReservation#max_slots}
 
 ---
 
@@ -2024,7 +2097,7 @@ project: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation#project GoogleBigqueryReservation#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation#project GoogleBigqueryReservation#project}.
 
 ---
 
@@ -2038,7 +2111,7 @@ reservation_group: str
 
 The reservation group that this reservation belongs to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation#reservation_group GoogleBigqueryReservation#reservation_group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation#reservation_group GoogleBigqueryReservation#reservation_group}
 
 ---
 
@@ -2090,7 +2163,21 @@ available in other reservations, it will scale up to 1000 slots with 200 baselin
 autoscaling slots. Please note, in this mode, the ignoreIdleSlots field must be set to false.
 Otherwise the request will be rejected with error code google.rpc.Code.INVALID_ARGUMENT. Possible values: ["SCALING_MODE_UNSPECIFIED", "AUTOSCALE_ONLY", "IDLE_SLOTS_ONLY", "ALL_SLOTS"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation#scaling_mode GoogleBigqueryReservation#scaling_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation#scaling_mode GoogleBigqueryReservation#scaling_mode}
+
+---
+
+##### `scheduling_policy`<sup>Optional</sup> <a name="scheduling_policy" id="@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationConfig.property.schedulingPolicy"></a>
+
+```python
+scheduling_policy: GoogleBigqueryReservationSchedulingPolicy
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicy">GoogleBigqueryReservationSchedulingPolicy</a>
+
+scheduling_policy block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation#scheduling_policy GoogleBigqueryReservation#scheduling_policy}
 
 ---
 
@@ -2109,7 +2196,7 @@ reservations using the managed disaster recovery feature. Users can set this in 
 reservation calls to create a failover reservation or in update reservation calls to convert
 a non-failover reservation to a failover reservation(or vice versa).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation#secondary_location GoogleBigqueryReservation#secondary_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation#secondary_location GoogleBigqueryReservation#secondary_location}
 
 ---
 
@@ -2123,7 +2210,7 @@ timeouts: GoogleBigqueryReservationTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation#timeouts GoogleBigqueryReservation#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation#timeouts GoogleBigqueryReservation#timeouts}
 
 ---
 
@@ -2149,6 +2236,56 @@ googleBigqueryReservation.GoogleBigqueryReservationReplicationStatusError()
 ```
 
 
+### GoogleBigqueryReservationSchedulingPolicy <a name="GoogleBigqueryReservationSchedulingPolicy" id="@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicy"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicy.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_bigquery_reservation
+
+googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicy(
+  concurrency: typing.Union[int, float] = None,
+  max_slots: typing.Union[int, float] = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicy.property.concurrency">concurrency</a></code> | <code>typing.Union[int, float]</code> | If present and > 0, the reservation will attempt to limit the concurrency of jobs running for any particular project within it to the given value. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicy.property.maxSlots">max_slots</a></code> | <code>typing.Union[int, float]</code> | If present and > 0, the reservation will attempt to limit the slot consumption of queries running for any particular project within it to the given value. |
+
+---
+
+##### `concurrency`<sup>Optional</sup> <a name="concurrency" id="@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicy.property.concurrency"></a>
+
+```python
+concurrency: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+If present and > 0, the reservation will attempt to limit the concurrency of jobs running for any particular project within it to the given value.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation#concurrency GoogleBigqueryReservation#concurrency}
+
+---
+
+##### `max_slots`<sup>Optional</sup> <a name="max_slots" id="@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicy.property.maxSlots"></a>
+
+```python
+max_slots: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+If present and > 0, the reservation will attempt to limit the slot consumption of queries running for any particular project within it to the given value.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation#max_slots GoogleBigqueryReservation#max_slots}
+
+---
+
 ### GoogleBigqueryReservationTimeouts <a name="GoogleBigqueryReservationTimeouts" id="@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationTimeouts"></a>
 
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationTimeouts.Initializer"></a>
@@ -2167,9 +2304,9 @@ googleBigqueryReservation.GoogleBigqueryReservationTimeouts(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation#create GoogleBigqueryReservation#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation#delete GoogleBigqueryReservation#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation#update GoogleBigqueryReservation#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation#create GoogleBigqueryReservation#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation#delete GoogleBigqueryReservation#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation#update GoogleBigqueryReservation#update}. |
 
 ---
 
@@ -2181,7 +2318,7 @@ create: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation#create GoogleBigqueryReservation#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation#create GoogleBigqueryReservation#create}.
 
 ---
 
@@ -2193,7 +2330,7 @@ delete: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation#delete GoogleBigqueryReservation#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation#delete GoogleBigqueryReservation#delete}.
 
 ---
 
@@ -2205,7 +2342,7 @@ update: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation#update GoogleBigqueryReservation#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation#update GoogleBigqueryReservation#update}.
 
 ---
 
@@ -3482,6 +3619,338 @@ internal_value: GoogleBigqueryReservationReplicationStatus
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationReplicationStatus">GoogleBigqueryReservationReplicationStatus</a>
+
+---
+
+
+### GoogleBigqueryReservationSchedulingPolicyOutputReference <a name="GoogleBigqueryReservationSchedulingPolicyOutputReference" id="@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicyOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicyOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_bigquery_reservation
+
+googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicyOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicyOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicyOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicyOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicyOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicyOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicyOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicyOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicyOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicyOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicyOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicyOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicyOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicyOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicyOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicyOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicyOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicyOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicyOutputReference.resetConcurrency">reset_concurrency</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicyOutputReference.resetMaxSlots">reset_max_slots</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicyOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicyOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicyOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicyOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicyOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicyOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicyOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicyOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicyOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicyOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicyOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicyOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicyOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicyOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicyOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicyOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicyOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicyOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicyOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicyOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicyOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicyOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicyOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicyOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_concurrency` <a name="reset_concurrency" id="@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicyOutputReference.resetConcurrency"></a>
+
+```python
+def reset_concurrency() -> None
+```
+
+##### `reset_max_slots` <a name="reset_max_slots" id="@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicyOutputReference.resetMaxSlots"></a>
+
+```python
+def reset_max_slots() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicyOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicyOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicyOutputReference.property.concurrencyInput">concurrency_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicyOutputReference.property.maxSlotsInput">max_slots_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicyOutputReference.property.concurrency">concurrency</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicyOutputReference.property.maxSlots">max_slots</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicyOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicy">GoogleBigqueryReservationSchedulingPolicy</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicyOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicyOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `concurrency_input`<sup>Optional</sup> <a name="concurrency_input" id="@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicyOutputReference.property.concurrencyInput"></a>
+
+```python
+concurrency_input: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `max_slots_input`<sup>Optional</sup> <a name="max_slots_input" id="@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicyOutputReference.property.maxSlotsInput"></a>
+
+```python
+max_slots_input: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `concurrency`<sup>Required</sup> <a name="concurrency" id="@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicyOutputReference.property.concurrency"></a>
+
+```python
+concurrency: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `max_slots`<sup>Required</sup> <a name="max_slots" id="@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicyOutputReference.property.maxSlots"></a>
+
+```python
+max_slots: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicyOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleBigqueryReservationSchedulingPolicy
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservationSchedulingPolicy">GoogleBigqueryReservationSchedulingPolicy</a>
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### GoogleHypercomputeclusterCluster <a name="GoogleHypercomputeclusterCluster" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterCluster"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster google_hypercomputecluster_cluster}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster google_hypercomputecluster_cluster}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterCluster.Initializer"></a>
 
@@ -53,10 +53,10 @@ googleHypercomputeclusterCluster.GoogleHypercomputeclusterCluster(
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterCluster.Initializer.parameter.computeResources">compute_resources</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResources">GoogleHypercomputeclusterClusterComputeResources</a>]</code> | compute_resources block. |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterCluster.Initializer.parameter.deletionPolicy">deletion_policy</a></code> | <code>str</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterCluster.Initializer.parameter.description">description</a></code> | <code>str</code> | User-provided description of the cluster. |
-| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterCluster.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#id GoogleHypercomputeclusterCluster#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterCluster.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#id GoogleHypercomputeclusterCluster#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterCluster.Initializer.parameter.labels">labels</a></code> | <code>typing.Mapping[str]</code> | [Labels](https://cloud.google.com/compute/docs/labeling-resources) applied to the cluster. Labels can be used to organize clusters and to filter them in queries. |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterCluster.Initializer.parameter.orchestrator">orchestrator</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestrator">GoogleHypercomputeclusterClusterOrchestrator</a></code> | orchestrator block. |
-| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterCluster.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#project GoogleHypercomputeclusterCluster#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterCluster.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#project GoogleHypercomputeclusterCluster#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterCluster.Initializer.parameter.storageResources">storage_resources</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResources">GoogleHypercomputeclusterClusterStorageResources</a>]</code> | storage_resources block. |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterCluster.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterTimeouts">GoogleHypercomputeclusterClusterTimeouts</a></code> | timeouts block. |
 
@@ -131,7 +131,7 @@ ID of the cluster to create.
 Must start with a lowercase letter,
 use only lowercase letters and numbers, and be at most 10 characters long.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#cluster_id GoogleHypercomputeclusterCluster#cluster_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#cluster_id GoogleHypercomputeclusterCluster#cluster_id}
 
 ---
 
@@ -141,7 +141,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#location GoogleHypercomputeclusterCluster#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#location GoogleHypercomputeclusterCluster#location}
 
 ---
 
@@ -151,7 +151,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 network_resources block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#network_resources GoogleHypercomputeclusterCluster#network_resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#network_resources GoogleHypercomputeclusterCluster#network_resources}
 
 ---
 
@@ -161,7 +161,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 compute_resources block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#compute_resources GoogleHypercomputeclusterCluster#compute_resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#compute_resources GoogleHypercomputeclusterCluster#compute_resources}
 
 ---
 
@@ -178,7 +178,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#deletion_policy GoogleHypercomputeclusterCluster#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#deletion_policy GoogleHypercomputeclusterCluster#deletion_policy}
 
 ---
 
@@ -188,7 +188,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 User-provided description of the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#description GoogleHypercomputeclusterCluster#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#description GoogleHypercomputeclusterCluster#description}
 
 ---
 
@@ -196,7 +196,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#id GoogleHypercomputeclusterCluster#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#id GoogleHypercomputeclusterCluster#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -212,7 +212,7 @@ If you experience problems setting this value it might not be settable. Please t
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#labels GoogleHypercomputeclusterCluster#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#labels GoogleHypercomputeclusterCluster#labels}
 
 ---
 
@@ -222,7 +222,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 orchestrator block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#orchestrator GoogleHypercomputeclusterCluster#orchestrator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#orchestrator GoogleHypercomputeclusterCluster#orchestrator}
 
 ---
 
@@ -230,7 +230,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#project GoogleHypercomputeclusterCluster#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#project GoogleHypercomputeclusterCluster#project}.
 
 ---
 
@@ -240,7 +240,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 storage_resources block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#storage_resources GoogleHypercomputeclusterCluster#storage_resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#storage_resources GoogleHypercomputeclusterCluster#storage_resources}
 
 ---
 
@@ -250,7 +250,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#timeouts GoogleHypercomputeclusterCluster#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#timeouts GoogleHypercomputeclusterCluster#timeouts}
 
 ---
 
@@ -689,7 +689,7 @@ def put_orchestrator(
 
 slurm block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#slurm GoogleHypercomputeclusterCluster#slurm}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#slurm GoogleHypercomputeclusterCluster#slurm}
 
 ---
 
@@ -721,7 +721,7 @@ def put_timeouts(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#create GoogleHypercomputeclusterCluster#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#create GoogleHypercomputeclusterCluster#create}.
 
 ---
 
@@ -729,7 +729,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#delete GoogleHypercomputeclusterCluster#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#delete GoogleHypercomputeclusterCluster#delete}.
 
 ---
 
@@ -737,7 +737,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#update GoogleHypercomputeclusterCluster#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#update GoogleHypercomputeclusterCluster#update}.
 
 ---
 
@@ -909,7 +909,7 @@ The construct id used in the generated config for the GoogleHypercomputeclusterC
 
 The id of the existing GoogleHypercomputeclusterCluster that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1452,7 +1452,7 @@ googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResource
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResources.property.config">config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfig">GoogleHypercomputeclusterClusterComputeResourcesConfig</a></code> | config block. |
-| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResources.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#id GoogleHypercomputeclusterCluster#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResources.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#id GoogleHypercomputeclusterCluster#id}. |
 
 ---
 
@@ -1466,7 +1466,7 @@ config: GoogleHypercomputeclusterClusterComputeResourcesConfig
 
 config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#config GoogleHypercomputeclusterCluster#config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#config GoogleHypercomputeclusterCluster#config}
 
 ---
 
@@ -1478,7 +1478,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#id GoogleHypercomputeclusterCluster#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#id GoogleHypercomputeclusterCluster#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1521,7 +1521,7 @@ new_flex_start_instances: GoogleHypercomputeclusterClusterComputeResourcesConfig
 
 new_flex_start_instances block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#new_flex_start_instances GoogleHypercomputeclusterCluster#new_flex_start_instances}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#new_flex_start_instances GoogleHypercomputeclusterCluster#new_flex_start_instances}
 
 ---
 
@@ -1535,7 +1535,7 @@ new_on_demand_instances: GoogleHypercomputeclusterClusterComputeResourcesConfigN
 
 new_on_demand_instances block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#new_on_demand_instances GoogleHypercomputeclusterCluster#new_on_demand_instances}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#new_on_demand_instances GoogleHypercomputeclusterCluster#new_on_demand_instances}
 
 ---
 
@@ -1549,7 +1549,7 @@ new_reserved_instances: GoogleHypercomputeclusterClusterComputeResourcesConfigNe
 
 new_reserved_instances block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#new_reserved_instances GoogleHypercomputeclusterCluster#new_reserved_instances}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#new_reserved_instances GoogleHypercomputeclusterCluster#new_reserved_instances}
 
 ---
 
@@ -1563,7 +1563,7 @@ new_spot_instances: GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpo
 
 new_spot_instances block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#new_spot_instances GoogleHypercomputeclusterCluster#new_spot_instances}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#new_spot_instances GoogleHypercomputeclusterCluster#new_spot_instances}
 
 ---
 
@@ -1577,7 +1577,8 @@ from cdktn_provider_google_beta import google_hypercomputecluster_cluster
 googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstances(
   machine_type: str,
   max_duration: str,
-  zone: str
+  zone: str,
+  network_tags: typing.List[str] = None
 )
 ```
 
@@ -1588,6 +1589,7 @@ googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResource
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstances.property.machineType">machine_type</a></code> | <code>str</code> | Name of the Compute Engine [machine type](https://cloud.google.com/compute/docs/machine-resource) to use, e.g. 'n2-standard-2'. |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstances.property.maxDuration">max_duration</a></code> | <code>str</code> | Specifies the time limit for created instances. Instances will be terminated at the end of this duration. |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstances.property.zone">zone</a></code> | <code>str</code> | Name of the zone in which VM instances should run, e.g., 'us-central1-a'. Must be in the same region as the cluster, and must match the zone of any other resources specified in the cluster. |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstances.property.networkTags">network_tags</a></code> | <code>typing.List[str]</code> | A list of network tags to attach to the VM instances. A maximum of 64 network tags are allowed. |
 
 ---
 
@@ -1601,7 +1603,7 @@ machine_type: str
 
 Name of the Compute Engine [machine type](https://cloud.google.com/compute/docs/machine-resource) to use, e.g. 'n2-standard-2'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#machine_type GoogleHypercomputeclusterCluster#machine_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#machine_type GoogleHypercomputeclusterCluster#machine_type}
 
 ---
 
@@ -1615,7 +1617,7 @@ max_duration: str
 
 Specifies the time limit for created instances. Instances will be terminated at the end of this duration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#max_duration GoogleHypercomputeclusterCluster#max_duration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#max_duration GoogleHypercomputeclusterCluster#max_duration}
 
 ---
 
@@ -1629,7 +1631,21 @@ zone: str
 
 Name of the zone in which VM instances should run, e.g., 'us-central1-a'. Must be in the same region as the cluster, and must match the zone of any other resources specified in the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#zone GoogleHypercomputeclusterCluster#zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#zone GoogleHypercomputeclusterCluster#zone}
+
+---
+
+##### `network_tags`<sup>Optional</sup> <a name="network_tags" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstances.property.networkTags"></a>
+
+```python
+network_tags: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+A list of network tags to attach to the VM instances. A maximum of 64 network tags are allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#network_tags GoogleHypercomputeclusterCluster#network_tags}
 
 ---
 
@@ -1642,7 +1658,8 @@ from cdktn_provider_google_beta import google_hypercomputecluster_cluster
 
 googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstances(
   machine_type: str,
-  zone: str
+  zone: str,
+  network_tags: typing.List[str] = None
 )
 ```
 
@@ -1652,6 +1669,7 @@ googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResource
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstances.property.machineType">machine_type</a></code> | <code>str</code> | Name of the Compute Engine [machine type](https://cloud.google.com/compute/docs/machine-resource) to use, e.g. 'n2-standard-2'. |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstances.property.zone">zone</a></code> | <code>str</code> | Name of the zone in which VM instances should run, e.g., 'us-central1-a'. Must be in the same region as the cluster, and must match the zone of any other resources specified in the cluster. |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstances.property.networkTags">network_tags</a></code> | <code>typing.List[str]</code> | A list of network tags to attach to the VM instances. A maximum of 64 network tags are allowed. |
 
 ---
 
@@ -1665,7 +1683,7 @@ machine_type: str
 
 Name of the Compute Engine [machine type](https://cloud.google.com/compute/docs/machine-resource) to use, e.g. 'n2-standard-2'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#machine_type GoogleHypercomputeclusterCluster#machine_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#machine_type GoogleHypercomputeclusterCluster#machine_type}
 
 ---
 
@@ -1679,7 +1697,21 @@ zone: str
 
 Name of the zone in which VM instances should run, e.g., 'us-central1-a'. Must be in the same region as the cluster, and must match the zone of any other resources specified in the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#zone GoogleHypercomputeclusterCluster#zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#zone GoogleHypercomputeclusterCluster#zone}
+
+---
+
+##### `network_tags`<sup>Optional</sup> <a name="network_tags" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstances.property.networkTags"></a>
+
+```python
+network_tags: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+A list of network tags to attach to the VM instances. A maximum of 64 network tags are allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#network_tags GoogleHypercomputeclusterCluster#network_tags}
 
 ---
 
@@ -1691,6 +1723,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 from cdktn_provider_google_beta import google_hypercomputecluster_cluster
 
 googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewReservedInstances(
+  network_tags: typing.List[str] = None,
   reservation: str = None
 )
 ```
@@ -1699,7 +1732,22 @@ googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResource
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewReservedInstances.property.networkTags">network_tags</a></code> | <code>typing.List[str]</code> | A list of network tags to attach to the VM instances. A maximum of 64 network tags are allowed. |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewReservedInstances.property.reservation">reservation</a></code> | <code>str</code> | Name of the reservation from which VM instances should be created, in the format 'projects/{project}/zones/{zone}/reservations/{reservation}'. |
+
+---
+
+##### `network_tags`<sup>Optional</sup> <a name="network_tags" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewReservedInstances.property.networkTags"></a>
+
+```python
+network_tags: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+A list of network tags to attach to the VM instances. A maximum of 64 network tags are allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#network_tags GoogleHypercomputeclusterCluster#network_tags}
 
 ---
 
@@ -1713,7 +1761,7 @@ reservation: str
 
 Name of the reservation from which VM instances should be created, in the format 'projects/{project}/zones/{zone}/reservations/{reservation}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#reservation GoogleHypercomputeclusterCluster#reservation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#reservation GoogleHypercomputeclusterCluster#reservation}
 
 ---
 
@@ -1727,6 +1775,7 @@ from cdktn_provider_google_beta import google_hypercomputecluster_cluster
 googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstances(
   machine_type: str,
   zone: str,
+  network_tags: typing.List[str] = None,
   termination_action: str = None
 )
 ```
@@ -1737,6 +1786,7 @@ googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResource
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstances.property.machineType">machine_type</a></code> | <code>str</code> | Name of the Compute Engine [machine type](https://cloud.google.com/compute/docs/machine-resource) to use, e.g. 'n2-standard-2'. |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstances.property.zone">zone</a></code> | <code>str</code> | Name of the zone in which VM instances should run, e.g., 'us-central1-a'. Must be in the same region as the cluster, and must match the zone of any other resources specified in the cluster. |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstances.property.networkTags">network_tags</a></code> | <code>typing.List[str]</code> | A list of network tags to attach to the VM instances. A maximum of 64 network tags are allowed. |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstances.property.terminationAction">termination_action</a></code> | <code>str</code> | Specifies the termination action of the instance Possible values: STOP DELETE. |
 
 ---
@@ -1751,7 +1801,7 @@ machine_type: str
 
 Name of the Compute Engine [machine type](https://cloud.google.com/compute/docs/machine-resource) to use, e.g. 'n2-standard-2'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#machine_type GoogleHypercomputeclusterCluster#machine_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#machine_type GoogleHypercomputeclusterCluster#machine_type}
 
 ---
 
@@ -1765,7 +1815,21 @@ zone: str
 
 Name of the zone in which VM instances should run, e.g., 'us-central1-a'. Must be in the same region as the cluster, and must match the zone of any other resources specified in the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#zone GoogleHypercomputeclusterCluster#zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#zone GoogleHypercomputeclusterCluster#zone}
+
+---
+
+##### `network_tags`<sup>Optional</sup> <a name="network_tags" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstances.property.networkTags"></a>
+
+```python
+network_tags: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+A list of network tags to attach to the VM instances. A maximum of 64 network tags are allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#network_tags GoogleHypercomputeclusterCluster#network_tags}
 
 ---
 
@@ -1779,7 +1843,7 @@ termination_action: str
 
 Specifies the termination action of the instance Possible values: STOP DELETE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#termination_action GoogleHypercomputeclusterCluster#termination_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#termination_action GoogleHypercomputeclusterCluster#termination_action}
 
 ---
 
@@ -1830,10 +1894,10 @@ googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterConfig(
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterConfig.property.computeResources">compute_resources</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResources">GoogleHypercomputeclusterClusterComputeResources</a>]</code> | compute_resources block. |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterConfig.property.deletionPolicy">deletion_policy</a></code> | <code>str</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterConfig.property.description">description</a></code> | <code>str</code> | User-provided description of the cluster. |
-| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#id GoogleHypercomputeclusterCluster#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#id GoogleHypercomputeclusterCluster#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterConfig.property.labels">labels</a></code> | <code>typing.Mapping[str]</code> | [Labels](https://cloud.google.com/compute/docs/labeling-resources) applied to the cluster. Labels can be used to organize clusters and to filter them in queries. |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterConfig.property.orchestrator">orchestrator</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestrator">GoogleHypercomputeclusterClusterOrchestrator</a></code> | orchestrator block. |
-| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#project GoogleHypercomputeclusterCluster#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#project GoogleHypercomputeclusterCluster#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterConfig.property.storageResources">storage_resources</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResources">GoogleHypercomputeclusterClusterStorageResources</a>]</code> | storage_resources block. |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterTimeouts">GoogleHypercomputeclusterClusterTimeouts</a></code> | timeouts block. |
 
@@ -1922,7 +1986,7 @@ ID of the cluster to create.
 Must start with a lowercase letter,
 use only lowercase letters and numbers, and be at most 10 characters long.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#cluster_id GoogleHypercomputeclusterCluster#cluster_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#cluster_id GoogleHypercomputeclusterCluster#cluster_id}
 
 ---
 
@@ -1936,7 +2000,7 @@ location: str
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#location GoogleHypercomputeclusterCluster#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#location GoogleHypercomputeclusterCluster#location}
 
 ---
 
@@ -1950,7 +2014,7 @@ network_resources: IResolvable | typing.List[GoogleHypercomputeclusterClusterNet
 
 network_resources block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#network_resources GoogleHypercomputeclusterCluster#network_resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#network_resources GoogleHypercomputeclusterCluster#network_resources}
 
 ---
 
@@ -1964,7 +2028,7 @@ compute_resources: IResolvable | typing.List[GoogleHypercomputeclusterClusterCom
 
 compute_resources block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#compute_resources GoogleHypercomputeclusterCluster#compute_resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#compute_resources GoogleHypercomputeclusterCluster#compute_resources}
 
 ---
 
@@ -1985,7 +2049,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#deletion_policy GoogleHypercomputeclusterCluster#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#deletion_policy GoogleHypercomputeclusterCluster#deletion_policy}
 
 ---
 
@@ -1999,7 +2063,7 @@ description: str
 
 User-provided description of the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#description GoogleHypercomputeclusterCluster#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#description GoogleHypercomputeclusterCluster#description}
 
 ---
 
@@ -2011,7 +2075,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#id GoogleHypercomputeclusterCluster#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#id GoogleHypercomputeclusterCluster#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2031,7 +2095,7 @@ labels: typing.Mapping[str]
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#labels GoogleHypercomputeclusterCluster#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#labels GoogleHypercomputeclusterCluster#labels}
 
 ---
 
@@ -2045,7 +2109,7 @@ orchestrator: GoogleHypercomputeclusterClusterOrchestrator
 
 orchestrator block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#orchestrator GoogleHypercomputeclusterCluster#orchestrator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#orchestrator GoogleHypercomputeclusterCluster#orchestrator}
 
 ---
 
@@ -2057,7 +2121,7 @@ project: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#project GoogleHypercomputeclusterCluster#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#project GoogleHypercomputeclusterCluster#project}.
 
 ---
 
@@ -2071,7 +2135,7 @@ storage_resources: IResolvable | typing.List[GoogleHypercomputeclusterClusterSto
 
 storage_resources block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#storage_resources GoogleHypercomputeclusterCluster#storage_resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#storage_resources GoogleHypercomputeclusterCluster#storage_resources}
 
 ---
 
@@ -2085,7 +2149,7 @@ timeouts: GoogleHypercomputeclusterClusterTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#timeouts GoogleHypercomputeclusterCluster#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#timeouts GoogleHypercomputeclusterCluster#timeouts}
 
 ---
 
@@ -2106,7 +2170,7 @@ googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterNetworkResource
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterNetworkResources.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#id GoogleHypercomputeclusterCluster#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterNetworkResources.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#id GoogleHypercomputeclusterCluster#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterNetworkResources.property.config">config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterNetworkResourcesConfig">GoogleHypercomputeclusterClusterNetworkResourcesConfig</a></code> | config block. |
 
 ---
@@ -2119,7 +2183,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#id GoogleHypercomputeclusterCluster#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#id GoogleHypercomputeclusterCluster#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2136,7 +2200,7 @@ config: GoogleHypercomputeclusterClusterNetworkResourcesConfig
 
 config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#config GoogleHypercomputeclusterCluster#config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#config GoogleHypercomputeclusterCluster#config}
 
 ---
 
@@ -2172,7 +2236,7 @@ existing_network: GoogleHypercomputeclusterClusterNetworkResourcesConfigExisting
 
 existing_network block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#existing_network GoogleHypercomputeclusterCluster#existing_network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#existing_network GoogleHypercomputeclusterCluster#existing_network}
 
 ---
 
@@ -2186,7 +2250,7 @@ new_network: GoogleHypercomputeclusterClusterNetworkResourcesConfigNewNetwork
 
 new_network block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#new_network GoogleHypercomputeclusterCluster#new_network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#new_network GoogleHypercomputeclusterCluster#new_network}
 
 ---
 
@@ -2222,7 +2286,7 @@ network: str
 
 Name of the network to import, in the format 'projects/{project}/global/networks/{network}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#network GoogleHypercomputeclusterCluster#network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#network GoogleHypercomputeclusterCluster#network}
 
 ---
 
@@ -2236,7 +2300,7 @@ subnetwork: str
 
 Particular subnetwork to use, in the format 'projects/{project}/regions/{region}/subnetworks/{subnetwork}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#subnetwork GoogleHypercomputeclusterCluster#subnetwork}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#subnetwork GoogleHypercomputeclusterCluster#subnetwork}
 
 ---
 
@@ -2272,7 +2336,7 @@ network: str
 
 Name of the network to create, in the format 'projects/{project}/global/networks/{network}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#network GoogleHypercomputeclusterCluster#network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#network GoogleHypercomputeclusterCluster#network}
 
 ---
 
@@ -2286,7 +2350,7 @@ description: str
 
 Description of the network. Maximum of 2048 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#description GoogleHypercomputeclusterCluster#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#description GoogleHypercomputeclusterCluster#description}
 
 ---
 
@@ -2331,7 +2395,7 @@ slurm: GoogleHypercomputeclusterClusterOrchestratorSlurm
 
 slurm block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#slurm GoogleHypercomputeclusterCluster#slurm}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#slurm GoogleHypercomputeclusterCluster#slurm}
 
 ---
 
@@ -2375,7 +2439,7 @@ login_nodes: GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodes
 
 login_nodes block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#login_nodes GoogleHypercomputeclusterCluster#login_nodes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#login_nodes GoogleHypercomputeclusterCluster#login_nodes}
 
 ---
 
@@ -2389,7 +2453,7 @@ node_sets: IResolvable | typing.List[GoogleHypercomputeclusterClusterOrchestrato
 
 node_sets block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#node_sets GoogleHypercomputeclusterCluster#node_sets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#node_sets GoogleHypercomputeclusterCluster#node_sets}
 
 ---
 
@@ -2403,7 +2467,7 @@ partitions: IResolvable | typing.List[GoogleHypercomputeclusterClusterOrchestrat
 
 partitions block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#partitions GoogleHypercomputeclusterCluster#partitions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#partitions GoogleHypercomputeclusterCluster#partitions}
 
 ---
 
@@ -2420,7 +2484,7 @@ Default partition to use for submitted jobs that do not explicitly specify a par
 Required if and only if there is more than one partition, in
 which case it must match the id of one of the partitions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#default_partition GoogleHypercomputeclusterCluster#default_partition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#default_partition GoogleHypercomputeclusterCluster#default_partition}
 
 ---
 
@@ -2434,7 +2498,7 @@ epilog_bash_scripts: typing.List[str]
 
 Slurm [epilog scripts](https://slurm.schedmd.com/prolog_epilog.html), which will be executed by compute nodes whenever a node finishes running a job. Values must not be empty.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#epilog_bash_scripts GoogleHypercomputeclusterCluster#epilog_bash_scripts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#epilog_bash_scripts GoogleHypercomputeclusterCluster#epilog_bash_scripts}
 
 ---
 
@@ -2448,7 +2512,7 @@ prolog_bash_scripts: typing.List[str]
 
 Slurm [prolog scripts](https://slurm.schedmd.com/prolog_epilog.html), which will be executed by compute nodes before a node begins running a new job. Values must not be empty.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#prolog_bash_scripts GoogleHypercomputeclusterCluster#prolog_bash_scripts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#prolog_bash_scripts GoogleHypercomputeclusterCluster#prolog_bash_scripts}
 
 ---
 
@@ -2467,6 +2531,7 @@ googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlu
   enable_os_login: bool | IResolvable = None,
   enable_public_ips: bool | IResolvable = None,
   labels: typing.Mapping[str] = None,
+  network_tags: typing.List[str] = None,
   startup_script: str = None,
   storage_configs: IResolvable | typing.List[GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesStorageConfigs] = None
 )
@@ -2483,6 +2548,7 @@ googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlu
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodes.property.enableOsLogin">enable_os_login</a></code> | <code>bool \| cdktn.IResolvable</code> | Whether [OS Login](https://cloud.google.com/compute/docs/oslogin) should be enabled on login node instances. |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodes.property.enablePublicIps">enable_public_ips</a></code> | <code>bool \| cdktn.IResolvable</code> | Whether login node instances should be assigned [external IP addresses](https://cloud.google.com/compute/docs/ip-addresses#externaladdresses). |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodes.property.labels">labels</a></code> | <code>typing.Mapping[str]</code> | [Labels](https://cloud.google.com/compute/docs/labeling-resources) that should be applied to each login node instance. |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodes.property.networkTags">network_tags</a></code> | <code>typing.List[str]</code> | A list of network tags to attach to the VM instances. A maximum of 64 network tags are allowed. |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodes.property.startupScript">startup_script</a></code> | <code>str</code> | [Startup script](https://cloud.google.com/compute/docs/instances/startup-scripts/linux) to be run on each login node instance. Max 256KB. The script must complete within the system-defined default timeout of 5 minutes. For tasks that require more time, consider running them in the background using methods such as '&' or 'nohup'. |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodes.property.storageConfigs">storage_configs</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesStorageConfigs">GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesStorageConfigs</a>]</code> | storage_configs block. |
 
@@ -2498,7 +2564,7 @@ count: str
 
 Number of login node instances to create.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#count GoogleHypercomputeclusterCluster#count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#count GoogleHypercomputeclusterCluster#count}
 
 ---
 
@@ -2512,7 +2578,7 @@ machine_type: str
 
 Name of the Compute Engine [machine type](https://cloud.google.com/compute/docs/machine-resource) to use for login nodes, e.g. 'n2-standard-2'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#machine_type GoogleHypercomputeclusterCluster#machine_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#machine_type GoogleHypercomputeclusterCluster#machine_type}
 
 ---
 
@@ -2526,7 +2592,7 @@ zone: str
 
 Name of the zone in which login nodes should run, e.g., 'us-central1-a'. Must be in the same region as the cluster, and must match the zone of any other resources specified in the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#zone GoogleHypercomputeclusterCluster#zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#zone GoogleHypercomputeclusterCluster#zone}
 
 ---
 
@@ -2540,7 +2606,7 @@ boot_disk: GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesBootDisk
 
 boot_disk block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#boot_disk GoogleHypercomputeclusterCluster#boot_disk}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#boot_disk GoogleHypercomputeclusterCluster#boot_disk}
 
 ---
 
@@ -2554,7 +2620,7 @@ enable_os_login: bool | IResolvable
 
 Whether [OS Login](https://cloud.google.com/compute/docs/oslogin) should be enabled on login node instances.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#enable_os_login GoogleHypercomputeclusterCluster#enable_os_login}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#enable_os_login GoogleHypercomputeclusterCluster#enable_os_login}
 
 ---
 
@@ -2568,7 +2634,7 @@ enable_public_ips: bool | IResolvable
 
 Whether login node instances should be assigned [external IP addresses](https://cloud.google.com/compute/docs/ip-addresses#externaladdresses).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#enable_public_ips GoogleHypercomputeclusterCluster#enable_public_ips}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#enable_public_ips GoogleHypercomputeclusterCluster#enable_public_ips}
 
 ---
 
@@ -2582,7 +2648,21 @@ labels: typing.Mapping[str]
 
 [Labels](https://cloud.google.com/compute/docs/labeling-resources) that should be applied to each login node instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#labels GoogleHypercomputeclusterCluster#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#labels GoogleHypercomputeclusterCluster#labels}
+
+---
+
+##### `network_tags`<sup>Optional</sup> <a name="network_tags" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodes.property.networkTags"></a>
+
+```python
+network_tags: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+A list of network tags to attach to the VM instances. A maximum of 64 network tags are allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#network_tags GoogleHypercomputeclusterCluster#network_tags}
 
 ---
 
@@ -2596,7 +2676,7 @@ startup_script: str
 
 [Startup script](https://cloud.google.com/compute/docs/instances/startup-scripts/linux) to be run on each login node instance. Max 256KB. The script must complete within the system-defined default timeout of 5 minutes. For tasks that require more time, consider running them in the background using methods such as '&' or 'nohup'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#startup_script GoogleHypercomputeclusterCluster#startup_script}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#startup_script GoogleHypercomputeclusterCluster#startup_script}
 
 ---
 
@@ -2610,7 +2690,7 @@ storage_configs: IResolvable | typing.List[GoogleHypercomputeclusterClusterOrche
 
 storage_configs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#storage_configs GoogleHypercomputeclusterCluster#storage_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#storage_configs GoogleHypercomputeclusterCluster#storage_configs}
 
 ---
 
@@ -2646,7 +2726,7 @@ size_gb: str
 
 Size of the disk in gigabytes. Must be at least 10GB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#size_gb GoogleHypercomputeclusterCluster#size_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#size_gb GoogleHypercomputeclusterCluster#size_gb}
 
 ---
 
@@ -2660,7 +2740,7 @@ type: str
 
 [Persistent disk type](https://cloud.google.com/compute/docs/disks#disk-types), in the format 'projects/{project}/zones/{zone}/diskTypes/{disk_type}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#type GoogleHypercomputeclusterCluster#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#type GoogleHypercomputeclusterCluster#type}
 
 ---
 
@@ -2707,7 +2787,7 @@ id: str
 
 ID of the storage resource to mount, which must match a key in the cluster's [storage_resources](Cluster.storage_resources).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#id GoogleHypercomputeclusterCluster#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#id GoogleHypercomputeclusterCluster#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2724,7 +2804,7 @@ local_mount: str
 
 A directory inside the VM instance's file system where the storage resource should be mounted (e.g., '/mnt/share').
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#local_mount GoogleHypercomputeclusterCluster#local_mount}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#local_mount GoogleHypercomputeclusterCluster#local_mount}
 
 ---
 
@@ -2772,7 +2852,7 @@ Must conform to
 [RFC-1034](https://datatracker.ietf.org/doc/html/rfc1034) (lower-case,
 alphanumeric, and at most 63 characters).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#id GoogleHypercomputeclusterCluster#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#id GoogleHypercomputeclusterCluster#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2789,7 +2869,7 @@ compute_id: str
 
 ID of the compute resource on which this nodeset will run. Must match a key in the cluster's [compute_resources](Cluster.compute_resources).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#compute_id GoogleHypercomputeclusterCluster#compute_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#compute_id GoogleHypercomputeclusterCluster#compute_id}
 
 ---
 
@@ -2803,7 +2883,7 @@ compute_instance: GoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsCompu
 
 compute_instance block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#compute_instance GoogleHypercomputeclusterCluster#compute_instance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#compute_instance GoogleHypercomputeclusterCluster#compute_instance}
 
 ---
 
@@ -2822,7 +2902,7 @@ number of additional nodes the cluster can bring online. Leave empty if you
 do not want the cluster to create nodes dynamically, and instead rely only
 on static nodes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#max_dynamic_node_count GoogleHypercomputeclusterCluster#max_dynamic_node_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#max_dynamic_node_count GoogleHypercomputeclusterCluster#max_dynamic_node_count}
 
 ---
 
@@ -2839,7 +2919,7 @@ Number of nodes to be statically created for this nodeset.
 The cluster will
 attempt to ensure that at least this many nodes exist at all times.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#static_node_count GoogleHypercomputeclusterCluster#static_node_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#static_node_count GoogleHypercomputeclusterCluster#static_node_count}
 
 ---
 
@@ -2853,7 +2933,7 @@ storage_configs: IResolvable | typing.List[GoogleHypercomputeclusterClusterOrche
 
 storage_configs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#storage_configs GoogleHypercomputeclusterCluster#storage_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#storage_configs GoogleHypercomputeclusterCluster#storage_configs}
 
 ---
 
@@ -2891,7 +2971,7 @@ boot_disk: GoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsComputeInsta
 
 boot_disk block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#boot_disk GoogleHypercomputeclusterCluster#boot_disk}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#boot_disk GoogleHypercomputeclusterCluster#boot_disk}
 
 ---
 
@@ -2905,7 +2985,7 @@ labels: typing.Mapping[str]
 
 [Labels](https://cloud.google.com/compute/docs/labeling-resources) that should be applied to each VM instance in the nodeset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#labels GoogleHypercomputeclusterCluster#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#labels GoogleHypercomputeclusterCluster#labels}
 
 ---
 
@@ -2919,7 +2999,7 @@ startup_script: str
 
 [Startup script](https://cloud.google.com/compute/docs/instances/startup-scripts/linux) to be run on each VM instance in the nodeset. Max 256KB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#startup_script GoogleHypercomputeclusterCluster#startup_script}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#startup_script GoogleHypercomputeclusterCluster#startup_script}
 
 ---
 
@@ -2955,7 +3035,7 @@ size_gb: str
 
 Size of the disk in gigabytes. Must be at least 10GB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#size_gb GoogleHypercomputeclusterCluster#size_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#size_gb GoogleHypercomputeclusterCluster#size_gb}
 
 ---
 
@@ -2969,7 +3049,7 @@ type: str
 
 [Persistent disk type](https://cloud.google.com/compute/docs/disks#disk-types), in the format 'projects/{project}/zones/{zone}/diskTypes/{disk_type}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#type GoogleHypercomputeclusterCluster#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#type GoogleHypercomputeclusterCluster#type}
 
 ---
 
@@ -3005,7 +3085,7 @@ id: str
 
 ID of the storage resource to mount, which must match a key in the cluster's [storage_resources](Cluster.storage_resources).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#id GoogleHypercomputeclusterCluster#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#id GoogleHypercomputeclusterCluster#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3022,7 +3102,7 @@ local_mount: str
 
 A directory inside the VM instance's file system where the storage resource should be mounted (e.g., '/mnt/share').
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#local_mount GoogleHypercomputeclusterCluster#local_mount}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#local_mount GoogleHypercomputeclusterCluster#local_mount}
 
 ---
 
@@ -3062,7 +3142,7 @@ Must conform to
 [RFC-1034](https://datatracker.ietf.org/doc/html/rfc1034) (lower-case,
 alphanumeric, and at most 63 characters).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#id GoogleHypercomputeclusterCluster#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#id GoogleHypercomputeclusterCluster#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3079,7 +3159,7 @@ node_set_ids: typing.List[str]
 
 IDs of the nodesets that make up this partition. Values must match SlurmNodeSet.id.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#node_set_ids GoogleHypercomputeclusterCluster#node_set_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#node_set_ids GoogleHypercomputeclusterCluster#node_set_ids}
 
 ---
 
@@ -3101,7 +3181,7 @@ googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResource
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResources.property.config">config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfig">GoogleHypercomputeclusterClusterStorageResourcesConfig</a></code> | config block. |
-| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResources.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#id GoogleHypercomputeclusterCluster#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResources.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#id GoogleHypercomputeclusterCluster#id}. |
 
 ---
 
@@ -3115,7 +3195,7 @@ config: GoogleHypercomputeclusterClusterStorageResourcesConfig
 
 config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#config GoogleHypercomputeclusterCluster#config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#config GoogleHypercomputeclusterCluster#config}
 
 ---
 
@@ -3127,7 +3207,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#id GoogleHypercomputeclusterCluster#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#id GoogleHypercomputeclusterCluster#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3156,6 +3236,7 @@ googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResource
   existing_bucket: GoogleHypercomputeclusterClusterStorageResourcesConfigExistingBucket = None,
   existing_filestore: GoogleHypercomputeclusterClusterStorageResourcesConfigExistingFilestore = None,
   existing_lustre: GoogleHypercomputeclusterClusterStorageResourcesConfigExistingLustre = None,
+  existing_nfs: GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfs = None,
   new_bucket: GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucket = None,
   new_filestore: GoogleHypercomputeclusterClusterStorageResourcesConfigNewFilestore = None,
   new_lustre: GoogleHypercomputeclusterClusterStorageResourcesConfigNewLustre = None
@@ -3169,6 +3250,7 @@ googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResource
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfig.property.existingBucket">existing_bucket</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingBucket">GoogleHypercomputeclusterClusterStorageResourcesConfigExistingBucket</a></code> | existing_bucket block. |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfig.property.existingFilestore">existing_filestore</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingFilestore">GoogleHypercomputeclusterClusterStorageResourcesConfigExistingFilestore</a></code> | existing_filestore block. |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfig.property.existingLustre">existing_lustre</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingLustre">GoogleHypercomputeclusterClusterStorageResourcesConfigExistingLustre</a></code> | existing_lustre block. |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfig.property.existingNfs">existing_nfs</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfs">GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfs</a></code> | existing_nfs block. |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfig.property.newBucket">new_bucket</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucket">GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucket</a></code> | new_bucket block. |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfig.property.newFilestore">new_filestore</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewFilestore">GoogleHypercomputeclusterClusterStorageResourcesConfigNewFilestore</a></code> | new_filestore block. |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfig.property.newLustre">new_lustre</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewLustre">GoogleHypercomputeclusterClusterStorageResourcesConfigNewLustre</a></code> | new_lustre block. |
@@ -3185,7 +3267,7 @@ existing_bucket: GoogleHypercomputeclusterClusterStorageResourcesConfigExistingB
 
 existing_bucket block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#existing_bucket GoogleHypercomputeclusterCluster#existing_bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#existing_bucket GoogleHypercomputeclusterCluster#existing_bucket}
 
 ---
 
@@ -3199,7 +3281,7 @@ existing_filestore: GoogleHypercomputeclusterClusterStorageResourcesConfigExisti
 
 existing_filestore block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#existing_filestore GoogleHypercomputeclusterCluster#existing_filestore}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#existing_filestore GoogleHypercomputeclusterCluster#existing_filestore}
 
 ---
 
@@ -3213,7 +3295,21 @@ existing_lustre: GoogleHypercomputeclusterClusterStorageResourcesConfigExistingL
 
 existing_lustre block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#existing_lustre GoogleHypercomputeclusterCluster#existing_lustre}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#existing_lustre GoogleHypercomputeclusterCluster#existing_lustre}
+
+---
+
+##### `existing_nfs`<sup>Optional</sup> <a name="existing_nfs" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfig.property.existingNfs"></a>
+
+```python
+existing_nfs: GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfs
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfs">GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfs</a>
+
+existing_nfs block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#existing_nfs GoogleHypercomputeclusterCluster#existing_nfs}
 
 ---
 
@@ -3227,7 +3323,7 @@ new_bucket: GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucket
 
 new_bucket block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#new_bucket GoogleHypercomputeclusterCluster#new_bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#new_bucket GoogleHypercomputeclusterCluster#new_bucket}
 
 ---
 
@@ -3241,7 +3337,7 @@ new_filestore: GoogleHypercomputeclusterClusterStorageResourcesConfigNewFilestor
 
 new_filestore block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#new_filestore GoogleHypercomputeclusterCluster#new_filestore}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#new_filestore GoogleHypercomputeclusterCluster#new_filestore}
 
 ---
 
@@ -3255,7 +3351,7 @@ new_lustre: GoogleHypercomputeclusterClusterStorageResourcesConfigNewLustre
 
 new_lustre block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#new_lustre GoogleHypercomputeclusterCluster#new_lustre}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#new_lustre GoogleHypercomputeclusterCluster#new_lustre}
 
 ---
 
@@ -3289,7 +3385,7 @@ bucket: str
 
 Name of the Cloud Storage bucket to import.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#bucket GoogleHypercomputeclusterCluster#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#bucket GoogleHypercomputeclusterCluster#bucket}
 
 ---
 
@@ -3323,7 +3419,7 @@ filestore: str
 
 Name of the Filestore instance to import, in the format 'projects/{project}/locations/{location}/instances/{instance}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#filestore GoogleHypercomputeclusterCluster#filestore}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#filestore GoogleHypercomputeclusterCluster#filestore}
 
 ---
 
@@ -3357,7 +3453,73 @@ lustre: str
 
 Name of the Managed Lustre instance to import, in the format 'projects/{project}/locations/{location}/instances/{instance}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#lustre GoogleHypercomputeclusterCluster#lustre}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#lustre GoogleHypercomputeclusterCluster#lustre}
+
+---
+
+### GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfs <a name="GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfs" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfs"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfs.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_hypercomputecluster_cluster
+
+googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfs(
+  remote_mount: str,
+  server_ip_address: str,
+  mount_options: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfs.property.remoteMount">remote_mount</a></code> | <code>str</code> | Remote mount path of the NFS share. |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfs.property.serverIpAddress">server_ip_address</a></code> | <code>str</code> | Server IP address of the NFS share. |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfs.property.mountOptions">mount_options</a></code> | <code>str</code> | Options to mount the NFS share, as expected by fs_mntops field in fstab(5), for example: "rw,vers=4.1,nconnect=2,noatime". |
+
+---
+
+##### `remote_mount`<sup>Required</sup> <a name="remote_mount" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfs.property.remoteMount"></a>
+
+```python
+remote_mount: str
+```
+
+- *Type:* str
+
+Remote mount path of the NFS share.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#remote_mount GoogleHypercomputeclusterCluster#remote_mount}
+
+---
+
+##### `server_ip_address`<sup>Required</sup> <a name="server_ip_address" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfs.property.serverIpAddress"></a>
+
+```python
+server_ip_address: str
+```
+
+- *Type:* str
+
+Server IP address of the NFS share.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#server_ip_address GoogleHypercomputeclusterCluster#server_ip_address}
+
+---
+
+##### `mount_options`<sup>Optional</sup> <a name="mount_options" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfs.property.mountOptions"></a>
+
+```python
+mount_options: str
+```
+
+- *Type:* str
+
+Options to mount the NFS share, as expected by fs_mntops field in fstab(5), for example: "rw,vers=4.1,nconnect=2,noatime".
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#mount_options GoogleHypercomputeclusterCluster#mount_options}
 
 ---
 
@@ -3397,7 +3559,7 @@ bucket: str
 
 Name of the Cloud Storage bucket to create.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#bucket GoogleHypercomputeclusterCluster#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#bucket GoogleHypercomputeclusterCluster#bucket}
 
 ---
 
@@ -3411,7 +3573,7 @@ autoclass: GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketAutocl
 
 autoclass block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#autoclass GoogleHypercomputeclusterCluster#autoclass}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#autoclass GoogleHypercomputeclusterCluster#autoclass}
 
 ---
 
@@ -3425,7 +3587,7 @@ hierarchical_namespace: GoogleHypercomputeclusterClusterStorageResourcesConfigNe
 
 hierarchical_namespace block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#hierarchical_namespace GoogleHypercomputeclusterCluster#hierarchical_namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#hierarchical_namespace GoogleHypercomputeclusterCluster#hierarchical_namespace}
 
 ---
 
@@ -3439,7 +3601,7 @@ storage_class: str
 
 If set, uses the provided storage class as the bucket's default storage class. Possible values: STANDARD NEARLINE COLDLINE ARCHIVE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#storage_class GoogleHypercomputeclusterCluster#storage_class}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#storage_class GoogleHypercomputeclusterCluster#storage_class}
 
 ---
 
@@ -3475,7 +3637,7 @@ enabled: bool | IResolvable
 
 Enables Auto-class feature.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#enabled GoogleHypercomputeclusterCluster#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#enabled GoogleHypercomputeclusterCluster#enabled}
 
 ---
 
@@ -3489,7 +3651,7 @@ terminal_storage_class: str
 
 Terminal storage class of the autoclass bucket Possible values: NEARLINE ARCHIVE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#terminal_storage_class GoogleHypercomputeclusterCluster#terminal_storage_class}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#terminal_storage_class GoogleHypercomputeclusterCluster#terminal_storage_class}
 
 ---
 
@@ -3523,7 +3685,7 @@ enabled: bool | IResolvable
 
 Enables hierarchical namespace setup for the bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#enabled GoogleHypercomputeclusterCluster#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#enabled GoogleHypercomputeclusterCluster#enabled}
 
 ---
 
@@ -3565,7 +3727,7 @@ file_shares: IResolvable | typing.List[GoogleHypercomputeclusterClusterStorageRe
 
 file_shares block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#file_shares GoogleHypercomputeclusterCluster#file_shares}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#file_shares GoogleHypercomputeclusterCluster#file_shares}
 
 ---
 
@@ -3579,7 +3741,7 @@ filestore: str
 
 Name of the Filestore instance to create, in the format 'projects/{project}/locations/{location}/instances/{instance}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#filestore GoogleHypercomputeclusterCluster#filestore}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#filestore GoogleHypercomputeclusterCluster#filestore}
 
 ---
 
@@ -3593,7 +3755,7 @@ tier: str
 
 Service tier to use for the instance. Possible values: ZONAL REGIONAL Possible values: ["TIER_UNSPECIFIED", "ZONAL", "REGIONAL"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#tier GoogleHypercomputeclusterCluster#tier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#tier GoogleHypercomputeclusterCluster#tier}
 
 ---
 
@@ -3607,7 +3769,7 @@ description: str
 
 Description of the instance. Maximum of 2048 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#description GoogleHypercomputeclusterCluster#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#description GoogleHypercomputeclusterCluster#description}
 
 ---
 
@@ -3627,7 +3789,7 @@ Possible values:
 NFSV3
 NFSV41 Possible values: ["PROTOCOL_UNSPECIFIED", "NFSV3", "NFSV41"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#protocol GoogleHypercomputeclusterCluster#protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#protocol GoogleHypercomputeclusterCluster#protocol}
 
 ---
 
@@ -3663,7 +3825,7 @@ capacity_gb: str
 
 Size of the filestore in GB. Must be between 1024 and 102400, and must meet scalability requirements described at https://cloud.google.com/filestore/docs/service-tiers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#capacity_gb GoogleHypercomputeclusterCluster#capacity_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#capacity_gb GoogleHypercomputeclusterCluster#capacity_gb}
 
 ---
 
@@ -3677,7 +3839,7 @@ file_share: str
 
 Filestore share location.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#file_share GoogleHypercomputeclusterCluster#file_share}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#file_share GoogleHypercomputeclusterCluster#file_share}
 
 ---
 
@@ -3719,7 +3881,7 @@ capacity_gb: str
 
 Storage capacity of the instance in gibibytes (GiB). Allowed values are between 18000 and 7632000.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#capacity_gb GoogleHypercomputeclusterCluster#capacity_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#capacity_gb GoogleHypercomputeclusterCluster#capacity_gb}
 
 ---
 
@@ -3737,7 +3899,7 @@ This name is used by client-side tools,
 including when mounting the instance. Must be 8 characters or less and can
 only contain letters and numbers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#filesystem GoogleHypercomputeclusterCluster#filesystem}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#filesystem GoogleHypercomputeclusterCluster#filesystem}
 
 ---
 
@@ -3751,7 +3913,7 @@ lustre: str
 
 Name of the Managed Lustre instance to create, in the format 'projects/{project}/locations/{location}/instances/{instance}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#lustre GoogleHypercomputeclusterCluster#lustre}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#lustre GoogleHypercomputeclusterCluster#lustre}
 
 ---
 
@@ -3765,7 +3927,7 @@ description: str
 
 Description of the Managed Lustre instance. Maximum of 2048 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#description GoogleHypercomputeclusterCluster#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#description GoogleHypercomputeclusterCluster#description}
 
 ---
 
@@ -3784,7 +3946,7 @@ Valid values are 125, 250,
 capacities](https://cloud.google.com/managed-lustre/docs/create-instance#performance-tiers)
 for more information.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#per_unit_storage_throughput GoogleHypercomputeclusterCluster#per_unit_storage_throughput}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#per_unit_storage_throughput GoogleHypercomputeclusterCluster#per_unit_storage_throughput}
 
 ---
 
@@ -3828,9 +3990,9 @@ googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterTimeouts(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#create GoogleHypercomputeclusterCluster#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#delete GoogleHypercomputeclusterCluster#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#update GoogleHypercomputeclusterCluster#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#create GoogleHypercomputeclusterCluster#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#delete GoogleHypercomputeclusterCluster#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#update GoogleHypercomputeclusterCluster#update}. |
 
 ---
 
@@ -3842,7 +4004,7 @@ create: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#create GoogleHypercomputeclusterCluster#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#create GoogleHypercomputeclusterCluster#create}.
 
 ---
 
@@ -3854,7 +4016,7 @@ delete: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#delete GoogleHypercomputeclusterCluster#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#delete GoogleHypercomputeclusterCluster#delete}.
 
 ---
 
@@ -3866,7 +4028,7 @@ update: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#update GoogleHypercomputeclusterCluster#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#update GoogleHypercomputeclusterCluster#update}.
 
 ---
 
@@ -3925,6 +4087,7 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstancesOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstancesOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstancesOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstancesOutputReference.resetNetworkTags">reset_network_tags</a></code> | *No description.* |
 
 ---
 
@@ -4100,6 +4263,12 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `reset_network_tags` <a name="reset_network_tags" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstancesOutputReference.resetNetworkTags"></a>
+
+```python
+def reset_network_tags() -> None
+```
+
 
 #### Properties <a name="Properties" id="Properties"></a>
 
@@ -4109,9 +4278,11 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstancesOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstancesOutputReference.property.machineTypeInput">machine_type_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstancesOutputReference.property.maxDurationInput">max_duration_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstancesOutputReference.property.networkTagsInput">network_tags_input</a></code> | <code>typing.List[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstancesOutputReference.property.zoneInput">zone_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstancesOutputReference.property.machineType">machine_type</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstancesOutputReference.property.maxDuration">max_duration</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstancesOutputReference.property.networkTags">network_tags</a></code> | <code>typing.List[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstancesOutputReference.property.zone">zone</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstancesOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstances">GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstances</a></code> | *No description.* |
 
@@ -4161,6 +4332,16 @@ max_duration_input: str
 
 ---
 
+##### `network_tags_input`<sup>Optional</sup> <a name="network_tags_input" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstancesOutputReference.property.networkTagsInput"></a>
+
+```python
+network_tags_input: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
 ##### `zone_input`<sup>Optional</sup> <a name="zone_input" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstancesOutputReference.property.zoneInput"></a>
 
 ```python
@@ -4188,6 +4369,16 @@ max_duration: str
 ```
 
 - *Type:* str
+
+---
+
+##### `network_tags`<sup>Required</sup> <a name="network_tags" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstancesOutputReference.property.networkTags"></a>
+
+```python
+network_tags: typing.List[str]
+```
+
+- *Type:* typing.List[str]
 
 ---
 
@@ -4265,6 +4456,7 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstancesOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstancesOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstancesOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstancesOutputReference.resetNetworkTags">reset_network_tags</a></code> | *No description.* |
 
 ---
 
@@ -4440,6 +4632,12 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `reset_network_tags` <a name="reset_network_tags" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstancesOutputReference.resetNetworkTags"></a>
+
+```python
+def reset_network_tags() -> None
+```
+
 
 #### Properties <a name="Properties" id="Properties"></a>
 
@@ -4448,8 +4646,10 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstancesOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstancesOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstancesOutputReference.property.machineTypeInput">machine_type_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstancesOutputReference.property.networkTagsInput">network_tags_input</a></code> | <code>typing.List[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstancesOutputReference.property.zoneInput">zone_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstancesOutputReference.property.machineType">machine_type</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstancesOutputReference.property.networkTags">network_tags</a></code> | <code>typing.List[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstancesOutputReference.property.zone">zone</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstancesOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstances">GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstances</a></code> | *No description.* |
 
@@ -4489,6 +4689,16 @@ machine_type_input: str
 
 ---
 
+##### `network_tags_input`<sup>Optional</sup> <a name="network_tags_input" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstancesOutputReference.property.networkTagsInput"></a>
+
+```python
+network_tags_input: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
 ##### `zone_input`<sup>Optional</sup> <a name="zone_input" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstancesOutputReference.property.zoneInput"></a>
 
 ```python
@@ -4506,6 +4716,16 @@ machine_type: str
 ```
 
 - *Type:* str
+
+---
+
+##### `network_tags`<sup>Required</sup> <a name="network_tags" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstancesOutputReference.property.networkTags"></a>
+
+```python
+network_tags: typing.List[str]
+```
+
+- *Type:* typing.List[str]
 
 ---
 
@@ -4583,6 +4803,7 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewReservedInstancesOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewReservedInstancesOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewReservedInstancesOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewReservedInstancesOutputReference.resetNetworkTags">reset_network_tags</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewReservedInstancesOutputReference.resetReservation">reset_reservation</a></code> | *No description.* |
 
 ---
@@ -4759,6 +4980,12 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `reset_network_tags` <a name="reset_network_tags" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewReservedInstancesOutputReference.resetNetworkTags"></a>
+
+```python
+def reset_network_tags() -> None
+```
+
 ##### `reset_reservation` <a name="reset_reservation" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewReservedInstancesOutputReference.resetReservation"></a>
 
 ```python
@@ -4772,7 +4999,9 @@ def reset_reservation() -> None
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewReservedInstancesOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewReservedInstancesOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewReservedInstancesOutputReference.property.networkTagsInput">network_tags_input</a></code> | <code>typing.List[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewReservedInstancesOutputReference.property.reservationInput">reservation_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewReservedInstancesOutputReference.property.networkTags">network_tags</a></code> | <code>typing.List[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewReservedInstancesOutputReference.property.reservation">reservation</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewReservedInstancesOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewReservedInstances">GoogleHypercomputeclusterClusterComputeResourcesConfigNewReservedInstances</a></code> | *No description.* |
 
@@ -4802,6 +5031,16 @@ fqn: str
 
 ---
 
+##### `network_tags_input`<sup>Optional</sup> <a name="network_tags_input" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewReservedInstancesOutputReference.property.networkTagsInput"></a>
+
+```python
+network_tags_input: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
 ##### `reservation_input`<sup>Optional</sup> <a name="reservation_input" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewReservedInstancesOutputReference.property.reservationInput"></a>
 
 ```python
@@ -4809,6 +5048,16 @@ reservation_input: str
 ```
 
 - *Type:* str
+
+---
+
+##### `network_tags`<sup>Required</sup> <a name="network_tags" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewReservedInstancesOutputReference.property.networkTags"></a>
+
+```python
+network_tags: typing.List[str]
+```
+
+- *Type:* typing.List[str]
 
 ---
 
@@ -4886,6 +5135,7 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstancesOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstancesOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstancesOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstancesOutputReference.resetNetworkTags">reset_network_tags</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstancesOutputReference.resetTerminationAction">reset_termination_action</a></code> | *No description.* |
 
 ---
@@ -5062,6 +5312,12 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `reset_network_tags` <a name="reset_network_tags" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstancesOutputReference.resetNetworkTags"></a>
+
+```python
+def reset_network_tags() -> None
+```
+
 ##### `reset_termination_action` <a name="reset_termination_action" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstancesOutputReference.resetTerminationAction"></a>
 
 ```python
@@ -5076,9 +5332,11 @@ def reset_termination_action() -> None
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstancesOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstancesOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstancesOutputReference.property.machineTypeInput">machine_type_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstancesOutputReference.property.networkTagsInput">network_tags_input</a></code> | <code>typing.List[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstancesOutputReference.property.terminationActionInput">termination_action_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstancesOutputReference.property.zoneInput">zone_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstancesOutputReference.property.machineType">machine_type</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstancesOutputReference.property.networkTags">network_tags</a></code> | <code>typing.List[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstancesOutputReference.property.terminationAction">termination_action</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstancesOutputReference.property.zone">zone</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstancesOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstances">GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstances</a></code> | *No description.* |
@@ -5119,6 +5377,16 @@ machine_type_input: str
 
 ---
 
+##### `network_tags_input`<sup>Optional</sup> <a name="network_tags_input" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstancesOutputReference.property.networkTagsInput"></a>
+
+```python
+network_tags_input: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
 ##### `termination_action_input`<sup>Optional</sup> <a name="termination_action_input" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstancesOutputReference.property.terminationActionInput"></a>
 
 ```python
@@ -5146,6 +5414,16 @@ machine_type: str
 ```
 
 - *Type:* str
+
+---
+
+##### `network_tags`<sup>Required</sup> <a name="network_tags" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstancesOutputReference.property.networkTags"></a>
+
+```python
+network_tags: typing.List[str]
+```
+
+- *Type:* typing.List[str]
 
 ---
 
@@ -5422,7 +5700,8 @@ Returns a reversible string representation.
 def put_new_flex_start_instances(
   machine_type: str,
   max_duration: str,
-  zone: str
+  zone: str,
+  network_tags: typing.List[str] = None
 ) -> None
 ```
 
@@ -5432,7 +5711,7 @@ def put_new_flex_start_instances(
 
 Name of the Compute Engine [machine type](https://cloud.google.com/compute/docs/machine-resource) to use, e.g. 'n2-standard-2'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#machine_type GoogleHypercomputeclusterCluster#machine_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#machine_type GoogleHypercomputeclusterCluster#machine_type}
 
 ---
 
@@ -5442,7 +5721,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies the time limit for created instances. Instances will be terminated at the end of this duration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#max_duration GoogleHypercomputeclusterCluster#max_duration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#max_duration GoogleHypercomputeclusterCluster#max_duration}
 
 ---
 
@@ -5452,7 +5731,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Name of the zone in which VM instances should run, e.g., 'us-central1-a'. Must be in the same region as the cluster, and must match the zone of any other resources specified in the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#zone GoogleHypercomputeclusterCluster#zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#zone GoogleHypercomputeclusterCluster#zone}
+
+---
+
+###### `network_tags`<sup>Optional</sup> <a name="network_tags" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigOutputReference.putNewFlexStartInstances.parameter.networkTags"></a>
+
+- *Type:* typing.List[str]
+
+A list of network tags to attach to the VM instances. A maximum of 64 network tags are allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#network_tags GoogleHypercomputeclusterCluster#network_tags}
 
 ---
 
@@ -5461,7 +5750,8 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 ```python
 def put_new_on_demand_instances(
   machine_type: str,
-  zone: str
+  zone: str,
+  network_tags: typing.List[str] = None
 ) -> None
 ```
 
@@ -5471,7 +5761,7 @@ def put_new_on_demand_instances(
 
 Name of the Compute Engine [machine type](https://cloud.google.com/compute/docs/machine-resource) to use, e.g. 'n2-standard-2'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#machine_type GoogleHypercomputeclusterCluster#machine_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#machine_type GoogleHypercomputeclusterCluster#machine_type}
 
 ---
 
@@ -5481,7 +5771,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Name of the zone in which VM instances should run, e.g., 'us-central1-a'. Must be in the same region as the cluster, and must match the zone of any other resources specified in the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#zone GoogleHypercomputeclusterCluster#zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#zone GoogleHypercomputeclusterCluster#zone}
+
+---
+
+###### `network_tags`<sup>Optional</sup> <a name="network_tags" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigOutputReference.putNewOnDemandInstances.parameter.networkTags"></a>
+
+- *Type:* typing.List[str]
+
+A list of network tags to attach to the VM instances. A maximum of 64 network tags are allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#network_tags GoogleHypercomputeclusterCluster#network_tags}
 
 ---
 
@@ -5489,9 +5789,20 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ```python
 def put_new_reserved_instances(
+  network_tags: typing.List[str] = None,
   reservation: str = None
 ) -> None
 ```
+
+###### `network_tags`<sup>Optional</sup> <a name="network_tags" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigOutputReference.putNewReservedInstances.parameter.networkTags"></a>
+
+- *Type:* typing.List[str]
+
+A list of network tags to attach to the VM instances. A maximum of 64 network tags are allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#network_tags GoogleHypercomputeclusterCluster#network_tags}
+
+---
 
 ###### `reservation`<sup>Optional</sup> <a name="reservation" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigOutputReference.putNewReservedInstances.parameter.reservation"></a>
 
@@ -5499,7 +5810,7 @@ def put_new_reserved_instances(
 
 Name of the reservation from which VM instances should be created, in the format 'projects/{project}/zones/{zone}/reservations/{reservation}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#reservation GoogleHypercomputeclusterCluster#reservation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#reservation GoogleHypercomputeclusterCluster#reservation}
 
 ---
 
@@ -5509,6 +5820,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 def put_new_spot_instances(
   machine_type: str,
   zone: str,
+  network_tags: typing.List[str] = None,
   termination_action: str = None
 ) -> None
 ```
@@ -5519,7 +5831,7 @@ def put_new_spot_instances(
 
 Name of the Compute Engine [machine type](https://cloud.google.com/compute/docs/machine-resource) to use, e.g. 'n2-standard-2'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#machine_type GoogleHypercomputeclusterCluster#machine_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#machine_type GoogleHypercomputeclusterCluster#machine_type}
 
 ---
 
@@ -5529,7 +5841,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Name of the zone in which VM instances should run, e.g., 'us-central1-a'. Must be in the same region as the cluster, and must match the zone of any other resources specified in the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#zone GoogleHypercomputeclusterCluster#zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#zone GoogleHypercomputeclusterCluster#zone}
+
+---
+
+###### `network_tags`<sup>Optional</sup> <a name="network_tags" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigOutputReference.putNewSpotInstances.parameter.networkTags"></a>
+
+- *Type:* typing.List[str]
+
+A list of network tags to attach to the VM instances. A maximum of 64 network tags are allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#network_tags GoogleHypercomputeclusterCluster#network_tags}
 
 ---
 
@@ -5539,7 +5861,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies the termination action of the instance Possible values: STOP DELETE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#termination_action GoogleHypercomputeclusterCluster#termination_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#termination_action GoogleHypercomputeclusterCluster#termination_action}
 
 ---
 
@@ -6137,7 +6459,7 @@ def put_config(
 
 new_flex_start_instances block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#new_flex_start_instances GoogleHypercomputeclusterCluster#new_flex_start_instances}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#new_flex_start_instances GoogleHypercomputeclusterCluster#new_flex_start_instances}
 
 ---
 
@@ -6147,7 +6469,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 new_on_demand_instances block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#new_on_demand_instances GoogleHypercomputeclusterCluster#new_on_demand_instances}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#new_on_demand_instances GoogleHypercomputeclusterCluster#new_on_demand_instances}
 
 ---
 
@@ -6157,7 +6479,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 new_reserved_instances block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#new_reserved_instances GoogleHypercomputeclusterCluster#new_reserved_instances}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#new_reserved_instances GoogleHypercomputeclusterCluster#new_reserved_instances}
 
 ---
 
@@ -6167,7 +6489,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 new_spot_instances block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#new_spot_instances GoogleHypercomputeclusterCluster#new_spot_instances}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#new_spot_instances GoogleHypercomputeclusterCluster#new_spot_instances}
 
 ---
 
@@ -7151,7 +7473,7 @@ def put_existing_network(
 
 Name of the network to import, in the format 'projects/{project}/global/networks/{network}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#network GoogleHypercomputeclusterCluster#network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#network GoogleHypercomputeclusterCluster#network}
 
 ---
 
@@ -7161,7 +7483,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Particular subnetwork to use, in the format 'projects/{project}/regions/{region}/subnetworks/{subnetwork}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#subnetwork GoogleHypercomputeclusterCluster#subnetwork}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#subnetwork GoogleHypercomputeclusterCluster#subnetwork}
 
 ---
 
@@ -7180,7 +7502,7 @@ def put_new_network(
 
 Name of the network to create, in the format 'projects/{project}/global/networks/{network}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#network GoogleHypercomputeclusterCluster#network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#network GoogleHypercomputeclusterCluster#network}
 
 ---
 
@@ -7190,7 +7512,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Description of the network. Maximum of 2048 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#description GoogleHypercomputeclusterCluster#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#description GoogleHypercomputeclusterCluster#description}
 
 ---
 
@@ -8206,7 +8528,7 @@ def put_config(
 
 existing_network block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#existing_network GoogleHypercomputeclusterCluster#existing_network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#existing_network GoogleHypercomputeclusterCluster#existing_network}
 
 ---
 
@@ -8216,7 +8538,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 new_network block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#new_network GoogleHypercomputeclusterCluster#new_network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#new_network GoogleHypercomputeclusterCluster#new_network}
 
 ---
 
@@ -8576,7 +8898,7 @@ def put_slurm(
 
 login_nodes block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#login_nodes GoogleHypercomputeclusterCluster#login_nodes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#login_nodes GoogleHypercomputeclusterCluster#login_nodes}
 
 ---
 
@@ -8586,7 +8908,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 node_sets block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#node_sets GoogleHypercomputeclusterCluster#node_sets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#node_sets GoogleHypercomputeclusterCluster#node_sets}
 
 ---
 
@@ -8596,7 +8918,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 partitions block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#partitions GoogleHypercomputeclusterCluster#partitions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#partitions GoogleHypercomputeclusterCluster#partitions}
 
 ---
 
@@ -8609,7 +8931,7 @@ Default partition to use for submitted jobs that do not explicitly specify a par
 Required if and only if there is more than one partition, in
 which case it must match the id of one of the partitions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#default_partition GoogleHypercomputeclusterCluster#default_partition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#default_partition GoogleHypercomputeclusterCluster#default_partition}
 
 ---
 
@@ -8619,7 +8941,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Slurm [epilog scripts](https://slurm.schedmd.com/prolog_epilog.html), which will be executed by compute nodes whenever a node finishes running a job. Values must not be empty.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#epilog_bash_scripts GoogleHypercomputeclusterCluster#epilog_bash_scripts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#epilog_bash_scripts GoogleHypercomputeclusterCluster#epilog_bash_scripts}
 
 ---
 
@@ -8629,7 +8951,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Slurm [prolog scripts](https://slurm.schedmd.com/prolog_epilog.html), which will be executed by compute nodes before a node begins running a new job. Values must not be empty.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#prolog_bash_scripts GoogleHypercomputeclusterCluster#prolog_bash_scripts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#prolog_bash_scripts GoogleHypercomputeclusterCluster#prolog_bash_scripts}
 
 ---
 
@@ -9548,6 +9870,7 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOutputReference.resetEnableOsLogin">reset_enable_os_login</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOutputReference.resetEnablePublicIps">reset_enable_public_ips</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOutputReference.resetLabels">reset_labels</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOutputReference.resetNetworkTags">reset_network_tags</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOutputReference.resetStartupScript">reset_startup_script</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOutputReference.resetStorageConfigs">reset_storage_configs</a></code> | *No description.* |
 
@@ -9740,7 +10063,7 @@ def put_boot_disk(
 
 Size of the disk in gigabytes. Must be at least 10GB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#size_gb GoogleHypercomputeclusterCluster#size_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#size_gb GoogleHypercomputeclusterCluster#size_gb}
 
 ---
 
@@ -9750,7 +10073,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 [Persistent disk type](https://cloud.google.com/compute/docs/disks#disk-types), in the format 'projects/{project}/zones/{zone}/diskTypes/{disk_type}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#type GoogleHypercomputeclusterCluster#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#type GoogleHypercomputeclusterCluster#type}
 
 ---
 
@@ -9792,6 +10115,12 @@ def reset_enable_public_ips() -> None
 def reset_labels() -> None
 ```
 
+##### `reset_network_tags` <a name="reset_network_tags" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOutputReference.resetNetworkTags"></a>
+
+```python
+def reset_network_tags() -> None
+```
+
 ##### `reset_startup_script` <a name="reset_startup_script" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOutputReference.resetStartupScript"></a>
 
 ```python
@@ -9820,6 +10149,7 @@ def reset_storage_configs() -> None
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOutputReference.property.enablePublicIpsInput">enable_public_ips_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOutputReference.property.labelsInput">labels_input</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOutputReference.property.machineTypeInput">machine_type_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOutputReference.property.networkTagsInput">network_tags_input</a></code> | <code>typing.List[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOutputReference.property.startupScriptInput">startup_script_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOutputReference.property.storageConfigsInput">storage_configs_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesStorageConfigs">GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesStorageConfigs</a>]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOutputReference.property.zoneInput">zone_input</a></code> | <code>str</code> | *No description.* |
@@ -9828,6 +10158,7 @@ def reset_storage_configs() -> None
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOutputReference.property.enablePublicIps">enable_public_ips</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOutputReference.property.labels">labels</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOutputReference.property.machineType">machine_type</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOutputReference.property.networkTags">network_tags</a></code> | <code>typing.List[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOutputReference.property.startupScript">startup_script</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOutputReference.property.zone">zone</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodes">GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodes</a></code> | *No description.* |
@@ -9948,6 +10279,16 @@ machine_type_input: str
 
 ---
 
+##### `network_tags_input`<sup>Optional</sup> <a name="network_tags_input" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOutputReference.property.networkTagsInput"></a>
+
+```python
+network_tags_input: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
 ##### `startup_script_input`<sup>Optional</sup> <a name="startup_script_input" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOutputReference.property.startupScriptInput"></a>
 
 ```python
@@ -10025,6 +10366,16 @@ machine_type: str
 ```
 
 - *Type:* str
+
+---
+
+##### `network_tags`<sup>Required</sup> <a name="network_tags" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOutputReference.property.networkTags"></a>
+
+```python
+network_tags: typing.List[str]
+```
+
+- *Type:* typing.List[str]
 
 ---
 
@@ -11132,7 +11483,7 @@ def put_boot_disk(
 
 Size of the disk in gigabytes. Must be at least 10GB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#size_gb GoogleHypercomputeclusterCluster#size_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#size_gb GoogleHypercomputeclusterCluster#size_gb}
 
 ---
 
@@ -11142,7 +11493,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 [Persistent disk type](https://cloud.google.com/compute/docs/disks#disk-types), in the format 'projects/{project}/zones/{zone}/diskTypes/{disk_type}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#type GoogleHypercomputeclusterCluster#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#type GoogleHypercomputeclusterCluster#type}
 
 ---
 
@@ -11717,7 +12068,7 @@ def put_compute_instance(
 
 boot_disk block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#boot_disk GoogleHypercomputeclusterCluster#boot_disk}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#boot_disk GoogleHypercomputeclusterCluster#boot_disk}
 
 ---
 
@@ -11727,7 +12078,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 [Labels](https://cloud.google.com/compute/docs/labeling-resources) that should be applied to each VM instance in the nodeset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#labels GoogleHypercomputeclusterCluster#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#labels GoogleHypercomputeclusterCluster#labels}
 
 ---
 
@@ -11737,7 +12088,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 [Startup script](https://cloud.google.com/compute/docs/instances/startup-scripts/linux) to be run on each VM instance in the nodeset. Max 256KB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#startup_script GoogleHypercomputeclusterCluster#startup_script}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#startup_script GoogleHypercomputeclusterCluster#startup_script}
 
 ---
 
@@ -12716,6 +13067,7 @@ def put_login_nodes(
   enable_os_login: bool | IResolvable = None,
   enable_public_ips: bool | IResolvable = None,
   labels: typing.Mapping[str] = None,
+  network_tags: typing.List[str] = None,
   startup_script: str = None,
   storage_configs: IResolvable | typing.List[GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesStorageConfigs] = None
 ) -> None
@@ -12727,7 +13079,7 @@ def put_login_nodes(
 
 Number of login node instances to create.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#count GoogleHypercomputeclusterCluster#count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#count GoogleHypercomputeclusterCluster#count}
 
 ---
 
@@ -12737,7 +13089,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Name of the Compute Engine [machine type](https://cloud.google.com/compute/docs/machine-resource) to use for login nodes, e.g. 'n2-standard-2'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#machine_type GoogleHypercomputeclusterCluster#machine_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#machine_type GoogleHypercomputeclusterCluster#machine_type}
 
 ---
 
@@ -12747,7 +13099,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Name of the zone in which login nodes should run, e.g., 'us-central1-a'. Must be in the same region as the cluster, and must match the zone of any other resources specified in the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#zone GoogleHypercomputeclusterCluster#zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#zone GoogleHypercomputeclusterCluster#zone}
 
 ---
 
@@ -12757,7 +13109,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 boot_disk block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#boot_disk GoogleHypercomputeclusterCluster#boot_disk}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#boot_disk GoogleHypercomputeclusterCluster#boot_disk}
 
 ---
 
@@ -12767,7 +13119,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Whether [OS Login](https://cloud.google.com/compute/docs/oslogin) should be enabled on login node instances.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#enable_os_login GoogleHypercomputeclusterCluster#enable_os_login}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#enable_os_login GoogleHypercomputeclusterCluster#enable_os_login}
 
 ---
 
@@ -12777,7 +13129,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Whether login node instances should be assigned [external IP addresses](https://cloud.google.com/compute/docs/ip-addresses#externaladdresses).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#enable_public_ips GoogleHypercomputeclusterCluster#enable_public_ips}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#enable_public_ips GoogleHypercomputeclusterCluster#enable_public_ips}
 
 ---
 
@@ -12787,7 +13139,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 [Labels](https://cloud.google.com/compute/docs/labeling-resources) that should be applied to each login node instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#labels GoogleHypercomputeclusterCluster#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#labels GoogleHypercomputeclusterCluster#labels}
+
+---
+
+###### `network_tags`<sup>Optional</sup> <a name="network_tags" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmOutputReference.putLoginNodes.parameter.networkTags"></a>
+
+- *Type:* typing.List[str]
+
+A list of network tags to attach to the VM instances. A maximum of 64 network tags are allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#network_tags GoogleHypercomputeclusterCluster#network_tags}
 
 ---
 
@@ -12797,7 +13159,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 [Startup script](https://cloud.google.com/compute/docs/instances/startup-scripts/linux) to be run on each login node instance. Max 256KB. The script must complete within the system-defined default timeout of 5 minutes. For tasks that require more time, consider running them in the background using methods such as '&' or 'nohup'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#startup_script GoogleHypercomputeclusterCluster#startup_script}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#startup_script GoogleHypercomputeclusterCluster#startup_script}
 
 ---
 
@@ -12807,7 +13169,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 storage_configs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#storage_configs GoogleHypercomputeclusterCluster#storage_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#storage_configs GoogleHypercomputeclusterCluster#storage_configs}
 
 ---
 
@@ -14895,6 +15257,353 @@ internal_value: GoogleHypercomputeclusterClusterStorageResourcesConfigExistingLu
 ---
 
 
+### GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference <a name="GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_hypercomputecluster_cluster
+
+googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.resetMountOptions">reset_mount_options</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_mount_options` <a name="reset_mount_options" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.resetMountOptions"></a>
+
+```python
+def reset_mount_options() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.property.mountOptionsInput">mount_options_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.property.remoteMountInput">remote_mount_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.property.serverIpAddressInput">server_ip_address_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.property.mountOptions">mount_options</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.property.remoteMount">remote_mount</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.property.serverIpAddress">server_ip_address</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfs">GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfs</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `mount_options_input`<sup>Optional</sup> <a name="mount_options_input" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.property.mountOptionsInput"></a>
+
+```python
+mount_options_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `remote_mount_input`<sup>Optional</sup> <a name="remote_mount_input" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.property.remoteMountInput"></a>
+
+```python
+remote_mount_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `server_ip_address_input`<sup>Optional</sup> <a name="server_ip_address_input" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.property.serverIpAddressInput"></a>
+
+```python
+server_ip_address_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `mount_options`<sup>Required</sup> <a name="mount_options" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.property.mountOptions"></a>
+
+```python
+mount_options: str
+```
+
+- *Type:* str
+
+---
+
+##### `remote_mount`<sup>Required</sup> <a name="remote_mount" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.property.remoteMount"></a>
+
+```python
+remote_mount: str
+```
+
+- *Type:* str
+
+---
+
+##### `server_ip_address`<sup>Required</sup> <a name="server_ip_address" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.property.serverIpAddress"></a>
+
+```python
+server_ip_address: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfs
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfs">GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfs</a>
+
+---
+
+
 ### GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketAutoclassOutputReference <a name="GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketAutoclassOutputReference" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketAutoclassOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketAutoclassOutputReference.Initializer"></a>
@@ -15771,7 +16480,7 @@ def put_autoclass(
 
 Enables Auto-class feature.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#enabled GoogleHypercomputeclusterCluster#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#enabled GoogleHypercomputeclusterCluster#enabled}
 
 ---
 
@@ -15781,7 +16490,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Terminal storage class of the autoclass bucket Possible values: NEARLINE ARCHIVE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#terminal_storage_class GoogleHypercomputeclusterCluster#terminal_storage_class}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#terminal_storage_class GoogleHypercomputeclusterCluster#terminal_storage_class}
 
 ---
 
@@ -15799,7 +16508,7 @@ def put_hierarchical_namespace(
 
 Enables hierarchical namespace setup for the bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#enabled GoogleHypercomputeclusterCluster#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#enabled GoogleHypercomputeclusterCluster#enabled}
 
 ---
 
@@ -17330,12 +18039,14 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.putExistingBucket">put_existing_bucket</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.putExistingFilestore">put_existing_filestore</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.putExistingLustre">put_existing_lustre</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.putExistingNfs">put_existing_nfs</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.putNewBucket">put_new_bucket</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.putNewFilestore">put_new_filestore</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.putNewLustre">put_new_lustre</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.resetExistingBucket">reset_existing_bucket</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.resetExistingFilestore">reset_existing_filestore</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.resetExistingLustre">reset_existing_lustre</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.resetExistingNfs">reset_existing_nfs</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.resetNewBucket">reset_new_bucket</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.resetNewFilestore">reset_new_filestore</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.resetNewLustre">reset_new_lustre</a></code> | *No description.* |
@@ -17528,7 +18239,7 @@ def put_existing_bucket(
 
 Name of the Cloud Storage bucket to import.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#bucket GoogleHypercomputeclusterCluster#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#bucket GoogleHypercomputeclusterCluster#bucket}
 
 ---
 
@@ -17546,7 +18257,7 @@ def put_existing_filestore(
 
 Name of the Filestore instance to import, in the format 'projects/{project}/locations/{location}/instances/{instance}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#filestore GoogleHypercomputeclusterCluster#filestore}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#filestore GoogleHypercomputeclusterCluster#filestore}
 
 ---
 
@@ -17564,7 +18275,47 @@ def put_existing_lustre(
 
 Name of the Managed Lustre instance to import, in the format 'projects/{project}/locations/{location}/instances/{instance}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#lustre GoogleHypercomputeclusterCluster#lustre}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#lustre GoogleHypercomputeclusterCluster#lustre}
+
+---
+
+##### `put_existing_nfs` <a name="put_existing_nfs" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.putExistingNfs"></a>
+
+```python
+def put_existing_nfs(
+  remote_mount: str,
+  server_ip_address: str,
+  mount_options: str = None
+) -> None
+```
+
+###### `remote_mount`<sup>Required</sup> <a name="remote_mount" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.putExistingNfs.parameter.remoteMount"></a>
+
+- *Type:* str
+
+Remote mount path of the NFS share.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#remote_mount GoogleHypercomputeclusterCluster#remote_mount}
+
+---
+
+###### `server_ip_address`<sup>Required</sup> <a name="server_ip_address" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.putExistingNfs.parameter.serverIpAddress"></a>
+
+- *Type:* str
+
+Server IP address of the NFS share.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#server_ip_address GoogleHypercomputeclusterCluster#server_ip_address}
+
+---
+
+###### `mount_options`<sup>Optional</sup> <a name="mount_options" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.putExistingNfs.parameter.mountOptions"></a>
+
+- *Type:* str
+
+Options to mount the NFS share, as expected by fs_mntops field in fstab(5), for example: "rw,vers=4.1,nconnect=2,noatime".
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#mount_options GoogleHypercomputeclusterCluster#mount_options}
 
 ---
 
@@ -17585,7 +18336,7 @@ def put_new_bucket(
 
 Name of the Cloud Storage bucket to create.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#bucket GoogleHypercomputeclusterCluster#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#bucket GoogleHypercomputeclusterCluster#bucket}
 
 ---
 
@@ -17595,7 +18346,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 autoclass block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#autoclass GoogleHypercomputeclusterCluster#autoclass}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#autoclass GoogleHypercomputeclusterCluster#autoclass}
 
 ---
 
@@ -17605,7 +18356,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 hierarchical_namespace block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#hierarchical_namespace GoogleHypercomputeclusterCluster#hierarchical_namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#hierarchical_namespace GoogleHypercomputeclusterCluster#hierarchical_namespace}
 
 ---
 
@@ -17615,7 +18366,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 If set, uses the provided storage class as the bucket's default storage class. Possible values: STANDARD NEARLINE COLDLINE ARCHIVE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#storage_class GoogleHypercomputeclusterCluster#storage_class}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#storage_class GoogleHypercomputeclusterCluster#storage_class}
 
 ---
 
@@ -17637,7 +18388,7 @@ def put_new_filestore(
 
 file_shares block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#file_shares GoogleHypercomputeclusterCluster#file_shares}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#file_shares GoogleHypercomputeclusterCluster#file_shares}
 
 ---
 
@@ -17647,7 +18398,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Name of the Filestore instance to create, in the format 'projects/{project}/locations/{location}/instances/{instance}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#filestore GoogleHypercomputeclusterCluster#filestore}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#filestore GoogleHypercomputeclusterCluster#filestore}
 
 ---
 
@@ -17657,7 +18408,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Service tier to use for the instance. Possible values: ZONAL REGIONAL Possible values: ["TIER_UNSPECIFIED", "ZONAL", "REGIONAL"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#tier GoogleHypercomputeclusterCluster#tier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#tier GoogleHypercomputeclusterCluster#tier}
 
 ---
 
@@ -17667,7 +18418,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Description of the instance. Maximum of 2048 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#description GoogleHypercomputeclusterCluster#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#description GoogleHypercomputeclusterCluster#description}
 
 ---
 
@@ -17683,7 +18434,7 @@ Possible values:
 NFSV3
 NFSV41 Possible values: ["PROTOCOL_UNSPECIFIED", "NFSV3", "NFSV41"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#protocol GoogleHypercomputeclusterCluster#protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#protocol GoogleHypercomputeclusterCluster#protocol}
 
 ---
 
@@ -17705,7 +18456,7 @@ def put_new_lustre(
 
 Storage capacity of the instance in gibibytes (GiB). Allowed values are between 18000 and 7632000.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#capacity_gb GoogleHypercomputeclusterCluster#capacity_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#capacity_gb GoogleHypercomputeclusterCluster#capacity_gb}
 
 ---
 
@@ -17719,7 +18470,7 @@ This name is used by client-side tools,
 including when mounting the instance. Must be 8 characters or less and can
 only contain letters and numbers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#filesystem GoogleHypercomputeclusterCluster#filesystem}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#filesystem GoogleHypercomputeclusterCluster#filesystem}
 
 ---
 
@@ -17729,7 +18480,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Name of the Managed Lustre instance to create, in the format 'projects/{project}/locations/{location}/instances/{instance}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#lustre GoogleHypercomputeclusterCluster#lustre}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#lustre GoogleHypercomputeclusterCluster#lustre}
 
 ---
 
@@ -17739,7 +18490,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Description of the Managed Lustre instance. Maximum of 2048 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#description GoogleHypercomputeclusterCluster#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#description GoogleHypercomputeclusterCluster#description}
 
 ---
 
@@ -17754,7 +18505,7 @@ Valid values are 125, 250,
 capacities](https://cloud.google.com/managed-lustre/docs/create-instance#performance-tiers)
 for more information.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#per_unit_storage_throughput GoogleHypercomputeclusterCluster#per_unit_storage_throughput}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#per_unit_storage_throughput GoogleHypercomputeclusterCluster#per_unit_storage_throughput}
 
 ---
 
@@ -17774,6 +18525,12 @@ def reset_existing_filestore() -> None
 
 ```python
 def reset_existing_lustre() -> None
+```
+
+##### `reset_existing_nfs` <a name="reset_existing_nfs" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.resetExistingNfs"></a>
+
+```python
+def reset_existing_nfs() -> None
 ```
 
 ##### `reset_new_bucket` <a name="reset_new_bucket" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.resetNewBucket"></a>
@@ -17804,12 +18561,14 @@ def reset_new_lustre() -> None
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.property.existingBucket">existing_bucket</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingBucketOutputReference">GoogleHypercomputeclusterClusterStorageResourcesConfigExistingBucketOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.property.existingFilestore">existing_filestore</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingFilestoreOutputReference">GoogleHypercomputeclusterClusterStorageResourcesConfigExistingFilestoreOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.property.existingLustre">existing_lustre</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingLustreOutputReference">GoogleHypercomputeclusterClusterStorageResourcesConfigExistingLustreOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.property.existingNfs">existing_nfs</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference">GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.property.newBucket">new_bucket</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketOutputReference">GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.property.newFilestore">new_filestore</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewFilestoreOutputReference">GoogleHypercomputeclusterClusterStorageResourcesConfigNewFilestoreOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.property.newLustre">new_lustre</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewLustreOutputReference">GoogleHypercomputeclusterClusterStorageResourcesConfigNewLustreOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.property.existingBucketInput">existing_bucket_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingBucket">GoogleHypercomputeclusterClusterStorageResourcesConfigExistingBucket</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.property.existingFilestoreInput">existing_filestore_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingFilestore">GoogleHypercomputeclusterClusterStorageResourcesConfigExistingFilestore</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.property.existingLustreInput">existing_lustre_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingLustre">GoogleHypercomputeclusterClusterStorageResourcesConfigExistingLustre</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.property.existingNfsInput">existing_nfs_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfs">GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfs</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.property.newBucketInput">new_bucket_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucket">GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucket</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.property.newFilestoreInput">new_filestore_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewFilestore">GoogleHypercomputeclusterClusterStorageResourcesConfigNewFilestore</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.property.newLustreInput">new_lustre_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewLustre">GoogleHypercomputeclusterClusterStorageResourcesConfigNewLustre</a></code> | *No description.* |
@@ -17871,6 +18630,16 @@ existing_lustre: GoogleHypercomputeclusterClusterStorageResourcesConfigExistingL
 
 ---
 
+##### `existing_nfs`<sup>Required</sup> <a name="existing_nfs" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.property.existingNfs"></a>
+
+```python
+existing_nfs: GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference">GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfsOutputReference</a>
+
+---
+
 ##### `new_bucket`<sup>Required</sup> <a name="new_bucket" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.property.newBucket"></a>
 
 ```python
@@ -17928,6 +18697,16 @@ existing_lustre_input: GoogleHypercomputeclusterClusterStorageResourcesConfigExi
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingLustre">GoogleHypercomputeclusterClusterStorageResourcesConfigExistingLustre</a>
+
+---
+
+##### `existing_nfs_input`<sup>Optional</sup> <a name="existing_nfs_input" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.property.existingNfsInput"></a>
+
+```python
+existing_nfs_input: GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfs
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfs">GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfs</a>
 
 ---
 
@@ -19326,6 +20105,7 @@ def put_config(
   existing_bucket: GoogleHypercomputeclusterClusterStorageResourcesConfigExistingBucket = None,
   existing_filestore: GoogleHypercomputeclusterClusterStorageResourcesConfigExistingFilestore = None,
   existing_lustre: GoogleHypercomputeclusterClusterStorageResourcesConfigExistingLustre = None,
+  existing_nfs: GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfs = None,
   new_bucket: GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucket = None,
   new_filestore: GoogleHypercomputeclusterClusterStorageResourcesConfigNewFilestore = None,
   new_lustre: GoogleHypercomputeclusterClusterStorageResourcesConfigNewLustre = None
@@ -19338,7 +20118,7 @@ def put_config(
 
 existing_bucket block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#existing_bucket GoogleHypercomputeclusterCluster#existing_bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#existing_bucket GoogleHypercomputeclusterCluster#existing_bucket}
 
 ---
 
@@ -19348,7 +20128,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 existing_filestore block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#existing_filestore GoogleHypercomputeclusterCluster#existing_filestore}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#existing_filestore GoogleHypercomputeclusterCluster#existing_filestore}
 
 ---
 
@@ -19358,7 +20138,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 existing_lustre block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#existing_lustre GoogleHypercomputeclusterCluster#existing_lustre}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#existing_lustre GoogleHypercomputeclusterCluster#existing_lustre}
+
+---
+
+###### `existing_nfs`<sup>Optional</sup> <a name="existing_nfs" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesOutputReference.putConfig.parameter.existingNfs"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfs">GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfs</a>
+
+existing_nfs block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#existing_nfs GoogleHypercomputeclusterCluster#existing_nfs}
 
 ---
 
@@ -19368,7 +20158,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 new_bucket block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#new_bucket GoogleHypercomputeclusterCluster#new_bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#new_bucket GoogleHypercomputeclusterCluster#new_bucket}
 
 ---
 
@@ -19378,7 +20168,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 new_filestore block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#new_filestore GoogleHypercomputeclusterCluster#new_filestore}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#new_filestore GoogleHypercomputeclusterCluster#new_filestore}
 
 ---
 
@@ -19388,7 +20178,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 new_lustre block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_hypercomputecluster_cluster#new_lustre GoogleHypercomputeclusterCluster#new_lustre}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#new_lustre GoogleHypercomputeclusterCluster#new_lustre}
 
 ---
 

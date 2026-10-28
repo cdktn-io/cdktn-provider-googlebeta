@@ -4,12 +4,12 @@
 
 ### DataGoogleBackupDrBackupPlanAssociation <a name="DataGoogleBackupDrBackupPlanAssociation" id="@cdktn/provider-google-beta.dataGoogleBackupDrBackupPlanAssociation.DataGoogleBackupDrBackupPlanAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/data-sources/google_backup_dr_backup_plan_association google_backup_dr_backup_plan_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/data-sources/google_backup_dr_backup_plan_association google_backup_dr_backup_plan_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleBackupDrBackupPlanAssociation.DataGoogleBackupDrBackupPlanAssociation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglebackupdrbackupplanassociation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/datagooglebackupdrbackupplanassociation"
 
 datagooglebackupdrbackupplanassociation.NewDataGoogleBackupDrBackupPlanAssociation(scope Construct, id *string, config DataGoogleBackupDrBackupPlanAssociationConfig) DataGoogleBackupDrBackupPlanAssociation
 ```
@@ -312,7 +312,7 @@ func ResetProject()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.dataGoogleBackupDrBackupPlanAssociation.DataGoogleBackupDrBackupPlanAssociation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglebackupdrbackupplanassociation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/datagooglebackupdrbackupplanassociation"
 
 datagooglebackupdrbackupplanassociation.DataGoogleBackupDrBackupPlanAssociation_IsConstruct(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.dataGoogleBackupDrBackupPlanAssociation.DataGoogleBackupDrBackupPlanAssociation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglebackupdrbackupplanassociation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/datagooglebackupdrbackupplanassociation"
 
 datagooglebackupdrbackupplanassociation.DataGoogleBackupDrBackupPlanAssociation_IsTerraformElement(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ datagooglebackupdrbackupplanassociation.DataGoogleBackupDrBackupPlanAssociation_
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-google-beta.dataGoogleBackupDrBackupPlanAssociation.DataGoogleBackupDrBackupPlanAssociation.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglebackupdrbackupplanassociation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/datagooglebackupdrbackupplanassociation"
 
 datagooglebackupdrbackupplanassociation.DataGoogleBackupDrBackupPlanAssociation_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -372,7 +372,7 @@ datagooglebackupdrbackupplanassociation.DataGoogleBackupDrBackupPlanAssociation_
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.dataGoogleBackupDrBackupPlanAssociation.DataGoogleBackupDrBackupPlanAssociation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglebackupdrbackupplanassociation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/datagooglebackupdrbackupplanassociation"
 
 datagooglebackupdrbackupplanassociation.DataGoogleBackupDrBackupPlanAssociation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -401,7 +401,7 @@ The construct id used in the generated config for the DataGoogleBackupDrBackupPl
 
 The id of the existing DataGoogleBackupDrBackupPlanAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/data-sources/google_backup_dr_backup_plan_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/data-sources/google_backup_dr_backup_plan_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -429,6 +429,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleBackupDrBackupPlanAssociation.DataGoogleBackupDrBackupPlanAssociation.property.forEach">ForEach</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.ITerraformIterator</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleBackupDrBackupPlanAssociation.DataGoogleBackupDrBackupPlanAssociation.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleBackupDrBackupPlanAssociation.DataGoogleBackupDrBackupPlanAssociation.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleBackupDrBackupPlanAssociation.DataGoogleBackupDrBackupPlanAssociation.property.autoProtectionPolicyBinding">AutoProtectionPolicyBinding</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleBackupDrBackupPlanAssociation.DataGoogleBackupDrBackupPlanAssociation.property.backupPlan">BackupPlan</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleBackupDrBackupPlanAssociation.DataGoogleBackupDrBackupPlanAssociation.property.createTime">CreateTime</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleBackupDrBackupPlanAssociation.DataGoogleBackupDrBackupPlanAssociation.property.dataSource">DataSource</a></code> | <code>*string</code> | *No description.* |
@@ -568,6 +569,16 @@ func Provider() TerraformProvider
 ```
 
 - *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider
+
+---
+
+##### `AutoProtectionPolicyBinding`<sup>Required</sup> <a name="AutoProtectionPolicyBinding" id="@cdktn/provider-google-beta.dataGoogleBackupDrBackupPlanAssociation.DataGoogleBackupDrBackupPlanAssociation.property.autoProtectionPolicyBinding"></a>
+
+```go
+func AutoProtectionPolicyBinding() *string
+```
+
+- *Type:* *string
 
 ---
 
@@ -766,7 +777,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleBackupDrBackupPlanAssociation.DataGoogleBackupDrBackupPlanAssociationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglebackupdrbackupplanassociation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/datagooglebackupdrbackupplanassociation"
 
 &datagooglebackupdrbackupplanassociation.DataGoogleBackupDrBackupPlanAssociationConfig {
 	Connection: interface{},
@@ -796,8 +807,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagoog
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleBackupDrBackupPlanAssociation.DataGoogleBackupDrBackupPlanAssociationConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleBackupDrBackupPlanAssociation.DataGoogleBackupDrBackupPlanAssociationConfig.property.backupPlanAssociationId">BackupPlanAssociationId</a></code> | <code>*string</code> | The id of backupplan association. |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleBackupDrBackupPlanAssociation.DataGoogleBackupDrBackupPlanAssociationConfig.property.location">Location</a></code> | <code>*string</code> | The location for the backupplan association. |
-| <code><a href="#@cdktn/provider-google-beta.dataGoogleBackupDrBackupPlanAssociation.DataGoogleBackupDrBackupPlanAssociationConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/data-sources/google_backup_dr_backup_plan_association#id DataGoogleBackupDrBackupPlanAssociation#id}. |
-| <code><a href="#@cdktn/provider-google-beta.dataGoogleBackupDrBackupPlanAssociation.DataGoogleBackupDrBackupPlanAssociationConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/data-sources/google_backup_dr_backup_plan_association#project DataGoogleBackupDrBackupPlanAssociation#project}. |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleBackupDrBackupPlanAssociation.DataGoogleBackupDrBackupPlanAssociationConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/data-sources/google_backup_dr_backup_plan_association#id DataGoogleBackupDrBackupPlanAssociation#id}. |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleBackupDrBackupPlanAssociation.DataGoogleBackupDrBackupPlanAssociationConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/data-sources/google_backup_dr_backup_plan_association#project DataGoogleBackupDrBackupPlanAssociation#project}. |
 
 ---
 
@@ -881,7 +892,7 @@ BackupPlanAssociationId *string
 
 The id of backupplan association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/data-sources/google_backup_dr_backup_plan_association#backup_plan_association_id DataGoogleBackupDrBackupPlanAssociation#backup_plan_association_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/data-sources/google_backup_dr_backup_plan_association#backup_plan_association_id DataGoogleBackupDrBackupPlanAssociation#backup_plan_association_id}
 
 ---
 
@@ -895,7 +906,7 @@ Location *string
 
 The location for the backupplan association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/data-sources/google_backup_dr_backup_plan_association#location DataGoogleBackupDrBackupPlanAssociation#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/data-sources/google_backup_dr_backup_plan_association#location DataGoogleBackupDrBackupPlanAssociation#location}
 
 ---
 
@@ -907,7 +918,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/data-sources/google_backup_dr_backup_plan_association#id DataGoogleBackupDrBackupPlanAssociation#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/data-sources/google_backup_dr_backup_plan_association#id DataGoogleBackupDrBackupPlanAssociation#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -922,7 +933,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/data-sources/google_backup_dr_backup_plan_association#project DataGoogleBackupDrBackupPlanAssociation#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/data-sources/google_backup_dr_backup_plan_association#project DataGoogleBackupDrBackupPlanAssociation#project}.
 
 ---
 
@@ -931,7 +942,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleBackupDrBackupPlanAssociation.DataGoogleBackupDrBackupPlanAssociationRulesConfigInfo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglebackupdrbackupplanassociation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/datagooglebackupdrbackupplanassociation"
 
 &datagooglebackupdrbackupplanassociation.DataGoogleBackupDrBackupPlanAssociationRulesConfigInfo {
 
@@ -944,7 +955,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagoog
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleBackupDrBackupPlanAssociation.DataGoogleBackupDrBackupPlanAssociationRulesConfigInfoLastBackupError.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglebackupdrbackupplanassociation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/datagooglebackupdrbackupplanassociation"
 
 &datagooglebackupdrbackupplanassociation.DataGoogleBackupDrBackupPlanAssociationRulesConfigInfoLastBackupError {
 
@@ -959,7 +970,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagoog
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleBackupDrBackupPlanAssociation.DataGoogleBackupDrBackupPlanAssociationRulesConfigInfoLastBackupErrorList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglebackupdrbackupplanassociation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/datagooglebackupdrbackupplanassociation"
 
 datagooglebackupdrbackupplanassociation.NewDataGoogleBackupDrBackupPlanAssociationRulesConfigInfoLastBackupErrorList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGoogleBackupDrBackupPlanAssociationRulesConfigInfoLastBackupErrorList
 ```
@@ -1108,7 +1119,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleBackupDrBackupPlanAssociation.DataGoogleBackupDrBackupPlanAssociationRulesConfigInfoLastBackupErrorOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglebackupdrbackupplanassociation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/datagooglebackupdrbackupplanassociation"
 
 datagooglebackupdrbackupplanassociation.NewDataGoogleBackupDrBackupPlanAssociationRulesConfigInfoLastBackupErrorOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGoogleBackupDrBackupPlanAssociationRulesConfigInfoLastBackupErrorOutputReference
 ```
@@ -1397,7 +1408,7 @@ func InternalValue() DataGoogleBackupDrBackupPlanAssociationRulesConfigInfoLastB
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleBackupDrBackupPlanAssociation.DataGoogleBackupDrBackupPlanAssociationRulesConfigInfoList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglebackupdrbackupplanassociation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/datagooglebackupdrbackupplanassociation"
 
 datagooglebackupdrbackupplanassociation.NewDataGoogleBackupDrBackupPlanAssociationRulesConfigInfoList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGoogleBackupDrBackupPlanAssociationRulesConfigInfoList
 ```
@@ -1546,7 +1557,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleBackupDrBackupPlanAssociation.DataGoogleBackupDrBackupPlanAssociationRulesConfigInfoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglebackupdrbackupplanassociation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/datagooglebackupdrbackupplanassociation"
 
 datagooglebackupdrbackupplanassociation.NewDataGoogleBackupDrBackupPlanAssociationRulesConfigInfoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGoogleBackupDrBackupPlanAssociationRulesConfigInfoOutputReference
 ```

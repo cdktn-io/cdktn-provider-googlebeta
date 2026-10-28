@@ -4,7 +4,7 @@
 
 ### GoogleDnsManagedZone <a name="GoogleDnsManagedZone" id="@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZone"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dns_managed_zone google_dns_managed_zone}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_managed_zone google_dns_managed_zone}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZone.Initializer"></a>
 
@@ -685,7 +685,7 @@ The construct id used in the generated config for the GoogleDnsManagedZone to im
 
 The id of the existing GoogleDnsManagedZone that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dns_managed_zone#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_managed_zone#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1339,7 +1339,7 @@ public bool|IResolvable EnableLogging { get; set; }
 
 If set, enable query logging for this ManagedZone. False by default, making logging opt-in.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dns_managed_zone#enable_logging GoogleDnsManagedZone#enable_logging}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_managed_zone#enable_logging GoogleDnsManagedZone#enable_logging}
 
 ---
 
@@ -1397,11 +1397,11 @@ new GoogleDnsManagedZoneConfig {
 | <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneConfig.property.dnssecConfig">DnssecConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneDnssecConfig">GoogleDnsManagedZoneDnssecConfig</a></code> | dnssec_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneConfig.property.forceDestroy">ForceDestroy</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | Set this true to delete all records in the zone. |
 | <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneConfig.property.forwardingConfig">ForwardingConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfig">GoogleDnsManagedZoneForwardingConfig</a></code> | forwarding_config block. |
-| <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dns_managed_zone#id GoogleDnsManagedZone#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_managed_zone#id GoogleDnsManagedZone#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneConfig.property.labels">Labels</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | A set of key/value label pairs to assign to this ManagedZone. |
 | <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneConfig.property.peeringConfig">PeeringConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZonePeeringConfig">GoogleDnsManagedZonePeeringConfig</a></code> | peering_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneConfig.property.privateVisibilityConfig">PrivateVisibilityConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZonePrivateVisibilityConfig">GoogleDnsManagedZonePrivateVisibilityConfig</a></code> | private_visibility_config block. |
-| <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dns_managed_zone#project GoogleDnsManagedZone#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_managed_zone#project GoogleDnsManagedZone#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneConfig.property.reverseLookup">ReverseLookup</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | Specifies if this is a managed reverse lookup zone. |
 | <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneConfig.property.serviceDirectoryConfig">ServiceDirectoryConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneServiceDirectoryConfig">GoogleDnsManagedZoneServiceDirectoryConfig</a></code> | service_directory_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneTimeouts">GoogleDnsManagedZoneTimeouts</a></code> | timeouts block. |
@@ -1489,7 +1489,7 @@ public string DnsName { get; set; }
 
 The DNS name of this managed zone, for instance "example.com.".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dns_managed_zone#dns_name GoogleDnsManagedZone#dns_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_managed_zone#dns_name GoogleDnsManagedZone#dns_name}
 
 ---
 
@@ -1503,7 +1503,7 @@ public string Name { get; set; }
 
 User assigned name for this resource. Must be unique within the project.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dns_managed_zone#name GoogleDnsManagedZone#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_managed_zone#name GoogleDnsManagedZone#name}
 
 ---
 
@@ -1517,7 +1517,7 @@ public GoogleDnsManagedZoneCloudLoggingConfig CloudLoggingConfig { get; set; }
 
 cloud_logging_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dns_managed_zone#cloud_logging_config GoogleDnsManagedZone#cloud_logging_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_managed_zone#cloud_logging_config GoogleDnsManagedZone#cloud_logging_config}
 
 ---
 
@@ -1538,7 +1538,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dns_managed_zone#deletion_policy GoogleDnsManagedZone#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_managed_zone#deletion_policy GoogleDnsManagedZone#deletion_policy}
 
 ---
 
@@ -1552,7 +1552,7 @@ public string Description { get; set; }
 
 A textual description field. Defaults to 'Managed by Terraform'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dns_managed_zone#description GoogleDnsManagedZone#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_managed_zone#description GoogleDnsManagedZone#description}
 
 ---
 
@@ -1566,7 +1566,7 @@ public GoogleDnsManagedZoneDnssecConfig DnssecConfig { get; set; }
 
 dnssec_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dns_managed_zone#dnssec_config GoogleDnsManagedZone#dnssec_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_managed_zone#dnssec_config GoogleDnsManagedZone#dnssec_config}
 
 ---
 
@@ -1580,7 +1580,7 @@ public bool|IResolvable ForceDestroy { get; set; }
 
 Set this true to delete all records in the zone.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dns_managed_zone#force_destroy GoogleDnsManagedZone#force_destroy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_managed_zone#force_destroy GoogleDnsManagedZone#force_destroy}
 
 ---
 
@@ -1594,7 +1594,7 @@ public GoogleDnsManagedZoneForwardingConfig ForwardingConfig { get; set; }
 
 forwarding_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dns_managed_zone#forwarding_config GoogleDnsManagedZone#forwarding_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_managed_zone#forwarding_config GoogleDnsManagedZone#forwarding_config}
 
 ---
 
@@ -1606,7 +1606,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dns_managed_zone#id GoogleDnsManagedZone#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_managed_zone#id GoogleDnsManagedZone#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1626,7 +1626,7 @@ A set of key/value label pairs to assign to this ManagedZone.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dns_managed_zone#labels GoogleDnsManagedZone#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_managed_zone#labels GoogleDnsManagedZone#labels}
 
 ---
 
@@ -1640,7 +1640,7 @@ public GoogleDnsManagedZonePeeringConfig PeeringConfig { get; set; }
 
 peering_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dns_managed_zone#peering_config GoogleDnsManagedZone#peering_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_managed_zone#peering_config GoogleDnsManagedZone#peering_config}
 
 ---
 
@@ -1654,7 +1654,7 @@ public GoogleDnsManagedZonePrivateVisibilityConfig PrivateVisibilityConfig { get
 
 private_visibility_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dns_managed_zone#private_visibility_config GoogleDnsManagedZone#private_visibility_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_managed_zone#private_visibility_config GoogleDnsManagedZone#private_visibility_config}
 
 ---
 
@@ -1666,7 +1666,7 @@ public string Project { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dns_managed_zone#project GoogleDnsManagedZone#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_managed_zone#project GoogleDnsManagedZone#project}.
 
 ---
 
@@ -1684,7 +1684,7 @@ If true, Cloud DNS will resolve reverse
 lookup queries using automatically configured records for VPC resources. This only applies
 to networks listed under 'private_visibility_config'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dns_managed_zone#reverse_lookup GoogleDnsManagedZone#reverse_lookup}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_managed_zone#reverse_lookup GoogleDnsManagedZone#reverse_lookup}
 
 ---
 
@@ -1698,7 +1698,7 @@ public GoogleDnsManagedZoneServiceDirectoryConfig ServiceDirectoryConfig { get; 
 
 service_directory_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dns_managed_zone#service_directory_config GoogleDnsManagedZone#service_directory_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_managed_zone#service_directory_config GoogleDnsManagedZone#service_directory_config}
 
 ---
 
@@ -1712,7 +1712,7 @@ public GoogleDnsManagedZoneTimeouts Timeouts { get; set; }
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dns_managed_zone#timeouts GoogleDnsManagedZone#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_managed_zone#timeouts GoogleDnsManagedZone#timeouts}
 
 ---
 
@@ -1728,7 +1728,7 @@ The zone's visibility: public zones are exposed to the Internet, while private z
 
 Default value: "public" Possible values: ["private", "public"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dns_managed_zone#visibility GoogleDnsManagedZone#visibility}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_managed_zone#visibility GoogleDnsManagedZone#visibility}
 
 ---
 
@@ -1768,7 +1768,7 @@ public IResolvable|GoogleDnsManagedZoneDnssecConfigDefaultKeySpecs[] DefaultKeyS
 
 default_key_specs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dns_managed_zone#default_key_specs GoogleDnsManagedZone#default_key_specs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_managed_zone#default_key_specs GoogleDnsManagedZone#default_key_specs}
 
 ---
 
@@ -1782,7 +1782,7 @@ public string Kind { get; set; }
 
 Identifies what kind of resource this is.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dns_managed_zone#kind GoogleDnsManagedZone#kind}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_managed_zone#kind GoogleDnsManagedZone#kind}
 
 ---
 
@@ -1798,7 +1798,7 @@ Specifies the mechanism used to provide authenticated denial-of-existence respon
 
 non_existence can only be updated when the state is 'off'. Possible values: ["nsec", "nsec3"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dns_managed_zone#non_existence GoogleDnsManagedZone#non_existence}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_managed_zone#non_existence GoogleDnsManagedZone#non_existence}
 
 ---
 
@@ -1812,7 +1812,7 @@ public string State { get; set; }
 
 Specifies whether DNSSEC is enabled, and what mode it is in Possible values: ["off", "on", "transfer"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dns_managed_zone#state GoogleDnsManagedZone#state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_managed_zone#state GoogleDnsManagedZone#state}
 
 ---
 
@@ -1852,7 +1852,7 @@ public string Algorithm { get; set; }
 
 String mnemonic specifying the DNSSEC algorithm of this key Possible values: ["ecdsap256sha256", "ecdsap384sha384", "rsasha1", "rsasha256", "rsasha512"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dns_managed_zone#algorithm GoogleDnsManagedZone#algorithm}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_managed_zone#algorithm GoogleDnsManagedZone#algorithm}
 
 ---
 
@@ -1866,7 +1866,7 @@ public double KeyLength { get; set; }
 
 Length of the keys in bits.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dns_managed_zone#key_length GoogleDnsManagedZone#key_length}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_managed_zone#key_length GoogleDnsManagedZone#key_length}
 
 ---
 
@@ -1886,7 +1886,7 @@ resource record sets of type DNSKEY. Zone signing keys do
 not have the Secure Entry Point flag set and will be used
 to sign all other types of resource record sets. Possible values: ["keySigning", "zoneSigning"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dns_managed_zone#key_type GoogleDnsManagedZone#key_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_managed_zone#key_type GoogleDnsManagedZone#key_type}
 
 ---
 
@@ -1900,7 +1900,7 @@ public string Kind { get; set; }
 
 Identifies what kind of resource this is.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dns_managed_zone#kind GoogleDnsManagedZone#kind}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_managed_zone#kind GoogleDnsManagedZone#kind}
 
 ---
 
@@ -1912,7 +1912,8 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 using Io.Cdktn.Providers.GoogleBeta;
 
 new GoogleDnsManagedZoneForwardingConfig {
-    IResolvable|GoogleDnsManagedZoneForwardingConfigTargetNameServers[] TargetNameServers
+    IResolvable|GoogleDnsManagedZoneForwardingConfigTargetNameServers[] TargetNameServers,
+    IResolvable|GoogleDnsManagedZoneForwardingConfigOutboundEndpoints[] OutboundEndpoints = null
 };
 ```
 
@@ -1921,6 +1922,7 @@ new GoogleDnsManagedZoneForwardingConfig {
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfig.property.targetNameServers">TargetNameServers</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigTargetNameServers">GoogleDnsManagedZoneForwardingConfigTargetNameServers</a>[]</code> | target_name_servers block. |
+| <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfig.property.outboundEndpoints">OutboundEndpoints</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpoints">GoogleDnsManagedZoneForwardingConfigOutboundEndpoints</a>[]</code> | outbound_endpoints block. |
 
 ---
 
@@ -1934,7 +1936,55 @@ public IResolvable|GoogleDnsManagedZoneForwardingConfigTargetNameServers[] Targe
 
 target_name_servers block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dns_managed_zone#target_name_servers GoogleDnsManagedZone#target_name_servers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_managed_zone#target_name_servers GoogleDnsManagedZone#target_name_servers}
+
+---
+
+##### `OutboundEndpoints`<sup>Optional</sup> <a name="OutboundEndpoints" id="@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfig.property.outboundEndpoints"></a>
+
+```csharp
+public IResolvable|GoogleDnsManagedZoneForwardingConfigOutboundEndpoints[] OutboundEndpoints { get; set; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpoints">GoogleDnsManagedZoneForwardingConfigOutboundEndpoints</a>[]
+
+outbound_endpoints block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_managed_zone#outbound_endpoints GoogleDnsManagedZone#outbound_endpoints}
+
+---
+
+### GoogleDnsManagedZoneForwardingConfigOutboundEndpoints <a name="GoogleDnsManagedZoneForwardingConfigOutboundEndpoints" id="@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpoints"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpoints.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+new GoogleDnsManagedZoneForwardingConfigOutboundEndpoints {
+    string Name
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpoints.property.name">Name</a></code> | <code>string</code> | Specified as a resource path including project and region. This should be formatted like 'projects/{project}/locations/{location}/outboundEndpoints/{endpoint}'. |
+
+---
+
+##### `Name`<sup>Required</sup> <a name="Name" id="@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpoints.property.name"></a>
+
+```csharp
+public string Name { get; set; }
+```
+
+- *Type:* string
+
+Specified as a resource path including project and region. This should be formatted like 'projects/{project}/locations/{location}/outboundEndpoints/{endpoint}'.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_managed_zone#name GoogleDnsManagedZone#name}
 
 ---
 
@@ -1974,7 +2024,7 @@ public string DomainName { get; set; }
 
 Fully qualified domain name for the forwarding target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dns_managed_zone#domain_name GoogleDnsManagedZone#domain_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_managed_zone#domain_name GoogleDnsManagedZone#domain_name}
 
 ---
 
@@ -1994,7 +2044,7 @@ i.e. RFC1918 addresses go to the VPC, Non-RFC1918 addresses go
 to the Internet. When set to 'private', Cloud DNS will always
 send queries through VPC for this target. Possible values: ["default", "private"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dns_managed_zone#forwarding_path GoogleDnsManagedZone#forwarding_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_managed_zone#forwarding_path GoogleDnsManagedZone#forwarding_path}
 
 ---
 
@@ -2008,7 +2058,7 @@ public string Ipv4Address { get; set; }
 
 IPv4 address of a target name server. Does not accept both fields (ipv4 & ipv6) being populated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dns_managed_zone#ipv4_address GoogleDnsManagedZone#ipv4_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_managed_zone#ipv4_address GoogleDnsManagedZone#ipv4_address}
 
 ---
 
@@ -2022,7 +2072,7 @@ public string Ipv6Address { get; set; }
 
 IPv6 address of a target name server. Does not accept both fields (ipv4 & ipv6) being populated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dns_managed_zone#ipv6_address GoogleDnsManagedZone#ipv6_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_managed_zone#ipv6_address GoogleDnsManagedZone#ipv6_address}
 
 ---
 
@@ -2056,7 +2106,7 @@ public GoogleDnsManagedZonePeeringConfigTargetNetwork TargetNetwork { get; set; 
 
 target_network block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dns_managed_zone#target_network GoogleDnsManagedZone#target_network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_managed_zone#target_network GoogleDnsManagedZone#target_network}
 
 ---
 
@@ -2093,7 +2143,7 @@ The id or fully qualified URL of the VPC network to forward queries to.
 This should be formatted like 'projects/{project}/global/networks/{network}' or
 'https://www.googleapis.com/compute/v1/projects/{project}/global/networks/{network}'
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dns_managed_zone#network_url GoogleDnsManagedZone#network_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_managed_zone#network_url GoogleDnsManagedZone#network_url}
 
 ---
 
@@ -2129,7 +2179,7 @@ public IResolvable|GoogleDnsManagedZonePrivateVisibilityConfigGkeClusters[] GkeC
 
 gke_clusters block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dns_managed_zone#gke_clusters GoogleDnsManagedZone#gke_clusters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_managed_zone#gke_clusters GoogleDnsManagedZone#gke_clusters}
 
 ---
 
@@ -2143,7 +2193,7 @@ public IResolvable|GoogleDnsManagedZonePrivateVisibilityConfigNetworks[] Network
 
 networks block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dns_managed_zone#networks GoogleDnsManagedZone#networks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_managed_zone#networks GoogleDnsManagedZone#networks}
 
 ---
 
@@ -2180,7 +2230,7 @@ The resource name of the cluster to bind this ManagedZone to.
 This should be specified in the format like
 'projects/* /locations/* /clusters/*'
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dns_managed_zone#gke_cluster_name GoogleDnsManagedZone#gke_cluster_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_managed_zone#gke_cluster_name GoogleDnsManagedZone#gke_cluster_name}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -2216,7 +2266,7 @@ public string NetworkUrl { get; set; }
 
 The id or fully qualified URL of the VPC network to bind to. This should be formatted like 'projects/{project}/global/networks/{network}' or 'https://www.googleapis.com/compute/v1/projects/{project}/global/networks/{network}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dns_managed_zone#network_url GoogleDnsManagedZone#network_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_managed_zone#network_url GoogleDnsManagedZone#network_url}
 
 ---
 
@@ -2250,7 +2300,7 @@ public GoogleDnsManagedZoneServiceDirectoryConfigNamespace Namespace { get; set;
 
 namespace block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dns_managed_zone#namespace GoogleDnsManagedZone#namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_managed_zone#namespace GoogleDnsManagedZone#namespace}
 
 ---
 
@@ -2289,7 +2339,7 @@ This should be formatted like
 or simply 'projects/{project}/locations/{location}/namespaces/{namespace_id}'
 Ignored for 'public' visibility zones.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dns_managed_zone#namespace_url GoogleDnsManagedZone#namespace_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_managed_zone#namespace_url GoogleDnsManagedZone#namespace_url}
 
 ---
 
@@ -2311,9 +2361,9 @@ new GoogleDnsManagedZoneTimeouts {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dns_managed_zone#create GoogleDnsManagedZone#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dns_managed_zone#delete GoogleDnsManagedZone#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dns_managed_zone#update GoogleDnsManagedZone#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_managed_zone#create GoogleDnsManagedZone#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_managed_zone#delete GoogleDnsManagedZone#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_managed_zone#update GoogleDnsManagedZone#update}. |
 
 ---
 
@@ -2325,7 +2375,7 @@ public string Create { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dns_managed_zone#create GoogleDnsManagedZone#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_managed_zone#create GoogleDnsManagedZone#create}.
 
 ---
 
@@ -2337,7 +2387,7 @@ public string Delete { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dns_managed_zone#delete GoogleDnsManagedZone#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_managed_zone#delete GoogleDnsManagedZone#delete}.
 
 ---
 
@@ -2349,7 +2399,7 @@ public string Update { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dns_managed_zone#update GoogleDnsManagedZone#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_managed_zone#update GoogleDnsManagedZone#update}.
 
 ---
 
@@ -3547,6 +3597,455 @@ public GoogleDnsManagedZoneDnssecConfig InternalValue { get; }
 ---
 
 
+### GoogleDnsManagedZoneForwardingConfigOutboundEndpointsList <a name="GoogleDnsManagedZoneForwardingConfigOutboundEndpointsList" id="@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsList.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+new GoogleDnsManagedZoneForwardingConfigOutboundEndpointsList(IInterpolatingParent TerraformResource, string TerraformAttribute, bool WrapsSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsList.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsList.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsList.Initializer.parameter.wrapsSet">WrapsSet</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `WrapsSet`<sup>Required</sup> <a name="WrapsSet" id="@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsList.allWithMapKey"></a>
+
+```csharp
+private DynamicListTerraformIterator AllWithMapKey(string MapKeyAttributeName)
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `MapKeyAttributeName`<sup>Required</sup> <a name="MapKeyAttributeName" id="@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* string
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsList.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsList.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsList.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsList.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `Get` <a name="Get" id="@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsList.get"></a>
+
+```csharp
+private GoogleDnsManagedZoneForwardingConfigOutboundEndpointsOutputReference Get(double Index)
+```
+
+###### `Index`<sup>Required</sup> <a name="Index" id="@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsList.get.parameter.index"></a>
+
+- *Type:* double
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsList.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsList.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsList.property.internalValue">InternalValue</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpoints">GoogleDnsManagedZoneForwardingConfigOutboundEndpoints</a>[]</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsList.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsList.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsList.property.internalValue"></a>
+
+```csharp
+public IResolvable|GoogleDnsManagedZoneForwardingConfigOutboundEndpoints[] InternalValue { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpoints">GoogleDnsManagedZoneForwardingConfigOutboundEndpoints</a>[]
+
+---
+
+
+### GoogleDnsManagedZoneForwardingConfigOutboundEndpointsOutputReference <a name="GoogleDnsManagedZoneForwardingConfigOutboundEndpointsOutputReference" id="@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.GoogleBeta;
+
+new GoogleDnsManagedZoneForwardingConfigOutboundEndpointsOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute, double ComplexObjectIndex, bool ComplexObjectIsFromSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsOutputReference.Initializer.parameter.complexObjectIndex">ComplexObjectIndex</a></code> | <code>double</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsOutputReference.Initializer.parameter.complexObjectIsFromSet">ComplexObjectIsFromSet</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `ComplexObjectIndex`<sup>Required</sup> <a name="ComplexObjectIndex" id="@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* double
+
+the index of this item in the list.
+
+---
+
+##### `ComplexObjectIsFromSet`<sup>Required</sup> <a name="ComplexObjectIsFromSet" id="@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsOutputReference.property.nameInput">NameInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsOutputReference.property.name">Name</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsOutputReference.property.internalValue">InternalValue</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpoints">GoogleDnsManagedZoneForwardingConfigOutboundEndpoints</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `NameInput`<sup>Optional</sup> <a name="NameInput" id="@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsOutputReference.property.nameInput"></a>
+
+```csharp
+public string NameInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Name`<sup>Required</sup> <a name="Name" id="@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsOutputReference.property.name"></a>
+
+```csharp
+public string Name { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsOutputReference.property.internalValue"></a>
+
+```csharp
+public IResolvable|GoogleDnsManagedZoneForwardingConfigOutboundEndpoints InternalValue { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpoints">GoogleDnsManagedZoneForwardingConfigOutboundEndpoints</a>
+
+---
+
+
 ### GoogleDnsManagedZoneForwardingConfigOutputReference <a name="GoogleDnsManagedZoneForwardingConfigOutputReference" id="@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutputReference.Initializer"></a>
@@ -3597,7 +4096,9 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutputReference.putOutboundEndpoints">PutOutboundEndpoints</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutputReference.putTargetNameServers">PutTargetNameServers</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutputReference.resetOutboundEndpoints">ResetOutboundEndpoints</a></code> | *No description.* |
 
 ---
 
@@ -3751,6 +4252,18 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `PutOutboundEndpoints` <a name="PutOutboundEndpoints" id="@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutputReference.putOutboundEndpoints"></a>
+
+```csharp
+private void PutOutboundEndpoints(IResolvable|GoogleDnsManagedZoneForwardingConfigOutboundEndpoints[] Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutputReference.putOutboundEndpoints.parameter.value"></a>
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpoints">GoogleDnsManagedZoneForwardingConfigOutboundEndpoints</a>[]
+
+---
+
 ##### `PutTargetNameServers` <a name="PutTargetNameServers" id="@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutputReference.putTargetNameServers"></a>
 
 ```csharp
@@ -3763,6 +4276,12 @@ private void PutTargetNameServers(IResolvable|GoogleDnsManagedZoneForwardingConf
 
 ---
 
+##### `ResetOutboundEndpoints` <a name="ResetOutboundEndpoints" id="@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutputReference.resetOutboundEndpoints"></a>
+
+```csharp
+private void ResetOutboundEndpoints()
+```
+
 
 #### Properties <a name="Properties" id="Properties"></a>
 
@@ -3770,7 +4289,9 @@ private void PutTargetNameServers(IResolvable|GoogleDnsManagedZoneForwardingConf
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutputReference.property.outboundEndpoints">OutboundEndpoints</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsList">GoogleDnsManagedZoneForwardingConfigOutboundEndpointsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutputReference.property.targetNameServers">TargetNameServers</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigTargetNameServersList">GoogleDnsManagedZoneForwardingConfigTargetNameServersList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutputReference.property.outboundEndpointsInput">OutboundEndpointsInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpoints">GoogleDnsManagedZoneForwardingConfigOutboundEndpoints</a>[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutputReference.property.targetNameServersInput">TargetNameServersInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigTargetNameServers">GoogleDnsManagedZoneForwardingConfigTargetNameServers</a>[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfig">GoogleDnsManagedZoneForwardingConfig</a></code> | *No description.* |
 
@@ -3800,6 +4321,16 @@ public string Fqn { get; }
 
 ---
 
+##### `OutboundEndpoints`<sup>Required</sup> <a name="OutboundEndpoints" id="@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutputReference.property.outboundEndpoints"></a>
+
+```csharp
+public GoogleDnsManagedZoneForwardingConfigOutboundEndpointsList OutboundEndpoints { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpointsList">GoogleDnsManagedZoneForwardingConfigOutboundEndpointsList</a>
+
+---
+
 ##### `TargetNameServers`<sup>Required</sup> <a name="TargetNameServers" id="@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutputReference.property.targetNameServers"></a>
 
 ```csharp
@@ -3807,6 +4338,16 @@ public GoogleDnsManagedZoneForwardingConfigTargetNameServersList TargetNameServe
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigTargetNameServersList">GoogleDnsManagedZoneForwardingConfigTargetNameServersList</a>
+
+---
+
+##### `OutboundEndpointsInput`<sup>Optional</sup> <a name="OutboundEndpointsInput" id="@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutputReference.property.outboundEndpointsInput"></a>
+
+```csharp
+public IResolvable|GoogleDnsManagedZoneForwardingConfigOutboundEndpoints[] OutboundEndpointsInput { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZoneForwardingConfigOutboundEndpoints">GoogleDnsManagedZoneForwardingConfigOutboundEndpoints</a>[]
 
 ---
 

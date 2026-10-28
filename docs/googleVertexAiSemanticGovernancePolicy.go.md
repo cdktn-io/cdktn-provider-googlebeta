@@ -4,12 +4,12 @@
 
 ### GoogleVertexAiSemanticGovernancePolicy <a name="GoogleVertexAiSemanticGovernancePolicy" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicy.GoogleVertexAiSemanticGovernancePolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_vertex_ai_semantic_governance_policy google_vertex_ai_semantic_governance_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_semantic_governance_policy google_vertex_ai_semantic_governance_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicy.GoogleVertexAiSemanticGovernancePolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlevertexaisemanticgovernancepolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlevertexaisemanticgovernancepolicy"
 
 googlevertexaisemanticgovernancepolicy.NewGoogleVertexAiSemanticGovernancePolicy(scope Construct, id *string, config GoogleVertexAiSemanticGovernancePolicyConfig) GoogleVertexAiSemanticGovernancePolicy
 ```
@@ -502,7 +502,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicy.GoogleVertexAiSemanticGovernancePolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlevertexaisemanticgovernancepolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlevertexaisemanticgovernancepolicy"
 
 googlevertexaisemanticgovernancepolicy.GoogleVertexAiSemanticGovernancePolicy_IsConstruct(x interface{}) *bool
 ```
@@ -534,7 +534,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicy.GoogleVertexAiSemanticGovernancePolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlevertexaisemanticgovernancepolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlevertexaisemanticgovernancepolicy"
 
 googlevertexaisemanticgovernancepolicy.GoogleVertexAiSemanticGovernancePolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -548,7 +548,7 @@ googlevertexaisemanticgovernancepolicy.GoogleVertexAiSemanticGovernancePolicy_Is
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicy.GoogleVertexAiSemanticGovernancePolicy.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlevertexaisemanticgovernancepolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlevertexaisemanticgovernancepolicy"
 
 googlevertexaisemanticgovernancepolicy.GoogleVertexAiSemanticGovernancePolicy_IsTerraformResource(x interface{}) *bool
 ```
@@ -562,7 +562,7 @@ googlevertexaisemanticgovernancepolicy.GoogleVertexAiSemanticGovernancePolicy_Is
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicy.GoogleVertexAiSemanticGovernancePolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlevertexaisemanticgovernancepolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlevertexaisemanticgovernancepolicy"
 
 googlevertexaisemanticgovernancepolicy.GoogleVertexAiSemanticGovernancePolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -591,7 +591,7 @@ The construct id used in the generated config for the GoogleVertexAiSemanticGove
 
 The id of the existing GoogleVertexAiSemanticGovernancePolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_vertex_ai_semantic_governance_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_semantic_governance_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1110,7 +1110,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicy.GoogleVertexAiSemanticGovernancePolicyAgentResponseCustomization.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlevertexaisemanticgovernancepolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlevertexaisemanticgovernancepolicy"
 
 &googlevertexaisemanticgovernancepolicy.GoogleVertexAiSemanticGovernancePolicyAgentResponseCustomization {
 	DenialMessage: *string,
@@ -1138,7 +1138,7 @@ Custom message shown to the end user when the policy check results in a denial.
 Use this
 to explain the rationale to the user. Max 1000 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_vertex_ai_semantic_governance_policy#denial_message GoogleVertexAiSemanticGovernancePolicy#denial_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_semantic_governance_policy#denial_message GoogleVertexAiSemanticGovernancePolicy#denial_message}
 
 ---
 
@@ -1147,7 +1147,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicy.GoogleVertexAiSemanticGovernancePolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlevertexaisemanticgovernancepolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlevertexaisemanticgovernancepolicy"
 
 &googlevertexaisemanticgovernancepolicy.GoogleVertexAiSemanticGovernancePolicyConfig {
 	Connection: interface{},
@@ -1160,15 +1160,15 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleve
 	Agent: *string,
 	NaturalLanguageConstraint: *string,
 	SemanticGovernancePolicyId: *string,
-	AgentResponseCustomization: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleVertexAiSemanticGovernancePolicy.GoogleVertexAiSemanticGovernancePolicyAgentResponseCustomization,
+	AgentResponseCustomization: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleVertexAiSemanticGovernancePolicy.GoogleVertexAiSemanticGovernancePolicyAgentResponseCustomization,
 	DeletionPolicy: *string,
 	Description: *string,
 	DisplayName: *string,
 	Id: *string,
-	McpTools: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleVertexAiSemanticGovernancePolicy.GoogleVertexAiSemanticGovernancePolicyMcpTools,
+	McpTools: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleVertexAiSemanticGovernancePolicy.GoogleVertexAiSemanticGovernancePolicyMcpTools,
 	Project: *string,
 	Region: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleVertexAiSemanticGovernancePolicy.GoogleVertexAiSemanticGovernancePolicyTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleVertexAiSemanticGovernancePolicy.GoogleVertexAiSemanticGovernancePolicyTimeouts,
 }
 ```
 
@@ -1190,9 +1190,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleve
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicy.GoogleVertexAiSemanticGovernancePolicyConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicy.GoogleVertexAiSemanticGovernancePolicyConfig.property.description">Description</a></code> | <code>*string</code> | The description of the SemanticGovernancePolicy. |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicy.GoogleVertexAiSemanticGovernancePolicyConfig.property.displayName">DisplayName</a></code> | <code>*string</code> | The user-defined name of the SemanticGovernancePolicy. |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicy.GoogleVertexAiSemanticGovernancePolicyConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_vertex_ai_semantic_governance_policy#id GoogleVertexAiSemanticGovernancePolicy#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicy.GoogleVertexAiSemanticGovernancePolicyConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_semantic_governance_policy#id GoogleVertexAiSemanticGovernancePolicy#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicy.GoogleVertexAiSemanticGovernancePolicyConfig.property.mcpTools">McpTools</a></code> | <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicy.GoogleVertexAiSemanticGovernancePolicyMcpTools">GoogleVertexAiSemanticGovernancePolicyMcpTools</a></code> | mcp_tools block. |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicy.GoogleVertexAiSemanticGovernancePolicyConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_vertex_ai_semantic_governance_policy#project GoogleVertexAiSemanticGovernancePolicy#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicy.GoogleVertexAiSemanticGovernancePolicyConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_semantic_governance_policy#project GoogleVertexAiSemanticGovernancePolicy#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicy.GoogleVertexAiSemanticGovernancePolicyConfig.property.region">Region</a></code> | <code>*string</code> | The region of the SemanticGovernancePolicy, e.g. 'us-central1'. |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicy.GoogleVertexAiSemanticGovernancePolicyConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicy.GoogleVertexAiSemanticGovernancePolicyTimeouts">GoogleVertexAiSemanticGovernancePolicyTimeouts</a></code> | timeouts block. |
 
@@ -1278,7 +1278,7 @@ Agent *string
 
 The name of the agent in Agent Registry that is affected by this policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_vertex_ai_semantic_governance_policy#agent GoogleVertexAiSemanticGovernancePolicy#agent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_semantic_governance_policy#agent GoogleVertexAiSemanticGovernancePolicy#agent}
 
 ---
 
@@ -1292,7 +1292,7 @@ NaturalLanguageConstraint *string
 
 The natural language constraint of the SemanticGovernancePolicy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_vertex_ai_semantic_governance_policy#natural_language_constraint GoogleVertexAiSemanticGovernancePolicy#natural_language_constraint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_semantic_governance_policy#natural_language_constraint GoogleVertexAiSemanticGovernancePolicy#natural_language_constraint}
 
 ---
 
@@ -1308,7 +1308,7 @@ The ID of the SemanticGovernancePolicy, which will become the final component of
 
 This value may be up to 63 characters, and valid characters are [a-z0-9-]. The first character cannot be a number or hyphen. The last character must be a letter or a number.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_vertex_ai_semantic_governance_policy#semantic_governance_policy_id GoogleVertexAiSemanticGovernancePolicy#semantic_governance_policy_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_semantic_governance_policy#semantic_governance_policy_id GoogleVertexAiSemanticGovernancePolicy#semantic_governance_policy_id}
 
 ---
 
@@ -1322,7 +1322,7 @@ AgentResponseCustomization GoogleVertexAiSemanticGovernancePolicyAgentResponseCu
 
 agent_response_customization block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_vertex_ai_semantic_governance_policy#agent_response_customization GoogleVertexAiSemanticGovernancePolicy#agent_response_customization}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_semantic_governance_policy#agent_response_customization GoogleVertexAiSemanticGovernancePolicy#agent_response_customization}
 
 ---
 
@@ -1343,7 +1343,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_vertex_ai_semantic_governance_policy#deletion_policy GoogleVertexAiSemanticGovernancePolicy#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_semantic_governance_policy#deletion_policy GoogleVertexAiSemanticGovernancePolicy#deletion_policy}
 
 ---
 
@@ -1357,7 +1357,7 @@ Description *string
 
 The description of the SemanticGovernancePolicy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_vertex_ai_semantic_governance_policy#description GoogleVertexAiSemanticGovernancePolicy#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_semantic_governance_policy#description GoogleVertexAiSemanticGovernancePolicy#description}
 
 ---
 
@@ -1371,7 +1371,7 @@ DisplayName *string
 
 The user-defined name of the SemanticGovernancePolicy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_vertex_ai_semantic_governance_policy#display_name GoogleVertexAiSemanticGovernancePolicy#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_semantic_governance_policy#display_name GoogleVertexAiSemanticGovernancePolicy#display_name}
 
 ---
 
@@ -1383,7 +1383,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_vertex_ai_semantic_governance_policy#id GoogleVertexAiSemanticGovernancePolicy#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_semantic_governance_policy#id GoogleVertexAiSemanticGovernancePolicy#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1400,7 +1400,7 @@ McpTools GoogleVertexAiSemanticGovernancePolicyMcpTools
 
 mcp_tools block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_vertex_ai_semantic_governance_policy#mcp_tools GoogleVertexAiSemanticGovernancePolicy#mcp_tools}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_semantic_governance_policy#mcp_tools GoogleVertexAiSemanticGovernancePolicy#mcp_tools}
 
 ---
 
@@ -1412,7 +1412,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_vertex_ai_semantic_governance_policy#project GoogleVertexAiSemanticGovernancePolicy#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_semantic_governance_policy#project GoogleVertexAiSemanticGovernancePolicy#project}.
 
 ---
 
@@ -1426,7 +1426,7 @@ Region *string
 
 The region of the SemanticGovernancePolicy, e.g. 'us-central1'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_vertex_ai_semantic_governance_policy#region GoogleVertexAiSemanticGovernancePolicy#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_semantic_governance_policy#region GoogleVertexAiSemanticGovernancePolicy#region}
 
 ---
 
@@ -1440,7 +1440,7 @@ Timeouts GoogleVertexAiSemanticGovernancePolicyTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_vertex_ai_semantic_governance_policy#timeouts GoogleVertexAiSemanticGovernancePolicy#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_semantic_governance_policy#timeouts GoogleVertexAiSemanticGovernancePolicy#timeouts}
 
 ---
 
@@ -1449,7 +1449,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicy.GoogleVertexAiSemanticGovernancePolicyMcpTools.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlevertexaisemanticgovernancepolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlevertexaisemanticgovernancepolicy"
 
 &googlevertexaisemanticgovernancepolicy.GoogleVertexAiSemanticGovernancePolicyMcpTools {
 	McpServer: *string,
@@ -1476,7 +1476,7 @@ McpServer *string
 
 The resource name of the McpServer in Agent Registry that is affected by this policy. Format: 'projects/{project}/locations/{location}/mcpServers/{mcpServer}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_vertex_ai_semantic_governance_policy#mcp_server GoogleVertexAiSemanticGovernancePolicy#mcp_server}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_semantic_governance_policy#mcp_server GoogleVertexAiSemanticGovernancePolicy#mcp_server}
 
 ---
 
@@ -1492,7 +1492,7 @@ The resource names of the McpTools used by the Agent that is affected by this po
 
 At least one tool must be listed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_vertex_ai_semantic_governance_policy#tools GoogleVertexAiSemanticGovernancePolicy#tools}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_semantic_governance_policy#tools GoogleVertexAiSemanticGovernancePolicy#tools}
 
 ---
 
@@ -1501,7 +1501,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicy.GoogleVertexAiSemanticGovernancePolicyTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlevertexaisemanticgovernancepolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlevertexaisemanticgovernancepolicy"
 
 &googlevertexaisemanticgovernancepolicy.GoogleVertexAiSemanticGovernancePolicyTimeouts {
 	Create: *string,
@@ -1514,9 +1514,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleve
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicy.GoogleVertexAiSemanticGovernancePolicyTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_vertex_ai_semantic_governance_policy#create GoogleVertexAiSemanticGovernancePolicy#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicy.GoogleVertexAiSemanticGovernancePolicyTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_vertex_ai_semantic_governance_policy#delete GoogleVertexAiSemanticGovernancePolicy#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicy.GoogleVertexAiSemanticGovernancePolicyTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_vertex_ai_semantic_governance_policy#update GoogleVertexAiSemanticGovernancePolicy#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicy.GoogleVertexAiSemanticGovernancePolicyTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_semantic_governance_policy#create GoogleVertexAiSemanticGovernancePolicy#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicy.GoogleVertexAiSemanticGovernancePolicyTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_semantic_governance_policy#delete GoogleVertexAiSemanticGovernancePolicy#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicy.GoogleVertexAiSemanticGovernancePolicyTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_semantic_governance_policy#update GoogleVertexAiSemanticGovernancePolicy#update}. |
 
 ---
 
@@ -1528,7 +1528,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_vertex_ai_semantic_governance_policy#create GoogleVertexAiSemanticGovernancePolicy#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_semantic_governance_policy#create GoogleVertexAiSemanticGovernancePolicy#create}.
 
 ---
 
@@ -1540,7 +1540,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_vertex_ai_semantic_governance_policy#delete GoogleVertexAiSemanticGovernancePolicy#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_semantic_governance_policy#delete GoogleVertexAiSemanticGovernancePolicy#delete}.
 
 ---
 
@@ -1552,7 +1552,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_vertex_ai_semantic_governance_policy#update GoogleVertexAiSemanticGovernancePolicy#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_semantic_governance_policy#update GoogleVertexAiSemanticGovernancePolicy#update}.
 
 ---
 
@@ -1563,7 +1563,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicy.GoogleVertexAiSemanticGovernancePolicyAgentResponseCustomizationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlevertexaisemanticgovernancepolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlevertexaisemanticgovernancepolicy"
 
 googlevertexaisemanticgovernancepolicy.NewGoogleVertexAiSemanticGovernancePolicyAgentResponseCustomizationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiSemanticGovernancePolicyAgentResponseCustomizationOutputReference
 ```
@@ -1841,7 +1841,7 @@ func InternalValue() GoogleVertexAiSemanticGovernancePolicyAgentResponseCustomiz
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicy.GoogleVertexAiSemanticGovernancePolicyMcpToolsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlevertexaisemanticgovernancepolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlevertexaisemanticgovernancepolicy"
 
 googlevertexaisemanticgovernancepolicy.NewGoogleVertexAiSemanticGovernancePolicyMcpToolsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiSemanticGovernancePolicyMcpToolsOutputReference
 ```
@@ -2134,7 +2134,7 @@ func InternalValue() GoogleVertexAiSemanticGovernancePolicyMcpTools
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiSemanticGovernancePolicy.GoogleVertexAiSemanticGovernancePolicyTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlevertexaisemanticgovernancepolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlevertexaisemanticgovernancepolicy"
 
 googlevertexaisemanticgovernancepolicy.NewGoogleVertexAiSemanticGovernancePolicyTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiSemanticGovernancePolicyTimeoutsOutputReference
 ```

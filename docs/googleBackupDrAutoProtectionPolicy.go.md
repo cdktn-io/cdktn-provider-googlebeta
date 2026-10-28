@@ -4,12 +4,12 @@
 
 ### GoogleBackupDrAutoProtectionPolicy <a name="GoogleBackupDrAutoProtectionPolicy" id="@cdktn/provider-google-beta.googleBackupDrAutoProtectionPolicy.GoogleBackupDrAutoProtectionPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_backup_dr_auto_protection_policy google_backup_dr_auto_protection_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_backup_dr_auto_protection_policy google_backup_dr_auto_protection_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrAutoProtectionPolicy.GoogleBackupDrAutoProtectionPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebackupdrautoprotectionpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebackupdrautoprotectionpolicy"
 
 googlebackupdrautoprotectionpolicy.NewGoogleBackupDrAutoProtectionPolicy(scope Construct, id *string, config GoogleBackupDrAutoProtectionPolicyConfig) GoogleBackupDrAutoProtectionPolicy
 ```
@@ -474,7 +474,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleBackupDrAutoProtectionPolicy.GoogleBackupDrAutoProtectionPolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebackupdrautoprotectionpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebackupdrautoprotectionpolicy"
 
 googlebackupdrautoprotectionpolicy.GoogleBackupDrAutoProtectionPolicy_IsConstruct(x interface{}) *bool
 ```
@@ -506,7 +506,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleBackupDrAutoProtectionPolicy.GoogleBackupDrAutoProtectionPolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebackupdrautoprotectionpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebackupdrautoprotectionpolicy"
 
 googlebackupdrautoprotectionpolicy.GoogleBackupDrAutoProtectionPolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -520,7 +520,7 @@ googlebackupdrautoprotectionpolicy.GoogleBackupDrAutoProtectionPolicy_IsTerrafor
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleBackupDrAutoProtectionPolicy.GoogleBackupDrAutoProtectionPolicy.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebackupdrautoprotectionpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebackupdrautoprotectionpolicy"
 
 googlebackupdrautoprotectionpolicy.GoogleBackupDrAutoProtectionPolicy_IsTerraformResource(x interface{}) *bool
 ```
@@ -534,7 +534,7 @@ googlebackupdrautoprotectionpolicy.GoogleBackupDrAutoProtectionPolicy_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleBackupDrAutoProtectionPolicy.GoogleBackupDrAutoProtectionPolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebackupdrautoprotectionpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebackupdrautoprotectionpolicy"
 
 googlebackupdrautoprotectionpolicy.GoogleBackupDrAutoProtectionPolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -563,7 +563,7 @@ The construct id used in the generated config for the GoogleBackupDrAutoProtecti
 
 The id of the existing GoogleBackupDrAutoProtectionPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_backup_dr_auto_protection_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_backup_dr_auto_protection_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1038,7 +1038,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBackupDrAutoProtectionPolicy.GoogleBackupDrAutoProtectionPolicyBackupPlanDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebackupdrautoprotectionpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebackupdrautoprotectionpolicy"
 
 &googlebackupdrautoprotectionpolicy.GoogleBackupDrAutoProtectionPolicyBackupPlanDetails {
 	BackupPlan: *string,
@@ -1068,7 +1068,7 @@ The resource name of the backup plan to apply to the matching resources, in the 
 The backup plan
 must be in the same location as the auto protection policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_backup_dr_auto_protection_policy#backup_plan GoogleBackupDrAutoProtectionPolicy#backup_plan}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_backup_dr_auto_protection_policy#backup_plan GoogleBackupDrAutoProtectionPolicy#backup_plan}
 
 ---
 
@@ -1082,7 +1082,7 @@ ResourceType *string
 
 The type of resource that this policy automatically protects, for example 'compute.googleapis.com/Instance' or 'compute.googleapis.com/Disk'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_backup_dr_auto_protection_policy#resource_type GoogleBackupDrAutoProtectionPolicy#resource_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_backup_dr_auto_protection_policy#resource_type GoogleBackupDrAutoProtectionPolicy#resource_type}
 
 ---
 
@@ -1091,7 +1091,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBackupDrAutoProtectionPolicy.GoogleBackupDrAutoProtectionPolicyBindingSummary.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebackupdrautoprotectionpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebackupdrautoprotectionpolicy"
 
 &googlebackupdrautoprotectionpolicy.GoogleBackupDrAutoProtectionPolicyBindingSummary {
 
@@ -1104,7 +1104,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleba
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBackupDrAutoProtectionPolicy.GoogleBackupDrAutoProtectionPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebackupdrautoprotectionpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebackupdrautoprotectionpolicy"
 
 &googlebackupdrautoprotectionpolicy.GoogleBackupDrAutoProtectionPolicyConfig {
 	Connection: interface{},
@@ -1116,13 +1116,13 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleba
 	Provisioners: *[]interface{},
 	AutoProtectionPolicyId: *string,
 	BackupPlanDetails: interface{},
-	Criteria: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleBackupDrAutoProtectionPolicy.GoogleBackupDrAutoProtectionPolicyCriteria,
+	Criteria: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleBackupDrAutoProtectionPolicy.GoogleBackupDrAutoProtectionPolicyCriteria,
 	Location: *string,
 	DeletionPolicy: *string,
 	Description: *string,
 	Id: *string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleBackupDrAutoProtectionPolicy.GoogleBackupDrAutoProtectionPolicyTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleBackupDrAutoProtectionPolicy.GoogleBackupDrAutoProtectionPolicyTimeouts,
 }
 ```
 
@@ -1143,8 +1143,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleba
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrAutoProtectionPolicy.GoogleBackupDrAutoProtectionPolicyConfig.property.location">Location</a></code> | <code>*string</code> | The location of the auto protection policy. |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrAutoProtectionPolicy.GoogleBackupDrAutoProtectionPolicyConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrAutoProtectionPolicy.GoogleBackupDrAutoProtectionPolicyConfig.property.description">Description</a></code> | <code>*string</code> | A description of the auto protection policy. |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrAutoProtectionPolicy.GoogleBackupDrAutoProtectionPolicyConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_backup_dr_auto_protection_policy#id GoogleBackupDrAutoProtectionPolicy#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrAutoProtectionPolicy.GoogleBackupDrAutoProtectionPolicyConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_backup_dr_auto_protection_policy#project GoogleBackupDrAutoProtectionPolicy#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrAutoProtectionPolicy.GoogleBackupDrAutoProtectionPolicyConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_backup_dr_auto_protection_policy#id GoogleBackupDrAutoProtectionPolicy#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrAutoProtectionPolicy.GoogleBackupDrAutoProtectionPolicyConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_backup_dr_auto_protection_policy#project GoogleBackupDrAutoProtectionPolicy#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrAutoProtectionPolicy.GoogleBackupDrAutoProtectionPolicyConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBackupDrAutoProtectionPolicy.GoogleBackupDrAutoProtectionPolicyTimeouts">GoogleBackupDrAutoProtectionPolicyTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1229,7 +1229,7 @@ AutoProtectionPolicyId *string
 
 The ID of the auto protection policy. This becomes the final component of the policy's resource name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_backup_dr_auto_protection_policy#auto_protection_policy_id GoogleBackupDrAutoProtectionPolicy#auto_protection_policy_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_backup_dr_auto_protection_policy#auto_protection_policy_id GoogleBackupDrAutoProtectionPolicy#auto_protection_policy_id}
 
 ---
 
@@ -1243,7 +1243,7 @@ BackupPlanDetails interface{}
 
 backup_plan_details block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_backup_dr_auto_protection_policy#backup_plan_details GoogleBackupDrAutoProtectionPolicy#backup_plan_details}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_backup_dr_auto_protection_policy#backup_plan_details GoogleBackupDrAutoProtectionPolicy#backup_plan_details}
 
 ---
 
@@ -1257,7 +1257,7 @@ Criteria GoogleBackupDrAutoProtectionPolicyCriteria
 
 criteria block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_backup_dr_auto_protection_policy#criteria GoogleBackupDrAutoProtectionPolicy#criteria}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_backup_dr_auto_protection_policy#criteria GoogleBackupDrAutoProtectionPolicy#criteria}
 
 ---
 
@@ -1271,7 +1271,7 @@ Location *string
 
 The location of the auto protection policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_backup_dr_auto_protection_policy#location GoogleBackupDrAutoProtectionPolicy#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_backup_dr_auto_protection_policy#location GoogleBackupDrAutoProtectionPolicy#location}
 
 ---
 
@@ -1292,7 +1292,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_backup_dr_auto_protection_policy#deletion_policy GoogleBackupDrAutoProtectionPolicy#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_backup_dr_auto_protection_policy#deletion_policy GoogleBackupDrAutoProtectionPolicy#deletion_policy}
 
 ---
 
@@ -1306,7 +1306,7 @@ Description *string
 
 A description of the auto protection policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_backup_dr_auto_protection_policy#description GoogleBackupDrAutoProtectionPolicy#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_backup_dr_auto_protection_policy#description GoogleBackupDrAutoProtectionPolicy#description}
 
 ---
 
@@ -1318,7 +1318,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_backup_dr_auto_protection_policy#id GoogleBackupDrAutoProtectionPolicy#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_backup_dr_auto_protection_policy#id GoogleBackupDrAutoProtectionPolicy#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1333,7 +1333,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_backup_dr_auto_protection_policy#project GoogleBackupDrAutoProtectionPolicy#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_backup_dr_auto_protection_policy#project GoogleBackupDrAutoProtectionPolicy#project}.
 
 ---
 
@@ -1347,7 +1347,7 @@ Timeouts GoogleBackupDrAutoProtectionPolicyTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_backup_dr_auto_protection_policy#timeouts GoogleBackupDrAutoProtectionPolicy#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_backup_dr_auto_protection_policy#timeouts GoogleBackupDrAutoProtectionPolicy#timeouts}
 
 ---
 
@@ -1356,7 +1356,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBackupDrAutoProtectionPolicy.GoogleBackupDrAutoProtectionPolicyCriteria.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebackupdrautoprotectionpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebackupdrautoprotectionpolicy"
 
 &googlebackupdrautoprotectionpolicy.GoogleBackupDrAutoProtectionPolicyCriteria {
 	MatchingConditions: interface{},
@@ -1381,7 +1381,7 @@ MatchingConditions interface{}
 
 matching_conditions block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_backup_dr_auto_protection_policy#matching_conditions GoogleBackupDrAutoProtectionPolicy#matching_conditions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_backup_dr_auto_protection_policy#matching_conditions GoogleBackupDrAutoProtectionPolicy#matching_conditions}
 
 ---
 
@@ -1390,10 +1390,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBackupDrAutoProtectionPolicy.GoogleBackupDrAutoProtectionPolicyCriteriaMatchingConditions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebackupdrautoprotectionpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebackupdrautoprotectionpolicy"
 
 &googlebackupdrautoprotectionpolicy.GoogleBackupDrAutoProtectionPolicyCriteriaMatchingConditions {
-	LabelCondition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleBackupDrAutoProtectionPolicy.GoogleBackupDrAutoProtectionPolicyCriteriaMatchingConditionsLabelCondition,
+	LabelCondition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleBackupDrAutoProtectionPolicy.GoogleBackupDrAutoProtectionPolicyCriteriaMatchingConditionsLabelCondition,
 }
 ```
 
@@ -1415,7 +1415,7 @@ LabelCondition GoogleBackupDrAutoProtectionPolicyCriteriaMatchingConditionsLabel
 
 label_condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_backup_dr_auto_protection_policy#label_condition GoogleBackupDrAutoProtectionPolicy#label_condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_backup_dr_auto_protection_policy#label_condition GoogleBackupDrAutoProtectionPolicy#label_condition}
 
 ---
 
@@ -1424,7 +1424,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBackupDrAutoProtectionPolicy.GoogleBackupDrAutoProtectionPolicyCriteriaMatchingConditionsLabelCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebackupdrautoprotectionpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebackupdrautoprotectionpolicy"
 
 &googlebackupdrautoprotectionpolicy.GoogleBackupDrAutoProtectionPolicyCriteriaMatchingConditionsLabelCondition {
 	Key: *string,
@@ -1451,7 +1451,7 @@ Key *string
 
 The key of the label to match.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_backup_dr_auto_protection_policy#key GoogleBackupDrAutoProtectionPolicy#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_backup_dr_auto_protection_policy#key GoogleBackupDrAutoProtectionPolicy#key}
 
 ---
 
@@ -1468,7 +1468,7 @@ The values of the label to match.
 A resource matches the condition if its label
 value is equal to any of the listed values. Currently, only one value is supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_backup_dr_auto_protection_policy#values GoogleBackupDrAutoProtectionPolicy#values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_backup_dr_auto_protection_policy#values GoogleBackupDrAutoProtectionPolicy#values}
 
 ---
 
@@ -1477,7 +1477,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBackupDrAutoProtectionPolicy.GoogleBackupDrAutoProtectionPolicyPolicyEvaluationSummary.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebackupdrautoprotectionpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebackupdrautoprotectionpolicy"
 
 &googlebackupdrautoprotectionpolicy.GoogleBackupDrAutoProtectionPolicyPolicyEvaluationSummary {
 
@@ -1490,7 +1490,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleba
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBackupDrAutoProtectionPolicy.GoogleBackupDrAutoProtectionPolicyTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebackupdrautoprotectionpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebackupdrautoprotectionpolicy"
 
 &googlebackupdrautoprotectionpolicy.GoogleBackupDrAutoProtectionPolicyTimeouts {
 	Create: *string,
@@ -1503,9 +1503,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleba
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrAutoProtectionPolicy.GoogleBackupDrAutoProtectionPolicyTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_backup_dr_auto_protection_policy#create GoogleBackupDrAutoProtectionPolicy#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrAutoProtectionPolicy.GoogleBackupDrAutoProtectionPolicyTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_backup_dr_auto_protection_policy#delete GoogleBackupDrAutoProtectionPolicy#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrAutoProtectionPolicy.GoogleBackupDrAutoProtectionPolicyTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_backup_dr_auto_protection_policy#update GoogleBackupDrAutoProtectionPolicy#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrAutoProtectionPolicy.GoogleBackupDrAutoProtectionPolicyTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_backup_dr_auto_protection_policy#create GoogleBackupDrAutoProtectionPolicy#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrAutoProtectionPolicy.GoogleBackupDrAutoProtectionPolicyTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_backup_dr_auto_protection_policy#delete GoogleBackupDrAutoProtectionPolicy#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrAutoProtectionPolicy.GoogleBackupDrAutoProtectionPolicyTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_backup_dr_auto_protection_policy#update GoogleBackupDrAutoProtectionPolicy#update}. |
 
 ---
 
@@ -1517,7 +1517,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_backup_dr_auto_protection_policy#create GoogleBackupDrAutoProtectionPolicy#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_backup_dr_auto_protection_policy#create GoogleBackupDrAutoProtectionPolicy#create}.
 
 ---
 
@@ -1529,7 +1529,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_backup_dr_auto_protection_policy#delete GoogleBackupDrAutoProtectionPolicy#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_backup_dr_auto_protection_policy#delete GoogleBackupDrAutoProtectionPolicy#delete}.
 
 ---
 
@@ -1541,7 +1541,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_backup_dr_auto_protection_policy#update GoogleBackupDrAutoProtectionPolicy#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_backup_dr_auto_protection_policy#update GoogleBackupDrAutoProtectionPolicy#update}.
 
 ---
 
@@ -1552,7 +1552,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrAutoProtectionPolicy.GoogleBackupDrAutoProtectionPolicyBackupPlanDetailsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebackupdrautoprotectionpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebackupdrautoprotectionpolicy"
 
 googlebackupdrautoprotectionpolicy.NewGoogleBackupDrAutoProtectionPolicyBackupPlanDetailsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleBackupDrAutoProtectionPolicyBackupPlanDetailsList
 ```
@@ -1712,7 +1712,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrAutoProtectionPolicy.GoogleBackupDrAutoProtectionPolicyBackupPlanDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebackupdrautoprotectionpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebackupdrautoprotectionpolicy"
 
 googlebackupdrautoprotectionpolicy.NewGoogleBackupDrAutoProtectionPolicyBackupPlanDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleBackupDrAutoProtectionPolicyBackupPlanDetailsOutputReference
 ```
@@ -2023,7 +2023,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrAutoProtectionPolicy.GoogleBackupDrAutoProtectionPolicyBindingSummaryList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebackupdrautoprotectionpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebackupdrautoprotectionpolicy"
 
 googlebackupdrautoprotectionpolicy.NewGoogleBackupDrAutoProtectionPolicyBindingSummaryList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleBackupDrAutoProtectionPolicyBindingSummaryList
 ```
@@ -2172,7 +2172,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrAutoProtectionPolicy.GoogleBackupDrAutoProtectionPolicyBindingSummaryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebackupdrautoprotectionpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebackupdrautoprotectionpolicy"
 
 googlebackupdrautoprotectionpolicy.NewGoogleBackupDrAutoProtectionPolicyBindingSummaryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleBackupDrAutoProtectionPolicyBindingSummaryOutputReference
 ```
@@ -2450,7 +2450,7 @@ func InternalValue() GoogleBackupDrAutoProtectionPolicyBindingSummary
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrAutoProtectionPolicy.GoogleBackupDrAutoProtectionPolicyCriteriaMatchingConditionsLabelConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebackupdrautoprotectionpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebackupdrautoprotectionpolicy"
 
 googlebackupdrautoprotectionpolicy.NewGoogleBackupDrAutoProtectionPolicyCriteriaMatchingConditionsLabelConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBackupDrAutoProtectionPolicyCriteriaMatchingConditionsLabelConditionOutputReference
 ```
@@ -2743,7 +2743,7 @@ func InternalValue() GoogleBackupDrAutoProtectionPolicyCriteriaMatchingCondition
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrAutoProtectionPolicy.GoogleBackupDrAutoProtectionPolicyCriteriaMatchingConditionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebackupdrautoprotectionpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebackupdrautoprotectionpolicy"
 
 googlebackupdrautoprotectionpolicy.NewGoogleBackupDrAutoProtectionPolicyCriteriaMatchingConditionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleBackupDrAutoProtectionPolicyCriteriaMatchingConditionsList
 ```
@@ -2903,7 +2903,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrAutoProtectionPolicy.GoogleBackupDrAutoProtectionPolicyCriteriaMatchingConditionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebackupdrautoprotectionpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebackupdrautoprotectionpolicy"
 
 googlebackupdrautoprotectionpolicy.NewGoogleBackupDrAutoProtectionPolicyCriteriaMatchingConditionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleBackupDrAutoProtectionPolicyCriteriaMatchingConditionsOutputReference
 ```
@@ -3212,7 +3212,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrAutoProtectionPolicy.GoogleBackupDrAutoProtectionPolicyCriteriaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebackupdrautoprotectionpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebackupdrautoprotectionpolicy"
 
 googlebackupdrautoprotectionpolicy.NewGoogleBackupDrAutoProtectionPolicyCriteriaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBackupDrAutoProtectionPolicyCriteriaOutputReference
 ```
@@ -3496,7 +3496,7 @@ func InternalValue() GoogleBackupDrAutoProtectionPolicyCriteria
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrAutoProtectionPolicy.GoogleBackupDrAutoProtectionPolicyPolicyEvaluationSummaryList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebackupdrautoprotectionpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebackupdrautoprotectionpolicy"
 
 googlebackupdrautoprotectionpolicy.NewGoogleBackupDrAutoProtectionPolicyPolicyEvaluationSummaryList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleBackupDrAutoProtectionPolicyPolicyEvaluationSummaryList
 ```
@@ -3645,7 +3645,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrAutoProtectionPolicy.GoogleBackupDrAutoProtectionPolicyPolicyEvaluationSummaryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebackupdrautoprotectionpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebackupdrautoprotectionpolicy"
 
 googlebackupdrautoprotectionpolicy.NewGoogleBackupDrAutoProtectionPolicyPolicyEvaluationSummaryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleBackupDrAutoProtectionPolicyPolicyEvaluationSummaryOutputReference
 ```
@@ -3945,7 +3945,7 @@ func InternalValue() GoogleBackupDrAutoProtectionPolicyPolicyEvaluationSummary
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrAutoProtectionPolicy.GoogleBackupDrAutoProtectionPolicyTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebackupdrautoprotectionpolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebackupdrautoprotectionpolicy"
 
 googlebackupdrautoprotectionpolicy.NewGoogleBackupDrAutoProtectionPolicyTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBackupDrAutoProtectionPolicyTimeoutsOutputReference
 ```

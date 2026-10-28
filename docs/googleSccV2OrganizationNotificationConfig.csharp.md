@@ -4,7 +4,7 @@
 
 ### GoogleSccV2OrganizationNotificationConfig <a name="GoogleSccV2OrganizationNotificationConfig" id="@cdktn/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfig"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_scc_v2_organization_notification_config google_scc_v2_organization_notification_config}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_scc_v2_organization_notification_config google_scc_v2_organization_notification_config}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfig.Initializer"></a>
 
@@ -76,6 +76,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfig.moveToId">MoveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfig.putStreamingConfig">PutStreamingConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfig.putTimeouts">PutTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfig.resetDeletionNotificationsEnabled">ResetDeletionNotificationsEnabled</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfig.resetDeletionPolicy">ResetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfig.resetDescription">ResetDescription</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfig.resetId">ResetId</a></code> | *No description.* |
@@ -417,6 +418,12 @@ private void PutTimeouts(GoogleSccV2OrganizationNotificationConfigTimeouts Value
 
 ---
 
+##### `ResetDeletionNotificationsEnabled` <a name="ResetDeletionNotificationsEnabled" id="@cdktn/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfig.resetDeletionNotificationsEnabled"></a>
+
+```csharp
+private void ResetDeletionNotificationsEnabled()
+```
+
 ##### `ResetDeletionPolicy` <a name="ResetDeletionPolicy" id="@cdktn/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfig.resetDeletionPolicy"></a>
 
 ```csharp
@@ -550,7 +557,7 @@ The construct id used in the generated config for the GoogleSccV2OrganizationNot
 
 The id of the existing GoogleSccV2OrganizationNotificationConfig that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_scc_v2_organization_notification_config#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_scc_v2_organization_notification_config#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -585,6 +592,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfig.property.streamingConfig">StreamingConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfigStreamingConfigOutputReference">GoogleSccV2OrganizationNotificationConfigStreamingConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfigTimeoutsOutputReference">GoogleSccV2OrganizationNotificationConfigTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfig.property.configIdInput">ConfigIdInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfig.property.deletionNotificationsEnabledInput">DeletionNotificationsEnabledInput</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfig.property.deletionPolicyInput">DeletionPolicyInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfig.property.descriptionInput">DescriptionInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfig.property.idInput">IdInput</a></code> | <code>string</code> | *No description.* |
@@ -594,6 +602,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfig.property.streamingConfigInput">StreamingConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfigStreamingConfig">GoogleSccV2OrganizationNotificationConfigStreamingConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfig.property.timeoutsInput">TimeoutsInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfigTimeouts">GoogleSccV2OrganizationNotificationConfigTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfig.property.configId">ConfigId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfig.property.deletionNotificationsEnabled">DeletionNotificationsEnabled</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfig.property.description">Description</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfig.property.id">Id</a></code> | <code>string</code> | *No description.* |
@@ -795,6 +804,16 @@ public string ConfigIdInput { get; }
 
 ---
 
+##### `DeletionNotificationsEnabledInput`<sup>Optional</sup> <a name="DeletionNotificationsEnabledInput" id="@cdktn/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfig.property.deletionNotificationsEnabledInput"></a>
+
+```csharp
+public bool|IResolvable DeletionNotificationsEnabledInput { get; }
+```
+
+- *Type:* bool|Io.Cdktn.IResolvable
+
+---
+
 ##### `DeletionPolicyInput`<sup>Optional</sup> <a name="DeletionPolicyInput" id="@cdktn/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfig.property.deletionPolicyInput"></a>
 
 ```csharp
@@ -882,6 +901,16 @@ public string ConfigId { get; }
 ```
 
 - *Type:* string
+
+---
+
+##### `DeletionNotificationsEnabled`<sup>Required</sup> <a name="DeletionNotificationsEnabled" id="@cdktn/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfig.property.deletionNotificationsEnabled"></a>
+
+```csharp
+public bool|IResolvable DeletionNotificationsEnabled { get; }
+```
+
+- *Type:* bool|Io.Cdktn.IResolvable
 
 ---
 
@@ -984,6 +1013,7 @@ new GoogleSccV2OrganizationNotificationConfigConfig {
     string Organization,
     string PubsubTopic,
     GoogleSccV2OrganizationNotificationConfigStreamingConfig StreamingConfig,
+    bool|IResolvable DeletionNotificationsEnabled = null,
     string DeletionPolicy = null,
     string Description = null,
     string Id = null,
@@ -1007,9 +1037,10 @@ new GoogleSccV2OrganizationNotificationConfigConfig {
 | <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfigConfig.property.organization">Organization</a></code> | <code>string</code> | The organization whose Cloud Security Command Center the Notification Config lives in. |
 | <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfigConfig.property.pubsubTopic">PubsubTopic</a></code> | <code>string</code> | The Pub/Sub topic to send notifications to. Its format is "projects/[project_id]/topics/[topic]". |
 | <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfigConfig.property.streamingConfig">StreamingConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfigStreamingConfig">GoogleSccV2OrganizationNotificationConfigStreamingConfig</a></code> | streaming_config block. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfigConfig.property.deletionNotificationsEnabled">DeletionNotificationsEnabled</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | Indicates whether the notifications will be sent for deleted findings. |
 | <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfigConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfigConfig.property.description">Description</a></code> | <code>string</code> | The description of the notification config (max of 1024 characters). |
-| <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfigConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_scc_v2_organization_notification_config#id GoogleSccV2OrganizationNotificationConfig#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfigConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_scc_v2_organization_notification_config#id GoogleSccV2OrganizationNotificationConfig#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfigConfig.property.location">Location</a></code> | <code>string</code> | location Id is provided by organization. If not provided, Use global as default. |
 | <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfigConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfigTimeouts">GoogleSccV2OrganizationNotificationConfigTimeouts</a></code> | timeouts block. |
 
@@ -1095,7 +1126,7 @@ public string ConfigId { get; set; }
 
 This must be unique within the organization.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_scc_v2_organization_notification_config#config_id GoogleSccV2OrganizationNotificationConfig#config_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_scc_v2_organization_notification_config#config_id GoogleSccV2OrganizationNotificationConfig#config_id}
 
 ---
 
@@ -1109,7 +1140,7 @@ public string Organization { get; set; }
 
 The organization whose Cloud Security Command Center the Notification Config lives in.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_scc_v2_organization_notification_config#organization GoogleSccV2OrganizationNotificationConfig#organization}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_scc_v2_organization_notification_config#organization GoogleSccV2OrganizationNotificationConfig#organization}
 
 ---
 
@@ -1123,7 +1154,7 @@ public string PubsubTopic { get; set; }
 
 The Pub/Sub topic to send notifications to. Its format is "projects/[project_id]/topics/[topic]".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_scc_v2_organization_notification_config#pubsub_topic GoogleSccV2OrganizationNotificationConfig#pubsub_topic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_scc_v2_organization_notification_config#pubsub_topic GoogleSccV2OrganizationNotificationConfig#pubsub_topic}
 
 ---
 
@@ -1137,7 +1168,21 @@ public GoogleSccV2OrganizationNotificationConfigStreamingConfig StreamingConfig 
 
 streaming_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_scc_v2_organization_notification_config#streaming_config GoogleSccV2OrganizationNotificationConfig#streaming_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_scc_v2_organization_notification_config#streaming_config GoogleSccV2OrganizationNotificationConfig#streaming_config}
+
+---
+
+##### `DeletionNotificationsEnabled`<sup>Optional</sup> <a name="DeletionNotificationsEnabled" id="@cdktn/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfigConfig.property.deletionNotificationsEnabled"></a>
+
+```csharp
+public bool|IResolvable DeletionNotificationsEnabled { get; set; }
+```
+
+- *Type:* bool|Io.Cdktn.IResolvable
+
+Indicates whether the notifications will be sent for deleted findings.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_scc_v2_organization_notification_config#deletion_notifications_enabled GoogleSccV2OrganizationNotificationConfig#deletion_notifications_enabled}
 
 ---
 
@@ -1158,7 +1203,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_scc_v2_organization_notification_config#deletion_policy GoogleSccV2OrganizationNotificationConfig#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_scc_v2_organization_notification_config#deletion_policy GoogleSccV2OrganizationNotificationConfig#deletion_policy}
 
 ---
 
@@ -1172,7 +1217,7 @@ public string Description { get; set; }
 
 The description of the notification config (max of 1024 characters).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_scc_v2_organization_notification_config#description GoogleSccV2OrganizationNotificationConfig#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_scc_v2_organization_notification_config#description GoogleSccV2OrganizationNotificationConfig#description}
 
 ---
 
@@ -1184,7 +1229,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_scc_v2_organization_notification_config#id GoogleSccV2OrganizationNotificationConfig#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_scc_v2_organization_notification_config#id GoogleSccV2OrganizationNotificationConfig#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1201,7 +1246,7 @@ public string Location { get; set; }
 
 location Id is provided by organization. If not provided, Use global as default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_scc_v2_organization_notification_config#location GoogleSccV2OrganizationNotificationConfig#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_scc_v2_organization_notification_config#location GoogleSccV2OrganizationNotificationConfig#location}
 
 ---
 
@@ -1215,7 +1260,7 @@ public GoogleSccV2OrganizationNotificationConfigTimeouts Timeouts { get; set; }
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_scc_v2_organization_notification_config#timeouts GoogleSccV2OrganizationNotificationConfig#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_scc_v2_organization_notification_config#timeouts GoogleSccV2OrganizationNotificationConfig#timeouts}
 
 ---
 
@@ -1274,7 +1319,7 @@ See
 [Filtering notifications](https://cloud.google.com/security-command-center/docs/how-to-api-filter-notifications)
 for information on how to write a filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_scc_v2_organization_notification_config#filter GoogleSccV2OrganizationNotificationConfig#filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_scc_v2_organization_notification_config#filter GoogleSccV2OrganizationNotificationConfig#filter}
 
 ---
 
@@ -1296,9 +1341,9 @@ new GoogleSccV2OrganizationNotificationConfigTimeouts {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfigTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_scc_v2_organization_notification_config#create GoogleSccV2OrganizationNotificationConfig#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfigTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_scc_v2_organization_notification_config#delete GoogleSccV2OrganizationNotificationConfig#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfigTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_scc_v2_organization_notification_config#update GoogleSccV2OrganizationNotificationConfig#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfigTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_scc_v2_organization_notification_config#create GoogleSccV2OrganizationNotificationConfig#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfigTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_scc_v2_organization_notification_config#delete GoogleSccV2OrganizationNotificationConfig#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfigTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_scc_v2_organization_notification_config#update GoogleSccV2OrganizationNotificationConfig#update}. |
 
 ---
 
@@ -1310,7 +1355,7 @@ public string Create { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_scc_v2_organization_notification_config#create GoogleSccV2OrganizationNotificationConfig#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_scc_v2_organization_notification_config#create GoogleSccV2OrganizationNotificationConfig#create}.
 
 ---
 
@@ -1322,7 +1367,7 @@ public string Delete { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_scc_v2_organization_notification_config#delete GoogleSccV2OrganizationNotificationConfig#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_scc_v2_organization_notification_config#delete GoogleSccV2OrganizationNotificationConfig#delete}.
 
 ---
 
@@ -1334,7 +1379,7 @@ public string Update { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_scc_v2_organization_notification_config#update GoogleSccV2OrganizationNotificationConfig#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_scc_v2_organization_notification_config#update GoogleSccV2OrganizationNotificationConfig#update}.
 
 ---
 
