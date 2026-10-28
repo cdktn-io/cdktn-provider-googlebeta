@@ -4,7 +4,7 @@
 
 ### GoogleBigqueryReservationAssignment <a name="GoogleBigqueryReservationAssignment" id="@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation_assignment google_bigquery_reservation_assignment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation_assignment google_bigquery_reservation_assignment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignment.Initializer"></a>
 
@@ -74,12 +74,15 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignment.moveFromId">moveFromId</a></code> | Move the resource corresponding to "id" to this resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignment.moveTo">moveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignment.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignment.putSchedulingPolicy">putSchedulingPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignment.putTimeouts">putTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignment.resetDeletionPolicy">resetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignment.resetId">resetId</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignment.resetJobType">resetJobType</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignment.resetLocation">resetLocation</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignment.resetPrincipal">resetPrincipal</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignment.resetProject">resetProject</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignment.resetSchedulingPolicy">resetSchedulingPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignment.resetTimeouts">resetTimeouts</a></code> | *No description.* |
 
 ---
@@ -393,6 +396,18 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 
 ---
 
+##### `putSchedulingPolicy` <a name="putSchedulingPolicy" id="@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignment.putSchedulingPolicy"></a>
+
+```typescript
+public putSchedulingPolicy(value: GoogleBigqueryReservationAssignmentSchedulingPolicy): void
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignment.putSchedulingPolicy.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicy">GoogleBigqueryReservationAssignmentSchedulingPolicy</a>
+
+---
+
 ##### `putTimeouts` <a name="putTimeouts" id="@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignment.putTimeouts"></a>
 
 ```typescript
@@ -417,6 +432,12 @@ public resetDeletionPolicy(): void
 public resetId(): void
 ```
 
+##### `resetJobType` <a name="resetJobType" id="@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignment.resetJobType"></a>
+
+```typescript
+public resetJobType(): void
+```
+
 ##### `resetLocation` <a name="resetLocation" id="@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignment.resetLocation"></a>
 
 ```typescript
@@ -433,6 +454,12 @@ public resetPrincipal(): void
 
 ```typescript
 public resetProject(): void
+```
+
+##### `resetSchedulingPolicy` <a name="resetSchedulingPolicy" id="@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignment.resetSchedulingPolicy"></a>
+
+```typescript
+public resetSchedulingPolicy(): void
 ```
 
 ##### `resetTimeouts` <a name="resetTimeouts" id="@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignment.resetTimeouts"></a>
@@ -544,7 +571,7 @@ The construct id used in the generated config for the GoogleBigqueryReservationA
 
 The id of the existing GoogleBigqueryReservationAssignment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation_assignment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation_assignment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -575,6 +602,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignment.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignment.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignment.property.name">name</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignment.property.schedulingPolicy">schedulingPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference">GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignment.property.state">state</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignment.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentTimeoutsOutputReference">GoogleBigqueryReservationAssignmentTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignment.property.assigneeInput">assigneeInput</a></code> | <code>string</code> | *No description.* |
@@ -585,6 +613,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignment.property.principalInput">principalInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignment.property.projectInput">projectInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignment.property.reservationInput">reservationInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignment.property.schedulingPolicyInput">schedulingPolicyInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicy">GoogleBigqueryReservationAssignmentSchedulingPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignment.property.timeoutsInput">timeoutsInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentTimeouts">GoogleBigqueryReservationAssignmentTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignment.property.assignee">assignee</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignment.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | *No description.* |
@@ -749,6 +778,16 @@ public readonly name: string;
 
 ---
 
+##### `schedulingPolicy`<sup>Required</sup> <a name="schedulingPolicy" id="@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignment.property.schedulingPolicy"></a>
+
+```typescript
+public readonly schedulingPolicy: GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference">GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference</a>
+
+---
+
 ##### `state`<sup>Required</sup> <a name="state" id="@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignment.property.state"></a>
 
 ```typescript
@@ -846,6 +885,16 @@ public readonly reservationInput: string;
 ```
 
 - *Type:* string
+
+---
+
+##### `schedulingPolicyInput`<sup>Optional</sup> <a name="schedulingPolicyInput" id="@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignment.property.schedulingPolicyInput"></a>
+
+```typescript
+public readonly schedulingPolicyInput: GoogleBigqueryReservationAssignmentSchedulingPolicy;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicy">GoogleBigqueryReservationAssignmentSchedulingPolicy</a>
 
 ---
 
@@ -981,13 +1030,14 @@ const googleBigqueryReservationAssignmentConfig: googleBigqueryReservationAssign
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentConfig.property.assignee">assignee</a></code> | <code>string</code> | The resource which will use the reservation. E.g. projects/myproject, folders/123, organizations/456. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentConfig.property.jobType">jobType</a></code> | <code>string</code> | Types of job, which could be specified when using the reservation. Possible values: JOB_TYPE_UNSPECIFIED, PIPELINE, QUERY, CONTINUOUS. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentConfig.property.reservation">reservation</a></code> | <code>string</code> | The reservation for the resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation_assignment#id GoogleBigqueryReservationAssignment#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation_assignment#id GoogleBigqueryReservationAssignment#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentConfig.property.jobType">jobType</a></code> | <code>string</code> | Types of job, which could be specified when using the reservation. Possible values: JOB_TYPE_UNSPECIFIED, PIPELINE, QUERY, CONTINUOUS. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentConfig.property.location">location</a></code> | <code>string</code> | The location for the resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentConfig.property.principal">principal</a></code> | <code>string</code> | Optional. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation_assignment#project GoogleBigqueryReservationAssignment#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation_assignment#project GoogleBigqueryReservationAssignment#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentConfig.property.schedulingPolicy">schedulingPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicy">GoogleBigqueryReservationAssignmentSchedulingPolicy</a></code> | scheduling_policy block. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentTimeouts">GoogleBigqueryReservationAssignmentTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1072,21 +1122,7 @@ public readonly assignee: string;
 
 The resource which will use the reservation. E.g. projects/myproject, folders/123, organizations/456.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation_assignment#assignee GoogleBigqueryReservationAssignment#assignee}
-
----
-
-##### `jobType`<sup>Required</sup> <a name="jobType" id="@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentConfig.property.jobType"></a>
-
-```typescript
-public readonly jobType: string;
-```
-
-- *Type:* string
-
-Types of job, which could be specified when using the reservation. Possible values: JOB_TYPE_UNSPECIFIED, PIPELINE, QUERY, CONTINUOUS.
-
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation_assignment#job_type GoogleBigqueryReservationAssignment#job_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation_assignment#assignee GoogleBigqueryReservationAssignment#assignee}
 
 ---
 
@@ -1100,7 +1136,7 @@ public readonly reservation: string;
 
 The reservation for the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation_assignment#reservation GoogleBigqueryReservationAssignment#reservation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation_assignment#reservation GoogleBigqueryReservationAssignment#reservation}
 
 ---
 
@@ -1122,7 +1158,7 @@ management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation_assignment#deletion_policy GoogleBigqueryReservationAssignment#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation_assignment#deletion_policy GoogleBigqueryReservationAssignment#deletion_policy}
 
 ---
 
@@ -1134,10 +1170,24 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation_assignment#id GoogleBigqueryReservationAssignment#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation_assignment#id GoogleBigqueryReservationAssignment#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+
+---
+
+##### `jobType`<sup>Optional</sup> <a name="jobType" id="@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentConfig.property.jobType"></a>
+
+```typescript
+public readonly jobType: string;
+```
+
+- *Type:* string
+
+Types of job, which could be specified when using the reservation. Possible values: JOB_TYPE_UNSPECIFIED, PIPELINE, QUERY, CONTINUOUS.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation_assignment#job_type GoogleBigqueryReservationAssignment#job_type}
 
 ---
 
@@ -1151,7 +1201,7 @@ public readonly location: string;
 
 The location for the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation_assignment#location GoogleBigqueryReservationAssignment#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation_assignment#location GoogleBigqueryReservationAssignment#location}
 
 ---
 
@@ -1171,7 +1221,7 @@ Represents the principal for this assignment. If not empty, jobs run by this pri
 * 'principal://iam.googleapis.com/projects/PROJECT_NUMBER/locations/global/workloadIdentityPools/POOL_ID/subject/SUBJECT_ID' for workload identity pool identities.
 * The special value 'unknown_or_deleted_user' represents principals which cannot be read from the user info service, for example deleted users.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation_assignment#principal GoogleBigqueryReservationAssignment#principal}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation_assignment#principal GoogleBigqueryReservationAssignment#principal}
 
 ---
 
@@ -1183,7 +1233,21 @@ public readonly project: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation_assignment#project GoogleBigqueryReservationAssignment#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation_assignment#project GoogleBigqueryReservationAssignment#project}.
+
+---
+
+##### `schedulingPolicy`<sup>Optional</sup> <a name="schedulingPolicy" id="@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentConfig.property.schedulingPolicy"></a>
+
+```typescript
+public readonly schedulingPolicy: GoogleBigqueryReservationAssignmentSchedulingPolicy;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicy">GoogleBigqueryReservationAssignmentSchedulingPolicy</a>
+
+scheduling_policy block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation_assignment#scheduling_policy GoogleBigqueryReservationAssignment#scheduling_policy}
 
 ---
 
@@ -1197,7 +1261,54 @@ public readonly timeouts: GoogleBigqueryReservationAssignmentTimeouts;
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation_assignment#timeouts GoogleBigqueryReservationAssignment#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation_assignment#timeouts GoogleBigqueryReservationAssignment#timeouts}
+
+---
+
+### GoogleBigqueryReservationAssignmentSchedulingPolicy <a name="GoogleBigqueryReservationAssignmentSchedulingPolicy" id="@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicy"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicy.Initializer"></a>
+
+```typescript
+import { googleBigqueryReservationAssignment } from '@cdktn/provider-google-beta'
+
+const googleBigqueryReservationAssignmentSchedulingPolicy: googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicy = { ... }
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicy.property.concurrency">concurrency</a></code> | <code>number</code> | If present and > 0, the reservation will attempt to limit the concurrency of jobs running for any particular project within it to the given value. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicy.property.maxSlots">maxSlots</a></code> | <code>number</code> | If present and > 0, the reservation will attempt to limit the slot consumption of queries running for any particular project within it to the given value. |
+
+---
+
+##### `concurrency`<sup>Optional</sup> <a name="concurrency" id="@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicy.property.concurrency"></a>
+
+```typescript
+public readonly concurrency: number;
+```
+
+- *Type:* number
+
+If present and > 0, the reservation will attempt to limit the concurrency of jobs running for any particular project within it to the given value.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation_assignment#concurrency GoogleBigqueryReservationAssignment#concurrency}
+
+---
+
+##### `maxSlots`<sup>Optional</sup> <a name="maxSlots" id="@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicy.property.maxSlots"></a>
+
+```typescript
+public readonly maxSlots: number;
+```
+
+- *Type:* number
+
+If present and > 0, the reservation will attempt to limit the slot consumption of queries running for any particular project within it to the given value.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation_assignment#max_slots GoogleBigqueryReservationAssignment#max_slots}
 
 ---
 
@@ -1215,8 +1326,8 @@ const googleBigqueryReservationAssignmentTimeouts: googleBigqueryReservationAssi
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation_assignment#create GoogleBigqueryReservationAssignment#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation_assignment#delete GoogleBigqueryReservationAssignment#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation_assignment#create GoogleBigqueryReservationAssignment#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation_assignment#delete GoogleBigqueryReservationAssignment#delete}. |
 
 ---
 
@@ -1228,7 +1339,7 @@ public readonly create: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation_assignment#create GoogleBigqueryReservationAssignment#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation_assignment#create GoogleBigqueryReservationAssignment#create}.
 
 ---
 
@@ -1240,11 +1351,318 @@ public readonly delete: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_reservation_assignment#delete GoogleBigqueryReservationAssignment#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_reservation_assignment#delete GoogleBigqueryReservationAssignment#delete}.
 
 ---
 
 ## Classes <a name="Classes" id="Classes"></a>
+
+### GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference <a name="GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference" id="@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference.Initializer"></a>
+
+```typescript
+import { googleBigqueryReservationAssignment } from '@cdktn/provider-google-beta'
+
+new googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference.resetConcurrency">resetConcurrency</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference.resetMaxSlots">resetMaxSlots</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `resetConcurrency` <a name="resetConcurrency" id="@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference.resetConcurrency"></a>
+
+```typescript
+public resetConcurrency(): void
+```
+
+##### `resetMaxSlots` <a name="resetMaxSlots" id="@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference.resetMaxSlots"></a>
+
+```typescript
+public resetMaxSlots(): void
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference.property.concurrencyInput">concurrencyInput</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference.property.maxSlotsInput">maxSlotsInput</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference.property.concurrency">concurrency</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference.property.maxSlots">maxSlots</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicy">GoogleBigqueryReservationAssignmentSchedulingPolicy</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `concurrencyInput`<sup>Optional</sup> <a name="concurrencyInput" id="@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference.property.concurrencyInput"></a>
+
+```typescript
+public readonly concurrencyInput: number;
+```
+
+- *Type:* number
+
+---
+
+##### `maxSlotsInput`<sup>Optional</sup> <a name="maxSlotsInput" id="@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference.property.maxSlotsInput"></a>
+
+```typescript
+public readonly maxSlotsInput: number;
+```
+
+- *Type:* number
+
+---
+
+##### `concurrency`<sup>Required</sup> <a name="concurrency" id="@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference.property.concurrency"></a>
+
+```typescript
+public readonly concurrency: number;
+```
+
+- *Type:* number
+
+---
+
+##### `maxSlots`<sup>Required</sup> <a name="maxSlots" id="@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference.property.maxSlots"></a>
+
+```typescript
+public readonly maxSlots: number;
+```
+
+- *Type:* number
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicyOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: GoogleBigqueryReservationAssignmentSchedulingPolicy;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentSchedulingPolicy">GoogleBigqueryReservationAssignmentSchedulingPolicy</a>
+
+---
+
 
 ### GoogleBigqueryReservationAssignmentTimeoutsOutputReference <a name="GoogleBigqueryReservationAssignmentTimeoutsOutputReference" id="@cdktn/provider-google-beta.googleBigqueryReservationAssignment.GoogleBigqueryReservationAssignmentTimeoutsOutputReference"></a>
 

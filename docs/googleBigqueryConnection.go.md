@@ -4,12 +4,12 @@
 
 ### GoogleBigqueryConnection <a name="GoogleBigqueryConnection" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnection"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_connection google_bigquery_connection}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection google_bigquery_connection}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnection.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigqueryconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebigqueryconnection"
 
 googlebigqueryconnection.NewGoogleBigqueryConnection(scope Construct, id *string, config GoogleBigqueryConnectionConfig) GoogleBigqueryConnection
 ```
@@ -80,6 +80,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnection.putCloudSpanner">PutCloudSpanner</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnection.putCloudSql">PutCloudSql</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnection.putConfiguration">PutConfiguration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnection.putSalesforceDataCloud">PutSalesforceDataCloud</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnection.putSpark">PutSpark</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnection.putTimeouts">PutTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnection.resetAws">ResetAws</a></code> | *No description.* |
@@ -96,6 +97,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnection.resetKmsKeyName">ResetKmsKeyName</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnection.resetLocation">ResetLocation</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnection.resetProject">ResetProject</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnection.resetSalesforceDataCloud">ResetSalesforceDataCloud</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnection.resetSpark">ResetSpark</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnection.resetTimeouts">ResetTimeouts</a></code> | *No description.* |
 
@@ -482,6 +484,18 @@ func PutConfiguration(value GoogleBigqueryConnectionConfiguration)
 
 ---
 
+##### `PutSalesforceDataCloud` <a name="PutSalesforceDataCloud" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnection.putSalesforceDataCloud"></a>
+
+```go
+func PutSalesforceDataCloud(value GoogleBigqueryConnectionSalesforceDataCloud)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnection.putSalesforceDataCloud.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloud">GoogleBigqueryConnectionSalesforceDataCloud</a>
+
+---
+
 ##### `PutSpark` <a name="PutSpark" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnection.putSpark"></a>
 
 ```go
@@ -590,6 +604,12 @@ func ResetLocation()
 func ResetProject()
 ```
 
+##### `ResetSalesforceDataCloud` <a name="ResetSalesforceDataCloud" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnection.resetSalesforceDataCloud"></a>
+
+```go
+func ResetSalesforceDataCloud()
+```
+
 ##### `ResetSpark` <a name="ResetSpark" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnection.resetSpark"></a>
 
 ```go
@@ -616,7 +636,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnection.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigqueryconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebigqueryconnection"
 
 googlebigqueryconnection.GoogleBigqueryConnection_IsConstruct(x interface{}) *bool
 ```
@@ -648,7 +668,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnection.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigqueryconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebigqueryconnection"
 
 googlebigqueryconnection.GoogleBigqueryConnection_IsTerraformElement(x interface{}) *bool
 ```
@@ -662,7 +682,7 @@ googlebigqueryconnection.GoogleBigqueryConnection_IsTerraformElement(x interface
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnection.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigqueryconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebigqueryconnection"
 
 googlebigqueryconnection.GoogleBigqueryConnection_IsTerraformResource(x interface{}) *bool
 ```
@@ -676,7 +696,7 @@ googlebigqueryconnection.GoogleBigqueryConnection_IsTerraformResource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnection.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigqueryconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebigqueryconnection"
 
 googlebigqueryconnection.GoogleBigqueryConnection_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -705,7 +725,7 @@ The construct id used in the generated config for the GoogleBigqueryConnection t
 
 The id of the existing GoogleBigqueryConnection that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_connection#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -743,6 +763,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnection.property.configuration">Configuration</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionConfigurationOutputReference">GoogleBigqueryConnectionConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnection.property.hasCredential">HasCredential</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnection.property.name">Name</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnection.property.salesforceDataCloud">SalesforceDataCloud</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudOutputReference">GoogleBigqueryConnectionSalesforceDataCloudOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnection.property.spark">Spark</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSparkOutputReference">GoogleBigqueryConnectionSparkOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnection.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionTimeoutsOutputReference">GoogleBigqueryConnectionTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnection.property.awsInput">AwsInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionAws">GoogleBigqueryConnectionAws</a></code> | *No description.* |
@@ -759,6 +780,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnection.property.kmsKeyNameInput">KmsKeyNameInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnection.property.locationInput">LocationInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnection.property.projectInput">ProjectInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnection.property.salesforceDataCloudInput">SalesforceDataCloudInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloud">GoogleBigqueryConnectionSalesforceDataCloud</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnection.property.sparkInput">SparkInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSpark">GoogleBigqueryConnectionSpark</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnection.property.timeoutsInput">TimeoutsInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnection.property.connectionId">ConnectionId</a></code> | <code>*string</code> | *No description.* |
@@ -994,6 +1016,16 @@ func Name() *string
 
 ---
 
+##### `SalesforceDataCloud`<sup>Required</sup> <a name="SalesforceDataCloud" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnection.property.salesforceDataCloud"></a>
+
+```go
+func SalesforceDataCloud() GoogleBigqueryConnectionSalesforceDataCloudOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudOutputReference">GoogleBigqueryConnectionSalesforceDataCloudOutputReference</a>
+
+---
+
 ##### `Spark`<sup>Required</sup> <a name="Spark" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnection.property.spark"></a>
 
 ```go
@@ -1154,6 +1186,16 @@ func ProjectInput() *string
 
 ---
 
+##### `SalesforceDataCloudInput`<sup>Optional</sup> <a name="SalesforceDataCloudInput" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnection.property.salesforceDataCloudInput"></a>
+
+```go
+func SalesforceDataCloudInput() GoogleBigqueryConnectionSalesforceDataCloud
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloud">GoogleBigqueryConnectionSalesforceDataCloud</a>
+
+---
+
 ##### `SparkInput`<sup>Optional</sup> <a name="SparkInput" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnection.property.sparkInput"></a>
 
 ```go
@@ -1279,10 +1321,10 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionAws.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigqueryconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebigqueryconnection"
 
 &googlebigqueryconnection.GoogleBigqueryConnectionAws {
-	AccessRole: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleBigqueryConnection.GoogleBigqueryConnectionAwsAccessRole,
+	AccessRole: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleBigqueryConnection.GoogleBigqueryConnectionAwsAccessRole,
 }
 ```
 
@@ -1304,7 +1346,7 @@ AccessRole GoogleBigqueryConnectionAwsAccessRole
 
 access_role block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_connection#access_role GoogleBigqueryConnection#access_role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection#access_role GoogleBigqueryConnection#access_role}
 
 ---
 
@@ -1313,7 +1355,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionAwsAccessRole.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigqueryconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebigqueryconnection"
 
 &googlebigqueryconnection.GoogleBigqueryConnectionAwsAccessRole {
 	IamRoleId: *string,
@@ -1338,7 +1380,7 @@ IamRoleId *string
 
 The user’s AWS IAM Role that trusts the Google-owned AWS IAM user Connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_connection#iam_role_id GoogleBigqueryConnection#iam_role_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection#iam_role_id GoogleBigqueryConnection#iam_role_id}
 
 ---
 
@@ -1347,7 +1389,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionAzure.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigqueryconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebigqueryconnection"
 
 &googlebigqueryconnection.GoogleBigqueryConnectionAzure {
 	CustomerTenantId: *string,
@@ -1374,7 +1416,7 @@ CustomerTenantId *string
 
 The id of customer's directory that host the data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_connection#customer_tenant_id GoogleBigqueryConnection#customer_tenant_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection#customer_tenant_id GoogleBigqueryConnection#customer_tenant_id}
 
 ---
 
@@ -1388,7 +1430,7 @@ FederatedApplicationClientId *string
 
 The Azure Application (client) ID where the federated credentials will be hosted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_connection#federated_application_client_id GoogleBigqueryConnection#federated_application_client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection#federated_application_client_id GoogleBigqueryConnection#federated_application_client_id}
 
 ---
 
@@ -1397,7 +1439,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionCloudResource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigqueryconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebigqueryconnection"
 
 &googlebigqueryconnection.GoogleBigqueryConnectionCloudResource {
 
@@ -1410,7 +1452,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionCloudSpanner.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigqueryconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebigqueryconnection"
 
 &googlebigqueryconnection.GoogleBigqueryConnectionCloudSpanner {
 	Database: *string,
@@ -1445,7 +1487,7 @@ Database *string
 
 Cloud Spanner database in the form 'project/instance/database'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_connection#database GoogleBigqueryConnection#database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection#database GoogleBigqueryConnection#database}
 
 ---
 
@@ -1461,7 +1503,7 @@ Cloud Spanner database role for fine-grained access control.
 
 The Cloud Spanner admin should have provisioned the database role with appropriate permissions, such as 'SELECT' and 'INSERT'. Other users should only use roles provided by their Cloud Spanner admins. The database role name must start with a letter, and can only contain letters, numbers, and underscores. For more details, see https://cloud.google.com/spanner/docs/fgac-about.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_connection#database_role GoogleBigqueryConnection#database_role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection#database_role GoogleBigqueryConnection#database_role}
 
 ---
 
@@ -1477,7 +1519,7 @@ Allows setting max parallelism per query when executing on Spanner independent c
 
 If unspecified, default values of parallelism are chosen that are dependent on the Cloud Spanner instance configuration. 'useParallelism' and 'useDataBoost' must be set when setting max parallelism.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_connection#max_parallelism GoogleBigqueryConnection#max_parallelism}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection#max_parallelism GoogleBigqueryConnection#max_parallelism}
 
 ---
 
@@ -1493,7 +1535,7 @@ If set, the request will be executed via Spanner independent compute resources.
 
 'use_parallelism' must be set when using data boost.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_connection#use_data_boost GoogleBigqueryConnection#use_data_boost}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection#use_data_boost GoogleBigqueryConnection#use_data_boost}
 
 ---
 
@@ -1507,7 +1549,7 @@ UseParallelism interface{}
 
 If parallelism should be used when reading from Cloud Spanner.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_connection#use_parallelism GoogleBigqueryConnection#use_parallelism}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection#use_parallelism GoogleBigqueryConnection#use_parallelism}
 
 ---
 
@@ -1523,7 +1565,7 @@ If the serverless analytics service should be used to read data from Cloud Spann
 
 'useParallelism' must be set when using serverless analytics.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_connection#use_serverless_analytics GoogleBigqueryConnection#use_serverless_analytics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection#use_serverless_analytics GoogleBigqueryConnection#use_serverless_analytics}
 
 ---
 
@@ -1532,10 +1574,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionCloudSql.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigqueryconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebigqueryconnection"
 
 &googlebigqueryconnection.GoogleBigqueryConnectionCloudSql {
-	Credential: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleBigqueryConnection.GoogleBigqueryConnectionCloudSqlCredential,
+	Credential: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleBigqueryConnection.GoogleBigqueryConnectionCloudSqlCredential,
 	Database: *string,
 	InstanceId: *string,
 	Type: *string,
@@ -1563,7 +1605,7 @@ Credential GoogleBigqueryConnectionCloudSqlCredential
 
 credential block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_connection#credential GoogleBigqueryConnection#credential}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection#credential GoogleBigqueryConnection#credential}
 
 ---
 
@@ -1577,7 +1619,7 @@ Database *string
 
 Database name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_connection#database GoogleBigqueryConnection#database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection#database GoogleBigqueryConnection#database}
 
 ---
 
@@ -1591,7 +1633,7 @@ InstanceId *string
 
 Cloud SQL instance ID in the form project:location:instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_connection#instance_id GoogleBigqueryConnection#instance_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection#instance_id GoogleBigqueryConnection#instance_id}
 
 ---
 
@@ -1605,7 +1647,7 @@ Type *string
 
 Type of the Cloud SQL database. Possible values: ["DATABASE_TYPE_UNSPECIFIED", "POSTGRES", "MYSQL"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_connection#type GoogleBigqueryConnection#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection#type GoogleBigqueryConnection#type}
 
 ---
 
@@ -1614,7 +1656,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionCloudSqlCredential.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigqueryconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebigqueryconnection"
 
 &googlebigqueryconnection.GoogleBigqueryConnectionCloudSqlCredential {
 	Username: *string,
@@ -1645,7 +1687,7 @@ Username *string
 
 Username for database.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_connection#username GoogleBigqueryConnection#username}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection#username GoogleBigqueryConnection#username}
 
 ---
 
@@ -1659,7 +1701,7 @@ Password *string
 
 Password for database.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_connection#password GoogleBigqueryConnection#password}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection#password GoogleBigqueryConnection#password}
 
 ---
 
@@ -1673,7 +1715,7 @@ PasswordWo *string
 
 Password for database.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_connection#password_wo GoogleBigqueryConnection#password_wo}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection#password_wo GoogleBigqueryConnection#password_wo}
 
 ---
 
@@ -1689,7 +1731,7 @@ Triggers update of 'password_wo' write-only.
 
 Increment this value when an update to 'password_wo' is needed. For more info see [updating write-only arguments](/docs/providers/google/guides/using_write_only_arguments.html#updating-write-only-arguments)
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_connection#password_wo_version GoogleBigqueryConnection#password_wo_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection#password_wo_version GoogleBigqueryConnection#password_wo_version}
 
 ---
 
@@ -1698,7 +1740,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigqueryconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebigqueryconnection"
 
 &googlebigqueryconnection.GoogleBigqueryConnectionConfig {
 	Connection: interface{},
@@ -1708,12 +1750,12 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebi
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	Aws: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleBigqueryConnection.GoogleBigqueryConnectionAws,
-	Azure: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleBigqueryConnection.GoogleBigqueryConnectionAzure,
-	CloudResource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleBigqueryConnection.GoogleBigqueryConnectionCloudResource,
-	CloudSpanner: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleBigqueryConnection.GoogleBigqueryConnectionCloudSpanner,
-	CloudSql: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleBigqueryConnection.GoogleBigqueryConnectionCloudSql,
-	Configuration: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleBigqueryConnection.GoogleBigqueryConnectionConfiguration,
+	Aws: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleBigqueryConnection.GoogleBigqueryConnectionAws,
+	Azure: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleBigqueryConnection.GoogleBigqueryConnectionAzure,
+	CloudResource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleBigqueryConnection.GoogleBigqueryConnectionCloudResource,
+	CloudSpanner: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleBigqueryConnection.GoogleBigqueryConnectionCloudSpanner,
+	CloudSql: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleBigqueryConnection.GoogleBigqueryConnectionCloudSql,
+	Configuration: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleBigqueryConnection.GoogleBigqueryConnectionConfiguration,
 	ConnectionId: *string,
 	DeletionPolicy: *string,
 	Description: *string,
@@ -1722,8 +1764,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebi
 	KmsKeyName: *string,
 	Location: *string,
 	Project: *string,
-	Spark: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleBigqueryConnection.GoogleBigqueryConnectionSpark,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleBigqueryConnection.GoogleBigqueryConnectionTimeouts,
+	SalesforceDataCloud: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloud,
+	Spark: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleBigqueryConnection.GoogleBigqueryConnectionSpark,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleBigqueryConnection.GoogleBigqueryConnectionTimeouts,
 }
 ```
 
@@ -1748,10 +1791,11 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebi
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionConfig.property.description">Description</a></code> | <code>*string</code> | A descriptive description for the connection. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionConfig.property.friendlyName">FriendlyName</a></code> | <code>*string</code> | A descriptive name for the connection. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_connection#id GoogleBigqueryConnection#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection#id GoogleBigqueryConnection#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionConfig.property.kmsKeyName">KmsKeyName</a></code> | <code>*string</code> | Optional. The Cloud KMS key that is used for encryption. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionConfig.property.location">Location</a></code> | <code>*string</code> | The geographic location where the connection should reside. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_connection#project GoogleBigqueryConnection#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection#project GoogleBigqueryConnection#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionConfig.property.salesforceDataCloud">SalesforceDataCloud</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloud">GoogleBigqueryConnectionSalesforceDataCloud</a></code> | salesforce_data_cloud block. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionConfig.property.spark">Spark</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSpark">GoogleBigqueryConnectionSpark</a></code> | spark block. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionTimeouts">GoogleBigqueryConnectionTimeouts</a></code> | timeouts block. |
 
@@ -1837,7 +1881,7 @@ Aws GoogleBigqueryConnectionAws
 
 aws block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_connection#aws GoogleBigqueryConnection#aws}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection#aws GoogleBigqueryConnection#aws}
 
 ---
 
@@ -1851,7 +1895,7 @@ Azure GoogleBigqueryConnectionAzure
 
 azure block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_connection#azure GoogleBigqueryConnection#azure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection#azure GoogleBigqueryConnection#azure}
 
 ---
 
@@ -1865,7 +1909,7 @@ CloudResource GoogleBigqueryConnectionCloudResource
 
 cloud_resource block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_connection#cloud_resource GoogleBigqueryConnection#cloud_resource}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection#cloud_resource GoogleBigqueryConnection#cloud_resource}
 
 ---
 
@@ -1879,7 +1923,7 @@ CloudSpanner GoogleBigqueryConnectionCloudSpanner
 
 cloud_spanner block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_connection#cloud_spanner GoogleBigqueryConnection#cloud_spanner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection#cloud_spanner GoogleBigqueryConnection#cloud_spanner}
 
 ---
 
@@ -1893,7 +1937,7 @@ CloudSql GoogleBigqueryConnectionCloudSql
 
 cloud_sql block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_connection#cloud_sql GoogleBigqueryConnection#cloud_sql}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection#cloud_sql GoogleBigqueryConnection#cloud_sql}
 
 ---
 
@@ -1907,7 +1951,7 @@ Configuration GoogleBigqueryConnectionConfiguration
 
 configuration block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_connection#configuration GoogleBigqueryConnection#configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection#configuration GoogleBigqueryConnection#configuration}
 
 ---
 
@@ -1921,7 +1965,7 @@ ConnectionId *string
 
 Optional connection id that should be assigned to the created connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_connection#connection_id GoogleBigqueryConnection#connection_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection#connection_id GoogleBigqueryConnection#connection_id}
 
 ---
 
@@ -1942,7 +1986,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_connection#deletion_policy GoogleBigqueryConnection#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection#deletion_policy GoogleBigqueryConnection#deletion_policy}
 
 ---
 
@@ -1956,7 +2000,7 @@ Description *string
 
 A descriptive description for the connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_connection#description GoogleBigqueryConnection#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection#description GoogleBigqueryConnection#description}
 
 ---
 
@@ -1970,7 +2014,7 @@ FriendlyName *string
 
 A descriptive name for the connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_connection#friendly_name GoogleBigqueryConnection#friendly_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection#friendly_name GoogleBigqueryConnection#friendly_name}
 
 ---
 
@@ -1982,7 +2026,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_connection#id GoogleBigqueryConnection#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection#id GoogleBigqueryConnection#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2001,7 +2045,7 @@ Optional. The Cloud KMS key that is used for encryption.
 
 Example: projects/[kms_project_id]/locations/[region]/keyRings/[key_region]/cryptoKeys/[key]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_connection#kms_key_name GoogleBigqueryConnection#kms_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection#kms_key_name GoogleBigqueryConnection#kms_key_name}
 
 ---
 
@@ -2022,7 +2066,7 @@ Spanner Connections same as spanner region
 AWS allowed regions are aws-us-east-1
 Azure allowed regions are azure-eastus2
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_connection#location GoogleBigqueryConnection#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection#location GoogleBigqueryConnection#location}
 
 ---
 
@@ -2034,7 +2078,21 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_connection#project GoogleBigqueryConnection#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection#project GoogleBigqueryConnection#project}.
+
+---
+
+##### `SalesforceDataCloud`<sup>Optional</sup> <a name="SalesforceDataCloud" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionConfig.property.salesforceDataCloud"></a>
+
+```go
+SalesforceDataCloud GoogleBigqueryConnectionSalesforceDataCloud
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloud">GoogleBigqueryConnectionSalesforceDataCloud</a>
+
+salesforce_data_cloud block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection#salesforce_data_cloud GoogleBigqueryConnection#salesforce_data_cloud}
 
 ---
 
@@ -2048,7 +2106,7 @@ Spark GoogleBigqueryConnectionSpark
 
 spark block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_connection#spark GoogleBigqueryConnection#spark}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection#spark GoogleBigqueryConnection#spark}
 
 ---
 
@@ -2062,7 +2120,7 @@ Timeouts GoogleBigqueryConnectionTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_connection#timeouts GoogleBigqueryConnection#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection#timeouts GoogleBigqueryConnection#timeouts}
 
 ---
 
@@ -2071,14 +2129,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigqueryconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebigqueryconnection"
 
 &googlebigqueryconnection.GoogleBigqueryConnectionConfiguration {
-	Asset: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleBigqueryConnection.GoogleBigqueryConnectionConfigurationAsset,
+	Asset: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleBigqueryConnection.GoogleBigqueryConnectionConfigurationAsset,
 	ConnectorId: *string,
-	Authentication: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleBigqueryConnection.GoogleBigqueryConnectionConfigurationAuthentication,
-	Endpoint: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleBigqueryConnection.GoogleBigqueryConnectionConfigurationEndpoint,
-	Network: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleBigqueryConnection.GoogleBigqueryConnectionConfigurationNetwork,
+	Authentication: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleBigqueryConnection.GoogleBigqueryConnectionConfigurationAuthentication,
+	Endpoint: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleBigqueryConnection.GoogleBigqueryConnectionConfigurationEndpoint,
+	Network: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleBigqueryConnection.GoogleBigqueryConnectionConfigurationNetwork,
 }
 ```
 
@@ -2104,7 +2162,7 @@ Asset GoogleBigqueryConnectionConfigurationAsset
 
 asset block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_connection#asset GoogleBigqueryConnection#asset}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection#asset GoogleBigqueryConnection#asset}
 
 ---
 
@@ -2121,7 +2179,7 @@ The ID of the connector.
 Possible values include 'google-alloydb', 'google-cloudsql-mysql',
 'google-cloudsql-postgres', and other connector IDs supported by the BigQuery Connector framework.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_connection#connector_id GoogleBigqueryConnection#connector_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection#connector_id GoogleBigqueryConnection#connector_id}
 
 ---
 
@@ -2135,7 +2193,7 @@ Authentication GoogleBigqueryConnectionConfigurationAuthentication
 
 authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_connection#authentication GoogleBigqueryConnection#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection#authentication GoogleBigqueryConnection#authentication}
 
 ---
 
@@ -2149,7 +2207,7 @@ Endpoint GoogleBigqueryConnectionConfigurationEndpoint
 
 endpoint block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_connection#endpoint GoogleBigqueryConnection#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection#endpoint GoogleBigqueryConnection#endpoint}
 
 ---
 
@@ -2163,7 +2221,7 @@ Network GoogleBigqueryConnectionConfigurationNetwork
 
 network block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_connection#network GoogleBigqueryConnection#network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection#network GoogleBigqueryConnection#network}
 
 ---
 
@@ -2172,7 +2230,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionConfigurationAsset.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigqueryconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebigqueryconnection"
 
 &googlebigqueryconnection.GoogleBigqueryConnectionConfigurationAsset {
 	Database: *string,
@@ -2199,7 +2257,7 @@ Database *string
 
 The name of the database.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_connection#database GoogleBigqueryConnection#database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection#database GoogleBigqueryConnection#database}
 
 ---
 
@@ -2213,7 +2271,7 @@ GoogleCloudResource *string
 
 The full resource name of the Google Cloud resource. For AlloyDB, this is in the format of '//alloydb.googleapis.com/projects/{project}/locations/{region}/clusters/{cluster}/instances/{instance}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_connection#google_cloud_resource GoogleBigqueryConnection#google_cloud_resource}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection#google_cloud_resource GoogleBigqueryConnection#google_cloud_resource}
 
 ---
 
@@ -2222,10 +2280,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionConfigurationAuthentication.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigqueryconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebigqueryconnection"
 
 &googlebigqueryconnection.GoogleBigqueryConnectionConfigurationAuthentication {
-	UsernamePassword: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleBigqueryConnection.GoogleBigqueryConnectionConfigurationAuthenticationUsernamePassword,
+	UsernamePassword: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleBigqueryConnection.GoogleBigqueryConnectionConfigurationAuthenticationUsernamePassword,
 }
 ```
 
@@ -2247,7 +2305,7 @@ UsernamePassword GoogleBigqueryConnectionConfigurationAuthenticationUsernamePass
 
 username_password block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_connection#username_password GoogleBigqueryConnection#username_password}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection#username_password GoogleBigqueryConnection#username_password}
 
 ---
 
@@ -2256,10 +2314,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionConfigurationAuthenticationUsernamePassword.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigqueryconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebigqueryconnection"
 
 &googlebigqueryconnection.GoogleBigqueryConnectionConfigurationAuthenticationUsernamePassword {
-	Password: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleBigqueryConnection.GoogleBigqueryConnectionConfigurationAuthenticationUsernamePasswordPassword,
+	Password: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleBigqueryConnection.GoogleBigqueryConnectionConfigurationAuthenticationUsernamePasswordPassword,
 	Username: *string,
 }
 ```
@@ -2283,7 +2341,7 @@ Password GoogleBigqueryConnectionConfigurationAuthenticationUsernamePasswordPass
 
 password block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_connection#password GoogleBigqueryConnection#password}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection#password GoogleBigqueryConnection#password}
 
 ---
 
@@ -2297,7 +2355,7 @@ Username *string
 
 Username for the connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_connection#username GoogleBigqueryConnection#username}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection#username GoogleBigqueryConnection#username}
 
 ---
 
@@ -2306,7 +2364,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionConfigurationAuthenticationUsernamePasswordPassword.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigqueryconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebigqueryconnection"
 
 &googlebigqueryconnection.GoogleBigqueryConnectionConfigurationAuthenticationUsernamePasswordPassword {
 	Plaintext: *string,
@@ -2331,7 +2389,7 @@ Plaintext *string
 
 The plaintext password.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_connection#plaintext GoogleBigqueryConnection#plaintext}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection#plaintext GoogleBigqueryConnection#plaintext}
 
 ---
 
@@ -2340,7 +2398,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionConfigurationEndpoint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigqueryconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebigqueryconnection"
 
 &googlebigqueryconnection.GoogleBigqueryConnectionConfigurationEndpoint {
 	HostPort: *string,
@@ -2365,7 +2423,7 @@ HostPort *string
 
 Host and port in the format of 'host:port' for the connector endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_connection#host_port GoogleBigqueryConnection#host_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection#host_port GoogleBigqueryConnection#host_port}
 
 ---
 
@@ -2374,10 +2432,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionConfigurationNetwork.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigqueryconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebigqueryconnection"
 
 &googlebigqueryconnection.GoogleBigqueryConnectionConfigurationNetwork {
-	PrivateServiceConnect: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleBigqueryConnection.GoogleBigqueryConnectionConfigurationNetworkPrivateServiceConnect,
+	PrivateServiceConnect: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleBigqueryConnection.GoogleBigqueryConnectionConfigurationNetworkPrivateServiceConnect,
 }
 ```
 
@@ -2399,7 +2457,7 @@ PrivateServiceConnect GoogleBigqueryConnectionConfigurationNetworkPrivateService
 
 private_service_connect block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_connection#private_service_connect GoogleBigqueryConnection#private_service_connect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection#private_service_connect GoogleBigqueryConnection#private_service_connect}
 
 ---
 
@@ -2408,7 +2466,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionConfigurationNetworkPrivateServiceConnect.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigqueryconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebigqueryconnection"
 
 &googlebigqueryconnection.GoogleBigqueryConnectionConfigurationNetworkPrivateServiceConnect {
 	NetworkAttachment: *string,
@@ -2433,7 +2491,110 @@ NetworkAttachment *string
 
 The resource name of a network attachment in the format of 'projects/{project}/regions/{region}/networkAttachments/{networkAttachment}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_connection#network_attachment GoogleBigqueryConnection#network_attachment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection#network_attachment GoogleBigqueryConnection#network_attachment}
+
+---
+
+### GoogleBigqueryConnectionSalesforceDataCloud <a name="GoogleBigqueryConnectionSalesforceDataCloud" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloud"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloud.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebigqueryconnection"
+
+&googlebigqueryconnection.GoogleBigqueryConnectionSalesforceDataCloud {
+	CrossCloudCacheOptions: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptions,
+	InstanceUri: *string,
+	TenantId: *string,
+}
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloud.property.crossCloudCacheOptions">CrossCloudCacheOptions</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptions">GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptions</a></code> | cross_cloud_cache_options block. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloud.property.instanceUri">InstanceUri</a></code> | <code>*string</code> | The URL to the user's Salesforce Data Cloud instance. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloud.property.tenantId">TenantId</a></code> | <code>*string</code> | The ID of the user's Salesforce tenant. |
+
+---
+
+##### `CrossCloudCacheOptions`<sup>Required</sup> <a name="CrossCloudCacheOptions" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloud.property.crossCloudCacheOptions"></a>
+
+```go
+CrossCloudCacheOptions GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptions
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptions">GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptions</a>
+
+cross_cloud_cache_options block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection#cross_cloud_cache_options GoogleBigqueryConnection#cross_cloud_cache_options}
+
+---
+
+##### `InstanceUri`<sup>Required</sup> <a name="InstanceUri" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloud.property.instanceUri"></a>
+
+```go
+InstanceUri *string
+```
+
+- *Type:* *string
+
+The URL to the user's Salesforce Data Cloud instance.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection#instance_uri GoogleBigqueryConnection#instance_uri}
+
+---
+
+##### `TenantId`<sup>Required</sup> <a name="TenantId" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloud.property.tenantId"></a>
+
+```go
+TenantId *string
+```
+
+- *Type:* *string
+
+The ID of the user's Salesforce tenant.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection#tenant_id GoogleBigqueryConnection#tenant_id}
+
+---
+
+### GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptions <a name="GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptions" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptions"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptions.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebigqueryconnection"
+
+&googlebigqueryconnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptions {
+	Enabled: interface{},
+}
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptions.property.enabled">Enabled</a></code> | <code>interface{}</code> | Whether cross-cloud caching is enabled for queries through BigQuery. |
+
+---
+
+##### `Enabled`<sup>Optional</sup> <a name="Enabled" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptions.property.enabled"></a>
+
+```go
+Enabled interface{}
+```
+
+- *Type:* interface{}
+
+Whether cross-cloud caching is enabled for queries through BigQuery.
+
+When enabled, read data and metadata are cached, which can improve performance
+and reduce network egress costs for cross-cloud queries.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection#enabled GoogleBigqueryConnection#enabled}
 
 ---
 
@@ -2442,11 +2603,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSpark.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigqueryconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebigqueryconnection"
 
 &googlebigqueryconnection.GoogleBigqueryConnectionSpark {
-	MetastoreServiceConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleBigqueryConnection.GoogleBigqueryConnectionSparkMetastoreServiceConfig,
-	SparkHistoryServerConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleBigqueryConnection.GoogleBigqueryConnectionSparkSparkHistoryServerConfig,
+	MetastoreServiceConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleBigqueryConnection.GoogleBigqueryConnectionSparkMetastoreServiceConfig,
+	SparkHistoryServerConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleBigqueryConnection.GoogleBigqueryConnectionSparkSparkHistoryServerConfig,
 }
 ```
 
@@ -2469,7 +2630,7 @@ MetastoreServiceConfig GoogleBigqueryConnectionSparkMetastoreServiceConfig
 
 metastore_service_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_connection#metastore_service_config GoogleBigqueryConnection#metastore_service_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection#metastore_service_config GoogleBigqueryConnection#metastore_service_config}
 
 ---
 
@@ -2483,7 +2644,7 @@ SparkHistoryServerConfig GoogleBigqueryConnectionSparkSparkHistoryServerConfig
 
 spark_history_server_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_connection#spark_history_server_config GoogleBigqueryConnection#spark_history_server_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection#spark_history_server_config GoogleBigqueryConnection#spark_history_server_config}
 
 ---
 
@@ -2492,7 +2653,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSparkMetastoreServiceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigqueryconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebigqueryconnection"
 
 &googlebigqueryconnection.GoogleBigqueryConnectionSparkMetastoreServiceConfig {
 	MetastoreService: *string,
@@ -2517,7 +2678,7 @@ MetastoreService *string
 
 Resource name of an existing Dataproc Metastore service in the form of projects/[projectId]/locations/[region]/services/[serviceId].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_connection#metastore_service GoogleBigqueryConnection#metastore_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection#metastore_service GoogleBigqueryConnection#metastore_service}
 
 ---
 
@@ -2526,7 +2687,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSparkSparkHistoryServerConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigqueryconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebigqueryconnection"
 
 &googlebigqueryconnection.GoogleBigqueryConnectionSparkSparkHistoryServerConfig {
 	DataprocCluster: *string,
@@ -2551,7 +2712,7 @@ DataprocCluster *string
 
 Resource name of an existing Dataproc Cluster to act as a Spark History Server for the connection if the form of projects/[projectId]/regions/[region]/clusters/[cluster_name].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_connection#dataproc_cluster GoogleBigqueryConnection#dataproc_cluster}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection#dataproc_cluster GoogleBigqueryConnection#dataproc_cluster}
 
 ---
 
@@ -2560,7 +2721,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigqueryconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebigqueryconnection"
 
 &googlebigqueryconnection.GoogleBigqueryConnectionTimeouts {
 	Create: *string,
@@ -2573,9 +2734,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebi
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_connection#create GoogleBigqueryConnection#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_connection#delete GoogleBigqueryConnection#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_connection#update GoogleBigqueryConnection#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection#create GoogleBigqueryConnection#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection#delete GoogleBigqueryConnection#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection#update GoogleBigqueryConnection#update}. |
 
 ---
 
@@ -2587,7 +2748,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_connection#create GoogleBigqueryConnection#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection#create GoogleBigqueryConnection#create}.
 
 ---
 
@@ -2599,7 +2760,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_connection#delete GoogleBigqueryConnection#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection#delete GoogleBigqueryConnection#delete}.
 
 ---
 
@@ -2611,7 +2772,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_connection#update GoogleBigqueryConnection#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_bigquery_connection#update GoogleBigqueryConnection#update}.
 
 ---
 
@@ -2622,7 +2783,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionAwsAccessRoleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigqueryconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebigqueryconnection"
 
 googlebigqueryconnection.NewGoogleBigqueryConnectionAwsAccessRoleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigqueryConnectionAwsAccessRoleOutputReference
 ```
@@ -2904,7 +3065,7 @@ func InternalValue() GoogleBigqueryConnectionAwsAccessRole
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionAwsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigqueryconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebigqueryconnection"
 
 googlebigqueryconnection.NewGoogleBigqueryConnectionAwsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigqueryConnectionAwsOutputReference
 ```
@@ -3188,7 +3349,7 @@ func InternalValue() GoogleBigqueryConnectionAws
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionAzureOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigqueryconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebigqueryconnection"
 
 googlebigqueryconnection.NewGoogleBigqueryConnectionAzureOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigqueryConnectionAzureOutputReference
 ```
@@ -3543,7 +3704,7 @@ func InternalValue() GoogleBigqueryConnectionAzure
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionCloudResourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigqueryconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebigqueryconnection"
 
 googlebigqueryconnection.NewGoogleBigqueryConnectionCloudResourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigqueryConnectionCloudResourceOutputReference
 ```
@@ -3803,7 +3964,7 @@ func InternalValue() GoogleBigqueryConnectionCloudResource
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionCloudSpannerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigqueryconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebigqueryconnection"
 
 googlebigqueryconnection.NewGoogleBigqueryConnectionCloudSpannerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigqueryConnectionCloudSpannerOutputReference
 ```
@@ -4219,7 +4380,7 @@ func InternalValue() GoogleBigqueryConnectionCloudSpanner
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionCloudSqlCredentialOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigqueryconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebigqueryconnection"
 
 googlebigqueryconnection.NewGoogleBigqueryConnectionCloudSqlCredentialOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigqueryConnectionCloudSqlCredentialOutputReference
 ```
@@ -4579,7 +4740,7 @@ func InternalValue() GoogleBigqueryConnectionCloudSqlCredential
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionCloudSqlOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigqueryconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebigqueryconnection"
 
 googlebigqueryconnection.NewGoogleBigqueryConnectionCloudSqlOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigqueryConnectionCloudSqlOutputReference
 ```
@@ -4940,7 +5101,7 @@ func InternalValue() GoogleBigqueryConnectionCloudSql
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionConfigurationAssetOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigqueryconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebigqueryconnection"
 
 googlebigqueryconnection.NewGoogleBigqueryConnectionConfigurationAssetOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigqueryConnectionConfigurationAssetOutputReference
 ```
@@ -5247,7 +5408,7 @@ func InternalValue() GoogleBigqueryConnectionConfigurationAsset
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionConfigurationAuthenticationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigqueryconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebigqueryconnection"
 
 googlebigqueryconnection.NewGoogleBigqueryConnectionConfigurationAuthenticationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigqueryConnectionConfigurationAuthenticationOutputReference
 ```
@@ -5549,7 +5710,7 @@ func InternalValue() GoogleBigqueryConnectionConfigurationAuthentication
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionConfigurationAuthenticationUsernamePasswordOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigqueryconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebigqueryconnection"
 
 googlebigqueryconnection.NewGoogleBigqueryConnectionConfigurationAuthenticationUsernamePasswordOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigqueryConnectionConfigurationAuthenticationUsernamePasswordOutputReference
 ```
@@ -5855,7 +6016,7 @@ func InternalValue() GoogleBigqueryConnectionConfigurationAuthenticationUsername
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionConfigurationAuthenticationUsernamePasswordPasswordOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigqueryconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebigqueryconnection"
 
 googlebigqueryconnection.NewGoogleBigqueryConnectionConfigurationAuthenticationUsernamePasswordPasswordOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigqueryConnectionConfigurationAuthenticationUsernamePasswordPasswordOutputReference
 ```
@@ -6137,7 +6298,7 @@ func InternalValue() GoogleBigqueryConnectionConfigurationAuthenticationUsername
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionConfigurationEndpointOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigqueryconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebigqueryconnection"
 
 googlebigqueryconnection.NewGoogleBigqueryConnectionConfigurationEndpointOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigqueryConnectionConfigurationEndpointOutputReference
 ```
@@ -6415,7 +6576,7 @@ func InternalValue() GoogleBigqueryConnectionConfigurationEndpoint
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionConfigurationNetworkOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigqueryconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebigqueryconnection"
 
 googlebigqueryconnection.NewGoogleBigqueryConnectionConfigurationNetworkOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigqueryConnectionConfigurationNetworkOutputReference
 ```
@@ -6706,7 +6867,7 @@ func InternalValue() GoogleBigqueryConnectionConfigurationNetwork
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionConfigurationNetworkPrivateServiceConnectOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigqueryconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebigqueryconnection"
 
 googlebigqueryconnection.NewGoogleBigqueryConnectionConfigurationNetworkPrivateServiceConnectOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigqueryConnectionConfigurationNetworkPrivateServiceConnectOutputReference
 ```
@@ -6977,7 +7138,7 @@ func InternalValue() GoogleBigqueryConnectionConfigurationNetworkPrivateServiceC
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigqueryconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebigqueryconnection"
 
 googlebigqueryconnection.NewGoogleBigqueryConnectionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigqueryConnectionConfigurationOutputReference
 ```
@@ -7404,12 +7565,629 @@ func InternalValue() GoogleBigqueryConnectionConfiguration
 ---
 
 
+### GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptionsOutputReference <a name="GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptionsOutputReference" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptionsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptionsOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebigqueryconnection"
+
+googlebigqueryconnection.NewGoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptionsOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptionsOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptionsOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptionsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptionsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptionsOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptionsOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptionsOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptionsOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptionsOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptionsOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptionsOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptionsOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptionsOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptionsOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptionsOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptionsOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptionsOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptionsOutputReference.resetEnabled">ResetEnabled</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptionsOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptionsOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptionsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptionsOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptionsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptionsOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptionsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptionsOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptionsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptionsOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptionsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptionsOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptionsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptionsOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptionsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptionsOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptionsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptionsOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptionsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptionsOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptionsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptionsOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptionsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptionsOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetEnabled` <a name="ResetEnabled" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptionsOutputReference.resetEnabled"></a>
+
+```go
+func ResetEnabled()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptionsOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptionsOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptionsOutputReference.property.enabledInput">EnabledInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptionsOutputReference.property.enabled">Enabled</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptionsOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptions">GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptions</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptionsOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptionsOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `EnabledInput`<sup>Optional</sup> <a name="EnabledInput" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptionsOutputReference.property.enabledInput"></a>
+
+```go
+func EnabledInput() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+##### `Enabled`<sup>Required</sup> <a name="Enabled" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptionsOutputReference.property.enabled"></a>
+
+```go
+func Enabled() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptionsOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptions
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptions">GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptions</a>
+
+---
+
+
+### GoogleBigqueryConnectionSalesforceDataCloudOutputReference <a name="GoogleBigqueryConnectionSalesforceDataCloudOutputReference" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebigqueryconnection"
+
+googlebigqueryconnection.NewGoogleBigqueryConnectionSalesforceDataCloudOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigqueryConnectionSalesforceDataCloudOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudOutputReference.putCrossCloudCacheOptions">PutCrossCloudCacheOptions</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `PutCrossCloudCacheOptions` <a name="PutCrossCloudCacheOptions" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudOutputReference.putCrossCloudCacheOptions"></a>
+
+```go
+func PutCrossCloudCacheOptions(value GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptions)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudOutputReference.putCrossCloudCacheOptions.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptions">GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptions</a>
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudOutputReference.property.crossCloudCacheOptions">CrossCloudCacheOptions</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptionsOutputReference">GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptionsOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudOutputReference.property.identity">Identity</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudOutputReference.property.crossCloudCacheOptionsInput">CrossCloudCacheOptionsInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptions">GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptions</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudOutputReference.property.instanceUriInput">InstanceUriInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudOutputReference.property.tenantIdInput">TenantIdInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudOutputReference.property.instanceUri">InstanceUri</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudOutputReference.property.tenantId">TenantId</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloud">GoogleBigqueryConnectionSalesforceDataCloud</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `CrossCloudCacheOptions`<sup>Required</sup> <a name="CrossCloudCacheOptions" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudOutputReference.property.crossCloudCacheOptions"></a>
+
+```go
+func CrossCloudCacheOptions() GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptionsOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptionsOutputReference">GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptionsOutputReference</a>
+
+---
+
+##### `Identity`<sup>Required</sup> <a name="Identity" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudOutputReference.property.identity"></a>
+
+```go
+func Identity() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `CrossCloudCacheOptionsInput`<sup>Optional</sup> <a name="CrossCloudCacheOptionsInput" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudOutputReference.property.crossCloudCacheOptionsInput"></a>
+
+```go
+func CrossCloudCacheOptionsInput() GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptions
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptions">GoogleBigqueryConnectionSalesforceDataCloudCrossCloudCacheOptions</a>
+
+---
+
+##### `InstanceUriInput`<sup>Optional</sup> <a name="InstanceUriInput" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudOutputReference.property.instanceUriInput"></a>
+
+```go
+func InstanceUriInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `TenantIdInput`<sup>Optional</sup> <a name="TenantIdInput" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudOutputReference.property.tenantIdInput"></a>
+
+```go
+func TenantIdInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InstanceUri`<sup>Required</sup> <a name="InstanceUri" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudOutputReference.property.instanceUri"></a>
+
+```go
+func InstanceUri() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `TenantId`<sup>Required</sup> <a name="TenantId" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudOutputReference.property.tenantId"></a>
+
+```go
+func TenantId() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloudOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() GoogleBigqueryConnectionSalesforceDataCloud
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSalesforceDataCloud">GoogleBigqueryConnectionSalesforceDataCloud</a>
+
+---
+
+
 ### GoogleBigqueryConnectionSparkMetastoreServiceConfigOutputReference <a name="GoogleBigqueryConnectionSparkMetastoreServiceConfigOutputReference" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSparkMetastoreServiceConfigOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSparkMetastoreServiceConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigqueryconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebigqueryconnection"
 
 googlebigqueryconnection.NewGoogleBigqueryConnectionSparkMetastoreServiceConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigqueryConnectionSparkMetastoreServiceConfigOutputReference
 ```
@@ -7687,7 +8465,7 @@ func InternalValue() GoogleBigqueryConnectionSparkMetastoreServiceConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSparkOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigqueryconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebigqueryconnection"
 
 googlebigqueryconnection.NewGoogleBigqueryConnectionSparkOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigqueryConnectionSparkOutputReference
 ```
@@ -8031,7 +8809,7 @@ func InternalValue() GoogleBigqueryConnectionSpark
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionSparkSparkHistoryServerConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigqueryconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebigqueryconnection"
 
 googlebigqueryconnection.NewGoogleBigqueryConnectionSparkSparkHistoryServerConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigqueryConnectionSparkSparkHistoryServerConfigOutputReference
 ```
@@ -8309,7 +9087,7 @@ func InternalValue() GoogleBigqueryConnectionSparkSparkHistoryServerConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnectionTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigqueryconnection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlebigqueryconnection"
 
 googlebigqueryconnection.NewGoogleBigqueryConnectionTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigqueryConnectionTimeoutsOutputReference
 ```

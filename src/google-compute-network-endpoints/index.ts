@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_network_endpoints
+// https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_network_endpoints
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -21,11 +21,11 @@ export interface GoogleComputeNetworkEndpointsConfig extends cdktn.TerraformMeta
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_network_endpoints#deletion_policy GoogleComputeNetworkEndpoints#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_network_endpoints#deletion_policy GoogleComputeNetworkEndpoints#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_network_endpoints#id GoogleComputeNetworkEndpoints#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_network_endpoints#id GoogleComputeNetworkEndpoints#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -34,29 +34,29 @@ export interface GoogleComputeNetworkEndpointsConfig extends cdktn.TerraformMeta
   /**
   * The network endpoint group these endpoints are part of.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_network_endpoints#network_endpoint_group GoogleComputeNetworkEndpoints#network_endpoint_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_network_endpoints#network_endpoint_group GoogleComputeNetworkEndpoints#network_endpoint_group}
   */
   readonly networkEndpointGroup: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_network_endpoints#project GoogleComputeNetworkEndpoints#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_network_endpoints#project GoogleComputeNetworkEndpoints#project}
   */
   readonly project?: string;
   /**
   * Zone where the containing network endpoint group is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_network_endpoints#zone GoogleComputeNetworkEndpoints#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_network_endpoints#zone GoogleComputeNetworkEndpoints#zone}
   */
   readonly zone?: string;
   /**
   * network_endpoints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_network_endpoints#network_endpoints GoogleComputeNetworkEndpoints#network_endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_network_endpoints#network_endpoints GoogleComputeNetworkEndpoints#network_endpoints}
   */
   readonly networkEndpoints?: GoogleComputeNetworkEndpointsNetworkEndpoints[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_network_endpoints#timeouts GoogleComputeNetworkEndpoints#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_network_endpoints#timeouts GoogleComputeNetworkEndpoints#timeouts}
   */
   readonly timeouts?: GoogleComputeNetworkEndpointsTimeouts;
 }
@@ -66,7 +66,7 @@ export interface GoogleComputeNetworkEndpointsNetworkEndpoints {
   * This is required for network endpoints of type GCE_VM_IP_PORT.
   * The instance must be in the same zone as the network endpoint group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_network_endpoints#instance GoogleComputeNetworkEndpoints#instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_network_endpoints#instance GoogleComputeNetworkEndpoints#instance}
   */
   readonly instance?: string;
   /**
@@ -75,15 +75,22 @@ export interface GoogleComputeNetworkEndpointsNetworkEndpoints {
   * range).
   * **Note** 'ip_address' is required unless the Network Endpoint Group is created with the type of 'GCE_VM_IP_DEDICATED_BACKEND'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_network_endpoints#ip_address GoogleComputeNetworkEndpoints#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_network_endpoints#ip_address GoogleComputeNetworkEndpoints#ip_address}
   */
   readonly ipAddress?: string;
+  /**
+  * IPv6 address of network endpoint. The result of parsing the endpoint config,
+  * or empty if IPv6 is not used.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_network_endpoints#ipv6_address GoogleComputeNetworkEndpoints#ipv6_address}
+  */
+  readonly ipv6Address?: string;
   /**
   * Port number of network endpoint.
   * **Note** 'port' is required unless the Network Endpoint Group is created
   * with the type of 'GCE_VM_IP'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_network_endpoints#port GoogleComputeNetworkEndpoints#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_network_endpoints#port GoogleComputeNetworkEndpoints#port}
   */
   readonly port?: number;
 }
@@ -96,6 +103,7 @@ export function googleComputeNetworkEndpointsNetworkEndpointsToTerraform(struct?
   return {
     instance: cdktn.stringToTerraform(struct!.instance),
     ip_address: cdktn.stringToTerraform(struct!.ipAddress),
+    ipv6_address: cdktn.stringToTerraform(struct!.ipv6Address),
     port: cdktn.numberToTerraform(struct!.port),
   }
 }
@@ -115,6 +123,12 @@ export function googleComputeNetworkEndpointsNetworkEndpointsToHclTerraform(stru
     },
     ip_address: {
       value: cdktn.stringToHclTerraform(struct!.ipAddress),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    ipv6_address: {
+      value: cdktn.stringToHclTerraform(struct!.ipv6Address),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -159,6 +173,10 @@ export class GoogleComputeNetworkEndpointsNetworkEndpointsOutputReference extend
       hasAnyValues = true;
       internalValueResult.ipAddress = this._ipAddress;
     }
+    if (this._ipv6Address !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipv6Address = this._ipv6Address;
+    }
     if (this._port !== undefined) {
       hasAnyValues = true;
       internalValueResult.port = this._port;
@@ -172,6 +190,7 @@ export class GoogleComputeNetworkEndpointsNetworkEndpointsOutputReference extend
       this.resolvableValue = undefined;
       this._instance = undefined;
       this._ipAddress = undefined;
+      this._ipv6Address = undefined;
       this._port = undefined;
     }
     else if (cdktn.Tokenization.isResolvable(value)) {
@@ -183,6 +202,7 @@ export class GoogleComputeNetworkEndpointsNetworkEndpointsOutputReference extend
       this.resolvableValue = undefined;
       this._instance = value.instance;
       this._ipAddress = value.ipAddress;
+      this._ipv6Address = value.ipv6Address;
       this._port = value.port;
     }
   }
@@ -217,6 +237,22 @@ export class GoogleComputeNetworkEndpointsNetworkEndpointsOutputReference extend
   // Temporarily expose input value. Use with caution.
   public get ipAddressInput() {
     return this._ipAddress;
+  }
+
+  // ipv6_address - computed: false, optional: true, required: false
+  private _ipv6Address?: string; 
+  public get ipv6Address() {
+    return this.getStringAttribute('ipv6_address');
+  }
+  public set ipv6Address(value: string) {
+    this._ipv6Address = value;
+  }
+  public resetIpv6Address() {
+    this._ipv6Address = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipv6AddressInput() {
+    return this._ipv6Address;
   }
 
   // port - computed: false, optional: true, required: false
@@ -257,15 +293,15 @@ export class GoogleComputeNetworkEndpointsNetworkEndpointsList extends cdktn.Com
 }
 export interface GoogleComputeNetworkEndpointsTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_network_endpoints#create GoogleComputeNetworkEndpoints#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_network_endpoints#create GoogleComputeNetworkEndpoints#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_network_endpoints#delete GoogleComputeNetworkEndpoints#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_network_endpoints#delete GoogleComputeNetworkEndpoints#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_network_endpoints#update GoogleComputeNetworkEndpoints#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_network_endpoints#update GoogleComputeNetworkEndpoints#update}
   */
   readonly update?: string;
 }
@@ -417,7 +453,7 @@ export class GoogleComputeNetworkEndpointsTimeoutsOutputReference extends cdktn.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_network_endpoints google_compute_network_endpoints}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_network_endpoints google_compute_network_endpoints}
 */
 export class GoogleComputeNetworkEndpoints extends cdktn.TerraformResource {
 
@@ -433,7 +469,7 @@ export class GoogleComputeNetworkEndpoints extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleComputeNetworkEndpoints resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleComputeNetworkEndpoints to import
-  * @param importFromId The id of the existing GoogleComputeNetworkEndpoints that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_network_endpoints#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleComputeNetworkEndpoints that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_network_endpoints#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleComputeNetworkEndpoints to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -445,7 +481,7 @@ export class GoogleComputeNetworkEndpoints extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_compute_network_endpoints google_compute_network_endpoints} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_compute_network_endpoints google_compute_network_endpoints} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -456,7 +492,7 @@ export class GoogleComputeNetworkEndpoints extends cdktn.TerraformResource {
       terraformResourceType: 'google_compute_network_endpoints',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '8.7.0',
+        providerVersion: '8.9.0',
         providerVersionConstraint: '~> 8.0'
       },
       provider: config.provider,

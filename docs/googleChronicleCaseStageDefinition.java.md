@@ -4,7 +4,7 @@
 
 ### GoogleChronicleCaseStageDefinition <a name="GoogleChronicleCaseStageDefinition" id="@cdktn/provider-google-beta.googleChronicleCaseStageDefinition.GoogleChronicleCaseStageDefinition"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_stage_definition google_chronicle_case_stage_definition}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_chronicle_case_stage_definition google_chronicle_case_stage_definition}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleCaseStageDefinition.GoogleChronicleCaseStageDefinition.Initializer"></a>
 
@@ -46,8 +46,8 @@ GoogleChronicleCaseStageDefinition.Builder.create(Construct scope, java.lang.Str
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleCaseStageDefinition.GoogleChronicleCaseStageDefinition.Initializer.parameter.location">location</a></code> | <code>java.lang.String</code> | Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleCaseStageDefinition.GoogleChronicleCaseStageDefinition.Initializer.parameter.order">order</a></code> | <code>java.lang.Number</code> | Defines the case stage order in the lifetime of a case. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleCaseStageDefinition.GoogleChronicleCaseStageDefinition.Initializer.parameter.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleCaseStageDefinition.GoogleChronicleCaseStageDefinition.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_stage_definition#id GoogleChronicleCaseStageDefinition#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleCaseStageDefinition.GoogleChronicleCaseStageDefinition.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_stage_definition#project GoogleChronicleCaseStageDefinition#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleCaseStageDefinition.GoogleChronicleCaseStageDefinition.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_chronicle_case_stage_definition#id GoogleChronicleCaseStageDefinition#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleCaseStageDefinition.GoogleChronicleCaseStageDefinition.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_chronicle_case_stage_definition#project GoogleChronicleCaseStageDefinition#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleCaseStageDefinition.GoogleChronicleCaseStageDefinition.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleCaseStageDefinition.GoogleChronicleCaseStageDefinitionTimeouts">GoogleChronicleCaseStageDefinitionTimeouts</a></code> | timeouts block. |
 
 ---
@@ -120,7 +120,7 @@ The display name of the stage.
 
 The display name must be unique within the instance. The display name must not contain special characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_stage_definition#display_name GoogleChronicleCaseStageDefinition#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_chronicle_case_stage_definition#display_name GoogleChronicleCaseStageDefinition#display_name}
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_stage_definition#instance GoogleChronicleCaseStageDefinition#instance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_chronicle_case_stage_definition#instance GoogleChronicleCaseStageDefinition#instance}
 
 ---
 
@@ -140,7 +140,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_stage_definition#location GoogleChronicleCaseStageDefinition#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_chronicle_case_stage_definition#location GoogleChronicleCaseStageDefinition#location}
 
 ---
 
@@ -150,7 +150,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Defines the case stage order in the lifetime of a case.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_stage_definition#order GoogleChronicleCaseStageDefinition#order}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_chronicle_case_stage_definition#order GoogleChronicleCaseStageDefinition#order}
 
 ---
 
@@ -167,7 +167,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_stage_definition#deletion_policy GoogleChronicleCaseStageDefinition#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_chronicle_case_stage_definition#deletion_policy GoogleChronicleCaseStageDefinition#deletion_policy}
 
 ---
 
@@ -175,7 +175,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_stage_definition#id GoogleChronicleCaseStageDefinition#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_chronicle_case_stage_definition#id GoogleChronicleCaseStageDefinition#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -186,7 +186,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_stage_definition#project GoogleChronicleCaseStageDefinition#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_chronicle_case_stage_definition#project GoogleChronicleCaseStageDefinition#project}.
 
 ---
 
@@ -196,7 +196,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_stage_definition#timeouts GoogleChronicleCaseStageDefinition#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_chronicle_case_stage_definition#timeouts GoogleChronicleCaseStageDefinition#timeouts}
 
 ---
 
@@ -686,7 +686,7 @@ The construct id used in the generated config for the GoogleChronicleCaseStageDe
 
 The id of the existing GoogleChronicleCaseStageDefinition that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_stage_definition#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_chronicle_case_stage_definition#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1121,8 +1121,8 @@ GoogleChronicleCaseStageDefinitionConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleCaseStageDefinition.GoogleChronicleCaseStageDefinitionConfig.property.location">location</a></code> | <code>java.lang.String</code> | Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleCaseStageDefinition.GoogleChronicleCaseStageDefinitionConfig.property.order">order</a></code> | <code>java.lang.Number</code> | Defines the case stage order in the lifetime of a case. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleCaseStageDefinition.GoogleChronicleCaseStageDefinitionConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleCaseStageDefinition.GoogleChronicleCaseStageDefinitionConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_stage_definition#id GoogleChronicleCaseStageDefinition#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleCaseStageDefinition.GoogleChronicleCaseStageDefinitionConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_stage_definition#project GoogleChronicleCaseStageDefinition#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleCaseStageDefinition.GoogleChronicleCaseStageDefinitionConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_chronicle_case_stage_definition#id GoogleChronicleCaseStageDefinition#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleCaseStageDefinition.GoogleChronicleCaseStageDefinitionConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_chronicle_case_stage_definition#project GoogleChronicleCaseStageDefinition#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleCaseStageDefinition.GoogleChronicleCaseStageDefinitionConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleCaseStageDefinition.GoogleChronicleCaseStageDefinitionTimeouts">GoogleChronicleCaseStageDefinitionTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1209,7 +1209,7 @@ The display name of the stage.
 
 The display name must be unique within the instance. The display name must not contain special characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_stage_definition#display_name GoogleChronicleCaseStageDefinition#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_chronicle_case_stage_definition#display_name GoogleChronicleCaseStageDefinition#display_name}
 
 ---
 
@@ -1223,7 +1223,7 @@ public java.lang.String getInstance();
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_stage_definition#instance GoogleChronicleCaseStageDefinition#instance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_chronicle_case_stage_definition#instance GoogleChronicleCaseStageDefinition#instance}
 
 ---
 
@@ -1237,7 +1237,7 @@ public java.lang.String getLocation();
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_stage_definition#location GoogleChronicleCaseStageDefinition#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_chronicle_case_stage_definition#location GoogleChronicleCaseStageDefinition#location}
 
 ---
 
@@ -1251,7 +1251,7 @@ public java.lang.Number getOrder();
 
 Defines the case stage order in the lifetime of a case.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_stage_definition#order GoogleChronicleCaseStageDefinition#order}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_chronicle_case_stage_definition#order GoogleChronicleCaseStageDefinition#order}
 
 ---
 
@@ -1272,7 +1272,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_stage_definition#deletion_policy GoogleChronicleCaseStageDefinition#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_chronicle_case_stage_definition#deletion_policy GoogleChronicleCaseStageDefinition#deletion_policy}
 
 ---
 
@@ -1284,7 +1284,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_stage_definition#id GoogleChronicleCaseStageDefinition#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_chronicle_case_stage_definition#id GoogleChronicleCaseStageDefinition#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1299,7 +1299,7 @@ public java.lang.String getProject();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_stage_definition#project GoogleChronicleCaseStageDefinition#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_chronicle_case_stage_definition#project GoogleChronicleCaseStageDefinition#project}.
 
 ---
 
@@ -1313,7 +1313,7 @@ public GoogleChronicleCaseStageDefinitionTimeouts getTimeouts();
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_stage_definition#timeouts GoogleChronicleCaseStageDefinition#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_chronicle_case_stage_definition#timeouts GoogleChronicleCaseStageDefinition#timeouts}
 
 ---
 
@@ -1335,9 +1335,9 @@ GoogleChronicleCaseStageDefinitionTimeouts.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleCaseStageDefinition.GoogleChronicleCaseStageDefinitionTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_stage_definition#create GoogleChronicleCaseStageDefinition#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleCaseStageDefinition.GoogleChronicleCaseStageDefinitionTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_stage_definition#delete GoogleChronicleCaseStageDefinition#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleCaseStageDefinition.GoogleChronicleCaseStageDefinitionTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_stage_definition#update GoogleChronicleCaseStageDefinition#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleCaseStageDefinition.GoogleChronicleCaseStageDefinitionTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_chronicle_case_stage_definition#create GoogleChronicleCaseStageDefinition#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleCaseStageDefinition.GoogleChronicleCaseStageDefinitionTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_chronicle_case_stage_definition#delete GoogleChronicleCaseStageDefinition#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleCaseStageDefinition.GoogleChronicleCaseStageDefinitionTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_chronicle_case_stage_definition#update GoogleChronicleCaseStageDefinition#update}. |
 
 ---
 
@@ -1349,7 +1349,7 @@ public java.lang.String getCreate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_stage_definition#create GoogleChronicleCaseStageDefinition#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_chronicle_case_stage_definition#create GoogleChronicleCaseStageDefinition#create}.
 
 ---
 
@@ -1361,7 +1361,7 @@ public java.lang.String getDelete();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_stage_definition#delete GoogleChronicleCaseStageDefinition#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_chronicle_case_stage_definition#delete GoogleChronicleCaseStageDefinition#delete}.
 
 ---
 
@@ -1373,7 +1373,7 @@ public java.lang.String getUpdate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_stage_definition#update GoogleChronicleCaseStageDefinition#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_chronicle_case_stage_definition#update GoogleChronicleCaseStageDefinition#update}.
 
 ---
 

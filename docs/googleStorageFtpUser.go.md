@@ -4,12 +4,12 @@
 
 ### GoogleStorageFtpUser <a name="GoogleStorageFtpUser" id="@cdktn/provider-google-beta.googleStorageFtpUser.GoogleStorageFtpUser"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_ftp_user google_storage_ftp_user}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_ftp_user google_storage_ftp_user}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageFtpUser.GoogleStorageFtpUser.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlestorageftpuser"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlestorageftpuser"
 
 googlestorageftpuser.NewGoogleStorageFtpUser(scope Construct, id *string, config GoogleStorageFtpUserConfig) GoogleStorageFtpUser
 ```
@@ -488,7 +488,7 @@ func ResetUserCredentials()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleStorageFtpUser.GoogleStorageFtpUser.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlestorageftpuser"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlestorageftpuser"
 
 googlestorageftpuser.GoogleStorageFtpUser_IsConstruct(x interface{}) *bool
 ```
@@ -520,7 +520,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleStorageFtpUser.GoogleStorageFtpUser.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlestorageftpuser"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlestorageftpuser"
 
 googlestorageftpuser.GoogleStorageFtpUser_IsTerraformElement(x interface{}) *bool
 ```
@@ -534,7 +534,7 @@ googlestorageftpuser.GoogleStorageFtpUser_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleStorageFtpUser.GoogleStorageFtpUser.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlestorageftpuser"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlestorageftpuser"
 
 googlestorageftpuser.GoogleStorageFtpUser_IsTerraformResource(x interface{}) *bool
 ```
@@ -548,7 +548,7 @@ googlestorageftpuser.GoogleStorageFtpUser_IsTerraformResource(x interface{}) *bo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleStorageFtpUser.GoogleStorageFtpUser.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlestorageftpuser"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlestorageftpuser"
 
 googlestorageftpuser.GoogleStorageFtpUser_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -577,7 +577,7 @@ The construct id used in the generated config for the GoogleStorageFtpUser to im
 
 The id of the existing GoogleStorageFtpUser that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_ftp_user#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_ftp_user#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1063,7 +1063,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageFtpUser.GoogleStorageFtpUserConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlestorageftpuser"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlestorageftpuser"
 
 &googlestorageftpuser.GoogleStorageFtpUserConfig {
 	Connection: interface{},
@@ -1082,7 +1082,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlest
 	Labels: *map[string]*string,
 	Project: *string,
 	StorageDirectoryMappings: interface{},
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21.googleStorageFtpUser.GoogleStorageFtpUserTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleStorageFtpUser.GoogleStorageFtpUserTimeouts,
 	UserCredentials: interface{},
 }
 ```
@@ -1103,9 +1103,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlest
 | <code><a href="#@cdktn/provider-google-beta.googleStorageFtpUser.GoogleStorageFtpUserConfig.property.serverId">ServerId</a></code> | <code>*string</code> | The ID of the server. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageFtpUser.GoogleStorageFtpUserConfig.property.userId">UserId</a></code> | <code>*string</code> | The unique ID for the user. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageFtpUser.GoogleStorageFtpUserConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageFtpUser.GoogleStorageFtpUserConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_ftp_user#id GoogleStorageFtpUser#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageFtpUser.GoogleStorageFtpUserConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_ftp_user#id GoogleStorageFtpUser#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageFtpUser.GoogleStorageFtpUserConfig.property.labels">Labels</a></code> | <code>*map[string]*string</code> | Resource labels that can contain user-provided metadata. |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageFtpUser.GoogleStorageFtpUserConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_ftp_user#project GoogleStorageFtpUser#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageFtpUser.GoogleStorageFtpUserConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_ftp_user#project GoogleStorageFtpUser#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageFtpUser.GoogleStorageFtpUserConfig.property.storageDirectoryMappings">StorageDirectoryMappings</a></code> | <code>interface{}</code> | storage_directory_mappings block. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageFtpUser.GoogleStorageFtpUserConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleStorageFtpUser.GoogleStorageFtpUserTimeouts">GoogleStorageFtpUserTimeouts</a></code> | timeouts block. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageFtpUser.GoogleStorageFtpUserConfig.property.userCredentials">UserCredentials</a></code> | <code>interface{}</code> | user_credentials block. |
@@ -1192,7 +1192,7 @@ CustomerServiceAccount *string
 
 The email address of the service account associated with the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_ftp_user#customer_service_account GoogleStorageFtpUser#customer_service_account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_ftp_user#customer_service_account GoogleStorageFtpUser#customer_service_account}
 
 ---
 
@@ -1206,7 +1206,7 @@ Location *string
 
 The location (region) of the Storage FTP User.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_ftp_user#location GoogleStorageFtpUser#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_ftp_user#location GoogleStorageFtpUser#location}
 
 ---
 
@@ -1220,7 +1220,7 @@ ServerId *string
 
 The ID of the server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_ftp_user#server_id GoogleStorageFtpUser#server_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_ftp_user#server_id GoogleStorageFtpUser#server_id}
 
 ---
 
@@ -1234,7 +1234,7 @@ UserId *string
 
 The unique ID for the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_ftp_user#user_id GoogleStorageFtpUser#user_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_ftp_user#user_id GoogleStorageFtpUser#user_id}
 
 ---
 
@@ -1255,7 +1255,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_ftp_user#deletion_policy GoogleStorageFtpUser#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_ftp_user#deletion_policy GoogleStorageFtpUser#deletion_policy}
 
 ---
 
@@ -1267,7 +1267,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_ftp_user#id GoogleStorageFtpUser#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_ftp_user#id GoogleStorageFtpUser#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1287,7 +1287,7 @@ Resource labels that can contain user-provided metadata.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_ftp_user#labels GoogleStorageFtpUser#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_ftp_user#labels GoogleStorageFtpUser#labels}
 
 ---
 
@@ -1299,7 +1299,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_ftp_user#project GoogleStorageFtpUser#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_ftp_user#project GoogleStorageFtpUser#project}.
 
 ---
 
@@ -1313,7 +1313,7 @@ StorageDirectoryMappings interface{}
 
 storage_directory_mappings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_ftp_user#storage_directory_mappings GoogleStorageFtpUser#storage_directory_mappings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_ftp_user#storage_directory_mappings GoogleStorageFtpUser#storage_directory_mappings}
 
 ---
 
@@ -1327,7 +1327,7 @@ Timeouts GoogleStorageFtpUserTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_ftp_user#timeouts GoogleStorageFtpUser#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_ftp_user#timeouts GoogleStorageFtpUser#timeouts}
 
 ---
 
@@ -1341,7 +1341,7 @@ UserCredentials interface{}
 
 user_credentials block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_ftp_user#user_credentials GoogleStorageFtpUser#user_credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_ftp_user#user_credentials GoogleStorageFtpUser#user_credentials}
 
 ---
 
@@ -1350,7 +1350,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageFtpUser.GoogleStorageFtpUserStorageDirectoryMappings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlestorageftpuser"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlestorageftpuser"
 
 &googlestorageftpuser.GoogleStorageFtpUserStorageDirectoryMappings {
 	Bucket: *string,
@@ -1381,7 +1381,7 @@ Bucket *string
 
 The Cloud Storage bucket name. Omit the gs://.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_ftp_user#bucket GoogleStorageFtpUser#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_ftp_user#bucket GoogleStorageFtpUser#bucket}
 
 ---
 
@@ -1395,7 +1395,7 @@ BucketPrefix *string
 
 The path of a folder within the bucket to set as the root directory for this directory mapping.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_ftp_user#bucket_prefix GoogleStorageFtpUser#bucket_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_ftp_user#bucket_prefix GoogleStorageFtpUser#bucket_prefix}
 
 ---
 
@@ -1409,7 +1409,7 @@ Directory *string
 
 The directory path in the virtual file system.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_ftp_user#directory GoogleStorageFtpUser#directory}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_ftp_user#directory GoogleStorageFtpUser#directory}
 
 ---
 
@@ -1425,7 +1425,7 @@ The access level for the directory.
 
 For read-only access, set this value to READ_ONLY. For read and write access, set this value to READ_WRITE. Possible values: ["READ_ONLY", "READ_WRITE"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_ftp_user#permission GoogleStorageFtpUser#permission}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_ftp_user#permission GoogleStorageFtpUser#permission}
 
 ---
 
@@ -1434,7 +1434,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageFtpUser.GoogleStorageFtpUserTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlestorageftpuser"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlestorageftpuser"
 
 &googlestorageftpuser.GoogleStorageFtpUserTimeouts {
 	Create: *string,
@@ -1447,9 +1447,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlest
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageFtpUser.GoogleStorageFtpUserTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_ftp_user#create GoogleStorageFtpUser#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageFtpUser.GoogleStorageFtpUserTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_ftp_user#delete GoogleStorageFtpUser#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageFtpUser.GoogleStorageFtpUserTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_ftp_user#update GoogleStorageFtpUser#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageFtpUser.GoogleStorageFtpUserTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_ftp_user#create GoogleStorageFtpUser#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageFtpUser.GoogleStorageFtpUserTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_ftp_user#delete GoogleStorageFtpUser#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageFtpUser.GoogleStorageFtpUserTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_ftp_user#update GoogleStorageFtpUser#update}. |
 
 ---
 
@@ -1461,7 +1461,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_ftp_user#create GoogleStorageFtpUser#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_ftp_user#create GoogleStorageFtpUser#create}.
 
 ---
 
@@ -1473,7 +1473,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_ftp_user#delete GoogleStorageFtpUser#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_ftp_user#delete GoogleStorageFtpUser#delete}.
 
 ---
 
@@ -1485,7 +1485,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_ftp_user#update GoogleStorageFtpUser#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_ftp_user#update GoogleStorageFtpUser#update}.
 
 ---
 
@@ -1494,7 +1494,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageFtpUser.GoogleStorageFtpUserUserCredentials.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlestorageftpuser"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlestorageftpuser"
 
 &googlestorageftpuser.GoogleStorageFtpUserUserCredentials {
 	CredentialName: *string,
@@ -1523,7 +1523,7 @@ CredentialName *string
 
 The name of the credential.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_ftp_user#credential_name GoogleStorageFtpUser#credential_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_ftp_user#credential_name GoogleStorageFtpUser#credential_name}
 
 ---
 
@@ -1537,7 +1537,7 @@ CredentialType *string
 
 The type of the credential.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_ftp_user#credential_type GoogleStorageFtpUser#credential_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_ftp_user#credential_type GoogleStorageFtpUser#credential_type}
 
 ---
 
@@ -1553,7 +1553,7 @@ The SSH public key body.
 
 A file either absolute or relative path should be provided which contains the ssh public key using file() interpolation in Terraform, not recommended to have key as a literal string in config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_ftp_user#ssh_public_key_body GoogleStorageFtpUser#ssh_public_key_body}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_ftp_user#ssh_public_key_body GoogleStorageFtpUser#ssh_public_key_body}
 
 ---
 
@@ -1564,7 +1564,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageFtpUser.GoogleStorageFtpUserStorageDirectoryMappingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlestorageftpuser"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlestorageftpuser"
 
 googlestorageftpuser.NewGoogleStorageFtpUserStorageDirectoryMappingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleStorageFtpUserStorageDirectoryMappingsList
 ```
@@ -1724,7 +1724,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageFtpUser.GoogleStorageFtpUserStorageDirectoryMappingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlestorageftpuser"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlestorageftpuser"
 
 googlestorageftpuser.NewGoogleStorageFtpUserStorageDirectoryMappingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleStorageFtpUserStorageDirectoryMappingsOutputReference
 ```
@@ -2107,7 +2107,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageFtpUser.GoogleStorageFtpUserTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlestorageftpuser"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlestorageftpuser"
 
 googlestorageftpuser.NewGoogleStorageFtpUserTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageFtpUserTimeoutsOutputReference
 ```
@@ -2443,7 +2443,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageFtpUser.GoogleStorageFtpUserUserCredentialsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlestorageftpuser"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlestorageftpuser"
 
 googlestorageftpuser.NewGoogleStorageFtpUserUserCredentialsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleStorageFtpUserUserCredentialsList
 ```
@@ -2603,7 +2603,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageFtpUser.GoogleStorageFtpUserUserCredentialsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlestorageftpuser"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlestorageftpuser"
 
 googlestorageftpuser.NewGoogleStorageFtpUserUserCredentialsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleStorageFtpUserUserCredentialsOutputReference
 ```

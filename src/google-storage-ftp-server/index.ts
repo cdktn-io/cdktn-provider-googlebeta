@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_ftp_server
+// https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_ftp_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface GoogleStorageFtpServerConfig extends cdktn.TerraformMetaArgumen
   /**
   * The access type for this SFTP server. Possible values: INTERNAL, EXTERNAL Possible values: ["INTERNAL", "EXTERNAL"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_ftp_server#access_type GoogleStorageFtpServer#access_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_ftp_server#access_type GoogleStorageFtpServer#access_type}
   */
   readonly accessType: string;
   /**
@@ -27,17 +27,17 @@ export interface GoogleStorageFtpServerConfig extends cdktn.TerraformMetaArgumen
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_ftp_server#deletion_policy GoogleStorageFtpServer#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_ftp_server#deletion_policy GoogleStorageFtpServer#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * A display name for the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_ftp_server#display_name GoogleStorageFtpServer#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_ftp_server#display_name GoogleStorageFtpServer#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_ftp_server#id GoogleStorageFtpServer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_ftp_server#id GoogleStorageFtpServer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -50,41 +50,41 @@ export interface GoogleStorageFtpServerConfig extends cdktn.TerraformMetaArgumen
   * **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
   * Please refer to the field 'effective_labels' for all of the labels present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_ftp_server#labels GoogleStorageFtpServer#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_ftp_server#labels GoogleStorageFtpServer#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The location (region) of the Storage FTP Server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_ftp_server#location GoogleStorageFtpServer#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_ftp_server#location GoogleStorageFtpServer#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_ftp_server#project GoogleStorageFtpServer#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_ftp_server#project GoogleStorageFtpServer#project}
   */
   readonly project?: string;
   /**
   * A unique ID for the server. Must start with a lowercase letter, and end with a lowercase letter or number. Can contain lowercase letters, numbers, and hyphens. Maximum 30 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_ftp_server#server_id GoogleStorageFtpServer#server_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_ftp_server#server_id GoogleStorageFtpServer#server_id}
   */
   readonly serverId: string;
   /**
   * external_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_ftp_server#external_config GoogleStorageFtpServer#external_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_ftp_server#external_config GoogleStorageFtpServer#external_config}
   */
   readonly externalConfig?: GoogleStorageFtpServerExternalConfig;
   /**
   * internal_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_ftp_server#internal_config GoogleStorageFtpServer#internal_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_ftp_server#internal_config GoogleStorageFtpServer#internal_config}
   */
   readonly internalConfig?: GoogleStorageFtpServerInternalConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_ftp_server#timeouts GoogleStorageFtpServer#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_ftp_server#timeouts GoogleStorageFtpServer#timeouts}
   */
   readonly timeouts?: GoogleStorageFtpServerTimeouts;
 }
@@ -92,7 +92,7 @@ export interface GoogleStorageFtpServerExternalConfig {
   /**
   * A list of allowed IPv4 or IPv6 CIDR block ranges that can connect to this server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_ftp_server#allowed_cidr_blocks GoogleStorageFtpServer#allowed_cidr_blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_ftp_server#allowed_cidr_blocks GoogleStorageFtpServer#allowed_cidr_blocks}
   */
   readonly allowedCidrBlocks?: string[];
 }
@@ -183,13 +183,13 @@ export interface GoogleStorageFtpServerInternalConfigConsumerAcceptListStruct {
   /**
   * The maximum number of Private Service Connect endpoints that can be created in the consumer project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_ftp_server#connection_limit GoogleStorageFtpServer#connection_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_ftp_server#connection_limit GoogleStorageFtpServer#connection_limit}
   */
   readonly connectionLimit: number;
   /**
   * The project that is allowed to connect, in the format 'projects/{project}'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_ftp_server#project GoogleStorageFtpServer#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_ftp_server#project GoogleStorageFtpServer#project}
   */
   readonly project: string;
 }
@@ -330,7 +330,7 @@ export interface GoogleStorageFtpServerInternalConfigConsumerRejectListStruct {
   /**
   * The project that is rejected from connecting, in the format 'projects/{project}'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_ftp_server#project GoogleStorageFtpServer#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_ftp_server#project GoogleStorageFtpServer#project}
   */
   readonly project: string;
 }
@@ -445,13 +445,13 @@ export interface GoogleStorageFtpServerInternalConfig {
   /**
   * consumer_accept_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_ftp_server#consumer_accept_list GoogleStorageFtpServer#consumer_accept_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_ftp_server#consumer_accept_list GoogleStorageFtpServer#consumer_accept_list}
   */
   readonly consumerAcceptList?: GoogleStorageFtpServerInternalConfigConsumerAcceptListStruct[] | cdktn.IResolvable;
   /**
   * consumer_reject_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_ftp_server#consumer_reject_list GoogleStorageFtpServer#consumer_reject_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_ftp_server#consumer_reject_list GoogleStorageFtpServer#consumer_reject_list}
   */
   readonly consumerRejectList?: GoogleStorageFtpServerInternalConfigConsumerRejectListStruct[] | cdktn.IResolvable;
 }
@@ -569,15 +569,15 @@ export class GoogleStorageFtpServerInternalConfigOutputReference extends cdktn.C
 }
 export interface GoogleStorageFtpServerTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_ftp_server#create GoogleStorageFtpServer#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_ftp_server#create GoogleStorageFtpServer#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_ftp_server#delete GoogleStorageFtpServer#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_ftp_server#delete GoogleStorageFtpServer#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_ftp_server#update GoogleStorageFtpServer#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_ftp_server#update GoogleStorageFtpServer#update}
   */
   readonly update?: string;
 }
@@ -729,7 +729,7 @@ export class GoogleStorageFtpServerTimeoutsOutputReference extends cdktn.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_ftp_server google_storage_ftp_server}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_ftp_server google_storage_ftp_server}
 */
 export class GoogleStorageFtpServer extends cdktn.TerraformResource {
 
@@ -745,7 +745,7 @@ export class GoogleStorageFtpServer extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleStorageFtpServer resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleStorageFtpServer to import
-  * @param importFromId The id of the existing GoogleStorageFtpServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_ftp_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleStorageFtpServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_ftp_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleStorageFtpServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -757,7 +757,7 @@ export class GoogleStorageFtpServer extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_ftp_server google_storage_ftp_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_ftp_server google_storage_ftp_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -768,7 +768,7 @@ export class GoogleStorageFtpServer extends cdktn.TerraformResource {
       terraformResourceType: 'google_storage_ftp_server',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '8.7.0',
+        providerVersion: '8.9.0',
         providerVersionConstraint: '~> 8.0'
       },
       provider: config.provider,
