@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution
+// https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -21,102 +21,108 @@ export interface GoogleColabNotebookExecutionConfig extends cdktn.TerraformMetaA
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#deletion_policy GoogleColabNotebookExecution#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#deletion_policy GoogleColabNotebookExecution#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * Required. The display name of the Notebook Execution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#display_name GoogleColabNotebookExecution#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#display_name GoogleColabNotebookExecution#display_name}
   */
   readonly displayName: string;
   /**
   * Max running time of the execution job in seconds (default 86400s / 24 hrs).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#execution_timeout GoogleColabNotebookExecution#execution_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#execution_timeout GoogleColabNotebookExecution#execution_timeout}
   */
   readonly executionTimeout?: string;
   /**
   * The user email to run the execution as.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#execution_user GoogleColabNotebookExecution#execution_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#execution_user GoogleColabNotebookExecution#execution_user}
   */
   readonly executionUser?: string;
   /**
   * The Cloud Storage location to upload the result to. Format:'gs://bucket-name'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#gcs_output_uri GoogleColabNotebookExecution#gcs_output_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#gcs_output_uri GoogleColabNotebookExecution#gcs_output_uri}
   */
   readonly gcsOutputUri: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#id GoogleColabNotebookExecution#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#id GoogleColabNotebookExecution#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
+  * The name of the kernel to use during notebook execution. If unset, the default kernel is used.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#kernel_name GoogleColabNotebookExecution#kernel_name}
+  */
+  readonly kernelName?: string;
+  /**
   * The location for the resource: https://cloud.google.com/colab/docs/locations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#location GoogleColabNotebookExecution#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#location GoogleColabNotebookExecution#location}
   */
   readonly location: string;
   /**
   * User specified ID for the Notebook Execution Job
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#notebook_execution_job_id GoogleColabNotebookExecution#notebook_execution_job_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#notebook_execution_job_id GoogleColabNotebookExecution#notebook_execution_job_id}
   */
   readonly notebookExecutionJobId?: string;
   /**
   * The NotebookRuntimeTemplate to source compute configuration from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#notebook_runtime_template_resource_name GoogleColabNotebookExecution#notebook_runtime_template_resource_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#notebook_runtime_template_resource_name GoogleColabNotebookExecution#notebook_runtime_template_resource_name}
   */
   readonly notebookRuntimeTemplateResourceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#project GoogleColabNotebookExecution#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#project GoogleColabNotebookExecution#project}
   */
   readonly project?: string;
   /**
   * The service account to run the execution as.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#service_account GoogleColabNotebookExecution#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#service_account GoogleColabNotebookExecution#service_account}
   */
   readonly serviceAccount?: string;
   /**
   * custom_environment_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#custom_environment_spec GoogleColabNotebookExecution#custom_environment_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#custom_environment_spec GoogleColabNotebookExecution#custom_environment_spec}
   */
   readonly customEnvironmentSpec?: GoogleColabNotebookExecutionCustomEnvironmentSpec;
   /**
   * dataform_repository_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#dataform_repository_source GoogleColabNotebookExecution#dataform_repository_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#dataform_repository_source GoogleColabNotebookExecution#dataform_repository_source}
   */
   readonly dataformRepositorySource?: GoogleColabNotebookExecutionDataformRepositorySource;
   /**
   * direct_notebook_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#direct_notebook_source GoogleColabNotebookExecution#direct_notebook_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#direct_notebook_source GoogleColabNotebookExecution#direct_notebook_source}
   */
   readonly directNotebookSource?: GoogleColabNotebookExecutionDirectNotebookSource;
   /**
   * gcs_notebook_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#gcs_notebook_source GoogleColabNotebookExecution#gcs_notebook_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#gcs_notebook_source GoogleColabNotebookExecution#gcs_notebook_source}
   */
   readonly gcsNotebookSource?: GoogleColabNotebookExecutionGcsNotebookSource;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#timeouts GoogleColabNotebookExecution#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#timeouts GoogleColabNotebookExecution#timeouts}
   */
   readonly timeouts?: GoogleColabNotebookExecutionTimeouts;
   /**
   * workbench_runtime block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#workbench_runtime GoogleColabNotebookExecution#workbench_runtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#workbench_runtime GoogleColabNotebookExecution#workbench_runtime}
   */
   readonly workbenchRuntime?: GoogleColabNotebookExecutionWorkbenchRuntime;
 }
@@ -124,19 +130,19 @@ export interface GoogleColabNotebookExecutionCustomEnvironmentSpecMachineSpec {
   /**
   * The number of accelerators used by the runtime.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#accelerator_count GoogleColabNotebookExecution#accelerator_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#accelerator_count GoogleColabNotebookExecution#accelerator_count}
   */
   readonly acceleratorCount?: number;
   /**
   * The type of hardware accelerator used by the runtime. If specified, acceleratorCount must also be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#accelerator_type GoogleColabNotebookExecution#accelerator_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#accelerator_type GoogleColabNotebookExecution#accelerator_type}
   */
   readonly acceleratorType?: string;
   /**
   * The Compute Engine machine type selected for the runtime.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#machine_type GoogleColabNotebookExecution#machine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#machine_type GoogleColabNotebookExecution#machine_type}
   */
   readonly machineType?: string;
 }
@@ -280,19 +286,19 @@ export interface GoogleColabNotebookExecutionCustomEnvironmentSpecNetworkSpec {
   /**
   * Enable public internet access for the runtime.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#enable_internet_access GoogleColabNotebookExecution#enable_internet_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#enable_internet_access GoogleColabNotebookExecution#enable_internet_access}
   */
   readonly enableInternetAccess?: boolean | cdktn.IResolvable;
   /**
   * The name of the VPC that this runtime is in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#network GoogleColabNotebookExecution#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#network GoogleColabNotebookExecution#network}
   */
   readonly network?: string;
   /**
   * The name of the subnetwork that this runtime is in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#subnetwork GoogleColabNotebookExecution#subnetwork}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#subnetwork GoogleColabNotebookExecution#subnetwork}
   */
   readonly subnetwork?: string;
 }
@@ -436,13 +442,13 @@ export interface GoogleColabNotebookExecutionCustomEnvironmentSpecPersistentDisk
   /**
   * The disk size of the runtime in GB. If specified, the diskType must also be specified. The minimum size is 10GB and the maximum is 65536GB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#disk_size_gb GoogleColabNotebookExecution#disk_size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#disk_size_gb GoogleColabNotebookExecution#disk_size_gb}
   */
   readonly diskSizeGb?: string;
   /**
   * The type of the persistent disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#disk_type GoogleColabNotebookExecution#disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#disk_type GoogleColabNotebookExecution#disk_type}
   */
   readonly diskType?: string;
 }
@@ -557,19 +563,19 @@ export interface GoogleColabNotebookExecutionCustomEnvironmentSpecShieldedInstan
   /**
   * Defines whether the instance has integrity monitoring enabled. Enables monitoring and attestation of the boot integrity of the instance. The attestation is performed against the integrity policy baseline. This baseline is initially derived from the implicitly trusted boot image when the instance is created. Enabled by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#enable_integrity_monitoring GoogleColabNotebookExecution#enable_integrity_monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#enable_integrity_monitoring GoogleColabNotebookExecution#enable_integrity_monitoring}
   */
   readonly enableIntegrityMonitoring?: boolean | cdktn.IResolvable;
   /**
   * Defines whether the instance has Secure Boot enabled. Secure Boot helps ensure that the system only runs authentic software by verifying the digital signature of all boot components, and halting the boot process if signature verification fails. Disabled by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#enable_secure_boot GoogleColabNotebookExecution#enable_secure_boot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#enable_secure_boot GoogleColabNotebookExecution#enable_secure_boot}
   */
   readonly enableSecureBoot?: boolean | cdktn.IResolvable;
   /**
   * Defines whether the instance has the vTPM enabled. Enabled by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#enable_vtpm GoogleColabNotebookExecution#enable_vtpm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#enable_vtpm GoogleColabNotebookExecution#enable_vtpm}
   */
   readonly enableVtpm?: boolean | cdktn.IResolvable;
 }
@@ -713,25 +719,25 @@ export interface GoogleColabNotebookExecutionCustomEnvironmentSpec {
   /**
   * machine_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#machine_spec GoogleColabNotebookExecution#machine_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#machine_spec GoogleColabNotebookExecution#machine_spec}
   */
   readonly machineSpec?: GoogleColabNotebookExecutionCustomEnvironmentSpecMachineSpec;
   /**
   * network_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#network_spec GoogleColabNotebookExecution#network_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#network_spec GoogleColabNotebookExecution#network_spec}
   */
   readonly networkSpec?: GoogleColabNotebookExecutionCustomEnvironmentSpecNetworkSpec;
   /**
   * persistent_disk_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#persistent_disk_spec GoogleColabNotebookExecution#persistent_disk_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#persistent_disk_spec GoogleColabNotebookExecution#persistent_disk_spec}
   */
   readonly persistentDiskSpec?: GoogleColabNotebookExecutionCustomEnvironmentSpecPersistentDiskSpec;
   /**
   * shielded_instance_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#shielded_instance_config GoogleColabNotebookExecution#shielded_instance_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#shielded_instance_config GoogleColabNotebookExecution#shielded_instance_config}
   */
   readonly shieldedInstanceConfig?: GoogleColabNotebookExecutionCustomEnvironmentSpecShieldedInstanceConfig;
 }
@@ -904,13 +910,13 @@ export interface GoogleColabNotebookExecutionDataformRepositorySource {
   /**
   * The commit SHA to read repository with. If unset, the file will be read at HEAD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#commit_sha GoogleColabNotebookExecution#commit_sha}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#commit_sha GoogleColabNotebookExecution#commit_sha}
   */
   readonly commitSha?: string;
   /**
   * The resource name of the Dataform Repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#dataform_repository_resource_name GoogleColabNotebookExecution#dataform_repository_resource_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#dataform_repository_resource_name GoogleColabNotebookExecution#dataform_repository_resource_name}
   */
   readonly dataformRepositoryResourceName: string;
 }
@@ -1022,7 +1028,7 @@ export interface GoogleColabNotebookExecutionDirectNotebookSource {
   /**
   * The base64-encoded contents of the input notebook file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#content GoogleColabNotebookExecution#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#content GoogleColabNotebookExecution#content}
   */
   readonly content: string;
 }
@@ -1105,13 +1111,13 @@ export interface GoogleColabNotebookExecutionGcsNotebookSource {
   /**
   * The version of the Cloud Storage object to read. If unset, the current version of the object is read. See https://cloud.google.com/storage/docs/metadata#generation-number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#generation GoogleColabNotebookExecution#generation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#generation GoogleColabNotebookExecution#generation}
   */
   readonly generation?: string;
   /**
   * The Cloud Storage uri pointing to the ipynb file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#uri GoogleColabNotebookExecution#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#uri GoogleColabNotebookExecution#uri}
   */
   readonly uri: string;
 }
@@ -1221,11 +1227,11 @@ export class GoogleColabNotebookExecutionGcsNotebookSourceOutputReference extend
 }
 export interface GoogleColabNotebookExecutionTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#create GoogleColabNotebookExecution#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#create GoogleColabNotebookExecution#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#delete GoogleColabNotebookExecution#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#delete GoogleColabNotebookExecution#delete}
   */
   readonly delete?: string;
 }
@@ -1346,23 +1352,142 @@ export class GoogleColabNotebookExecutionTimeoutsOutputReference extends cdktn.C
     return this._delete;
   }
 }
+export interface GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImage {
+  /**
+  * The path to the container image repository.
+  * For example: gcr.io/{project_id}/{imageName}
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#repository GoogleColabNotebookExecution#repository}
+  */
+  readonly repository: string;
+  /**
+  * The tag of the container image. If not specified, this defaults to the latest tag.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#tag GoogleColabNotebookExecution#tag}
+  */
+  readonly tag?: string;
+}
+
+export function googleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageToTerraform(struct?: GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference | GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImage): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    repository: cdktn.stringToTerraform(struct!.repository),
+    tag: cdktn.stringToTerraform(struct!.tag),
+  }
+}
+
+
+export function googleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageToHclTerraform(struct?: GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference | GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImage): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    repository: {
+      value: cdktn.stringToHclTerraform(struct!.repository),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tag: {
+      value: cdktn.stringToHclTerraform(struct!.tag),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImage | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._repository !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.repository = this._repository;
+    }
+    if (this._tag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tag = this._tag;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImage | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._repository = undefined;
+      this._tag = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._repository = value.repository;
+      this._tag = value.tag;
+    }
+  }
+
+  // repository - computed: false, optional: false, required: true
+  private _repository?: string; 
+  public get repository() {
+    return this.getStringAttribute('repository');
+  }
+  public set repository(value: string) {
+    this._repository = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get repositoryInput() {
+    return this._repository;
+  }
+
+  // tag - computed: false, optional: true, required: false
+  private _tag?: string; 
+  public get tag() {
+    return this.getStringAttribute('tag');
+  }
+  public set tag(value: string) {
+    this._tag = value;
+  }
+  public resetTag() {
+    this._tag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tagInput() {
+    return this._tag;
+  }
+}
 export interface GoogleColabNotebookExecutionWorkbenchRuntimeVmImage {
   /**
   * Use this VM image family to find the image; the newest image in this family will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#family GoogleColabNotebookExecution#family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#family GoogleColabNotebookExecution#family}
   */
   readonly family?: string;
   /**
   * Use VM image name to find the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#name GoogleColabNotebookExecution#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#name GoogleColabNotebookExecution#name}
   */
   readonly name?: string;
   /**
   * The name of the Google Cloud project that this VM image belongs to. Format: {project_id}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#project GoogleColabNotebookExecution#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#project GoogleColabNotebookExecution#project}
   */
   readonly project?: string;
 }
@@ -1504,11 +1629,17 @@ export class GoogleColabNotebookExecutionWorkbenchRuntimeVmImageOutputReference 
 }
 export interface GoogleColabNotebookExecutionWorkbenchRuntime {
   /**
+  * custom_container_image block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#custom_container_image GoogleColabNotebookExecution#custom_container_image}
+  */
+  readonly customContainerImage?: GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImage;
+  /**
   * vm_image block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#vm_image GoogleColabNotebookExecution#vm_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#vm_image GoogleColabNotebookExecution#vm_image}
   */
-  readonly vmImage: GoogleColabNotebookExecutionWorkbenchRuntimeVmImage;
+  readonly vmImage?: GoogleColabNotebookExecutionWorkbenchRuntimeVmImage;
 }
 
 export function googleColabNotebookExecutionWorkbenchRuntimeToTerraform(struct?: GoogleColabNotebookExecutionWorkbenchRuntimeOutputReference | GoogleColabNotebookExecutionWorkbenchRuntime): any {
@@ -1517,6 +1648,7 @@ export function googleColabNotebookExecutionWorkbenchRuntimeToTerraform(struct?:
     throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
+    custom_container_image: googleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageToTerraform(struct!.customContainerImage),
     vm_image: googleColabNotebookExecutionWorkbenchRuntimeVmImageToTerraform(struct!.vmImage),
   }
 }
@@ -1528,6 +1660,12 @@ export function googleColabNotebookExecutionWorkbenchRuntimeToHclTerraform(struc
     throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
+    custom_container_image: {
+      value: googleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageToHclTerraform(struct!.customContainerImage),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageList",
+    },
     vm_image: {
       value: googleColabNotebookExecutionWorkbenchRuntimeVmImageToHclTerraform(struct!.vmImage),
       isBlock: true,
@@ -1554,6 +1692,10 @@ export class GoogleColabNotebookExecutionWorkbenchRuntimeOutputReference extends
   public get internalValue(): GoogleColabNotebookExecutionWorkbenchRuntime | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._customContainerImage?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.customContainerImage = this._customContainerImage?.internalValue;
+    }
     if (this._vmImage?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.vmImage = this._vmImage?.internalValue;
@@ -1564,21 +1706,42 @@ export class GoogleColabNotebookExecutionWorkbenchRuntimeOutputReference extends
   public set internalValue(value: GoogleColabNotebookExecutionWorkbenchRuntime | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._customContainerImage.internalValue = undefined;
       this._vmImage.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._customContainerImage.internalValue = value.customContainerImage;
       this._vmImage.internalValue = value.vmImage;
     }
   }
 
-  // vm_image - computed: false, optional: false, required: true
+  // custom_container_image - computed: false, optional: true, required: false
+  private _customContainerImage = new GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference(this, "custom_container_image");
+  public get customContainerImage() {
+    return this._customContainerImage;
+  }
+  public putCustomContainerImage(value: GoogleColabNotebookExecutionWorkbenchRuntimeCustomContainerImage) {
+    this._customContainerImage.internalValue = value;
+  }
+  public resetCustomContainerImage() {
+    this._customContainerImage.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get customContainerImageInput() {
+    return this._customContainerImage.internalValue;
+  }
+
+  // vm_image - computed: false, optional: true, required: false
   private _vmImage = new GoogleColabNotebookExecutionWorkbenchRuntimeVmImageOutputReference(this, "vm_image");
   public get vmImage() {
     return this._vmImage;
   }
   public putVmImage(value: GoogleColabNotebookExecutionWorkbenchRuntimeVmImage) {
     this._vmImage.internalValue = value;
+  }
+  public resetVmImage() {
+    this._vmImage.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get vmImageInput() {
@@ -1587,7 +1750,7 @@ export class GoogleColabNotebookExecutionWorkbenchRuntimeOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution google_colab_notebook_execution}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution google_colab_notebook_execution}
 */
 export class GoogleColabNotebookExecution extends cdktn.TerraformResource {
 
@@ -1603,7 +1766,7 @@ export class GoogleColabNotebookExecution extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleColabNotebookExecution resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleColabNotebookExecution to import
-  * @param importFromId The id of the existing GoogleColabNotebookExecution that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleColabNotebookExecution that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleColabNotebookExecution to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1615,7 +1778,7 @@ export class GoogleColabNotebookExecution extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_colab_notebook_execution google_colab_notebook_execution} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_colab_notebook_execution google_colab_notebook_execution} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1626,7 +1789,7 @@ export class GoogleColabNotebookExecution extends cdktn.TerraformResource {
       terraformResourceType: 'google_colab_notebook_execution',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '8.7.0',
+        providerVersion: '8.9.0',
         providerVersionConstraint: '~> 8.0'
       },
       provider: config.provider,
@@ -1643,6 +1806,7 @@ export class GoogleColabNotebookExecution extends cdktn.TerraformResource {
     this._executionUser = config.executionUser;
     this._gcsOutputUri = config.gcsOutputUri;
     this._id = config.id;
+    this._kernelName = config.kernelName;
     this._location = config.location;
     this._notebookExecutionJobId = config.notebookExecutionJobId;
     this._notebookRuntimeTemplateResourceName = config.notebookRuntimeTemplateResourceName;
@@ -1748,6 +1912,22 @@ export class GoogleColabNotebookExecution extends cdktn.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get idInput() {
     return this._id;
+  }
+
+  // kernel_name - computed: false, optional: true, required: false
+  private _kernelName?: string; 
+  public get kernelName() {
+    return this.getStringAttribute('kernel_name');
+  }
+  public set kernelName(value: string) {
+    this._kernelName = value;
+  }
+  public resetKernelName() {
+    this._kernelName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get kernelNameInput() {
+    return this._kernelName;
   }
 
   // location - computed: false, optional: false, required: true
@@ -1935,6 +2115,7 @@ export class GoogleColabNotebookExecution extends cdktn.TerraformResource {
       execution_user: cdktn.stringToTerraform(this._executionUser),
       gcs_output_uri: cdktn.stringToTerraform(this._gcsOutputUri),
       id: cdktn.stringToTerraform(this._id),
+      kernel_name: cdktn.stringToTerraform(this._kernelName),
       location: cdktn.stringToTerraform(this._location),
       notebook_execution_job_id: cdktn.stringToTerraform(this._notebookExecutionJobId),
       notebook_runtime_template_resource_name: cdktn.stringToTerraform(this._notebookRuntimeTemplateResourceName),
@@ -1983,6 +2164,12 @@ export class GoogleColabNotebookExecution extends cdktn.TerraformResource {
       },
       id: {
         value: cdktn.stringToHclTerraform(this._id),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      kernel_name: {
+        value: cdktn.stringToHclTerraform(this._kernelName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

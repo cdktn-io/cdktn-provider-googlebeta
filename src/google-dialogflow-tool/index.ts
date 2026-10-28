@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_tool
+// https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dialogflow_tool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -17,7 +17,7 @@ export interface GoogleDialogflowToolConfig extends cdktn.TerraformMetaArguments
   * If an action's confirmation requirement is not specified (either the key is not present, or its value is 'CONFIRMATION_REQUIREMENT_UNSPECIFIED'), a default value will be populated depending on the action's method type: GET actions default to 'NOT_REQUIRED', and other actions default to 'REQUIRED'.
   * Valid values are 'REQUIRED' and 'NOT_REQUIRED'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_tool#action_confirmation_requirement GoogleDialogflowTool#action_confirmation_requirement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dialogflow_tool#action_confirmation_requirement GoogleDialogflowTool#action_confirmation_requirement}
   */
   readonly actionConfirmationRequirement?: { [key: string]: string };
   /**
@@ -29,23 +29,23 @@ export interface GoogleDialogflowToolConfig extends cdktn.TerraformMetaArguments
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_tool#deletion_policy GoogleDialogflowTool#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dialogflow_tool#deletion_policy GoogleDialogflowTool#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * Optional. Human readable description of the tool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_tool#description GoogleDialogflowTool#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dialogflow_tool#description GoogleDialogflowTool#description}
   */
   readonly description?: string;
   /**
   * Optional. The human-readable name of the tool, unique within the project and location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_tool#display_name GoogleDialogflowTool#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dialogflow_tool#display_name GoogleDialogflowTool#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_tool#id GoogleDialogflowTool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dialogflow_tool#id GoogleDialogflowTool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -54,11 +54,11 @@ export interface GoogleDialogflowToolConfig extends cdktn.TerraformMetaArguments
   /**
   * The location of the tool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_tool#location GoogleDialogflowTool#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dialogflow_tool#location GoogleDialogflowTool#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_tool#project GoogleDialogflowTool#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dialogflow_tool#project GoogleDialogflowTool#project}
   */
   readonly project?: string;
   /**
@@ -66,37 +66,37 @@ export interface GoogleDialogflowToolConfig extends cdktn.TerraformMetaArguments
   * The tool ID must be compliant with the regression formula '[a-zA-Z][a-zA-Z0-9_-]*' with the characters length in range of [3,64].
   * If the field is not provided, an Id will be auto-generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_tool#tool_id GoogleDialogflowTool#tool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dialogflow_tool#tool_id GoogleDialogflowTool#tool_id}
   */
   readonly toolId?: string;
   /**
   * Required. A human readable short name of the tool, which should be unique within the project. It should only contain letters, numbers, and underscores, and it will be used by LLM to identify the tool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_tool#tool_key GoogleDialogflowTool#tool_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dialogflow_tool#tool_key GoogleDialogflowTool#tool_key}
   */
   readonly toolKey: string;
   /**
   * connector_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_tool#connector_spec GoogleDialogflowTool#connector_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dialogflow_tool#connector_spec GoogleDialogflowTool#connector_spec}
   */
   readonly connectorSpec?: GoogleDialogflowToolConnectorSpec;
   /**
   * function_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_tool#function_spec GoogleDialogflowTool#function_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dialogflow_tool#function_spec GoogleDialogflowTool#function_spec}
   */
   readonly functionSpec?: GoogleDialogflowToolFunctionSpec;
   /**
   * open_api_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_tool#open_api_spec GoogleDialogflowTool#open_api_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dialogflow_tool#open_api_spec GoogleDialogflowTool#open_api_spec}
   */
   readonly openApiSpec?: GoogleDialogflowToolOpenApiSpec;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_tool#timeouts GoogleDialogflowTool#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dialogflow_tool#timeouts GoogleDialogflowTool#timeouts}
   */
   readonly timeouts?: GoogleDialogflowToolTimeouts;
 }
@@ -104,13 +104,13 @@ export interface GoogleDialogflowToolConnectorSpecActionsEntityOperation {
   /**
   * ID of the entity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_tool#entity_id GoogleDialogflowTool#entity_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dialogflow_tool#entity_id GoogleDialogflowTool#entity_id}
   */
   readonly entityId: string;
   /**
   * The operation to perform on the entity. Possible values: ["LIST", "GET", "CREATE", "UPDATE", "DELETE"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_tool#operation GoogleDialogflowTool#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dialogflow_tool#operation GoogleDialogflowTool#operation}
   */
   readonly operation: string;
 }
@@ -219,27 +219,27 @@ export interface GoogleDialogflowToolConnectorSpecActions {
   /**
   * ID of a Connection action for the tool to use. This field is part of a required union field 'action_spec'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_tool#connection_action_id GoogleDialogflowTool#connection_action_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dialogflow_tool#connection_action_id GoogleDialogflowTool#connection_action_id}
   */
   readonly connectionActionId?: string;
   /**
   * Entity fields to use as inputs for the operation.
   * If no fields are specified, all fields of the Entity will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_tool#input_fields GoogleDialogflowTool#input_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dialogflow_tool#input_fields GoogleDialogflowTool#input_fields}
   */
   readonly inputFields?: string[];
   /**
   * Entity fields to return from the operation.
   * If no fields are specified, all fields of the Entity will be returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_tool#output_fields GoogleDialogflowTool#output_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dialogflow_tool#output_fields GoogleDialogflowTool#output_fields}
   */
   readonly outputFields?: string[];
   /**
   * entity_operation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_tool#entity_operation GoogleDialogflowTool#entity_operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dialogflow_tool#entity_operation GoogleDialogflowTool#entity_operation}
   */
   readonly entityOperation?: GoogleDialogflowToolConnectorSpecActionsEntityOperation;
 }
@@ -445,7 +445,7 @@ export interface GoogleDialogflowToolConnectorSpec {
   * The full resource name of the referenced Integration Connectors Connection.
   * Format: 'projects/* /locations/* /connections/*'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_tool#name GoogleDialogflowTool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dialogflow_tool#name GoogleDialogflowTool#name}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
@@ -453,7 +453,7 @@ export interface GoogleDialogflowToolConnectorSpec {
   /**
   * actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_tool#actions GoogleDialogflowTool#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dialogflow_tool#actions GoogleDialogflowTool#actions}
   */
   readonly actions: GoogleDialogflowToolConnectorSpecActions[] | cdktn.IResolvable;
 }
@@ -563,20 +563,20 @@ export interface GoogleDialogflowToolFunctionSpec {
   * Optional. The JSON schema is encapsulated in a [google.protobuf.Struct](https://protobuf.dev/reference/protobuf/google.protobuf/#struct) to describe the input of the function.
   * This input is a JSON object that contains the function's parameters as properties of the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_tool#input_schema GoogleDialogflowTool#input_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dialogflow_tool#input_schema GoogleDialogflowTool#input_schema}
   */
   readonly inputSchema?: string;
   /**
   * Optional. The method type of the function. If not specified, the default value is GET. Possible values: ["GET", "POST", "PUT", "DELETE", "PATCH"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_tool#method_type GoogleDialogflowTool#method_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dialogflow_tool#method_type GoogleDialogflowTool#method_type}
   */
   readonly methodType?: string;
   /**
   * Optional. The JSON schema is encapsulated in a [google.protobuf.Struct](https://protobuf.dev/reference/protobuf/google.protobuf/#struct) to describe the output of the function.
   * This output is a JSON object that contains the function's parameters as properties of the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_tool#output_schema GoogleDialogflowTool#output_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dialogflow_tool#output_schema GoogleDialogflowTool#output_schema}
   */
   readonly outputSchema?: string;
 }
@@ -720,20 +720,20 @@ export interface GoogleDialogflowToolOpenApiSpecAuthenticationApiKeyConfig {
   /**
   * Optional. The API key. If the 'secretVersionForApiKey' field is set, this field will be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_tool#api_key GoogleDialogflowTool#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dialogflow_tool#api_key GoogleDialogflowTool#api_key}
   */
   readonly apiKey?: string;
   /**
   * The parameter name or the header name of the API key.
   * E.g., If the API request is "https://example.com/act?X-Api-Key=", "X-Api-Key" would be the parameter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_tool#key_name GoogleDialogflowTool#key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dialogflow_tool#key_name GoogleDialogflowTool#key_name}
   */
   readonly keyName: string;
   /**
   * Key location in the request. Possible values: ["HEADER", "QUERY_STRING"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_tool#request_location GoogleDialogflowTool#request_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dialogflow_tool#request_location GoogleDialogflowTool#request_location}
   */
   readonly requestLocation: string;
   /**
@@ -741,7 +741,7 @@ export interface GoogleDialogflowToolOpenApiSpecAuthenticationApiKeyConfig {
   * If this field is set, the 'apiKey' field will be ignored.
   * Format: 'projects/{project}/secrets/{secret}/versions/{version}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_tool#secret_version_for_api_key GoogleDialogflowTool#secret_version_for_api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dialogflow_tool#secret_version_for_api_key GoogleDialogflowTool#secret_version_for_api_key}
   */
   readonly secretVersionForApiKey?: string;
 }
@@ -910,13 +910,13 @@ export interface GoogleDialogflowToolOpenApiSpecAuthenticationBearerTokenConfig 
   * If this field is set, the 'token' field will be ignored.
   * Format: 'projects/{project}/secrets/{secret}/versions/{version}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_tool#secret_version_for_token GoogleDialogflowTool#secret_version_for_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dialogflow_tool#secret_version_for_token GoogleDialogflowTool#secret_version_for_token}
   */
   readonly secretVersionForToken?: string;
   /**
   * Optional. The text token appended to the text 'Bearer' to the request Authorization header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_tool#token GoogleDialogflowTool#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dialogflow_tool#token GoogleDialogflowTool#token}
   */
   readonly token?: string;
 }
@@ -1031,25 +1031,25 @@ export interface GoogleDialogflowToolOpenApiSpecAuthenticationOauthConfig {
   /**
   * The client ID from the OAuth provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_tool#client_id GoogleDialogflowTool#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dialogflow_tool#client_id GoogleDialogflowTool#client_id}
   */
   readonly clientId: string;
   /**
   * Optional. The client secret from the OAuth provider. If the 'secretVersionForClientSecret' field is set, this field will be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_tool#client_secret GoogleDialogflowTool#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dialogflow_tool#client_secret GoogleDialogflowTool#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * OAuth grant types. Possible values: ["CLIENT_CREDENTIAL"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_tool#oauth_grant_type GoogleDialogflowTool#oauth_grant_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dialogflow_tool#oauth_grant_type GoogleDialogflowTool#oauth_grant_type}
   */
   readonly oauthGrantType: string;
   /**
   * Optional. The OAuth scopes to grant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_tool#scopes GoogleDialogflowTool#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dialogflow_tool#scopes GoogleDialogflowTool#scopes}
   */
   readonly scopes?: string[];
   /**
@@ -1057,13 +1057,13 @@ export interface GoogleDialogflowToolOpenApiSpecAuthenticationOauthConfig {
   * If this field is set, the 'clientSecret' field will be ignored.
   * Format: 'projects/{project}/secrets/{secret}/versions/{version}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_tool#secret_version_for_client_secret GoogleDialogflowTool#secret_version_for_client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dialogflow_tool#secret_version_for_client_secret GoogleDialogflowTool#secret_version_for_client_secret}
   */
   readonly secretVersionForClientSecret?: string;
   /**
   * The token endpoint in the OAuth provider to exchange for an access token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_tool#token_endpoint GoogleDialogflowTool#token_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dialogflow_tool#token_endpoint GoogleDialogflowTool#token_endpoint}
   */
   readonly tokenEndpoint: string;
 }
@@ -1286,7 +1286,7 @@ export interface GoogleDialogflowToolOpenApiSpecAuthenticationServiceAgentAuthCo
   * Optional. Indicate the auth token type generated from the Dialogflow service agent.
   * The generated token is sent in the Authorization header. Possible values: ["ID_TOKEN", "ACCESS_TOKEN"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_tool#service_agent_auth GoogleDialogflowTool#service_agent_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dialogflow_tool#service_agent_auth GoogleDialogflowTool#service_agent_auth}
   */
   readonly serviceAgentAuth?: string;
 }
@@ -1372,25 +1372,25 @@ export interface GoogleDialogflowToolOpenApiSpecAuthentication {
   /**
   * api_key_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_tool#api_key_config GoogleDialogflowTool#api_key_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dialogflow_tool#api_key_config GoogleDialogflowTool#api_key_config}
   */
   readonly apiKeyConfig?: GoogleDialogflowToolOpenApiSpecAuthenticationApiKeyConfig;
   /**
   * bearer_token_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_tool#bearer_token_config GoogleDialogflowTool#bearer_token_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dialogflow_tool#bearer_token_config GoogleDialogflowTool#bearer_token_config}
   */
   readonly bearerTokenConfig?: GoogleDialogflowToolOpenApiSpecAuthenticationBearerTokenConfig;
   /**
   * oauth_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_tool#oauth_config GoogleDialogflowTool#oauth_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dialogflow_tool#oauth_config GoogleDialogflowTool#oauth_config}
   */
   readonly oauthConfig?: GoogleDialogflowToolOpenApiSpecAuthenticationOauthConfig;
   /**
   * service_agent_auth_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_tool#service_agent_auth_config GoogleDialogflowTool#service_agent_auth_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dialogflow_tool#service_agent_auth_config GoogleDialogflowTool#service_agent_auth_config}
   */
   readonly serviceAgentAuthConfig?: GoogleDialogflowToolOpenApiSpecAuthenticationServiceAgentAuthConfig;
 }
@@ -1565,7 +1565,7 @@ export interface GoogleDialogflowToolOpenApiSpecServiceDirectoryConfig {
   * Format: 'projects/<ProjectID>/locations/<LocationID>/namespaces/<NamespaceID>/services/<ServiceID>'.
   * 'LocationID' of the service directory must be the same as the location of the tool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_tool#service GoogleDialogflowTool#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dialogflow_tool#service GoogleDialogflowTool#service}
   */
   readonly service: string;
 }
@@ -1651,13 +1651,13 @@ export interface GoogleDialogflowToolOpenApiSpecTlsConfigCaCerts {
   * N.B. Make sure the HTTPS server certificates are signed with "subject alt name".
   * A base64-encoded string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_tool#cert GoogleDialogflowTool#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dialogflow_tool#cert GoogleDialogflowTool#cert}
   */
   readonly cert: string;
   /**
   * The name of the allowed custom CA certificates. This can be used to disambiguate the custom CA certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_tool#display_name GoogleDialogflowTool#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dialogflow_tool#display_name GoogleDialogflowTool#display_name}
   */
   readonly displayName: string;
 }
@@ -1798,7 +1798,7 @@ export interface GoogleDialogflowToolOpenApiSpecTlsConfig {
   /**
   * ca_certs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_tool#ca_certs GoogleDialogflowTool#ca_certs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dialogflow_tool#ca_certs GoogleDialogflowTool#ca_certs}
   */
   readonly caCerts: GoogleDialogflowToolOpenApiSpecTlsConfigCaCerts[] | cdktn.IResolvable;
 }
@@ -1882,25 +1882,25 @@ export interface GoogleDialogflowToolOpenApiSpec {
   * Required. The OpenAPI schema specified as a text.
   * Note: Plays a role in linking the OpenAPI spec with the tool. The 'info.title' field in the OpenAPI schema must match the 'toolKey' of the tool, otherwise the API will overwrite 'info.title' with 'toolKey'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_tool#text_schema GoogleDialogflowTool#text_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dialogflow_tool#text_schema GoogleDialogflowTool#text_schema}
   */
   readonly textSchema: string;
   /**
   * authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_tool#authentication GoogleDialogflowTool#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dialogflow_tool#authentication GoogleDialogflowTool#authentication}
   */
   readonly authentication?: GoogleDialogflowToolOpenApiSpecAuthentication;
   /**
   * service_directory_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_tool#service_directory_config GoogleDialogflowTool#service_directory_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dialogflow_tool#service_directory_config GoogleDialogflowTool#service_directory_config}
   */
   readonly serviceDirectoryConfig?: GoogleDialogflowToolOpenApiSpecServiceDirectoryConfig;
   /**
   * tls_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_tool#tls_config GoogleDialogflowTool#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dialogflow_tool#tls_config GoogleDialogflowTool#tls_config}
   */
   readonly tlsConfig?: GoogleDialogflowToolOpenApiSpecTlsConfig;
 }
@@ -2068,15 +2068,15 @@ export class GoogleDialogflowToolOpenApiSpecOutputReference extends cdktn.Comple
 }
 export interface GoogleDialogflowToolTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_tool#create GoogleDialogflowTool#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dialogflow_tool#create GoogleDialogflowTool#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_tool#delete GoogleDialogflowTool#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dialogflow_tool#delete GoogleDialogflowTool#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_tool#update GoogleDialogflowTool#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dialogflow_tool#update GoogleDialogflowTool#update}
   */
   readonly update?: string;
 }
@@ -2228,7 +2228,7 @@ export class GoogleDialogflowToolTimeoutsOutputReference extends cdktn.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_tool google_dialogflow_tool}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dialogflow_tool google_dialogflow_tool}
 */
 export class GoogleDialogflowTool extends cdktn.TerraformResource {
 
@@ -2244,7 +2244,7 @@ export class GoogleDialogflowTool extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleDialogflowTool resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleDialogflowTool to import
-  * @param importFromId The id of the existing GoogleDialogflowTool that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_tool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleDialogflowTool that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dialogflow_tool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleDialogflowTool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -2256,7 +2256,7 @@ export class GoogleDialogflowTool extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_tool google_dialogflow_tool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dialogflow_tool google_dialogflow_tool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2267,7 +2267,7 @@ export class GoogleDialogflowTool extends cdktn.TerraformResource {
       terraformResourceType: 'google_dialogflow_tool',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '8.7.0',
+        providerVersion: '8.9.0',
         providerVersionConstraint: '~> 8.0'
       },
       provider: config.provider,
