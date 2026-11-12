@@ -4,7 +4,7 @@
 
 ### GoogleDnsOutboundEndpoint <a name="GoogleDnsOutboundEndpoint" id="@cdktn/provider-google-beta.googleDnsOutboundEndpoint.GoogleDnsOutboundEndpoint"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_outbound_endpoint google_dns_outbound_endpoint}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_dns_outbound_endpoint google_dns_outbound_endpoint}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDnsOutboundEndpoint.GoogleDnsOutboundEndpoint.Initializer"></a>
 
@@ -55,9 +55,9 @@ googleDnsOutboundEndpoint.GoogleDnsOutboundEndpoint(
 | <code><a href="#@cdktn/provider-google-beta.googleDnsOutboundEndpoint.GoogleDnsOutboundEndpoint.Initializer.parameter.deletionPolicy">deletion_policy</a></code> | <code>str</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleDnsOutboundEndpoint.GoogleDnsOutboundEndpoint.Initializer.parameter.description">description</a></code> | <code>str</code> | User provided description. |
 | <code><a href="#@cdktn/provider-google-beta.googleDnsOutboundEndpoint.GoogleDnsOutboundEndpoint.Initializer.parameter.endpointIp">endpoint_ip</a></code> | <code>str</code> | User provided IP address to use for outbound DNS forwarding. |
-| <code><a href="#@cdktn/provider-google-beta.googleDnsOutboundEndpoint.GoogleDnsOutboundEndpoint.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_outbound_endpoint#id GoogleDnsOutboundEndpoint#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDnsOutboundEndpoint.GoogleDnsOutboundEndpoint.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_dns_outbound_endpoint#id GoogleDnsOutboundEndpoint#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDnsOutboundEndpoint.GoogleDnsOutboundEndpoint.Initializer.parameter.labels">labels</a></code> | <code>typing.Mapping[str]</code> | Labels as key value pairs. |
-| <code><a href="#@cdktn/provider-google-beta.googleDnsOutboundEndpoint.GoogleDnsOutboundEndpoint.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_outbound_endpoint#project GoogleDnsOutboundEndpoint#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDnsOutboundEndpoint.GoogleDnsOutboundEndpoint.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_dns_outbound_endpoint#project GoogleDnsOutboundEndpoint#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDnsOutboundEndpoint.GoogleDnsOutboundEndpoint.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDnsOutboundEndpoint.GoogleDnsOutboundEndpointTimeouts">GoogleDnsOutboundEndpointTimeouts</a></code> | timeouts block. |
 
 ---
@@ -128,7 +128,7 @@ Must be unique amongst siblings in the same scope
 
 The location of the OutboundEndpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_outbound_endpoint#location GoogleDnsOutboundEndpoint#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_dns_outbound_endpoint#location GoogleDnsOutboundEndpoint#location}
 
 ---
 
@@ -138,7 +138,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the OutboundEndpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_outbound_endpoint#name GoogleDnsOutboundEndpoint#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_dns_outbound_endpoint#name GoogleDnsOutboundEndpoint#name}
 
 ---
 
@@ -148,7 +148,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The VPC network containing the outbound endpoint, specified as full path.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_outbound_endpoint#network GoogleDnsOutboundEndpoint#network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_dns_outbound_endpoint#network GoogleDnsOutboundEndpoint#network}
 
 ---
 
@@ -158,7 +158,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The subnetwork holding the endpoint_ip, specified as full path.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_outbound_endpoint#subnetwork GoogleDnsOutboundEndpoint#subnetwork}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_dns_outbound_endpoint#subnetwork GoogleDnsOutboundEndpoint#subnetwork}
 
 ---
 
@@ -171,7 +171,7 @@ Annotations as key value pairs.
 **Note**: This field is non-authoritative, and will only manage the annotations present in your configuration.
 Please refer to the field 'effective_annotations' for all of the annotations present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_outbound_endpoint#annotations GoogleDnsOutboundEndpoint#annotations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_dns_outbound_endpoint#annotations GoogleDnsOutboundEndpoint#annotations}
 
 ---
 
@@ -188,7 +188,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_outbound_endpoint#deletion_policy GoogleDnsOutboundEndpoint#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_dns_outbound_endpoint#deletion_policy GoogleDnsOutboundEndpoint#deletion_policy}
 
 ---
 
@@ -198,7 +198,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 User provided description.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_outbound_endpoint#description GoogleDnsOutboundEndpoint#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_dns_outbound_endpoint#description GoogleDnsOutboundEndpoint#description}
 
 ---
 
@@ -212,7 +212,7 @@ This address
 must be a free address on the subnetwork. If omitted, a free IP address
 from the subnetwork is automatically allocated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_outbound_endpoint#endpoint_ip GoogleDnsOutboundEndpoint#endpoint_ip}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_dns_outbound_endpoint#endpoint_ip GoogleDnsOutboundEndpoint#endpoint_ip}
 
 ---
 
@@ -220,7 +220,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_outbound_endpoint#id GoogleDnsOutboundEndpoint#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_dns_outbound_endpoint#id GoogleDnsOutboundEndpoint#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -236,7 +236,7 @@ Labels as key value pairs.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_outbound_endpoint#labels GoogleDnsOutboundEndpoint#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_dns_outbound_endpoint#labels GoogleDnsOutboundEndpoint#labels}
 
 ---
 
@@ -244,7 +244,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_outbound_endpoint#project GoogleDnsOutboundEndpoint#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_dns_outbound_endpoint#project GoogleDnsOutboundEndpoint#project}.
 
 ---
 
@@ -254,7 +254,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_outbound_endpoint#timeouts GoogleDnsOutboundEndpoint#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_dns_outbound_endpoint#timeouts GoogleDnsOutboundEndpoint#timeouts}
 
 ---
 
@@ -660,7 +660,7 @@ def put_timeouts(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_outbound_endpoint#create GoogleDnsOutboundEndpoint#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_dns_outbound_endpoint#create GoogleDnsOutboundEndpoint#create}.
 
 ---
 
@@ -668,7 +668,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_outbound_endpoint#delete GoogleDnsOutboundEndpoint#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_dns_outbound_endpoint#delete GoogleDnsOutboundEndpoint#delete}.
 
 ---
 
@@ -676,7 +676,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_outbound_endpoint#update GoogleDnsOutboundEndpoint#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_dns_outbound_endpoint#update GoogleDnsOutboundEndpoint#update}.
 
 ---
 
@@ -842,7 +842,7 @@ The construct id used in the generated config for the GoogleDnsOutboundEndpoint 
 
 The id of the existing GoogleDnsOutboundEndpoint that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_outbound_endpoint#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_dns_outbound_endpoint#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1405,9 +1405,9 @@ googleDnsOutboundEndpoint.GoogleDnsOutboundEndpointConfig(
 | <code><a href="#@cdktn/provider-google-beta.googleDnsOutboundEndpoint.GoogleDnsOutboundEndpointConfig.property.deletionPolicy">deletion_policy</a></code> | <code>str</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleDnsOutboundEndpoint.GoogleDnsOutboundEndpointConfig.property.description">description</a></code> | <code>str</code> | User provided description. |
 | <code><a href="#@cdktn/provider-google-beta.googleDnsOutboundEndpoint.GoogleDnsOutboundEndpointConfig.property.endpointIp">endpoint_ip</a></code> | <code>str</code> | User provided IP address to use for outbound DNS forwarding. |
-| <code><a href="#@cdktn/provider-google-beta.googleDnsOutboundEndpoint.GoogleDnsOutboundEndpointConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_outbound_endpoint#id GoogleDnsOutboundEndpoint#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDnsOutboundEndpoint.GoogleDnsOutboundEndpointConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_dns_outbound_endpoint#id GoogleDnsOutboundEndpoint#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDnsOutboundEndpoint.GoogleDnsOutboundEndpointConfig.property.labels">labels</a></code> | <code>typing.Mapping[str]</code> | Labels as key value pairs. |
-| <code><a href="#@cdktn/provider-google-beta.googleDnsOutboundEndpoint.GoogleDnsOutboundEndpointConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_outbound_endpoint#project GoogleDnsOutboundEndpoint#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDnsOutboundEndpoint.GoogleDnsOutboundEndpointConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_dns_outbound_endpoint#project GoogleDnsOutboundEndpoint#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDnsOutboundEndpoint.GoogleDnsOutboundEndpointConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDnsOutboundEndpoint.GoogleDnsOutboundEndpointTimeouts">GoogleDnsOutboundEndpointTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1492,7 +1492,7 @@ location: str
 
 The location of the OutboundEndpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_outbound_endpoint#location GoogleDnsOutboundEndpoint#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_dns_outbound_endpoint#location GoogleDnsOutboundEndpoint#location}
 
 ---
 
@@ -1506,7 +1506,7 @@ name: str
 
 The name of the OutboundEndpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_outbound_endpoint#name GoogleDnsOutboundEndpoint#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_dns_outbound_endpoint#name GoogleDnsOutboundEndpoint#name}
 
 ---
 
@@ -1520,7 +1520,7 @@ network: str
 
 The VPC network containing the outbound endpoint, specified as full path.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_outbound_endpoint#network GoogleDnsOutboundEndpoint#network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_dns_outbound_endpoint#network GoogleDnsOutboundEndpoint#network}
 
 ---
 
@@ -1534,7 +1534,7 @@ subnetwork: str
 
 The subnetwork holding the endpoint_ip, specified as full path.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_outbound_endpoint#subnetwork GoogleDnsOutboundEndpoint#subnetwork}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_dns_outbound_endpoint#subnetwork GoogleDnsOutboundEndpoint#subnetwork}
 
 ---
 
@@ -1551,7 +1551,7 @@ Annotations as key value pairs.
 **Note**: This field is non-authoritative, and will only manage the annotations present in your configuration.
 Please refer to the field 'effective_annotations' for all of the annotations present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_outbound_endpoint#annotations GoogleDnsOutboundEndpoint#annotations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_dns_outbound_endpoint#annotations GoogleDnsOutboundEndpoint#annotations}
 
 ---
 
@@ -1572,7 +1572,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_outbound_endpoint#deletion_policy GoogleDnsOutboundEndpoint#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_dns_outbound_endpoint#deletion_policy GoogleDnsOutboundEndpoint#deletion_policy}
 
 ---
 
@@ -1586,7 +1586,7 @@ description: str
 
 User provided description.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_outbound_endpoint#description GoogleDnsOutboundEndpoint#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_dns_outbound_endpoint#description GoogleDnsOutboundEndpoint#description}
 
 ---
 
@@ -1604,7 +1604,7 @@ This address
 must be a free address on the subnetwork. If omitted, a free IP address
 from the subnetwork is automatically allocated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_outbound_endpoint#endpoint_ip GoogleDnsOutboundEndpoint#endpoint_ip}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_dns_outbound_endpoint#endpoint_ip GoogleDnsOutboundEndpoint#endpoint_ip}
 
 ---
 
@@ -1616,7 +1616,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_outbound_endpoint#id GoogleDnsOutboundEndpoint#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_dns_outbound_endpoint#id GoogleDnsOutboundEndpoint#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1636,7 +1636,7 @@ Labels as key value pairs.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_outbound_endpoint#labels GoogleDnsOutboundEndpoint#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_dns_outbound_endpoint#labels GoogleDnsOutboundEndpoint#labels}
 
 ---
 
@@ -1648,7 +1648,7 @@ project: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_outbound_endpoint#project GoogleDnsOutboundEndpoint#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_dns_outbound_endpoint#project GoogleDnsOutboundEndpoint#project}.
 
 ---
 
@@ -1662,7 +1662,7 @@ timeouts: GoogleDnsOutboundEndpointTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_outbound_endpoint#timeouts GoogleDnsOutboundEndpoint#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_dns_outbound_endpoint#timeouts GoogleDnsOutboundEndpoint#timeouts}
 
 ---
 
@@ -1684,9 +1684,9 @@ googleDnsOutboundEndpoint.GoogleDnsOutboundEndpointTimeouts(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleDnsOutboundEndpoint.GoogleDnsOutboundEndpointTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_outbound_endpoint#create GoogleDnsOutboundEndpoint#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDnsOutboundEndpoint.GoogleDnsOutboundEndpointTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_outbound_endpoint#delete GoogleDnsOutboundEndpoint#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDnsOutboundEndpoint.GoogleDnsOutboundEndpointTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_outbound_endpoint#update GoogleDnsOutboundEndpoint#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDnsOutboundEndpoint.GoogleDnsOutboundEndpointTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_dns_outbound_endpoint#create GoogleDnsOutboundEndpoint#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDnsOutboundEndpoint.GoogleDnsOutboundEndpointTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_dns_outbound_endpoint#delete GoogleDnsOutboundEndpoint#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDnsOutboundEndpoint.GoogleDnsOutboundEndpointTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_dns_outbound_endpoint#update GoogleDnsOutboundEndpoint#update}. |
 
 ---
 
@@ -1698,7 +1698,7 @@ create: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_outbound_endpoint#create GoogleDnsOutboundEndpoint#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_dns_outbound_endpoint#create GoogleDnsOutboundEndpoint#create}.
 
 ---
 
@@ -1710,7 +1710,7 @@ delete: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_outbound_endpoint#delete GoogleDnsOutboundEndpoint#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_dns_outbound_endpoint#delete GoogleDnsOutboundEndpoint#delete}.
 
 ---
 
@@ -1722,7 +1722,7 @@ update: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_dns_outbound_endpoint#update GoogleDnsOutboundEndpoint#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_dns_outbound_endpoint#update GoogleDnsOutboundEndpoint#update}.
 
 ---
 

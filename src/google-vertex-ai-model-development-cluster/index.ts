@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_model_development_cluster
+// https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -21,7 +21,7 @@ export interface GoogleVertexAiModelDevelopmentClusterConfig extends cdktn.Terra
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_model_development_cluster#deletion_policy GoogleVertexAiModelDevelopmentCluster#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster#deletion_policy GoogleVertexAiModelDevelopmentCluster#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
@@ -29,11 +29,11 @@ export interface GoogleVertexAiModelDevelopmentClusterConfig extends cdktn.Terra
   * The name can be up to 128 characters long and can consist of any UTF-8
   * characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_model_development_cluster#display_name GoogleVertexAiModelDevelopmentCluster#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster#display_name GoogleVertexAiModelDevelopmentCluster#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_model_development_cluster#id GoogleVertexAiModelDevelopmentCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster#id GoogleVertexAiModelDevelopmentCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -51,7 +51,7 @@ export interface GoogleVertexAiModelDevelopmentClusterConfig extends cdktn.Terra
   * **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
   * Please refer to the field 'effective_labels' for all of the labels present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_model_development_cluster#labels GoogleVertexAiModelDevelopmentCluster#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster#labels GoogleVertexAiModelDevelopmentCluster#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
@@ -62,53 +62,65 @@ export interface GoogleVertexAiModelDevelopmentClusterConfig extends cdktn.Terra
   * are '/^[a-z]([a-z0-9-]{0,8}[a-z0-9])?$/'. When using 'slurm_spec',
   * hyphens are not allowed ('/^[a-z][a-z0-9]{0,9}$/').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_model_development_cluster#model_development_cluster_id GoogleVertexAiModelDevelopmentCluster#model_development_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster#model_development_cluster_id GoogleVertexAiModelDevelopmentCluster#model_development_cluster_id}
   */
   readonly modelDevelopmentClusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_model_development_cluster#project GoogleVertexAiModelDevelopmentCluster#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster#project GoogleVertexAiModelDevelopmentCluster#project}
   */
   readonly project?: string;
   /**
   * The region of the ModelDevelopmentCluster. eg us-central1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_model_development_cluster#region GoogleVertexAiModelDevelopmentCluster#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster#region GoogleVertexAiModelDevelopmentCluster#region}
   */
   readonly region?: string;
   /**
+  * Whether the service also refreshes service-managed fields (startup and
+  * prolog/epilog scripts, default node images) on update. 'USER_ONLY' applies
+  * only your changes; adding a node pool requires 'USER_AND_SERVICE'.
+  * Only applies to Slurm clusters ('orchestrator_spec.slurm_spec'); ignored
+  * for GKE clusters ('kubernetes_spec').
+  * Defaults to 'USER_AND_SERVICE'. Possible values are 'USER_ONLY' and
+  * 'USER_AND_SERVICE'. Default value: "USER_AND_SERVICE" Possible values: ["USER_ONLY", "USER_AND_SERVICE"]
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster#update_mode GoogleVertexAiModelDevelopmentCluster#update_mode}
+  */
+  readonly updateMode?: string;
+  /**
   * lustre_export_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_model_development_cluster#lustre_export_config GoogleVertexAiModelDevelopmentCluster#lustre_export_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster#lustre_export_config GoogleVertexAiModelDevelopmentCluster#lustre_export_config}
   */
   readonly lustreExportConfig?: GoogleVertexAiModelDevelopmentClusterLustreExportConfig;
   /**
   * network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_model_development_cluster#network GoogleVertexAiModelDevelopmentCluster#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster#network GoogleVertexAiModelDevelopmentCluster#network}
   */
   readonly network?: GoogleVertexAiModelDevelopmentClusterNetwork;
   /**
   * node_pools block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_model_development_cluster#node_pools GoogleVertexAiModelDevelopmentCluster#node_pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster#node_pools GoogleVertexAiModelDevelopmentCluster#node_pools}
   */
   readonly nodePools: GoogleVertexAiModelDevelopmentClusterNodePools[] | cdktn.IResolvable;
   /**
   * orchestrator_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_model_development_cluster#orchestrator_spec GoogleVertexAiModelDevelopmentCluster#orchestrator_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster#orchestrator_spec GoogleVertexAiModelDevelopmentCluster#orchestrator_spec}
   */
   readonly orchestratorSpec: GoogleVertexAiModelDevelopmentClusterOrchestratorSpec;
   /**
   * runtime_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_model_development_cluster#runtime_spec GoogleVertexAiModelDevelopmentCluster#runtime_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster#runtime_spec GoogleVertexAiModelDevelopmentCluster#runtime_spec}
   */
   readonly runtimeSpec?: GoogleVertexAiModelDevelopmentClusterRuntimeSpec;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_model_development_cluster#timeouts GoogleVertexAiModelDevelopmentCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster#timeouts GoogleVertexAiModelDevelopmentCluster#timeouts}
   */
   readonly timeouts?: GoogleVertexAiModelDevelopmentClusterTimeouts;
 }
@@ -1124,14 +1136,14 @@ export interface GoogleVertexAiModelDevelopmentClusterLustreExportConfigStartTim
   * typically must be less than or equal to 23. An API may choose to allow the
   * value "24:00:00" for scenarios like business closing time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_model_development_cluster#hours GoogleVertexAiModelDevelopmentCluster#hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster#hours GoogleVertexAiModelDevelopmentCluster#hours}
   */
   readonly hours?: number;
   /**
   * Minutes of an hour. Must be greater than or equal to 0 and less than or
   * equal to 59.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_model_development_cluster#minutes GoogleVertexAiModelDevelopmentCluster#minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster#minutes GoogleVertexAiModelDevelopmentCluster#minutes}
   */
   readonly minutes?: number;
 }
@@ -1247,14 +1259,14 @@ export interface GoogleVertexAiModelDevelopmentClusterLustreExportConfig {
   * Days of the week on which a backup runs, each at most once and
   * none of them DAY_OF_WEEK_UNSPECIFIED. If empty, a backup runs every day.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_model_development_cluster#days_of_week GoogleVertexAiModelDevelopmentCluster#days_of_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster#days_of_week GoogleVertexAiModelDevelopmentCluster#days_of_week}
   */
   readonly daysOfWeek?: string[];
   /**
   * The Cloud Storage bucket that backups are written to, without
   * the "gs://" scheme.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_model_development_cluster#destination_bucket GoogleVertexAiModelDevelopmentCluster#destination_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster#destination_bucket GoogleVertexAiModelDevelopmentCluster#destination_bucket}
   */
   readonly destinationBucket: string;
   /**
@@ -1263,13 +1275,13 @@ export interface GoogleVertexAiModelDevelopmentClusterLustreExportConfig {
   * must be attached to one of the cluster's node pools, and no entry may
   * repeat. If empty, every attached instance is backed up.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_model_development_cluster#lustres GoogleVertexAiModelDevelopmentCluster#lustres}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster#lustres GoogleVertexAiModelDevelopmentCluster#lustres}
   */
   readonly lustres?: string[];
   /**
   * start_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_model_development_cluster#start_time GoogleVertexAiModelDevelopmentCluster#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster#start_time GoogleVertexAiModelDevelopmentCluster#start_time}
   */
   readonly startTime?: GoogleVertexAiModelDevelopmentClusterLustreExportConfigStartTime;
 }
@@ -1440,7 +1452,7 @@ export interface GoogleVertexAiModelDevelopmentClusterNetwork {
   * The name of the VPC network where to create the cluster.
   * The 'default' network is used if not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_model_development_cluster#network GoogleVertexAiModelDevelopmentCluster#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster#network GoogleVertexAiModelDevelopmentCluster#network}
   */
   readonly network: string;
   /**
@@ -1449,7 +1461,7 @@ export interface GoogleVertexAiModelDevelopmentClusterNetwork {
   * * for auto mode VPC, the subnet in corresponding region is auto-selected;
   * * for custom mode VPC, a new subnet will be automatically created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_model_development_cluster#subnetwork GoogleVertexAiModelDevelopmentCluster#subnetwork}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster#subnetwork GoogleVertexAiModelDevelopmentCluster#subnetwork}
   */
   readonly subnetwork?: string;
 }
@@ -1561,7 +1573,7 @@ export interface GoogleVertexAiModelDevelopmentClusterNodePoolsBootDisk {
   /**
   * Size in GB of the boot disk (default is 100GB).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_model_development_cluster#boot_disk_size_gb GoogleVertexAiModelDevelopmentCluster#boot_disk_size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster#boot_disk_size_gb GoogleVertexAiModelDevelopmentCluster#boot_disk_size_gb}
   */
   readonly bootDiskSizeGb?: number;
   /**
@@ -1570,7 +1582,7 @@ export interface GoogleVertexAiModelDevelopmentClusterNodePoolsBootDisk {
   * Valid values: "pd-ssd" (Persistent Disk Solid State Drive),
   * "pd-standard" (Persistent Disk Hard Disk Drive) or "hyperdisk-balanced".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_model_development_cluster#boot_disk_type GoogleVertexAiModelDevelopmentCluster#boot_disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster#boot_disk_type GoogleVertexAiModelDevelopmentCluster#boot_disk_type}
   */
   readonly bootDiskType?: string;
 }
@@ -1689,7 +1701,7 @@ export interface GoogleVertexAiModelDevelopmentClusterNodePoolsMachineSpecReserv
   * ANY_RESERVATION
   * SPECIFIC_RESERVATION
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_model_development_cluster#reservation_affinity_type GoogleVertexAiModelDevelopmentCluster#reservation_affinity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster#reservation_affinity_type GoogleVertexAiModelDevelopmentCluster#reservation_affinity_type}
   */
   readonly reservationAffinityType: string;
   /**
@@ -1697,7 +1709,7 @@ export interface GoogleVertexAiModelDevelopmentClusterNodePoolsMachineSpecReserv
   * resource name of the reservation, reservation block, or reservation sub-
   * block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_model_development_cluster#values GoogleVertexAiModelDevelopmentCluster#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster#values GoogleVertexAiModelDevelopmentCluster#values}
   */
   readonly values?: string[];
 }
@@ -1819,13 +1831,13 @@ export interface GoogleVertexAiModelDevelopmentClusterNodePoolsMachineSpec {
   * value is 'n1-standard-2'. For BatchPredictionJob or as part of
   * WorkerPoolSpec this field is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_model_development_cluster#machine_type GoogleVertexAiModelDevelopmentCluster#machine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster#machine_type GoogleVertexAiModelDevelopmentCluster#machine_type}
   */
   readonly machineType: string;
   /**
   * reservation_affinity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_model_development_cluster#reservation_affinity GoogleVertexAiModelDevelopmentCluster#reservation_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster#reservation_affinity GoogleVertexAiModelDevelopmentCluster#reservation_affinity}
   */
   readonly reservationAffinity?: GoogleVertexAiModelDevelopmentClusterNodePoolsMachineSpecReservationAffinity;
 }
@@ -1938,14 +1950,14 @@ export interface GoogleVertexAiModelDevelopmentClusterNodePoolsScalingSpec {
   * maximum size of the node pool,
   * must be ≥ min_node_count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_model_development_cluster#max_node_count GoogleVertexAiModelDevelopmentCluster#max_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster#max_node_count GoogleVertexAiModelDevelopmentCluster#max_node_count}
   */
   readonly maxNodeCount?: number;
   /**
   * minimum size of the node pool,
   * must be >= 0 and <= max_node_count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_model_development_cluster#min_node_count GoogleVertexAiModelDevelopmentCluster#min_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster#min_node_count GoogleVertexAiModelDevelopmentCluster#min_node_count}
   */
   readonly minNodeCount?: number;
 }
@@ -2060,7 +2072,7 @@ export interface GoogleVertexAiModelDevelopmentClusterNodePools {
   /**
   * Whether to enable public IPs for the node pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_model_development_cluster#enable_public_ips GoogleVertexAiModelDevelopmentCluster#enable_public_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster#enable_public_ips GoogleVertexAiModelDevelopmentCluster#enable_public_ips}
   */
   readonly enablePublicIps?: boolean | cdktn.IResolvable;
   /**
@@ -2070,7 +2082,7 @@ export interface GoogleVertexAiModelDevelopmentClusterNodePools {
   * specified, the instance will be mounted to the node pool under the path
   * "mnt/filestore/"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_model_development_cluster#filestores GoogleVertexAiModelDevelopmentCluster#filestores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster#filestores GoogleVertexAiModelDevelopmentCluster#filestores}
   */
   readonly filestores?: string[];
   /**
@@ -2078,13 +2090,15 @@ export interface GoogleVertexAiModelDevelopmentClusterNodePools {
   * This field is only applicable when 'provisioning_model' is set to
   * 'FLEX_START'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_model_development_cluster#flex_start_max_duration GoogleVertexAiModelDevelopmentCluster#flex_start_max_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster#flex_start_max_duration GoogleVertexAiModelDevelopmentCluster#flex_start_max_duration}
   */
   readonly flexStartMaxDuration?: string;
   /**
-  * The unique ID referring to this node pool.
+  * The unique ID referring to this node pool. Cannot be modified in
+  * place on an existing node pool; changing 'id' updates the list of
+  * node pools by adding/removing pools (validated server-side).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_model_development_cluster#id GoogleVertexAiModelDevelopmentCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster#id GoogleVertexAiModelDevelopmentCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2102,7 +2116,7 @@ export interface GoogleVertexAiModelDevelopmentClusterNodePools {
   * 
   * See https://goo.gl/xmQnxf for more information and examples of labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_model_development_cluster#labels GoogleVertexAiModelDevelopmentCluster#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster#labels GoogleVertexAiModelDevelopmentCluster#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
@@ -2110,7 +2124,7 @@ export interface GoogleVertexAiModelDevelopmentClusterNodePools {
   * Similar to the filestores, the instance will be mounted to the node pool
   * under the path "/mnt/lustre/"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_model_development_cluster#lustres GoogleVertexAiModelDevelopmentCluster#lustres}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster#lustres GoogleVertexAiModelDevelopmentCluster#lustres}
   */
   readonly lustres?: string[];
   /**
@@ -2118,7 +2132,7 @@ export interface GoogleVertexAiModelDevelopmentClusterNodePools {
   * In format of "projects//global/images/" or
   * "projects/test-project/global/images/family/"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_model_development_cluster#node_image GoogleVertexAiModelDevelopmentCluster#node_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster#node_image GoogleVertexAiModelDevelopmentCluster#node_image}
   */
   readonly nodeImage?: string;
   /**
@@ -2149,37 +2163,37 @@ export interface GoogleVertexAiModelDevelopmentClusterNodePools {
   * SPOT
   * FLEX_START
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_model_development_cluster#provisioning_model GoogleVertexAiModelDevelopmentCluster#provisioning_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster#provisioning_model GoogleVertexAiModelDevelopmentCluster#provisioning_model}
   */
   readonly provisioningModel?: string;
   /**
   * Startup script for the node pool instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_model_development_cluster#startup_script GoogleVertexAiModelDevelopmentCluster#startup_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster#startup_script GoogleVertexAiModelDevelopmentCluster#startup_script}
   */
   readonly startupScript?: string;
   /**
   * The zone of the node pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_model_development_cluster#zone GoogleVertexAiModelDevelopmentCluster#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster#zone GoogleVertexAiModelDevelopmentCluster#zone}
   */
   readonly zone?: string;
   /**
   * boot_disk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_model_development_cluster#boot_disk GoogleVertexAiModelDevelopmentCluster#boot_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster#boot_disk GoogleVertexAiModelDevelopmentCluster#boot_disk}
   */
   readonly bootDisk?: GoogleVertexAiModelDevelopmentClusterNodePoolsBootDisk;
   /**
   * machine_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_model_development_cluster#machine_spec GoogleVertexAiModelDevelopmentCluster#machine_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster#machine_spec GoogleVertexAiModelDevelopmentCluster#machine_spec}
   */
   readonly machineSpec: GoogleVertexAiModelDevelopmentClusterNodePoolsMachineSpec;
   /**
   * scaling_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_model_development_cluster#scaling_spec GoogleVertexAiModelDevelopmentCluster#scaling_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster#scaling_spec GoogleVertexAiModelDevelopmentCluster#scaling_spec}
   */
   readonly scalingSpec?: GoogleVertexAiModelDevelopmentClusterNodePoolsScalingSpec;
 }
@@ -2640,6 +2654,248 @@ export class GoogleVertexAiModelDevelopmentClusterNodePoolsList extends cdktn.Co
     return new GoogleVertexAiModelDevelopmentClusterNodePoolsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface GoogleVertexAiModelDevelopmentClusterOrchestratorSpecKubernetesSpec {
+  /**
+  * The Kubernetes version of the GKE control plane.
+  * Accepted formats are minor version (for example, '"1.30"'), patch version
+  * (for example, '"1.30.5"'), full GKE release version (for example,
+  * '"1.30.5-gke.1014001"'), or '"-"' to use the service default version.
+  * Upgrades can advance at most one minor version at a time; downgrades are
+  * rejected.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster#control_plane_version GoogleVertexAiModelDevelopmentCluster#control_plane_version}
+  */
+  readonly controlPlaneVersion?: string;
+  /**
+  * Whether to enable IP alias.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster#enable_ip_alias GoogleVertexAiModelDevelopmentCluster#enable_ip_alias}
+  */
+  readonly enableIpAlias?: boolean | cdktn.IResolvable;
+  /**
+  * IDs of the NodePools to be included in this GKE cluster. These IDs must
+  * correspond to NodePools defined in the 'node_pools' field.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster#node_pool_ids GoogleVertexAiModelDevelopmentCluster#node_pool_ids}
+  */
+  readonly nodePoolIds?: string[];
+  /**
+  * The Kubernetes versions for specific node pools, keyed by node pool ID.
+  * When specified, all node pool IDs in the cluster must be included.
+  * Accepted formats are minor version (for example, '"1.30"'), patch version
+  * (for example, '"1.30.5"'), full GKE release version (for example,
+  * '"1.30.5-gke.1014001"'), or '"-"' to align with the control plane version.
+  * Node pools cannot be newer than the control plane or more than 2 minor
+  * versions behind it; upgrades can advance at most one minor version at a
+  * time and downgrades are rejected.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster#node_pool_versions GoogleVertexAiModelDevelopmentCluster#node_pool_versions}
+  */
+  readonly nodePoolVersions?: { [key: string]: string };
+  /**
+  * Whether the GKE cluster's control plane endpoint is publicly accessible.
+  * If true, the cluster is created with a public access endpoint (i.e. the
+  * private cluster configuration is disabled). If false or unset, the cluster
+  * is created with only private control plane access by default.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster#public_access_endpoint_enabled GoogleVertexAiModelDevelopmentCluster#public_access_endpoint_enabled}
+  */
+  readonly publicAccessEndpointEnabled?: boolean | cdktn.IResolvable;
+}
+
+export function googleVertexAiModelDevelopmentClusterOrchestratorSpecKubernetesSpecToTerraform(struct?: GoogleVertexAiModelDevelopmentClusterOrchestratorSpecKubernetesSpecOutputReference | GoogleVertexAiModelDevelopmentClusterOrchestratorSpecKubernetesSpec): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    control_plane_version: cdktn.stringToTerraform(struct!.controlPlaneVersion),
+    enable_ip_alias: cdktn.booleanToTerraform(struct!.enableIpAlias),
+    node_pool_ids: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.nodePoolIds),
+    node_pool_versions: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.nodePoolVersions),
+    public_access_endpoint_enabled: cdktn.booleanToTerraform(struct!.publicAccessEndpointEnabled),
+  }
+}
+
+
+export function googleVertexAiModelDevelopmentClusterOrchestratorSpecKubernetesSpecToHclTerraform(struct?: GoogleVertexAiModelDevelopmentClusterOrchestratorSpecKubernetesSpecOutputReference | GoogleVertexAiModelDevelopmentClusterOrchestratorSpecKubernetesSpec): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    control_plane_version: {
+      value: cdktn.stringToHclTerraform(struct!.controlPlaneVersion),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    enable_ip_alias: {
+      value: cdktn.booleanToHclTerraform(struct!.enableIpAlias),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    node_pool_ids: {
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.nodePoolIds),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    node_pool_versions: {
+      value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(struct!.nodePoolVersions),
+      isBlock: false,
+      type: "map",
+      storageClassType: "stringMap",
+    },
+    public_access_endpoint_enabled: {
+      value: cdktn.booleanToHclTerraform(struct!.publicAccessEndpointEnabled),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleVertexAiModelDevelopmentClusterOrchestratorSpecKubernetesSpecOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleVertexAiModelDevelopmentClusterOrchestratorSpecKubernetesSpec | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._controlPlaneVersion !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.controlPlaneVersion = this._controlPlaneVersion;
+    }
+    if (this._enableIpAlias !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enableIpAlias = this._enableIpAlias;
+    }
+    if (this._nodePoolIds !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.nodePoolIds = this._nodePoolIds;
+    }
+    if (this._nodePoolVersions !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.nodePoolVersions = this._nodePoolVersions;
+    }
+    if (this._publicAccessEndpointEnabled !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.publicAccessEndpointEnabled = this._publicAccessEndpointEnabled;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleVertexAiModelDevelopmentClusterOrchestratorSpecKubernetesSpec | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._controlPlaneVersion = undefined;
+      this._enableIpAlias = undefined;
+      this._nodePoolIds = undefined;
+      this._nodePoolVersions = undefined;
+      this._publicAccessEndpointEnabled = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._controlPlaneVersion = value.controlPlaneVersion;
+      this._enableIpAlias = value.enableIpAlias;
+      this._nodePoolIds = value.nodePoolIds;
+      this._nodePoolVersions = value.nodePoolVersions;
+      this._publicAccessEndpointEnabled = value.publicAccessEndpointEnabled;
+    }
+  }
+
+  // control_plane_version - computed: true, optional: true, required: false
+  private _controlPlaneVersion?: string; 
+  public get controlPlaneVersion() {
+    return this.getStringAttribute('control_plane_version');
+  }
+  public set controlPlaneVersion(value: string) {
+    this._controlPlaneVersion = value;
+  }
+  public resetControlPlaneVersion() {
+    this._controlPlaneVersion = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get controlPlaneVersionInput() {
+    return this._controlPlaneVersion;
+  }
+
+  // enable_ip_alias - computed: false, optional: true, required: false
+  private _enableIpAlias?: boolean | cdktn.IResolvable; 
+  public get enableIpAlias() {
+    return this.getBooleanAttribute('enable_ip_alias');
+  }
+  public set enableIpAlias(value: boolean | cdktn.IResolvable) {
+    this._enableIpAlias = value;
+  }
+  public resetEnableIpAlias() {
+    this._enableIpAlias = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableIpAliasInput() {
+    return this._enableIpAlias;
+  }
+
+  // node_pool_ids - computed: false, optional: true, required: false
+  private _nodePoolIds?: string[]; 
+  public get nodePoolIds() {
+    return this.getListAttribute('node_pool_ids');
+  }
+  public set nodePoolIds(value: string[]) {
+    this._nodePoolIds = value;
+  }
+  public resetNodePoolIds() {
+    this._nodePoolIds = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nodePoolIdsInput() {
+    return this._nodePoolIds;
+  }
+
+  // node_pool_versions - computed: true, optional: true, required: false
+  private _nodePoolVersions?: { [key: string]: string }; 
+  public get nodePoolVersions() {
+    return this.getStringMapAttribute('node_pool_versions');
+  }
+  public set nodePoolVersions(value: { [key: string]: string }) {
+    this._nodePoolVersions = value;
+  }
+  public resetNodePoolVersions() {
+    this._nodePoolVersions = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nodePoolVersionsInput() {
+    return this._nodePoolVersions;
+  }
+
+  // public_access_endpoint_enabled - computed: false, optional: true, required: false
+  private _publicAccessEndpointEnabled?: boolean | cdktn.IResolvable; 
+  public get publicAccessEndpointEnabled() {
+    return this.getBooleanAttribute('public_access_endpoint_enabled');
+  }
+  public set publicAccessEndpointEnabled(value: boolean | cdktn.IResolvable) {
+    this._publicAccessEndpointEnabled = value;
+  }
+  public resetPublicAccessEndpointEnabled() {
+    this._publicAccessEndpointEnabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get publicAccessEndpointEnabledInput() {
+    return this._publicAccessEndpointEnabled;
+  }
+}
 export interface GoogleVertexAiModelDevelopmentClusterOrchestratorSpecSlurmSpecNodeSets {
   /**
   * Node-scoped Slurm settings, emitted as additional 'Key=Value' pairs on the
@@ -2652,14 +2908,14 @@ export interface GoogleVertexAiModelDevelopmentClusterOrchestratorSpecSlurmSpecN
   * 
   * On update this map is replaced wholesale; supply the complete desired set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_model_development_cluster#config GoogleVertexAiModelDevelopmentCluster#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster#config GoogleVertexAiModelDevelopmentCluster#config}
   */
   readonly config?: { [key: string]: string };
   /**
   * Id of the node pool these settings apply to. Must match the 'id' of one of
   * the node pools in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_model_development_cluster#node_pool_id GoogleVertexAiModelDevelopmentCluster#node_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster#node_pool_id GoogleVertexAiModelDevelopmentCluster#node_pool_id}
   */
   readonly nodePoolId: string;
 }
@@ -2818,13 +3074,13 @@ export interface GoogleVertexAiModelDevelopmentClusterOrchestratorSpecSlurmSpecP
   * 'Default' is rejected here: which partition is the default is a
   * cluster-scoped choice, so it belongs in 'SlurmSpec.default_partition_id'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_model_development_cluster#config GoogleVertexAiModelDevelopmentCluster#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster#config GoogleVertexAiModelDevelopmentCluster#config}
   */
   readonly config?: { [key: string]: string };
   /**
   * Id of the slurm partiton
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_model_development_cluster#id GoogleVertexAiModelDevelopmentCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster#id GoogleVertexAiModelDevelopmentCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2833,7 +3089,7 @@ export interface GoogleVertexAiModelDevelopmentClusterOrchestratorSpecSlurmSpecP
   /**
   * Node pools for the slurm partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_model_development_cluster#node_pool_ids GoogleVertexAiModelDevelopmentCluster#node_pool_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster#node_pool_ids GoogleVertexAiModelDevelopmentCluster#node_pool_ids}
   */
   readonly nodePoolIds: string[];
 }
@@ -3026,7 +3282,7 @@ export interface GoogleVertexAiModelDevelopmentClusterOrchestratorSpecSlurmSpec 
   * 
   * On update this map is replaced wholesale; supply the complete desired set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_model_development_cluster#config GoogleVertexAiModelDevelopmentCluster#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster#config GoogleVertexAiModelDevelopmentCluster#config}
   */
   readonly config?: { [key: string]: string };
   /**
@@ -3041,43 +3297,43 @@ export interface GoogleVertexAiModelDevelopmentClusterOrchestratorSpecSlurmSpec 
   * the list, or prepending a partition to it, otherwise moves the default and
   * silently redirects every job submitted without '--partition'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_model_development_cluster#default_partition_id GoogleVertexAiModelDevelopmentCluster#default_partition_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster#default_partition_id GoogleVertexAiModelDevelopmentCluster#default_partition_id}
   */
   readonly defaultPartitionId?: string;
   /**
   * Custom bash scripts executed after each slurm job on every allocated node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_model_development_cluster#epilog_bash_scripts GoogleVertexAiModelDevelopmentCluster#epilog_bash_scripts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster#epilog_bash_scripts GoogleVertexAiModelDevelopmentCluster#epilog_bash_scripts}
   */
   readonly epilogBashScripts?: string[];
   /**
   * Full name of the Filestore to be mounted as /home directory on every node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_model_development_cluster#home_directory_storage GoogleVertexAiModelDevelopmentCluster#home_directory_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster#home_directory_storage GoogleVertexAiModelDevelopmentCluster#home_directory_storage}
   */
   readonly homeDirectoryStorage: string;
   /**
   * The node pool id to be used as slurm login node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_model_development_cluster#login_node_pool_id GoogleVertexAiModelDevelopmentCluster#login_node_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster#login_node_pool_id GoogleVertexAiModelDevelopmentCluster#login_node_pool_id}
   */
   readonly loginNodePoolId: string;
   /**
   * Custom bash scripts executed before each slurm job on every allocated node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_model_development_cluster#prolog_bash_scripts GoogleVertexAiModelDevelopmentCluster#prolog_bash_scripts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster#prolog_bash_scripts GoogleVertexAiModelDevelopmentCluster#prolog_bash_scripts}
   */
   readonly prologBashScripts?: string[];
   /**
   * node_sets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_model_development_cluster#node_sets GoogleVertexAiModelDevelopmentCluster#node_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster#node_sets GoogleVertexAiModelDevelopmentCluster#node_sets}
   */
   readonly nodeSets?: GoogleVertexAiModelDevelopmentClusterOrchestratorSpecSlurmSpecNodeSets[] | cdktn.IResolvable;
   /**
   * partitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_model_development_cluster#partitions GoogleVertexAiModelDevelopmentCluster#partitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster#partitions GoogleVertexAiModelDevelopmentCluster#partitions}
   */
   readonly partitions?: GoogleVertexAiModelDevelopmentClusterOrchestratorSpecSlurmSpecPartitions[] | cdktn.IResolvable;
 }
@@ -3358,9 +3614,15 @@ export class GoogleVertexAiModelDevelopmentClusterOrchestratorSpecSlurmSpecOutpu
 }
 export interface GoogleVertexAiModelDevelopmentClusterOrchestratorSpec {
   /**
+  * kubernetes_spec block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster#kubernetes_spec GoogleVertexAiModelDevelopmentCluster#kubernetes_spec}
+  */
+  readonly kubernetesSpec?: GoogleVertexAiModelDevelopmentClusterOrchestratorSpecKubernetesSpec;
+  /**
   * slurm_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_model_development_cluster#slurm_spec GoogleVertexAiModelDevelopmentCluster#slurm_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster#slurm_spec GoogleVertexAiModelDevelopmentCluster#slurm_spec}
   */
   readonly slurmSpec?: GoogleVertexAiModelDevelopmentClusterOrchestratorSpecSlurmSpec;
 }
@@ -3371,6 +3633,7 @@ export function googleVertexAiModelDevelopmentClusterOrchestratorSpecToTerraform
     throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
+    kubernetes_spec: googleVertexAiModelDevelopmentClusterOrchestratorSpecKubernetesSpecToTerraform(struct!.kubernetesSpec),
     slurm_spec: googleVertexAiModelDevelopmentClusterOrchestratorSpecSlurmSpecToTerraform(struct!.slurmSpec),
   }
 }
@@ -3382,6 +3645,12 @@ export function googleVertexAiModelDevelopmentClusterOrchestratorSpecToHclTerraf
     throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
+    kubernetes_spec: {
+      value: googleVertexAiModelDevelopmentClusterOrchestratorSpecKubernetesSpecToHclTerraform(struct!.kubernetesSpec),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleVertexAiModelDevelopmentClusterOrchestratorSpecKubernetesSpecList",
+    },
     slurm_spec: {
       value: googleVertexAiModelDevelopmentClusterOrchestratorSpecSlurmSpecToHclTerraform(struct!.slurmSpec),
       isBlock: true,
@@ -3408,6 +3677,10 @@ export class GoogleVertexAiModelDevelopmentClusterOrchestratorSpecOutputReferenc
   public get internalValue(): GoogleVertexAiModelDevelopmentClusterOrchestratorSpec | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._kubernetesSpec?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.kubernetesSpec = this._kubernetesSpec?.internalValue;
+    }
     if (this._slurmSpec?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.slurmSpec = this._slurmSpec?.internalValue;
@@ -3418,12 +3691,30 @@ export class GoogleVertexAiModelDevelopmentClusterOrchestratorSpecOutputReferenc
   public set internalValue(value: GoogleVertexAiModelDevelopmentClusterOrchestratorSpec | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._kubernetesSpec.internalValue = undefined;
       this._slurmSpec.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._kubernetesSpec.internalValue = value.kubernetesSpec;
       this._slurmSpec.internalValue = value.slurmSpec;
     }
+  }
+
+  // kubernetes_spec - computed: false, optional: true, required: false
+  private _kubernetesSpec = new GoogleVertexAiModelDevelopmentClusterOrchestratorSpecKubernetesSpecOutputReference(this, "kubernetes_spec");
+  public get kubernetesSpec() {
+    return this._kubernetesSpec;
+  }
+  public putKubernetesSpec(value: GoogleVertexAiModelDevelopmentClusterOrchestratorSpecKubernetesSpec) {
+    this._kubernetesSpec.internalValue = value;
+  }
+  public resetKubernetesSpec() {
+    this._kubernetesSpec.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get kubernetesSpecInput() {
+    return this._kubernetesSpec.internalValue;
   }
 
   // slurm_spec - computed: false, optional: true, required: false
@@ -3448,7 +3739,7 @@ export interface GoogleVertexAiModelDevelopmentClusterRuntimeSpec {
   * on it. If not specified, the default compute engine service account will be
   * used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_model_development_cluster#service_account GoogleVertexAiModelDevelopmentCluster#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster#service_account GoogleVertexAiModelDevelopmentCluster#service_account}
   */
   readonly serviceAccount?: string;
 }
@@ -3532,15 +3823,15 @@ export class GoogleVertexAiModelDevelopmentClusterRuntimeSpecOutputReference ext
 }
 export interface GoogleVertexAiModelDevelopmentClusterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_model_development_cluster#create GoogleVertexAiModelDevelopmentCluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster#create GoogleVertexAiModelDevelopmentCluster#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_model_development_cluster#delete GoogleVertexAiModelDevelopmentCluster#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster#delete GoogleVertexAiModelDevelopmentCluster#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_model_development_cluster#update GoogleVertexAiModelDevelopmentCluster#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster#update GoogleVertexAiModelDevelopmentCluster#update}
   */
   readonly update?: string;
 }
@@ -3692,7 +3983,7 @@ export class GoogleVertexAiModelDevelopmentClusterTimeoutsOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_model_development_cluster google_vertex_ai_model_development_cluster}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster google_vertex_ai_model_development_cluster}
 */
 export class GoogleVertexAiModelDevelopmentCluster extends cdktn.TerraformResource {
 
@@ -3708,7 +3999,7 @@ export class GoogleVertexAiModelDevelopmentCluster extends cdktn.TerraformResour
   * Generates CDKTN code for importing a GoogleVertexAiModelDevelopmentCluster resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleVertexAiModelDevelopmentCluster to import
-  * @param importFromId The id of the existing GoogleVertexAiModelDevelopmentCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_model_development_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleVertexAiModelDevelopmentCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleVertexAiModelDevelopmentCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -3720,7 +4011,7 @@ export class GoogleVertexAiModelDevelopmentCluster extends cdktn.TerraformResour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_vertex_ai_model_development_cluster google_vertex_ai_model_development_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_model_development_cluster google_vertex_ai_model_development_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3731,7 +4022,7 @@ export class GoogleVertexAiModelDevelopmentCluster extends cdktn.TerraformResour
       terraformResourceType: 'google_vertex_ai_model_development_cluster',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '8.9.0',
+        providerVersion: '8.11.0',
         providerVersionConstraint: '~> 8.0'
       },
       provider: config.provider,
@@ -3749,6 +4040,7 @@ export class GoogleVertexAiModelDevelopmentCluster extends cdktn.TerraformResour
     this._modelDevelopmentClusterId = config.modelDevelopmentClusterId;
     this._project = config.project;
     this._region = config.region;
+    this._updateMode = config.updateMode;
     this._lustreExportConfig.internalValue = config.lustreExportConfig;
     this._network.internalValue = config.network;
     this._nodePools.internalValue = config.nodePools;
@@ -3915,6 +4207,22 @@ export class GoogleVertexAiModelDevelopmentCluster extends cdktn.TerraformResour
     return this._terraformLabels;
   }
 
+  // update_mode - computed: false, optional: true, required: false
+  private _updateMode?: string; 
+  public get updateMode() {
+    return this.getStringAttribute('update_mode');
+  }
+  public set updateMode(value: string) {
+    this._updateMode = value;
+  }
+  public resetUpdateMode() {
+    this._updateMode = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get updateModeInput() {
+    return this._updateMode;
+  }
+
   // update_time - computed: true, optional: false, required: false
   public get updateTime() {
     return this.getStringAttribute('update_time');
@@ -4023,6 +4331,7 @@ export class GoogleVertexAiModelDevelopmentCluster extends cdktn.TerraformResour
       model_development_cluster_id: cdktn.stringToTerraform(this._modelDevelopmentClusterId),
       project: cdktn.stringToTerraform(this._project),
       region: cdktn.stringToTerraform(this._region),
+      update_mode: cdktn.stringToTerraform(this._updateMode),
       lustre_export_config: googleVertexAiModelDevelopmentClusterLustreExportConfigToTerraform(this._lustreExportConfig.internalValue),
       network: googleVertexAiModelDevelopmentClusterNetworkToTerraform(this._network.internalValue),
       node_pools: cdktn.listMapper(googleVertexAiModelDevelopmentClusterNodePoolsToTerraform, true)(this._nodePools.internalValue),
@@ -4072,6 +4381,12 @@ export class GoogleVertexAiModelDevelopmentCluster extends cdktn.TerraformResour
       },
       region: {
         value: cdktn.stringToHclTerraform(this._region),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      update_mode: {
+        value: cdktn.stringToHclTerraform(this._updateMode),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

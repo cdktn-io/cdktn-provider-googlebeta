@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_discovery_engine_assistant
+// https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_discovery_engine_assistant
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,15 +15,29 @@ export interface GoogleDiscoveryEngineAssistantConfig extends cdktn.TerraformMet
   /**
   * The unique id of the assistant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_discovery_engine_assistant#assistant_id GoogleDiscoveryEngineAssistant#assistant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_discovery_engine_assistant#assistant_id GoogleDiscoveryEngineAssistant#assistant_id}
   */
   readonly assistantId: string;
   /**
   * The unique id of the collection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_discovery_engine_assistant#collection_id GoogleDiscoveryEngineAssistant#collection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_discovery_engine_assistant#collection_id GoogleDiscoveryEngineAssistant#collection_id}
   */
   readonly collectionId: string;
+  /**
+  * This field controls the default web grounding toggle for end users if
+  * 'web_grounding_type' is set to 'WEB_GROUNDING_TYPE_GOOGLE_SEARCH' or
+  * 'WEB_GROUNDING_TYPE_ENTERPRISE_WEB_SEARCH'.
+  * By default, this field is set to false. If 'web_grounding_type' is
+  * 'WEB_GROUNDING_TYPE_GOOGLE_SEARCH' or
+  * 'WEB_GROUNDING_TYPE_ENTERPRISE_WEB_SEARCH', end users will have web
+  * grounding enabled by default on UI. If true, grounding toggle will be
+  * disabled by default on UI. End users can still enable web grounding in
+  * the UI if web grounding is enabled.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_discovery_engine_assistant#default_web_grounding_toggle_off GoogleDiscoveryEngineAssistant#default_web_grounding_toggle_off}
+  */
+  readonly defaultWebGroundingToggleOff?: boolean | cdktn.IResolvable;
   /**
   * Whether Terraform will be prevented from destroying the instance. Defaults to "DELETE".
   * When a 'terraform destroy' or 'terraform apply' would delete the instance,
@@ -33,14 +47,14 @@ export interface GoogleDiscoveryEngineAssistantConfig extends cdktn.TerraformMet
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_discovery_engine_assistant#deletion_policy GoogleDiscoveryEngineAssistant#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_discovery_engine_assistant#deletion_policy GoogleDiscoveryEngineAssistant#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * Description for additional information. Expected to be shown on the
   * configuration UI, not to the users of the assistant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_discovery_engine_assistant#description GoogleDiscoveryEngineAssistant#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_discovery_engine_assistant#description GoogleDiscoveryEngineAssistant#description}
   */
   readonly description?: string;
   /**
@@ -48,17 +62,17 @@ export interface GoogleDiscoveryEngineAssistantConfig extends cdktn.TerraformMet
   * 
   * It must be a UTF-8 encoded string with a length limit of 128 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_discovery_engine_assistant#display_name GoogleDiscoveryEngineAssistant#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_discovery_engine_assistant#display_name GoogleDiscoveryEngineAssistant#display_name}
   */
   readonly displayName: string;
   /**
   * The unique id of the engine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_discovery_engine_assistant#engine_id GoogleDiscoveryEngineAssistant#engine_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_discovery_engine_assistant#engine_id GoogleDiscoveryEngineAssistant#engine_id}
   */
   readonly engineId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_discovery_engine_assistant#id GoogleDiscoveryEngineAssistant#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_discovery_engine_assistant#id GoogleDiscoveryEngineAssistant#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -68,36 +82,36 @@ export interface GoogleDiscoveryEngineAssistantConfig extends cdktn.TerraformMet
   * The geographic location where the data store should reside. The value can
   * only be one of "global", "us" and "eu".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_discovery_engine_assistant#location GoogleDiscoveryEngineAssistant#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_discovery_engine_assistant#location GoogleDiscoveryEngineAssistant#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_discovery_engine_assistant#project GoogleDiscoveryEngineAssistant#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_discovery_engine_assistant#project GoogleDiscoveryEngineAssistant#project}
   */
   readonly project?: string;
   /**
   * The type of web grounding to use.
   * The supported values: 'WEB_GROUNDING_TYPE_DISABLED', 'WEB_GROUNDING_TYPE_GOOGLE_SEARCH', 'WEB_GROUNDING_TYPE_ENTERPRISE_WEB_SEARCH'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_discovery_engine_assistant#web_grounding_type GoogleDiscoveryEngineAssistant#web_grounding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_discovery_engine_assistant#web_grounding_type GoogleDiscoveryEngineAssistant#web_grounding_type}
   */
   readonly webGroundingType?: string;
   /**
   * customer_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_discovery_engine_assistant#customer_policy GoogleDiscoveryEngineAssistant#customer_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_discovery_engine_assistant#customer_policy GoogleDiscoveryEngineAssistant#customer_policy}
   */
   readonly customerPolicy?: GoogleDiscoveryEngineAssistantCustomerPolicy;
   /**
   * generation_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_discovery_engine_assistant#generation_config GoogleDiscoveryEngineAssistant#generation_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_discovery_engine_assistant#generation_config GoogleDiscoveryEngineAssistant#generation_config}
   */
   readonly generationConfig?: GoogleDiscoveryEngineAssistantGenerationConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_discovery_engine_assistant#timeouts GoogleDiscoveryEngineAssistant#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_discovery_engine_assistant#timeouts GoogleDiscoveryEngineAssistant#timeouts}
   */
   readonly timeouts?: GoogleDiscoveryEngineAssistantTimeouts;
 }
@@ -106,20 +120,20 @@ export interface GoogleDiscoveryEngineAssistantCustomerPolicyBannedPhrases {
   * If true, diacritical marks (e.g., accents, umlauts) are ignored when
   * matching banned phrases. For example, "cafe" would match "café".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_discovery_engine_assistant#ignore_diacritics GoogleDiscoveryEngineAssistant#ignore_diacritics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_discovery_engine_assistant#ignore_diacritics GoogleDiscoveryEngineAssistant#ignore_diacritics}
   */
   readonly ignoreDiacritics?: boolean | cdktn.IResolvable;
   /**
   * Match type for the banned phrase.
   * The supported values: 'SIMPLE_STRING_MATCH', 'WORD_BOUNDARY_STRING_MATCH'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_discovery_engine_assistant#match_type GoogleDiscoveryEngineAssistant#match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_discovery_engine_assistant#match_type GoogleDiscoveryEngineAssistant#match_type}
   */
   readonly matchType?: string;
   /**
   * The raw string content to be banned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_discovery_engine_assistant#phrase GoogleDiscoveryEngineAssistant#phrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_discovery_engine_assistant#phrase GoogleDiscoveryEngineAssistant#phrase}
   */
   readonly phrase: string;
 }
@@ -293,7 +307,7 @@ export interface GoogleDiscoveryEngineAssistantCustomerPolicyModelArmorConfig {
   * Defines the failure mode for Model Armor sanitization.
   * The supported values: 'FAIL_OPEN', 'FAIL_CLOSED'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_discovery_engine_assistant#failure_mode GoogleDiscoveryEngineAssistant#failure_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_discovery_engine_assistant#failure_mode GoogleDiscoveryEngineAssistant#failure_mode}
   */
   readonly failureMode?: string;
   /**
@@ -304,7 +318,7 @@ export interface GoogleDiscoveryEngineAssistantCustomerPolicyModelArmorConfig {
   * If not specified, no sanitization will be applied to the assistant
   * response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_discovery_engine_assistant#response_template GoogleDiscoveryEngineAssistant#response_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_discovery_engine_assistant#response_template GoogleDiscoveryEngineAssistant#response_template}
   */
   readonly responseTemplate: string;
   /**
@@ -314,7 +328,7 @@ export interface GoogleDiscoveryEngineAssistantCustomerPolicyModelArmorConfig {
   * 
   * If not specified, no sanitization will be applied to the user prompt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_discovery_engine_assistant#user_prompt_template GoogleDiscoveryEngineAssistant#user_prompt_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_discovery_engine_assistant#user_prompt_template GoogleDiscoveryEngineAssistant#user_prompt_template}
   */
   readonly userPromptTemplate: string;
 }
@@ -452,13 +466,13 @@ export interface GoogleDiscoveryEngineAssistantCustomerPolicy {
   /**
   * banned_phrases block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_discovery_engine_assistant#banned_phrases GoogleDiscoveryEngineAssistant#banned_phrases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_discovery_engine_assistant#banned_phrases GoogleDiscoveryEngineAssistant#banned_phrases}
   */
   readonly bannedPhrases?: GoogleDiscoveryEngineAssistantCustomerPolicyBannedPhrases[] | cdktn.IResolvable;
   /**
   * model_armor_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_discovery_engine_assistant#model_armor_config GoogleDiscoveryEngineAssistant#model_armor_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_discovery_engine_assistant#model_armor_config GoogleDiscoveryEngineAssistant#model_armor_config}
   */
   readonly modelArmorConfig?: GoogleDiscoveryEngineAssistantCustomerPolicyModelArmorConfig;
 }
@@ -573,7 +587,7 @@ export interface GoogleDiscoveryEngineAssistantGenerationConfigSystemInstruction
   /**
   * Additional system instruction that will be added to the default system instruction.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_discovery_engine_assistant#additional_system_instruction GoogleDiscoveryEngineAssistant#additional_system_instruction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_discovery_engine_assistant#additional_system_instruction GoogleDiscoveryEngineAssistant#additional_system_instruction}
   */
   readonly additionalSystemInstruction?: string;
 }
@@ -661,13 +675,13 @@ export interface GoogleDiscoveryEngineAssistantGenerationConfig {
   * Use an ISO 639-1 language code such as 'en'.
   * If not specified, the language will be automatically detected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_discovery_engine_assistant#default_language GoogleDiscoveryEngineAssistant#default_language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_discovery_engine_assistant#default_language GoogleDiscoveryEngineAssistant#default_language}
   */
   readonly defaultLanguage?: string;
   /**
   * system_instruction block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_discovery_engine_assistant#system_instruction GoogleDiscoveryEngineAssistant#system_instruction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_discovery_engine_assistant#system_instruction GoogleDiscoveryEngineAssistant#system_instruction}
   */
   readonly systemInstruction?: GoogleDiscoveryEngineAssistantGenerationConfigSystemInstruction;
 }
@@ -780,15 +794,15 @@ export class GoogleDiscoveryEngineAssistantGenerationConfigOutputReference exten
 }
 export interface GoogleDiscoveryEngineAssistantTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_discovery_engine_assistant#create GoogleDiscoveryEngineAssistant#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_discovery_engine_assistant#create GoogleDiscoveryEngineAssistant#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_discovery_engine_assistant#delete GoogleDiscoveryEngineAssistant#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_discovery_engine_assistant#delete GoogleDiscoveryEngineAssistant#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_discovery_engine_assistant#update GoogleDiscoveryEngineAssistant#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_discovery_engine_assistant#update GoogleDiscoveryEngineAssistant#update}
   */
   readonly update?: string;
 }
@@ -940,7 +954,7 @@ export class GoogleDiscoveryEngineAssistantTimeoutsOutputReference extends cdktn
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_discovery_engine_assistant google_discovery_engine_assistant}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_discovery_engine_assistant google_discovery_engine_assistant}
 */
 export class GoogleDiscoveryEngineAssistant extends cdktn.TerraformResource {
 
@@ -956,7 +970,7 @@ export class GoogleDiscoveryEngineAssistant extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleDiscoveryEngineAssistant resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleDiscoveryEngineAssistant to import
-  * @param importFromId The id of the existing GoogleDiscoveryEngineAssistant that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_discovery_engine_assistant#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleDiscoveryEngineAssistant that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_discovery_engine_assistant#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleDiscoveryEngineAssistant to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -968,7 +982,7 @@ export class GoogleDiscoveryEngineAssistant extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_discovery_engine_assistant google_discovery_engine_assistant} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_discovery_engine_assistant google_discovery_engine_assistant} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -979,7 +993,7 @@ export class GoogleDiscoveryEngineAssistant extends cdktn.TerraformResource {
       terraformResourceType: 'google_discovery_engine_assistant',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '8.9.0',
+        providerVersion: '8.11.0',
         providerVersionConstraint: '~> 8.0'
       },
       provider: config.provider,
@@ -992,6 +1006,7 @@ export class GoogleDiscoveryEngineAssistant extends cdktn.TerraformResource {
     });
     this._assistantId = config.assistantId;
     this._collectionId = config.collectionId;
+    this._defaultWebGroundingToggleOff = config.defaultWebGroundingToggleOff;
     this._deletionPolicy = config.deletionPolicy;
     this._description = config.description;
     this._displayName = config.displayName;
@@ -1033,6 +1048,22 @@ export class GoogleDiscoveryEngineAssistant extends cdktn.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get collectionIdInput() {
     return this._collectionId;
+  }
+
+  // default_web_grounding_toggle_off - computed: false, optional: true, required: false
+  private _defaultWebGroundingToggleOff?: boolean | cdktn.IResolvable; 
+  public get defaultWebGroundingToggleOff() {
+    return this.getBooleanAttribute('default_web_grounding_toggle_off');
+  }
+  public set defaultWebGroundingToggleOff(value: boolean | cdktn.IResolvable) {
+    this._defaultWebGroundingToggleOff = value;
+  }
+  public resetDefaultWebGroundingToggleOff() {
+    this._defaultWebGroundingToggleOff = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get defaultWebGroundingToggleOffInput() {
+    return this._defaultWebGroundingToggleOff;
   }
 
   // deletion_policy - computed: true, optional: true, required: false
@@ -1215,6 +1246,7 @@ export class GoogleDiscoveryEngineAssistant extends cdktn.TerraformResource {
     return {
       assistant_id: cdktn.stringToTerraform(this._assistantId),
       collection_id: cdktn.stringToTerraform(this._collectionId),
+      default_web_grounding_toggle_off: cdktn.booleanToTerraform(this._defaultWebGroundingToggleOff),
       deletion_policy: cdktn.stringToTerraform(this._deletionPolicy),
       description: cdktn.stringToTerraform(this._description),
       display_name: cdktn.stringToTerraform(this._displayName),
@@ -1242,6 +1274,12 @@ export class GoogleDiscoveryEngineAssistant extends cdktn.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      default_web_grounding_toggle_off: {
+        value: cdktn.booleanToHclTerraform(this._defaultWebGroundingToggleOff),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
       },
       deletion_policy: {
         value: cdktn.stringToHclTerraform(this._deletionPolicy),

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool
+// https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -21,11 +21,11 @@ export interface GooglePrivatecaCaPoolConfig extends cdktn.TerraformMetaArgument
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#deletion_policy GooglePrivatecaCaPool#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#deletion_policy GooglePrivatecaCaPool#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#id GooglePrivatecaCaPool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#id GooglePrivatecaCaPool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,54 +41,54 @@ export interface GooglePrivatecaCaPoolConfig extends cdktn.TerraformMetaArgument
   * **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
   * Please refer to the field 'effective_labels' for all of the labels present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#labels GooglePrivatecaCaPool#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#labels GooglePrivatecaCaPool#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Location of the CaPool. A full list of valid locations can be found by
   * running 'gcloud privateca locations list'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#location GooglePrivatecaCaPool#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#location GooglePrivatecaCaPool#location}
   */
   readonly location: string;
   /**
   * The name for this CaPool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#name GooglePrivatecaCaPool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#name GooglePrivatecaCaPool#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#project GooglePrivatecaCaPool#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#project GooglePrivatecaCaPool#project}
   */
   readonly project?: string;
   /**
   * The Tier of this CaPool. Possible values: ["ENTERPRISE", "DEVOPS"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#tier GooglePrivatecaCaPool#tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#tier GooglePrivatecaCaPool#tier}
   */
   readonly tier: string;
   /**
   * encryption_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#encryption_spec GooglePrivatecaCaPool#encryption_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#encryption_spec GooglePrivatecaCaPool#encryption_spec}
   */
   readonly encryptionSpec?: GooglePrivatecaCaPoolEncryptionSpec;
   /**
   * issuance_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#issuance_policy GooglePrivatecaCaPool#issuance_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#issuance_policy GooglePrivatecaCaPool#issuance_policy}
   */
   readonly issuancePolicy?: GooglePrivatecaCaPoolIssuancePolicy;
   /**
   * publishing_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#publishing_options GooglePrivatecaCaPool#publishing_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#publishing_options GooglePrivatecaCaPool#publishing_options}
   */
   readonly publishingOptions?: GooglePrivatecaCaPoolPublishingOptions;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#timeouts GooglePrivatecaCaPool#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#timeouts GooglePrivatecaCaPool#timeouts}
   */
   readonly timeouts?: GooglePrivatecaCaPoolTimeouts;
 }
@@ -97,7 +97,7 @@ export interface GooglePrivatecaCaPoolEncryptionSpec {
   * The resource name for an existing Cloud KMS key in the format
   * 'projects/* /locations/* /keyRings/* /cryptoKeys/*'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#cloud_kms_key GooglePrivatecaCaPool#cloud_kms_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#cloud_kms_key GooglePrivatecaCaPool#cloud_kms_key}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
@@ -185,13 +185,13 @@ export interface GooglePrivatecaCaPoolIssuancePolicyAllowedIssuanceModes {
   /**
   * When true, allows callers to create Certificates by specifying a CertificateConfig.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#allow_config_based_issuance GooglePrivatecaCaPool#allow_config_based_issuance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#allow_config_based_issuance GooglePrivatecaCaPool#allow_config_based_issuance}
   */
   readonly allowConfigBasedIssuance: boolean | cdktn.IResolvable;
   /**
   * When true, allows callers to create Certificates by specifying a CSR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#allow_csr_based_issuance GooglePrivatecaCaPool#allow_csr_based_issuance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#allow_csr_based_issuance GooglePrivatecaCaPool#allow_csr_based_issuance}
   */
   readonly allowCsrBasedIssuance: boolean | cdktn.IResolvable;
 }
@@ -300,7 +300,7 @@ export interface GooglePrivatecaCaPoolIssuancePolicyAllowedKeyTypesEllipticCurve
   /**
   * The algorithm used. Possible values: ["ECDSA_P256", "ECDSA_P384", "EDDSA_25519"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#signature_algorithm GooglePrivatecaCaPool#signature_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#signature_algorithm GooglePrivatecaCaPool#signature_algorithm}
   */
   readonly signatureAlgorithm: string;
 }
@@ -384,14 +384,14 @@ export interface GooglePrivatecaCaPoolIssuancePolicyAllowedKeyTypesRsa {
   * The maximum allowed RSA modulus size, in bits. If this is not set, or if set to zero, the
   * service will not enforce an explicit upper bound on RSA modulus sizes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#max_modulus_size GooglePrivatecaCaPool#max_modulus_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#max_modulus_size GooglePrivatecaCaPool#max_modulus_size}
   */
   readonly maxModulusSize?: string;
   /**
   * The minimum allowed RSA modulus size, in bits. If this is not set, or if set to zero, the
   * service-level min RSA modulus size will continue to apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#min_modulus_size GooglePrivatecaCaPool#min_modulus_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#min_modulus_size GooglePrivatecaCaPool#min_modulus_size}
   */
   readonly minModulusSize?: string;
 }
@@ -506,13 +506,13 @@ export interface GooglePrivatecaCaPoolIssuancePolicyAllowedKeyTypes {
   /**
   * elliptic_curve block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#elliptic_curve GooglePrivatecaCaPool#elliptic_curve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#elliptic_curve GooglePrivatecaCaPool#elliptic_curve}
   */
   readonly ellipticCurve?: GooglePrivatecaCaPoolIssuancePolicyAllowedKeyTypesEllipticCurve;
   /**
   * rsa block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#rsa GooglePrivatecaCaPool#rsa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#rsa GooglePrivatecaCaPool#rsa}
   */
   readonly rsa?: GooglePrivatecaCaPoolIssuancePolicyAllowedKeyTypesRsa;
 }
@@ -659,7 +659,7 @@ export interface GooglePrivatecaCaPoolIssuancePolicyBaselineValuesAdditionalExte
   /**
   * An ObjectId specifies an object identifier (OID). These provide context and describe types in ASN.1 messages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#object_id_path GooglePrivatecaCaPool#object_id_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#object_id_path GooglePrivatecaCaPool#object_id_path}
   */
   readonly objectIdPath: number[];
 }
@@ -743,19 +743,19 @@ export interface GooglePrivatecaCaPoolIssuancePolicyBaselineValuesAdditionalExte
   * Indicates whether or not this extension is critical (i.e., if the client does not know how to
   * handle this extension, the client should consider this to be an error).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#critical GooglePrivatecaCaPool#critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#critical GooglePrivatecaCaPool#critical}
   */
   readonly critical: boolean | cdktn.IResolvable;
   /**
   * The value of this X.509 extension. A base64-encoded string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#value GooglePrivatecaCaPool#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#value GooglePrivatecaCaPool#value}
   */
   readonly value: string;
   /**
   * object_id block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#object_id GooglePrivatecaCaPool#object_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#object_id GooglePrivatecaCaPool#object_id}
   */
   readonly objectId: GooglePrivatecaCaPoolIssuancePolicyBaselineValuesAdditionalExtensionsObjectId;
 }
@@ -922,21 +922,21 @@ export interface GooglePrivatecaCaPoolIssuancePolicyBaselineValuesCaOptions {
   /**
   * When true, the "CA" in Basic Constraints extension will be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#is_ca GooglePrivatecaCaPool#is_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#is_ca GooglePrivatecaCaPool#is_ca}
   */
   readonly isCa?: boolean | cdktn.IResolvable;
   /**
   * Refers to the "path length constraint" in Basic Constraints extension. For a CA certificate, this value describes the depth of
   * subordinate CA certificates that are allowed. If this value is less than 0, the request will fail.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#max_issuer_path_length GooglePrivatecaCaPool#max_issuer_path_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#max_issuer_path_length GooglePrivatecaCaPool#max_issuer_path_length}
   */
   readonly maxIssuerPathLength?: number;
   /**
   * When true, the "CA" in Basic Constraints extension will be set to false.
   * If both 'is_ca' and 'non_ca' are unset, the extension will be omitted from the CA certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#non_ca GooglePrivatecaCaPool#non_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#non_ca GooglePrivatecaCaPool#non_ca}
   */
   readonly nonCa?: boolean | cdktn.IResolvable;
   /**
@@ -944,7 +944,7 @@ export interface GooglePrivatecaCaPoolIssuancePolicyBaselineValuesCaOptions {
   * if both 'max_issuer_path_length' and 'zero_max_issuer_path_length' are unset,
   * the max path length will be omitted from the CA certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#zero_max_issuer_path_length GooglePrivatecaCaPool#zero_max_issuer_path_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#zero_max_issuer_path_length GooglePrivatecaCaPool#zero_max_issuer_path_length}
   */
   readonly zeroMaxIssuerPathLength?: boolean | cdktn.IResolvable;
 }
@@ -1117,55 +1117,55 @@ export interface GooglePrivatecaCaPoolIssuancePolicyBaselineValuesKeyUsageBaseKe
   /**
   * The key may be used to sign certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#cert_sign GooglePrivatecaCaPool#cert_sign}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#cert_sign GooglePrivatecaCaPool#cert_sign}
   */
   readonly certSign?: boolean | cdktn.IResolvable;
   /**
   * The key may be used for cryptographic commitments. Note that this may also be referred to as "non-repudiation".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#content_commitment GooglePrivatecaCaPool#content_commitment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#content_commitment GooglePrivatecaCaPool#content_commitment}
   */
   readonly contentCommitment?: boolean | cdktn.IResolvable;
   /**
   * The key may be used sign certificate revocation lists.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#crl_sign GooglePrivatecaCaPool#crl_sign}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#crl_sign GooglePrivatecaCaPool#crl_sign}
   */
   readonly crlSign?: boolean | cdktn.IResolvable;
   /**
   * The key may be used to encipher data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#data_encipherment GooglePrivatecaCaPool#data_encipherment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#data_encipherment GooglePrivatecaCaPool#data_encipherment}
   */
   readonly dataEncipherment?: boolean | cdktn.IResolvable;
   /**
   * The key may be used to decipher only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#decipher_only GooglePrivatecaCaPool#decipher_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#decipher_only GooglePrivatecaCaPool#decipher_only}
   */
   readonly decipherOnly?: boolean | cdktn.IResolvable;
   /**
   * The key may be used for digital signatures.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#digital_signature GooglePrivatecaCaPool#digital_signature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#digital_signature GooglePrivatecaCaPool#digital_signature}
   */
   readonly digitalSignature?: boolean | cdktn.IResolvable;
   /**
   * The key may be used to encipher only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#encipher_only GooglePrivatecaCaPool#encipher_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#encipher_only GooglePrivatecaCaPool#encipher_only}
   */
   readonly encipherOnly?: boolean | cdktn.IResolvable;
   /**
   * The key may be used in a key agreement protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#key_agreement GooglePrivatecaCaPool#key_agreement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#key_agreement GooglePrivatecaCaPool#key_agreement}
   */
   readonly keyAgreement?: boolean | cdktn.IResolvable;
   /**
   * The key may be used to encipher other keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#key_encipherment GooglePrivatecaCaPool#key_encipherment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#key_encipherment GooglePrivatecaCaPool#key_encipherment}
   */
   readonly keyEncipherment?: boolean | cdktn.IResolvable;
 }
@@ -1483,37 +1483,37 @@ export interface GooglePrivatecaCaPoolIssuancePolicyBaselineValuesKeyUsageExtend
   /**
   * Corresponds to OID 1.3.6.1.5.5.7.3.2. Officially described as "TLS WWW client authentication", though regularly used for non-WWW TLS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#client_auth GooglePrivatecaCaPool#client_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#client_auth GooglePrivatecaCaPool#client_auth}
   */
   readonly clientAuth?: boolean | cdktn.IResolvable;
   /**
   * Corresponds to OID 1.3.6.1.5.5.7.3.3. Officially described as "Signing of downloadable executable code client authentication".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#code_signing GooglePrivatecaCaPool#code_signing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#code_signing GooglePrivatecaCaPool#code_signing}
   */
   readonly codeSigning?: boolean | cdktn.IResolvable;
   /**
   * Corresponds to OID 1.3.6.1.5.5.7.3.4. Officially described as "Email protection".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#email_protection GooglePrivatecaCaPool#email_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#email_protection GooglePrivatecaCaPool#email_protection}
   */
   readonly emailProtection?: boolean | cdktn.IResolvable;
   /**
   * Corresponds to OID 1.3.6.1.5.5.7.3.9. Officially described as "Signing OCSP responses".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#ocsp_signing GooglePrivatecaCaPool#ocsp_signing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#ocsp_signing GooglePrivatecaCaPool#ocsp_signing}
   */
   readonly ocspSigning?: boolean | cdktn.IResolvable;
   /**
   * Corresponds to OID 1.3.6.1.5.5.7.3.1. Officially described as "TLS WWW server authentication", though regularly used for non-WWW TLS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#server_auth GooglePrivatecaCaPool#server_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#server_auth GooglePrivatecaCaPool#server_auth}
   */
   readonly serverAuth?: boolean | cdktn.IResolvable;
   /**
   * Corresponds to OID 1.3.6.1.5.5.7.3.8. Officially described as "Binding the hash of an object to a time".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#time_stamping GooglePrivatecaCaPool#time_stamping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#time_stamping GooglePrivatecaCaPool#time_stamping}
   */
   readonly timeStamping?: boolean | cdktn.IResolvable;
 }
@@ -1744,7 +1744,7 @@ export interface GooglePrivatecaCaPoolIssuancePolicyBaselineValuesKeyUsageUnknow
   /**
   * An ObjectId specifies an object identifier (OID). These provide context and describe types in ASN.1 messages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#object_id_path GooglePrivatecaCaPool#object_id_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#object_id_path GooglePrivatecaCaPool#object_id_path}
   */
   readonly objectIdPath: number[];
 }
@@ -1859,19 +1859,19 @@ export interface GooglePrivatecaCaPoolIssuancePolicyBaselineValuesKeyUsage {
   /**
   * base_key_usage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#base_key_usage GooglePrivatecaCaPool#base_key_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#base_key_usage GooglePrivatecaCaPool#base_key_usage}
   */
   readonly baseKeyUsage: GooglePrivatecaCaPoolIssuancePolicyBaselineValuesKeyUsageBaseKeyUsage;
   /**
   * extended_key_usage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#extended_key_usage GooglePrivatecaCaPool#extended_key_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#extended_key_usage GooglePrivatecaCaPool#extended_key_usage}
   */
   readonly extendedKeyUsage: GooglePrivatecaCaPoolIssuancePolicyBaselineValuesKeyUsageExtendedKeyUsage;
   /**
   * unknown_extended_key_usages block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#unknown_extended_key_usages GooglePrivatecaCaPool#unknown_extended_key_usages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#unknown_extended_key_usages GooglePrivatecaCaPool#unknown_extended_key_usages}
   */
   readonly unknownExtendedKeyUsages?: GooglePrivatecaCaPoolIssuancePolicyBaselineValuesKeyUsageUnknownExtendedKeyUsages[] | cdktn.IResolvable;
 }
@@ -2009,7 +2009,7 @@ export interface GooglePrivatecaCaPoolIssuancePolicyBaselineValuesNameConstraint
   /**
   * Indicates whether or not the name constraints are marked critical.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#critical GooglePrivatecaCaPool#critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#critical GooglePrivatecaCaPool#critical}
   */
   readonly critical: boolean | cdktn.IResolvable;
   /**
@@ -2019,7 +2019,7 @@ export interface GooglePrivatecaCaPoolIssuancePolicyBaselineValuesNameConstraint
   * For example, 'example.com', 'www.example.com', 'www.sub.example.com'
   * would satisfy 'example.com' while 'example1.com' does not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#excluded_dns_names GooglePrivatecaCaPool#excluded_dns_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#excluded_dns_names GooglePrivatecaCaPool#excluded_dns_names}
   */
   readonly excludedDnsNames?: string[];
   /**
@@ -2028,7 +2028,7 @@ export interface GooglePrivatecaCaPoolIssuancePolicyBaselineValuesNameConstraint
   * a domain with a leading period (e.g. '.example.com') to indicate
   * all email addresses in that domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#excluded_email_addresses GooglePrivatecaCaPool#excluded_email_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#excluded_email_addresses GooglePrivatecaCaPool#excluded_email_addresses}
   */
   readonly excludedEmailAddresses?: string[];
   /**
@@ -2037,7 +2037,7 @@ export interface GooglePrivatecaCaPoolIssuancePolicyBaselineValuesNameConstraint
   * For IPv6 addresses, the ranges are expressed in similar encoding as IPv4
   * addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#excluded_ip_ranges GooglePrivatecaCaPool#excluded_ip_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#excluded_ip_ranges GooglePrivatecaCaPool#excluded_ip_ranges}
   */
   readonly excludedIpRanges?: string[];
   /**
@@ -2045,7 +2045,7 @@ export interface GooglePrivatecaCaPoolIssuancePolicyBaselineValuesNameConstraint
   * The value can be a hostname or a domain with a
   * leading period (like '.example.com')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#excluded_uris GooglePrivatecaCaPool#excluded_uris}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#excluded_uris GooglePrivatecaCaPool#excluded_uris}
   */
   readonly excludedUris?: string[];
   /**
@@ -2055,7 +2055,7 @@ export interface GooglePrivatecaCaPoolIssuancePolicyBaselineValuesNameConstraint
   * For example, 'example.com', 'www.example.com', 'www.sub.example.com'
   * would satisfy 'example.com' while 'example1.com' does not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#permitted_dns_names GooglePrivatecaCaPool#permitted_dns_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#permitted_dns_names GooglePrivatecaCaPool#permitted_dns_names}
   */
   readonly permittedDnsNames?: string[];
   /**
@@ -2064,7 +2064,7 @@ export interface GooglePrivatecaCaPoolIssuancePolicyBaselineValuesNameConstraint
   * a domain with a leading period (e.g. '.example.com') to indicate
   * all email addresses in that domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#permitted_email_addresses GooglePrivatecaCaPool#permitted_email_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#permitted_email_addresses GooglePrivatecaCaPool#permitted_email_addresses}
   */
   readonly permittedEmailAddresses?: string[];
   /**
@@ -2073,7 +2073,7 @@ export interface GooglePrivatecaCaPoolIssuancePolicyBaselineValuesNameConstraint
   * For IPv6 addresses, the ranges are expressed in similar encoding as IPv4
   * addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#permitted_ip_ranges GooglePrivatecaCaPool#permitted_ip_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#permitted_ip_ranges GooglePrivatecaCaPool#permitted_ip_ranges}
   */
   readonly permittedIpRanges?: string[];
   /**
@@ -2081,7 +2081,7 @@ export interface GooglePrivatecaCaPoolIssuancePolicyBaselineValuesNameConstraint
   * The value can be a hostname or a domain with a
   * leading period (like '.example.com')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#permitted_uris GooglePrivatecaCaPool#permitted_uris}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#permitted_uris GooglePrivatecaCaPool#permitted_uris}
   */
   readonly permittedUris?: string[];
 }
@@ -2396,7 +2396,7 @@ export interface GooglePrivatecaCaPoolIssuancePolicyBaselineValuesPolicyIds {
   /**
   * An ObjectId specifies an object identifier (OID). These provide context and describe types in ASN.1 messages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#object_id_path GooglePrivatecaCaPool#object_id_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#object_id_path GooglePrivatecaCaPool#object_id_path}
   */
   readonly objectIdPath: number[];
 }
@@ -2512,37 +2512,37 @@ export interface GooglePrivatecaCaPoolIssuancePolicyBaselineValues {
   * Describes Online Certificate Status Protocol (OCSP) endpoint addresses that appear in the
   * "Authority Information Access" extension in the certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#aia_ocsp_servers GooglePrivatecaCaPool#aia_ocsp_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#aia_ocsp_servers GooglePrivatecaCaPool#aia_ocsp_servers}
   */
   readonly aiaOcspServers?: string[];
   /**
   * additional_extensions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#additional_extensions GooglePrivatecaCaPool#additional_extensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#additional_extensions GooglePrivatecaCaPool#additional_extensions}
   */
   readonly additionalExtensions?: GooglePrivatecaCaPoolIssuancePolicyBaselineValuesAdditionalExtensions[] | cdktn.IResolvable;
   /**
   * ca_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#ca_options GooglePrivatecaCaPool#ca_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#ca_options GooglePrivatecaCaPool#ca_options}
   */
   readonly caOptions: GooglePrivatecaCaPoolIssuancePolicyBaselineValuesCaOptions;
   /**
   * key_usage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#key_usage GooglePrivatecaCaPool#key_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#key_usage GooglePrivatecaCaPool#key_usage}
   */
   readonly keyUsage: GooglePrivatecaCaPoolIssuancePolicyBaselineValuesKeyUsage;
   /**
   * name_constraints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#name_constraints GooglePrivatecaCaPool#name_constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#name_constraints GooglePrivatecaCaPool#name_constraints}
   */
   readonly nameConstraints?: GooglePrivatecaCaPoolIssuancePolicyBaselineValuesNameConstraints;
   /**
   * policy_ids block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#policy_ids GooglePrivatecaCaPool#policy_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#policy_ids GooglePrivatecaCaPool#policy_ids}
   */
   readonly policyIds?: GooglePrivatecaCaPoolIssuancePolicyBaselineValuesPolicyIds[] | cdktn.IResolvable;
 }
@@ -2767,25 +2767,25 @@ export interface GooglePrivatecaCaPoolIssuancePolicyIdentityConstraintsCelExpres
   /**
   * Description of the expression. This is a longer text which describes the expression, e.g. when hovered over it in a UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#description GooglePrivatecaCaPool#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#description GooglePrivatecaCaPool#description}
   */
   readonly description?: string;
   /**
   * Textual representation of an expression in Common Expression Language syntax.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#expression GooglePrivatecaCaPool#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#expression GooglePrivatecaCaPool#expression}
   */
   readonly expression: string;
   /**
   * String indicating the location of the expression for error reporting, e.g. a file name and a position in the file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#location GooglePrivatecaCaPool#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#location GooglePrivatecaCaPool#location}
   */
   readonly location?: string;
   /**
   * Title for the expression, i.e. a short string describing its purpose. This can be used e.g. in UIs which allow to enter the expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#title GooglePrivatecaCaPool#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#title GooglePrivatecaCaPool#title}
   */
   readonly title?: string;
 }
@@ -2956,20 +2956,20 @@ export interface GooglePrivatecaCaPoolIssuancePolicyIdentityConstraints {
   * If this is set, the SubjectAltNames extension may be copied from a certificate request into the signed certificate.
   * Otherwise, the requested SubjectAltNames will be discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#allow_subject_alt_names_passthrough GooglePrivatecaCaPool#allow_subject_alt_names_passthrough}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#allow_subject_alt_names_passthrough GooglePrivatecaCaPool#allow_subject_alt_names_passthrough}
   */
   readonly allowSubjectAltNamesPassthrough: boolean | cdktn.IResolvable;
   /**
   * If this is set, the Subject field may be copied from a certificate request into the signed certificate.
   * Otherwise, the requested Subject will be discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#allow_subject_passthrough GooglePrivatecaCaPool#allow_subject_passthrough}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#allow_subject_passthrough GooglePrivatecaCaPool#allow_subject_passthrough}
   */
   readonly allowSubjectPassthrough: boolean | cdktn.IResolvable;
   /**
   * cel_expression block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#cel_expression GooglePrivatecaCaPool#cel_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#cel_expression GooglePrivatecaCaPool#cel_expression}
   */
   readonly celExpression?: GooglePrivatecaCaPoolIssuancePolicyIdentityConstraintsCelExpression;
 }
@@ -3103,6 +3103,243 @@ export class GooglePrivatecaCaPoolIssuancePolicyIdentityConstraintsOutputReferen
     return this._celExpression.internalValue;
   }
 }
+export interface GooglePrivatecaCaPoolIssuancePolicyPassthroughExtensionsAdditionalExtensions {
+  /**
+  * An ObjectId specifies an object identifier (OID). These provide context and describe types in ASN.1 messages.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#object_id_path GooglePrivatecaCaPool#object_id_path}
+  */
+  readonly objectIdPath: number[];
+}
+
+export function googlePrivatecaCaPoolIssuancePolicyPassthroughExtensionsAdditionalExtensionsToTerraform(struct?: GooglePrivatecaCaPoolIssuancePolicyPassthroughExtensionsAdditionalExtensions | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    object_id_path: cdktn.listMapper(cdktn.numberToTerraform, false)(struct!.objectIdPath),
+  }
+}
+
+
+export function googlePrivatecaCaPoolIssuancePolicyPassthroughExtensionsAdditionalExtensionsToHclTerraform(struct?: GooglePrivatecaCaPoolIssuancePolicyPassthroughExtensionsAdditionalExtensions | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    object_id_path: {
+      value: cdktn.listMapperHcl(cdktn.numberToHclTerraform, false)(struct!.objectIdPath),
+      isBlock: false,
+      type: "list",
+      storageClassType: "numberList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GooglePrivatecaCaPoolIssuancePolicyPassthroughExtensionsAdditionalExtensionsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GooglePrivatecaCaPoolIssuancePolicyPassthroughExtensionsAdditionalExtensions | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._objectIdPath !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.objectIdPath = this._objectIdPath;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GooglePrivatecaCaPoolIssuancePolicyPassthroughExtensionsAdditionalExtensions | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._objectIdPath = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._objectIdPath = value.objectIdPath;
+    }
+  }
+
+  // object_id_path - computed: false, optional: false, required: true
+  private _objectIdPath?: number[]; 
+  public get objectIdPath() {
+    return this.getNumberListAttribute('object_id_path');
+  }
+  public set objectIdPath(value: number[]) {
+    this._objectIdPath = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get objectIdPathInput() {
+    return this._objectIdPath;
+  }
+}
+
+export class GooglePrivatecaCaPoolIssuancePolicyPassthroughExtensionsAdditionalExtensionsList extends cdktn.ComplexList {
+  public internalValue? : GooglePrivatecaCaPoolIssuancePolicyPassthroughExtensionsAdditionalExtensions[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GooglePrivatecaCaPoolIssuancePolicyPassthroughExtensionsAdditionalExtensionsOutputReference {
+    return new GooglePrivatecaCaPoolIssuancePolicyPassthroughExtensionsAdditionalExtensionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GooglePrivatecaCaPoolIssuancePolicyPassthroughExtensions {
+  /**
+  * A set of named X.509 extensions. Will be combined with additional_extensions to determine the full set of X.509 extensions.
+  * Acceptable values are: 'BASE_KEY_USAGE', 'EXTENDED_KEY_USAGE', 'CA_OPTIONS', 'POLICY_IDS', 'AIA_OCSP_SERVERS', 'NAME_CONSTRAINTS'.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#known_extensions GooglePrivatecaCaPool#known_extensions}
+  */
+  readonly knownExtensions?: string[];
+  /**
+  * additional_extensions block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#additional_extensions GooglePrivatecaCaPool#additional_extensions}
+  */
+  readonly additionalExtensions?: GooglePrivatecaCaPoolIssuancePolicyPassthroughExtensionsAdditionalExtensions[] | cdktn.IResolvable;
+}
+
+export function googlePrivatecaCaPoolIssuancePolicyPassthroughExtensionsToTerraform(struct?: GooglePrivatecaCaPoolIssuancePolicyPassthroughExtensionsOutputReference | GooglePrivatecaCaPoolIssuancePolicyPassthroughExtensions): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    known_extensions: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.knownExtensions),
+    additional_extensions: cdktn.listMapper(googlePrivatecaCaPoolIssuancePolicyPassthroughExtensionsAdditionalExtensionsToTerraform, true)(struct!.additionalExtensions),
+  }
+}
+
+
+export function googlePrivatecaCaPoolIssuancePolicyPassthroughExtensionsToHclTerraform(struct?: GooglePrivatecaCaPoolIssuancePolicyPassthroughExtensionsOutputReference | GooglePrivatecaCaPoolIssuancePolicyPassthroughExtensions): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    known_extensions: {
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.knownExtensions),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    additional_extensions: {
+      value: cdktn.listMapperHcl(googlePrivatecaCaPoolIssuancePolicyPassthroughExtensionsAdditionalExtensionsToHclTerraform, true)(struct!.additionalExtensions),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GooglePrivatecaCaPoolIssuancePolicyPassthroughExtensionsAdditionalExtensionsList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GooglePrivatecaCaPoolIssuancePolicyPassthroughExtensionsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GooglePrivatecaCaPoolIssuancePolicyPassthroughExtensions | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._knownExtensions !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.knownExtensions = this._knownExtensions;
+    }
+    if (this._additionalExtensions?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.additionalExtensions = this._additionalExtensions?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GooglePrivatecaCaPoolIssuancePolicyPassthroughExtensions | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._knownExtensions = undefined;
+      this._additionalExtensions.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._knownExtensions = value.knownExtensions;
+      this._additionalExtensions.internalValue = value.additionalExtensions;
+    }
+  }
+
+  // known_extensions - computed: false, optional: true, required: false
+  private _knownExtensions?: string[]; 
+  public get knownExtensions() {
+    return this.getListAttribute('known_extensions');
+  }
+  public set knownExtensions(value: string[]) {
+    this._knownExtensions = value;
+  }
+  public resetKnownExtensions() {
+    this._knownExtensions = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get knownExtensionsInput() {
+    return this._knownExtensions;
+  }
+
+  // additional_extensions - computed: false, optional: true, required: false
+  private _additionalExtensions = new GooglePrivatecaCaPoolIssuancePolicyPassthroughExtensionsAdditionalExtensionsList(this, "additional_extensions", false);
+  public get additionalExtensions() {
+    return this._additionalExtensions;
+  }
+  public putAdditionalExtensions(value: GooglePrivatecaCaPoolIssuancePolicyPassthroughExtensionsAdditionalExtensions[] | cdktn.IResolvable) {
+    this._additionalExtensions.internalValue = value;
+  }
+  public resetAdditionalExtensions() {
+    this._additionalExtensions.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get additionalExtensionsInput() {
+    return this._additionalExtensions.internalValue;
+  }
+}
 export interface GooglePrivatecaCaPoolIssuancePolicy {
   /**
   * If set to true, allows requesters to specify the requested_not_before_time
@@ -3110,7 +3347,7 @@ export interface GooglePrivatecaCaPoolIssuancePolicy {
   * option enabled will have a 'not_before_time' equal to the value
   * specified in the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#allow_requester_specified_not_before_time GooglePrivatecaCaPool#allow_requester_specified_not_before_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#allow_requester_specified_not_before_time GooglePrivatecaCaPool#allow_requester_specified_not_before_time}
   */
   readonly allowRequesterSpecifiedNotBeforeTime?: boolean | cdktn.IResolvable;
   /**
@@ -3120,40 +3357,46 @@ export interface GooglePrivatecaCaPoolIssuancePolicy {
   * time minus the backdate_duration. The not_after_time will be adjusted to preserve the
   * requested lifetime. The backdate_duration must be less than or equal to 48 hours.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#backdate_duration GooglePrivatecaCaPool#backdate_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#backdate_duration GooglePrivatecaCaPool#backdate_duration}
   */
   readonly backdateDuration?: string;
   /**
   * The maximum lifetime allowed for issued Certificates. Note that if the issuing CertificateAuthority
   * expires before a Certificate's requested maximumLifetime, the effective lifetime will be explicitly truncated to match it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#maximum_lifetime GooglePrivatecaCaPool#maximum_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#maximum_lifetime GooglePrivatecaCaPool#maximum_lifetime}
   */
   readonly maximumLifetime?: string;
   /**
   * allowed_issuance_modes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#allowed_issuance_modes GooglePrivatecaCaPool#allowed_issuance_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#allowed_issuance_modes GooglePrivatecaCaPool#allowed_issuance_modes}
   */
   readonly allowedIssuanceModes?: GooglePrivatecaCaPoolIssuancePolicyAllowedIssuanceModes;
   /**
   * allowed_key_types block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#allowed_key_types GooglePrivatecaCaPool#allowed_key_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#allowed_key_types GooglePrivatecaCaPool#allowed_key_types}
   */
   readonly allowedKeyTypes?: GooglePrivatecaCaPoolIssuancePolicyAllowedKeyTypes[] | cdktn.IResolvable;
   /**
   * baseline_values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#baseline_values GooglePrivatecaCaPool#baseline_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#baseline_values GooglePrivatecaCaPool#baseline_values}
   */
   readonly baselineValues?: GooglePrivatecaCaPoolIssuancePolicyBaselineValues;
   /**
   * identity_constraints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#identity_constraints GooglePrivatecaCaPool#identity_constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#identity_constraints GooglePrivatecaCaPool#identity_constraints}
   */
   readonly identityConstraints?: GooglePrivatecaCaPoolIssuancePolicyIdentityConstraints;
+  /**
+  * passthrough_extensions block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#passthrough_extensions GooglePrivatecaCaPool#passthrough_extensions}
+  */
+  readonly passthroughExtensions?: GooglePrivatecaCaPoolIssuancePolicyPassthroughExtensions;
 }
 
 export function googlePrivatecaCaPoolIssuancePolicyToTerraform(struct?: GooglePrivatecaCaPoolIssuancePolicyOutputReference | GooglePrivatecaCaPoolIssuancePolicy): any {
@@ -3169,6 +3412,7 @@ export function googlePrivatecaCaPoolIssuancePolicyToTerraform(struct?: GooglePr
     allowed_key_types: cdktn.listMapper(googlePrivatecaCaPoolIssuancePolicyAllowedKeyTypesToTerraform, true)(struct!.allowedKeyTypes),
     baseline_values: googlePrivatecaCaPoolIssuancePolicyBaselineValuesToTerraform(struct!.baselineValues),
     identity_constraints: googlePrivatecaCaPoolIssuancePolicyIdentityConstraintsToTerraform(struct!.identityConstraints),
+    passthrough_extensions: googlePrivatecaCaPoolIssuancePolicyPassthroughExtensionsToTerraform(struct!.passthroughExtensions),
   }
 }
 
@@ -3221,6 +3465,12 @@ export function googlePrivatecaCaPoolIssuancePolicyToHclTerraform(struct?: Googl
       type: "list",
       storageClassType: "GooglePrivatecaCaPoolIssuancePolicyIdentityConstraintsList",
     },
+    passthrough_extensions: {
+      value: googlePrivatecaCaPoolIssuancePolicyPassthroughExtensionsToHclTerraform(struct!.passthroughExtensions),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GooglePrivatecaCaPoolIssuancePolicyPassthroughExtensionsList",
+    },
   };
 
   // remove undefined attributes
@@ -3269,6 +3519,10 @@ export class GooglePrivatecaCaPoolIssuancePolicyOutputReference extends cdktn.Co
       hasAnyValues = true;
       internalValueResult.identityConstraints = this._identityConstraints?.internalValue;
     }
+    if (this._passthroughExtensions?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.passthroughExtensions = this._passthroughExtensions?.internalValue;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -3282,6 +3536,7 @@ export class GooglePrivatecaCaPoolIssuancePolicyOutputReference extends cdktn.Co
       this._allowedKeyTypes.internalValue = undefined;
       this._baselineValues.internalValue = undefined;
       this._identityConstraints.internalValue = undefined;
+      this._passthroughExtensions.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
@@ -3292,6 +3547,7 @@ export class GooglePrivatecaCaPoolIssuancePolicyOutputReference extends cdktn.Co
       this._allowedKeyTypes.internalValue = value.allowedKeyTypes;
       this._baselineValues.internalValue = value.baselineValues;
       this._identityConstraints.internalValue = value.identityConstraints;
+      this._passthroughExtensions.internalValue = value.passthroughExtensions;
     }
   }
 
@@ -3406,6 +3662,22 @@ export class GooglePrivatecaCaPoolIssuancePolicyOutputReference extends cdktn.Co
   public get identityConstraintsInput() {
     return this._identityConstraints.internalValue;
   }
+
+  // passthrough_extensions - computed: false, optional: true, required: false
+  private _passthroughExtensions = new GooglePrivatecaCaPoolIssuancePolicyPassthroughExtensionsOutputReference(this, "passthrough_extensions");
+  public get passthroughExtensions() {
+    return this._passthroughExtensions;
+  }
+  public putPassthroughExtensions(value: GooglePrivatecaCaPoolIssuancePolicyPassthroughExtensions) {
+    this._passthroughExtensions.internalValue = value;
+  }
+  public resetPassthroughExtensions() {
+    this._passthroughExtensions.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get passthroughExtensionsInput() {
+    return this._passthroughExtensions.internalValue;
+  }
 }
 export interface GooglePrivatecaCaPoolPublishingOptions {
   /**
@@ -3413,7 +3685,7 @@ export interface GooglePrivatecaCaPoolPublishingOptions {
   * certificate and CRLs. If this is omitted, CA certificates and CRLs
   * will be published in PEM. Possible values: ["PEM", "DER"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#encoding_format GooglePrivatecaCaPool#encoding_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#encoding_format GooglePrivatecaCaPool#encoding_format}
   */
   readonly encodingFormat?: string;
   /**
@@ -3421,7 +3693,7 @@ export interface GooglePrivatecaCaPoolPublishingOptions {
   * X.509 extension in all issued Certificates. If this is false, the CA certificate will not be published and the corresponding
   * X.509 extension will not be written in issued certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#publish_ca_cert GooglePrivatecaCaPool#publish_ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#publish_ca_cert GooglePrivatecaCaPool#publish_ca_cert}
   */
   readonly publishCaCert: boolean | cdktn.IResolvable;
   /**
@@ -3430,7 +3702,7 @@ export interface GooglePrivatecaCaPoolPublishingOptions {
   * be written in issued certificates. CRLs will expire 7 days from their creation. However, we will rebuild daily. CRLs are
   * also rebuilt shortly after a certificate is revoked.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#publish_crl GooglePrivatecaCaPool#publish_crl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#publish_crl GooglePrivatecaCaPool#publish_crl}
   */
   readonly publishCrl: boolean | cdktn.IResolvable;
 }
@@ -3566,15 +3838,15 @@ export class GooglePrivatecaCaPoolPublishingOptionsOutputReference extends cdktn
 }
 export interface GooglePrivatecaCaPoolTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#create GooglePrivatecaCaPool#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#create GooglePrivatecaCaPool#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#delete GooglePrivatecaCaPool#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#delete GooglePrivatecaCaPool#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#update GooglePrivatecaCaPool#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#update GooglePrivatecaCaPool#update}
   */
   readonly update?: string;
 }
@@ -3726,7 +3998,7 @@ export class GooglePrivatecaCaPoolTimeoutsOutputReference extends cdktn.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool google_privateca_ca_pool}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool google_privateca_ca_pool}
 */
 export class GooglePrivatecaCaPool extends cdktn.TerraformResource {
 
@@ -3742,7 +4014,7 @@ export class GooglePrivatecaCaPool extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GooglePrivatecaCaPool resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GooglePrivatecaCaPool to import
-  * @param importFromId The id of the existing GooglePrivatecaCaPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GooglePrivatecaCaPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GooglePrivatecaCaPool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -3754,7 +4026,7 @@ export class GooglePrivatecaCaPool extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_privateca_ca_pool google_privateca_ca_pool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_privateca_ca_pool google_privateca_ca_pool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3765,7 +4037,7 @@ export class GooglePrivatecaCaPool extends cdktn.TerraformResource {
       terraformResourceType: 'google_privateca_ca_pool',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '8.9.0',
+        providerVersion: '8.11.0',
         providerVersionConstraint: '~> 8.0'
       },
       provider: config.provider,

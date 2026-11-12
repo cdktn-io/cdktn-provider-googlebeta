@@ -120,6 +120,7 @@ Object.defineProperty(exports, 'googleArtifactRegistryRule', { get: function () 
 Object.defineProperty(exports, 'googleArtifactRegistryVpcscConfig', { get: function () { return require('./google-artifact-registry-vpcsc-config'); } });
 Object.defineProperty(exports, 'googleAssuredWorkloadsWorkload', { get: function () { return require('./google-assured-workloads-workload'); } });
 Object.defineProperty(exports, 'googleBackupDrAutoProtectionPolicy', { get: function () { return require('./google-backup-dr-auto-protection-policy'); } });
+Object.defineProperty(exports, 'googleBackupDrAutoProtectionPolicyBinding', { get: function () { return require('./google-backup-dr-auto-protection-policy-binding'); } });
 Object.defineProperty(exports, 'googleBackupDrBackupPlan', { get: function () { return require('./google-backup-dr-backup-plan'); } });
 Object.defineProperty(exports, 'googleBackupDrBackupPlanAssociation', { get: function () { return require('./google-backup-dr-backup-plan-association'); } });
 Object.defineProperty(exports, 'googleBackupDrBackupVault', { get: function () { return require('./google-backup-dr-backup-vault'); } });
@@ -598,6 +599,7 @@ Object.defineProperty(exports, 'googleDataFusionInstanceIamBinding', { get: func
 Object.defineProperty(exports, 'googleDataFusionInstanceIamMember', { get: function () { return require('./google-data-fusion-instance-iam-member'); } });
 Object.defineProperty(exports, 'googleDataFusionInstanceIamPolicy', { get: function () { return require('./google-data-fusion-instance-iam-policy'); } });
 Object.defineProperty(exports, 'googleDataLineageConfig', { get: function () { return require('./google-data-lineage-config'); } });
+Object.defineProperty(exports, 'googleDataLineageOpenLineageJob', { get: function () { return require('./google-data-lineage-open-lineage-job'); } });
 Object.defineProperty(exports, 'googleDataLossPreventionContentPolicy', { get: function () { return require('./google-data-loss-prevention-content-policy'); } });
 Object.defineProperty(exports, 'googleDataLossPreventionDeidentifyTemplate', { get: function () { return require('./google-data-loss-prevention-deidentify-template'); } });
 Object.defineProperty(exports, 'googleDataLossPreventionDiscoveryConfig', { get: function () { return require('./google-data-loss-prevention-discovery-config'); } });
@@ -608,6 +610,7 @@ Object.defineProperty(exports, 'googleDataPipelinePipeline', { get: function () 
 Object.defineProperty(exports, 'googleDatabaseMigrationServiceConnectionProfile', { get: function () { return require('./google-database-migration-service-connection-profile'); } });
 Object.defineProperty(exports, 'googleDatabaseMigrationServiceMigrationJob', { get: function () { return require('./google-database-migration-service-migration-job'); } });
 Object.defineProperty(exports, 'googleDatabaseMigrationServicePrivateConnection', { get: function () { return require('./google-database-migration-service-private-connection'); } });
+Object.defineProperty(exports, 'googleDataflowConfigStoreSetting', { get: function () { return require('./google-dataflow-config-store-setting'); } });
 Object.defineProperty(exports, 'googleDataflowFlexTemplateJob', { get: function () { return require('./google-dataflow-flex-template-job'); } });
 Object.defineProperty(exports, 'googleDataflowJob', { get: function () { return require('./google-dataflow-job'); } });
 Object.defineProperty(exports, 'googleDataformConfig', { get: function () { return require('./google-dataform-config'); } });
@@ -707,6 +710,7 @@ Object.defineProperty(exports, 'googleDeveloperConnectConnection', { get: functi
 Object.defineProperty(exports, 'googleDeveloperConnectGitRepositoryLink', { get: function () { return require('./google-developer-connect-git-repository-link'); } });
 Object.defineProperty(exports, 'googleDeveloperConnectInsightsConfig', { get: function () { return require('./google-developer-connect-insights-config'); } });
 Object.defineProperty(exports, 'googleDialogflowAgent', { get: function () { return require('./google-dialogflow-agent'); } });
+Object.defineProperty(exports, 'googleDialogflowCompanionAgent', { get: function () { return require('./google-dialogflow-companion-agent'); } });
 Object.defineProperty(exports, 'googleDialogflowConversationProfile', { get: function () { return require('./google-dialogflow-conversation-profile'); } });
 Object.defineProperty(exports, 'googleDialogflowCxAgent', { get: function () { return require('./google-dialogflow-cx-agent'); } });
 Object.defineProperty(exports, 'googleDialogflowCxEntityType', { get: function () { return require('./google-dialogflow-cx-entity-type'); } });
@@ -740,6 +744,7 @@ Object.defineProperty(exports, 'googleDiscoveryEngineControl', { get: function (
 Object.defineProperty(exports, 'googleDiscoveryEngineDataConnector', { get: function () { return require('./google-discovery-engine-data-connector'); } });
 Object.defineProperty(exports, 'googleDiscoveryEngineDataStore', { get: function () { return require('./google-discovery-engine-data-store'); } });
 Object.defineProperty(exports, 'googleDiscoveryEngineLicenseConfig', { get: function () { return require('./google-discovery-engine-license-config'); } });
+Object.defineProperty(exports, 'googleDiscoveryEngineProjectProvision', { get: function () { return require('./google-discovery-engine-project-provision'); } });
 Object.defineProperty(exports, 'googleDiscoveryEngineRecommendationEngine', { get: function () { return require('./google-discovery-engine-recommendation-engine'); } });
 Object.defineProperty(exports, 'googleDiscoveryEngineSchema', { get: function () { return require('./google-discovery-engine-schema'); } });
 Object.defineProperty(exports, 'googleDiscoveryEngineSearchEngine', { get: function () { return require('./google-discovery-engine-search-engine'); } });
@@ -1064,6 +1069,7 @@ Object.defineProperty(exports, 'googleLoggingSavedQuery', { get: function () { r
 Object.defineProperty(exports, 'googleLookerInstance', { get: function () { return require('./google-looker-instance'); } });
 Object.defineProperty(exports, 'googleLustreInstance', { get: function () { return require('./google-lustre-instance'); } });
 Object.defineProperty(exports, 'googleManagedKafkaAcl', { get: function () { return require('./google-managed-kafka-acl'); } });
+Object.defineProperty(exports, 'googleManagedKafkaAclBinding', { get: function () { return require('./google-managed-kafka-acl-binding'); } });
 Object.defineProperty(exports, 'googleManagedKafkaCluster', { get: function () { return require('./google-managed-kafka-cluster'); } });
 Object.defineProperty(exports, 'googleManagedKafkaConnectCluster', { get: function () { return require('./google-managed-kafka-connect-cluster'); } });
 Object.defineProperty(exports, 'googleManagedKafkaConnector', { get: function () { return require('./google-managed-kafka-connector'); } });
@@ -1202,6 +1208,7 @@ Object.defineProperty(exports, 'googleOracleDatabaseExascaleDbStorageVault', { g
 Object.defineProperty(exports, 'googleOracleDatabaseGoldengateConnection', { get: function () { return require('./google-oracle-database-goldengate-connection'); } });
 Object.defineProperty(exports, 'googleOracleDatabaseGoldengateConnectionAssignment', { get: function () { return require('./google-oracle-database-goldengate-connection-assignment'); } });
 Object.defineProperty(exports, 'googleOracleDatabaseGoldengateDeployment', { get: function () { return require('./google-oracle-database-goldengate-deployment'); } });
+Object.defineProperty(exports, 'googleOracleDatabaseOdbDnsZone', { get: function () { return require('./google-oracle-database-odb-dns-zone'); } });
 Object.defineProperty(exports, 'googleOracleDatabaseOdbNetwork', { get: function () { return require('./google-oracle-database-odb-network'); } });
 Object.defineProperty(exports, 'googleOracleDatabaseOdbSubnet', { get: function () { return require('./google-oracle-database-odb-subnet'); } });
 Object.defineProperty(exports, 'googleOrgPolicyCustomConstraint', { get: function () { return require('./google-org-policy-custom-constraint'); } });
@@ -1271,6 +1278,7 @@ Object.defineProperty(exports, 'googlePubsubTopicIamPolicy', { get: function () 
 Object.defineProperty(exports, 'googleRecaptchaEnterpriseKey', { get: function () { return require('./google-recaptcha-enterprise-key'); } });
 Object.defineProperty(exports, 'googleRedisCluster', { get: function () { return require('./google-redis-cluster'); } });
 Object.defineProperty(exports, 'googleRedisClusterAclPolicy', { get: function () { return require('./google-redis-cluster-acl-policy'); } });
+Object.defineProperty(exports, 'googleRedisClusterTokenAuthUser', { get: function () { return require('./google-redis-cluster-token-auth-user'); } });
 Object.defineProperty(exports, 'googleRedisClusterUserCreatedConnections', { get: function () { return require('./google-redis-cluster-user-created-connections'); } });
 Object.defineProperty(exports, 'googleRedisInstance', { get: function () { return require('./google-redis-instance'); } });
 Object.defineProperty(exports, 'googleResourceManagerBoundary', { get: function () { return require('./google-resource-manager-boundary'); } });
@@ -1328,6 +1336,7 @@ Object.defineProperty(exports, 'googleSecretManagerRegionalSecret', { get: funct
 Object.defineProperty(exports, 'googleSecretManagerRegionalSecretIamBinding', { get: function () { return require('./google-secret-manager-regional-secret-iam-binding'); } });
 Object.defineProperty(exports, 'googleSecretManagerRegionalSecretIamMember', { get: function () { return require('./google-secret-manager-regional-secret-iam-member'); } });
 Object.defineProperty(exports, 'googleSecretManagerRegionalSecretIamPolicy', { get: function () { return require('./google-secret-manager-regional-secret-iam-policy'); } });
+Object.defineProperty(exports, 'googleSecretManagerRegionalSecretManagedRotation', { get: function () { return require('./google-secret-manager-regional-secret-managed-rotation'); } });
 Object.defineProperty(exports, 'googleSecretManagerRegionalSecretVersion', { get: function () { return require('./google-secret-manager-regional-secret-version'); } });
 Object.defineProperty(exports, 'googleSecretManagerSecret', { get: function () { return require('./google-secret-manager-secret'); } });
 Object.defineProperty(exports, 'googleSecretManagerSecretIamBinding', { get: function () { return require('./google-secret-manager-secret-iam-binding'); } });
@@ -1447,6 +1456,7 @@ Object.defineProperty(exports, 'googleVertexAiEndpointIamBinding', { get: functi
 Object.defineProperty(exports, 'googleVertexAiEndpointIamMember', { get: function () { return require('./google-vertex-ai-endpoint-iam-member'); } });
 Object.defineProperty(exports, 'googleVertexAiEndpointIamPolicy', { get: function () { return require('./google-vertex-ai-endpoint-iam-policy'); } });
 Object.defineProperty(exports, 'googleVertexAiEndpointWithModelGardenDeployment', { get: function () { return require('./google-vertex-ai-endpoint-with-model-garden-deployment'); } });
+Object.defineProperty(exports, 'googleVertexAiEvaluationItem', { get: function () { return require('./google-vertex-ai-evaluation-item'); } });
 Object.defineProperty(exports, 'googleVertexAiEvaluationMetric', { get: function () { return require('./google-vertex-ai-evaluation-metric'); } });
 Object.defineProperty(exports, 'googleVertexAiFeatureGroup', { get: function () { return require('./google-vertex-ai-feature-group'); } });
 Object.defineProperty(exports, 'googleVertexAiFeatureGroupFeature', { get: function () { return require('./google-vertex-ai-feature-group-feature'); } });
@@ -1491,6 +1501,7 @@ Object.defineProperty(exports, 'googleVertexAiSemanticGovernancePolicyEngine', {
 Object.defineProperty(exports, 'googleVertexAiTensorboard', { get: function () { return require('./google-vertex-ai-tensorboard'); } });
 Object.defineProperty(exports, 'googleVertexAiTensorboardExperiment', { get: function () { return require('./google-vertex-ai-tensorboard-experiment'); } });
 Object.defineProperty(exports, 'googleVertexAiTensorboardRun', { get: function () { return require('./google-vertex-ai-tensorboard-run'); } });
+Object.defineProperty(exports, 'googleVertexAiTrainingPipeline', { get: function () { return require('./google-vertex-ai-training-pipeline'); } });
 Object.defineProperty(exports, 'googleVmwareengineCluster', { get: function () { return require('./google-vmwareengine-cluster'); } });
 Object.defineProperty(exports, 'googleVmwareengineDatastore', { get: function () { return require('./google-vmwareengine-datastore'); } });
 Object.defineProperty(exports, 'googleVmwareengineExternalAccessRule', { get: function () { return require('./google-vmwareengine-external-access-rule'); } });
@@ -1884,6 +1895,7 @@ Object.defineProperty(exports, 'dataGoogleOracleDatabaseGoldengateConnectionType
 Object.defineProperty(exports, 'dataGoogleOracleDatabaseGoldengateDeploymentEnvironments', { get: function () { return require('./data-google-oracle-database-goldengate-deployment-environments'); } });
 Object.defineProperty(exports, 'dataGoogleOracleDatabaseGoldengateDeploymentTypes', { get: function () { return require('./data-google-oracle-database-goldengate-deployment-types'); } });
 Object.defineProperty(exports, 'dataGoogleOracleDatabaseGoldengateDeploymentVersions', { get: function () { return require('./data-google-oracle-database-goldengate-deployment-versions'); } });
+Object.defineProperty(exports, 'dataGoogleOracleDatabaseOdbDnsZone', { get: function () { return require('./data-google-oracle-database-odb-dns-zone'); } });
 Object.defineProperty(exports, 'dataGoogleOracleDatabaseOdbNetwork', { get: function () { return require('./data-google-oracle-database-odb-network'); } });
 Object.defineProperty(exports, 'dataGoogleOracleDatabaseOdbSubnet', { get: function () { return require('./data-google-oracle-database-odb-subnet'); } });
 Object.defineProperty(exports, 'dataGoogleOrganization', { get: function () { return require('./data-google-organization'); } });
@@ -1918,6 +1930,7 @@ Object.defineProperty(exports, 'dataGooglePubsubTopic', { get: function () { ret
 Object.defineProperty(exports, 'dataGooglePubsubTopicIamPolicy', { get: function () { return require('./data-google-pubsub-topic-iam-policy'); } });
 Object.defineProperty(exports, 'dataGoogleRedisCluster', { get: function () { return require('./data-google-redis-cluster'); } });
 Object.defineProperty(exports, 'dataGoogleRedisClusterAclPolicy', { get: function () { return require('./data-google-redis-cluster-acl-policy'); } });
+Object.defineProperty(exports, 'dataGoogleRedisClusterTokenAuthUser', { get: function () { return require('./data-google-redis-cluster-token-auth-user'); } });
 Object.defineProperty(exports, 'dataGoogleRedisInstance', { get: function () { return require('./data-google-redis-instance'); } });
 Object.defineProperty(exports, 'dataGoogleRuntimeconfigConfig', { get: function () { return require('./data-google-runtimeconfig-config'); } });
 Object.defineProperty(exports, 'dataGoogleRuntimeconfigConfigIamPolicy', { get: function () { return require('./data-google-runtimeconfig-config-iam-policy'); } });

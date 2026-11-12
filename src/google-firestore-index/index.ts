@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_firestore_index
+// https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_firestore_index
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,19 +15,19 @@ export interface GoogleFirestoreIndexConfig extends cdktn.TerraformMetaArguments
   /**
   * The API scope at which a query is run. Default value: "ANY_API" Possible values: ["ANY_API", "DATASTORE_MODE_API", "MONGODB_COMPATIBLE_API"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_firestore_index#api_scope GoogleFirestoreIndex#api_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_firestore_index#api_scope GoogleFirestoreIndex#api_scope}
   */
   readonly apiScope?: string;
   /**
   * The collection being indexed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_firestore_index#collection GoogleFirestoreIndex#collection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_firestore_index#collection GoogleFirestoreIndex#collection}
   */
   readonly collection: string;
   /**
   * The Firestore database id. Defaults to '"(default)"'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_firestore_index#database GoogleFirestoreIndex#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_firestore_index#database GoogleFirestoreIndex#database}
   */
   readonly database?: string;
   /**
@@ -39,17 +39,17 @@ export interface GoogleFirestoreIndexConfig extends cdktn.TerraformMetaArguments
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_firestore_index#deletion_policy GoogleFirestoreIndex#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_firestore_index#deletion_policy GoogleFirestoreIndex#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * The density configuration for this index. Possible values: ["SPARSE_ALL", "SPARSE_ANY", "DENSE"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_firestore_index#density GoogleFirestoreIndex#density}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_firestore_index#density GoogleFirestoreIndex#density}
   */
   readonly density?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_firestore_index#id GoogleFirestoreIndex#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_firestore_index#id GoogleFirestoreIndex#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -58,41 +58,47 @@ export interface GoogleFirestoreIndexConfig extends cdktn.TerraformMetaArguments
   /**
   * Optional. Whether the index is multikey. By default, the index is not multikey. For non-multikey indexes, none of the paths in the index definition reach or traverse an array, except via an explicit array index. For multikey indexes, at most one of the paths in the index definition reach or traverse an array, except via an explicit array index. Violations will result in errors. Note this field only applies to indexes with MONGODB_COMPATIBLE_API ApiScope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_firestore_index#multikey GoogleFirestoreIndex#multikey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_firestore_index#multikey GoogleFirestoreIndex#multikey}
   */
   readonly multikey?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_firestore_index#project GoogleFirestoreIndex#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_firestore_index#project GoogleFirestoreIndex#project}
   */
   readonly project?: string;
   /**
   * The scope at which a query is run. Default value: "COLLECTION" Possible values: ["COLLECTION", "COLLECTION_GROUP", "COLLECTION_RECURSIVE"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_firestore_index#query_scope GoogleFirestoreIndex#query_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_firestore_index#query_scope GoogleFirestoreIndex#query_scope}
   */
   readonly queryScope?: string;
   /**
   * Whether to skip waiting for the index to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_firestore_index#skip_wait GoogleFirestoreIndex#skip_wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_firestore_index#skip_wait GoogleFirestoreIndex#skip_wait}
   */
   readonly skipWait?: boolean | cdktn.IResolvable;
   /**
   * Whether it is an unique index. Unique index ensures all values for the indexed field(s) are unique across documents.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_firestore_index#unique GoogleFirestoreIndex#unique}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_firestore_index#unique GoogleFirestoreIndex#unique}
   */
   readonly unique?: boolean | cdktn.IResolvable;
   /**
   * fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_firestore_index#fields GoogleFirestoreIndex#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_firestore_index#fields GoogleFirestoreIndex#fields}
   */
   readonly fields: GoogleFirestoreIndexFields[] | cdktn.IResolvable;
   /**
+  * search_index_options block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_firestore_index#search_index_options GoogleFirestoreIndex#search_index_options}
+  */
+  readonly searchIndexOptions?: GoogleFirestoreIndexSearchIndexOptions;
+  /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_firestore_index#timeouts GoogleFirestoreIndex#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_firestore_index#timeouts GoogleFirestoreIndex#timeouts}
   */
   readonly timeouts?: GoogleFirestoreIndexTimeouts;
 }
@@ -101,7 +107,7 @@ export interface GoogleFirestoreIndexFieldsSearchConfigGeoSpec {
   * If true, disables GeoJSON indexing for the field. By default, GeoJSON points are indexed.
   * Firestore GeoPoints are indexed regardless of the value of this field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_firestore_index#geo_json_indexing_disabled GoogleFirestoreIndex#geo_json_indexing_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_firestore_index#geo_json_indexing_disabled GoogleFirestoreIndex#geo_json_indexing_disabled}
   */
   readonly geoJsonIndexingDisabled: boolean | cdktn.IResolvable;
 }
@@ -184,13 +190,13 @@ export interface GoogleFirestoreIndexFieldsSearchConfigTextSpecIndexSpecs {
   /**
   * Ways to index the text field value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_firestore_index#index_type GoogleFirestoreIndex#index_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_firestore_index#index_type GoogleFirestoreIndex#index_type}
   */
   readonly indexType?: string;
   /**
   * How to match the text field value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_firestore_index#match_type GoogleFirestoreIndex#match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_firestore_index#match_type GoogleFirestoreIndex#match_type}
   */
   readonly matchType?: string;
 }
@@ -337,7 +343,7 @@ export interface GoogleFirestoreIndexFieldsSearchConfigTextSpec {
   /**
   * index_specs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_firestore_index#index_specs GoogleFirestoreIndex#index_specs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_firestore_index#index_specs GoogleFirestoreIndex#index_specs}
   */
   readonly indexSpecs: GoogleFirestoreIndexFieldsSearchConfigTextSpecIndexSpecs[] | cdktn.IResolvable;
 }
@@ -420,13 +426,13 @@ export interface GoogleFirestoreIndexFieldsSearchConfig {
   /**
   * geo_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_firestore_index#geo_spec GoogleFirestoreIndex#geo_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_firestore_index#geo_spec GoogleFirestoreIndex#geo_spec}
   */
   readonly geoSpec?: GoogleFirestoreIndexFieldsSearchConfigGeoSpec;
   /**
   * text_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_firestore_index#text_spec GoogleFirestoreIndex#text_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_firestore_index#text_spec GoogleFirestoreIndex#text_spec}
   */
   readonly textSpec?: GoogleFirestoreIndexFieldsSearchConfigTextSpec;
 }
@@ -591,13 +597,13 @@ export interface GoogleFirestoreIndexFieldsVectorConfig {
   * The resulting index will only include vectors of this dimension, and can be used for vector search
   * with the same dimension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_firestore_index#dimension GoogleFirestoreIndex#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_firestore_index#dimension GoogleFirestoreIndex#dimension}
   */
   readonly dimension?: number;
   /**
   * flat block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_firestore_index#flat GoogleFirestoreIndex#flat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_firestore_index#flat GoogleFirestoreIndex#flat}
   */
   readonly flat?: GoogleFirestoreIndexFieldsVectorConfigFlat;
 }
@@ -713,32 +719,32 @@ export interface GoogleFirestoreIndexFields {
   * Indicates that this field supports operations on arrayValues. Only one of 'order', 'arrayConfig', 'searchConfig' and
   * 'vectorConfig' can be specified. Possible values: ["CONTAINS"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_firestore_index#array_config GoogleFirestoreIndex#array_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_firestore_index#array_config GoogleFirestoreIndex#array_config}
   */
   readonly arrayConfig?: string;
   /**
   * Name of the field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_firestore_index#field_path GoogleFirestoreIndex#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_firestore_index#field_path GoogleFirestoreIndex#field_path}
   */
   readonly fieldPath?: string;
   /**
   * Indicates that this field supports ordering by the specified order or comparing using =, <, <=, >, >=.
   * Only one of 'order', 'arrayConfig', 'searchConfig' and 'vectorConfig' can be specified. Possible values: ["ASCENDING", "DESCENDING"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_firestore_index#order GoogleFirestoreIndex#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_firestore_index#order GoogleFirestoreIndex#order}
   */
   readonly order?: string;
   /**
   * search_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_firestore_index#search_config GoogleFirestoreIndex#search_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_firestore_index#search_config GoogleFirestoreIndex#search_config}
   */
   readonly searchConfig?: GoogleFirestoreIndexFieldsSearchConfig;
   /**
   * vector_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_firestore_index#vector_config GoogleFirestoreIndex#vector_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_firestore_index#vector_config GoogleFirestoreIndex#vector_config}
   */
   readonly vectorConfig?: GoogleFirestoreIndexFieldsVectorConfig;
 }
@@ -968,17 +974,139 @@ export class GoogleFirestoreIndexFieldsList extends cdktn.ComplexList {
     return new GoogleFirestoreIndexFieldsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface GoogleFirestoreIndexSearchIndexOptions {
+  /**
+  * Optional. The language code used to parse all text fields included in the search index,
+  * for example, "en", "es", "jp".
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_firestore_index#text_language GoogleFirestoreIndex#text_language}
+  */
+  readonly textLanguage?: string;
+  /**
+  * Optional. The path to the field that records the text language override of each document.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_firestore_index#text_language_override_field_path GoogleFirestoreIndex#text_language_override_field_path}
+  */
+  readonly textLanguageOverrideFieldPath?: string;
+}
+
+export function googleFirestoreIndexSearchIndexOptionsToTerraform(struct?: GoogleFirestoreIndexSearchIndexOptionsOutputReference | GoogleFirestoreIndexSearchIndexOptions): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    text_language: cdktn.stringToTerraform(struct!.textLanguage),
+    text_language_override_field_path: cdktn.stringToTerraform(struct!.textLanguageOverrideFieldPath),
+  }
+}
+
+
+export function googleFirestoreIndexSearchIndexOptionsToHclTerraform(struct?: GoogleFirestoreIndexSearchIndexOptionsOutputReference | GoogleFirestoreIndexSearchIndexOptions): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    text_language: {
+      value: cdktn.stringToHclTerraform(struct!.textLanguage),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    text_language_override_field_path: {
+      value: cdktn.stringToHclTerraform(struct!.textLanguageOverrideFieldPath),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleFirestoreIndexSearchIndexOptionsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleFirestoreIndexSearchIndexOptions | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._textLanguage !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.textLanguage = this._textLanguage;
+    }
+    if (this._textLanguageOverrideFieldPath !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.textLanguageOverrideFieldPath = this._textLanguageOverrideFieldPath;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleFirestoreIndexSearchIndexOptions | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._textLanguage = undefined;
+      this._textLanguageOverrideFieldPath = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._textLanguage = value.textLanguage;
+      this._textLanguageOverrideFieldPath = value.textLanguageOverrideFieldPath;
+    }
+  }
+
+  // text_language - computed: true, optional: true, required: false
+  private _textLanguage?: string; 
+  public get textLanguage() {
+    return this.getStringAttribute('text_language');
+  }
+  public set textLanguage(value: string) {
+    this._textLanguage = value;
+  }
+  public resetTextLanguage() {
+    this._textLanguage = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get textLanguageInput() {
+    return this._textLanguage;
+  }
+
+  // text_language_override_field_path - computed: true, optional: true, required: false
+  private _textLanguageOverrideFieldPath?: string; 
+  public get textLanguageOverrideFieldPath() {
+    return this.getStringAttribute('text_language_override_field_path');
+  }
+  public set textLanguageOverrideFieldPath(value: string) {
+    this._textLanguageOverrideFieldPath = value;
+  }
+  public resetTextLanguageOverrideFieldPath() {
+    this._textLanguageOverrideFieldPath = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get textLanguageOverrideFieldPathInput() {
+    return this._textLanguageOverrideFieldPath;
+  }
+}
 export interface GoogleFirestoreIndexTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_firestore_index#create GoogleFirestoreIndex#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_firestore_index#create GoogleFirestoreIndex#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_firestore_index#delete GoogleFirestoreIndex#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_firestore_index#delete GoogleFirestoreIndex#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_firestore_index#update GoogleFirestoreIndex#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_firestore_index#update GoogleFirestoreIndex#update}
   */
   readonly update?: string;
 }
@@ -1130,7 +1258,7 @@ export class GoogleFirestoreIndexTimeoutsOutputReference extends cdktn.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_firestore_index google_firestore_index}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_firestore_index google_firestore_index}
 */
 export class GoogleFirestoreIndex extends cdktn.TerraformResource {
 
@@ -1146,7 +1274,7 @@ export class GoogleFirestoreIndex extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleFirestoreIndex resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleFirestoreIndex to import
-  * @param importFromId The id of the existing GoogleFirestoreIndex that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_firestore_index#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleFirestoreIndex that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_firestore_index#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleFirestoreIndex to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1158,7 +1286,7 @@ export class GoogleFirestoreIndex extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_firestore_index google_firestore_index} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_firestore_index google_firestore_index} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1169,7 +1297,7 @@ export class GoogleFirestoreIndex extends cdktn.TerraformResource {
       terraformResourceType: 'google_firestore_index',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '8.9.0',
+        providerVersion: '8.11.0',
         providerVersionConstraint: '~> 8.0'
       },
       provider: config.provider,
@@ -1192,6 +1320,7 @@ export class GoogleFirestoreIndex extends cdktn.TerraformResource {
     this._skipWait = config.skipWait;
     this._unique = config.unique;
     this._fields.internalValue = config.fields;
+    this._searchIndexOptions.internalValue = config.searchIndexOptions;
     this._timeouts.internalValue = config.timeouts;
   }
 
@@ -1390,6 +1519,22 @@ export class GoogleFirestoreIndex extends cdktn.TerraformResource {
     return this._fields.internalValue;
   }
 
+  // search_index_options - computed: false, optional: true, required: false
+  private _searchIndexOptions = new GoogleFirestoreIndexSearchIndexOptionsOutputReference(this, "search_index_options");
+  public get searchIndexOptions() {
+    return this._searchIndexOptions;
+  }
+  public putSearchIndexOptions(value: GoogleFirestoreIndexSearchIndexOptions) {
+    this._searchIndexOptions.internalValue = value;
+  }
+  public resetSearchIndexOptions() {
+    this._searchIndexOptions.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get searchIndexOptionsInput() {
+    return this._searchIndexOptions.internalValue;
+  }
+
   // timeouts - computed: false, optional: true, required: false
   private _timeouts = new GoogleFirestoreIndexTimeoutsOutputReference(this, "timeouts");
   public get timeouts() {
@@ -1424,6 +1569,7 @@ export class GoogleFirestoreIndex extends cdktn.TerraformResource {
       skip_wait: cdktn.booleanToTerraform(this._skipWait),
       unique: cdktn.booleanToTerraform(this._unique),
       fields: cdktn.listMapper(googleFirestoreIndexFieldsToTerraform, true)(this._fields.internalValue),
+      search_index_options: googleFirestoreIndexSearchIndexOptionsToTerraform(this._searchIndexOptions.internalValue),
       timeouts: googleFirestoreIndexTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
@@ -1501,6 +1647,12 @@ export class GoogleFirestoreIndex extends cdktn.TerraformResource {
         isBlock: true,
         type: "list",
         storageClassType: "GoogleFirestoreIndexFieldsList",
+      },
+      search_index_options: {
+        value: googleFirestoreIndexSearchIndexOptionsToHclTerraform(this._searchIndexOptions.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "GoogleFirestoreIndexSearchIndexOptionsList",
       },
       timeouts: {
         value: googleFirestoreIndexTimeoutsToHclTerraform(this._timeouts.internalValue),

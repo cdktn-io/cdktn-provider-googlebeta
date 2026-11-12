@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster
+// https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -16,7 +16,7 @@ export interface GoogleHypercomputeclusterClusterConfig extends cdktn.TerraformM
   * ID of the cluster to create. Must start with a lowercase letter,
   * use only lowercase letters and numbers, and be at most 10 characters long.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#cluster_id GoogleHypercomputeclusterCluster#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#cluster_id GoogleHypercomputeclusterCluster#cluster_id}
   */
   readonly clusterId: string;
   /**
@@ -28,17 +28,17 @@ export interface GoogleHypercomputeclusterClusterConfig extends cdktn.TerraformM
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#deletion_policy GoogleHypercomputeclusterCluster#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#deletion_policy GoogleHypercomputeclusterCluster#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * User-provided description of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#description GoogleHypercomputeclusterCluster#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#description GoogleHypercomputeclusterCluster#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#id GoogleHypercomputeclusterCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#id GoogleHypercomputeclusterCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -52,47 +52,47 @@ export interface GoogleHypercomputeclusterClusterConfig extends cdktn.TerraformM
   * **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
   * Please refer to the field 'effective_labels' for all of the labels present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#labels GoogleHypercomputeclusterCluster#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#labels GoogleHypercomputeclusterCluster#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#location GoogleHypercomputeclusterCluster#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#location GoogleHypercomputeclusterCluster#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#project GoogleHypercomputeclusterCluster#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#project GoogleHypercomputeclusterCluster#project}
   */
   readonly project?: string;
   /**
   * compute_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#compute_resources GoogleHypercomputeclusterCluster#compute_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#compute_resources GoogleHypercomputeclusterCluster#compute_resources}
   */
   readonly computeResources?: GoogleHypercomputeclusterClusterComputeResources[] | cdktn.IResolvable;
   /**
   * network_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#network_resources GoogleHypercomputeclusterCluster#network_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#network_resources GoogleHypercomputeclusterCluster#network_resources}
   */
   readonly networkResources: GoogleHypercomputeclusterClusterNetworkResources[] | cdktn.IResolvable;
   /**
   * orchestrator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#orchestrator GoogleHypercomputeclusterCluster#orchestrator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#orchestrator GoogleHypercomputeclusterCluster#orchestrator}
   */
   readonly orchestrator?: GoogleHypercomputeclusterClusterOrchestrator;
   /**
   * storage_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#storage_resources GoogleHypercomputeclusterCluster#storage_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#storage_resources GoogleHypercomputeclusterCluster#storage_resources}
   */
   readonly storageResources?: GoogleHypercomputeclusterClusterStorageResources[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#timeouts GoogleHypercomputeclusterCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#timeouts GoogleHypercomputeclusterCluster#timeouts}
   */
   readonly timeouts?: GoogleHypercomputeclusterClusterTimeouts;
 }
@@ -102,21 +102,21 @@ export interface GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexSt
   * type](https://cloud.google.com/compute/docs/machine-resource) to use, e.g.
   * 'n2-standard-2'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#machine_type GoogleHypercomputeclusterCluster#machine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#machine_type GoogleHypercomputeclusterCluster#machine_type}
   */
   readonly machineType: string;
   /**
   * Specifies the time limit for created instances. Instances will be
   * terminated at the end of this duration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#max_duration GoogleHypercomputeclusterCluster#max_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#max_duration GoogleHypercomputeclusterCluster#max_duration}
   */
   readonly maxDuration: string;
   /**
   * A list of network tags to attach to the VM instances.
   * A maximum of 64 network tags are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#network_tags GoogleHypercomputeclusterCluster#network_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#network_tags GoogleHypercomputeclusterCluster#network_tags}
   */
   readonly networkTags?: string[];
   /**
@@ -124,7 +124,7 @@ export interface GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexSt
   * Must be in the same region as the cluster, and must match the zone of any
   * other resources specified in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#zone GoogleHypercomputeclusterCluster#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#zone GoogleHypercomputeclusterCluster#zone}
   */
   readonly zone: string;
 }
@@ -290,14 +290,14 @@ export interface GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDema
   * type](https://cloud.google.com/compute/docs/machine-resource) to use, e.g.
   * 'n2-standard-2'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#machine_type GoogleHypercomputeclusterCluster#machine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#machine_type GoogleHypercomputeclusterCluster#machine_type}
   */
   readonly machineType: string;
   /**
   * A list of network tags to attach to the VM instances.
   * A maximum of 64 network tags are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#network_tags GoogleHypercomputeclusterCluster#network_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#network_tags GoogleHypercomputeclusterCluster#network_tags}
   */
   readonly networkTags?: string[];
   /**
@@ -305,7 +305,7 @@ export interface GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDema
   * Must be in the same region as the cluster, and must match the zone of any
   * other resources specified in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#zone GoogleHypercomputeclusterCluster#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#zone GoogleHypercomputeclusterCluster#zone}
   */
   readonly zone: string;
 }
@@ -444,14 +444,14 @@ export interface GoogleHypercomputeclusterClusterComputeResourcesConfigNewReserv
   * A list of network tags to attach to the VM instances.
   * A maximum of 64 network tags are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#network_tags GoogleHypercomputeclusterCluster#network_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#network_tags GoogleHypercomputeclusterCluster#network_tags}
   */
   readonly networkTags?: string[];
   /**
   * Name of the reservation from which VM instances should be created, in the
   * format 'projects/{project}/zones/{zone}/reservations/{reservation}'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#reservation GoogleHypercomputeclusterCluster#reservation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#reservation GoogleHypercomputeclusterCluster#reservation}
   */
   readonly reservation?: string;
 }
@@ -568,14 +568,14 @@ export interface GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotIn
   * type](https://cloud.google.com/compute/docs/machine-resource) to use, e.g.
   * 'n2-standard-2'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#machine_type GoogleHypercomputeclusterCluster#machine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#machine_type GoogleHypercomputeclusterCluster#machine_type}
   */
   readonly machineType: string;
   /**
   * A list of network tags to attach to the VM instances.
   * A maximum of 64 network tags are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#network_tags GoogleHypercomputeclusterCluster#network_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#network_tags GoogleHypercomputeclusterCluster#network_tags}
   */
   readonly networkTags?: string[];
   /**
@@ -584,7 +584,7 @@ export interface GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotIn
   * STOP
   * DELETE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#termination_action GoogleHypercomputeclusterCluster#termination_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#termination_action GoogleHypercomputeclusterCluster#termination_action}
   */
   readonly terminationAction?: string;
   /**
@@ -592,7 +592,7 @@ export interface GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotIn
   * Must be in the same region as the cluster, and must match the zone of any
   * other resources specified in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#zone GoogleHypercomputeclusterCluster#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#zone GoogleHypercomputeclusterCluster#zone}
   */
   readonly zone: string;
 }
@@ -759,25 +759,25 @@ export interface GoogleHypercomputeclusterClusterComputeResourcesConfig {
   /**
   * new_flex_start_instances block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#new_flex_start_instances GoogleHypercomputeclusterCluster#new_flex_start_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#new_flex_start_instances GoogleHypercomputeclusterCluster#new_flex_start_instances}
   */
   readonly newFlexStartInstances?: GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstances;
   /**
   * new_on_demand_instances block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#new_on_demand_instances GoogleHypercomputeclusterCluster#new_on_demand_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#new_on_demand_instances GoogleHypercomputeclusterCluster#new_on_demand_instances}
   */
   readonly newOnDemandInstances?: GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstances;
   /**
   * new_reserved_instances block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#new_reserved_instances GoogleHypercomputeclusterCluster#new_reserved_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#new_reserved_instances GoogleHypercomputeclusterCluster#new_reserved_instances}
   */
   readonly newReservedInstances?: GoogleHypercomputeclusterClusterComputeResourcesConfigNewReservedInstances;
   /**
   * new_spot_instances block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#new_spot_instances GoogleHypercomputeclusterCluster#new_spot_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#new_spot_instances GoogleHypercomputeclusterCluster#new_spot_instances}
   */
   readonly newSpotInstances?: GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstances;
 }
@@ -948,7 +948,7 @@ export class GoogleHypercomputeclusterClusterComputeResourcesConfigOutputReferen
 }
 export interface GoogleHypercomputeclusterClusterComputeResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#id GoogleHypercomputeclusterCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#id GoogleHypercomputeclusterCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -957,7 +957,7 @@ export interface GoogleHypercomputeclusterClusterComputeResources {
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#config GoogleHypercomputeclusterCluster#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#config GoogleHypercomputeclusterCluster#config}
   */
   readonly config: GoogleHypercomputeclusterClusterComputeResourcesConfig;
 }
@@ -1179,14 +1179,14 @@ export interface GoogleHypercomputeclusterClusterNetworkResourcesConfigExistingN
   * Name of the network to import, in the format
   * 'projects/{project}/global/networks/{network}'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#network GoogleHypercomputeclusterCluster#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#network GoogleHypercomputeclusterCluster#network}
   */
   readonly network: string;
   /**
   * Particular subnetwork to use, in the format
   * 'projects/{project}/regions/{region}/subnetworks/{subnetwork}'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#subnetwork GoogleHypercomputeclusterCluster#subnetwork}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#subnetwork GoogleHypercomputeclusterCluster#subnetwork}
   */
   readonly subnetwork: string;
 }
@@ -1295,14 +1295,14 @@ export interface GoogleHypercomputeclusterClusterNetworkResourcesConfigNewNetwor
   /**
   * Description of the network. Maximum of 2048 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#description GoogleHypercomputeclusterCluster#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#description GoogleHypercomputeclusterCluster#description}
   */
   readonly description?: string;
   /**
   * Name of the network to create, in the format
   * 'projects/{project}/global/networks/{network}'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#network GoogleHypercomputeclusterCluster#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#network GoogleHypercomputeclusterCluster#network}
   */
   readonly network: string;
 }
@@ -1414,13 +1414,13 @@ export interface GoogleHypercomputeclusterClusterNetworkResourcesConfig {
   /**
   * existing_network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#existing_network GoogleHypercomputeclusterCluster#existing_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#existing_network GoogleHypercomputeclusterCluster#existing_network}
   */
   readonly existingNetwork?: GoogleHypercomputeclusterClusterNetworkResourcesConfigExistingNetwork;
   /**
   * new_network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#new_network GoogleHypercomputeclusterCluster#new_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#new_network GoogleHypercomputeclusterCluster#new_network}
   */
   readonly newNetwork?: GoogleHypercomputeclusterClusterNetworkResourcesConfigNewNetwork;
 }
@@ -1533,7 +1533,7 @@ export class GoogleHypercomputeclusterClusterNetworkResourcesConfigOutputReferen
 }
 export interface GoogleHypercomputeclusterClusterNetworkResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#id GoogleHypercomputeclusterCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#id GoogleHypercomputeclusterCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1542,7 +1542,7 @@ export interface GoogleHypercomputeclusterClusterNetworkResources {
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#config GoogleHypercomputeclusterCluster#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#config GoogleHypercomputeclusterCluster#config}
   */
   readonly config?: GoogleHypercomputeclusterClusterNetworkResourcesConfig;
 }
@@ -1767,7 +1767,7 @@ export interface GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesBoot
   /**
   * Size of the disk in gigabytes. Must be at least 10GB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#size_gb GoogleHypercomputeclusterCluster#size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#size_gb GoogleHypercomputeclusterCluster#size_gb}
   */
   readonly sizeGb: string;
   /**
@@ -1775,7 +1775,7 @@ export interface GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesBoot
   * type](https://cloud.google.com/compute/docs/disks#disk-types), in the
   * format 'projects/{project}/zones/{zone}/diskTypes/{disk_type}'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#type GoogleHypercomputeclusterCluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#type GoogleHypercomputeclusterCluster#type}
   */
   readonly type: string;
 }
@@ -1885,7 +1885,7 @@ export interface GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesStor
   * ID of the storage resource to mount, which must match a key in the
   * cluster's [storage_resources](Cluster.storage_resources).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#id GoogleHypercomputeclusterCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#id GoogleHypercomputeclusterCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1895,7 +1895,7 @@ export interface GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesStor
   * A directory inside the VM instance's file system where the storage resource
   * should be mounted (e.g., '/mnt/share').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#local_mount GoogleHypercomputeclusterCluster#local_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#local_mount GoogleHypercomputeclusterCluster#local_mount}
   */
   readonly localMount: string;
 }
@@ -2036,28 +2036,28 @@ export interface GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodes {
   /**
   * Number of login node instances to create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#count GoogleHypercomputeclusterCluster#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#count GoogleHypercomputeclusterCluster#count}
   */
   readonly count: string;
   /**
   * Whether [OS Login](https://cloud.google.com/compute/docs/oslogin) should be
   * enabled on login node instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#enable_os_login GoogleHypercomputeclusterCluster#enable_os_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#enable_os_login GoogleHypercomputeclusterCluster#enable_os_login}
   */
   readonly enableOsLogin?: boolean | cdktn.IResolvable;
   /**
   * Whether login node instances should be assigned [external IP
   * addresses](https://cloud.google.com/compute/docs/ip-addresses#externaladdresses).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#enable_public_ips GoogleHypercomputeclusterCluster#enable_public_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#enable_public_ips GoogleHypercomputeclusterCluster#enable_public_ips}
   */
   readonly enablePublicIps?: boolean | cdktn.IResolvable;
   /**
   * [Labels](https://cloud.google.com/compute/docs/labeling-resources) that
   * should be applied to each login node instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#labels GoogleHypercomputeclusterCluster#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#labels GoogleHypercomputeclusterCluster#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
@@ -2065,14 +2065,14 @@ export interface GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodes {
   * type](https://cloud.google.com/compute/docs/machine-resource) to use for
   * login nodes, e.g. 'n2-standard-2'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#machine_type GoogleHypercomputeclusterCluster#machine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#machine_type GoogleHypercomputeclusterCluster#machine_type}
   */
   readonly machineType: string;
   /**
   * A list of network tags to attach to the VM instances.
   * A maximum of 64 network tags are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#network_tags GoogleHypercomputeclusterCluster#network_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#network_tags GoogleHypercomputeclusterCluster#network_tags}
   */
   readonly networkTags?: string[];
   /**
@@ -2083,7 +2083,7 @@ export interface GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodes {
   * minutes. For tasks that require more time, consider running them in the
   * background using methods such as '&' or 'nohup'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#startup_script GoogleHypercomputeclusterCluster#startup_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#startup_script GoogleHypercomputeclusterCluster#startup_script}
   */
   readonly startupScript?: string;
   /**
@@ -2091,19 +2091,19 @@ export interface GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodes {
   * Must be in the same region as the cluster, and must match the zone of any
   * other resources specified in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#zone GoogleHypercomputeclusterCluster#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#zone GoogleHypercomputeclusterCluster#zone}
   */
   readonly zone: string;
   /**
   * boot_disk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#boot_disk GoogleHypercomputeclusterCluster#boot_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#boot_disk GoogleHypercomputeclusterCluster#boot_disk}
   */
   readonly bootDisk?: GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesBootDisk;
   /**
   * storage_configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#storage_configs GoogleHypercomputeclusterCluster#storage_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#storage_configs GoogleHypercomputeclusterCluster#storage_configs}
   */
   readonly storageConfigs?: GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesStorageConfigs[] | cdktn.IResolvable;
 }
@@ -2447,7 +2447,7 @@ export interface GoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsComput
   /**
   * Size of the disk in gigabytes. Must be at least 10GB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#size_gb GoogleHypercomputeclusterCluster#size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#size_gb GoogleHypercomputeclusterCluster#size_gb}
   */
   readonly sizeGb: string;
   /**
@@ -2455,7 +2455,7 @@ export interface GoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsComput
   * type](https://cloud.google.com/compute/docs/disks#disk-types), in the
   * format 'projects/{project}/zones/{zone}/diskTypes/{disk_type}'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#type GoogleHypercomputeclusterCluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#type GoogleHypercomputeclusterCluster#type}
   */
   readonly type: string;
 }
@@ -2565,7 +2565,7 @@ export interface GoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsComput
   * [Labels](https://cloud.google.com/compute/docs/labeling-resources) that
   * should be applied to each VM instance in the nodeset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#labels GoogleHypercomputeclusterCluster#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#labels GoogleHypercomputeclusterCluster#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
@@ -2573,13 +2573,13 @@ export interface GoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsComput
   * script](https://cloud.google.com/compute/docs/instances/startup-scripts/linux)
   * to be run on each VM instance in the nodeset. Max 256KB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#startup_script GoogleHypercomputeclusterCluster#startup_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#startup_script GoogleHypercomputeclusterCluster#startup_script}
   */
   readonly startupScript?: string;
   /**
   * boot_disk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#boot_disk GoogleHypercomputeclusterCluster#boot_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#boot_disk GoogleHypercomputeclusterCluster#boot_disk}
   */
   readonly bootDisk?: GoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsComputeInstanceBootDisk;
 }
@@ -2724,7 +2724,7 @@ export interface GoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsStorag
   * ID of the storage resource to mount, which must match a key in the
   * cluster's [storage_resources](Cluster.storage_resources).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#id GoogleHypercomputeclusterCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#id GoogleHypercomputeclusterCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2734,7 +2734,7 @@ export interface GoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsStorag
   * A directory inside the VM instance's file system where the storage resource
   * should be mounted (e.g., '/mnt/share').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#local_mount GoogleHypercomputeclusterCluster#local_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#local_mount GoogleHypercomputeclusterCluster#local_mount}
   */
   readonly localMount: string;
 }
@@ -2876,7 +2876,7 @@ export interface GoogleHypercomputeclusterClusterOrchestratorSlurmNodeSets {
   * ID of the compute resource on which this nodeset will run. Must match a key
   * in the cluster's [compute_resources](Cluster.compute_resources).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#compute_id GoogleHypercomputeclusterCluster#compute_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#compute_id GoogleHypercomputeclusterCluster#compute_id}
   */
   readonly computeId?: string;
   /**
@@ -2885,7 +2885,7 @@ export interface GoogleHypercomputeclusterClusterOrchestratorSlurmNodeSets {
   * [RFC-1034](https://datatracker.ietf.org/doc/html/rfc1034) (lower-case,
   * alphanumeric, and at most 63 characters).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#id GoogleHypercomputeclusterCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#id GoogleHypercomputeclusterCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2898,26 +2898,26 @@ export interface GoogleHypercomputeclusterClusterOrchestratorSlurmNodeSets {
   * do not want the cluster to create nodes dynamically, and instead rely only
   * on static nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#max_dynamic_node_count GoogleHypercomputeclusterCluster#max_dynamic_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#max_dynamic_node_count GoogleHypercomputeclusterCluster#max_dynamic_node_count}
   */
   readonly maxDynamicNodeCount?: string;
   /**
   * Number of nodes to be statically created for this nodeset. The cluster will
   * attempt to ensure that at least this many nodes exist at all times.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#static_node_count GoogleHypercomputeclusterCluster#static_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#static_node_count GoogleHypercomputeclusterCluster#static_node_count}
   */
   readonly staticNodeCount?: string;
   /**
   * compute_instance block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#compute_instance GoogleHypercomputeclusterCluster#compute_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#compute_instance GoogleHypercomputeclusterCluster#compute_instance}
   */
   readonly computeInstance?: GoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsComputeInstance;
   /**
   * storage_configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#storage_configs GoogleHypercomputeclusterCluster#storage_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#storage_configs GoogleHypercomputeclusterCluster#storage_configs}
   */
   readonly storageConfigs?: GoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsStorageConfigs[] | cdktn.IResolvable;
 }
@@ -3179,7 +3179,7 @@ export interface GoogleHypercomputeclusterClusterOrchestratorSlurmPartitions {
   * [RFC-1034](https://datatracker.ietf.org/doc/html/rfc1034) (lower-case,
   * alphanumeric, and at most 63 characters).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#id GoogleHypercomputeclusterCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#id GoogleHypercomputeclusterCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3189,7 +3189,7 @@ export interface GoogleHypercomputeclusterClusterOrchestratorSlurmPartitions {
   * IDs of the nodesets that make up this partition. Values must match
   * SlurmNodeSet.id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#node_set_ids GoogleHypercomputeclusterCluster#node_set_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#node_set_ids GoogleHypercomputeclusterCluster#node_set_ids}
   */
   readonly nodeSetIds: string[];
 }
@@ -3332,7 +3332,7 @@ export interface GoogleHypercomputeclusterClusterOrchestratorSlurm {
   * a partition. Required if and only if there is more than one partition, in
   * which case it must match the id of one of the partitions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#default_partition GoogleHypercomputeclusterCluster#default_partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#default_partition GoogleHypercomputeclusterCluster#default_partition}
   */
   readonly defaultPartition?: string;
   /**
@@ -3340,7 +3340,7 @@ export interface GoogleHypercomputeclusterClusterOrchestratorSlurm {
   * will be executed by compute nodes whenever a node finishes running a job.
   * Values must not be empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#epilog_bash_scripts GoogleHypercomputeclusterCluster#epilog_bash_scripts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#epilog_bash_scripts GoogleHypercomputeclusterCluster#epilog_bash_scripts}
   */
   readonly epilogBashScripts?: string[];
   /**
@@ -3348,25 +3348,25 @@ export interface GoogleHypercomputeclusterClusterOrchestratorSlurm {
   * will be executed by compute nodes before a node begins running a new job.
   * Values must not be empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#prolog_bash_scripts GoogleHypercomputeclusterCluster#prolog_bash_scripts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#prolog_bash_scripts GoogleHypercomputeclusterCluster#prolog_bash_scripts}
   */
   readonly prologBashScripts?: string[];
   /**
   * login_nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#login_nodes GoogleHypercomputeclusterCluster#login_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#login_nodes GoogleHypercomputeclusterCluster#login_nodes}
   */
   readonly loginNodes: GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodes;
   /**
   * node_sets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#node_sets GoogleHypercomputeclusterCluster#node_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#node_sets GoogleHypercomputeclusterCluster#node_sets}
   */
   readonly nodeSets: GoogleHypercomputeclusterClusterOrchestratorSlurmNodeSets[] | cdktn.IResolvable;
   /**
   * partitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#partitions GoogleHypercomputeclusterCluster#partitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#partitions GoogleHypercomputeclusterCluster#partitions}
   */
   readonly partitions: GoogleHypercomputeclusterClusterOrchestratorSlurmPartitions[] | cdktn.IResolvable;
 }
@@ -3588,7 +3588,7 @@ export interface GoogleHypercomputeclusterClusterOrchestrator {
   /**
   * slurm block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#slurm GoogleHypercomputeclusterCluster#slurm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#slurm GoogleHypercomputeclusterCluster#slurm}
   */
   readonly slurm?: GoogleHypercomputeclusterClusterOrchestratorSlurm;
 }
@@ -3899,7 +3899,7 @@ export interface GoogleHypercomputeclusterClusterStorageResourcesConfigExistingB
   /**
   * Name of the Cloud Storage bucket to import.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#bucket GoogleHypercomputeclusterCluster#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#bucket GoogleHypercomputeclusterCluster#bucket}
   */
   readonly bucket: string;
 }
@@ -3983,7 +3983,7 @@ export interface GoogleHypercomputeclusterClusterStorageResourcesConfigExistingF
   * Name of the Filestore instance to import, in the format
   * 'projects/{project}/locations/{location}/instances/{instance}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#filestore GoogleHypercomputeclusterCluster#filestore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#filestore GoogleHypercomputeclusterCluster#filestore}
   */
   readonly filestore: string;
 }
@@ -4067,7 +4067,7 @@ export interface GoogleHypercomputeclusterClusterStorageResourcesConfigExistingL
   * Name of the Managed Lustre instance to import, in the format
   * 'projects/{project}/locations/{location}/instances/{instance}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#lustre GoogleHypercomputeclusterCluster#lustre}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#lustre GoogleHypercomputeclusterCluster#lustre}
   */
   readonly lustre: string;
 }
@@ -4151,19 +4151,19 @@ export interface GoogleHypercomputeclusterClusterStorageResourcesConfigExistingN
   * Options to mount the NFS share, as expected by fs_mntops field in fstab(5),
   * for example: "rw,vers=4.1,nconnect=2,noatime".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#mount_options GoogleHypercomputeclusterCluster#mount_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#mount_options GoogleHypercomputeclusterCluster#mount_options}
   */
   readonly mountOptions?: string;
   /**
   * Remote mount path of the NFS share.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#remote_mount GoogleHypercomputeclusterCluster#remote_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#remote_mount GoogleHypercomputeclusterCluster#remote_mount}
   */
   readonly remoteMount: string;
   /**
   * Server IP address of the NFS share.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#server_ip_address GoogleHypercomputeclusterCluster#server_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#server_ip_address GoogleHypercomputeclusterCluster#server_ip_address}
   */
   readonly serverIpAddress: string;
 }
@@ -4301,7 +4301,7 @@ export interface GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucket
   /**
   * Enables Auto-class feature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#enabled GoogleHypercomputeclusterCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#enabled GoogleHypercomputeclusterCluster#enabled}
   */
   readonly enabled: boolean | cdktn.IResolvable;
   /**
@@ -4310,7 +4310,7 @@ export interface GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucket
   * NEARLINE
   * ARCHIVE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#terminal_storage_class GoogleHypercomputeclusterCluster#terminal_storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#terminal_storage_class GoogleHypercomputeclusterCluster#terminal_storage_class}
   */
   readonly terminalStorageClass?: string;
 }
@@ -4422,7 +4422,7 @@ export interface GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucket
   /**
   * Enables hierarchical namespace setup for the bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#enabled GoogleHypercomputeclusterCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#enabled GoogleHypercomputeclusterCluster#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
 }
@@ -4508,7 +4508,7 @@ export interface GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucket
   /**
   * Name of the Cloud Storage bucket to create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#bucket GoogleHypercomputeclusterCluster#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#bucket GoogleHypercomputeclusterCluster#bucket}
   */
   readonly bucket: string;
   /**
@@ -4520,19 +4520,19 @@ export interface GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucket
   * COLDLINE
   * ARCHIVE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#storage_class GoogleHypercomputeclusterCluster#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#storage_class GoogleHypercomputeclusterCluster#storage_class}
   */
   readonly storageClass?: string;
   /**
   * autoclass block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#autoclass GoogleHypercomputeclusterCluster#autoclass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#autoclass GoogleHypercomputeclusterCluster#autoclass}
   */
   readonly autoclass?: GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketAutoclass;
   /**
   * hierarchical_namespace block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#hierarchical_namespace GoogleHypercomputeclusterCluster#hierarchical_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#hierarchical_namespace GoogleHypercomputeclusterCluster#hierarchical_namespace}
   */
   readonly hierarchicalNamespace?: GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketHierarchicalNamespace;
 }
@@ -4704,13 +4704,13 @@ export interface GoogleHypercomputeclusterClusterStorageResourcesConfigNewFilest
   * scalability requirements described at
   * https://cloud.google.com/filestore/docs/service-tiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#capacity_gb GoogleHypercomputeclusterCluster#capacity_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#capacity_gb GoogleHypercomputeclusterCluster#capacity_gb}
   */
   readonly capacityGb: string;
   /**
   * Filestore share location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#file_share GoogleHypercomputeclusterCluster#file_share}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#file_share GoogleHypercomputeclusterCluster#file_share}
   */
   readonly fileShare: string;
 }
@@ -4851,14 +4851,14 @@ export interface GoogleHypercomputeclusterClusterStorageResourcesConfigNewFilest
   /**
   * Description of the instance. Maximum of 2048 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#description GoogleHypercomputeclusterCluster#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#description GoogleHypercomputeclusterCluster#description}
   */
   readonly description?: string;
   /**
   * Name of the Filestore instance to create, in the format
   * 'projects/{project}/locations/{location}/instances/{instance}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#filestore GoogleHypercomputeclusterCluster#filestore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#filestore GoogleHypercomputeclusterCluster#filestore}
   */
   readonly filestore: string;
   /**
@@ -4868,7 +4868,7 @@ export interface GoogleHypercomputeclusterClusterStorageResourcesConfigNewFilest
   * NFSV3
   * NFSV41 Possible values: ["PROTOCOL_UNSPECIFIED", "NFSV3", "NFSV41"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#protocol GoogleHypercomputeclusterCluster#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#protocol GoogleHypercomputeclusterCluster#protocol}
   */
   readonly protocol?: string;
   /**
@@ -4877,13 +4877,13 @@ export interface GoogleHypercomputeclusterClusterStorageResourcesConfigNewFilest
   * ZONAL
   * REGIONAL Possible values: ["TIER_UNSPECIFIED", "ZONAL", "REGIONAL"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#tier GoogleHypercomputeclusterCluster#tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#tier GoogleHypercomputeclusterCluster#tier}
   */
   readonly tier: string;
   /**
   * file_shares block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#file_shares GoogleHypercomputeclusterCluster#file_shares}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#file_shares GoogleHypercomputeclusterCluster#file_shares}
   */
   readonly fileShares: GoogleHypercomputeclusterClusterStorageResourcesConfigNewFilestoreFileShares[] | cdktn.IResolvable;
 }
@@ -5077,13 +5077,13 @@ export interface GoogleHypercomputeclusterClusterStorageResourcesConfigNewLustre
   * Storage capacity of the instance in gibibytes (GiB). Allowed values are
   * between 18000 and 7632000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#capacity_gb GoogleHypercomputeclusterCluster#capacity_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#capacity_gb GoogleHypercomputeclusterCluster#capacity_gb}
   */
   readonly capacityGb: string;
   /**
   * Description of the Managed Lustre instance. Maximum of 2048 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#description GoogleHypercomputeclusterCluster#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#description GoogleHypercomputeclusterCluster#description}
   */
   readonly description?: string;
   /**
@@ -5091,14 +5091,14 @@ export interface GoogleHypercomputeclusterClusterStorageResourcesConfigNewLustre
   * including when mounting the instance. Must be 8 characters or less and can
   * only contain letters and numbers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#filesystem GoogleHypercomputeclusterCluster#filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#filesystem GoogleHypercomputeclusterCluster#filesystem}
   */
   readonly filesystem: string;
   /**
   * Name of the Managed Lustre instance to create, in the format
   * 'projects/{project}/locations/{location}/instances/{instance}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#lustre GoogleHypercomputeclusterCluster#lustre}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#lustre GoogleHypercomputeclusterCluster#lustre}
   */
   readonly lustre: string;
   /**
@@ -5107,7 +5107,7 @@ export interface GoogleHypercomputeclusterClusterStorageResourcesConfigNewLustre
   * capacities](https://cloud.google.com/managed-lustre/docs/create-instance#performance-tiers)
   * for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#per_unit_storage_throughput GoogleHypercomputeclusterCluster#per_unit_storage_throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#per_unit_storage_throughput GoogleHypercomputeclusterCluster#per_unit_storage_throughput}
   */
   readonly perUnitStorageThroughput?: string;
 }
@@ -5300,43 +5300,43 @@ export interface GoogleHypercomputeclusterClusterStorageResourcesConfig {
   /**
   * existing_bucket block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#existing_bucket GoogleHypercomputeclusterCluster#existing_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#existing_bucket GoogleHypercomputeclusterCluster#existing_bucket}
   */
   readonly existingBucket?: GoogleHypercomputeclusterClusterStorageResourcesConfigExistingBucket;
   /**
   * existing_filestore block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#existing_filestore GoogleHypercomputeclusterCluster#existing_filestore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#existing_filestore GoogleHypercomputeclusterCluster#existing_filestore}
   */
   readonly existingFilestore?: GoogleHypercomputeclusterClusterStorageResourcesConfigExistingFilestore;
   /**
   * existing_lustre block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#existing_lustre GoogleHypercomputeclusterCluster#existing_lustre}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#existing_lustre GoogleHypercomputeclusterCluster#existing_lustre}
   */
   readonly existingLustre?: GoogleHypercomputeclusterClusterStorageResourcesConfigExistingLustre;
   /**
   * existing_nfs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#existing_nfs GoogleHypercomputeclusterCluster#existing_nfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#existing_nfs GoogleHypercomputeclusterCluster#existing_nfs}
   */
   readonly existingNfs?: GoogleHypercomputeclusterClusterStorageResourcesConfigExistingNfs;
   /**
   * new_bucket block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#new_bucket GoogleHypercomputeclusterCluster#new_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#new_bucket GoogleHypercomputeclusterCluster#new_bucket}
   */
   readonly newBucket?: GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucket;
   /**
   * new_filestore block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#new_filestore GoogleHypercomputeclusterCluster#new_filestore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#new_filestore GoogleHypercomputeclusterCluster#new_filestore}
   */
   readonly newFilestore?: GoogleHypercomputeclusterClusterStorageResourcesConfigNewFilestore;
   /**
   * new_lustre block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#new_lustre GoogleHypercomputeclusterCluster#new_lustre}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#new_lustre GoogleHypercomputeclusterCluster#new_lustre}
   */
   readonly newLustre?: GoogleHypercomputeclusterClusterStorageResourcesConfigNewLustre;
 }
@@ -5594,7 +5594,7 @@ export class GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReferen
 }
 export interface GoogleHypercomputeclusterClusterStorageResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#id GoogleHypercomputeclusterCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#id GoogleHypercomputeclusterCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -5603,7 +5603,7 @@ export interface GoogleHypercomputeclusterClusterStorageResources {
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#config GoogleHypercomputeclusterCluster#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#config GoogleHypercomputeclusterCluster#config}
   */
   readonly config: GoogleHypercomputeclusterClusterStorageResourcesConfig;
 }
@@ -5760,15 +5760,15 @@ export class GoogleHypercomputeclusterClusterStorageResourcesList extends cdktn.
 }
 export interface GoogleHypercomputeclusterClusterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#create GoogleHypercomputeclusterCluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#create GoogleHypercomputeclusterCluster#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#delete GoogleHypercomputeclusterCluster#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#delete GoogleHypercomputeclusterCluster#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#update GoogleHypercomputeclusterCluster#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#update GoogleHypercomputeclusterCluster#update}
   */
   readonly update?: string;
 }
@@ -5920,7 +5920,7 @@ export class GoogleHypercomputeclusterClusterTimeoutsOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster google_hypercomputecluster_cluster}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster google_hypercomputecluster_cluster}
 */
 export class GoogleHypercomputeclusterCluster extends cdktn.TerraformResource {
 
@@ -5936,7 +5936,7 @@ export class GoogleHypercomputeclusterCluster extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleHypercomputeclusterCluster resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleHypercomputeclusterCluster to import
-  * @param importFromId The id of the existing GoogleHypercomputeclusterCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleHypercomputeclusterCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleHypercomputeclusterCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -5948,7 +5948,7 @@ export class GoogleHypercomputeclusterCluster extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_hypercomputecluster_cluster google_hypercomputecluster_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_hypercomputecluster_cluster google_hypercomputecluster_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5959,7 +5959,7 @@ export class GoogleHypercomputeclusterCluster extends cdktn.TerraformResource {
       terraformResourceType: 'google_hypercomputecluster_cluster',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '8.9.0',
+        providerVersion: '8.11.0',
         providerVersionConstraint: '~> 8.0'
       },
       provider: config.provider,

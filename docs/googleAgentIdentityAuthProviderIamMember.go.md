@@ -4,7 +4,7 @@
 
 ### GoogleAgentIdentityAuthProviderIamMember <a name="GoogleAgentIdentityAuthProviderIamMember" id="@cdktn/provider-google-beta.googleAgentIdentityAuthProviderIamMember.GoogleAgentIdentityAuthProviderIamMember"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_agent_identity_auth_provider_iam_member google_agent_identity_auth_provider_iam_member}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_agent_identity_auth_provider_iam_member google_agent_identity_auth_provider_iam_member}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgentIdentityAuthProviderIamMember.GoogleAgentIdentityAuthProviderIamMember.Initializer"></a>
 
@@ -530,7 +530,7 @@ The construct id used in the generated config for the GoogleAgentIdentityAuthPro
 
 The id of the existing GoogleAgentIdentityAuthProviderIamMember that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_agent_identity_auth_provider_iam_member#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_agent_identity_auth_provider_iam_member#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -908,9 +908,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googleag
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleAgentIdentityAuthProviderIamMember.GoogleAgentIdentityAuthProviderIamMemberCondition.property.expression">Expression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_agent_identity_auth_provider_iam_member#expression GoogleAgentIdentityAuthProviderIamMember#expression}. |
-| <code><a href="#@cdktn/provider-google-beta.googleAgentIdentityAuthProviderIamMember.GoogleAgentIdentityAuthProviderIamMemberCondition.property.title">Title</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_agent_identity_auth_provider_iam_member#title GoogleAgentIdentityAuthProviderIamMember#title}. |
-| <code><a href="#@cdktn/provider-google-beta.googleAgentIdentityAuthProviderIamMember.GoogleAgentIdentityAuthProviderIamMemberCondition.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_agent_identity_auth_provider_iam_member#description GoogleAgentIdentityAuthProviderIamMember#description}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAgentIdentityAuthProviderIamMember.GoogleAgentIdentityAuthProviderIamMemberCondition.property.expression">Expression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_agent_identity_auth_provider_iam_member#expression GoogleAgentIdentityAuthProviderIamMember#expression}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAgentIdentityAuthProviderIamMember.GoogleAgentIdentityAuthProviderIamMemberCondition.property.title">Title</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_agent_identity_auth_provider_iam_member#title GoogleAgentIdentityAuthProviderIamMember#title}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAgentIdentityAuthProviderIamMember.GoogleAgentIdentityAuthProviderIamMemberCondition.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_agent_identity_auth_provider_iam_member#description GoogleAgentIdentityAuthProviderIamMember#description}. |
 
 ---
 
@@ -922,7 +922,7 @@ Expression *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_agent_identity_auth_provider_iam_member#expression GoogleAgentIdentityAuthProviderIamMember#expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_agent_identity_auth_provider_iam_member#expression GoogleAgentIdentityAuthProviderIamMember#expression}.
 
 ---
 
@@ -934,7 +934,7 @@ Title *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_agent_identity_auth_provider_iam_member#title GoogleAgentIdentityAuthProviderIamMember#title}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_agent_identity_auth_provider_iam_member#title GoogleAgentIdentityAuthProviderIamMember#title}.
 
 ---
 
@@ -946,7 +946,7 @@ Description *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_agent_identity_auth_provider_iam_member#description GoogleAgentIdentityAuthProviderIamMember#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_agent_identity_auth_provider_iam_member#description GoogleAgentIdentityAuthProviderIamMember#description}.
 
 ---
 
@@ -986,13 +986,13 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googleag
 | <code><a href="#@cdktn/provider-google-beta.googleAgentIdentityAuthProviderIamMember.GoogleAgentIdentityAuthProviderIamMemberConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAgentIdentityAuthProviderIamMember.GoogleAgentIdentityAuthProviderIamMemberConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAgentIdentityAuthProviderIamMember.GoogleAgentIdentityAuthProviderIamMemberConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleAgentIdentityAuthProviderIamMember.GoogleAgentIdentityAuthProviderIamMemberConfig.property.authProviderId">AuthProviderId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_agent_identity_auth_provider_iam_member#auth_provider_id GoogleAgentIdentityAuthProviderIamMember#auth_provider_id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleAgentIdentityAuthProviderIamMember.GoogleAgentIdentityAuthProviderIamMemberConfig.property.member">Member</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_agent_identity_auth_provider_iam_member#member GoogleAgentIdentityAuthProviderIamMember#member}. |
-| <code><a href="#@cdktn/provider-google-beta.googleAgentIdentityAuthProviderIamMember.GoogleAgentIdentityAuthProviderIamMemberConfig.property.role">Role</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_agent_identity_auth_provider_iam_member#role GoogleAgentIdentityAuthProviderIamMember#role}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAgentIdentityAuthProviderIamMember.GoogleAgentIdentityAuthProviderIamMemberConfig.property.authProviderId">AuthProviderId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_agent_identity_auth_provider_iam_member#auth_provider_id GoogleAgentIdentityAuthProviderIamMember#auth_provider_id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAgentIdentityAuthProviderIamMember.GoogleAgentIdentityAuthProviderIamMemberConfig.property.member">Member</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_agent_identity_auth_provider_iam_member#member GoogleAgentIdentityAuthProviderIamMember#member}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAgentIdentityAuthProviderIamMember.GoogleAgentIdentityAuthProviderIamMemberConfig.property.role">Role</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_agent_identity_auth_provider_iam_member#role GoogleAgentIdentityAuthProviderIamMember#role}. |
 | <code><a href="#@cdktn/provider-google-beta.googleAgentIdentityAuthProviderIamMember.GoogleAgentIdentityAuthProviderIamMemberConfig.property.condition">Condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAgentIdentityAuthProviderIamMember.GoogleAgentIdentityAuthProviderIamMemberCondition">GoogleAgentIdentityAuthProviderIamMemberCondition</a></code> | condition block. |
-| <code><a href="#@cdktn/provider-google-beta.googleAgentIdentityAuthProviderIamMember.GoogleAgentIdentityAuthProviderIamMemberConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_agent_identity_auth_provider_iam_member#id GoogleAgentIdentityAuthProviderIamMember#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleAgentIdentityAuthProviderIamMember.GoogleAgentIdentityAuthProviderIamMemberConfig.property.location">Location</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_agent_identity_auth_provider_iam_member#location GoogleAgentIdentityAuthProviderIamMember#location}. |
-| <code><a href="#@cdktn/provider-google-beta.googleAgentIdentityAuthProviderIamMember.GoogleAgentIdentityAuthProviderIamMemberConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_agent_identity_auth_provider_iam_member#project GoogleAgentIdentityAuthProviderIamMember#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAgentIdentityAuthProviderIamMember.GoogleAgentIdentityAuthProviderIamMemberConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_agent_identity_auth_provider_iam_member#id GoogleAgentIdentityAuthProviderIamMember#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAgentIdentityAuthProviderIamMember.GoogleAgentIdentityAuthProviderIamMemberConfig.property.location">Location</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_agent_identity_auth_provider_iam_member#location GoogleAgentIdentityAuthProviderIamMember#location}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAgentIdentityAuthProviderIamMember.GoogleAgentIdentityAuthProviderIamMemberConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_agent_identity_auth_provider_iam_member#project GoogleAgentIdentityAuthProviderIamMember#project}. |
 
 ---
 
@@ -1074,7 +1074,7 @@ AuthProviderId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_agent_identity_auth_provider_iam_member#auth_provider_id GoogleAgentIdentityAuthProviderIamMember#auth_provider_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_agent_identity_auth_provider_iam_member#auth_provider_id GoogleAgentIdentityAuthProviderIamMember#auth_provider_id}.
 
 ---
 
@@ -1086,7 +1086,7 @@ Member *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_agent_identity_auth_provider_iam_member#member GoogleAgentIdentityAuthProviderIamMember#member}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_agent_identity_auth_provider_iam_member#member GoogleAgentIdentityAuthProviderIamMember#member}.
 
 ---
 
@@ -1098,7 +1098,7 @@ Role *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_agent_identity_auth_provider_iam_member#role GoogleAgentIdentityAuthProviderIamMember#role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_agent_identity_auth_provider_iam_member#role GoogleAgentIdentityAuthProviderIamMember#role}.
 
 ---
 
@@ -1112,7 +1112,7 @@ Condition GoogleAgentIdentityAuthProviderIamMemberCondition
 
 condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_agent_identity_auth_provider_iam_member#condition GoogleAgentIdentityAuthProviderIamMember#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_agent_identity_auth_provider_iam_member#condition GoogleAgentIdentityAuthProviderIamMember#condition}
 
 ---
 
@@ -1124,7 +1124,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_agent_identity_auth_provider_iam_member#id GoogleAgentIdentityAuthProviderIamMember#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_agent_identity_auth_provider_iam_member#id GoogleAgentIdentityAuthProviderIamMember#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1139,7 +1139,7 @@ Location *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_agent_identity_auth_provider_iam_member#location GoogleAgentIdentityAuthProviderIamMember#location}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_agent_identity_auth_provider_iam_member#location GoogleAgentIdentityAuthProviderIamMember#location}.
 
 ---
 
@@ -1151,7 +1151,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_agent_identity_auth_provider_iam_member#project GoogleAgentIdentityAuthProviderIamMember#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_agent_identity_auth_provider_iam_member#project GoogleAgentIdentityAuthProviderIamMember#project}.
 
 ---
 

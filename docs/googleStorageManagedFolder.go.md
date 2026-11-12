@@ -4,7 +4,7 @@
 
 ### GoogleStorageManagedFolder <a name="GoogleStorageManagedFolder" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolder"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_managed_folder google_storage_managed_folder}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_storage_managed_folder google_storage_managed_folder}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolder.Initializer"></a>
 
@@ -74,10 +74,12 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolder.moveFromId">MoveFromId</a></code> | Move the resource corresponding to "id" to this resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolder.moveTo">MoveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolder.moveToId">MoveToId</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolder.putRapidCacheConfig">PutRapidCacheConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolder.putTimeouts">PutTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolder.resetDeletionPolicy">ResetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolder.resetForceDestroy">ResetForceDestroy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolder.resetId">ResetId</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolder.resetRapidCacheConfig">ResetRapidCacheConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolder.resetTimeouts">ResetTimeouts</a></code> | *No description.* |
 
 ---
@@ -391,6 +393,18 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 
 ---
 
+##### `PutRapidCacheConfig` <a name="PutRapidCacheConfig" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolder.putRapidCacheConfig"></a>
+
+```go
+func PutRapidCacheConfig(value GoogleStorageManagedFolderRapidCacheConfig)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolder.putRapidCacheConfig.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfig">GoogleStorageManagedFolderRapidCacheConfig</a>
+
+---
+
 ##### `PutTimeouts` <a name="PutTimeouts" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolder.putTimeouts"></a>
 
 ```go
@@ -419,6 +433,12 @@ func ResetForceDestroy()
 
 ```go
 func ResetId()
+```
+
+##### `ResetRapidCacheConfig` <a name="ResetRapidCacheConfig" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolder.resetRapidCacheConfig"></a>
+
+```go
+func ResetRapidCacheConfig()
 ```
 
 ##### `ResetTimeouts` <a name="ResetTimeouts" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolder.resetTimeouts"></a>
@@ -530,7 +550,7 @@ The construct id used in the generated config for the GoogleStorageManagedFolder
 
 The id of the existing GoogleStorageManagedFolder that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_managed_folder#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_storage_managed_folder#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -562,6 +582,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolder.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolder.property.createTime">CreateTime</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolder.property.metageneration">Metageneration</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolder.property.rapidCacheConfig">RapidCacheConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigOutputReference">GoogleStorageManagedFolderRapidCacheConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolder.property.selfLink">SelfLink</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolder.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderTimeoutsOutputReference">GoogleStorageManagedFolderTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolder.property.updateTime">UpdateTime</a></code> | <code>*string</code> | *No description.* |
@@ -570,6 +591,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolder.property.forceDestroyInput">ForceDestroyInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolder.property.idInput">IdInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolder.property.nameInput">NameInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolder.property.rapidCacheConfigInput">RapidCacheConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfig">GoogleStorageManagedFolderRapidCacheConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolder.property.timeoutsInput">TimeoutsInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolder.property.bucket">Bucket</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolder.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | *No description.* |
@@ -741,6 +763,16 @@ func Metageneration() *string
 
 ---
 
+##### `RapidCacheConfig`<sup>Required</sup> <a name="RapidCacheConfig" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolder.property.rapidCacheConfig"></a>
+
+```go
+func RapidCacheConfig() GoogleStorageManagedFolderRapidCacheConfigOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigOutputReference">GoogleStorageManagedFolderRapidCacheConfigOutputReference</a>
+
+---
+
 ##### `SelfLink`<sup>Required</sup> <a name="SelfLink" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolder.property.selfLink"></a>
 
 ```go
@@ -818,6 +850,16 @@ func NameInput() *string
 ```
 
 - *Type:* *string
+
+---
+
+##### `RapidCacheConfigInput`<sup>Optional</sup> <a name="RapidCacheConfigInput" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolder.property.rapidCacheConfigInput"></a>
+
+```go
+func RapidCacheConfigInput() GoogleStorageManagedFolderRapidCacheConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfig">GoogleStorageManagedFolderRapidCacheConfig</a>
 
 ---
 
@@ -921,6 +963,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlest
 	DeletionPolicy: *string,
 	ForceDestroy: interface{},
 	Id: *string,
+	RapidCacheConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfig,
 	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22.googleStorageManagedFolder.GoogleStorageManagedFolderTimeouts,
 }
 ```
@@ -940,7 +983,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlest
 | <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderConfig.property.name">Name</a></code> | <code>*string</code> | The name of the managed folder expressed as a path. Must include trailing '/'. For example, 'example_dir/example_dir2/'. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderConfig.property.forceDestroy">ForceDestroy</a></code> | <code>interface{}</code> | Allows the deletion of a managed folder even if contains objects. |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_managed_folder#id GoogleStorageManagedFolder#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_storage_managed_folder#id GoogleStorageManagedFolder#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderConfig.property.rapidCacheConfig">RapidCacheConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfig">GoogleStorageManagedFolderRapidCacheConfig</a></code> | rapid_cache_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderTimeouts">GoogleStorageManagedFolderTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1025,7 +1069,7 @@ Bucket *string
 
 The name of the bucket that contains the managed folder.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_managed_folder#bucket GoogleStorageManagedFolder#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_storage_managed_folder#bucket GoogleStorageManagedFolder#bucket}
 
 ---
 
@@ -1039,7 +1083,7 @@ Name *string
 
 The name of the managed folder expressed as a path. Must include trailing '/'. For example, 'example_dir/example_dir2/'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_managed_folder#name GoogleStorageManagedFolder#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_storage_managed_folder#name GoogleStorageManagedFolder#name}
 
 ---
 
@@ -1060,7 +1104,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_managed_folder#deletion_policy GoogleStorageManagedFolder#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_storage_managed_folder#deletion_policy GoogleStorageManagedFolder#deletion_policy}
 
 ---
 
@@ -1078,7 +1122,7 @@ If a non-empty managed folder is deleted, any objects
 within the folder will remain in a simulated folder with the
 same name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_managed_folder#force_destroy GoogleStorageManagedFolder#force_destroy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_storage_managed_folder#force_destroy GoogleStorageManagedFolder#force_destroy}
 
 ---
 
@@ -1090,10 +1134,24 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_managed_folder#id GoogleStorageManagedFolder#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_storage_managed_folder#id GoogleStorageManagedFolder#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+
+---
+
+##### `RapidCacheConfig`<sup>Optional</sup> <a name="RapidCacheConfig" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderConfig.property.rapidCacheConfig"></a>
+
+```go
+RapidCacheConfig GoogleStorageManagedFolderRapidCacheConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfig">GoogleStorageManagedFolderRapidCacheConfig</a>
+
+rapid_cache_config block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_storage_managed_folder#rapid_cache_config GoogleStorageManagedFolder#rapid_cache_config}
 
 ---
 
@@ -1107,7 +1165,96 @@ Timeouts GoogleStorageManagedFolderTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_managed_folder#timeouts GoogleStorageManagedFolder#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_storage_managed_folder#timeouts GoogleStorageManagedFolder#timeouts}
+
+---
+
+### GoogleStorageManagedFolderRapidCacheConfig <a name="GoogleStorageManagedFolderRapidCacheConfig" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfig.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlestoragemanagedfolder"
+
+&googlestoragemanagedfolder.GoogleStorageManagedFolderRapidCacheConfig {
+	Policies: interface{},
+}
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfig.property.policies">Policies</a></code> | <code>interface{}</code> | policies block. |
+
+---
+
+##### `Policies`<sup>Required</sup> <a name="Policies" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfig.property.policies"></a>
+
+```go
+Policies interface{}
+```
+
+- *Type:* interface{}
+
+policies block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_storage_managed_folder#policies GoogleStorageManagedFolder#policies}
+
+---
+
+### GoogleStorageManagedFolderRapidCacheConfigPolicies <a name="GoogleStorageManagedFolderRapidCacheConfigPolicies" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPolicies"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPolicies.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlestoragemanagedfolder"
+
+&googlestoragemanagedfolder.GoogleStorageManagedFolderRapidCacheConfigPolicies {
+	RapidCacheId: *string,
+	IngestOnWrite: *string,
+}
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPolicies.property.rapidCacheId">RapidCacheId</a></code> | <code>*string</code> | The unique identifier of the rapid cache. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPolicies.property.ingestOnWrite">IngestOnWrite</a></code> | <code>*string</code> | The ingest-on-write policy for objects in the managed folder. |
+
+---
+
+##### `RapidCacheId`<sup>Required</sup> <a name="RapidCacheId" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPolicies.property.rapidCacheId"></a>
+
+```go
+RapidCacheId *string
+```
+
+- *Type:* *string
+
+The unique identifier of the rapid cache.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_storage_managed_folder#rapid_cache_id GoogleStorageManagedFolder#rapid_cache_id}
+
+---
+
+##### `IngestOnWrite`<sup>Optional</sup> <a name="IngestOnWrite" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPolicies.property.ingestOnWrite"></a>
+
+```go
+IngestOnWrite *string
+```
+
+- *Type:* *string
+
+The ingest-on-write policy for objects in the managed folder.
+
+When
+set to 'enabled', objects are automatically ingested into the cache
+when they are written to the managed folder.
+Possible values: ["enabled", "unspecified"]
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_storage_managed_folder#ingest_on_write GoogleStorageManagedFolder#ingest_on_write}
 
 ---
 
@@ -1129,9 +1276,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlest
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_managed_folder#create GoogleStorageManagedFolder#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_managed_folder#delete GoogleStorageManagedFolder#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_managed_folder#update GoogleStorageManagedFolder#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_storage_managed_folder#create GoogleStorageManagedFolder#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_storage_managed_folder#delete GoogleStorageManagedFolder#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_storage_managed_folder#update GoogleStorageManagedFolder#update}. |
 
 ---
 
@@ -1143,7 +1290,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_managed_folder#create GoogleStorageManagedFolder#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_storage_managed_folder#create GoogleStorageManagedFolder#create}.
 
 ---
 
@@ -1155,7 +1302,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_managed_folder#delete GoogleStorageManagedFolder#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_storage_managed_folder#delete GoogleStorageManagedFolder#delete}.
 
 ---
 
@@ -1167,11 +1314,773 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_storage_managed_folder#update GoogleStorageManagedFolder#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_storage_managed_folder#update GoogleStorageManagedFolder#update}.
 
 ---
 
 ## Classes <a name="Classes" id="Classes"></a>
+
+### GoogleStorageManagedFolderRapidCacheConfigOutputReference <a name="GoogleStorageManagedFolderRapidCacheConfigOutputReference" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlestoragemanagedfolder"
+
+googlestoragemanagedfolder.NewGoogleStorageManagedFolderRapidCacheConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageManagedFolderRapidCacheConfigOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigOutputReference.putPolicies">PutPolicies</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `PutPolicies` <a name="PutPolicies" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigOutputReference.putPolicies"></a>
+
+```go
+func PutPolicies(value interface{})
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigOutputReference.putPolicies.parameter.value"></a>
+
+- *Type:* interface{}
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigOutputReference.property.policies">Policies</a></code> | <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesList">GoogleStorageManagedFolderRapidCacheConfigPoliciesList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigOutputReference.property.policiesInput">PoliciesInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfig">GoogleStorageManagedFolderRapidCacheConfig</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `Policies`<sup>Required</sup> <a name="Policies" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigOutputReference.property.policies"></a>
+
+```go
+func Policies() GoogleStorageManagedFolderRapidCacheConfigPoliciesList
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesList">GoogleStorageManagedFolderRapidCacheConfigPoliciesList</a>
+
+---
+
+##### `PoliciesInput`<sup>Optional</sup> <a name="PoliciesInput" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigOutputReference.property.policiesInput"></a>
+
+```go
+func PoliciesInput() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() GoogleStorageManagedFolderRapidCacheConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfig">GoogleStorageManagedFolderRapidCacheConfig</a>
+
+---
+
+
+### GoogleStorageManagedFolderRapidCacheConfigPoliciesList <a name="GoogleStorageManagedFolderRapidCacheConfigPoliciesList" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesList.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlestoragemanagedfolder"
+
+googlestoragemanagedfolder.NewGoogleStorageManagedFolderRapidCacheConfigPoliciesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleStorageManagedFolderRapidCacheConfigPoliciesList
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesList.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesList.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesList.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesList.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `Get` <a name="Get" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesList.get"></a>
+
+```go
+func Get(index *f64) GoogleStorageManagedFolderRapidCacheConfigPoliciesOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesList.get.parameter.index"></a>
+
+- *Type:* *f64
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesList.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesList.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesList.property.internalValue">InternalValue</a></code> | <code>interface{}</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesList.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesList.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesList.property.internalValue"></a>
+
+```go
+func InternalValue() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+
+### GoogleStorageManagedFolderRapidCacheConfigPoliciesOutputReference <a name="GoogleStorageManagedFolderRapidCacheConfigPoliciesOutputReference" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/googlestoragemanagedfolder"
+
+googlestoragemanagedfolder.NewGoogleStorageManagedFolderRapidCacheConfigPoliciesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleStorageManagedFolderRapidCacheConfigPoliciesOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>*f64</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* *f64
+
+the index of this item in the list.
+
+---
+
+##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesOutputReference.resetIngestOnWrite">ResetIngestOnWrite</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetIngestOnWrite` <a name="ResetIngestOnWrite" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesOutputReference.resetIngestOnWrite"></a>
+
+```go
+func ResetIngestOnWrite()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesOutputReference.property.ingestOnWriteInput">IngestOnWriteInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesOutputReference.property.rapidCacheIdInput">RapidCacheIdInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesOutputReference.property.ingestOnWrite">IngestOnWrite</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesOutputReference.property.rapidCacheId">RapidCacheId</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesOutputReference.property.internalValue">InternalValue</a></code> | <code>interface{}</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `IngestOnWriteInput`<sup>Optional</sup> <a name="IngestOnWriteInput" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesOutputReference.property.ingestOnWriteInput"></a>
+
+```go
+func IngestOnWriteInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `RapidCacheIdInput`<sup>Optional</sup> <a name="RapidCacheIdInput" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesOutputReference.property.rapidCacheIdInput"></a>
+
+```go
+func RapidCacheIdInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `IngestOnWrite`<sup>Required</sup> <a name="IngestOnWrite" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesOutputReference.property.ingestOnWrite"></a>
+
+```go
+func IngestOnWrite() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `RapidCacheId`<sup>Required</sup> <a name="RapidCacheId" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesOutputReference.property.rapidCacheId"></a>
+
+```go
+func RapidCacheId() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderRapidCacheConfigPoliciesOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
 
 ### GoogleStorageManagedFolderTimeoutsOutputReference <a name="GoogleStorageManagedFolderTimeoutsOutputReference" id="@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderTimeoutsOutputReference"></a>
 

@@ -4,7 +4,7 @@
 
 ### GoogleApigeeApi <a name="GoogleApigeeApi" id="@cdktn/provider-google-beta.googleApigeeApi.GoogleApigeeApi"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_apigee_api google_apigee_api}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_apigee_api google_apigee_api}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeApi.GoogleApigeeApi.Initializer"></a>
 
@@ -78,6 +78,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeApi.GoogleApigeeApi.resetDeletionPolicy">ResetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeApi.GoogleApigeeApi.resetDetectMd5Hash">ResetDetectMd5Hash</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeApi.GoogleApigeeApi.resetId">ResetId</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeApi.GoogleApigeeApi.resetLabels">ResetLabels</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeApi.GoogleApigeeApi.resetTimeouts">ResetTimeouts</a></code> | *No description.* |
 
 ---
@@ -421,6 +422,12 @@ private void ResetDetectMd5Hash()
 private void ResetId()
 ```
 
+##### `ResetLabels` <a name="ResetLabels" id="@cdktn/provider-google-beta.googleApigeeApi.GoogleApigeeApi.resetLabels"></a>
+
+```csharp
+private void ResetLabels()
+```
+
 ##### `ResetTimeouts` <a name="ResetTimeouts" id="@cdktn/provider-google-beta.googleApigeeApi.GoogleApigeeApi.resetTimeouts"></a>
 
 ```csharp
@@ -530,7 +537,7 @@ The construct id used in the generated config for the GoogleApigeeApi to import.
 
 The id of the existing GoogleApigeeApi that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_apigee_api#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_apigee_api#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -560,15 +567,18 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeApi.GoogleApigeeApi.property.lifecycle">Lifecycle</a></code> | <code>Io.Cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeApi.GoogleApigeeApi.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeApi.GoogleApigeeApi.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeApi.GoogleApigeeApi.property.effectiveLabels">EffectiveLabels</a></code> | <code>Io.Cdktn.StringMap</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeApi.GoogleApigeeApi.property.latestRevisionId">LatestRevisionId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeApi.GoogleApigeeApi.property.md5Hash">Md5Hash</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeApi.GoogleApigeeApi.property.metaData">MetaData</a></code> | <code><a href="#@cdktn/provider-google-beta.googleApigeeApi.GoogleApigeeApiMetaDataList">GoogleApigeeApiMetaDataList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeApi.GoogleApigeeApi.property.revision">Revision</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeApi.GoogleApigeeApi.property.terraformLabels">TerraformLabels</a></code> | <code>Io.Cdktn.StringMap</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeApi.GoogleApigeeApi.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleApigeeApi.GoogleApigeeApiTimeoutsOutputReference">GoogleApigeeApiTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeApi.GoogleApigeeApi.property.configBundleInput">ConfigBundleInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeApi.GoogleApigeeApi.property.deletionPolicyInput">DeletionPolicyInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeApi.GoogleApigeeApi.property.detectMd5HashInput">DetectMd5HashInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeApi.GoogleApigeeApi.property.idInput">IdInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeApi.GoogleApigeeApi.property.labelsInput">LabelsInput</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeApi.GoogleApigeeApi.property.nameInput">NameInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeApi.GoogleApigeeApi.property.orgIdInput">OrgIdInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeApi.GoogleApigeeApi.property.timeoutsInput">TimeoutsInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleApigeeApi.GoogleApigeeApiTimeouts">GoogleApigeeApiTimeouts</a></code> | *No description.* |
@@ -576,6 +586,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeApi.GoogleApigeeApi.property.deletionPolicy">DeletionPolicy</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeApi.GoogleApigeeApi.property.detectMd5Hash">DetectMd5Hash</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeApi.GoogleApigeeApi.property.id">Id</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeApi.GoogleApigeeApi.property.labels">Labels</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeApi.GoogleApigeeApi.property.name">Name</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeApi.GoogleApigeeApi.property.orgId">OrgId</a></code> | <code>string</code> | *No description.* |
 
@@ -723,6 +734,16 @@ public (FileProvisioner|LocalExecProvisioner|RemoteExecProvisioner)[] Provisione
 
 ---
 
+##### `EffectiveLabels`<sup>Required</sup> <a name="EffectiveLabels" id="@cdktn/provider-google-beta.googleApigeeApi.GoogleApigeeApi.property.effectiveLabels"></a>
+
+```csharp
+public StringMap EffectiveLabels { get; }
+```
+
+- *Type:* Io.Cdktn.StringMap
+
+---
+
 ##### `LatestRevisionId`<sup>Required</sup> <a name="LatestRevisionId" id="@cdktn/provider-google-beta.googleApigeeApi.GoogleApigeeApi.property.latestRevisionId"></a>
 
 ```csharp
@@ -760,6 +781,16 @@ public string[] Revision { get; }
 ```
 
 - *Type:* string[]
+
+---
+
+##### `TerraformLabels`<sup>Required</sup> <a name="TerraformLabels" id="@cdktn/provider-google-beta.googleApigeeApi.GoogleApigeeApi.property.terraformLabels"></a>
+
+```csharp
+public StringMap TerraformLabels { get; }
+```
+
+- *Type:* Io.Cdktn.StringMap
 
 ---
 
@@ -810,6 +841,16 @@ public string IdInput { get; }
 ```
 
 - *Type:* string
+
+---
+
+##### `LabelsInput`<sup>Optional</sup> <a name="LabelsInput" id="@cdktn/provider-google-beta.googleApigeeApi.GoogleApigeeApi.property.labelsInput"></a>
+
+```csharp
+public System.Collections.Generic.IDictionary<string, string> LabelsInput { get; }
+```
+
+- *Type:* System.Collections.Generic.IDictionary<string, string>
 
 ---
 
@@ -883,6 +924,16 @@ public string Id { get; }
 
 ---
 
+##### `Labels`<sup>Required</sup> <a name="Labels" id="@cdktn/provider-google-beta.googleApigeeApi.GoogleApigeeApi.property.labels"></a>
+
+```csharp
+public System.Collections.Generic.IDictionary<string, string> Labels { get; }
+```
+
+- *Type:* System.Collections.Generic.IDictionary<string, string>
+
+---
+
 ##### `Name`<sup>Required</sup> <a name="Name" id="@cdktn/provider-google-beta.googleApigeeApi.GoogleApigeeApi.property.name"></a>
 
 ```csharp
@@ -944,6 +995,7 @@ new GoogleApigeeApiConfig {
     string DeletionPolicy = null,
     string DetectMd5Hash = null,
     string Id = null,
+    System.Collections.Generic.IDictionary<string, string> Labels = null,
     GoogleApigeeApiTimeouts Timeouts = null
 };
 ```
@@ -964,7 +1016,8 @@ new GoogleApigeeApiConfig {
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeApi.GoogleApigeeApiConfig.property.orgId">OrgId</a></code> | <code>string</code> | The Apigee Organization name associated with the Apigee instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeApi.GoogleApigeeApiConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeApi.GoogleApigeeApiConfig.property.detectMd5Hash">DetectMd5Hash</a></code> | <code>string</code> | A hash of local config bundle in string, user needs to use a Terraform Hash function of their choice. |
-| <code><a href="#@cdktn/provider-google-beta.googleApigeeApi.GoogleApigeeApiConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_apigee_api#id GoogleApigeeApi#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeApi.GoogleApigeeApiConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_apigee_api#id GoogleApigeeApi#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeApi.GoogleApigeeApiConfig.property.labels">Labels</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | User labels applied to this API proxy. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeApi.GoogleApigeeApiConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleApigeeApi.GoogleApigeeApiTimeouts">GoogleApigeeApiTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1049,7 +1102,7 @@ public string ConfigBundle { get; set; }
 
 Path to the config zip bundle.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_apigee_api#config_bundle GoogleApigeeApi#config_bundle}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_apigee_api#config_bundle GoogleApigeeApi#config_bundle}
 
 ---
 
@@ -1063,7 +1116,7 @@ public string Name { get; set; }
 
 Name of the API proxy. This field only accepts the following characters: A-Za-z0-9._-.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_apigee_api#name GoogleApigeeApi#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_apigee_api#name GoogleApigeeApi#name}
 
 ---
 
@@ -1077,7 +1130,7 @@ public string OrgId { get; set; }
 
 The Apigee Organization name associated with the Apigee instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_apigee_api#org_id GoogleApigeeApi#org_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_apigee_api#org_id GoogleApigeeApi#org_id}
 
 ---
 
@@ -1098,7 +1151,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_apigee_api#deletion_policy GoogleApigeeApi#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_apigee_api#deletion_policy GoogleApigeeApi#deletion_policy}
 
 ---
 
@@ -1114,7 +1167,7 @@ A hash of local config bundle in string, user needs to use a Terraform Hash func
 
 A change in hash will trigger an update.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_apigee_api#detect_md5hash GoogleApigeeApi#detect_md5hash}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_apigee_api#detect_md5hash GoogleApigeeApi#detect_md5hash}
 
 ---
 
@@ -1126,10 +1179,27 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_apigee_api#id GoogleApigeeApi#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_apigee_api#id GoogleApigeeApi#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+
+---
+
+##### `Labels`<sup>Optional</sup> <a name="Labels" id="@cdktn/provider-google-beta.googleApigeeApi.GoogleApigeeApiConfig.property.labels"></a>
+
+```csharp
+public System.Collections.Generic.IDictionary<string, string> Labels { get; set; }
+```
+
+- *Type:* System.Collections.Generic.IDictionary<string, string>
+
+User labels applied to this API proxy.
+
+**Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
+Please refer to the field 'effective_labels' for all of the labels present on the resource.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_apigee_api#labels GoogleApigeeApi#labels}
 
 ---
 
@@ -1143,7 +1213,7 @@ public GoogleApigeeApiTimeouts Timeouts { get; set; }
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_apigee_api#timeouts GoogleApigeeApi#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_apigee_api#timeouts GoogleApigeeApi#timeouts}
 
 ---
 
@@ -1178,9 +1248,9 @@ new GoogleApigeeApiTimeouts {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleApigeeApi.GoogleApigeeApiTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_apigee_api#create GoogleApigeeApi#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleApigeeApi.GoogleApigeeApiTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_apigee_api#delete GoogleApigeeApi#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleApigeeApi.GoogleApigeeApiTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_apigee_api#update GoogleApigeeApi#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeApi.GoogleApigeeApiTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_apigee_api#create GoogleApigeeApi#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeApi.GoogleApigeeApiTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_apigee_api#delete GoogleApigeeApi#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeApi.GoogleApigeeApiTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_apigee_api#update GoogleApigeeApi#update}. |
 
 ---
 
@@ -1192,7 +1262,7 @@ public string Create { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_apigee_api#create GoogleApigeeApi#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_apigee_api#create GoogleApigeeApi#create}.
 
 ---
 
@@ -1204,7 +1274,7 @@ public string Delete { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_apigee_api#delete GoogleApigeeApi#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_apigee_api#delete GoogleApigeeApi#delete}.
 
 ---
 
@@ -1216,7 +1286,7 @@ public string Update { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_apigee_api#update GoogleApigeeApi#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_apigee_api#update GoogleApigeeApi#update}.
 
 ---
 

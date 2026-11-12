@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_model_armor_template
+// https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_model_armor_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -21,11 +21,11 @@ export interface GoogleModelArmorTemplateConfig extends cdktn.TerraformMetaArgum
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_model_armor_template#deletion_policy GoogleModelArmorTemplate#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_model_armor_template#deletion_policy GoogleModelArmorTemplate#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_model_armor_template#id GoogleModelArmorTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_model_armor_template#id GoogleModelArmorTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -37,17 +37,17 @@ export interface GoogleModelArmorTemplateConfig extends cdktn.TerraformMetaArgum
   * **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
   * Please refer to the field 'effective_labels' for all of the labels present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_model_armor_template#labels GoogleModelArmorTemplate#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_model_armor_template#labels GoogleModelArmorTemplate#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_model_armor_template#location GoogleModelArmorTemplate#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_model_armor_template#location GoogleModelArmorTemplate#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_model_armor_template#project GoogleModelArmorTemplate#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_model_armor_template#project GoogleModelArmorTemplate#project}
   */
   readonly project?: string;
   /**
@@ -55,27 +55,795 @@ export interface GoogleModelArmorTemplateConfig extends cdktn.TerraformMetaArgum
   * If auto-generating Id server-side, remove this field and
   * template_id from the method_signature of Create RPC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_model_armor_template#template_id GoogleModelArmorTemplate#template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_model_armor_template#template_id GoogleModelArmorTemplate#template_id}
   */
   readonly templateId: string;
   /**
   * filter_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_model_armor_template#filter_config GoogleModelArmorTemplate#filter_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_model_armor_template#filter_config GoogleModelArmorTemplate#filter_config}
   */
   readonly filterConfig: GoogleModelArmorTemplateFilterConfig;
   /**
   * template_metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_model_armor_template#template_metadata GoogleModelArmorTemplate#template_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_model_armor_template#template_metadata GoogleModelArmorTemplate#template_metadata}
   */
   readonly templateMetadata?: GoogleModelArmorTemplateTemplateMetadata;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_model_armor_template#timeouts GoogleModelArmorTemplate#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_model_armor_template#timeouts GoogleModelArmorTemplate#timeouts}
   */
   readonly timeouts?: GoogleModelArmorTemplateTimeouts;
+}
+export interface GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesExclusionRuleDictionaryWordListStruct {
+  /**
+  * Words or phrases defining the dictionary. The dictionary must contain at
+  * least one phrase and every phrase must contain at least two characters that
+  * are letters or digits.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_model_armor_template#words GoogleModelArmorTemplate#words}
+  */
+  readonly words: string[];
+}
+
+export function googleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesExclusionRuleDictionaryWordListStructToTerraform(struct?: GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesExclusionRuleDictionaryWordListStructOutputReference | GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesExclusionRuleDictionaryWordListStruct): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    words: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.words),
+  }
+}
+
+
+export function googleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesExclusionRuleDictionaryWordListStructToHclTerraform(struct?: GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesExclusionRuleDictionaryWordListStructOutputReference | GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesExclusionRuleDictionaryWordListStruct): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    words: {
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.words),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesExclusionRuleDictionaryWordListStructOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesExclusionRuleDictionaryWordListStruct | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._words !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.words = this._words;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesExclusionRuleDictionaryWordListStruct | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._words = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._words = value.words;
+    }
+  }
+
+  // words - computed: false, optional: false, required: true
+  private _words?: string[]; 
+  public get words() {
+    return this.getListAttribute('words');
+  }
+  public set words(value: string[]) {
+    this._words = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get wordsInput() {
+    return this._words;
+  }
+}
+export interface GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesExclusionRuleDictionary {
+  /**
+  * word_list block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_model_armor_template#word_list GoogleModelArmorTemplate#word_list}
+  */
+  readonly wordList?: GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesExclusionRuleDictionaryWordListStruct;
+}
+
+export function googleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesExclusionRuleDictionaryToTerraform(struct?: GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesExclusionRuleDictionaryOutputReference | GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesExclusionRuleDictionary): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    word_list: googleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesExclusionRuleDictionaryWordListStructToTerraform(struct!.wordList),
+  }
+}
+
+
+export function googleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesExclusionRuleDictionaryToHclTerraform(struct?: GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesExclusionRuleDictionaryOutputReference | GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesExclusionRuleDictionary): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    word_list: {
+      value: googleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesExclusionRuleDictionaryWordListStructToHclTerraform(struct!.wordList),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesExclusionRuleDictionaryWordListStructList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesExclusionRuleDictionaryOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesExclusionRuleDictionary | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._wordList?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.wordList = this._wordList?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesExclusionRuleDictionary | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._wordList.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._wordList.internalValue = value.wordList;
+    }
+  }
+
+  // word_list - computed: false, optional: true, required: false
+  private _wordList = new GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesExclusionRuleDictionaryWordListStructOutputReference(this, "word_list");
+  public get wordList() {
+    return this._wordList;
+  }
+  public putWordList(value: GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesExclusionRuleDictionaryWordListStruct) {
+    this._wordList.internalValue = value;
+  }
+  public resetWordList() {
+    this._wordList.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get wordListInput() {
+    return this._wordList.internalValue;
+  }
+}
+export interface GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesExclusionRuleRegex {
+  /**
+  * The regular expression pattern.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_model_armor_template#pattern GoogleModelArmorTemplate#pattern}
+  */
+  readonly pattern: string;
+}
+
+export function googleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesExclusionRuleRegexToTerraform(struct?: GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesExclusionRuleRegexOutputReference | GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesExclusionRuleRegex): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    pattern: cdktn.stringToTerraform(struct!.pattern),
+  }
+}
+
+
+export function googleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesExclusionRuleRegexToHclTerraform(struct?: GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesExclusionRuleRegexOutputReference | GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesExclusionRuleRegex): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    pattern: {
+      value: cdktn.stringToHclTerraform(struct!.pattern),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesExclusionRuleRegexOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesExclusionRuleRegex | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._pattern !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.pattern = this._pattern;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesExclusionRuleRegex | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._pattern = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._pattern = value.pattern;
+    }
+  }
+
+  // pattern - computed: false, optional: false, required: true
+  private _pattern?: string; 
+  public get pattern() {
+    return this.getStringAttribute('pattern');
+  }
+  public set pattern(value: string) {
+    this._pattern = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get patternInput() {
+    return this._pattern;
+  }
+}
+export interface GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesExclusionRule {
+  /**
+  * Specifies the scope of the input that should be matched against the
+  * exclusion rule. If unspecified, defaults to MATCHING_SCOPE_PARTIAL_MATCH.
+  * Possible values:
+  * MATCHING_SCOPE_FULL_MATCH
+  * MATCHING_SCOPE_PARTIAL_MATCH
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_model_armor_template#matching_scope GoogleModelArmorTemplate#matching_scope}
+  */
+  readonly matchingScope?: string;
+  /**
+  * dictionary block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_model_armor_template#dictionary GoogleModelArmorTemplate#dictionary}
+  */
+  readonly dictionary?: GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesExclusionRuleDictionary;
+  /**
+  * regex block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_model_armor_template#regex GoogleModelArmorTemplate#regex}
+  */
+  readonly regex?: GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesExclusionRuleRegex;
+}
+
+export function googleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesExclusionRuleToTerraform(struct?: GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesExclusionRuleOutputReference | GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesExclusionRule): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    matching_scope: cdktn.stringToTerraform(struct!.matchingScope),
+    dictionary: googleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesExclusionRuleDictionaryToTerraform(struct!.dictionary),
+    regex: googleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesExclusionRuleRegexToTerraform(struct!.regex),
+  }
+}
+
+
+export function googleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesExclusionRuleToHclTerraform(struct?: GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesExclusionRuleOutputReference | GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesExclusionRule): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    matching_scope: {
+      value: cdktn.stringToHclTerraform(struct!.matchingScope),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    dictionary: {
+      value: googleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesExclusionRuleDictionaryToHclTerraform(struct!.dictionary),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesExclusionRuleDictionaryList",
+    },
+    regex: {
+      value: googleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesExclusionRuleRegexToHclTerraform(struct!.regex),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesExclusionRuleRegexList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesExclusionRuleOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesExclusionRule | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._matchingScope !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.matchingScope = this._matchingScope;
+    }
+    if (this._dictionary?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dictionary = this._dictionary?.internalValue;
+    }
+    if (this._regex?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.regex = this._regex?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesExclusionRule | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._matchingScope = undefined;
+      this._dictionary.internalValue = undefined;
+      this._regex.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._matchingScope = value.matchingScope;
+      this._dictionary.internalValue = value.dictionary;
+      this._regex.internalValue = value.regex;
+    }
+  }
+
+  // matching_scope - computed: false, optional: true, required: false
+  private _matchingScope?: string; 
+  public get matchingScope() {
+    return this.getStringAttribute('matching_scope');
+  }
+  public set matchingScope(value: string) {
+    this._matchingScope = value;
+  }
+  public resetMatchingScope() {
+    this._matchingScope = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get matchingScopeInput() {
+    return this._matchingScope;
+  }
+
+  // dictionary - computed: false, optional: true, required: false
+  private _dictionary = new GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesExclusionRuleDictionaryOutputReference(this, "dictionary");
+  public get dictionary() {
+    return this._dictionary;
+  }
+  public putDictionary(value: GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesExclusionRuleDictionary) {
+    this._dictionary.internalValue = value;
+  }
+  public resetDictionary() {
+    this._dictionary.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dictionaryInput() {
+    return this._dictionary.internalValue;
+  }
+
+  // regex - computed: false, optional: true, required: false
+  private _regex = new GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesExclusionRuleRegexOutputReference(this, "regex");
+  public get regex() {
+    return this._regex;
+  }
+  public putRegex(value: GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesExclusionRuleRegex) {
+    this._regex.internalValue = value;
+  }
+  public resetRegex() {
+    this._regex.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get regexInput() {
+    return this._regex.internalValue;
+  }
+}
+export interface GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRules {
+  /**
+  * exclusion_rule block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_model_armor_template#exclusion_rule GoogleModelArmorTemplate#exclusion_rule}
+  */
+  readonly exclusionRule?: GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesExclusionRule;
+}
+
+export function googleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesToTerraform(struct?: GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRules | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    exclusion_rule: googleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesExclusionRuleToTerraform(struct!.exclusionRule),
+  }
+}
+
+
+export function googleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesToHclTerraform(struct?: GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRules | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    exclusion_rule: {
+      value: googleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesExclusionRuleToHclTerraform(struct!.exclusionRule),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesExclusionRuleList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRules | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._exclusionRule?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.exclusionRule = this._exclusionRule?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRules | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._exclusionRule.internalValue = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._exclusionRule.internalValue = value.exclusionRule;
+    }
+  }
+
+  // exclusion_rule - computed: false, optional: true, required: false
+  private _exclusionRule = new GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesExclusionRuleOutputReference(this, "exclusion_rule");
+  public get exclusionRule() {
+    return this._exclusionRule;
+  }
+  public putExclusionRule(value: GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesExclusionRule) {
+    this._exclusionRule.internalValue = value;
+  }
+  public resetExclusionRule() {
+    this._exclusionRule.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get exclusionRuleInput() {
+    return this._exclusionRule.internalValue;
+  }
+}
+
+export class GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesList extends cdktn.ComplexList {
+  public internalValue? : GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRules[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesOutputReference {
+    return new GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSets {
+  /**
+  * List of filters this rule set is applied to.
+  * Possible values:
+  * PROMPT_INJECTION_AND_JAILBREAK
+  * RESPONSIBLE_AI
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_model_armor_template#filter_types GoogleModelArmorTemplate#filter_types}
+  */
+  readonly filterTypes: string[];
+  /**
+  * rules block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_model_armor_template#rules GoogleModelArmorTemplate#rules}
+  */
+  readonly rules: GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRules[] | cdktn.IResolvable;
+}
+
+export function googleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsToTerraform(struct?: GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSets | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    filter_types: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.filterTypes),
+    rules: cdktn.listMapper(googleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesToTerraform, true)(struct!.rules),
+  }
+}
+
+
+export function googleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsToHclTerraform(struct?: GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSets | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    filter_types: {
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.filterTypes),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    rules: {
+      value: cdktn.listMapperHcl(googleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesToHclTerraform, true)(struct!.rules),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSets | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._filterTypes !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.filterTypes = this._filterTypes;
+    }
+    if (this._rules?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.rules = this._rules?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSets | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._filterTypes = undefined;
+      this._rules.internalValue = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._filterTypes = value.filterTypes;
+      this._rules.internalValue = value.rules;
+    }
+  }
+
+  // filter_types - computed: false, optional: false, required: true
+  private _filterTypes?: string[]; 
+  public get filterTypes() {
+    return this.getListAttribute('filter_types');
+  }
+  public set filterTypes(value: string[]) {
+    this._filterTypes = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get filterTypesInput() {
+    return this._filterTypes;
+  }
+
+  // rules - computed: false, optional: false, required: true
+  private _rules = new GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRulesList(this, "rules", false);
+  public get rules() {
+    return this._rules;
+  }
+  public putRules(value: GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsRules[] | cdktn.IResolvable) {
+    this._rules.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rulesInput() {
+    return this._rules.internalValue;
+  }
+}
+
+export class GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsList extends cdktn.ComplexList {
+  public internalValue? : GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSets[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsOutputReference {
+    return new GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GoogleModelArmorTemplateFilterConfigFilterRuleSettings {
+  /**
+  * rule_sets block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_model_armor_template#rule_sets GoogleModelArmorTemplate#rule_sets}
+  */
+  readonly ruleSets?: GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSets[] | cdktn.IResolvable;
+}
+
+export function googleModelArmorTemplateFilterConfigFilterRuleSettingsToTerraform(struct?: GoogleModelArmorTemplateFilterConfigFilterRuleSettingsOutputReference | GoogleModelArmorTemplateFilterConfigFilterRuleSettings): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    rule_sets: cdktn.listMapper(googleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsToTerraform, true)(struct!.ruleSets),
+  }
+}
+
+
+export function googleModelArmorTemplateFilterConfigFilterRuleSettingsToHclTerraform(struct?: GoogleModelArmorTemplateFilterConfigFilterRuleSettingsOutputReference | GoogleModelArmorTemplateFilterConfigFilterRuleSettings): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    rule_sets: {
+      value: cdktn.listMapperHcl(googleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsToHclTerraform, true)(struct!.ruleSets),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleModelArmorTemplateFilterConfigFilterRuleSettingsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleModelArmorTemplateFilterConfigFilterRuleSettings | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._ruleSets?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ruleSets = this._ruleSets?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleModelArmorTemplateFilterConfigFilterRuleSettings | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._ruleSets.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._ruleSets.internalValue = value.ruleSets;
+    }
+  }
+
+  // rule_sets - computed: false, optional: true, required: false
+  private _ruleSets = new GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSetsList(this, "rule_sets", false);
+  public get ruleSets() {
+    return this._ruleSets;
+  }
+  public putRuleSets(value: GoogleModelArmorTemplateFilterConfigFilterRuleSettingsRuleSets[] | cdktn.IResolvable) {
+    this._ruleSets.internalValue = value;
+  }
+  public resetRuleSets() {
+    this._ruleSets.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ruleSetsInput() {
+    return this._ruleSets.internalValue;
+  }
 }
 export interface GoogleModelArmorTemplateFilterConfigMaliciousUriFilterSettings {
   /**
@@ -84,7 +852,7 @@ export interface GoogleModelArmorTemplateFilterConfigMaliciousUriFilterSettings 
   * ENABLED
   * DISABLED
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_model_armor_template#filter_enforcement GoogleModelArmorTemplate#filter_enforcement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_model_armor_template#filter_enforcement GoogleModelArmorTemplate#filter_enforcement}
   */
   readonly filterEnforcement?: string;
 }
@@ -173,7 +941,7 @@ export interface GoogleModelArmorTemplateFilterConfigPiAndJailbreakFilterSetting
   * MEDIUM_AND_ABOVE
   * HIGH
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_model_armor_template#confidence_level GoogleModelArmorTemplate#confidence_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_model_armor_template#confidence_level GoogleModelArmorTemplate#confidence_level}
   */
   readonly confidenceLevel?: string;
   /**
@@ -183,7 +951,7 @@ export interface GoogleModelArmorTemplateFilterConfigPiAndJailbreakFilterSetting
   * ENABLED
   * DISABLED
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_model_armor_template#filter_enforcement GoogleModelArmorTemplate#filter_enforcement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_model_armor_template#filter_enforcement GoogleModelArmorTemplate#filter_enforcement}
   */
   readonly filterEnforcement?: string;
 }
@@ -301,7 +1069,7 @@ export interface GoogleModelArmorTemplateFilterConfigRaiSettingsRaiFilters {
   * MEDIUM_AND_ABOVE
   * HIGH
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_model_armor_template#confidence_level GoogleModelArmorTemplate#confidence_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_model_armor_template#confidence_level GoogleModelArmorTemplate#confidence_level}
   */
   readonly confidenceLevel?: string;
   /**
@@ -311,7 +1079,7 @@ export interface GoogleModelArmorTemplateFilterConfigRaiSettingsRaiFilters {
   * HARASSMENT
   * DANGEROUS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_model_armor_template#filter_type GoogleModelArmorTemplate#filter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_model_armor_template#filter_type GoogleModelArmorTemplate#filter_type}
   */
   readonly filterType: string;
 }
@@ -455,7 +1223,7 @@ export interface GoogleModelArmorTemplateFilterConfigRaiSettings {
   /**
   * rai_filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_model_armor_template#rai_filters GoogleModelArmorTemplate#rai_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_model_armor_template#rai_filters GoogleModelArmorTemplate#rai_filters}
   */
   readonly raiFilters: GoogleModelArmorTemplateFilterConfigRaiSettingsRaiFilters[] | cdktn.IResolvable;
 }
@@ -545,7 +1313,7 @@ export interface GoogleModelArmorTemplateFilterConfigSdpSettingsAdvancedConfig {
   * e.g.
   * 'projects/{project}/locations/{location}/deidentifyTemplates/{deidentify_template}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_model_armor_template#deidentify_template GoogleModelArmorTemplate#deidentify_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_model_armor_template#deidentify_template GoogleModelArmorTemplate#deidentify_template}
   */
   readonly deidentifyTemplate?: string;
   /**
@@ -557,7 +1325,7 @@ export interface GoogleModelArmorTemplateFilterConfigSdpSettingsAdvancedConfig {
   * e.g:-
   * 'projects/{project}/locations/{location}/inspectTemplates/{inspect_template}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_model_armor_template#inspect_template GoogleModelArmorTemplate#inspect_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_model_armor_template#inspect_template GoogleModelArmorTemplate#inspect_template}
   */
   readonly inspectTemplate?: string;
 }
@@ -676,7 +1444,7 @@ export interface GoogleModelArmorTemplateFilterConfigSdpSettingsBasicConfig {
   * ENABLED
   * DISABLED
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_model_armor_template#filter_enforcement GoogleModelArmorTemplate#filter_enforcement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_model_armor_template#filter_enforcement GoogleModelArmorTemplate#filter_enforcement}
   */
   readonly filterEnforcement?: string;
 }
@@ -762,13 +1530,13 @@ export interface GoogleModelArmorTemplateFilterConfigSdpSettings {
   /**
   * advanced_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_model_armor_template#advanced_config GoogleModelArmorTemplate#advanced_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_model_armor_template#advanced_config GoogleModelArmorTemplate#advanced_config}
   */
   readonly advancedConfig?: GoogleModelArmorTemplateFilterConfigSdpSettingsAdvancedConfig;
   /**
   * basic_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_model_armor_template#basic_config GoogleModelArmorTemplate#basic_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_model_armor_template#basic_config GoogleModelArmorTemplate#basic_config}
   */
   readonly basicConfig?: GoogleModelArmorTemplateFilterConfigSdpSettingsBasicConfig;
 }
@@ -881,27 +1649,33 @@ export class GoogleModelArmorTemplateFilterConfigSdpSettingsOutputReference exte
 }
 export interface GoogleModelArmorTemplateFilterConfig {
   /**
+  * filter_rule_settings block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_model_armor_template#filter_rule_settings GoogleModelArmorTemplate#filter_rule_settings}
+  */
+  readonly filterRuleSettings?: GoogleModelArmorTemplateFilterConfigFilterRuleSettings;
+  /**
   * malicious_uri_filter_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_model_armor_template#malicious_uri_filter_settings GoogleModelArmorTemplate#malicious_uri_filter_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_model_armor_template#malicious_uri_filter_settings GoogleModelArmorTemplate#malicious_uri_filter_settings}
   */
   readonly maliciousUriFilterSettings?: GoogleModelArmorTemplateFilterConfigMaliciousUriFilterSettings;
   /**
   * pi_and_jailbreak_filter_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_model_armor_template#pi_and_jailbreak_filter_settings GoogleModelArmorTemplate#pi_and_jailbreak_filter_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_model_armor_template#pi_and_jailbreak_filter_settings GoogleModelArmorTemplate#pi_and_jailbreak_filter_settings}
   */
   readonly piAndJailbreakFilterSettings?: GoogleModelArmorTemplateFilterConfigPiAndJailbreakFilterSettings;
   /**
   * rai_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_model_armor_template#rai_settings GoogleModelArmorTemplate#rai_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_model_armor_template#rai_settings GoogleModelArmorTemplate#rai_settings}
   */
   readonly raiSettings?: GoogleModelArmorTemplateFilterConfigRaiSettings;
   /**
   * sdp_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_model_armor_template#sdp_settings GoogleModelArmorTemplate#sdp_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_model_armor_template#sdp_settings GoogleModelArmorTemplate#sdp_settings}
   */
   readonly sdpSettings?: GoogleModelArmorTemplateFilterConfigSdpSettings;
 }
@@ -912,6 +1686,7 @@ export function googleModelArmorTemplateFilterConfigToTerraform(struct?: GoogleM
     throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
+    filter_rule_settings: googleModelArmorTemplateFilterConfigFilterRuleSettingsToTerraform(struct!.filterRuleSettings),
     malicious_uri_filter_settings: googleModelArmorTemplateFilterConfigMaliciousUriFilterSettingsToTerraform(struct!.maliciousUriFilterSettings),
     pi_and_jailbreak_filter_settings: googleModelArmorTemplateFilterConfigPiAndJailbreakFilterSettingsToTerraform(struct!.piAndJailbreakFilterSettings),
     rai_settings: googleModelArmorTemplateFilterConfigRaiSettingsToTerraform(struct!.raiSettings),
@@ -926,6 +1701,12 @@ export function googleModelArmorTemplateFilterConfigToHclTerraform(struct?: Goog
     throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
+    filter_rule_settings: {
+      value: googleModelArmorTemplateFilterConfigFilterRuleSettingsToHclTerraform(struct!.filterRuleSettings),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleModelArmorTemplateFilterConfigFilterRuleSettingsList",
+    },
     malicious_uri_filter_settings: {
       value: googleModelArmorTemplateFilterConfigMaliciousUriFilterSettingsToHclTerraform(struct!.maliciousUriFilterSettings),
       isBlock: true,
@@ -970,6 +1751,10 @@ export class GoogleModelArmorTemplateFilterConfigOutputReference extends cdktn.C
   public get internalValue(): GoogleModelArmorTemplateFilterConfig | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._filterRuleSettings?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.filterRuleSettings = this._filterRuleSettings?.internalValue;
+    }
     if (this._maliciousUriFilterSettings?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.maliciousUriFilterSettings = this._maliciousUriFilterSettings?.internalValue;
@@ -992,6 +1777,7 @@ export class GoogleModelArmorTemplateFilterConfigOutputReference extends cdktn.C
   public set internalValue(value: GoogleModelArmorTemplateFilterConfig | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._filterRuleSettings.internalValue = undefined;
       this._maliciousUriFilterSettings.internalValue = undefined;
       this._piAndJailbreakFilterSettings.internalValue = undefined;
       this._raiSettings.internalValue = undefined;
@@ -999,11 +1785,28 @@ export class GoogleModelArmorTemplateFilterConfigOutputReference extends cdktn.C
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._filterRuleSettings.internalValue = value.filterRuleSettings;
       this._maliciousUriFilterSettings.internalValue = value.maliciousUriFilterSettings;
       this._piAndJailbreakFilterSettings.internalValue = value.piAndJailbreakFilterSettings;
       this._raiSettings.internalValue = value.raiSettings;
       this._sdpSettings.internalValue = value.sdpSettings;
     }
+  }
+
+  // filter_rule_settings - computed: false, optional: true, required: false
+  private _filterRuleSettings = new GoogleModelArmorTemplateFilterConfigFilterRuleSettingsOutputReference(this, "filter_rule_settings");
+  public get filterRuleSettings() {
+    return this._filterRuleSettings;
+  }
+  public putFilterRuleSettings(value: GoogleModelArmorTemplateFilterConfigFilterRuleSettings) {
+    this._filterRuleSettings.internalValue = value;
+  }
+  public resetFilterRuleSettings() {
+    this._filterRuleSettings.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get filterRuleSettingsInput() {
+    return this._filterRuleSettings.internalValue;
   }
 
   // malicious_uri_filter_settings - computed: false, optional: true, required: false
@@ -1078,14 +1881,14 @@ export interface GoogleModelArmorTemplateTemplateMetadataFilterVersionSelector {
   * FILTER_VERSION_ALIAS_STABLE
   * FILTER_VERSION_ALIAS_LATEST
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_model_armor_template#alias GoogleModelArmorTemplate#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_model_armor_template#alias GoogleModelArmorTemplate#alias}
   */
   readonly alias?: string;
   /**
   * Pins the template to a specific, immutable filter version. Expected
   * format is a case-sensitive string such as 'v1' or 'v2'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_model_armor_template#version GoogleModelArmorTemplate#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_model_armor_template#version GoogleModelArmorTemplate#version}
   */
   readonly version?: string;
 }
@@ -1200,7 +2003,7 @@ export interface GoogleModelArmorTemplateTemplateMetadataMultiLanguageDetection 
   /**
   * If true, multi language detection will be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_model_armor_template#enable_multi_language_detection GoogleModelArmorTemplate#enable_multi_language_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_model_armor_template#enable_multi_language_detection GoogleModelArmorTemplate#enable_multi_language_detection}
   */
   readonly enableMultiLanguageDetection: boolean | cdktn.IResolvable;
 }
@@ -1284,54 +2087,64 @@ export interface GoogleModelArmorTemplateTemplateMetadata {
   * Indicates the custom error code set by the user to be returned to the end
   * user if the LLM response trips Model Armor filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_model_armor_template#custom_llm_response_safety_error_code GoogleModelArmorTemplate#custom_llm_response_safety_error_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_model_armor_template#custom_llm_response_safety_error_code GoogleModelArmorTemplate#custom_llm_response_safety_error_code}
   */
   readonly customLlmResponseSafetyErrorCode?: number;
   /**
   * Indicates the custom error message set by the user to be returned to the
   * end user if the LLM response trips Model Armor filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_model_armor_template#custom_llm_response_safety_error_message GoogleModelArmorTemplate#custom_llm_response_safety_error_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_model_armor_template#custom_llm_response_safety_error_message GoogleModelArmorTemplate#custom_llm_response_safety_error_message}
   */
   readonly customLlmResponseSafetyErrorMessage?: string;
   /**
   * Indicates the custom error code set by the user to be returned to the end
   * user by the service extension if the prompt trips Model Armor filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_model_armor_template#custom_prompt_safety_error_code GoogleModelArmorTemplate#custom_prompt_safety_error_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_model_armor_template#custom_prompt_safety_error_code GoogleModelArmorTemplate#custom_prompt_safety_error_code}
   */
   readonly customPromptSafetyErrorCode?: number;
   /**
   * Indicates the custom error message set by the user to be returned to the
   * end user if the prompt trips Model Armor filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_model_armor_template#custom_prompt_safety_error_message GoogleModelArmorTemplate#custom_prompt_safety_error_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_model_armor_template#custom_prompt_safety_error_message GoogleModelArmorTemplate#custom_prompt_safety_error_message}
   */
   readonly customPromptSafetyErrorMessage?: string;
+  /**
+  * Indicates whether the template is subject to data residency compliance. If
+  * true (default for new templates), the template is subject to data residency
+  * compliance. If false, the template bypasses data residency compliance
+  * checks. If unset, the value is determined by the API; templates created
+  * before data residency enforcement may report false.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_model_armor_template#data_residency_compliant GoogleModelArmorTemplate#data_residency_compliant}
+  */
+  readonly dataResidencyCompliant?: boolean | cdktn.IResolvable;
   /**
   * Possible values:
   * INSPECT_ONLY
   * INSPECT_AND_BLOCK
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_model_armor_template#enforcement_type GoogleModelArmorTemplate#enforcement_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_model_armor_template#enforcement_type GoogleModelArmorTemplate#enforcement_type}
   */
   readonly enforcementType?: string;
   /**
   * If true, partial detector failures should be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_model_armor_template#ignore_partial_invocation_failures GoogleModelArmorTemplate#ignore_partial_invocation_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_model_armor_template#ignore_partial_invocation_failures GoogleModelArmorTemplate#ignore_partial_invocation_failures}
   */
   readonly ignorePartialInvocationFailures?: boolean | cdktn.IResolvable;
   /**
   * If true, log sanitize operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_model_armor_template#log_sanitize_operations GoogleModelArmorTemplate#log_sanitize_operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_model_armor_template#log_sanitize_operations GoogleModelArmorTemplate#log_sanitize_operations}
   */
   readonly logSanitizeOperations?: boolean | cdktn.IResolvable;
   /**
   * If true, log template crud operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_model_armor_template#log_template_operations GoogleModelArmorTemplate#log_template_operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_model_armor_template#log_template_operations GoogleModelArmorTemplate#log_template_operations}
   */
   readonly logTemplateOperations?: boolean | cdktn.IResolvable;
   /**
@@ -1343,19 +2156,19 @@ export interface GoogleModelArmorTemplateTemplateMetadata {
   * MODALITY_TEXT
   * MODALITY_IMAGE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_model_armor_template#modalities GoogleModelArmorTemplate#modalities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_model_armor_template#modalities GoogleModelArmorTemplate#modalities}
   */
   readonly modalities?: string[];
   /**
   * filter_version_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_model_armor_template#filter_version_selector GoogleModelArmorTemplate#filter_version_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_model_armor_template#filter_version_selector GoogleModelArmorTemplate#filter_version_selector}
   */
   readonly filterVersionSelector?: GoogleModelArmorTemplateTemplateMetadataFilterVersionSelector;
   /**
   * multi_language_detection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_model_armor_template#multi_language_detection GoogleModelArmorTemplate#multi_language_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_model_armor_template#multi_language_detection GoogleModelArmorTemplate#multi_language_detection}
   */
   readonly multiLanguageDetection?: GoogleModelArmorTemplateTemplateMetadataMultiLanguageDetection;
 }
@@ -1370,6 +2183,7 @@ export function googleModelArmorTemplateTemplateMetadataToTerraform(struct?: Goo
     custom_llm_response_safety_error_message: cdktn.stringToTerraform(struct!.customLlmResponseSafetyErrorMessage),
     custom_prompt_safety_error_code: cdktn.numberToTerraform(struct!.customPromptSafetyErrorCode),
     custom_prompt_safety_error_message: cdktn.stringToTerraform(struct!.customPromptSafetyErrorMessage),
+    data_residency_compliant: cdktn.booleanToTerraform(struct!.dataResidencyCompliant),
     enforcement_type: cdktn.stringToTerraform(struct!.enforcementType),
     ignore_partial_invocation_failures: cdktn.booleanToTerraform(struct!.ignorePartialInvocationFailures),
     log_sanitize_operations: cdktn.booleanToTerraform(struct!.logSanitizeOperations),
@@ -1410,6 +2224,12 @@ export function googleModelArmorTemplateTemplateMetadataToHclTerraform(struct?: 
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    data_residency_compliant: {
+      value: cdktn.booleanToHclTerraform(struct!.dataResidencyCompliant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
     },
     enforcement_type: {
       value: cdktn.stringToHclTerraform(struct!.enforcementType),
@@ -1489,6 +2309,10 @@ export class GoogleModelArmorTemplateTemplateMetadataOutputReference extends cdk
       hasAnyValues = true;
       internalValueResult.customPromptSafetyErrorMessage = this._customPromptSafetyErrorMessage;
     }
+    if (this._dataResidencyCompliant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dataResidencyCompliant = this._dataResidencyCompliant;
+    }
     if (this._enforcementType !== undefined) {
       hasAnyValues = true;
       internalValueResult.enforcementType = this._enforcementType;
@@ -1527,6 +2351,7 @@ export class GoogleModelArmorTemplateTemplateMetadataOutputReference extends cdk
       this._customLlmResponseSafetyErrorMessage = undefined;
       this._customPromptSafetyErrorCode = undefined;
       this._customPromptSafetyErrorMessage = undefined;
+      this._dataResidencyCompliant = undefined;
       this._enforcementType = undefined;
       this._ignorePartialInvocationFailures = undefined;
       this._logSanitizeOperations = undefined;
@@ -1541,6 +2366,7 @@ export class GoogleModelArmorTemplateTemplateMetadataOutputReference extends cdk
       this._customLlmResponseSafetyErrorMessage = value.customLlmResponseSafetyErrorMessage;
       this._customPromptSafetyErrorCode = value.customPromptSafetyErrorCode;
       this._customPromptSafetyErrorMessage = value.customPromptSafetyErrorMessage;
+      this._dataResidencyCompliant = value.dataResidencyCompliant;
       this._enforcementType = value.enforcementType;
       this._ignorePartialInvocationFailures = value.ignorePartialInvocationFailures;
       this._logSanitizeOperations = value.logSanitizeOperations;
@@ -1613,6 +2439,22 @@ export class GoogleModelArmorTemplateTemplateMetadataOutputReference extends cdk
   // Temporarily expose input value. Use with caution.
   public get customPromptSafetyErrorMessageInput() {
     return this._customPromptSafetyErrorMessage;
+  }
+
+  // data_residency_compliant - computed: true, optional: true, required: false
+  private _dataResidencyCompliant?: boolean | cdktn.IResolvable; 
+  public get dataResidencyCompliant() {
+    return this.getBooleanAttribute('data_residency_compliant');
+  }
+  public set dataResidencyCompliant(value: boolean | cdktn.IResolvable) {
+    this._dataResidencyCompliant = value;
+  }
+  public resetDataResidencyCompliant() {
+    this._dataResidencyCompliant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dataResidencyCompliantInput() {
+    return this._dataResidencyCompliant;
   }
 
   // enforcement_type - computed: false, optional: true, required: false
@@ -1729,15 +2571,15 @@ export class GoogleModelArmorTemplateTemplateMetadataOutputReference extends cdk
 }
 export interface GoogleModelArmorTemplateTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_model_armor_template#create GoogleModelArmorTemplate#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_model_armor_template#create GoogleModelArmorTemplate#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_model_armor_template#delete GoogleModelArmorTemplate#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_model_armor_template#delete GoogleModelArmorTemplate#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_model_armor_template#update GoogleModelArmorTemplate#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_model_armor_template#update GoogleModelArmorTemplate#update}
   */
   readonly update?: string;
 }
@@ -1889,7 +2731,7 @@ export class GoogleModelArmorTemplateTimeoutsOutputReference extends cdktn.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_model_armor_template google_model_armor_template}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_model_armor_template google_model_armor_template}
 */
 export class GoogleModelArmorTemplate extends cdktn.TerraformResource {
 
@@ -1905,7 +2747,7 @@ export class GoogleModelArmorTemplate extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleModelArmorTemplate resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleModelArmorTemplate to import
-  * @param importFromId The id of the existing GoogleModelArmorTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_model_armor_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleModelArmorTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_model_armor_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleModelArmorTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1917,7 +2759,7 @@ export class GoogleModelArmorTemplate extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_model_armor_template google_model_armor_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_model_armor_template google_model_armor_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1928,7 +2770,7 @@ export class GoogleModelArmorTemplate extends cdktn.TerraformResource {
       terraformResourceType: 'google_model_armor_template',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '8.9.0',
+        providerVersion: '8.11.0',
         providerVersionConstraint: '~> 8.0'
       },
       provider: config.provider,
