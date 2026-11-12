@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_integrations_auth_config
+// https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -21,19 +21,19 @@ export interface GoogleIntegrationsAuthConfigConfig extends cdktn.TerraformMetaA
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_integrations_auth_config#deletion_policy GoogleIntegrationsAuthConfig#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#deletion_policy GoogleIntegrationsAuthConfig#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * A description of the auth config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_integrations_auth_config#description GoogleIntegrationsAuthConfig#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#description GoogleIntegrationsAuthConfig#description}
   */
   readonly description?: string;
   /**
   * The name of the auth config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_integrations_auth_config#display_name GoogleIntegrationsAuthConfig#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#display_name GoogleIntegrationsAuthConfig#display_name}
   */
   readonly displayName: string;
   /**
@@ -41,11 +41,11 @@ export interface GoogleIntegrationsAuthConfigConfig extends cdktn.TerraformMetaA
   * 
   * A duration in seconds with up to nine fractional digits, ending with 's'. Example: "3.5s".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_integrations_auth_config#expiry_notification_duration GoogleIntegrationsAuthConfig#expiry_notification_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#expiry_notification_duration GoogleIntegrationsAuthConfig#expiry_notification_duration}
   */
   readonly expiryNotificationDuration?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_integrations_auth_config#id GoogleIntegrationsAuthConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#id GoogleIntegrationsAuthConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -54,7 +54,7 @@ export interface GoogleIntegrationsAuthConfigConfig extends cdktn.TerraformMetaA
   /**
   * Location in which client needs to be provisioned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_integrations_auth_config#location GoogleIntegrationsAuthConfig#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#location GoogleIntegrationsAuthConfig#location}
   */
   readonly location: string;
   /**
@@ -62,35 +62,35 @@ export interface GoogleIntegrationsAuthConfigConfig extends cdktn.TerraformMetaA
   * 
   * A timestamp in RFC3339 UTC "Zulu" format, with nanosecond resolution and up to nine fractional digits. Examples: "2014-10-02T15:01:23Z" and "2014-10-02T15:01:23.045123456Z".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_integrations_auth_config#override_valid_time GoogleIntegrationsAuthConfig#override_valid_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#override_valid_time GoogleIntegrationsAuthConfig#override_valid_time}
   */
   readonly overrideValidTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_integrations_auth_config#project GoogleIntegrationsAuthConfig#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#project GoogleIntegrationsAuthConfig#project}
   */
   readonly project?: string;
   /**
   * The visibility of the auth config. Possible values: ["PRIVATE", "CLIENT_VISIBLE"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_integrations_auth_config#visibility GoogleIntegrationsAuthConfig#visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#visibility GoogleIntegrationsAuthConfig#visibility}
   */
   readonly visibility?: string;
   /**
   * client_certificate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_integrations_auth_config#client_certificate GoogleIntegrationsAuthConfig#client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#client_certificate GoogleIntegrationsAuthConfig#client_certificate}
   */
   readonly clientCertificate?: GoogleIntegrationsAuthConfigClientCertificate;
   /**
   * decrypted_credential block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_integrations_auth_config#decrypted_credential GoogleIntegrationsAuthConfig#decrypted_credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#decrypted_credential GoogleIntegrationsAuthConfig#decrypted_credential}
   */
   readonly decryptedCredential?: GoogleIntegrationsAuthConfigDecryptedCredential;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_integrations_auth_config#timeouts GoogleIntegrationsAuthConfig#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#timeouts GoogleIntegrationsAuthConfig#timeouts}
   */
   readonly timeouts?: GoogleIntegrationsAuthConfigTimeouts;
 }
@@ -98,20 +98,20 @@ export interface GoogleIntegrationsAuthConfigClientCertificate {
   /**
   * The ssl certificate encoded in PEM format. This string must include the begin header and end footer lines.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_integrations_auth_config#encrypted_private_key GoogleIntegrationsAuthConfig#encrypted_private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#encrypted_private_key GoogleIntegrationsAuthConfig#encrypted_private_key}
   */
   readonly encryptedPrivateKey: string;
   /**
   * 'passphrase' should be left unset if private key is not encrypted.
   * Note that 'passphrase' is not the password for web server, but an extra layer of security to protected private key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_integrations_auth_config#passphrase GoogleIntegrationsAuthConfig#passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#passphrase GoogleIntegrationsAuthConfig#passphrase}
   */
   readonly passphrase?: string;
   /**
   * The ssl certificate encoded in PEM format. This string must include the begin header and end footer lines.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_integrations_auth_config#ssl_certificate GoogleIntegrationsAuthConfig#ssl_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#ssl_certificate GoogleIntegrationsAuthConfig#ssl_certificate}
   */
   readonly sslCertificate: string;
 }
@@ -249,13 +249,13 @@ export interface GoogleIntegrationsAuthConfigDecryptedCredentialAuthToken {
   /**
   * The token for the auth type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_integrations_auth_config#token GoogleIntegrationsAuthConfig#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#token GoogleIntegrationsAuthConfig#token}
   */
   readonly token?: string;
   /**
   * Authentication type, e.g. "Basic", "Bearer", etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_integrations_auth_config#type GoogleIntegrationsAuthConfig#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#type GoogleIntegrationsAuthConfig#type}
   */
   readonly type?: string;
 }
@@ -370,19 +370,19 @@ export interface GoogleIntegrationsAuthConfigDecryptedCredentialJwt {
   /**
   * Identifies which algorithm is used to generate the signature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_integrations_auth_config#jwt_header GoogleIntegrationsAuthConfig#jwt_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#jwt_header GoogleIntegrationsAuthConfig#jwt_header}
   */
   readonly jwtHeader?: string;
   /**
   * Contains a set of claims. The JWT specification defines seven Registered Claim Names which are the standard fields commonly included in tokens. Custom claims are usually also included, depending on the purpose of the token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_integrations_auth_config#jwt_payload GoogleIntegrationsAuthConfig#jwt_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#jwt_payload GoogleIntegrationsAuthConfig#jwt_payload}
   */
   readonly jwtPayload?: string;
   /**
   * User's pre-shared secret to sign the token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_integrations_auth_config#secret GoogleIntegrationsAuthConfig#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#secret GoogleIntegrationsAuthConfig#secret}
   */
   readonly secret?: string;
 }
@@ -527,37 +527,1227 @@ export class GoogleIntegrationsAuthConfigDecryptedCredentialJwtOutputReference e
     return this._secret;
   }
 }
+export interface GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesKeyLiteralValue {
+  /**
+  * The string value of the parameter key.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#string_value GoogleIntegrationsAuthConfig#string_value}
+  */
+  readonly stringValue?: string;
+}
+
+export function googleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesKeyLiteralValueToTerraform(struct?: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesKeyLiteralValueOutputReference | GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesKeyLiteralValue): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    string_value: cdktn.stringToTerraform(struct!.stringValue),
+  }
+}
+
+
+export function googleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesKeyLiteralValueToHclTerraform(struct?: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesKeyLiteralValueOutputReference | GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesKeyLiteralValue): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    string_value: {
+      value: cdktn.stringToHclTerraform(struct!.stringValue),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesKeyLiteralValueOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesKeyLiteralValue | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._stringValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.stringValue = this._stringValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesKeyLiteralValue | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._stringValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._stringValue = value.stringValue;
+    }
+  }
+
+  // string_value - computed: false, optional: true, required: false
+  private _stringValue?: string; 
+  public get stringValue() {
+    return this.getStringAttribute('string_value');
+  }
+  public set stringValue(value: string) {
+    this._stringValue = value;
+  }
+  public resetStringValue() {
+    this._stringValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get stringValueInput() {
+    return this._stringValue;
+  }
+}
+export interface GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesKey {
+  /**
+  * literal_value block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#literal_value GoogleIntegrationsAuthConfig#literal_value}
+  */
+  readonly literalValue?: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesKeyLiteralValue;
+}
+
+export function googleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesKeyToTerraform(struct?: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesKeyOutputReference | GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesKey): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    literal_value: googleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesKeyLiteralValueToTerraform(struct!.literalValue),
+  }
+}
+
+
+export function googleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesKeyToHclTerraform(struct?: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesKeyOutputReference | GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesKey): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    literal_value: {
+      value: googleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesKeyLiteralValueToHclTerraform(struct!.literalValue),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesKeyLiteralValueList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesKeyOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesKey | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._literalValue?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.literalValue = this._literalValue?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesKey | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._literalValue.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._literalValue.internalValue = value.literalValue;
+    }
+  }
+
+  // literal_value - computed: false, optional: true, required: false
+  private _literalValue = new GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesKeyLiteralValueOutputReference(this, "literal_value");
+  public get literalValue() {
+    return this._literalValue;
+  }
+  public putLiteralValue(value: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesKeyLiteralValue) {
+    this._literalValue.internalValue = value;
+  }
+  public resetLiteralValue() {
+    this._literalValue.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get literalValueInput() {
+    return this._literalValue.internalValue;
+  }
+}
+export interface GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesValueLiteralValue {
+  /**
+  * The string value of the parameter.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#string_value GoogleIntegrationsAuthConfig#string_value}
+  */
+  readonly stringValue?: string;
+}
+
+export function googleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesValueLiteralValueToTerraform(struct?: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesValueLiteralValueOutputReference | GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesValueLiteralValue): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    string_value: cdktn.stringToTerraform(struct!.stringValue),
+  }
+}
+
+
+export function googleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesValueLiteralValueToHclTerraform(struct?: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesValueLiteralValueOutputReference | GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesValueLiteralValue): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    string_value: {
+      value: cdktn.stringToHclTerraform(struct!.stringValue),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesValueLiteralValueOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesValueLiteralValue | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._stringValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.stringValue = this._stringValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesValueLiteralValue | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._stringValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._stringValue = value.stringValue;
+    }
+  }
+
+  // string_value - computed: false, optional: true, required: false
+  private _stringValue?: string; 
+  public get stringValue() {
+    return this.getStringAttribute('string_value');
+  }
+  public set stringValue(value: string) {
+    this._stringValue = value;
+  }
+  public resetStringValue() {
+    this._stringValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get stringValueInput() {
+    return this._stringValue;
+  }
+}
+export interface GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesValue {
+  /**
+  * literal_value block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#literal_value GoogleIntegrationsAuthConfig#literal_value}
+  */
+  readonly literalValue?: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesValueLiteralValue;
+}
+
+export function googleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesValueToTerraform(struct?: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesValueOutputReference | GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesValue): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    literal_value: googleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesValueLiteralValueToTerraform(struct!.literalValue),
+  }
+}
+
+
+export function googleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesValueToHclTerraform(struct?: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesValueOutputReference | GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesValue): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    literal_value: {
+      value: googleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesValueLiteralValueToHclTerraform(struct!.literalValue),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesValueLiteralValueList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesValueOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesValue | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._literalValue?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.literalValue = this._literalValue?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesValue | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._literalValue.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._literalValue.internalValue = value.literalValue;
+    }
+  }
+
+  // literal_value - computed: false, optional: true, required: false
+  private _literalValue = new GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesValueLiteralValueOutputReference(this, "literal_value");
+  public get literalValue() {
+    return this._literalValue;
+  }
+  public putLiteralValue(value: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesValueLiteralValue) {
+    this._literalValue.internalValue = value;
+  }
+  public resetLiteralValue() {
+    this._literalValue.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get literalValueInput() {
+    return this._literalValue.internalValue;
+  }
+}
+export interface GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntries {
+  /**
+  * key block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#key GoogleIntegrationsAuthConfig#key}
+  */
+  readonly key?: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesKey;
+  /**
+  * value block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#value GoogleIntegrationsAuthConfig#value}
+  */
+  readonly value?: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesValue;
+}
+
+export function googleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesToTerraform(struct?: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntries | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    key: googleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesKeyToTerraform(struct!.key),
+    value: googleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesValueToTerraform(struct!.value),
+  }
+}
+
+
+export function googleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesToHclTerraform(struct?: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntries | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    key: {
+      value: googleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesKeyToHclTerraform(struct!.key),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesKeyList",
+    },
+    value: {
+      value: googleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesValueToHclTerraform(struct!.value),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesValueList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntries | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._key?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key?.internalValue;
+    }
+    if (this._value?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.value = this._value?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntries | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._key.internalValue = undefined;
+      this._value.internalValue = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._key.internalValue = value.key;
+      this._value.internalValue = value.value;
+    }
+  }
+
+  // key - computed: false, optional: true, required: false
+  private _key = new GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesKeyOutputReference(this, "key");
+  public get key() {
+    return this._key;
+  }
+  public putKey(value: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesKey) {
+    this._key.internalValue = value;
+  }
+  public resetKey() {
+    this._key.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key.internalValue;
+  }
+
+  // value - computed: false, optional: true, required: false
+  private _value = new GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesValueOutputReference(this, "value");
+  public get value() {
+    return this._value;
+  }
+  public putValue(value: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesValue) {
+    this._value.internalValue = value;
+  }
+  public resetValue() {
+    this._value.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get valueInput() {
+    return this._value.internalValue;
+  }
+}
+
+export class GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesList extends cdktn.ComplexList {
+  public internalValue? : GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntries[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesOutputReference {
+    return new GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParams {
+  /**
+  * entries block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#entries GoogleIntegrationsAuthConfig#entries}
+  */
+  readonly entries?: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntries[] | cdktn.IResolvable;
+}
+
+export function googleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsToTerraform(struct?: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsOutputReference | GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParams): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    entries: cdktn.listMapper(googleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesToTerraform, true)(struct!.entries),
+  }
+}
+
+
+export function googleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsToHclTerraform(struct?: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsOutputReference | GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParams): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    entries: {
+      value: cdktn.listMapperHcl(googleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesToHclTerraform, true)(struct!.entries),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParams | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._entries?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.entries = this._entries?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParams | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._entries.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._entries.internalValue = value.entries;
+    }
+  }
+
+  // entries - computed: false, optional: true, required: false
+  private _entries = new GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesList(this, "entries", false);
+  public get entries() {
+    return this._entries;
+  }
+  public putEntries(value: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntries[] | cdktn.IResolvable) {
+    this._entries.internalValue = value;
+  }
+  public resetEntries() {
+    this._entries.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get entriesInput() {
+    return this._entries.internalValue;
+  }
+}
+export interface GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesKeyLiteralValue {
+  /**
+  * The string value of the parameter key.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#string_value GoogleIntegrationsAuthConfig#string_value}
+  */
+  readonly stringValue?: string;
+}
+
+export function googleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesKeyLiteralValueToTerraform(struct?: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesKeyLiteralValueOutputReference | GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesKeyLiteralValue): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    string_value: cdktn.stringToTerraform(struct!.stringValue),
+  }
+}
+
+
+export function googleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesKeyLiteralValueToHclTerraform(struct?: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesKeyLiteralValueOutputReference | GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesKeyLiteralValue): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    string_value: {
+      value: cdktn.stringToHclTerraform(struct!.stringValue),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesKeyLiteralValueOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesKeyLiteralValue | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._stringValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.stringValue = this._stringValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesKeyLiteralValue | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._stringValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._stringValue = value.stringValue;
+    }
+  }
+
+  // string_value - computed: false, optional: true, required: false
+  private _stringValue?: string; 
+  public get stringValue() {
+    return this.getStringAttribute('string_value');
+  }
+  public set stringValue(value: string) {
+    this._stringValue = value;
+  }
+  public resetStringValue() {
+    this._stringValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get stringValueInput() {
+    return this._stringValue;
+  }
+}
+export interface GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesKey {
+  /**
+  * literal_value block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#literal_value GoogleIntegrationsAuthConfig#literal_value}
+  */
+  readonly literalValue?: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesKeyLiteralValue;
+}
+
+export function googleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesKeyToTerraform(struct?: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesKeyOutputReference | GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesKey): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    literal_value: googleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesKeyLiteralValueToTerraform(struct!.literalValue),
+  }
+}
+
+
+export function googleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesKeyToHclTerraform(struct?: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesKeyOutputReference | GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesKey): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    literal_value: {
+      value: googleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesKeyLiteralValueToHclTerraform(struct!.literalValue),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesKeyLiteralValueList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesKeyOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesKey | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._literalValue?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.literalValue = this._literalValue?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesKey | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._literalValue.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._literalValue.internalValue = value.literalValue;
+    }
+  }
+
+  // literal_value - computed: false, optional: true, required: false
+  private _literalValue = new GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesKeyLiteralValueOutputReference(this, "literal_value");
+  public get literalValue() {
+    return this._literalValue;
+  }
+  public putLiteralValue(value: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesKeyLiteralValue) {
+    this._literalValue.internalValue = value;
+  }
+  public resetLiteralValue() {
+    this._literalValue.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get literalValueInput() {
+    return this._literalValue.internalValue;
+  }
+}
+export interface GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesValueLiteralValue {
+  /**
+  * The string value of the parameter.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#string_value GoogleIntegrationsAuthConfig#string_value}
+  */
+  readonly stringValue?: string;
+}
+
+export function googleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesValueLiteralValueToTerraform(struct?: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesValueLiteralValueOutputReference | GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesValueLiteralValue): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    string_value: cdktn.stringToTerraform(struct!.stringValue),
+  }
+}
+
+
+export function googleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesValueLiteralValueToHclTerraform(struct?: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesValueLiteralValueOutputReference | GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesValueLiteralValue): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    string_value: {
+      value: cdktn.stringToHclTerraform(struct!.stringValue),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesValueLiteralValueOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesValueLiteralValue | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._stringValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.stringValue = this._stringValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesValueLiteralValue | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._stringValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._stringValue = value.stringValue;
+    }
+  }
+
+  // string_value - computed: false, optional: true, required: false
+  private _stringValue?: string; 
+  public get stringValue() {
+    return this.getStringAttribute('string_value');
+  }
+  public set stringValue(value: string) {
+    this._stringValue = value;
+  }
+  public resetStringValue() {
+    this._stringValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get stringValueInput() {
+    return this._stringValue;
+  }
+}
+export interface GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesValue {
+  /**
+  * literal_value block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#literal_value GoogleIntegrationsAuthConfig#literal_value}
+  */
+  readonly literalValue?: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesValueLiteralValue;
+}
+
+export function googleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesValueToTerraform(struct?: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesValueOutputReference | GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesValue): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    literal_value: googleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesValueLiteralValueToTerraform(struct!.literalValue),
+  }
+}
+
+
+export function googleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesValueToHclTerraform(struct?: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesValueOutputReference | GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesValue): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    literal_value: {
+      value: googleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesValueLiteralValueToHclTerraform(struct!.literalValue),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesValueLiteralValueList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesValueOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesValue | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._literalValue?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.literalValue = this._literalValue?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesValue | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._literalValue.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._literalValue.internalValue = value.literalValue;
+    }
+  }
+
+  // literal_value - computed: false, optional: true, required: false
+  private _literalValue = new GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesValueLiteralValueOutputReference(this, "literal_value");
+  public get literalValue() {
+    return this._literalValue;
+  }
+  public putLiteralValue(value: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesValueLiteralValue) {
+    this._literalValue.internalValue = value;
+  }
+  public resetLiteralValue() {
+    this._literalValue.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get literalValueInput() {
+    return this._literalValue.internalValue;
+  }
+}
+export interface GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntries {
+  /**
+  * key block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#key GoogleIntegrationsAuthConfig#key}
+  */
+  readonly key?: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesKey;
+  /**
+  * value block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#value GoogleIntegrationsAuthConfig#value}
+  */
+  readonly value?: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesValue;
+}
+
+export function googleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesToTerraform(struct?: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntries | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    key: googleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesKeyToTerraform(struct!.key),
+    value: googleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesValueToTerraform(struct!.value),
+  }
+}
+
+
+export function googleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesToHclTerraform(struct?: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntries | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    key: {
+      value: googleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesKeyToHclTerraform(struct!.key),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesKeyList",
+    },
+    value: {
+      value: googleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesValueToHclTerraform(struct!.value),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesValueList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntries | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._key?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key?.internalValue;
+    }
+    if (this._value?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.value = this._value?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntries | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._key.internalValue = undefined;
+      this._value.internalValue = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._key.internalValue = value.key;
+      this._value.internalValue = value.value;
+    }
+  }
+
+  // key - computed: false, optional: true, required: false
+  private _key = new GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesKeyOutputReference(this, "key");
+  public get key() {
+    return this._key;
+  }
+  public putKey(value: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesKey) {
+    this._key.internalValue = value;
+  }
+  public resetKey() {
+    this._key.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key.internalValue;
+  }
+
+  // value - computed: false, optional: true, required: false
+  private _value = new GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesValueOutputReference(this, "value");
+  public get value() {
+    return this._value;
+  }
+  public putValue(value: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesValue) {
+    this._value.internalValue = value;
+  }
+  public resetValue() {
+    this._value.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get valueInput() {
+    return this._value.internalValue;
+  }
+}
+
+export class GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesList extends cdktn.ComplexList {
+  public internalValue? : GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntries[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesOutputReference {
+    return new GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParams {
+  /**
+  * entries block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#entries GoogleIntegrationsAuthConfig#entries}
+  */
+  readonly entries?: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntries[] | cdktn.IResolvable;
+}
+
+export function googleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsToTerraform(struct?: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsOutputReference | GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParams): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    entries: cdktn.listMapper(googleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesToTerraform, true)(struct!.entries),
+  }
+}
+
+
+export function googleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsToHclTerraform(struct?: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsOutputReference | GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParams): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    entries: {
+      value: cdktn.listMapperHcl(googleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesToHclTerraform, true)(struct!.entries),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParams | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._entries?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.entries = this._entries?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParams | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._entries.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._entries.internalValue = value.entries;
+    }
+  }
+
+  // entries - computed: false, optional: true, required: false
+  private _entries = new GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntriesList(this, "entries", false);
+  public get entries() {
+    return this._entries;
+  }
+  public putEntries(value: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsEntries[] | cdktn.IResolvable) {
+    this._entries.internalValue = value;
+  }
+  public resetEntries() {
+    this._entries.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get entriesInput() {
+    return this._entries.internalValue;
+  }
+}
 export interface GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCode {
+  /**
+  * Indicates if the user has opted in Google Reauth Policy. If opted in, the refresh token will be valid for 20 hours, after which time users must re-authenticate in order to obtain a new one.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#apply_reauth_policy GoogleIntegrationsAuthConfig#apply_reauth_policy}
+  */
+  readonly applyReauthPolicy?: boolean | cdktn.IResolvable;
   /**
   * The auth url endpoint to send the auth code request to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_integrations_auth_config#auth_endpoint GoogleIntegrationsAuthConfig#auth_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#auth_endpoint GoogleIntegrationsAuthConfig#auth_endpoint}
   */
   readonly authEndpoint?: string;
   /**
   * The client's id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_integrations_auth_config#client_id GoogleIntegrationsAuthConfig#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#client_id GoogleIntegrationsAuthConfig#client_id}
   */
   readonly clientId?: string;
   /**
   * The client's secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_integrations_auth_config#client_secret GoogleIntegrationsAuthConfig#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#client_secret GoogleIntegrationsAuthConfig#client_secret}
   */
   readonly clientSecret?: string;
   /**
+  * Represent how to pass parameters to fetch access token Possible values: ["REQUEST_BODY", "QUERY_PARAMETERS", "ENCODED_HEADER"]
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#request_type GoogleIntegrationsAuthConfig#request_type}
+  */
+  readonly requestType?: string;
+  /**
   * A space-delimited list of requested scope permissions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_integrations_auth_config#scope GoogleIntegrationsAuthConfig#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#scope GoogleIntegrationsAuthConfig#scope}
   */
   readonly scope?: string;
   /**
   * The token url endpoint to send the token request to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_integrations_auth_config#token_endpoint GoogleIntegrationsAuthConfig#token_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#token_endpoint GoogleIntegrationsAuthConfig#token_endpoint}
   */
   readonly tokenEndpoint?: string;
+  /**
+  * auth_params block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#auth_params GoogleIntegrationsAuthConfig#auth_params}
+  */
+  readonly authParams?: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParams;
+  /**
+  * token_params block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#token_params GoogleIntegrationsAuthConfig#token_params}
+  */
+  readonly tokenParams?: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParams;
 }
 
 export function googleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeToTerraform(struct?: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReference | GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCode): any {
@@ -566,11 +1756,15 @@ export function googleIntegrationsAuthConfigDecryptedCredentialOauth2Authorizati
     throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
+    apply_reauth_policy: cdktn.booleanToTerraform(struct!.applyReauthPolicy),
     auth_endpoint: cdktn.stringToTerraform(struct!.authEndpoint),
     client_id: cdktn.stringToTerraform(struct!.clientId),
     client_secret: cdktn.stringToTerraform(struct!.clientSecret),
+    request_type: cdktn.stringToTerraform(struct!.requestType),
     scope: cdktn.stringToTerraform(struct!.scope),
     token_endpoint: cdktn.stringToTerraform(struct!.tokenEndpoint),
+    auth_params: googleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsToTerraform(struct!.authParams),
+    token_params: googleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsToTerraform(struct!.tokenParams),
   }
 }
 
@@ -581,6 +1775,12 @@ export function googleIntegrationsAuthConfigDecryptedCredentialOauth2Authorizati
     throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
+    apply_reauth_policy: {
+      value: cdktn.booleanToHclTerraform(struct!.applyReauthPolicy),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
     auth_endpoint: {
       value: cdktn.stringToHclTerraform(struct!.authEndpoint),
       isBlock: false,
@@ -599,6 +1799,12 @@ export function googleIntegrationsAuthConfigDecryptedCredentialOauth2Authorizati
       type: "simple",
       storageClassType: "string",
     },
+    request_type: {
+      value: cdktn.stringToHclTerraform(struct!.requestType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     scope: {
       value: cdktn.stringToHclTerraform(struct!.scope),
       isBlock: false,
@@ -610,6 +1816,18 @@ export function googleIntegrationsAuthConfigDecryptedCredentialOauth2Authorizati
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    auth_params: {
+      value: googleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsToHclTerraform(struct!.authParams),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsList",
+    },
+    token_params: {
+      value: googleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsToHclTerraform(struct!.tokenParams),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsList",
     },
   };
 
@@ -631,6 +1849,10 @@ export class GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationC
   public get internalValue(): GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCode | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._applyReauthPolicy !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.applyReauthPolicy = this._applyReauthPolicy;
+    }
     if (this._authEndpoint !== undefined) {
       hasAnyValues = true;
       internalValueResult.authEndpoint = this._authEndpoint;
@@ -643,6 +1865,10 @@ export class GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationC
       hasAnyValues = true;
       internalValueResult.clientSecret = this._clientSecret;
     }
+    if (this._requestType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.requestType = this._requestType;
+    }
     if (this._scope !== undefined) {
       hasAnyValues = true;
       internalValueResult.scope = this._scope;
@@ -651,26 +1877,58 @@ export class GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationC
       hasAnyValues = true;
       internalValueResult.tokenEndpoint = this._tokenEndpoint;
     }
+    if (this._authParams?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.authParams = this._authParams?.internalValue;
+    }
+    if (this._tokenParams?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tokenParams = this._tokenParams?.internalValue;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
   public set internalValue(value: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCode | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._applyReauthPolicy = undefined;
       this._authEndpoint = undefined;
       this._clientId = undefined;
       this._clientSecret = undefined;
+      this._requestType = undefined;
       this._scope = undefined;
       this._tokenEndpoint = undefined;
+      this._authParams.internalValue = undefined;
+      this._tokenParams.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._applyReauthPolicy = value.applyReauthPolicy;
       this._authEndpoint = value.authEndpoint;
       this._clientId = value.clientId;
       this._clientSecret = value.clientSecret;
+      this._requestType = value.requestType;
       this._scope = value.scope;
       this._tokenEndpoint = value.tokenEndpoint;
+      this._authParams.internalValue = value.authParams;
+      this._tokenParams.internalValue = value.tokenParams;
     }
+  }
+
+  // apply_reauth_policy - computed: false, optional: true, required: false
+  private _applyReauthPolicy?: boolean | cdktn.IResolvable; 
+  public get applyReauthPolicy() {
+    return this.getBooleanAttribute('apply_reauth_policy');
+  }
+  public set applyReauthPolicy(value: boolean | cdktn.IResolvable) {
+    this._applyReauthPolicy = value;
+  }
+  public resetApplyReauthPolicy() {
+    this._applyReauthPolicy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get applyReauthPolicyInput() {
+    return this._applyReauthPolicy;
   }
 
   // auth_endpoint - computed: false, optional: true, required: false
@@ -721,6 +1979,22 @@ export class GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationC
     return this._clientSecret;
   }
 
+  // request_type - computed: false, optional: true, required: false
+  private _requestType?: string; 
+  public get requestType() {
+    return this.getStringAttribute('request_type');
+  }
+  public set requestType(value: string) {
+    this._requestType = value;
+  }
+  public resetRequestType() {
+    this._requestType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get requestTypeInput() {
+    return this._requestType;
+  }
+
   // scope - computed: false, optional: true, required: false
   private _scope?: string; 
   public get scope() {
@@ -752,12 +2026,44 @@ export class GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationC
   public get tokenEndpointInput() {
     return this._tokenEndpoint;
   }
+
+  // auth_params - computed: false, optional: true, required: false
+  private _authParams = new GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsOutputReference(this, "auth_params");
+  public get authParams() {
+    return this._authParams;
+  }
+  public putAuthParams(value: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParams) {
+    this._authParams.internalValue = value;
+  }
+  public resetAuthParams() {
+    this._authParams.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get authParamsInput() {
+    return this._authParams.internalValue;
+  }
+
+  // token_params - computed: false, optional: true, required: false
+  private _tokenParams = new GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsOutputReference(this, "token_params");
+  public get tokenParams() {
+    return this._tokenParams;
+  }
+  public putTokenParams(value: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParams) {
+    this._tokenParams.internalValue = value;
+  }
+  public resetTokenParams() {
+    this._tokenParams.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tokenParamsInput() {
+    return this._tokenParams.internalValue;
+  }
 }
 export interface GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesKeyLiteralValue {
   /**
   * String.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_integrations_auth_config#string_value GoogleIntegrationsAuthConfig#string_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#string_value GoogleIntegrationsAuthConfig#string_value}
   */
   readonly stringValue?: string;
 }
@@ -843,7 +2149,7 @@ export interface GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCred
   /**
   * literal_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_integrations_auth_config#literal_value GoogleIntegrationsAuthConfig#literal_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#literal_value GoogleIntegrationsAuthConfig#literal_value}
   */
   readonly literalValue?: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesKeyLiteralValue;
 }
@@ -929,7 +2235,7 @@ export interface GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCred
   /**
   * String.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_integrations_auth_config#string_value GoogleIntegrationsAuthConfig#string_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#string_value GoogleIntegrationsAuthConfig#string_value}
   */
   readonly stringValue?: string;
 }
@@ -1015,7 +2321,7 @@ export interface GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCred
   /**
   * literal_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_integrations_auth_config#literal_value GoogleIntegrationsAuthConfig#literal_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#literal_value GoogleIntegrationsAuthConfig#literal_value}
   */
   readonly literalValue?: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesValueLiteralValue;
 }
@@ -1101,13 +2407,13 @@ export interface GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCred
   /**
   * key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_integrations_auth_config#key GoogleIntegrationsAuthConfig#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#key GoogleIntegrationsAuthConfig#key}
   */
   readonly key?: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesKey;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_integrations_auth_config#value GoogleIntegrationsAuthConfig#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#value GoogleIntegrationsAuthConfig#value}
   */
   readonly value?: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntriesValue;
 }
@@ -1254,7 +2560,7 @@ export interface GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCred
   /**
   * entries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_integrations_auth_config#entries GoogleIntegrationsAuthConfig#entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#entries GoogleIntegrationsAuthConfig#entries}
   */
   readonly entries?: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParamsEntries[] | cdktn.IResolvable;
 }
@@ -1340,37 +2646,37 @@ export interface GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCred
   /**
   * The client's ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_integrations_auth_config#client_id GoogleIntegrationsAuthConfig#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#client_id GoogleIntegrationsAuthConfig#client_id}
   */
   readonly clientId?: string;
   /**
   * The client's secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_integrations_auth_config#client_secret GoogleIntegrationsAuthConfig#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#client_secret GoogleIntegrationsAuthConfig#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * Represent how to pass parameters to fetch access token Possible values: ["REQUEST_TYPE_UNSPECIFIED", "REQUEST_BODY", "QUERY_PARAMETERS", "ENCODED_HEADER"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_integrations_auth_config#request_type GoogleIntegrationsAuthConfig#request_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#request_type GoogleIntegrationsAuthConfig#request_type}
   */
   readonly requestType?: string;
   /**
   * A space-delimited list of requested scope permissions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_integrations_auth_config#scope GoogleIntegrationsAuthConfig#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#scope GoogleIntegrationsAuthConfig#scope}
   */
   readonly scope?: string;
   /**
   * The token endpoint is used by the client to obtain an access token by presenting its authorization grant or refresh token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_integrations_auth_config#token_endpoint GoogleIntegrationsAuthConfig#token_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#token_endpoint GoogleIntegrationsAuthConfig#token_endpoint}
   */
   readonly tokenEndpoint?: string;
   /**
   * token_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_integrations_auth_config#token_params GoogleIntegrationsAuthConfig#token_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#token_params GoogleIntegrationsAuthConfig#token_params}
   */
   readonly tokenParams?: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentialsTokenParams;
 }
@@ -1601,13 +2907,13 @@ export interface GoogleIntegrationsAuthConfigDecryptedCredentialOidcToken {
   /**
   * Audience to be used when generating OIDC token. The audience claim identifies the recipients that the JWT is intended for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_integrations_auth_config#audience GoogleIntegrationsAuthConfig#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#audience GoogleIntegrationsAuthConfig#audience}
   */
   readonly audience?: string;
   /**
   * The service account email to be used as the identity for the token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_integrations_auth_config#service_account_email GoogleIntegrationsAuthConfig#service_account_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#service_account_email GoogleIntegrationsAuthConfig#service_account_email}
   */
   readonly serviceAccountEmail?: string;
 }
@@ -1732,13 +3038,13 @@ export interface GoogleIntegrationsAuthConfigDecryptedCredentialServiceAccountCr
   /**
   * A space-delimited list of requested scope permissions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_integrations_auth_config#scope GoogleIntegrationsAuthConfig#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#scope GoogleIntegrationsAuthConfig#scope}
   */
   readonly scope?: string;
   /**
   * Name of the service account that has the permission to make the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_integrations_auth_config#service_account GoogleIntegrationsAuthConfig#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#service_account GoogleIntegrationsAuthConfig#service_account}
   */
   readonly serviceAccount?: string;
 }
@@ -1853,13 +3159,13 @@ export interface GoogleIntegrationsAuthConfigDecryptedCredentialUsernameAndPassw
   /**
   * Password to be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_integrations_auth_config#password GoogleIntegrationsAuthConfig#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#password GoogleIntegrationsAuthConfig#password}
   */
   readonly password?: string;
   /**
   * Username to be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_integrations_auth_config#username GoogleIntegrationsAuthConfig#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#username GoogleIntegrationsAuthConfig#username}
   */
   readonly username?: string;
 }
@@ -1974,49 +3280,49 @@ export interface GoogleIntegrationsAuthConfigDecryptedCredential {
   /**
   * Credential type associated with auth configs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_integrations_auth_config#credential_type GoogleIntegrationsAuthConfig#credential_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#credential_type GoogleIntegrationsAuthConfig#credential_type}
   */
   readonly credentialType: string;
   /**
   * auth_token block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_integrations_auth_config#auth_token GoogleIntegrationsAuthConfig#auth_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#auth_token GoogleIntegrationsAuthConfig#auth_token}
   */
   readonly authToken?: GoogleIntegrationsAuthConfigDecryptedCredentialAuthToken;
   /**
   * jwt block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_integrations_auth_config#jwt GoogleIntegrationsAuthConfig#jwt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#jwt GoogleIntegrationsAuthConfig#jwt}
   */
   readonly jwt?: GoogleIntegrationsAuthConfigDecryptedCredentialJwt;
   /**
   * oauth2_authorization_code block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_integrations_auth_config#oauth2_authorization_code GoogleIntegrationsAuthConfig#oauth2_authorization_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#oauth2_authorization_code GoogleIntegrationsAuthConfig#oauth2_authorization_code}
   */
   readonly oauth2AuthorizationCode?: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCode;
   /**
   * oauth2_client_credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_integrations_auth_config#oauth2_client_credentials GoogleIntegrationsAuthConfig#oauth2_client_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#oauth2_client_credentials GoogleIntegrationsAuthConfig#oauth2_client_credentials}
   */
   readonly oauth2ClientCredentials?: GoogleIntegrationsAuthConfigDecryptedCredentialOauth2ClientCredentials;
   /**
   * oidc_token block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_integrations_auth_config#oidc_token GoogleIntegrationsAuthConfig#oidc_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#oidc_token GoogleIntegrationsAuthConfig#oidc_token}
   */
   readonly oidcToken?: GoogleIntegrationsAuthConfigDecryptedCredentialOidcToken;
   /**
   * service_account_credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_integrations_auth_config#service_account_credentials GoogleIntegrationsAuthConfig#service_account_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#service_account_credentials GoogleIntegrationsAuthConfig#service_account_credentials}
   */
   readonly serviceAccountCredentials?: GoogleIntegrationsAuthConfigDecryptedCredentialServiceAccountCredentials;
   /**
   * username_and_password block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_integrations_auth_config#username_and_password GoogleIntegrationsAuthConfig#username_and_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#username_and_password GoogleIntegrationsAuthConfig#username_and_password}
   */
   readonly usernameAndPassword?: GoogleIntegrationsAuthConfigDecryptedCredentialUsernameAndPassword;
 }
@@ -2300,15 +3606,15 @@ export class GoogleIntegrationsAuthConfigDecryptedCredentialOutputReference exte
 }
 export interface GoogleIntegrationsAuthConfigTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_integrations_auth_config#create GoogleIntegrationsAuthConfig#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#create GoogleIntegrationsAuthConfig#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_integrations_auth_config#delete GoogleIntegrationsAuthConfig#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#delete GoogleIntegrationsAuthConfig#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_integrations_auth_config#update GoogleIntegrationsAuthConfig#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#update GoogleIntegrationsAuthConfig#update}
   */
   readonly update?: string;
 }
@@ -2460,7 +3766,7 @@ export class GoogleIntegrationsAuthConfigTimeoutsOutputReference extends cdktn.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_integrations_auth_config google_integrations_auth_config}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config google_integrations_auth_config}
 */
 export class GoogleIntegrationsAuthConfig extends cdktn.TerraformResource {
 
@@ -2476,7 +3782,7 @@ export class GoogleIntegrationsAuthConfig extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleIntegrationsAuthConfig resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleIntegrationsAuthConfig to import
-  * @param importFromId The id of the existing GoogleIntegrationsAuthConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_integrations_auth_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleIntegrationsAuthConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleIntegrationsAuthConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -2488,7 +3794,7 @@ export class GoogleIntegrationsAuthConfig extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_integrations_auth_config google_integrations_auth_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_integrations_auth_config google_integrations_auth_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2499,7 +3805,7 @@ export class GoogleIntegrationsAuthConfig extends cdktn.TerraformResource {
       terraformResourceType: 'google_integrations_auth_config',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '8.9.0',
+        providerVersion: '8.11.0',
         providerVersionConstraint: '~> 8.0'
       },
       provider: config.provider,

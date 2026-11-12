@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template
+// https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -16,7 +16,7 @@ export interface GoogleDataLossPreventionInspectTemplateConfig extends cdktn.Ter
   * Enables the use of [limited-availability built-in infoTypes](https://docs.cloud.google.com/sensitive-data-protection/docs/infotypes-reference#limited-availability-infotypes)
   * in inspect_config. These infoTypes are supported only in specific regions and can cause scanning errors if used elsewhere.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#allow_limited_availability_info_types GoogleDataLossPreventionInspectTemplate#allow_limited_availability_info_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#allow_limited_availability_info_types GoogleDataLossPreventionInspectTemplate#allow_limited_availability_info_types}
   */
   readonly allowLimitedAvailabilityInfoTypes?: boolean | cdktn.IResolvable;
   /**
@@ -28,23 +28,23 @@ export interface GoogleDataLossPreventionInspectTemplateConfig extends cdktn.Ter
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#deletion_policy GoogleDataLossPreventionInspectTemplate#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#deletion_policy GoogleDataLossPreventionInspectTemplate#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * A description of the inspect template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#description GoogleDataLossPreventionInspectTemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#description GoogleDataLossPreventionInspectTemplate#description}
   */
   readonly description?: string;
   /**
   * User set display name of the inspect template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#display_name GoogleDataLossPreventionInspectTemplate#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#display_name GoogleDataLossPreventionInspectTemplate#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#id GoogleDataLossPreventionInspectTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#id GoogleDataLossPreventionInspectTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -58,7 +58,7 @@ export interface GoogleDataLossPreventionInspectTemplateConfig extends cdktn.Ter
   * * 'organizations/{{organization_id}}'
   * * 'organizations/{{organization_id}}/locations/{{location}}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#parent GoogleDataLossPreventionInspectTemplate#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#parent GoogleDataLossPreventionInspectTemplate#parent}
   */
   readonly parent: string;
   /**
@@ -66,19 +66,19 @@ export interface GoogleDataLossPreventionInspectTemplateConfig extends cdktn.Ter
   * that is, it must match the regular expression: [a-zA-Z\d-_]+. The maximum length is
   * 100 characters. Can be empty to allow the system to generate one.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#template_id GoogleDataLossPreventionInspectTemplate#template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#template_id GoogleDataLossPreventionInspectTemplate#template_id}
   */
   readonly templateId?: string;
   /**
   * inspect_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#inspect_config GoogleDataLossPreventionInspectTemplate#inspect_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#inspect_config GoogleDataLossPreventionInspectTemplate#inspect_config}
   */
   readonly inspectConfig?: GoogleDataLossPreventionInspectTemplateInspectConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#timeouts GoogleDataLossPreventionInspectTemplate#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#timeouts GoogleDataLossPreventionInspectTemplate#timeouts}
   */
   readonly timeouts?: GoogleDataLossPreventionInspectTemplateTimeouts;
 }
@@ -86,7 +86,7 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoT
   /**
   * A url representing a file or path (no wildcards) in Cloud Storage. Example: 'gs://[BUCKET_NAME]/dictionary.txt'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#path GoogleDataLossPreventionInspectTemplate#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#path GoogleDataLossPreventionInspectTemplate#path}
   */
   readonly path: string;
 }
@@ -170,7 +170,7 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoT
   * Words or phrases defining the dictionary. The dictionary must contain at least one
   * phrase and every phrase must contain at least 2 characters that are letters or digits.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#words GoogleDataLossPreventionInspectTemplate#words}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#words GoogleDataLossPreventionInspectTemplate#words}
   */
   readonly words: string[];
 }
@@ -253,13 +253,13 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoT
   /**
   * cloud_storage_path block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#cloud_storage_path GoogleDataLossPreventionInspectTemplate#cloud_storage_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#cloud_storage_path GoogleDataLossPreventionInspectTemplate#cloud_storage_path}
   */
   readonly cloudStoragePath?: GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesDictionaryCloudStoragePath;
   /**
   * word_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#word_list GoogleDataLossPreventionInspectTemplate#word_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#word_list GoogleDataLossPreventionInspectTemplate#word_list}
   */
   readonly wordList?: GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesDictionaryWordListStruct;
 }
@@ -374,7 +374,7 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoT
   /**
   * The sensitivity score applied to the resource. Possible values: ["SENSITIVITY_LOW", "SENSITIVITY_MODERATE", "SENSITIVITY_HIGH"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#score GoogleDataLossPreventionInspectTemplate#score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#score GoogleDataLossPreventionInspectTemplate#score}
   */
   readonly score: string;
 }
@@ -458,19 +458,19 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoT
   * Name of the information type. Either a name of your choosing when creating a CustomInfoType, or one of the names
   * listed at https://cloud.google.com/dlp/docs/infotypes-reference when specifying a built-in type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#name GoogleDataLossPreventionInspectTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#name GoogleDataLossPreventionInspectTemplate#name}
   */
   readonly name: string;
   /**
   * Version name for this InfoType.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#version GoogleDataLossPreventionInspectTemplate#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#version GoogleDataLossPreventionInspectTemplate#version}
   */
   readonly version?: string;
   /**
   * sensitivity_score block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#sensitivity_score GoogleDataLossPreventionInspectTemplate#sensitivity_score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#sensitivity_score GoogleDataLossPreventionInspectTemplate#sensitivity_score}
   */
   readonly sensitivityScore?: GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesInfoTypeSensitivityScore;
 }
@@ -607,18 +607,133 @@ export class GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypes
     return this._sensitivityScore.internalValue;
   }
 }
+export interface GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesMetadataKeyValueExpression {
+  /**
+  * The regular expression for the key.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#key_regex GoogleDataLossPreventionInspectTemplate#key_regex}
+  */
+  readonly keyRegex: string;
+  /**
+  * The regular expression for the value.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#value_regex GoogleDataLossPreventionInspectTemplate#value_regex}
+  */
+  readonly valueRegex: string;
+}
+
+export function googleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesMetadataKeyValueExpressionToTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesMetadataKeyValueExpressionOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesMetadataKeyValueExpression): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    key_regex: cdktn.stringToTerraform(struct!.keyRegex),
+    value_regex: cdktn.stringToTerraform(struct!.valueRegex),
+  }
+}
+
+
+export function googleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesMetadataKeyValueExpressionToHclTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesMetadataKeyValueExpressionOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesMetadataKeyValueExpression): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    key_regex: {
+      value: cdktn.stringToHclTerraform(struct!.keyRegex),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    value_regex: {
+      value: cdktn.stringToHclTerraform(struct!.valueRegex),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesMetadataKeyValueExpressionOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesMetadataKeyValueExpression | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._keyRegex !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.keyRegex = this._keyRegex;
+    }
+    if (this._valueRegex !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.valueRegex = this._valueRegex;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesMetadataKeyValueExpression | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._keyRegex = undefined;
+      this._valueRegex = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._keyRegex = value.keyRegex;
+      this._valueRegex = value.valueRegex;
+    }
+  }
+
+  // key_regex - computed: false, optional: false, required: true
+  private _keyRegex?: string; 
+  public get keyRegex() {
+    return this.getStringAttribute('key_regex');
+  }
+  public set keyRegex(value: string) {
+    this._keyRegex = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyRegexInput() {
+    return this._keyRegex;
+  }
+
+  // value_regex - computed: false, optional: false, required: true
+  private _valueRegex?: string; 
+  public get valueRegex() {
+    return this.getStringAttribute('value_regex');
+  }
+  public set valueRegex(value: string) {
+    this._valueRegex = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get valueRegexInput() {
+    return this._valueRegex;
+  }
+}
 export interface GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesRegex {
   /**
   * The index of the submatch to extract as findings. When not specified, the entire match is returned. No more than 3 may be included.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#group_indexes GoogleDataLossPreventionInspectTemplate#group_indexes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#group_indexes GoogleDataLossPreventionInspectTemplate#group_indexes}
   */
   readonly groupIndexes?: number[];
   /**
   * Pattern defining the regular expression.
   * Its syntax (https://github.com/google/re2/wiki/Syntax) can be found under the google/re2 repository on GitHub.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#pattern GoogleDataLossPreventionInspectTemplate#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#pattern GoogleDataLossPreventionInspectTemplate#pattern}
   */
   readonly pattern: string;
 }
@@ -730,7 +845,7 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoT
   /**
   * The sensitivity score applied to the resource. Possible values: ["SENSITIVITY_LOW", "SENSITIVITY_MODERATE", "SENSITIVITY_HIGH"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#score GoogleDataLossPreventionInspectTemplate#score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#score GoogleDataLossPreventionInspectTemplate#score}
   */
   readonly score: string;
 }
@@ -814,7 +929,7 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoT
   * Resource name of the requested StoredInfoType, for example 'organizations/433245324/storedInfoTypes/432452342'
   * or 'projects/project-id/storedInfoTypes/432452342'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#name GoogleDataLossPreventionInspectTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#name GoogleDataLossPreventionInspectTemplate#name}
   */
   readonly name: string;
 }
@@ -946,50 +1061,56 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoT
   /**
   * If set to EXCLUSION_TYPE_EXCLUDE this infoType will not cause a finding to be returned. It still can be used for rules matching. Possible values: ["EXCLUSION_TYPE_EXCLUDE"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#exclusion_type GoogleDataLossPreventionInspectTemplate#exclusion_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#exclusion_type GoogleDataLossPreventionInspectTemplate#exclusion_type}
   */
   readonly exclusionType?: string;
   /**
   * Likelihood to return for this CustomInfoType. This base value can be altered by a detection rule if the finding meets the criteria
   * specified by the rule. Default value: "VERY_LIKELY" Possible values: ["VERY_UNLIKELY", "UNLIKELY", "POSSIBLE", "LIKELY", "VERY_LIKELY"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#likelihood GoogleDataLossPreventionInspectTemplate#likelihood}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#likelihood GoogleDataLossPreventionInspectTemplate#likelihood}
   */
   readonly likelihood?: string;
   /**
   * dictionary block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#dictionary GoogleDataLossPreventionInspectTemplate#dictionary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#dictionary GoogleDataLossPreventionInspectTemplate#dictionary}
   */
   readonly dictionary?: GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesDictionary;
   /**
   * info_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#info_type GoogleDataLossPreventionInspectTemplate#info_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#info_type GoogleDataLossPreventionInspectTemplate#info_type}
   */
   readonly infoType: GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesInfoType;
   /**
+  * metadata_key_value_expression block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#metadata_key_value_expression GoogleDataLossPreventionInspectTemplate#metadata_key_value_expression}
+  */
+  readonly metadataKeyValueExpression?: GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesMetadataKeyValueExpression;
+  /**
   * regex block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#regex GoogleDataLossPreventionInspectTemplate#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#regex GoogleDataLossPreventionInspectTemplate#regex}
   */
   readonly regex?: GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesRegex;
   /**
   * sensitivity_score block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#sensitivity_score GoogleDataLossPreventionInspectTemplate#sensitivity_score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#sensitivity_score GoogleDataLossPreventionInspectTemplate#sensitivity_score}
   */
   readonly sensitivityScore?: GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesSensitivityScore;
   /**
   * stored_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#stored_type GoogleDataLossPreventionInspectTemplate#stored_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#stored_type GoogleDataLossPreventionInspectTemplate#stored_type}
   */
   readonly storedType?: GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesStoredType;
   /**
   * surrogate_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#surrogate_type GoogleDataLossPreventionInspectTemplate#surrogate_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#surrogate_type GoogleDataLossPreventionInspectTemplate#surrogate_type}
   */
   readonly surrogateType?: GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesSurrogateType;
 }
@@ -1004,6 +1125,7 @@ export function googleDataLossPreventionInspectTemplateInspectConfigCustomInfoTy
     likelihood: cdktn.stringToTerraform(struct!.likelihood),
     dictionary: googleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesDictionaryToTerraform(struct!.dictionary),
     info_type: googleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesInfoTypeToTerraform(struct!.infoType),
+    metadata_key_value_expression: googleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesMetadataKeyValueExpressionToTerraform(struct!.metadataKeyValueExpression),
     regex: googleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesRegexToTerraform(struct!.regex),
     sensitivity_score: googleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesSensitivityScoreToTerraform(struct!.sensitivityScore),
     stored_type: googleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesStoredTypeToTerraform(struct!.storedType),
@@ -1041,6 +1163,12 @@ export function googleDataLossPreventionInspectTemplateInspectConfigCustomInfoTy
       isBlock: true,
       type: "list",
       storageClassType: "GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesInfoTypeList",
+    },
+    metadata_key_value_expression: {
+      value: googleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesMetadataKeyValueExpressionToHclTerraform(struct!.metadataKeyValueExpression),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesMetadataKeyValueExpressionList",
     },
     regex: {
       value: googleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesRegexToHclTerraform(struct!.regex),
@@ -1108,6 +1236,10 @@ export class GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypes
       hasAnyValues = true;
       internalValueResult.infoType = this._infoType?.internalValue;
     }
+    if (this._metadataKeyValueExpression?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.metadataKeyValueExpression = this._metadataKeyValueExpression?.internalValue;
+    }
     if (this._regex?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.regex = this._regex?.internalValue;
@@ -1135,6 +1267,7 @@ export class GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypes
       this._likelihood = undefined;
       this._dictionary.internalValue = undefined;
       this._infoType.internalValue = undefined;
+      this._metadataKeyValueExpression.internalValue = undefined;
       this._regex.internalValue = undefined;
       this._sensitivityScore.internalValue = undefined;
       this._storedType.internalValue = undefined;
@@ -1151,6 +1284,7 @@ export class GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypes
       this._likelihood = value.likelihood;
       this._dictionary.internalValue = value.dictionary;
       this._infoType.internalValue = value.infoType;
+      this._metadataKeyValueExpression.internalValue = value.metadataKeyValueExpression;
       this._regex.internalValue = value.regex;
       this._sensitivityScore.internalValue = value.sensitivityScore;
       this._storedType.internalValue = value.storedType;
@@ -1217,6 +1351,22 @@ export class GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypes
   // Temporarily expose input value. Use with caution.
   public get infoTypeInput() {
     return this._infoType.internalValue;
+  }
+
+  // metadata_key_value_expression - computed: false, optional: true, required: false
+  private _metadataKeyValueExpression = new GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesMetadataKeyValueExpressionOutputReference(this, "metadata_key_value_expression");
+  public get metadataKeyValueExpression() {
+    return this._metadataKeyValueExpression;
+  }
+  public putMetadataKeyValueExpression(value: GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesMetadataKeyValueExpression) {
+    this._metadataKeyValueExpression.internalValue = value;
+  }
+  public resetMetadataKeyValueExpression() {
+    this._metadataKeyValueExpression.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get metadataKeyValueExpressionInput() {
+    return this._metadataKeyValueExpression.internalValue;
   }
 
   // regex - computed: false, optional: true, required: false
@@ -1307,7 +1457,7 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigInfoTypesSe
   /**
   * The sensitivity score applied to the resource. Possible values: ["SENSITIVITY_LOW", "SENSITIVITY_MODERATE", "SENSITIVITY_HIGH"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#score GoogleDataLossPreventionInspectTemplate#score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#score GoogleDataLossPreventionInspectTemplate#score}
   */
   readonly score: string;
 }
@@ -1391,19 +1541,19 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigInfoTypes {
   * Name of the information type. Either a name of your choosing when creating a CustomInfoType, or one of the names listed
   * at https://cloud.google.com/dlp/docs/infotypes-reference when specifying a built-in type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#name GoogleDataLossPreventionInspectTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#name GoogleDataLossPreventionInspectTemplate#name}
   */
   readonly name: string;
   /**
   * Version of the information type to use. By default, the version is set to stable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#version GoogleDataLossPreventionInspectTemplate#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#version GoogleDataLossPreventionInspectTemplate#version}
   */
   readonly version?: string;
   /**
   * sensitivity_score block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#sensitivity_score GoogleDataLossPreventionInspectTemplate#sensitivity_score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#sensitivity_score GoogleDataLossPreventionInspectTemplate#sensitivity_score}
   */
   readonly sensitivityScore?: GoogleDataLossPreventionInspectTemplateInspectConfigInfoTypesSensitivityScore;
 }
@@ -1576,7 +1726,7 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigLimitsMaxFi
   /**
   * The sensitivity score applied to the resource. Possible values: ["SENSITIVITY_LOW", "SENSITIVITY_MODERATE", "SENSITIVITY_HIGH"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#score GoogleDataLossPreventionInspectTemplate#score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#score GoogleDataLossPreventionInspectTemplate#score}
   */
   readonly score: string;
 }
@@ -1660,19 +1810,19 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigLimitsMaxFi
   * Name of the information type. Either a name of your choosing when creating a CustomInfoType, or one of the names listed
   * at https://cloud.google.com/dlp/docs/infotypes-reference when specifying a built-in type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#name GoogleDataLossPreventionInspectTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#name GoogleDataLossPreventionInspectTemplate#name}
   */
   readonly name: string;
   /**
   * Version name for this InfoType.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#version GoogleDataLossPreventionInspectTemplate#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#version GoogleDataLossPreventionInspectTemplate#version}
   */
   readonly version?: string;
   /**
   * sensitivity_score block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#sensitivity_score GoogleDataLossPreventionInspectTemplate#sensitivity_score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#sensitivity_score GoogleDataLossPreventionInspectTemplate#sensitivity_score}
   */
   readonly sensitivityScore?: GoogleDataLossPreventionInspectTemplateInspectConfigLimitsMaxFindingsPerInfoTypeInfoTypeSensitivityScore;
 }
@@ -1813,13 +1963,13 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigLimitsMaxFi
   /**
   * Max findings limit for the given infoType.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#max_findings GoogleDataLossPreventionInspectTemplate#max_findings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#max_findings GoogleDataLossPreventionInspectTemplate#max_findings}
   */
   readonly maxFindings: number;
   /**
   * info_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#info_type GoogleDataLossPreventionInspectTemplate#info_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#info_type GoogleDataLossPreventionInspectTemplate#info_type}
   */
   readonly infoType?: GoogleDataLossPreventionInspectTemplateInspectConfigLimitsMaxFindingsPerInfoTypeInfoType;
 }
@@ -1963,19 +2113,19 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigLimits {
   /**
   * Max number of findings that will be returned for each item scanned. The maximum returned is 2000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#max_findings_per_item GoogleDataLossPreventionInspectTemplate#max_findings_per_item}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#max_findings_per_item GoogleDataLossPreventionInspectTemplate#max_findings_per_item}
   */
   readonly maxFindingsPerItem: number;
   /**
   * Max number of findings that will be returned per request/job. The maximum returned is 2000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#max_findings_per_request GoogleDataLossPreventionInspectTemplate#max_findings_per_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#max_findings_per_request GoogleDataLossPreventionInspectTemplate#max_findings_per_request}
   */
   readonly maxFindingsPerRequest: number;
   /**
   * max_findings_per_info_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#max_findings_per_info_type GoogleDataLossPreventionInspectTemplate#max_findings_per_info_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#max_findings_per_info_type GoogleDataLossPreventionInspectTemplate#max_findings_per_info_type}
   */
   readonly maxFindingsPerInfoType?: GoogleDataLossPreventionInspectTemplateInspectConfigLimitsMaxFindingsPerInfoType[] | cdktn.IResolvable;
 }
@@ -2114,13 +2264,13 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigMinLikeliho
   * Name of the information type. Either a name of your choosing when creating a CustomInfoType, or one of the names listed
   * at https://cloud.google.com/dlp/docs/infotypes-reference when specifying a built-in type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#name GoogleDataLossPreventionInspectTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#name GoogleDataLossPreventionInspectTemplate#name}
   */
   readonly name: string;
   /**
   * Version name for this InfoType.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#version GoogleDataLossPreventionInspectTemplate#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#version GoogleDataLossPreventionInspectTemplate#version}
   */
   readonly version?: string;
 }
@@ -2232,13 +2382,13 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigMinLikeliho
   /**
   * Only returns findings equal or above this threshold. See https://cloud.google.com/dlp/docs/likelihood for more info. Possible values: ["VERY_UNLIKELY", "UNLIKELY", "POSSIBLE", "LIKELY", "VERY_LIKELY"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#min_likelihood GoogleDataLossPreventionInspectTemplate#min_likelihood}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#min_likelihood GoogleDataLossPreventionInspectTemplate#min_likelihood}
   */
   readonly minLikelihood: string;
   /**
   * info_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#info_type GoogleDataLossPreventionInspectTemplate#info_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#info_type GoogleDataLossPreventionInspectTemplate#info_type}
   */
   readonly infoType?: GoogleDataLossPreventionInspectTemplateInspectConfigMinLikelihoodPerInfoTypeInfoType;
 }
@@ -2382,7 +2532,7 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetInfo
   /**
   * The sensitivity score applied to the resource. Possible values: ["SENSITIVITY_LOW", "SENSITIVITY_MODERATE", "SENSITIVITY_HIGH"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#score GoogleDataLossPreventionInspectTemplate#score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#score GoogleDataLossPreventionInspectTemplate#score}
   */
   readonly score: string;
 }
@@ -2466,19 +2616,19 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetInfo
   * Name of the information type. Either a name of your choosing when creating a CustomInfoType, or one of the names listed
   * at https://cloud.google.com/dlp/docs/infotypes-reference when specifying a built-in type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#name GoogleDataLossPreventionInspectTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#name GoogleDataLossPreventionInspectTemplate#name}
   */
   readonly name: string;
   /**
   * Version name for this InfoType.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#version GoogleDataLossPreventionInspectTemplate#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#version GoogleDataLossPreventionInspectTemplate#version}
   */
   readonly version?: string;
   /**
   * sensitivity_score block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#sensitivity_score GoogleDataLossPreventionInspectTemplate#sensitivity_score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#sensitivity_score GoogleDataLossPreventionInspectTemplate#sensitivity_score}
   */
   readonly sensitivityScore?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetInfoTypesSensitivityScore;
 }
@@ -2651,7 +2801,7 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRule
   /**
   * A url representing a file or path (no wildcards) in Cloud Storage. Example: 'gs://[BUCKET_NAME]/dictionary.txt'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#path GoogleDataLossPreventionInspectTemplate#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#path GoogleDataLossPreventionInspectTemplate#path}
   */
   readonly path: string;
 }
@@ -2735,7 +2885,7 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRule
   * Words or phrases defining the dictionary. The dictionary must contain at least one
   * phrase and every phrase must contain at least 2 characters that are letters or digits.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#words GoogleDataLossPreventionInspectTemplate#words}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#words GoogleDataLossPreventionInspectTemplate#words}
   */
   readonly words: string[];
 }
@@ -2818,13 +2968,13 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRule
   /**
   * cloud_storage_path block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#cloud_storage_path GoogleDataLossPreventionInspectTemplate#cloud_storage_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#cloud_storage_path GoogleDataLossPreventionInspectTemplate#cloud_storage_path}
   */
   readonly cloudStoragePath?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleDictionaryCloudStoragePath;
   /**
   * word_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#word_list GoogleDataLossPreventionInspectTemplate#word_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#word_list GoogleDataLossPreventionInspectTemplate#word_list}
   */
   readonly wordList?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleDictionaryWordListStruct;
 }
@@ -2940,14 +3090,14 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRule
   * The index of the submatch to extract as findings. When not specified,
   * the entire match is returned. No more than 3 may be included.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#group_indexes GoogleDataLossPreventionInspectTemplate#group_indexes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#group_indexes GoogleDataLossPreventionInspectTemplate#group_indexes}
   */
   readonly groupIndexes?: number[];
   /**
   * Pattern defining the regular expression. Its syntax
   * (https://github.com/google/re2/wiki/Syntax) can be found under the google/re2 repository on GitHub.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#pattern GoogleDataLossPreventionInspectTemplate#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#pattern GoogleDataLossPreventionInspectTemplate#pattern}
   */
   readonly pattern: string;
 }
@@ -3059,13 +3209,13 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRule
   /**
   * Number of characters after the finding to consider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#window_after GoogleDataLossPreventionInspectTemplate#window_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#window_after GoogleDataLossPreventionInspectTemplate#window_after}
   */
   readonly windowAfter?: number;
   /**
   * Number of characters before the finding to consider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#window_before GoogleDataLossPreventionInspectTemplate#window_before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#window_before GoogleDataLossPreventionInspectTemplate#window_before}
   */
   readonly windowBefore?: number;
 }
@@ -3180,13 +3330,13 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRule
   /**
   * hotword_regex block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#hotword_regex GoogleDataLossPreventionInspectTemplate#hotword_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#hotword_regex GoogleDataLossPreventionInspectTemplate#hotword_regex}
   */
   readonly hotwordRegex: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByHotwordHotwordRegex;
   /**
   * proximity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#proximity GoogleDataLossPreventionInspectTemplate#proximity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#proximity GoogleDataLossPreventionInspectTemplate#proximity}
   */
   readonly proximity: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByHotwordProximity;
 }
@@ -3291,11 +3441,700 @@ export class GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExc
     return this._proximity.internalValue;
   }
 }
+export interface GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsImageContainmentTypeEncloses {
+}
+
+export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsImageContainmentTypeEnclosesToTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsImageContainmentTypeEnclosesOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsImageContainmentTypeEncloses): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsImageContainmentTypeEnclosesToHclTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsImageContainmentTypeEnclosesOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsImageContainmentTypeEncloses): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsImageContainmentTypeEnclosesOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsImageContainmentTypeEncloses | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsImageContainmentTypeEncloses | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+}
+export interface GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsImageContainmentTypeFullyInside {
+}
+
+export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsImageContainmentTypeFullyInsideToTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsImageContainmentTypeFullyInsideOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsImageContainmentTypeFullyInside): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsImageContainmentTypeFullyInsideToHclTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsImageContainmentTypeFullyInsideOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsImageContainmentTypeFullyInside): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsImageContainmentTypeFullyInsideOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsImageContainmentTypeFullyInside | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsImageContainmentTypeFullyInside | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+}
+export interface GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsImageContainmentTypeOverlaps {
+}
+
+export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsImageContainmentTypeOverlapsToTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsImageContainmentTypeOverlapsOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsImageContainmentTypeOverlaps): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsImageContainmentTypeOverlapsToHclTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsImageContainmentTypeOverlapsOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsImageContainmentTypeOverlaps): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsImageContainmentTypeOverlapsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsImageContainmentTypeOverlaps | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsImageContainmentTypeOverlaps | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+}
+export interface GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsImageContainmentType {
+  /**
+  * encloses block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#encloses GoogleDataLossPreventionInspectTemplate#encloses}
+  */
+  readonly encloses?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsImageContainmentTypeEncloses;
+  /**
+  * fully_inside block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#fully_inside GoogleDataLossPreventionInspectTemplate#fully_inside}
+  */
+  readonly fullyInside?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsImageContainmentTypeFullyInside;
+  /**
+  * overlaps block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#overlaps GoogleDataLossPreventionInspectTemplate#overlaps}
+  */
+  readonly overlaps?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsImageContainmentTypeOverlaps;
+}
+
+export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsImageContainmentTypeToTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsImageContainmentTypeOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsImageContainmentType): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    encloses: googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsImageContainmentTypeEnclosesToTerraform(struct!.encloses),
+    fully_inside: googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsImageContainmentTypeFullyInsideToTerraform(struct!.fullyInside),
+    overlaps: googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsImageContainmentTypeOverlapsToTerraform(struct!.overlaps),
+  }
+}
+
+
+export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsImageContainmentTypeToHclTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsImageContainmentTypeOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsImageContainmentType): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    encloses: {
+      value: googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsImageContainmentTypeEnclosesToHclTerraform(struct!.encloses),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsImageContainmentTypeEnclosesList",
+    },
+    fully_inside: {
+      value: googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsImageContainmentTypeFullyInsideToHclTerraform(struct!.fullyInside),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsImageContainmentTypeFullyInsideList",
+    },
+    overlaps: {
+      value: googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsImageContainmentTypeOverlapsToHclTerraform(struct!.overlaps),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsImageContainmentTypeOverlapsList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsImageContainmentTypeOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsImageContainmentType | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._encloses?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.encloses = this._encloses?.internalValue;
+    }
+    if (this._fullyInside?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fullyInside = this._fullyInside?.internalValue;
+    }
+    if (this._overlaps?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.overlaps = this._overlaps?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsImageContainmentType | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._encloses.internalValue = undefined;
+      this._fullyInside.internalValue = undefined;
+      this._overlaps.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._encloses.internalValue = value.encloses;
+      this._fullyInside.internalValue = value.fullyInside;
+      this._overlaps.internalValue = value.overlaps;
+    }
+  }
+
+  // encloses - computed: false, optional: true, required: false
+  private _encloses = new GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsImageContainmentTypeEnclosesOutputReference(this, "encloses");
+  public get encloses() {
+    return this._encloses;
+  }
+  public putEncloses(value: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsImageContainmentTypeEncloses) {
+    this._encloses.internalValue = value;
+  }
+  public resetEncloses() {
+    this._encloses.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enclosesInput() {
+    return this._encloses.internalValue;
+  }
+
+  // fully_inside - computed: false, optional: true, required: false
+  private _fullyInside = new GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsImageContainmentTypeFullyInsideOutputReference(this, "fully_inside");
+  public get fullyInside() {
+    return this._fullyInside;
+  }
+  public putFullyInside(value: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsImageContainmentTypeFullyInside) {
+    this._fullyInside.internalValue = value;
+  }
+  public resetFullyInside() {
+    this._fullyInside.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fullyInsideInput() {
+    return this._fullyInside.internalValue;
+  }
+
+  // overlaps - computed: false, optional: true, required: false
+  private _overlaps = new GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsImageContainmentTypeOverlapsOutputReference(this, "overlaps");
+  public get overlaps() {
+    return this._overlaps;
+  }
+  public putOverlaps(value: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsImageContainmentTypeOverlaps) {
+    this._overlaps.internalValue = value;
+  }
+  public resetOverlaps() {
+    this._overlaps.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get overlapsInput() {
+    return this._overlaps.internalValue;
+  }
+}
+export interface GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsInfoTypesSensitivityScore {
+  /**
+  * The sensitivity score applied to the resource. Possible values: ["SENSITIVITY_LOW", "SENSITIVITY_MODERATE", "SENSITIVITY_HIGH"]
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#score GoogleDataLossPreventionInspectTemplate#score}
+  */
+  readonly score: string;
+}
+
+export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsInfoTypesSensitivityScoreToTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsInfoTypesSensitivityScoreOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsInfoTypesSensitivityScore): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    score: cdktn.stringToTerraform(struct!.score),
+  }
+}
+
+
+export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsInfoTypesSensitivityScoreToHclTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsInfoTypesSensitivityScoreOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsInfoTypesSensitivityScore): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    score: {
+      value: cdktn.stringToHclTerraform(struct!.score),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsInfoTypesSensitivityScoreOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsInfoTypesSensitivityScore | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._score !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.score = this._score;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsInfoTypesSensitivityScore | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._score = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._score = value.score;
+    }
+  }
+
+  // score - computed: false, optional: false, required: true
+  private _score?: string; 
+  public get score() {
+    return this.getStringAttribute('score');
+  }
+  public set score(value: string) {
+    this._score = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scoreInput() {
+    return this._score;
+  }
+}
+export interface GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsInfoTypes {
+  /**
+  * Name of the information type.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#name GoogleDataLossPreventionInspectTemplate#name}
+  */
+  readonly name: string;
+  /**
+  * Version name for this InfoType.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#version GoogleDataLossPreventionInspectTemplate#version}
+  */
+  readonly version?: string;
+  /**
+  * sensitivity_score block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#sensitivity_score GoogleDataLossPreventionInspectTemplate#sensitivity_score}
+  */
+  readonly sensitivityScore?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsInfoTypesSensitivityScore;
+}
+
+export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsInfoTypesToTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsInfoTypes | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    name: cdktn.stringToTerraform(struct!.name),
+    version: cdktn.stringToTerraform(struct!.version),
+    sensitivity_score: googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsInfoTypesSensitivityScoreToTerraform(struct!.sensitivityScore),
+  }
+}
+
+
+export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsInfoTypesToHclTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsInfoTypes | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    name: {
+      value: cdktn.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    version: {
+      value: cdktn.stringToHclTerraform(struct!.version),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    sensitivity_score: {
+      value: googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsInfoTypesSensitivityScoreToHclTerraform(struct!.sensitivityScore),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsInfoTypesSensitivityScoreList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsInfoTypesOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsInfoTypes | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._version !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.version = this._version;
+    }
+    if (this._sensitivityScore?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sensitivityScore = this._sensitivityScore?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsInfoTypes | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+      this._version = undefined;
+      this._sensitivityScore.internalValue = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+      this._version = value.version;
+      this._sensitivityScore.internalValue = value.sensitivityScore;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // version - computed: false, optional: true, required: false
+  private _version?: string; 
+  public get version() {
+    return this.getStringAttribute('version');
+  }
+  public set version(value: string) {
+    this._version = value;
+  }
+  public resetVersion() {
+    this._version = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get versionInput() {
+    return this._version;
+  }
+
+  // sensitivity_score - computed: false, optional: true, required: false
+  private _sensitivityScore = new GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsInfoTypesSensitivityScoreOutputReference(this, "sensitivity_score");
+  public get sensitivityScore() {
+    return this._sensitivityScore;
+  }
+  public putSensitivityScore(value: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsInfoTypesSensitivityScore) {
+    this._sensitivityScore.internalValue = value;
+  }
+  public resetSensitivityScore() {
+    this._sensitivityScore.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sensitivityScoreInput() {
+    return this._sensitivityScore.internalValue;
+  }
+}
+
+export class GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsInfoTypesList extends cdktn.ComplexList {
+  public internalValue? : GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsInfoTypes[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsInfoTypesOutputReference {
+    return new GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsInfoTypesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindings {
+  /**
+  * image_containment_type block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#image_containment_type GoogleDataLossPreventionInspectTemplate#image_containment_type}
+  */
+  readonly imageContainmentType?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsImageContainmentType;
+  /**
+  * info_types block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#info_types GoogleDataLossPreventionInspectTemplate#info_types}
+  */
+  readonly infoTypes: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsInfoTypes[] | cdktn.IResolvable;
+}
+
+export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsToTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindings): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    image_containment_type: googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsImageContainmentTypeToTerraform(struct!.imageContainmentType),
+    info_types: cdktn.listMapper(googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsInfoTypesToTerraform, true)(struct!.infoTypes),
+  }
+}
+
+
+export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsToHclTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindings): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    image_containment_type: {
+      value: googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsImageContainmentTypeToHclTerraform(struct!.imageContainmentType),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsImageContainmentTypeList",
+    },
+    info_types: {
+      value: cdktn.listMapperHcl(googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsInfoTypesToHclTerraform, true)(struct!.infoTypes),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsInfoTypesList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindings | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._imageContainmentType?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.imageContainmentType = this._imageContainmentType?.internalValue;
+    }
+    if (this._infoTypes?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.infoTypes = this._infoTypes?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindings | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._imageContainmentType.internalValue = undefined;
+      this._infoTypes.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._imageContainmentType.internalValue = value.imageContainmentType;
+      this._infoTypes.internalValue = value.infoTypes;
+    }
+  }
+
+  // image_containment_type - computed: false, optional: true, required: false
+  private _imageContainmentType = new GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsImageContainmentTypeOutputReference(this, "image_containment_type");
+  public get imageContainmentType() {
+    return this._imageContainmentType;
+  }
+  public putImageContainmentType(value: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsImageContainmentType) {
+    this._imageContainmentType.internalValue = value;
+  }
+  public resetImageContainmentType() {
+    this._imageContainmentType.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get imageContainmentTypeInput() {
+    return this._imageContainmentType.internalValue;
+  }
+
+  // info_types - computed: false, optional: false, required: true
+  private _infoTypes = new GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsInfoTypesList(this, "info_types", false);
+  public get infoTypes() {
+    return this._infoTypes;
+  }
+  public putInfoTypes(value: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsInfoTypes[] | cdktn.IResolvable) {
+    this._infoTypes.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get infoTypesInput() {
+    return this._infoTypes.internalValue;
+  }
+}
 export interface GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeInfoTypesInfoTypesSensitivityScore {
   /**
   * The sensitivity score applied to the resource. Possible values: ["SENSITIVITY_LOW", "SENSITIVITY_MODERATE", "SENSITIVITY_HIGH"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#score GoogleDataLossPreventionInspectTemplate#score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#score GoogleDataLossPreventionInspectTemplate#score}
   */
   readonly score: string;
 }
@@ -3379,19 +4218,19 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRule
   * Name of the information type. Either a name of your choosing when creating a CustomInfoType, or one of the names listed
   * at https://cloud.google.com/dlp/docs/infotypes-reference when specifying a built-in type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#name GoogleDataLossPreventionInspectTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#name GoogleDataLossPreventionInspectTemplate#name}
   */
   readonly name: string;
   /**
   * Version name for this InfoType.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#version GoogleDataLossPreventionInspectTemplate#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#version GoogleDataLossPreventionInspectTemplate#version}
   */
   readonly version?: string;
   /**
   * sensitivity_score block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#sensitivity_score GoogleDataLossPreventionInspectTemplate#sensitivity_score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#sensitivity_score GoogleDataLossPreventionInspectTemplate#sensitivity_score}
   */
   readonly sensitivityScore?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeInfoTypesInfoTypesSensitivityScore;
 }
@@ -3564,7 +4403,7 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRule
   /**
   * info_types block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#info_types GoogleDataLossPreventionInspectTemplate#info_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#info_types GoogleDataLossPreventionInspectTemplate#info_types}
   */
   readonly infoTypes: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeInfoTypesInfoTypes[] | cdktn.IResolvable;
 }
@@ -3647,14 +4486,14 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRule
   /**
   * The index of the submatch to extract as findings. When not specified, the entire match is returned. No more than 3 may be included.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#group_indexes GoogleDataLossPreventionInspectTemplate#group_indexes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#group_indexes GoogleDataLossPreventionInspectTemplate#group_indexes}
   */
   readonly groupIndexes?: number[];
   /**
   * Pattern defining the regular expression.
   * Its syntax (https://github.com/google/re2/wiki/Syntax) can be found under the google/re2 repository on GitHub.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#pattern GoogleDataLossPreventionInspectTemplate#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#pattern GoogleDataLossPreventionInspectTemplate#pattern}
   */
   readonly pattern: string;
 }
@@ -3764,33 +4603,39 @@ export class GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExc
 }
 export interface GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRule {
   /**
-  * How the rule is applied. See the documentation for more information: https://cloud.google.com/dlp/docs/reference/rest/v2/InspectConfig#MatchingType Possible values: ["MATCHING_TYPE_FULL_MATCH", "MATCHING_TYPE_PARTIAL_MATCH", "MATCHING_TYPE_INVERSE_MATCH"]
+  * How the rule is applied. See the documentation for more information: https://cloud.google.com/dlp/docs/reference/rest/v2/InspectConfig#MatchingType Possible values: ["MATCHING_TYPE_FULL_MATCH", "MATCHING_TYPE_PARTIAL_MATCH", "MATCHING_TYPE_INVERSE_MATCH", "MATCHING_TYPE_RULE_SPECIFIC"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#matching_type GoogleDataLossPreventionInspectTemplate#matching_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#matching_type GoogleDataLossPreventionInspectTemplate#matching_type}
   */
   readonly matchingType: string;
   /**
   * dictionary block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#dictionary GoogleDataLossPreventionInspectTemplate#dictionary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#dictionary GoogleDataLossPreventionInspectTemplate#dictionary}
   */
   readonly dictionary?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleDictionary;
   /**
   * exclude_by_hotword block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#exclude_by_hotword GoogleDataLossPreventionInspectTemplate#exclude_by_hotword}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#exclude_by_hotword GoogleDataLossPreventionInspectTemplate#exclude_by_hotword}
   */
   readonly excludeByHotword?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByHotword;
   /**
+  * exclude_by_image_findings block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#exclude_by_image_findings GoogleDataLossPreventionInspectTemplate#exclude_by_image_findings}
+  */
+  readonly excludeByImageFindings?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindings;
+  /**
   * exclude_info_types block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#exclude_info_types GoogleDataLossPreventionInspectTemplate#exclude_info_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#exclude_info_types GoogleDataLossPreventionInspectTemplate#exclude_info_types}
   */
   readonly excludeInfoTypes?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeInfoTypes;
   /**
   * regex block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#regex GoogleDataLossPreventionInspectTemplate#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#regex GoogleDataLossPreventionInspectTemplate#regex}
   */
   readonly regex?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleRegex;
 }
@@ -3804,6 +4649,7 @@ export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetRules
     matching_type: cdktn.stringToTerraform(struct!.matchingType),
     dictionary: googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleDictionaryToTerraform(struct!.dictionary),
     exclude_by_hotword: googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByHotwordToTerraform(struct!.excludeByHotword),
+    exclude_by_image_findings: googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsToTerraform(struct!.excludeByImageFindings),
     exclude_info_types: googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeInfoTypesToTerraform(struct!.excludeInfoTypes),
     regex: googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleRegexToTerraform(struct!.regex),
   }
@@ -3833,6 +4679,12 @@ export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetRules
       isBlock: true,
       type: "list",
       storageClassType: "GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByHotwordList",
+    },
+    exclude_by_image_findings: {
+      value: googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsToHclTerraform(struct!.excludeByImageFindings),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsList",
     },
     exclude_info_types: {
       value: googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeInfoTypesToHclTerraform(struct!.excludeInfoTypes),
@@ -3878,6 +4730,10 @@ export class GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExc
       hasAnyValues = true;
       internalValueResult.excludeByHotword = this._excludeByHotword?.internalValue;
     }
+    if (this._excludeByImageFindings?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.excludeByImageFindings = this._excludeByImageFindings?.internalValue;
+    }
     if (this._excludeInfoTypes?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.excludeInfoTypes = this._excludeInfoTypes?.internalValue;
@@ -3895,6 +4751,7 @@ export class GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExc
       this._matchingType = undefined;
       this._dictionary.internalValue = undefined;
       this._excludeByHotword.internalValue = undefined;
+      this._excludeByImageFindings.internalValue = undefined;
       this._excludeInfoTypes.internalValue = undefined;
       this._regex.internalValue = undefined;
     }
@@ -3903,6 +4760,7 @@ export class GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExc
       this._matchingType = value.matchingType;
       this._dictionary.internalValue = value.dictionary;
       this._excludeByHotword.internalValue = value.excludeByHotword;
+      this._excludeByImageFindings.internalValue = value.excludeByImageFindings;
       this._excludeInfoTypes.internalValue = value.excludeInfoTypes;
       this._regex.internalValue = value.regex;
     }
@@ -3953,6 +4811,22 @@ export class GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExc
     return this._excludeByHotword.internalValue;
   }
 
+  // exclude_by_image_findings - computed: false, optional: true, required: false
+  private _excludeByImageFindings = new GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsOutputReference(this, "exclude_by_image_findings");
+  public get excludeByImageFindings() {
+    return this._excludeByImageFindings;
+  }
+  public putExcludeByImageFindings(value: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindings) {
+    this._excludeByImageFindings.internalValue = value;
+  }
+  public resetExcludeByImageFindings() {
+    this._excludeByImageFindings.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get excludeByImageFindingsInput() {
+    return this._excludeByImageFindings.internalValue;
+  }
+
   // exclude_info_types - computed: false, optional: true, required: false
   private _excludeInfoTypes = new GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeInfoTypesOutputReference(this, "exclude_info_types");
   public get excludeInfoTypes() {
@@ -3990,14 +4864,14 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRule
   * The index of the submatch to extract as findings. When not specified,
   * the entire match is returned. No more than 3 may be included.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#group_indexes GoogleDataLossPreventionInspectTemplate#group_indexes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#group_indexes GoogleDataLossPreventionInspectTemplate#group_indexes}
   */
   readonly groupIndexes?: number[];
   /**
   * Pattern defining the regular expression. Its syntax
   * (https://github.com/google/re2/wiki/Syntax) can be found under the google/re2 repository on GitHub.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#pattern GoogleDataLossPreventionInspectTemplate#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#pattern GoogleDataLossPreventionInspectTemplate#pattern}
   */
   readonly pattern: string;
 }
@@ -4109,7 +4983,7 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRule
   /**
   * Set the likelihood of a finding to a fixed value. Either this or relative_likelihood can be set. Possible values: ["VERY_UNLIKELY", "UNLIKELY", "POSSIBLE", "LIKELY", "VERY_LIKELY"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#fixed_likelihood GoogleDataLossPreventionInspectTemplate#fixed_likelihood}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#fixed_likelihood GoogleDataLossPreventionInspectTemplate#fixed_likelihood}
   */
   readonly fixedLikelihood?: string;
   /**
@@ -4120,7 +4994,7 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRule
   * adjustment of 1 followed by an adjustment of -1 when base likelihood is VERY_LIKELY
   * will result in a final likelihood of LIKELY. Either this or fixed_likelihood can be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#relative_likelihood GoogleDataLossPreventionInspectTemplate#relative_likelihood}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#relative_likelihood GoogleDataLossPreventionInspectTemplate#relative_likelihood}
   */
   readonly relativeLikelihood?: number;
 }
@@ -4235,13 +5109,13 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRule
   /**
   * Number of characters after the finding to consider. Either this or window_before must be specified
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#window_after GoogleDataLossPreventionInspectTemplate#window_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#window_after GoogleDataLossPreventionInspectTemplate#window_after}
   */
   readonly windowAfter?: number;
   /**
   * Number of characters before the finding to consider. Either this or window_after must be specified
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#window_before GoogleDataLossPreventionInspectTemplate#window_before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#window_before GoogleDataLossPreventionInspectTemplate#window_before}
   */
   readonly windowBefore?: number;
 }
@@ -4356,19 +5230,19 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRule
   /**
   * hotword_regex block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#hotword_regex GoogleDataLossPreventionInspectTemplate#hotword_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#hotword_regex GoogleDataLossPreventionInspectTemplate#hotword_regex}
   */
   readonly hotwordRegex: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesHotwordRuleHotwordRegex;
   /**
   * likelihood_adjustment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#likelihood_adjustment GoogleDataLossPreventionInspectTemplate#likelihood_adjustment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#likelihood_adjustment GoogleDataLossPreventionInspectTemplate#likelihood_adjustment}
   */
   readonly likelihoodAdjustment: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesHotwordRuleLikelihoodAdjustment;
   /**
   * proximity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#proximity GoogleDataLossPreventionInspectTemplate#proximity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#proximity GoogleDataLossPreventionInspectTemplate#proximity}
   */
   readonly proximity: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesHotwordRuleProximity;
 }
@@ -4503,13 +5377,13 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRule
   /**
   * exclusion_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#exclusion_rule GoogleDataLossPreventionInspectTemplate#exclusion_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#exclusion_rule GoogleDataLossPreventionInspectTemplate#exclusion_rule}
   */
   readonly exclusionRule?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRule;
   /**
   * hotword_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#hotword_rule GoogleDataLossPreventionInspectTemplate#hotword_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#hotword_rule GoogleDataLossPreventionInspectTemplate#hotword_rule}
   */
   readonly hotwordRule?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesHotwordRule;
 }
@@ -4656,13 +5530,13 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigRuleSet {
   /**
   * info_types block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#info_types GoogleDataLossPreventionInspectTemplate#info_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#info_types GoogleDataLossPreventionInspectTemplate#info_types}
   */
   readonly infoTypes: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetInfoTypes[] | cdktn.IResolvable;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#rules GoogleDataLossPreventionInspectTemplate#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#rules GoogleDataLossPreventionInspectTemplate#rules}
   */
   readonly rules: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRules[] | cdktn.IResolvable;
 }
@@ -4803,55 +5677,55 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfig {
   /**
   * List of options defining data content to scan. If empty, text, images, and other content will be included. Possible values: ["CONTENT_TEXT", "CONTENT_IMAGE"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#content_options GoogleDataLossPreventionInspectTemplate#content_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#content_options GoogleDataLossPreventionInspectTemplate#content_options}
   */
   readonly contentOptions?: string[];
   /**
   * When true, excludes type information of the findings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#exclude_info_types GoogleDataLossPreventionInspectTemplate#exclude_info_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#exclude_info_types GoogleDataLossPreventionInspectTemplate#exclude_info_types}
   */
   readonly excludeInfoTypes?: boolean | cdktn.IResolvable;
   /**
   * When true, a contextual quote from the data that triggered a finding is included in the response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#include_quote GoogleDataLossPreventionInspectTemplate#include_quote}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#include_quote GoogleDataLossPreventionInspectTemplate#include_quote}
   */
   readonly includeQuote?: boolean | cdktn.IResolvable;
   /**
   * Only returns findings equal or above this threshold. See https://cloud.google.com/dlp/docs/likelihood for more info Default value: "POSSIBLE" Possible values: ["VERY_UNLIKELY", "UNLIKELY", "POSSIBLE", "LIKELY", "VERY_LIKELY"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#min_likelihood GoogleDataLossPreventionInspectTemplate#min_likelihood}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#min_likelihood GoogleDataLossPreventionInspectTemplate#min_likelihood}
   */
   readonly minLikelihood?: string;
   /**
   * custom_info_types block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#custom_info_types GoogleDataLossPreventionInspectTemplate#custom_info_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#custom_info_types GoogleDataLossPreventionInspectTemplate#custom_info_types}
   */
   readonly customInfoTypes?: GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypes[] | cdktn.IResolvable;
   /**
   * info_types block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#info_types GoogleDataLossPreventionInspectTemplate#info_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#info_types GoogleDataLossPreventionInspectTemplate#info_types}
   */
   readonly infoTypes?: GoogleDataLossPreventionInspectTemplateInspectConfigInfoTypes[] | cdktn.IResolvable;
   /**
   * limits block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#limits GoogleDataLossPreventionInspectTemplate#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#limits GoogleDataLossPreventionInspectTemplate#limits}
   */
   readonly limits?: GoogleDataLossPreventionInspectTemplateInspectConfigLimits;
   /**
   * min_likelihood_per_info_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#min_likelihood_per_info_type GoogleDataLossPreventionInspectTemplate#min_likelihood_per_info_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#min_likelihood_per_info_type GoogleDataLossPreventionInspectTemplate#min_likelihood_per_info_type}
   */
   readonly minLikelihoodPerInfoType?: GoogleDataLossPreventionInspectTemplateInspectConfigMinLikelihoodPerInfoType[] | cdktn.IResolvable;
   /**
   * rule_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#rule_set GoogleDataLossPreventionInspectTemplate#rule_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#rule_set GoogleDataLossPreventionInspectTemplate#rule_set}
   */
   readonly ruleSet?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSet[] | cdktn.IResolvable;
 }
@@ -5167,15 +6041,15 @@ export class GoogleDataLossPreventionInspectTemplateInspectConfigOutputReference
 }
 export interface GoogleDataLossPreventionInspectTemplateTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#create GoogleDataLossPreventionInspectTemplate#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#create GoogleDataLossPreventionInspectTemplate#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#delete GoogleDataLossPreventionInspectTemplate#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#delete GoogleDataLossPreventionInspectTemplate#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#update GoogleDataLossPreventionInspectTemplate#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#update GoogleDataLossPreventionInspectTemplate#update}
   */
   readonly update?: string;
 }
@@ -5327,7 +6201,7 @@ export class GoogleDataLossPreventionInspectTemplateTimeoutsOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template google_data_loss_prevention_inspect_template}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template google_data_loss_prevention_inspect_template}
 */
 export class GoogleDataLossPreventionInspectTemplate extends cdktn.TerraformResource {
 
@@ -5343,7 +6217,7 @@ export class GoogleDataLossPreventionInspectTemplate extends cdktn.TerraformReso
   * Generates CDKTN code for importing a GoogleDataLossPreventionInspectTemplate resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleDataLossPreventionInspectTemplate to import
-  * @param importFromId The id of the existing GoogleDataLossPreventionInspectTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleDataLossPreventionInspectTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleDataLossPreventionInspectTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -5355,7 +6229,7 @@ export class GoogleDataLossPreventionInspectTemplate extends cdktn.TerraformReso
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_data_loss_prevention_inspect_template google_data_loss_prevention_inspect_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_data_loss_prevention_inspect_template google_data_loss_prevention_inspect_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5366,7 +6240,7 @@ export class GoogleDataLossPreventionInspectTemplate extends cdktn.TerraformReso
       terraformResourceType: 'google_data_loss_prevention_inspect_template',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '8.9.0',
+        providerVersion: '8.11.0',
         providerVersionConstraint: '~> 8.0'
       },
       provider: config.provider,

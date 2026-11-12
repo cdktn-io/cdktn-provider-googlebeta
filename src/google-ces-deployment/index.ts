@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_ces_deployment
+// https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_ces_deployment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface GoogleCesDeploymentConfig extends cdktn.TerraformMetaArguments 
   /**
   * Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_ces_deployment#app GoogleCesDeployment#app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_ces_deployment#app GoogleCesDeployment#app}
   */
   readonly app: string;
   /**
@@ -23,7 +23,7 @@ export interface GoogleCesDeploymentConfig extends cdktn.TerraformMetaArguments 
   * Format:
   * projects/{project}/locations/{location}/apps/{app}/versions/{version}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_ces_deployment#app_version GoogleCesDeployment#app_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_ces_deployment#app_version GoogleCesDeployment#app_version}
   */
   readonly appVersion: string;
   /**
@@ -35,17 +35,17 @@ export interface GoogleCesDeploymentConfig extends cdktn.TerraformMetaArguments 
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_ces_deployment#deletion_policy GoogleCesDeployment#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_ces_deployment#deletion_policy GoogleCesDeployment#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * Display name of the deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_ces_deployment#display_name GoogleCesDeployment#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_ces_deployment#display_name GoogleCesDeployment#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_ces_deployment#id GoogleCesDeployment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_ces_deployment#id GoogleCesDeployment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -54,35 +54,47 @@ export interface GoogleCesDeploymentConfig extends cdktn.TerraformMetaArguments 
   /**
   * Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_ces_deployment#location GoogleCesDeployment#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_ces_deployment#location GoogleCesDeployment#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_ces_deployment#project GoogleCesDeployment#project}
+  * The modality of the deployment. Possible values: ["MODALITY_TEXT", "MODALITY_VOICE", "MODALITY_VIDEO"]
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_ces_deployment#modality GoogleCesDeployment#modality}
+  */
+  readonly modality?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_ces_deployment#project GoogleCesDeployment#project}
   */
   readonly project?: string;
   /**
   * channel_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_ces_deployment#channel_profile GoogleCesDeployment#channel_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_ces_deployment#channel_profile GoogleCesDeployment#channel_profile}
   */
   readonly channelProfile: GoogleCesDeploymentChannelProfile;
   /**
   * instagram_credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_ces_deployment#instagram_credentials GoogleCesDeployment#instagram_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_ces_deployment#instagram_credentials GoogleCesDeployment#instagram_credentials}
   */
   readonly instagramCredentials?: GoogleCesDeploymentInstagramCredentials;
   /**
+  * model_settings block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_ces_deployment#model_settings GoogleCesDeployment#model_settings}
+  */
+  readonly modelSettings?: GoogleCesDeploymentModelSettings;
+  /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_ces_deployment#timeouts GoogleCesDeployment#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_ces_deployment#timeouts GoogleCesDeployment#timeouts}
   */
   readonly timeouts?: GoogleCesDeploymentTimeouts;
   /**
   * whatsapp_credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_ces_deployment#whatsapp_credentials GoogleCesDeployment#whatsapp_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_ces_deployment#whatsapp_credentials GoogleCesDeployment#whatsapp_credentials}
   */
   readonly whatsappCredentials?: GoogleCesDeploymentWhatsappCredentials;
 }
@@ -94,7 +106,7 @@ export interface GoogleCesDeploymentChannelProfilePersonaProperty {
   * CONCISE
   * CHATTY
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_ces_deployment#persona GoogleCesDeployment#persona}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_ces_deployment#persona GoogleCesDeployment#persona}
   */
   readonly persona?: string;
 }
@@ -180,25 +192,25 @@ export interface GoogleCesDeploymentChannelProfileWebWidgetConfigSecuritySetting
   /**
   * The origins that are allowed to host the web widget. An origin is defined by RFC 6454. If empty, all origins are allowed. A maximum of 100 origins is allowed. Example: "https://example.com"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_ces_deployment#allowed_origins GoogleCesDeployment#allowed_origins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_ces_deployment#allowed_origins GoogleCesDeployment#allowed_origins}
   */
   readonly allowedOrigins?: string[];
   /**
   * Indicates whether origin check for the web widget is enabled. If true, the web widget will check the origin of the website that loads the web widget and only allow it to be loaded in the same origin or any of the allowed origins.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_ces_deployment#enable_origin_check GoogleCesDeployment#enable_origin_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_ces_deployment#enable_origin_check GoogleCesDeployment#enable_origin_check}
   */
   readonly enableOriginCheck?: boolean | cdktn.IResolvable;
   /**
   * Indicates whether public access to the web widget is enabled. If true, the web widget will be publicly accessible. If false, the web widget must be integrated with your own authentication and authorization system to return valid credentials for accessing the CES agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_ces_deployment#enable_public_access GoogleCesDeployment#enable_public_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_ces_deployment#enable_public_access GoogleCesDeployment#enable_public_access}
   */
   readonly enablePublicAccess?: boolean | cdktn.IResolvable;
   /**
   * Indicates whether reCAPTCHA verification for the web widget is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_ces_deployment#enable_recaptcha GoogleCesDeployment#enable_recaptcha}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_ces_deployment#enable_recaptcha GoogleCesDeployment#enable_recaptcha}
   */
   readonly enableRecaptcha?: boolean | cdktn.IResolvable;
 }
@@ -377,7 +389,7 @@ export interface GoogleCesDeploymentChannelProfileWebWidgetConfig {
   * CHAT_ONLY
   * CHAT_VOICE_AND_VIDEO
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_ces_deployment#modality GoogleCesDeployment#modality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_ces_deployment#modality GoogleCesDeployment#modality}
   */
   readonly modality?: string;
   /**
@@ -387,19 +399,19 @@ export interface GoogleCesDeploymentChannelProfileWebWidgetConfig {
   * LIGHT
   * DARK
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_ces_deployment#theme GoogleCesDeployment#theme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_ces_deployment#theme GoogleCesDeployment#theme}
   */
   readonly theme?: string;
   /**
   * The title of the web widget.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_ces_deployment#web_widget_title GoogleCesDeployment#web_widget_title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_ces_deployment#web_widget_title GoogleCesDeployment#web_widget_title}
   */
   readonly webWidgetTitle?: string;
   /**
   * security_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_ces_deployment#security_settings GoogleCesDeployment#security_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_ces_deployment#security_settings GoogleCesDeployment#security_settings}
   */
   readonly securitySettings?: GoogleCesDeploymentChannelProfileWebWidgetConfigSecuritySettings;
 }
@@ -572,19 +584,19 @@ export interface GoogleCesDeploymentChannelProfileWhatsappConfig {
   /**
   * Optional. The phone number in E.164 format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_ces_deployment#phone_number GoogleCesDeployment#phone_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_ces_deployment#phone_number GoogleCesDeployment#phone_number}
   */
   readonly phoneNumber?: string;
   /**
   * Required. The Meta phone number ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_ces_deployment#phone_number_id GoogleCesDeployment#phone_number_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_ces_deployment#phone_number_id GoogleCesDeployment#phone_number_id}
   */
   readonly phoneNumberId: string;
   /**
   * Required. The WhatsApp Business Account ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_ces_deployment#waba_id GoogleCesDeployment#waba_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_ces_deployment#waba_id GoogleCesDeployment#waba_id}
   */
   readonly wabaId: string;
 }
@@ -748,7 +760,7 @@ export interface GoogleCesDeploymentChannelProfile {
   * WHATSAPP
   * INSTAGRAM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_ces_deployment#channel_type GoogleCesDeployment#channel_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_ces_deployment#channel_type GoogleCesDeployment#channel_type}
   */
   readonly channelType?: string;
   /**
@@ -757,37 +769,37 @@ export interface GoogleCesDeploymentChannelProfile {
   * - **false**: The agent retains automatic control over when the user can
   * interrupt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_ces_deployment#disable_barge_in_control GoogleCesDeployment#disable_barge_in_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_ces_deployment#disable_barge_in_control GoogleCesDeployment#disable_barge_in_control}
   */
   readonly disableBargeInControl?: boolean | cdktn.IResolvable;
   /**
   * Whether to disable DTMF (dual-tone multi-frequency).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_ces_deployment#disable_dtmf GoogleCesDeployment#disable_dtmf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_ces_deployment#disable_dtmf GoogleCesDeployment#disable_dtmf}
   */
   readonly disableDtmf?: boolean | cdktn.IResolvable;
   /**
   * The unique identifier of the channel profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_ces_deployment#profile_id GoogleCesDeployment#profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_ces_deployment#profile_id GoogleCesDeployment#profile_id}
   */
   readonly profileId?: string;
   /**
   * persona_property block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_ces_deployment#persona_property GoogleCesDeployment#persona_property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_ces_deployment#persona_property GoogleCesDeployment#persona_property}
   */
   readonly personaProperty?: GoogleCesDeploymentChannelProfilePersonaProperty;
   /**
   * web_widget_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_ces_deployment#web_widget_config GoogleCesDeployment#web_widget_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_ces_deployment#web_widget_config GoogleCesDeployment#web_widget_config}
   */
   readonly webWidgetConfig?: GoogleCesDeploymentChannelProfileWebWidgetConfig;
   /**
   * whatsapp_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_ces_deployment#whatsapp_config GoogleCesDeployment#whatsapp_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_ces_deployment#whatsapp_config GoogleCesDeployment#whatsapp_config}
   */
   readonly whatsappConfig?: GoogleCesDeploymentChannelProfileWhatsappConfig;
 }
@@ -1047,25 +1059,25 @@ export interface GoogleCesDeploymentInstagramCredentials {
   /**
   * The Meta auth code provided by the embedded signup flow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_ces_deployment#auth_code GoogleCesDeployment#auth_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_ces_deployment#auth_code GoogleCesDeployment#auth_code}
   */
   readonly authCode?: string;
   /**
   * The Meta auth code provided by the embedded signup flow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_ces_deployment#auth_code_wo GoogleCesDeployment#auth_code_wo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_ces_deployment#auth_code_wo GoogleCesDeployment#auth_code_wo}
   */
   readonly authCodeWo?: string;
   /**
   * Triggers update of 'auth_code_wo' write-only. Increment this value when an update to 'auth_code_wo' is needed. For more info see [updating write-only arguments](/docs/providers/google/guides/using_write_only_arguments.html#updating-write-only-arguments)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_ces_deployment#auth_code_wo_version GoogleCesDeployment#auth_code_wo_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_ces_deployment#auth_code_wo_version GoogleCesDeployment#auth_code_wo_version}
   */
   readonly authCodeWoVersion?: string;
   /**
   * The Conversation Profile ID to use for the deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_ces_deployment#conversation_profile_id GoogleCesDeployment#conversation_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_ces_deployment#conversation_profile_id GoogleCesDeployment#conversation_profile_id}
   */
   readonly conversationProfileId?: string;
 }
@@ -1237,17 +1249,177 @@ export class GoogleCesDeploymentInstagramCredentialsOutputReference extends cdkt
     return this._conversationProfileId;
   }
 }
+export interface GoogleCesDeploymentModelSettings {
+  /**
+  * The LLM model that the agent should use.
+  * If not set, the agent will inherit the model from its parent agent.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_ces_deployment#model GoogleCesDeployment#model}
+  */
+  readonly model?: string;
+  /**
+  * If set, this temperature will be used for the LLM model. Temperature
+  * controls the randomness of the model's responses. Lower temperatures
+  * produce responses that are more predictable. Higher temperatures produce
+  * responses that are more creative.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_ces_deployment#temperature GoogleCesDeployment#temperature}
+  */
+  readonly temperature?: number;
+  /**
+  * The thinking level of the model. Possible values: ["DEFAULT", "LOW", "MEDIUM", "HIGH"]
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_ces_deployment#thinking_level GoogleCesDeployment#thinking_level}
+  */
+  readonly thinkingLevel?: string;
+}
+
+export function googleCesDeploymentModelSettingsToTerraform(struct?: GoogleCesDeploymentModelSettingsOutputReference | GoogleCesDeploymentModelSettings): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    model: cdktn.stringToTerraform(struct!.model),
+    temperature: cdktn.numberToTerraform(struct!.temperature),
+    thinking_level: cdktn.stringToTerraform(struct!.thinkingLevel),
+  }
+}
+
+
+export function googleCesDeploymentModelSettingsToHclTerraform(struct?: GoogleCesDeploymentModelSettingsOutputReference | GoogleCesDeploymentModelSettings): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    model: {
+      value: cdktn.stringToHclTerraform(struct!.model),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    temperature: {
+      value: cdktn.numberToHclTerraform(struct!.temperature),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    thinking_level: {
+      value: cdktn.stringToHclTerraform(struct!.thinkingLevel),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleCesDeploymentModelSettingsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleCesDeploymentModelSettings | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._model !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.model = this._model;
+    }
+    if (this._temperature !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.temperature = this._temperature;
+    }
+    if (this._thinkingLevel !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.thinkingLevel = this._thinkingLevel;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleCesDeploymentModelSettings | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._model = undefined;
+      this._temperature = undefined;
+      this._thinkingLevel = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._model = value.model;
+      this._temperature = value.temperature;
+      this._thinkingLevel = value.thinkingLevel;
+    }
+  }
+
+  // model - computed: false, optional: true, required: false
+  private _model?: string; 
+  public get model() {
+    return this.getStringAttribute('model');
+  }
+  public set model(value: string) {
+    this._model = value;
+  }
+  public resetModel() {
+    this._model = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get modelInput() {
+    return this._model;
+  }
+
+  // temperature - computed: false, optional: true, required: false
+  private _temperature?: number; 
+  public get temperature() {
+    return this.getNumberAttribute('temperature');
+  }
+  public set temperature(value: number) {
+    this._temperature = value;
+  }
+  public resetTemperature() {
+    this._temperature = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get temperatureInput() {
+    return this._temperature;
+  }
+
+  // thinking_level - computed: false, optional: true, required: false
+  private _thinkingLevel?: string; 
+  public get thinkingLevel() {
+    return this.getStringAttribute('thinking_level');
+  }
+  public set thinkingLevel(value: string) {
+    this._thinkingLevel = value;
+  }
+  public resetThinkingLevel() {
+    this._thinkingLevel = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get thinkingLevelInput() {
+    return this._thinkingLevel;
+  }
+}
 export interface GoogleCesDeploymentTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_ces_deployment#create GoogleCesDeployment#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_ces_deployment#create GoogleCesDeployment#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_ces_deployment#delete GoogleCesDeployment#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_ces_deployment#delete GoogleCesDeployment#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_ces_deployment#update GoogleCesDeployment#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_ces_deployment#update GoogleCesDeployment#update}
   */
   readonly update?: string;
 }
@@ -1401,61 +1573,61 @@ export interface GoogleCesDeploymentWhatsappCredentials {
   /**
   * The Meta auth code provided by the embedded signup flow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_ces_deployment#auth_code GoogleCesDeployment#auth_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_ces_deployment#auth_code GoogleCesDeployment#auth_code}
   */
   readonly authCode?: string;
   /**
   * The Meta auth code provided by the embedded signup flow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_ces_deployment#auth_code_wo GoogleCesDeployment#auth_code_wo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_ces_deployment#auth_code_wo GoogleCesDeployment#auth_code_wo}
   */
   readonly authCodeWo?: string;
   /**
   * Triggers update of 'auth_code_wo' write-only. Increment this value when an update to 'auth_code_wo' is needed. For more info see [updating write-only arguments](/docs/providers/google/guides/using_write_only_arguments.html#updating-write-only-arguments)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_ces_deployment#auth_code_wo_version GoogleCesDeployment#auth_code_wo_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_ces_deployment#auth_code_wo_version GoogleCesDeployment#auth_code_wo_version}
   */
   readonly authCodeWoVersion?: string;
   /**
   * The Business Account ID to use for the phone number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_ces_deployment#business_account_id GoogleCesDeployment#business_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_ces_deployment#business_account_id GoogleCesDeployment#business_account_id}
   */
   readonly businessAccountId: string;
   /**
   * The Conversation Profile ID to use for the deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_ces_deployment#conversation_profile_id GoogleCesDeployment#conversation_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_ces_deployment#conversation_profile_id GoogleCesDeployment#conversation_profile_id}
   */
   readonly conversationProfileId?: string;
   /**
   * The phone number to register with WhatsApp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_ces_deployment#phone_number GoogleCesDeployment#phone_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_ces_deployment#phone_number GoogleCesDeployment#phone_number}
   */
   readonly phoneNumber: string;
   /**
   * The 6-digit PIN created by the user for two-step verification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_ces_deployment#pin GoogleCesDeployment#pin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_ces_deployment#pin GoogleCesDeployment#pin}
   */
   readonly pin?: string;
   /**
   * The 6-digit PIN created by the user for two-step verification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_ces_deployment#pin_wo GoogleCesDeployment#pin_wo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_ces_deployment#pin_wo GoogleCesDeployment#pin_wo}
   */
   readonly pinWo?: string;
   /**
   * Triggers update of 'pin_wo' write-only. Increment this value when an update to 'pin_wo' is needed. For more info see [updating write-only arguments](/docs/providers/google/guides/using_write_only_arguments.html#updating-write-only-arguments)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_ces_deployment#pin_wo_version GoogleCesDeployment#pin_wo_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_ces_deployment#pin_wo_version GoogleCesDeployment#pin_wo_version}
   */
   readonly pinWoVersion?: string;
   /**
   * The WhatsApp Business Account ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_ces_deployment#waba_id GoogleCesDeployment#waba_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_ces_deployment#waba_id GoogleCesDeployment#waba_id}
   */
   readonly wabaId: string;
 }
@@ -1797,7 +1969,7 @@ export class GoogleCesDeploymentWhatsappCredentialsOutputReference extends cdktn
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_ces_deployment google_ces_deployment}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_ces_deployment google_ces_deployment}
 */
 export class GoogleCesDeployment extends cdktn.TerraformResource {
 
@@ -1813,7 +1985,7 @@ export class GoogleCesDeployment extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleCesDeployment resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleCesDeployment to import
-  * @param importFromId The id of the existing GoogleCesDeployment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_ces_deployment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleCesDeployment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_ces_deployment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleCesDeployment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1825,7 +1997,7 @@ export class GoogleCesDeployment extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/resources/google_ces_deployment google_ces_deployment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_ces_deployment google_ces_deployment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1836,7 +2008,7 @@ export class GoogleCesDeployment extends cdktn.TerraformResource {
       terraformResourceType: 'google_ces_deployment',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '8.9.0',
+        providerVersion: '8.11.0',
         providerVersionConstraint: '~> 8.0'
       },
       provider: config.provider,
@@ -1853,9 +2025,11 @@ export class GoogleCesDeployment extends cdktn.TerraformResource {
     this._displayName = config.displayName;
     this._id = config.id;
     this._location = config.location;
+    this._modality = config.modality;
     this._project = config.project;
     this._channelProfile.internalValue = config.channelProfile;
     this._instagramCredentials.internalValue = config.instagramCredentials;
+    this._modelSettings.internalValue = config.modelSettings;
     this._timeouts.internalValue = config.timeouts;
     this._whatsappCredentials.internalValue = config.whatsappCredentials;
   }
@@ -1958,6 +2132,22 @@ export class GoogleCesDeployment extends cdktn.TerraformResource {
     return this._location;
   }
 
+  // modality - computed: false, optional: true, required: false
+  private _modality?: string; 
+  public get modality() {
+    return this.getStringAttribute('modality');
+  }
+  public set modality(value: string) {
+    this._modality = value;
+  }
+  public resetModality() {
+    this._modality = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get modalityInput() {
+    return this._modality;
+  }
+
   // name - computed: true, optional: false, required: false
   public get name() {
     return this.getStringAttribute('name');
@@ -2013,6 +2203,22 @@ export class GoogleCesDeployment extends cdktn.TerraformResource {
     return this._instagramCredentials.internalValue;
   }
 
+  // model_settings - computed: false, optional: true, required: false
+  private _modelSettings = new GoogleCesDeploymentModelSettingsOutputReference(this, "model_settings");
+  public get modelSettings() {
+    return this._modelSettings;
+  }
+  public putModelSettings(value: GoogleCesDeploymentModelSettings) {
+    this._modelSettings.internalValue = value;
+  }
+  public resetModelSettings() {
+    this._modelSettings.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get modelSettingsInput() {
+    return this._modelSettings.internalValue;
+  }
+
   // timeouts - computed: false, optional: true, required: false
   private _timeouts = new GoogleCesDeploymentTimeoutsOutputReference(this, "timeouts");
   public get timeouts() {
@@ -2057,9 +2263,11 @@ export class GoogleCesDeployment extends cdktn.TerraformResource {
       display_name: cdktn.stringToTerraform(this._displayName),
       id: cdktn.stringToTerraform(this._id),
       location: cdktn.stringToTerraform(this._location),
+      modality: cdktn.stringToTerraform(this._modality),
       project: cdktn.stringToTerraform(this._project),
       channel_profile: googleCesDeploymentChannelProfileToTerraform(this._channelProfile.internalValue),
       instagram_credentials: googleCesDeploymentInstagramCredentialsToTerraform(this._instagramCredentials.internalValue),
+      model_settings: googleCesDeploymentModelSettingsToTerraform(this._modelSettings.internalValue),
       timeouts: googleCesDeploymentTimeoutsToTerraform(this._timeouts.internalValue),
       whatsapp_credentials: googleCesDeploymentWhatsappCredentialsToTerraform(this._whatsappCredentials.internalValue),
     };
@@ -2103,6 +2311,12 @@ export class GoogleCesDeployment extends cdktn.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      modality: {
+        value: cdktn.stringToHclTerraform(this._modality),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       project: {
         value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
@@ -2120,6 +2334,12 @@ export class GoogleCesDeployment extends cdktn.TerraformResource {
         isBlock: true,
         type: "list",
         storageClassType: "GoogleCesDeploymentInstagramCredentialsList",
+      },
+      model_settings: {
+        value: googleCesDeploymentModelSettingsToHclTerraform(this._modelSettings.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "GoogleCesDeploymentModelSettingsList",
       },
       timeouts: {
         value: googleCesDeploymentTimeoutsToHclTerraform(this._timeouts.internalValue),

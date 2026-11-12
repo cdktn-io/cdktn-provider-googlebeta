@@ -120,6 +120,7 @@ export * as googleArtifactRegistryRule from './google-artifact-registry-rule/ind
 export * as googleArtifactRegistryVpcscConfig from './google-artifact-registry-vpcsc-config/index';
 export * as googleAssuredWorkloadsWorkload from './google-assured-workloads-workload/index';
 export * as googleBackupDrAutoProtectionPolicy from './google-backup-dr-auto-protection-policy/index';
+export * as googleBackupDrAutoProtectionPolicyBinding from './google-backup-dr-auto-protection-policy-binding/index';
 export * as googleBackupDrBackupPlan from './google-backup-dr-backup-plan/index';
 export * as googleBackupDrBackupPlanAssociation from './google-backup-dr-backup-plan-association/index';
 export * as googleBackupDrBackupVault from './google-backup-dr-backup-vault/index';
@@ -598,6 +599,7 @@ export * as googleDataFusionInstanceIamBinding from './google-data-fusion-instan
 export * as googleDataFusionInstanceIamMember from './google-data-fusion-instance-iam-member/index';
 export * as googleDataFusionInstanceIamPolicy from './google-data-fusion-instance-iam-policy/index';
 export * as googleDataLineageConfig from './google-data-lineage-config/index';
+export * as googleDataLineageOpenLineageJob from './google-data-lineage-open-lineage-job/index';
 export * as googleDataLossPreventionContentPolicy from './google-data-loss-prevention-content-policy/index';
 export * as googleDataLossPreventionDeidentifyTemplate from './google-data-loss-prevention-deidentify-template/index';
 export * as googleDataLossPreventionDiscoveryConfig from './google-data-loss-prevention-discovery-config/index';
@@ -608,6 +610,7 @@ export * as googleDataPipelinePipeline from './google-data-pipeline-pipeline/ind
 export * as googleDatabaseMigrationServiceConnectionProfile from './google-database-migration-service-connection-profile/index';
 export * as googleDatabaseMigrationServiceMigrationJob from './google-database-migration-service-migration-job/index';
 export * as googleDatabaseMigrationServicePrivateConnection from './google-database-migration-service-private-connection/index';
+export * as googleDataflowConfigStoreSetting from './google-dataflow-config-store-setting/index';
 export * as googleDataflowFlexTemplateJob from './google-dataflow-flex-template-job/index';
 export * as googleDataflowJob from './google-dataflow-job/index';
 export * as googleDataformConfig from './google-dataform-config/index';
@@ -707,6 +710,7 @@ export * as googleDeveloperConnectConnection from './google-developer-connect-co
 export * as googleDeveloperConnectGitRepositoryLink from './google-developer-connect-git-repository-link/index';
 export * as googleDeveloperConnectInsightsConfig from './google-developer-connect-insights-config/index';
 export * as googleDialogflowAgent from './google-dialogflow-agent/index';
+export * as googleDialogflowCompanionAgent from './google-dialogflow-companion-agent/index';
 export * as googleDialogflowConversationProfile from './google-dialogflow-conversation-profile/index';
 export * as googleDialogflowCxAgent from './google-dialogflow-cx-agent/index';
 export * as googleDialogflowCxEntityType from './google-dialogflow-cx-entity-type/index';
@@ -740,6 +744,7 @@ export * as googleDiscoveryEngineControl from './google-discovery-engine-control
 export * as googleDiscoveryEngineDataConnector from './google-discovery-engine-data-connector/index';
 export * as googleDiscoveryEngineDataStore from './google-discovery-engine-data-store/index';
 export * as googleDiscoveryEngineLicenseConfig from './google-discovery-engine-license-config/index';
+export * as googleDiscoveryEngineProjectProvision from './google-discovery-engine-project-provision/index';
 export * as googleDiscoveryEngineRecommendationEngine from './google-discovery-engine-recommendation-engine/index';
 export * as googleDiscoveryEngineSchema from './google-discovery-engine-schema/index';
 export * as googleDiscoveryEngineSearchEngine from './google-discovery-engine-search-engine/index';
@@ -1064,6 +1069,7 @@ export * as googleLoggingSavedQuery from './google-logging-saved-query/index';
 export * as googleLookerInstance from './google-looker-instance/index';
 export * as googleLustreInstance from './google-lustre-instance/index';
 export * as googleManagedKafkaAcl from './google-managed-kafka-acl/index';
+export * as googleManagedKafkaAclBinding from './google-managed-kafka-acl-binding/index';
 export * as googleManagedKafkaCluster from './google-managed-kafka-cluster/index';
 export * as googleManagedKafkaConnectCluster from './google-managed-kafka-connect-cluster/index';
 export * as googleManagedKafkaConnector from './google-managed-kafka-connector/index';
@@ -1202,6 +1208,7 @@ export * as googleOracleDatabaseExascaleDbStorageVault from './google-oracle-dat
 export * as googleOracleDatabaseGoldengateConnection from './google-oracle-database-goldengate-connection/index';
 export * as googleOracleDatabaseGoldengateConnectionAssignment from './google-oracle-database-goldengate-connection-assignment/index';
 export * as googleOracleDatabaseGoldengateDeployment from './google-oracle-database-goldengate-deployment/index';
+export * as googleOracleDatabaseOdbDnsZone from './google-oracle-database-odb-dns-zone/index';
 export * as googleOracleDatabaseOdbNetwork from './google-oracle-database-odb-network/index';
 export * as googleOracleDatabaseOdbSubnet from './google-oracle-database-odb-subnet/index';
 export * as googleOrgPolicyCustomConstraint from './google-org-policy-custom-constraint/index';
@@ -1271,6 +1278,7 @@ export * as googlePubsubTopicIamPolicy from './google-pubsub-topic-iam-policy/in
 export * as googleRecaptchaEnterpriseKey from './google-recaptcha-enterprise-key/index';
 export * as googleRedisCluster from './google-redis-cluster/index';
 export * as googleRedisClusterAclPolicy from './google-redis-cluster-acl-policy/index';
+export * as googleRedisClusterTokenAuthUser from './google-redis-cluster-token-auth-user/index';
 export * as googleRedisClusterUserCreatedConnections from './google-redis-cluster-user-created-connections/index';
 export * as googleRedisInstance from './google-redis-instance/index';
 export * as googleResourceManagerBoundary from './google-resource-manager-boundary/index';
@@ -1328,6 +1336,7 @@ export * as googleSecretManagerRegionalSecret from './google-secret-manager-regi
 export * as googleSecretManagerRegionalSecretIamBinding from './google-secret-manager-regional-secret-iam-binding/index';
 export * as googleSecretManagerRegionalSecretIamMember from './google-secret-manager-regional-secret-iam-member/index';
 export * as googleSecretManagerRegionalSecretIamPolicy from './google-secret-manager-regional-secret-iam-policy/index';
+export * as googleSecretManagerRegionalSecretManagedRotation from './google-secret-manager-regional-secret-managed-rotation/index';
 export * as googleSecretManagerRegionalSecretVersion from './google-secret-manager-regional-secret-version/index';
 export * as googleSecretManagerSecret from './google-secret-manager-secret/index';
 export * as googleSecretManagerSecretIamBinding from './google-secret-manager-secret-iam-binding/index';
@@ -1447,6 +1456,7 @@ export * as googleVertexAiEndpointIamBinding from './google-vertex-ai-endpoint-i
 export * as googleVertexAiEndpointIamMember from './google-vertex-ai-endpoint-iam-member/index';
 export * as googleVertexAiEndpointIamPolicy from './google-vertex-ai-endpoint-iam-policy/index';
 export * as googleVertexAiEndpointWithModelGardenDeployment from './google-vertex-ai-endpoint-with-model-garden-deployment/index';
+export * as googleVertexAiEvaluationItem from './google-vertex-ai-evaluation-item/index';
 export * as googleVertexAiEvaluationMetric from './google-vertex-ai-evaluation-metric/index';
 export * as googleVertexAiFeatureGroup from './google-vertex-ai-feature-group/index';
 export * as googleVertexAiFeatureGroupFeature from './google-vertex-ai-feature-group-feature/index';
@@ -1491,6 +1501,7 @@ export * as googleVertexAiSemanticGovernancePolicyEngine from './google-vertex-a
 export * as googleVertexAiTensorboard from './google-vertex-ai-tensorboard/index';
 export * as googleVertexAiTensorboardExperiment from './google-vertex-ai-tensorboard-experiment/index';
 export * as googleVertexAiTensorboardRun from './google-vertex-ai-tensorboard-run/index';
+export * as googleVertexAiTrainingPipeline from './google-vertex-ai-training-pipeline/index';
 export * as googleVmwareengineCluster from './google-vmwareengine-cluster/index';
 export * as googleVmwareengineDatastore from './google-vmwareengine-datastore/index';
 export * as googleVmwareengineExternalAccessRule from './google-vmwareengine-external-access-rule/index';
@@ -1884,6 +1895,7 @@ export * as dataGoogleOracleDatabaseGoldengateConnectionTypes from './data-googl
 export * as dataGoogleOracleDatabaseGoldengateDeploymentEnvironments from './data-google-oracle-database-goldengate-deployment-environments/index';
 export * as dataGoogleOracleDatabaseGoldengateDeploymentTypes from './data-google-oracle-database-goldengate-deployment-types/index';
 export * as dataGoogleOracleDatabaseGoldengateDeploymentVersions from './data-google-oracle-database-goldengate-deployment-versions/index';
+export * as dataGoogleOracleDatabaseOdbDnsZone from './data-google-oracle-database-odb-dns-zone/index';
 export * as dataGoogleOracleDatabaseOdbNetwork from './data-google-oracle-database-odb-network/index';
 export * as dataGoogleOracleDatabaseOdbSubnet from './data-google-oracle-database-odb-subnet/index';
 export * as dataGoogleOrganization from './data-google-organization/index';
@@ -1918,6 +1930,7 @@ export * as dataGooglePubsubTopic from './data-google-pubsub-topic/index';
 export * as dataGooglePubsubTopicIamPolicy from './data-google-pubsub-topic-iam-policy/index';
 export * as dataGoogleRedisCluster from './data-google-redis-cluster/index';
 export * as dataGoogleRedisClusterAclPolicy from './data-google-redis-cluster-acl-policy/index';
+export * as dataGoogleRedisClusterTokenAuthUser from './data-google-redis-cluster-token-auth-user/index';
 export * as dataGoogleRedisInstance from './data-google-redis-instance/index';
 export * as dataGoogleRuntimeconfigConfig from './data-google-runtimeconfig-config/index';
 export * as dataGoogleRuntimeconfigConfigIamPolicy from './data-google-runtimeconfig-config-iam-policy/index';
