@@ -4,7 +4,7 @@
 
 ### DataGoogleStorageControlProjectFeatureConfig <a name="DataGoogleStorageControlProjectFeatureConfig" id="@cdktn/provider-google-beta.dataGoogleStorageControlProjectFeatureConfig.DataGoogleStorageControlProjectFeatureConfig"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/data-sources/google_storage_control_project_feature_config google_storage_control_project_feature_config}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/data-sources/google_storage_control_project_feature_config google_storage_control_project_feature_config}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleStorageControlProjectFeatureConfig.DataGoogleStorageControlProjectFeatureConfig.Initializer"></a>
 
@@ -401,7 +401,7 @@ The construct id used in the generated config for the DataGoogleStorageControlPr
 
 The id of the existing DataGoogleStorageControlProjectFeatureConfig that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/data-sources/google_storage_control_project_feature_config#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/data-sources/google_storage_control_project_feature_config#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -787,8 +787,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v22/datagoog
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleStorageControlProjectFeatureConfig.DataGoogleStorageControlProjectFeatureConfigConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleStorageControlProjectFeatureConfig.DataGoogleStorageControlProjectFeatureConfigConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleStorageControlProjectFeatureConfig.DataGoogleStorageControlProjectFeatureConfigConfig.property.featureConfigId">FeatureConfigId</a></code> | <code>*string</code> | The ID of the feature configuration, which becomes the final component of its resource name. |
-| <code><a href="#@cdktn/provider-google-beta.dataGoogleStorageControlProjectFeatureConfig.DataGoogleStorageControlProjectFeatureConfigConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/data-sources/google_storage_control_project_feature_config#id DataGoogleStorageControlProjectFeatureConfig#id}. |
-| <code><a href="#@cdktn/provider-google-beta.dataGoogleStorageControlProjectFeatureConfig.DataGoogleStorageControlProjectFeatureConfigConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/data-sources/google_storage_control_project_feature_config#project DataGoogleStorageControlProjectFeatureConfig#project}. |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleStorageControlProjectFeatureConfig.DataGoogleStorageControlProjectFeatureConfigConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/data-sources/google_storage_control_project_feature_config#id DataGoogleStorageControlProjectFeatureConfig#id}. |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleStorageControlProjectFeatureConfig.DataGoogleStorageControlProjectFeatureConfigConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/data-sources/google_storage_control_project_feature_config#project DataGoogleStorageControlProjectFeatureConfig#project}. |
 
 ---
 
@@ -875,7 +875,7 @@ The ID of the feature configuration, which becomes the final component of its re
 The ID must be 1 to 63 characters long, start with a lowercase letter, and contain only
 lowercase letters, digits, and dashes. The last character can't be a dash.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/data-sources/google_storage_control_project_feature_config#feature_config_id DataGoogleStorageControlProjectFeatureConfig#feature_config_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/data-sources/google_storage_control_project_feature_config#feature_config_id DataGoogleStorageControlProjectFeatureConfig#feature_config_id}
 
 ---
 
@@ -887,7 +887,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/data-sources/google_storage_control_project_feature_config#id DataGoogleStorageControlProjectFeatureConfig#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/data-sources/google_storage_control_project_feature_config#id DataGoogleStorageControlProjectFeatureConfig#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -902,7 +902,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.9.0/docs/data-sources/google_storage_control_project_feature_config#project DataGoogleStorageControlProjectFeatureConfig#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/data-sources/google_storage_control_project_feature_config#project DataGoogleStorageControlProjectFeatureConfig#project}.
 
 ---
 
