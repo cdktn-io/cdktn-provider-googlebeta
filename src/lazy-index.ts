@@ -91,6 +91,7 @@ Object.defineProperty(exports, 'googleApigeeSharedflowDeployment', { get: functi
 Object.defineProperty(exports, 'googleApigeeSpace', { get: function () { return require('./google-apigee-space'); } });
 Object.defineProperty(exports, 'googleApigeeSyncAuthorization', { get: function () { return require('./google-apigee-sync-authorization'); } });
 Object.defineProperty(exports, 'googleApigeeTargetServer', { get: function () { return require('./google-apigee-target-server'); } });
+Object.defineProperty(exports, 'googleApihubAddon', { get: function () { return require('./google-apihub-addon'); } });
 Object.defineProperty(exports, 'googleApihubApiHubInstance', { get: function () { return require('./google-apihub-api-hub-instance'); } });
 Object.defineProperty(exports, 'googleApihubCuration', { get: function () { return require('./google-apihub-curation'); } });
 Object.defineProperty(exports, 'googleApihubHostProjectRegistration', { get: function () { return require('./google-apihub-host-project-registration'); } });
@@ -282,6 +283,8 @@ Object.defineProperty(exports, 'googleCloudAssetOrganizationFeed', { get: functi
 Object.defineProperty(exports, 'googleCloudAssetProjectFeed', { get: function () { return require('./google-cloud-asset-project-feed'); } });
 Object.defineProperty(exports, 'googleCloudIdentityGroup', { get: function () { return require('./google-cloud-identity-group'); } });
 Object.defineProperty(exports, 'googleCloudIdentityGroupMembership', { get: function () { return require('./google-cloud-identity-group-membership'); } });
+Object.defineProperty(exports, 'googleCloudIdentityInboundOidcSsoProfile', { get: function () { return require('./google-cloud-identity-inbound-oidc-sso-profile'); } });
+Object.defineProperty(exports, 'googleCloudIdentityInboundSamlSsoProfile', { get: function () { return require('./google-cloud-identity-inbound-saml-sso-profile'); } });
 Object.defineProperty(exports, 'googleCloudIdentityPolicy', { get: function () { return require('./google-cloud-identity-policy'); } });
 Object.defineProperty(exports, 'googleCloudIdsEndpoint', { get: function () { return require('./google-cloud-ids-endpoint'); } });
 Object.defineProperty(exports, 'googleCloudQuotasQuotaAdjusterSettings', { get: function () { return require('./google-cloud-quotas-quota-adjuster-settings'); } });
@@ -705,6 +708,11 @@ Object.defineProperty(exports, 'googleDatastreamConnectionProfile', { get: funct
 Object.defineProperty(exports, 'googleDatastreamPrivateConnection', { get: function () { return require('./google-datastream-private-connection'); } });
 Object.defineProperty(exports, 'googleDatastreamStream', { get: function () { return require('./google-datastream-stream'); } });
 Object.defineProperty(exports, 'googleDeploymentManagerDeployment', { get: function () { return require('./google-deployment-manager-deployment'); } });
+Object.defineProperty(exports, 'googleDesignCenterApplication', { get: function () { return require('./google-design-center-application'); } });
+Object.defineProperty(exports, 'googleDesignCenterSpace', { get: function () { return require('./google-design-center-space'); } });
+Object.defineProperty(exports, 'googleDesignCenterSpaceIamBinding', { get: function () { return require('./google-design-center-space-iam-binding'); } });
+Object.defineProperty(exports, 'googleDesignCenterSpaceIamMember', { get: function () { return require('./google-design-center-space-iam-member'); } });
+Object.defineProperty(exports, 'googleDesignCenterSpaceIamPolicy', { get: function () { return require('./google-design-center-space-iam-policy'); } });
 Object.defineProperty(exports, 'googleDeveloperConnectAccountConnector', { get: function () { return require('./google-developer-connect-account-connector'); } });
 Object.defineProperty(exports, 'googleDeveloperConnectConnection', { get: function () { return require('./google-developer-connect-connection'); } });
 Object.defineProperty(exports, 'googleDeveloperConnectGitRepositoryLink', { get: function () { return require('./google-developer-connect-git-repository-link'); } });
@@ -1770,6 +1778,7 @@ Object.defineProperty(exports, 'dataGoogleDataprocMetastoreService', { get: func
 Object.defineProperty(exports, 'dataGoogleDataprocMetastoreServiceIamPolicy', { get: function () { return require('./data-google-dataproc-metastore-service-iam-policy'); } });
 Object.defineProperty(exports, 'dataGoogleDataprocMetastoreTableIamPolicy', { get: function () { return require('./data-google-dataproc-metastore-table-iam-policy'); } });
 Object.defineProperty(exports, 'dataGoogleDatastreamStaticIps', { get: function () { return require('./data-google-datastream-static-ips'); } });
+Object.defineProperty(exports, 'dataGoogleDesignCenterSpaceIamPolicy', { get: function () { return require('./data-google-design-center-space-iam-policy'); } });
 Object.defineProperty(exports, 'dataGoogleDiscoveryEngineDataStore', { get: function () { return require('./data-google-discovery-engine-data-store'); } });
 Object.defineProperty(exports, 'dataGoogleDiscoveryEngineDataStores', { get: function () { return require('./data-google-discovery-engine-data-stores'); } });
 Object.defineProperty(exports, 'dataGoogleDiscoveryEngineSearchEngineIamPolicy', { get: function () { return require('./data-google-discovery-engine-search-engine-iam-policy'); } });

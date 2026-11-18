@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_agent_anomaly_detection_scope
+// https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_vertex_ai_agent_anomaly_detection_scope
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -17,9 +17,19 @@ export interface GoogleVertexAiAgentAnomalyDetectionScopeConfig extends cdktn.Te
   * final component of the scope's resource name. This value should be 1-63
   * characters and valid characters are /[a-z][0-9]-/.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_agent_anomaly_detection_scope#agent_anomaly_detection_scope_id GoogleVertexAiAgentAnomalyDetectionScope#agent_anomaly_detection_scope_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_vertex_ai_agent_anomaly_detection_scope#agent_anomaly_detection_scope_id GoogleVertexAiAgentAnomalyDetectionScope#agent_anomaly_detection_scope_id}
   */
   readonly agentAnomalyDetectionScopeId: string;
+  /**
+  * When true, newly discovered agents that share log and observability
+  * buckets with this scope are automatically enrolled as ACTIVE monitored
+  * agents, up to the project's monitored agent quota. When false, newly
+  * discovered agents are added as DISABLED monitored agents and must be
+  * enabled explicitly.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_vertex_ai_agent_anomaly_detection_scope#auto_enroll GoogleVertexAiAgentAnomalyDetectionScope#auto_enroll}
+  */
+  readonly autoEnroll?: boolean | cdktn.IResolvable;
   /**
   * Whether Terraform will be prevented from destroying the instance. Defaults to "DELETE".
   * When a 'terraform destroy' or 'terraform apply' would delete the instance,
@@ -29,17 +39,17 @@ export interface GoogleVertexAiAgentAnomalyDetectionScopeConfig extends cdktn.Te
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_agent_anomaly_detection_scope#deletion_policy GoogleVertexAiAgentAnomalyDetectionScope#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_vertex_ai_agent_anomaly_detection_scope#deletion_policy GoogleVertexAiAgentAnomalyDetectionScope#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * User provided display name of the AgentAnomalyDetectionScope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_agent_anomaly_detection_scope#display_name GoogleVertexAiAgentAnomalyDetectionScope#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_vertex_ai_agent_anomaly_detection_scope#display_name GoogleVertexAiAgentAnomalyDetectionScope#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_agent_anomaly_detection_scope#id GoogleVertexAiAgentAnomalyDetectionScope#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_vertex_ai_agent_anomaly_detection_scope#id GoogleVertexAiAgentAnomalyDetectionScope#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -49,7 +59,7 @@ export interface GoogleVertexAiAgentAnomalyDetectionScopeConfig extends cdktn.Te
   * Customer owned Cloud Logging bucket resource names attached to this scope.
   * Format: projects/{{project}}/locations/{{location}}/buckets/{{bucket}}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_agent_anomaly_detection_scope#log_buckets GoogleVertexAiAgentAnomalyDetectionScope#log_buckets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_vertex_ai_agent_anomaly_detection_scope#log_buckets GoogleVertexAiAgentAnomalyDetectionScope#log_buckets}
   */
   readonly logBuckets: string[];
   /**
@@ -57,33 +67,123 @@ export interface GoogleVertexAiAgentAnomalyDetectionScopeConfig extends cdktn.Te
   * scope.
   * Format: projects/{{project}}/locations/{{location}}/buckets/{{bucket}}/datasets/{{dataset}}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_agent_anomaly_detection_scope#observability_buckets GoogleVertexAiAgentAnomalyDetectionScope#observability_buckets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_vertex_ai_agent_anomaly_detection_scope#observability_buckets GoogleVertexAiAgentAnomalyDetectionScope#observability_buckets}
   */
   readonly observabilityBuckets: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_agent_anomaly_detection_scope#project GoogleVertexAiAgentAnomalyDetectionScope#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_vertex_ai_agent_anomaly_detection_scope#project GoogleVertexAiAgentAnomalyDetectionScope#project}
   */
   readonly project?: string;
   /**
   * The region of the AgentAnomalyDetectionScope, e.g. us-central1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_agent_anomaly_detection_scope#region GoogleVertexAiAgentAnomalyDetectionScope#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_vertex_ai_agent_anomaly_detection_scope#region GoogleVertexAiAgentAnomalyDetectionScope#region}
   */
   readonly region: string;
   /**
+  * encryption_spec block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_vertex_ai_agent_anomaly_detection_scope#encryption_spec GoogleVertexAiAgentAnomalyDetectionScope#encryption_spec}
+  */
+  readonly encryptionSpec?: GoogleVertexAiAgentAnomalyDetectionScopeEncryptionSpec;
+  /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_agent_anomaly_detection_scope#timeouts GoogleVertexAiAgentAnomalyDetectionScope#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_vertex_ai_agent_anomaly_detection_scope#timeouts GoogleVertexAiAgentAnomalyDetectionScope#timeouts}
   */
   readonly timeouts?: GoogleVertexAiAgentAnomalyDetectionScopeTimeouts;
 }
+export interface GoogleVertexAiAgentAnomalyDetectionScopeEncryptionSpec {
+  /**
+  * Resource name of the Cloud KMS key used to protect the resource.
+  * Format: projects/{{project}}/locations/{{location}}/keyRings/{{key_ring}}/cryptoKeys/{{crypto_key}}.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_vertex_ai_agent_anomaly_detection_scope#kms_key_name GoogleVertexAiAgentAnomalyDetectionScope#kms_key_name}
+  */
+  readonly kmsKeyName: string;
+}
+
+export function googleVertexAiAgentAnomalyDetectionScopeEncryptionSpecToTerraform(struct?: GoogleVertexAiAgentAnomalyDetectionScopeEncryptionSpecOutputReference | GoogleVertexAiAgentAnomalyDetectionScopeEncryptionSpec): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    kms_key_name: cdktn.stringToTerraform(struct!.kmsKeyName),
+  }
+}
+
+
+export function googleVertexAiAgentAnomalyDetectionScopeEncryptionSpecToHclTerraform(struct?: GoogleVertexAiAgentAnomalyDetectionScopeEncryptionSpecOutputReference | GoogleVertexAiAgentAnomalyDetectionScopeEncryptionSpec): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    kms_key_name: {
+      value: cdktn.stringToHclTerraform(struct!.kmsKeyName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleVertexAiAgentAnomalyDetectionScopeEncryptionSpecOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleVertexAiAgentAnomalyDetectionScopeEncryptionSpec | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._kmsKeyName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.kmsKeyName = this._kmsKeyName;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleVertexAiAgentAnomalyDetectionScopeEncryptionSpec | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._kmsKeyName = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._kmsKeyName = value.kmsKeyName;
+    }
+  }
+
+  // kms_key_name - computed: false, optional: false, required: true
+  private _kmsKeyName?: string; 
+  public get kmsKeyName() {
+    return this.getStringAttribute('kms_key_name');
+  }
+  public set kmsKeyName(value: string) {
+    this._kmsKeyName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get kmsKeyNameInput() {
+    return this._kmsKeyName;
+  }
+}
 export interface GoogleVertexAiAgentAnomalyDetectionScopeTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_agent_anomaly_detection_scope#create GoogleVertexAiAgentAnomalyDetectionScope#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_vertex_ai_agent_anomaly_detection_scope#create GoogleVertexAiAgentAnomalyDetectionScope#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_agent_anomaly_detection_scope#delete GoogleVertexAiAgentAnomalyDetectionScope#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_vertex_ai_agent_anomaly_detection_scope#delete GoogleVertexAiAgentAnomalyDetectionScope#delete}
   */
   readonly delete?: string;
 }
@@ -206,7 +306,7 @@ export class GoogleVertexAiAgentAnomalyDetectionScopeTimeoutsOutputReference ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_agent_anomaly_detection_scope google_vertex_ai_agent_anomaly_detection_scope}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_vertex_ai_agent_anomaly_detection_scope google_vertex_ai_agent_anomaly_detection_scope}
 */
 export class GoogleVertexAiAgentAnomalyDetectionScope extends cdktn.TerraformResource {
 
@@ -222,7 +322,7 @@ export class GoogleVertexAiAgentAnomalyDetectionScope extends cdktn.TerraformRes
   * Generates CDKTN code for importing a GoogleVertexAiAgentAnomalyDetectionScope resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleVertexAiAgentAnomalyDetectionScope to import
-  * @param importFromId The id of the existing GoogleVertexAiAgentAnomalyDetectionScope that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_agent_anomaly_detection_scope#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleVertexAiAgentAnomalyDetectionScope that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_vertex_ai_agent_anomaly_detection_scope#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleVertexAiAgentAnomalyDetectionScope to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -234,7 +334,7 @@ export class GoogleVertexAiAgentAnomalyDetectionScope extends cdktn.TerraformRes
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_vertex_ai_agent_anomaly_detection_scope google_vertex_ai_agent_anomaly_detection_scope} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_vertex_ai_agent_anomaly_detection_scope google_vertex_ai_agent_anomaly_detection_scope} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -245,7 +345,7 @@ export class GoogleVertexAiAgentAnomalyDetectionScope extends cdktn.TerraformRes
       terraformResourceType: 'google_vertex_ai_agent_anomaly_detection_scope',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '8.11.0',
+        providerVersion: '8.12.0',
         providerVersionConstraint: '~> 8.0'
       },
       provider: config.provider,
@@ -257,6 +357,7 @@ export class GoogleVertexAiAgentAnomalyDetectionScope extends cdktn.TerraformRes
       forEach: config.forEach
     });
     this._agentAnomalyDetectionScopeId = config.agentAnomalyDetectionScopeId;
+    this._autoEnroll = config.autoEnroll;
     this._deletionPolicy = config.deletionPolicy;
     this._displayName = config.displayName;
     this._id = config.id;
@@ -264,6 +365,7 @@ export class GoogleVertexAiAgentAnomalyDetectionScope extends cdktn.TerraformRes
     this._observabilityBuckets = config.observabilityBuckets;
     this._project = config.project;
     this._region = config.region;
+    this._encryptionSpec.internalValue = config.encryptionSpec;
     this._timeouts.internalValue = config.timeouts;
   }
 
@@ -282,6 +384,22 @@ export class GoogleVertexAiAgentAnomalyDetectionScope extends cdktn.TerraformRes
   // Temporarily expose input value. Use with caution.
   public get agentAnomalyDetectionScopeIdInput() {
     return this._agentAnomalyDetectionScopeId;
+  }
+
+  // auto_enroll - computed: false, optional: true, required: false
+  private _autoEnroll?: boolean | cdktn.IResolvable; 
+  public get autoEnroll() {
+    return this.getBooleanAttribute('auto_enroll');
+  }
+  public set autoEnroll(value: boolean | cdktn.IResolvable) {
+    this._autoEnroll = value;
+  }
+  public resetAutoEnroll() {
+    this._autoEnroll = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get autoEnrollInput() {
+    return this._autoEnroll;
   }
 
   // deletion_policy - computed: true, optional: true, required: false
@@ -397,6 +515,22 @@ export class GoogleVertexAiAgentAnomalyDetectionScope extends cdktn.TerraformRes
     return this.getStringAttribute('state');
   }
 
+  // encryption_spec - computed: false, optional: true, required: false
+  private _encryptionSpec = new GoogleVertexAiAgentAnomalyDetectionScopeEncryptionSpecOutputReference(this, "encryption_spec");
+  public get encryptionSpec() {
+    return this._encryptionSpec;
+  }
+  public putEncryptionSpec(value: GoogleVertexAiAgentAnomalyDetectionScopeEncryptionSpec) {
+    this._encryptionSpec.internalValue = value;
+  }
+  public resetEncryptionSpec() {
+    this._encryptionSpec.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get encryptionSpecInput() {
+    return this._encryptionSpec.internalValue;
+  }
+
   // timeouts - computed: false, optional: true, required: false
   private _timeouts = new GoogleVertexAiAgentAnomalyDetectionScopeTimeoutsOutputReference(this, "timeouts");
   public get timeouts() {
@@ -420,6 +554,7 @@ export class GoogleVertexAiAgentAnomalyDetectionScope extends cdktn.TerraformRes
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       agent_anomaly_detection_scope_id: cdktn.stringToTerraform(this._agentAnomalyDetectionScopeId),
+      auto_enroll: cdktn.booleanToTerraform(this._autoEnroll),
       deletion_policy: cdktn.stringToTerraform(this._deletionPolicy),
       display_name: cdktn.stringToTerraform(this._displayName),
       id: cdktn.stringToTerraform(this._id),
@@ -427,6 +562,7 @@ export class GoogleVertexAiAgentAnomalyDetectionScope extends cdktn.TerraformRes
       observability_buckets: cdktn.listMapper(cdktn.stringToTerraform, false)(this._observabilityBuckets),
       project: cdktn.stringToTerraform(this._project),
       region: cdktn.stringToTerraform(this._region),
+      encryption_spec: googleVertexAiAgentAnomalyDetectionScopeEncryptionSpecToTerraform(this._encryptionSpec.internalValue),
       timeouts: googleVertexAiAgentAnomalyDetectionScopeTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
@@ -438,6 +574,12 @@ export class GoogleVertexAiAgentAnomalyDetectionScope extends cdktn.TerraformRes
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      auto_enroll: {
+        value: cdktn.booleanToHclTerraform(this._autoEnroll),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
       },
       deletion_policy: {
         value: cdktn.stringToHclTerraform(this._deletionPolicy),
@@ -480,6 +622,12 @@ export class GoogleVertexAiAgentAnomalyDetectionScope extends cdktn.TerraformRes
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      encryption_spec: {
+        value: googleVertexAiAgentAnomalyDetectionScopeEncryptionSpecToHclTerraform(this._encryptionSpec.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "GoogleVertexAiAgentAnomalyDetectionScopeEncryptionSpecList",
       },
       timeouts: {
         value: googleVertexAiAgentAnomalyDetectionScopeTimeoutsToHclTerraform(this._timeouts.internalValue),

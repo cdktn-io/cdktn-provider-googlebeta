@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_backup_dr_auto_protection_policy_binding
+// https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_backup_dr_auto_protection_policy_binding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,13 +15,13 @@ export interface GoogleBackupDrAutoProtectionPolicyBindingConfig extends cdktn.T
   /**
   * The ID of the binding. This becomes the final component of the binding's resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_backup_dr_auto_protection_policy_binding#auto_protection_policy_binding_id GoogleBackupDrAutoProtectionPolicyBinding#auto_protection_policy_binding_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_backup_dr_auto_protection_policy_binding#auto_protection_policy_binding_id GoogleBackupDrAutoProtectionPolicyBinding#auto_protection_policy_binding_id}
   */
   readonly autoProtectionPolicyBindingId: string;
   /**
   * The ID of the auto protection policy to bind.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_backup_dr_auto_protection_policy_binding#auto_protection_policy_id GoogleBackupDrAutoProtectionPolicyBinding#auto_protection_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_backup_dr_auto_protection_policy_binding#auto_protection_policy_id GoogleBackupDrAutoProtectionPolicyBinding#auto_protection_policy_id}
   */
   readonly autoProtectionPolicyId: string;
   /**
@@ -33,11 +33,11 @@ export interface GoogleBackupDrAutoProtectionPolicyBindingConfig extends cdktn.T
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_backup_dr_auto_protection_policy_binding#deletion_policy GoogleBackupDrAutoProtectionPolicyBinding#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_backup_dr_auto_protection_policy_binding#deletion_policy GoogleBackupDrAutoProtectionPolicyBinding#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_backup_dr_auto_protection_policy_binding#id GoogleBackupDrAutoProtectionPolicyBinding#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_backup_dr_auto_protection_policy_binding#id GoogleBackupDrAutoProtectionPolicyBinding#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -46,17 +46,17 @@ export interface GoogleBackupDrAutoProtectionPolicyBindingConfig extends cdktn.T
   /**
   * The location of the auto protection policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_backup_dr_auto_protection_policy_binding#location GoogleBackupDrAutoProtectionPolicyBinding#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_backup_dr_auto_protection_policy_binding#location GoogleBackupDrAutoProtectionPolicyBinding#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_backup_dr_auto_protection_policy_binding#project GoogleBackupDrAutoProtectionPolicyBinding#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_backup_dr_auto_protection_policy_binding#project GoogleBackupDrAutoProtectionPolicyBinding#project}
   */
   readonly project?: string;
   /**
   * The container that the policy is applied to, in the format 'projects/{project}'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_backup_dr_auto_protection_policy_binding#scope GoogleBackupDrAutoProtectionPolicyBinding#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_backup_dr_auto_protection_policy_binding#scope GoogleBackupDrAutoProtectionPolicyBinding#scope}
   */
   readonly scope: string;
   /**
@@ -65,13 +65,13 @@ export interface GoogleBackupDrAutoProtectionPolicyBindingConfig extends cdktn.T
   * 'wait_for_delete = true' will block the Terraform script/execution until all resources
   * are unprotected and the binding is fully removed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_backup_dr_auto_protection_policy_binding#wait_for_delete GoogleBackupDrAutoProtectionPolicyBinding#wait_for_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_backup_dr_auto_protection_policy_binding#wait_for_delete GoogleBackupDrAutoProtectionPolicyBinding#wait_for_delete}
   */
   readonly waitForDelete?: boolean | cdktn.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_backup_dr_auto_protection_policy_binding#timeouts GoogleBackupDrAutoProtectionPolicyBinding#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_backup_dr_auto_protection_policy_binding#timeouts GoogleBackupDrAutoProtectionPolicyBinding#timeouts}
   */
   readonly timeouts?: GoogleBackupDrAutoProtectionPolicyBindingTimeouts;
 }
@@ -162,15 +162,15 @@ export class GoogleBackupDrAutoProtectionPolicyBindingBindingEvaluationSummaryLi
 }
 export interface GoogleBackupDrAutoProtectionPolicyBindingTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_backup_dr_auto_protection_policy_binding#create GoogleBackupDrAutoProtectionPolicyBinding#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_backup_dr_auto_protection_policy_binding#create GoogleBackupDrAutoProtectionPolicyBinding#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_backup_dr_auto_protection_policy_binding#delete GoogleBackupDrAutoProtectionPolicyBinding#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_backup_dr_auto_protection_policy_binding#delete GoogleBackupDrAutoProtectionPolicyBinding#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_backup_dr_auto_protection_policy_binding#update GoogleBackupDrAutoProtectionPolicyBinding#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_backup_dr_auto_protection_policy_binding#update GoogleBackupDrAutoProtectionPolicyBinding#update}
   */
   readonly update?: string;
 }
@@ -322,7 +322,7 @@ export class GoogleBackupDrAutoProtectionPolicyBindingTimeoutsOutputReference ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_backup_dr_auto_protection_policy_binding google_backup_dr_auto_protection_policy_binding}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_backup_dr_auto_protection_policy_binding google_backup_dr_auto_protection_policy_binding}
 */
 export class GoogleBackupDrAutoProtectionPolicyBinding extends cdktn.TerraformResource {
 
@@ -338,7 +338,7 @@ export class GoogleBackupDrAutoProtectionPolicyBinding extends cdktn.TerraformRe
   * Generates CDKTN code for importing a GoogleBackupDrAutoProtectionPolicyBinding resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleBackupDrAutoProtectionPolicyBinding to import
-  * @param importFromId The id of the existing GoogleBackupDrAutoProtectionPolicyBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_backup_dr_auto_protection_policy_binding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleBackupDrAutoProtectionPolicyBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_backup_dr_auto_protection_policy_binding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleBackupDrAutoProtectionPolicyBinding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -350,7 +350,7 @@ export class GoogleBackupDrAutoProtectionPolicyBinding extends cdktn.TerraformRe
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_backup_dr_auto_protection_policy_binding google_backup_dr_auto_protection_policy_binding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_backup_dr_auto_protection_policy_binding google_backup_dr_auto_protection_policy_binding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -361,7 +361,7 @@ export class GoogleBackupDrAutoProtectionPolicyBinding extends cdktn.TerraformRe
       terraformResourceType: 'google_backup_dr_auto_protection_policy_binding',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '8.11.0',
+        providerVersion: '8.12.0',
         providerVersionConstraint: '~> 8.0'
       },
       provider: config.provider,

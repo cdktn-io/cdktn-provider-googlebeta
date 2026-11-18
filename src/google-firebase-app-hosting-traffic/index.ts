@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_firebase_app_hosting_traffic
+// https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_firebase_app_hosting_traffic
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,11 +15,11 @@ export interface GoogleFirebaseAppHostingTrafficConfig extends cdktn.TerraformMe
   /**
   * Id of the backend that this Traffic config applies to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_firebase_app_hosting_traffic#backend GoogleFirebaseAppHostingTraffic#backend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_firebase_app_hosting_traffic#backend GoogleFirebaseAppHostingTraffic#backend}
   */
   readonly backend: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_firebase_app_hosting_traffic#id GoogleFirebaseAppHostingTraffic#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_firebase_app_hosting_traffic#id GoogleFirebaseAppHostingTraffic#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -28,29 +28,29 @@ export interface GoogleFirebaseAppHostingTrafficConfig extends cdktn.TerraformMe
   /**
   * The location the Backend that this Traffic config applies to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_firebase_app_hosting_traffic#location GoogleFirebaseAppHostingTraffic#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_firebase_app_hosting_traffic#location GoogleFirebaseAppHostingTraffic#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_firebase_app_hosting_traffic#project GoogleFirebaseAppHostingTraffic#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_firebase_app_hosting_traffic#project GoogleFirebaseAppHostingTraffic#project}
   */
   readonly project?: string;
   /**
   * rollout_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_firebase_app_hosting_traffic#rollout_policy GoogleFirebaseAppHostingTraffic#rollout_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_firebase_app_hosting_traffic#rollout_policy GoogleFirebaseAppHostingTraffic#rollout_policy}
   */
   readonly rolloutPolicy?: GoogleFirebaseAppHostingTrafficRolloutPolicy;
   /**
   * target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_firebase_app_hosting_traffic#target GoogleFirebaseAppHostingTraffic#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_firebase_app_hosting_traffic#target GoogleFirebaseAppHostingTraffic#target}
   */
   readonly target?: GoogleFirebaseAppHostingTrafficTarget;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_firebase_app_hosting_traffic#timeouts GoogleFirebaseAppHostingTraffic#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_firebase_app_hosting_traffic#timeouts GoogleFirebaseAppHostingTraffic#timeouts}
   */
   readonly timeouts?: GoogleFirebaseAppHostingTrafficTimeouts;
 }
@@ -210,20 +210,326 @@ export class GoogleFirebaseAppHostingTrafficCurrentList extends cdktn.ComplexLis
     return new GoogleFirebaseAppHostingTrafficCurrentOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface GoogleFirebaseAppHostingTrafficRolloutPolicyIgnoredPaths {
+  /**
+  * The pattern to match against.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_firebase_app_hosting_traffic#pattern GoogleFirebaseAppHostingTraffic#pattern}
+  */
+  readonly pattern: string;
+  /**
+  * The type of pattern to match against. Possible values: ["RE2", "GLOB", "PREFIX"]
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_firebase_app_hosting_traffic#type GoogleFirebaseAppHostingTraffic#type}
+  */
+  readonly type: string;
+}
+
+export function googleFirebaseAppHostingTrafficRolloutPolicyIgnoredPathsToTerraform(struct?: GoogleFirebaseAppHostingTrafficRolloutPolicyIgnoredPaths | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    pattern: cdktn.stringToTerraform(struct!.pattern),
+    type: cdktn.stringToTerraform(struct!.type),
+  }
+}
+
+
+export function googleFirebaseAppHostingTrafficRolloutPolicyIgnoredPathsToHclTerraform(struct?: GoogleFirebaseAppHostingTrafficRolloutPolicyIgnoredPaths | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    pattern: {
+      value: cdktn.stringToHclTerraform(struct!.pattern),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    type: {
+      value: cdktn.stringToHclTerraform(struct!.type),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleFirebaseAppHostingTrafficRolloutPolicyIgnoredPathsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GoogleFirebaseAppHostingTrafficRolloutPolicyIgnoredPaths | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._pattern !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.pattern = this._pattern;
+    }
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleFirebaseAppHostingTrafficRolloutPolicyIgnoredPaths | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._pattern = undefined;
+      this._type = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._pattern = value.pattern;
+      this._type = value.type;
+    }
+  }
+
+  // pattern - computed: false, optional: false, required: true
+  private _pattern?: string; 
+  public get pattern() {
+    return this.getStringAttribute('pattern');
+  }
+  public set pattern(value: string) {
+    this._pattern = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get patternInput() {
+    return this._pattern;
+  }
+
+  // type - computed: false, optional: false, required: true
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+}
+
+export class GoogleFirebaseAppHostingTrafficRolloutPolicyIgnoredPathsList extends cdktn.ComplexList {
+  public internalValue? : GoogleFirebaseAppHostingTrafficRolloutPolicyIgnoredPaths[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GoogleFirebaseAppHostingTrafficRolloutPolicyIgnoredPathsOutputReference {
+    return new GoogleFirebaseAppHostingTrafficRolloutPolicyIgnoredPathsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GoogleFirebaseAppHostingTrafficRolloutPolicyRequiredPaths {
+  /**
+  * The pattern to match against.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_firebase_app_hosting_traffic#pattern GoogleFirebaseAppHostingTraffic#pattern}
+  */
+  readonly pattern: string;
+  /**
+  * The type of pattern to match against. Possible values: ["RE2", "GLOB", "PREFIX"]
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_firebase_app_hosting_traffic#type GoogleFirebaseAppHostingTraffic#type}
+  */
+  readonly type: string;
+}
+
+export function googleFirebaseAppHostingTrafficRolloutPolicyRequiredPathsToTerraform(struct?: GoogleFirebaseAppHostingTrafficRolloutPolicyRequiredPaths | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    pattern: cdktn.stringToTerraform(struct!.pattern),
+    type: cdktn.stringToTerraform(struct!.type),
+  }
+}
+
+
+export function googleFirebaseAppHostingTrafficRolloutPolicyRequiredPathsToHclTerraform(struct?: GoogleFirebaseAppHostingTrafficRolloutPolicyRequiredPaths | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    pattern: {
+      value: cdktn.stringToHclTerraform(struct!.pattern),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    type: {
+      value: cdktn.stringToHclTerraform(struct!.type),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleFirebaseAppHostingTrafficRolloutPolicyRequiredPathsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GoogleFirebaseAppHostingTrafficRolloutPolicyRequiredPaths | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._pattern !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.pattern = this._pattern;
+    }
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleFirebaseAppHostingTrafficRolloutPolicyRequiredPaths | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._pattern = undefined;
+      this._type = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._pattern = value.pattern;
+      this._type = value.type;
+    }
+  }
+
+  // pattern - computed: false, optional: false, required: true
+  private _pattern?: string; 
+  public get pattern() {
+    return this.getStringAttribute('pattern');
+  }
+  public set pattern(value: string) {
+    this._pattern = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get patternInput() {
+    return this._pattern;
+  }
+
+  // type - computed: false, optional: false, required: true
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+}
+
+export class GoogleFirebaseAppHostingTrafficRolloutPolicyRequiredPathsList extends cdktn.ComplexList {
+  public internalValue? : GoogleFirebaseAppHostingTrafficRolloutPolicyRequiredPaths[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GoogleFirebaseAppHostingTrafficRolloutPolicyRequiredPathsOutputReference {
+    return new GoogleFirebaseAppHostingTrafficRolloutPolicyRequiredPathsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface GoogleFirebaseAppHostingTrafficRolloutPolicy {
   /**
   * Specifies a branch that triggers a new build to be started with this
   * policy. If not set, no automatic rollouts will happen.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_firebase_app_hosting_traffic#codebase_branch GoogleFirebaseAppHostingTraffic#codebase_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_firebase_app_hosting_traffic#codebase_branch GoogleFirebaseAppHostingTraffic#codebase_branch}
   */
   readonly codebaseBranch?: string;
   /**
   * A flag that, if true, prevents rollouts from being created via this RolloutPolicy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_firebase_app_hosting_traffic#disabled GoogleFirebaseAppHostingTraffic#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_firebase_app_hosting_traffic#disabled GoogleFirebaseAppHostingTraffic#disabled}
   */
   readonly disabled?: boolean | cdktn.IResolvable;
+  /**
+  * ignored_paths block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_firebase_app_hosting_traffic#ignored_paths GoogleFirebaseAppHostingTraffic#ignored_paths}
+  */
+  readonly ignoredPaths?: GoogleFirebaseAppHostingTrafficRolloutPolicyIgnoredPaths[] | cdktn.IResolvable;
+  /**
+  * required_paths block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_firebase_app_hosting_traffic#required_paths GoogleFirebaseAppHostingTraffic#required_paths}
+  */
+  readonly requiredPaths?: GoogleFirebaseAppHostingTrafficRolloutPolicyRequiredPaths[] | cdktn.IResolvable;
 }
 
 export function googleFirebaseAppHostingTrafficRolloutPolicyToTerraform(struct?: GoogleFirebaseAppHostingTrafficRolloutPolicyOutputReference | GoogleFirebaseAppHostingTrafficRolloutPolicy): any {
@@ -234,6 +540,8 @@ export function googleFirebaseAppHostingTrafficRolloutPolicyToTerraform(struct?:
   return {
     codebase_branch: cdktn.stringToTerraform(struct!.codebaseBranch),
     disabled: cdktn.booleanToTerraform(struct!.disabled),
+    ignored_paths: cdktn.listMapper(googleFirebaseAppHostingTrafficRolloutPolicyIgnoredPathsToTerraform, true)(struct!.ignoredPaths),
+    required_paths: cdktn.listMapper(googleFirebaseAppHostingTrafficRolloutPolicyRequiredPathsToTerraform, true)(struct!.requiredPaths),
   }
 }
 
@@ -255,6 +563,18 @@ export function googleFirebaseAppHostingTrafficRolloutPolicyToHclTerraform(struc
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
+    },
+    ignored_paths: {
+      value: cdktn.listMapperHcl(googleFirebaseAppHostingTrafficRolloutPolicyIgnoredPathsToHclTerraform, true)(struct!.ignoredPaths),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleFirebaseAppHostingTrafficRolloutPolicyIgnoredPathsList",
+    },
+    required_paths: {
+      value: cdktn.listMapperHcl(googleFirebaseAppHostingTrafficRolloutPolicyRequiredPathsToHclTerraform, true)(struct!.requiredPaths),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleFirebaseAppHostingTrafficRolloutPolicyRequiredPathsList",
     },
   };
 
@@ -284,6 +604,14 @@ export class GoogleFirebaseAppHostingTrafficRolloutPolicyOutputReference extends
       hasAnyValues = true;
       internalValueResult.disabled = this._disabled;
     }
+    if (this._ignoredPaths?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ignoredPaths = this._ignoredPaths?.internalValue;
+    }
+    if (this._requiredPaths?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.requiredPaths = this._requiredPaths?.internalValue;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -292,11 +620,15 @@ export class GoogleFirebaseAppHostingTrafficRolloutPolicyOutputReference extends
       this.isEmptyObject = false;
       this._codebaseBranch = undefined;
       this._disabled = undefined;
+      this._ignoredPaths.internalValue = undefined;
+      this._requiredPaths.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._codebaseBranch = value.codebaseBranch;
       this._disabled = value.disabled;
+      this._ignoredPaths.internalValue = value.ignoredPaths;
+      this._requiredPaths.internalValue = value.requiredPaths;
     }
   }
 
@@ -336,18 +668,50 @@ export class GoogleFirebaseAppHostingTrafficRolloutPolicyOutputReference extends
   public get disabledTime() {
     return this.getStringAttribute('disabled_time');
   }
+
+  // ignored_paths - computed: false, optional: true, required: false
+  private _ignoredPaths = new GoogleFirebaseAppHostingTrafficRolloutPolicyIgnoredPathsList(this, "ignored_paths", false);
+  public get ignoredPaths() {
+    return this._ignoredPaths;
+  }
+  public putIgnoredPaths(value: GoogleFirebaseAppHostingTrafficRolloutPolicyIgnoredPaths[] | cdktn.IResolvable) {
+    this._ignoredPaths.internalValue = value;
+  }
+  public resetIgnoredPaths() {
+    this._ignoredPaths.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ignoredPathsInput() {
+    return this._ignoredPaths.internalValue;
+  }
+
+  // required_paths - computed: false, optional: true, required: false
+  private _requiredPaths = new GoogleFirebaseAppHostingTrafficRolloutPolicyRequiredPathsList(this, "required_paths", false);
+  public get requiredPaths() {
+    return this._requiredPaths;
+  }
+  public putRequiredPaths(value: GoogleFirebaseAppHostingTrafficRolloutPolicyRequiredPaths[] | cdktn.IResolvable) {
+    this._requiredPaths.internalValue = value;
+  }
+  public resetRequiredPaths() {
+    this._requiredPaths.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get requiredPathsInput() {
+    return this._requiredPaths.internalValue;
+  }
 }
 export interface GoogleFirebaseAppHostingTrafficTargetSplits {
   /**
   * The build that traffic is being routed to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_firebase_app_hosting_traffic#build GoogleFirebaseAppHostingTraffic#build}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_firebase_app_hosting_traffic#build GoogleFirebaseAppHostingTraffic#build}
   */
   readonly buildAttribute: string;
   /**
   * The percentage of traffic to send to the build. Currently must be 100 or 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_firebase_app_hosting_traffic#percent GoogleFirebaseAppHostingTraffic#percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_firebase_app_hosting_traffic#percent GoogleFirebaseAppHostingTraffic#percent}
   */
   readonly percent: number;
 }
@@ -488,7 +852,7 @@ export interface GoogleFirebaseAppHostingTrafficTarget {
   /**
   * splits block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_firebase_app_hosting_traffic#splits GoogleFirebaseAppHostingTraffic#splits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_firebase_app_hosting_traffic#splits GoogleFirebaseAppHostingTraffic#splits}
   */
   readonly splits: GoogleFirebaseAppHostingTrafficTargetSplits[] | cdktn.IResolvable;
 }
@@ -569,15 +933,15 @@ export class GoogleFirebaseAppHostingTrafficTargetOutputReference extends cdktn.
 }
 export interface GoogleFirebaseAppHostingTrafficTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_firebase_app_hosting_traffic#create GoogleFirebaseAppHostingTraffic#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_firebase_app_hosting_traffic#create GoogleFirebaseAppHostingTraffic#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_firebase_app_hosting_traffic#delete GoogleFirebaseAppHostingTraffic#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_firebase_app_hosting_traffic#delete GoogleFirebaseAppHostingTraffic#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_firebase_app_hosting_traffic#update GoogleFirebaseAppHostingTraffic#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_firebase_app_hosting_traffic#update GoogleFirebaseAppHostingTraffic#update}
   */
   readonly update?: string;
 }
@@ -729,7 +1093,7 @@ export class GoogleFirebaseAppHostingTrafficTimeoutsOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_firebase_app_hosting_traffic google_firebase_app_hosting_traffic}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_firebase_app_hosting_traffic google_firebase_app_hosting_traffic}
 */
 export class GoogleFirebaseAppHostingTraffic extends cdktn.TerraformResource {
 
@@ -745,7 +1109,7 @@ export class GoogleFirebaseAppHostingTraffic extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleFirebaseAppHostingTraffic resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleFirebaseAppHostingTraffic to import
-  * @param importFromId The id of the existing GoogleFirebaseAppHostingTraffic that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_firebase_app_hosting_traffic#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleFirebaseAppHostingTraffic that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_firebase_app_hosting_traffic#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleFirebaseAppHostingTraffic to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -757,7 +1121,7 @@ export class GoogleFirebaseAppHostingTraffic extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_firebase_app_hosting_traffic google_firebase_app_hosting_traffic} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_firebase_app_hosting_traffic google_firebase_app_hosting_traffic} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -768,7 +1132,7 @@ export class GoogleFirebaseAppHostingTraffic extends cdktn.TerraformResource {
       terraformResourceType: 'google_firebase_app_hosting_traffic',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '8.11.0',
+        providerVersion: '8.12.0',
         providerVersionConstraint: '~> 8.0'
       },
       provider: config.provider,
