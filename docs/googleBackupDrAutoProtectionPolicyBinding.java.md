@@ -4,7 +4,7 @@
 
 ### GoogleBackupDrAutoProtectionPolicyBinding <a name="GoogleBackupDrAutoProtectionPolicyBinding" id="@cdktn/provider-google-beta.googleBackupDrAutoProtectionPolicyBinding.GoogleBackupDrAutoProtectionPolicyBinding"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_backup_dr_auto_protection_policy_binding google_backup_dr_auto_protection_policy_binding}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_backup_dr_auto_protection_policy_binding google_backup_dr_auto_protection_policy_binding}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrAutoProtectionPolicyBinding.GoogleBackupDrAutoProtectionPolicyBinding.Initializer"></a>
 
@@ -47,8 +47,8 @@ GoogleBackupDrAutoProtectionPolicyBinding.Builder.create(Construct scope, java.l
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrAutoProtectionPolicyBinding.GoogleBackupDrAutoProtectionPolicyBinding.Initializer.parameter.location">location</a></code> | <code>java.lang.String</code> | The location of the auto protection policy. |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrAutoProtectionPolicyBinding.GoogleBackupDrAutoProtectionPolicyBinding.Initializer.parameter.scope">scope</a></code> | <code>java.lang.String</code> | The container that the policy is applied to, in the format 'projects/{project}'. |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrAutoProtectionPolicyBinding.GoogleBackupDrAutoProtectionPolicyBinding.Initializer.parameter.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrAutoProtectionPolicyBinding.GoogleBackupDrAutoProtectionPolicyBinding.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_backup_dr_auto_protection_policy_binding#id GoogleBackupDrAutoProtectionPolicyBinding#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrAutoProtectionPolicyBinding.GoogleBackupDrAutoProtectionPolicyBinding.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_backup_dr_auto_protection_policy_binding#project GoogleBackupDrAutoProtectionPolicyBinding#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrAutoProtectionPolicyBinding.GoogleBackupDrAutoProtectionPolicyBinding.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_backup_dr_auto_protection_policy_binding#id GoogleBackupDrAutoProtectionPolicyBinding#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrAutoProtectionPolicyBinding.GoogleBackupDrAutoProtectionPolicyBinding.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_backup_dr_auto_protection_policy_binding#project GoogleBackupDrAutoProtectionPolicyBinding#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrAutoProtectionPolicyBinding.GoogleBackupDrAutoProtectionPolicyBinding.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBackupDrAutoProtectionPolicyBinding.GoogleBackupDrAutoProtectionPolicyBindingTimeouts">GoogleBackupDrAutoProtectionPolicyBindingTimeouts</a></code> | timeouts block. |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrAutoProtectionPolicyBinding.GoogleBackupDrAutoProtectionPolicyBinding.Initializer.parameter.waitForDelete">waitForDelete</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Whether Terraform should wait for the binding and all associated background resource unprotection operations to be completely deleted before returning. |
 
@@ -120,7 +120,7 @@ Must be unique amongst siblings in the same scope
 
 The ID of the binding. This becomes the final component of the binding's resource name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_backup_dr_auto_protection_policy_binding#auto_protection_policy_binding_id GoogleBackupDrAutoProtectionPolicyBinding#auto_protection_policy_binding_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_backup_dr_auto_protection_policy_binding#auto_protection_policy_binding_id GoogleBackupDrAutoProtectionPolicyBinding#auto_protection_policy_binding_id}
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ID of the auto protection policy to bind.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_backup_dr_auto_protection_policy_binding#auto_protection_policy_id GoogleBackupDrAutoProtectionPolicyBinding#auto_protection_policy_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_backup_dr_auto_protection_policy_binding#auto_protection_policy_id GoogleBackupDrAutoProtectionPolicyBinding#auto_protection_policy_id}
 
 ---
 
@@ -140,7 +140,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The location of the auto protection policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_backup_dr_auto_protection_policy_binding#location GoogleBackupDrAutoProtectionPolicyBinding#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_backup_dr_auto_protection_policy_binding#location GoogleBackupDrAutoProtectionPolicyBinding#location}
 
 ---
 
@@ -150,7 +150,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The container that the policy is applied to, in the format 'projects/{project}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_backup_dr_auto_protection_policy_binding#scope GoogleBackupDrAutoProtectionPolicyBinding#scope}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_backup_dr_auto_protection_policy_binding#scope GoogleBackupDrAutoProtectionPolicyBinding#scope}
 
 ---
 
@@ -167,7 +167,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_backup_dr_auto_protection_policy_binding#deletion_policy GoogleBackupDrAutoProtectionPolicyBinding#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_backup_dr_auto_protection_policy_binding#deletion_policy GoogleBackupDrAutoProtectionPolicyBinding#deletion_policy}
 
 ---
 
@@ -175,7 +175,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_backup_dr_auto_protection_policy_binding#id GoogleBackupDrAutoProtectionPolicyBinding#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_backup_dr_auto_protection_policy_binding#id GoogleBackupDrAutoProtectionPolicyBinding#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -186,7 +186,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_backup_dr_auto_protection_policy_binding#project GoogleBackupDrAutoProtectionPolicyBinding#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_backup_dr_auto_protection_policy_binding#project GoogleBackupDrAutoProtectionPolicyBinding#project}.
 
 ---
 
@@ -196,7 +196,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_backup_dr_auto_protection_policy_binding#timeouts GoogleBackupDrAutoProtectionPolicyBinding#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_backup_dr_auto_protection_policy_binding#timeouts GoogleBackupDrAutoProtectionPolicyBinding#timeouts}
 
 ---
 
@@ -210,7 +210,7 @@ Setting
 'wait_for_delete = true' will block the Terraform script/execution until all resources
 are unprotected and the binding is fully removed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_backup_dr_auto_protection_policy_binding#wait_for_delete GoogleBackupDrAutoProtectionPolicyBinding#wait_for_delete}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_backup_dr_auto_protection_policy_binding#wait_for_delete GoogleBackupDrAutoProtectionPolicyBinding#wait_for_delete}
 
 ---
 
@@ -707,7 +707,7 @@ The construct id used in the generated config for the GoogleBackupDrAutoProtecti
 
 The id of the existing GoogleBackupDrAutoProtectionPolicyBinding that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_backup_dr_auto_protection_policy_binding#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_backup_dr_auto_protection_policy_binding#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1221,8 +1221,8 @@ GoogleBackupDrAutoProtectionPolicyBindingConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrAutoProtectionPolicyBinding.GoogleBackupDrAutoProtectionPolicyBindingConfig.property.location">location</a></code> | <code>java.lang.String</code> | The location of the auto protection policy. |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrAutoProtectionPolicyBinding.GoogleBackupDrAutoProtectionPolicyBindingConfig.property.scope">scope</a></code> | <code>java.lang.String</code> | The container that the policy is applied to, in the format 'projects/{project}'. |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrAutoProtectionPolicyBinding.GoogleBackupDrAutoProtectionPolicyBindingConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrAutoProtectionPolicyBinding.GoogleBackupDrAutoProtectionPolicyBindingConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_backup_dr_auto_protection_policy_binding#id GoogleBackupDrAutoProtectionPolicyBinding#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrAutoProtectionPolicyBinding.GoogleBackupDrAutoProtectionPolicyBindingConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_backup_dr_auto_protection_policy_binding#project GoogleBackupDrAutoProtectionPolicyBinding#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrAutoProtectionPolicyBinding.GoogleBackupDrAutoProtectionPolicyBindingConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_backup_dr_auto_protection_policy_binding#id GoogleBackupDrAutoProtectionPolicyBinding#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrAutoProtectionPolicyBinding.GoogleBackupDrAutoProtectionPolicyBindingConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_backup_dr_auto_protection_policy_binding#project GoogleBackupDrAutoProtectionPolicyBinding#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrAutoProtectionPolicyBinding.GoogleBackupDrAutoProtectionPolicyBindingConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBackupDrAutoProtectionPolicyBinding.GoogleBackupDrAutoProtectionPolicyBindingTimeouts">GoogleBackupDrAutoProtectionPolicyBindingTimeouts</a></code> | timeouts block. |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrAutoProtectionPolicyBinding.GoogleBackupDrAutoProtectionPolicyBindingConfig.property.waitForDelete">waitForDelete</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Whether Terraform should wait for the binding and all associated background resource unprotection operations to be completely deleted before returning. |
 
@@ -1308,7 +1308,7 @@ public java.lang.String getAutoProtectionPolicyBindingId();
 
 The ID of the binding. This becomes the final component of the binding's resource name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_backup_dr_auto_protection_policy_binding#auto_protection_policy_binding_id GoogleBackupDrAutoProtectionPolicyBinding#auto_protection_policy_binding_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_backup_dr_auto_protection_policy_binding#auto_protection_policy_binding_id GoogleBackupDrAutoProtectionPolicyBinding#auto_protection_policy_binding_id}
 
 ---
 
@@ -1322,7 +1322,7 @@ public java.lang.String getAutoProtectionPolicyId();
 
 The ID of the auto protection policy to bind.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_backup_dr_auto_protection_policy_binding#auto_protection_policy_id GoogleBackupDrAutoProtectionPolicyBinding#auto_protection_policy_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_backup_dr_auto_protection_policy_binding#auto_protection_policy_id GoogleBackupDrAutoProtectionPolicyBinding#auto_protection_policy_id}
 
 ---
 
@@ -1336,7 +1336,7 @@ public java.lang.String getLocation();
 
 The location of the auto protection policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_backup_dr_auto_protection_policy_binding#location GoogleBackupDrAutoProtectionPolicyBinding#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_backup_dr_auto_protection_policy_binding#location GoogleBackupDrAutoProtectionPolicyBinding#location}
 
 ---
 
@@ -1350,7 +1350,7 @@ public java.lang.String getScope();
 
 The container that the policy is applied to, in the format 'projects/{project}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_backup_dr_auto_protection_policy_binding#scope GoogleBackupDrAutoProtectionPolicyBinding#scope}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_backup_dr_auto_protection_policy_binding#scope GoogleBackupDrAutoProtectionPolicyBinding#scope}
 
 ---
 
@@ -1371,7 +1371,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_backup_dr_auto_protection_policy_binding#deletion_policy GoogleBackupDrAutoProtectionPolicyBinding#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_backup_dr_auto_protection_policy_binding#deletion_policy GoogleBackupDrAutoProtectionPolicyBinding#deletion_policy}
 
 ---
 
@@ -1383,7 +1383,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_backup_dr_auto_protection_policy_binding#id GoogleBackupDrAutoProtectionPolicyBinding#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_backup_dr_auto_protection_policy_binding#id GoogleBackupDrAutoProtectionPolicyBinding#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1398,7 +1398,7 @@ public java.lang.String getProject();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_backup_dr_auto_protection_policy_binding#project GoogleBackupDrAutoProtectionPolicyBinding#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_backup_dr_auto_protection_policy_binding#project GoogleBackupDrAutoProtectionPolicyBinding#project}.
 
 ---
 
@@ -1412,7 +1412,7 @@ public GoogleBackupDrAutoProtectionPolicyBindingTimeouts getTimeouts();
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_backup_dr_auto_protection_policy_binding#timeouts GoogleBackupDrAutoProtectionPolicyBinding#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_backup_dr_auto_protection_policy_binding#timeouts GoogleBackupDrAutoProtectionPolicyBinding#timeouts}
 
 ---
 
@@ -1430,7 +1430,7 @@ Setting
 'wait_for_delete = true' will block the Terraform script/execution until all resources
 are unprotected and the binding is fully removed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_backup_dr_auto_protection_policy_binding#wait_for_delete GoogleBackupDrAutoProtectionPolicyBinding#wait_for_delete}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_backup_dr_auto_protection_policy_binding#wait_for_delete GoogleBackupDrAutoProtectionPolicyBinding#wait_for_delete}
 
 ---
 
@@ -1452,9 +1452,9 @@ GoogleBackupDrAutoProtectionPolicyBindingTimeouts.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrAutoProtectionPolicyBinding.GoogleBackupDrAutoProtectionPolicyBindingTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_backup_dr_auto_protection_policy_binding#create GoogleBackupDrAutoProtectionPolicyBinding#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrAutoProtectionPolicyBinding.GoogleBackupDrAutoProtectionPolicyBindingTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_backup_dr_auto_protection_policy_binding#delete GoogleBackupDrAutoProtectionPolicyBinding#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrAutoProtectionPolicyBinding.GoogleBackupDrAutoProtectionPolicyBindingTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_backup_dr_auto_protection_policy_binding#update GoogleBackupDrAutoProtectionPolicyBinding#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrAutoProtectionPolicyBinding.GoogleBackupDrAutoProtectionPolicyBindingTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_backup_dr_auto_protection_policy_binding#create GoogleBackupDrAutoProtectionPolicyBinding#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrAutoProtectionPolicyBinding.GoogleBackupDrAutoProtectionPolicyBindingTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_backup_dr_auto_protection_policy_binding#delete GoogleBackupDrAutoProtectionPolicyBinding#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrAutoProtectionPolicyBinding.GoogleBackupDrAutoProtectionPolicyBindingTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_backup_dr_auto_protection_policy_binding#update GoogleBackupDrAutoProtectionPolicyBinding#update}. |
 
 ---
 
@@ -1466,7 +1466,7 @@ public java.lang.String getCreate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_backup_dr_auto_protection_policy_binding#create GoogleBackupDrAutoProtectionPolicyBinding#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_backup_dr_auto_protection_policy_binding#create GoogleBackupDrAutoProtectionPolicyBinding#create}.
 
 ---
 
@@ -1478,7 +1478,7 @@ public java.lang.String getDelete();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_backup_dr_auto_protection_policy_binding#delete GoogleBackupDrAutoProtectionPolicyBinding#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_backup_dr_auto_protection_policy_binding#delete GoogleBackupDrAutoProtectionPolicyBinding#delete}.
 
 ---
 
@@ -1490,7 +1490,7 @@ public java.lang.String getUpdate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_backup_dr_auto_protection_policy_binding#update GoogleBackupDrAutoProtectionPolicyBinding#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_backup_dr_auto_protection_policy_binding#update GoogleBackupDrAutoProtectionPolicyBinding#update}.
 
 ---
 

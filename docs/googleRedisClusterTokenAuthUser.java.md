@@ -4,7 +4,7 @@
 
 ### GoogleRedisClusterTokenAuthUser <a name="GoogleRedisClusterTokenAuthUser" id="@cdktn/provider-google-beta.googleRedisClusterTokenAuthUser.GoogleRedisClusterTokenAuthUser"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_redis_cluster_token_auth_user google_redis_cluster_token_auth_user}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_redis_cluster_token_auth_user google_redis_cluster_token_auth_user}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleRedisClusterTokenAuthUser.GoogleRedisClusterTokenAuthUser.Initializer"></a>
 
@@ -43,8 +43,8 @@ GoogleRedisClusterTokenAuthUser.Builder.create(Construct scope, java.lang.String
 | <code><a href="#@cdktn/provider-google-beta.googleRedisClusterTokenAuthUser.GoogleRedisClusterTokenAuthUser.Initializer.parameter.cluster">cluster</a></code> | <code>java.lang.String</code> | The name or resource ID of the Redis cluster. |
 | <code><a href="#@cdktn/provider-google-beta.googleRedisClusterTokenAuthUser.GoogleRedisClusterTokenAuthUser.Initializer.parameter.userId">userId</a></code> | <code>java.lang.String</code> | The unique ID (username) of the Token Auth User. The 'default' user cannot be managed with this resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleRedisClusterTokenAuthUser.GoogleRedisClusterTokenAuthUser.Initializer.parameter.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleRedisClusterTokenAuthUser.GoogleRedisClusterTokenAuthUser.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_redis_cluster_token_auth_user#id GoogleRedisClusterTokenAuthUser#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleRedisClusterTokenAuthUser.GoogleRedisClusterTokenAuthUser.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_redis_cluster_token_auth_user#project GoogleRedisClusterTokenAuthUser#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleRedisClusterTokenAuthUser.GoogleRedisClusterTokenAuthUser.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_redis_cluster_token_auth_user#id GoogleRedisClusterTokenAuthUser#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleRedisClusterTokenAuthUser.GoogleRedisClusterTokenAuthUser.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_redis_cluster_token_auth_user#project GoogleRedisClusterTokenAuthUser#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleRedisClusterTokenAuthUser.GoogleRedisClusterTokenAuthUser.Initializer.parameter.region">region</a></code> | <code>java.lang.String</code> | The name of the region of the Redis cluster. |
 | <code><a href="#@cdktn/provider-google-beta.googleRedisClusterTokenAuthUser.GoogleRedisClusterTokenAuthUser.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleRedisClusterTokenAuthUser.GoogleRedisClusterTokenAuthUserTimeouts">GoogleRedisClusterTokenAuthUserTimeouts</a></code> | timeouts block. |
 
@@ -116,7 +116,7 @@ Must be unique amongst siblings in the same scope
 
 The name or resource ID of the Redis cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_redis_cluster_token_auth_user#cluster GoogleRedisClusterTokenAuthUser#cluster}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_redis_cluster_token_auth_user#cluster GoogleRedisClusterTokenAuthUser#cluster}
 
 ---
 
@@ -126,7 +126,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The unique ID (username) of the Token Auth User. The 'default' user cannot be managed with this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_redis_cluster_token_auth_user#user_id GoogleRedisClusterTokenAuthUser#user_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_redis_cluster_token_auth_user#user_id GoogleRedisClusterTokenAuthUser#user_id}
 
 ---
 
@@ -143,7 +143,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_redis_cluster_token_auth_user#deletion_policy GoogleRedisClusterTokenAuthUser#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_redis_cluster_token_auth_user#deletion_policy GoogleRedisClusterTokenAuthUser#deletion_policy}
 
 ---
 
@@ -151,7 +151,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_redis_cluster_token_auth_user#id GoogleRedisClusterTokenAuthUser#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_redis_cluster_token_auth_user#id GoogleRedisClusterTokenAuthUser#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -162,7 +162,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_redis_cluster_token_auth_user#project GoogleRedisClusterTokenAuthUser#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_redis_cluster_token_auth_user#project GoogleRedisClusterTokenAuthUser#project}.
 
 ---
 
@@ -172,7 +172,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the region of the Redis cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_redis_cluster_token_auth_user#region GoogleRedisClusterTokenAuthUser#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_redis_cluster_token_auth_user#region GoogleRedisClusterTokenAuthUser#region}
 
 ---
 
@@ -182,7 +182,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_redis_cluster_token_auth_user#timeouts GoogleRedisClusterTokenAuthUser#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_redis_cluster_token_auth_user#timeouts GoogleRedisClusterTokenAuthUser#timeouts}
 
 ---
 
@@ -679,7 +679,7 @@ The construct id used in the generated config for the GoogleRedisClusterTokenAut
 
 The id of the existing GoogleRedisClusterTokenAuthUser that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_redis_cluster_token_auth_user#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_redis_cluster_token_auth_user#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1089,8 +1089,8 @@ GoogleRedisClusterTokenAuthUserConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleRedisClusterTokenAuthUser.GoogleRedisClusterTokenAuthUserConfig.property.cluster">cluster</a></code> | <code>java.lang.String</code> | The name or resource ID of the Redis cluster. |
 | <code><a href="#@cdktn/provider-google-beta.googleRedisClusterTokenAuthUser.GoogleRedisClusterTokenAuthUserConfig.property.userId">userId</a></code> | <code>java.lang.String</code> | The unique ID (username) of the Token Auth User. The 'default' user cannot be managed with this resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleRedisClusterTokenAuthUser.GoogleRedisClusterTokenAuthUserConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleRedisClusterTokenAuthUser.GoogleRedisClusterTokenAuthUserConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_redis_cluster_token_auth_user#id GoogleRedisClusterTokenAuthUser#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleRedisClusterTokenAuthUser.GoogleRedisClusterTokenAuthUserConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_redis_cluster_token_auth_user#project GoogleRedisClusterTokenAuthUser#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleRedisClusterTokenAuthUser.GoogleRedisClusterTokenAuthUserConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_redis_cluster_token_auth_user#id GoogleRedisClusterTokenAuthUser#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleRedisClusterTokenAuthUser.GoogleRedisClusterTokenAuthUserConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_redis_cluster_token_auth_user#project GoogleRedisClusterTokenAuthUser#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleRedisClusterTokenAuthUser.GoogleRedisClusterTokenAuthUserConfig.property.region">region</a></code> | <code>java.lang.String</code> | The name of the region of the Redis cluster. |
 | <code><a href="#@cdktn/provider-google-beta.googleRedisClusterTokenAuthUser.GoogleRedisClusterTokenAuthUserConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleRedisClusterTokenAuthUser.GoogleRedisClusterTokenAuthUserTimeouts">GoogleRedisClusterTokenAuthUserTimeouts</a></code> | timeouts block. |
 
@@ -1176,7 +1176,7 @@ public java.lang.String getCluster();
 
 The name or resource ID of the Redis cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_redis_cluster_token_auth_user#cluster GoogleRedisClusterTokenAuthUser#cluster}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_redis_cluster_token_auth_user#cluster GoogleRedisClusterTokenAuthUser#cluster}
 
 ---
 
@@ -1190,7 +1190,7 @@ public java.lang.String getUserId();
 
 The unique ID (username) of the Token Auth User. The 'default' user cannot be managed with this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_redis_cluster_token_auth_user#user_id GoogleRedisClusterTokenAuthUser#user_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_redis_cluster_token_auth_user#user_id GoogleRedisClusterTokenAuthUser#user_id}
 
 ---
 
@@ -1211,7 +1211,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_redis_cluster_token_auth_user#deletion_policy GoogleRedisClusterTokenAuthUser#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_redis_cluster_token_auth_user#deletion_policy GoogleRedisClusterTokenAuthUser#deletion_policy}
 
 ---
 
@@ -1223,7 +1223,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_redis_cluster_token_auth_user#id GoogleRedisClusterTokenAuthUser#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_redis_cluster_token_auth_user#id GoogleRedisClusterTokenAuthUser#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1238,7 +1238,7 @@ public java.lang.String getProject();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_redis_cluster_token_auth_user#project GoogleRedisClusterTokenAuthUser#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_redis_cluster_token_auth_user#project GoogleRedisClusterTokenAuthUser#project}.
 
 ---
 
@@ -1252,7 +1252,7 @@ public java.lang.String getRegion();
 
 The name of the region of the Redis cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_redis_cluster_token_auth_user#region GoogleRedisClusterTokenAuthUser#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_redis_cluster_token_auth_user#region GoogleRedisClusterTokenAuthUser#region}
 
 ---
 
@@ -1266,7 +1266,7 @@ public GoogleRedisClusterTokenAuthUserTimeouts getTimeouts();
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_redis_cluster_token_auth_user#timeouts GoogleRedisClusterTokenAuthUser#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_redis_cluster_token_auth_user#timeouts GoogleRedisClusterTokenAuthUser#timeouts}
 
 ---
 
@@ -1287,8 +1287,8 @@ GoogleRedisClusterTokenAuthUserTimeouts.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleRedisClusterTokenAuthUser.GoogleRedisClusterTokenAuthUserTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_redis_cluster_token_auth_user#create GoogleRedisClusterTokenAuthUser#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleRedisClusterTokenAuthUser.GoogleRedisClusterTokenAuthUserTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_redis_cluster_token_auth_user#delete GoogleRedisClusterTokenAuthUser#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleRedisClusterTokenAuthUser.GoogleRedisClusterTokenAuthUserTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_redis_cluster_token_auth_user#create GoogleRedisClusterTokenAuthUser#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleRedisClusterTokenAuthUser.GoogleRedisClusterTokenAuthUserTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_redis_cluster_token_auth_user#delete GoogleRedisClusterTokenAuthUser#delete}. |
 
 ---
 
@@ -1300,7 +1300,7 @@ public java.lang.String getCreate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_redis_cluster_token_auth_user#create GoogleRedisClusterTokenAuthUser#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_redis_cluster_token_auth_user#create GoogleRedisClusterTokenAuthUser#create}.
 
 ---
 
@@ -1312,7 +1312,7 @@ public java.lang.String getDelete();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_redis_cluster_token_auth_user#delete GoogleRedisClusterTokenAuthUser#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_redis_cluster_token_auth_user#delete GoogleRedisClusterTokenAuthUser#delete}.
 
 ---
 
