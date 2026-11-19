@@ -4,7 +4,7 @@
 
 ### GoogleManagedKafkaAclBinding <a name="GoogleManagedKafkaAclBinding" id="@cdktn/provider-google-beta.googleManagedKafkaAclBinding.GoogleManagedKafkaAclBinding"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_managed_kafka_acl_binding google_managed_kafka_acl_binding}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_managed_kafka_acl_binding google_managed_kafka_acl_binding}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleManagedKafkaAclBinding.GoogleManagedKafkaAclBinding.Initializer"></a>
 
@@ -51,9 +51,9 @@ GoogleManagedKafkaAclBinding.Builder.create(Construct scope, java.lang.String id
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaAclBinding.GoogleManagedKafkaAclBinding.Initializer.parameter.principal">principal</a></code> | <code>java.lang.String</code> | The principal. |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaAclBinding.GoogleManagedKafkaAclBinding.Initializer.parameter.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaAclBinding.GoogleManagedKafkaAclBinding.Initializer.parameter.host">host</a></code> | <code>java.lang.String</code> | The host. Must be set to "*" for Managed Service for Apache Kafka. |
-| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaAclBinding.GoogleManagedKafkaAclBinding.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_managed_kafka_acl_binding#id GoogleManagedKafkaAclBinding#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaAclBinding.GoogleManagedKafkaAclBinding.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_managed_kafka_acl_binding#id GoogleManagedKafkaAclBinding#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaAclBinding.GoogleManagedKafkaAclBinding.Initializer.parameter.permissionType">permissionType</a></code> | <code>java.lang.String</code> | The permission type. Accepted values are (case insensitive): ALLOW, DENY. |
-| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaAclBinding.GoogleManagedKafkaAclBinding.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_managed_kafka_acl_binding#project GoogleManagedKafkaAclBinding#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaAclBinding.GoogleManagedKafkaAclBinding.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_managed_kafka_acl_binding#project GoogleManagedKafkaAclBinding#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaAclBinding.GoogleManagedKafkaAclBinding.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaAclBinding.GoogleManagedKafkaAclBindingTimeouts">GoogleManagedKafkaAclBindingTimeouts</a></code> | timeouts block. |
 
 ---
@@ -132,7 +132,7 @@ For acls on a single resource within the cluster: 'topic/{resource_name}' 'consu
 For acls on all resources that match a prefix: 'topicPrefixed/{resource_name}' 'consumerGroupPrefixed/{resource_name}' 'transactionalIdPrefixed/{resource_name}'
 For acls on all resources of a given type (i.e. the wildcard literal '*''): 'allTopics' (represents 'topic/*') 'allConsumerGroups' (represents 'consumerGroup/*') 'allTransactionalIds' (represents 'transactionalId/*').
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_managed_kafka_acl_binding#acl_id GoogleManagedKafkaAclBinding#acl_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_managed_kafka_acl_binding#acl_id GoogleManagedKafkaAclBinding#acl_id}
 
 ---
 
@@ -142,7 +142,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The cluster name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_managed_kafka_acl_binding#cluster GoogleManagedKafkaAclBinding#cluster}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_managed_kafka_acl_binding#cluster GoogleManagedKafkaAclBinding#cluster}
 
 ---
 
@@ -152,7 +152,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ID of the location of the Kafka resource. See https://cloud.google.com/managed-kafka/docs/locations for a list of supported locations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_managed_kafka_acl_binding#location GoogleManagedKafkaAclBinding#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_managed_kafka_acl_binding#location GoogleManagedKafkaAclBinding#location}
 
 ---
 
@@ -169,7 +169,7 @@ https://kafka.apache.org/documentation/#operations_resources_and_protocols
 for valid combinations of resource_type and operation for different
 Kafka API requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_managed_kafka_acl_binding#operation GoogleManagedKafkaAclBinding#operation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_managed_kafka_acl_binding#operation GoogleManagedKafkaAclBinding#operation}
 
 ---
 
@@ -184,7 +184,7 @@ StandardAuthorizer prefix "User:". For example:
 "User:test-kafka-client@test-project.iam.gserviceaccount.com". Can be
 the wildcard "User:*" to refer to all users.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_managed_kafka_acl_binding#principal GoogleManagedKafkaAclBinding#principal}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_managed_kafka_acl_binding#principal GoogleManagedKafkaAclBinding#principal}
 
 ---
 
@@ -201,7 +201,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_managed_kafka_acl_binding#deletion_policy GoogleManagedKafkaAclBinding#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_managed_kafka_acl_binding#deletion_policy GoogleManagedKafkaAclBinding#deletion_policy}
 
 ---
 
@@ -211,7 +211,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The host. Must be set to "*" for Managed Service for Apache Kafka.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_managed_kafka_acl_binding#host GoogleManagedKafkaAclBinding#host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_managed_kafka_acl_binding#host GoogleManagedKafkaAclBinding#host}
 
 ---
 
@@ -219,7 +219,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_managed_kafka_acl_binding#id GoogleManagedKafkaAclBinding#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_managed_kafka_acl_binding#id GoogleManagedKafkaAclBinding#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -232,7 +232,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 The permission type. Accepted values are (case insensitive): ALLOW, DENY.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_managed_kafka_acl_binding#permission_type GoogleManagedKafkaAclBinding#permission_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_managed_kafka_acl_binding#permission_type GoogleManagedKafkaAclBinding#permission_type}
 
 ---
 
@@ -240,7 +240,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_managed_kafka_acl_binding#project GoogleManagedKafkaAclBinding#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_managed_kafka_acl_binding#project GoogleManagedKafkaAclBinding#project}.
 
 ---
 
@@ -250,7 +250,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_managed_kafka_acl_binding#timeouts GoogleManagedKafkaAclBinding#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_managed_kafka_acl_binding#timeouts GoogleManagedKafkaAclBinding#timeouts}
 
 ---
 
@@ -754,7 +754,7 @@ The construct id used in the generated config for the GoogleManagedKafkaAclBindi
 
 The id of the existing GoogleManagedKafkaAclBinding that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_managed_kafka_acl_binding#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_managed_kafka_acl_binding#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1238,9 +1238,9 @@ GoogleManagedKafkaAclBindingConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaAclBinding.GoogleManagedKafkaAclBindingConfig.property.principal">principal</a></code> | <code>java.lang.String</code> | The principal. |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaAclBinding.GoogleManagedKafkaAclBindingConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaAclBinding.GoogleManagedKafkaAclBindingConfig.property.host">host</a></code> | <code>java.lang.String</code> | The host. Must be set to "*" for Managed Service for Apache Kafka. |
-| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaAclBinding.GoogleManagedKafkaAclBindingConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_managed_kafka_acl_binding#id GoogleManagedKafkaAclBinding#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaAclBinding.GoogleManagedKafkaAclBindingConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_managed_kafka_acl_binding#id GoogleManagedKafkaAclBinding#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaAclBinding.GoogleManagedKafkaAclBindingConfig.property.permissionType">permissionType</a></code> | <code>java.lang.String</code> | The permission type. Accepted values are (case insensitive): ALLOW, DENY. |
-| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaAclBinding.GoogleManagedKafkaAclBindingConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_managed_kafka_acl_binding#project GoogleManagedKafkaAclBinding#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaAclBinding.GoogleManagedKafkaAclBindingConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_managed_kafka_acl_binding#project GoogleManagedKafkaAclBinding#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaAclBinding.GoogleManagedKafkaAclBindingConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaAclBinding.GoogleManagedKafkaAclBindingTimeouts">GoogleManagedKafkaAclBindingTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1333,7 +1333,7 @@ For acls on a single resource within the cluster: 'topic/{resource_name}' 'consu
 For acls on all resources that match a prefix: 'topicPrefixed/{resource_name}' 'consumerGroupPrefixed/{resource_name}' 'transactionalIdPrefixed/{resource_name}'
 For acls on all resources of a given type (i.e. the wildcard literal '*''): 'allTopics' (represents 'topic/*') 'allConsumerGroups' (represents 'consumerGroup/*') 'allTransactionalIds' (represents 'transactionalId/*').
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_managed_kafka_acl_binding#acl_id GoogleManagedKafkaAclBinding#acl_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_managed_kafka_acl_binding#acl_id GoogleManagedKafkaAclBinding#acl_id}
 
 ---
 
@@ -1347,7 +1347,7 @@ public java.lang.String getCluster();
 
 The cluster name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_managed_kafka_acl_binding#cluster GoogleManagedKafkaAclBinding#cluster}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_managed_kafka_acl_binding#cluster GoogleManagedKafkaAclBinding#cluster}
 
 ---
 
@@ -1361,7 +1361,7 @@ public java.lang.String getLocation();
 
 ID of the location of the Kafka resource. See https://cloud.google.com/managed-kafka/docs/locations for a list of supported locations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_managed_kafka_acl_binding#location GoogleManagedKafkaAclBinding#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_managed_kafka_acl_binding#location GoogleManagedKafkaAclBinding#location}
 
 ---
 
@@ -1382,7 +1382,7 @@ https://kafka.apache.org/documentation/#operations_resources_and_protocols
 for valid combinations of resource_type and operation for different
 Kafka API requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_managed_kafka_acl_binding#operation GoogleManagedKafkaAclBinding#operation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_managed_kafka_acl_binding#operation GoogleManagedKafkaAclBinding#operation}
 
 ---
 
@@ -1401,7 +1401,7 @@ StandardAuthorizer prefix "User:". For example:
 "User:test-kafka-client@test-project.iam.gserviceaccount.com". Can be
 the wildcard "User:*" to refer to all users.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_managed_kafka_acl_binding#principal GoogleManagedKafkaAclBinding#principal}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_managed_kafka_acl_binding#principal GoogleManagedKafkaAclBinding#principal}
 
 ---
 
@@ -1422,7 +1422,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_managed_kafka_acl_binding#deletion_policy GoogleManagedKafkaAclBinding#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_managed_kafka_acl_binding#deletion_policy GoogleManagedKafkaAclBinding#deletion_policy}
 
 ---
 
@@ -1436,7 +1436,7 @@ public java.lang.String getHost();
 
 The host. Must be set to "*" for Managed Service for Apache Kafka.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_managed_kafka_acl_binding#host GoogleManagedKafkaAclBinding#host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_managed_kafka_acl_binding#host GoogleManagedKafkaAclBinding#host}
 
 ---
 
@@ -1448,7 +1448,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_managed_kafka_acl_binding#id GoogleManagedKafkaAclBinding#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_managed_kafka_acl_binding#id GoogleManagedKafkaAclBinding#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1465,7 +1465,7 @@ public java.lang.String getPermissionType();
 
 The permission type. Accepted values are (case insensitive): ALLOW, DENY.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_managed_kafka_acl_binding#permission_type GoogleManagedKafkaAclBinding#permission_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_managed_kafka_acl_binding#permission_type GoogleManagedKafkaAclBinding#permission_type}
 
 ---
 
@@ -1477,7 +1477,7 @@ public java.lang.String getProject();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_managed_kafka_acl_binding#project GoogleManagedKafkaAclBinding#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_managed_kafka_acl_binding#project GoogleManagedKafkaAclBinding#project}.
 
 ---
 
@@ -1491,7 +1491,7 @@ public GoogleManagedKafkaAclBindingTimeouts getTimeouts();
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_managed_kafka_acl_binding#timeouts GoogleManagedKafkaAclBinding#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_managed_kafka_acl_binding#timeouts GoogleManagedKafkaAclBinding#timeouts}
 
 ---
 
@@ -1513,9 +1513,9 @@ GoogleManagedKafkaAclBindingTimeouts.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaAclBinding.GoogleManagedKafkaAclBindingTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_managed_kafka_acl_binding#create GoogleManagedKafkaAclBinding#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaAclBinding.GoogleManagedKafkaAclBindingTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_managed_kafka_acl_binding#delete GoogleManagedKafkaAclBinding#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaAclBinding.GoogleManagedKafkaAclBindingTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_managed_kafka_acl_binding#update GoogleManagedKafkaAclBinding#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaAclBinding.GoogleManagedKafkaAclBindingTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_managed_kafka_acl_binding#create GoogleManagedKafkaAclBinding#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaAclBinding.GoogleManagedKafkaAclBindingTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_managed_kafka_acl_binding#delete GoogleManagedKafkaAclBinding#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaAclBinding.GoogleManagedKafkaAclBindingTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_managed_kafka_acl_binding#update GoogleManagedKafkaAclBinding#update}. |
 
 ---
 
@@ -1527,7 +1527,7 @@ public java.lang.String getCreate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_managed_kafka_acl_binding#create GoogleManagedKafkaAclBinding#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_managed_kafka_acl_binding#create GoogleManagedKafkaAclBinding#create}.
 
 ---
 
@@ -1539,7 +1539,7 @@ public java.lang.String getDelete();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_managed_kafka_acl_binding#delete GoogleManagedKafkaAclBinding#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_managed_kafka_acl_binding#delete GoogleManagedKafkaAclBinding#delete}.
 
 ---
 
@@ -1551,7 +1551,7 @@ public java.lang.String getUpdate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_managed_kafka_acl_binding#update GoogleManagedKafkaAclBinding#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_managed_kafka_acl_binding#update GoogleManagedKafkaAclBinding#update}.
 
 ---
 

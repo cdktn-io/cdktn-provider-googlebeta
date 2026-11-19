@@ -91,6 +91,7 @@ export * as googleApigeeSharedflowDeployment from './google-apigee-sharedflow-de
 export * as googleApigeeSpace from './google-apigee-space/index';
 export * as googleApigeeSyncAuthorization from './google-apigee-sync-authorization/index';
 export * as googleApigeeTargetServer from './google-apigee-target-server/index';
+export * as googleApihubAddon from './google-apihub-addon/index';
 export * as googleApihubApiHubInstance from './google-apihub-api-hub-instance/index';
 export * as googleApihubCuration from './google-apihub-curation/index';
 export * as googleApihubHostProjectRegistration from './google-apihub-host-project-registration/index';
@@ -282,6 +283,8 @@ export * as googleCloudAssetOrganizationFeed from './google-cloud-asset-organiza
 export * as googleCloudAssetProjectFeed from './google-cloud-asset-project-feed/index';
 export * as googleCloudIdentityGroup from './google-cloud-identity-group/index';
 export * as googleCloudIdentityGroupMembership from './google-cloud-identity-group-membership/index';
+export * as googleCloudIdentityInboundOidcSsoProfile from './google-cloud-identity-inbound-oidc-sso-profile/index';
+export * as googleCloudIdentityInboundSamlSsoProfile from './google-cloud-identity-inbound-saml-sso-profile/index';
 export * as googleCloudIdentityPolicy from './google-cloud-identity-policy/index';
 export * as googleCloudIdsEndpoint from './google-cloud-ids-endpoint/index';
 export * as googleCloudQuotasQuotaAdjusterSettings from './google-cloud-quotas-quota-adjuster-settings/index';
@@ -705,6 +708,11 @@ export * as googleDatastreamConnectionProfile from './google-datastream-connecti
 export * as googleDatastreamPrivateConnection from './google-datastream-private-connection/index';
 export * as googleDatastreamStream from './google-datastream-stream/index';
 export * as googleDeploymentManagerDeployment from './google-deployment-manager-deployment/index';
+export * as googleDesignCenterApplication from './google-design-center-application/index';
+export * as googleDesignCenterSpace from './google-design-center-space/index';
+export * as googleDesignCenterSpaceIamBinding from './google-design-center-space-iam-binding/index';
+export * as googleDesignCenterSpaceIamMember from './google-design-center-space-iam-member/index';
+export * as googleDesignCenterSpaceIamPolicy from './google-design-center-space-iam-policy/index';
 export * as googleDeveloperConnectAccountConnector from './google-developer-connect-account-connector/index';
 export * as googleDeveloperConnectConnection from './google-developer-connect-connection/index';
 export * as googleDeveloperConnectGitRepositoryLink from './google-developer-connect-git-repository-link/index';
@@ -1770,6 +1778,7 @@ export * as dataGoogleDataprocMetastoreService from './data-google-dataproc-meta
 export * as dataGoogleDataprocMetastoreServiceIamPolicy from './data-google-dataproc-metastore-service-iam-policy/index';
 export * as dataGoogleDataprocMetastoreTableIamPolicy from './data-google-dataproc-metastore-table-iam-policy/index';
 export * as dataGoogleDatastreamStaticIps from './data-google-datastream-static-ips/index';
+export * as dataGoogleDesignCenterSpaceIamPolicy from './data-google-design-center-space-iam-policy/index';
 export * as dataGoogleDiscoveryEngineDataStore from './data-google-discovery-engine-data-store/index';
 export * as dataGoogleDiscoveryEngineDataStores from './data-google-discovery-engine-data-stores/index';
 export * as dataGoogleDiscoveryEngineSearchEngineIamPolicy from './data-google-discovery-engine-search-engine-iam-policy/index';

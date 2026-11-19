@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_agent_identity_auth_provider
+// https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_agent_identity_auth_provider
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -20,7 +20,7 @@ export interface GoogleAgentIdentityAuthProviderConfig extends cdktn.TerraformMe
   * 'allowed_scopes'.
   * The number of allowed scopes is limited to 200.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_agent_identity_auth_provider#allowed_scopes GoogleAgentIdentityAuthProvider#allowed_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_agent_identity_auth_provider#allowed_scopes GoogleAgentIdentityAuthProvider#allowed_scopes}
   */
   readonly allowedScopes?: string[];
   /**
@@ -30,7 +30,7 @@ export interface GoogleAgentIdentityAuthProviderConfig extends cdktn.TerraformMe
   * are /a-z-/. The first character must be a lowercase letter, and the
   * last character must be a lowercase letter or a number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_agent_identity_auth_provider#auth_provider_id GoogleAgentIdentityAuthProvider#auth_provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_agent_identity_auth_provider#auth_provider_id GoogleAgentIdentityAuthProvider#auth_provider_id}
   */
   readonly authProviderId: string;
   /**
@@ -40,7 +40,7 @@ export interface GoogleAgentIdentityAuthProviderConfig extends cdktn.TerraformMe
   * precedence over 'allowed_scopes'. The number of blocked scopes is limited
   * to 200.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_agent_identity_auth_provider#blocked_scopes GoogleAgentIdentityAuthProvider#blocked_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_agent_identity_auth_provider#blocked_scopes GoogleAgentIdentityAuthProvider#blocked_scopes}
   */
   readonly blockedScopes?: string[];
   /**
@@ -52,18 +52,18 @@ export interface GoogleAgentIdentityAuthProviderConfig extends cdktn.TerraformMe
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_agent_identity_auth_provider#deletion_policy GoogleAgentIdentityAuthProvider#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_agent_identity_auth_provider#deletion_policy GoogleAgentIdentityAuthProvider#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * Description of the resource.
   * Must be less than 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_agent_identity_auth_provider#description GoogleAgentIdentityAuthProvider#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_agent_identity_auth_provider#description GoogleAgentIdentityAuthProvider#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_agent_identity_auth_provider#id GoogleAgentIdentityAuthProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_agent_identity_auth_provider#id GoogleAgentIdentityAuthProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -75,17 +75,17 @@ export interface GoogleAgentIdentityAuthProviderConfig extends cdktn.TerraformMe
   * **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
   * Please refer to the field 'effective_labels' for all of the labels present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_agent_identity_auth_provider#labels GoogleAgentIdentityAuthProvider#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_agent_identity_auth_provider#labels GoogleAgentIdentityAuthProvider#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_agent_identity_auth_provider#location GoogleAgentIdentityAuthProvider#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_agent_identity_auth_provider#location GoogleAgentIdentityAuthProvider#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_agent_identity_auth_provider#project GoogleAgentIdentityAuthProvider#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_agent_identity_auth_provider#project GoogleAgentIdentityAuthProvider#project}
   */
   readonly project?: string;
   /**
@@ -93,19 +93,19 @@ export interface GoogleAgentIdentityAuthProviderConfig extends cdktn.TerraformMe
   * agent(s) that will use this AuthProvider. Example:
   * 'principal://agents.global.org-${ORG_ID}.system.id.goog/resources/aiplatform/projects/{PROJECT_ID}/locations/{LOCATIONS}/reasoningEngines/{ID}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_agent_identity_auth_provider#workload_ids GoogleAgentIdentityAuthProvider#workload_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_agent_identity_auth_provider#workload_ids GoogleAgentIdentityAuthProvider#workload_ids}
   */
   readonly workloadIds?: string[];
   /**
   * auth_provider_type_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_agent_identity_auth_provider#auth_provider_type_params GoogleAgentIdentityAuthProvider#auth_provider_type_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_agent_identity_auth_provider#auth_provider_type_params GoogleAgentIdentityAuthProvider#auth_provider_type_params}
   */
   readonly authProviderTypeParams: GoogleAgentIdentityAuthProviderAuthProviderTypeParams;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_agent_identity_auth_provider#timeouts GoogleAgentIdentityAuthProvider#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_agent_identity_auth_provider#timeouts GoogleAgentIdentityAuthProvider#timeouts}
   */
   readonly timeouts?: GoogleAgentIdentityAuthProviderTimeouts;
 }
@@ -183,7 +183,7 @@ export interface GoogleAgentIdentityAuthProviderAuthProviderTypeParamsApiKey {
   /**
   * Input only. The API key for this auth_provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_agent_identity_auth_provider#api_key GoogleAgentIdentityAuthProvider#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_agent_identity_auth_provider#api_key GoogleAgentIdentityAuthProvider#api_key}
   */
   readonly apiKey?: string;
 }
@@ -265,58 +265,182 @@ export class GoogleAgentIdentityAuthProviderAuthProviderTypeParamsApiKeyOutputRe
     return this._apiKey;
   }
 }
+export interface GoogleAgentIdentityAuthProviderAuthProviderTypeParamsConnectorReferenceAuthProvider {
+  /**
+  * Optional. Rich Authorization Requests (RFC 9396) detailing targeted OAuth
+  * resources/scopes, formatted as a JSON array of JSON objects.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_agent_identity_auth_provider#authorization_details GoogleAgentIdentityAuthProvider#authorization_details}
+  */
+  readonly authorizationDetails?: string;
+  /**
+  * Required. The name of the referenced connector. For Gemini Enterprise, this
+  * is either a Data Connector name
+  * ('projects/{{project}}/locations/{{location}}/collections/{{collection}}/dataConnector'),
+  * an Authorization name
+  * ('projects/{{project}}/locations/{{location}}/authorizations/{{authorization}}'),
+  * or a connector ID (e.g. 'salesforce-connector-prod').
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_agent_identity_auth_provider#connector GoogleAgentIdentityAuthProvider#connector}
+  */
+  readonly connector: string;
+}
+
+export function googleAgentIdentityAuthProviderAuthProviderTypeParamsConnectorReferenceAuthProviderToTerraform(struct?: GoogleAgentIdentityAuthProviderAuthProviderTypeParamsConnectorReferenceAuthProviderOutputReference | GoogleAgentIdentityAuthProviderAuthProviderTypeParamsConnectorReferenceAuthProvider): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    authorization_details: cdktn.stringToTerraform(struct!.authorizationDetails),
+    connector: cdktn.stringToTerraform(struct!.connector),
+  }
+}
+
+
+export function googleAgentIdentityAuthProviderAuthProviderTypeParamsConnectorReferenceAuthProviderToHclTerraform(struct?: GoogleAgentIdentityAuthProviderAuthProviderTypeParamsConnectorReferenceAuthProviderOutputReference | GoogleAgentIdentityAuthProviderAuthProviderTypeParamsConnectorReferenceAuthProvider): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    authorization_details: {
+      value: cdktn.stringToHclTerraform(struct!.authorizationDetails),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    connector: {
+      value: cdktn.stringToHclTerraform(struct!.connector),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleAgentIdentityAuthProviderAuthProviderTypeParamsConnectorReferenceAuthProviderOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleAgentIdentityAuthProviderAuthProviderTypeParamsConnectorReferenceAuthProvider | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._authorizationDetails !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.authorizationDetails = this._authorizationDetails;
+    }
+    if (this._connector !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.connector = this._connector;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleAgentIdentityAuthProviderAuthProviderTypeParamsConnectorReferenceAuthProvider | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._authorizationDetails = undefined;
+      this._connector = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._authorizationDetails = value.authorizationDetails;
+      this._connector = value.connector;
+    }
+  }
+
+  // authorization_details - computed: false, optional: true, required: false
+  private _authorizationDetails?: string; 
+  public get authorizationDetails() {
+    return this.getStringAttribute('authorization_details');
+  }
+  public set authorizationDetails(value: string) {
+    this._authorizationDetails = value;
+  }
+  public resetAuthorizationDetails() {
+    this._authorizationDetails = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get authorizationDetailsInput() {
+    return this._authorizationDetails;
+  }
+
+  // connector - computed: false, optional: false, required: true
+  private _connector?: string; 
+  public get connector() {
+    return this.getStringAttribute('connector');
+  }
+  public set connector(value: string) {
+    this._connector = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get connectorInput() {
+    return this._connector;
+  }
+}
 export interface GoogleAgentIdentityAuthProviderAuthProviderTypeParamsThreeLeggedOauth {
   /**
   * The authorization endpoint to send users to for consenting to delegate
   * to the agent.
   * eg. "https://auth.atlassian.com/authorize"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_agent_identity_auth_provider#authorization_url GoogleAgentIdentityAuthProvider#authorization_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_agent_identity_auth_provider#authorization_url GoogleAgentIdentityAuthProvider#authorization_url}
   */
   readonly authorizationUrl?: string;
   /**
   * The client ID of the OAuth client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_agent_identity_auth_provider#client_id GoogleAgentIdentityAuthProvider#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_agent_identity_auth_provider#client_id GoogleAgentIdentityAuthProvider#client_id}
   */
   readonly clientId?: string;
   /**
   * Input only. The client secret of the OAuth client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_agent_identity_auth_provider#client_secret GoogleAgentIdentityAuthProvider#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_agent_identity_auth_provider#client_secret GoogleAgentIdentityAuthProvider#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * Input only. The client secret of the OAuth client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_agent_identity_auth_provider#client_secret_wo GoogleAgentIdentityAuthProvider#client_secret_wo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_agent_identity_auth_provider#client_secret_wo GoogleAgentIdentityAuthProvider#client_secret_wo}
   */
   readonly clientSecretWo?: string;
   /**
   * Triggers update of 'client_secret_wo' write-only. Increment this value when an update to 'client_secret_wo' is needed. For more info see [updating write-only arguments](/docs/providers/google/guides/using_write_only_arguments.html#updating-write-only-arguments)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_agent_identity_auth_provider#client_secret_wo_version GoogleAgentIdentityAuthProvider#client_secret_wo_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_agent_identity_auth_provider#client_secret_wo_version GoogleAgentIdentityAuthProvider#client_secret_wo_version}
   */
   readonly clientSecretWoVersion?: string;
   /**
   * The default continue URI for 3LO flow and it will be used when no continue
   * URI is provided in the RetrieveCredentials request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_agent_identity_auth_provider#default_continue_uri GoogleAgentIdentityAuthProvider#default_continue_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_agent_identity_auth_provider#default_continue_uri GoogleAgentIdentityAuthProvider#default_continue_uri}
   */
   readonly defaultContinueUri?: string;
   /**
   * Enables Proof Key for Code Exchange (PKCE) for the OAuth flow to prevent
   * authorization code interception attacks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_agent_identity_auth_provider#enable_pkce GoogleAgentIdentityAuthProvider#enable_pkce}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_agent_identity_auth_provider#enable_pkce GoogleAgentIdentityAuthProvider#enable_pkce}
   */
   readonly enablePkce?: boolean | cdktn.IResolvable;
   /**
   * The token endpoint for requesting tokens on behalf of an end user.
   * eg. "https://auth.atlassian.com/oauth/token"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_agent_identity_auth_provider#token_url GoogleAgentIdentityAuthProvider#token_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_agent_identity_auth_provider#token_url GoogleAgentIdentityAuthProvider#token_url}
   */
   readonly tokenUrl?: string;
 }
@@ -613,31 +737,31 @@ export interface GoogleAgentIdentityAuthProviderAuthProviderTypeParamsTwoLeggedO
   /**
   * The client ID of the OAuth client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_agent_identity_auth_provider#client_id GoogleAgentIdentityAuthProvider#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_agent_identity_auth_provider#client_id GoogleAgentIdentityAuthProvider#client_id}
   */
   readonly clientId?: string;
   /**
   * Input only. The client secret of the OAuth client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_agent_identity_auth_provider#client_secret GoogleAgentIdentityAuthProvider#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_agent_identity_auth_provider#client_secret GoogleAgentIdentityAuthProvider#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * Input only. The client secret of the OAuth client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_agent_identity_auth_provider#client_secret_wo GoogleAgentIdentityAuthProvider#client_secret_wo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_agent_identity_auth_provider#client_secret_wo GoogleAgentIdentityAuthProvider#client_secret_wo}
   */
   readonly clientSecretWo?: string;
   /**
   * Triggers update of 'client_secret_wo' write-only. Increment this value when an update to 'client_secret_wo' is needed. For more info see [updating write-only arguments](/docs/providers/google/guides/using_write_only_arguments.html#updating-write-only-arguments)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_agent_identity_auth_provider#client_secret_wo_version GoogleAgentIdentityAuthProvider#client_secret_wo_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_agent_identity_auth_provider#client_secret_wo_version GoogleAgentIdentityAuthProvider#client_secret_wo_version}
   */
   readonly clientSecretWoVersion?: string;
   /**
   * The token endpoint of the OAuth client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_agent_identity_auth_provider#token_url GoogleAgentIdentityAuthProvider#token_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_agent_identity_auth_provider#token_url GoogleAgentIdentityAuthProvider#token_url}
   */
   readonly tokenUrl?: string;
 }
@@ -838,25 +962,700 @@ export class GoogleAgentIdentityAuthProviderAuthProviderTypeParamsTwoLeggedOauth
     return this._tokenUrl;
   }
 }
+export interface GoogleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderClientAssertionJwtAuth {
+  /**
+  * Required. The client identifier.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_agent_identity_auth_provider#client_id GoogleAgentIdentityAuthProvider#client_id}
+  */
+  readonly clientId: string;
+}
+
+export function googleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderClientAssertionJwtAuthToTerraform(struct?: GoogleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderClientAssertionJwtAuthOutputReference | GoogleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderClientAssertionJwtAuth): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    client_id: cdktn.stringToTerraform(struct!.clientId),
+  }
+}
+
+
+export function googleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderClientAssertionJwtAuthToHclTerraform(struct?: GoogleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderClientAssertionJwtAuthOutputReference | GoogleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderClientAssertionJwtAuth): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    client_id: {
+      value: cdktn.stringToHclTerraform(struct!.clientId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderClientAssertionJwtAuthOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderClientAssertionJwtAuth | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._clientId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.clientId = this._clientId;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderClientAssertionJwtAuth | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._clientId = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._clientId = value.clientId;
+    }
+  }
+
+  // client_id - computed: false, optional: false, required: true
+  private _clientId?: string; 
+  public get clientId() {
+    return this.getStringAttribute('client_id');
+  }
+  public set clientId(value: string) {
+    this._clientId = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get clientIdInput() {
+    return this._clientId;
+  }
+}
+export interface GoogleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderClientSecretAuth {
+  /**
+  * Required. The client identifier.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_agent_identity_auth_provider#client_id GoogleAgentIdentityAuthProvider#client_id}
+  */
+  readonly clientId: string;
+  /**
+  * Required. Input only. The client secret.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_agent_identity_auth_provider#client_secret GoogleAgentIdentityAuthProvider#client_secret}
+  */
+  readonly clientSecret: string;
+}
+
+export function googleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderClientSecretAuthToTerraform(struct?: GoogleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderClientSecretAuthOutputReference | GoogleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderClientSecretAuth): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    client_id: cdktn.stringToTerraform(struct!.clientId),
+    client_secret: cdktn.stringToTerraform(struct!.clientSecret),
+  }
+}
+
+
+export function googleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderClientSecretAuthToHclTerraform(struct?: GoogleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderClientSecretAuthOutputReference | GoogleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderClientSecretAuth): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    client_id: {
+      value: cdktn.stringToHclTerraform(struct!.clientId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    client_secret: {
+      value: cdktn.stringToHclTerraform(struct!.clientSecret),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderClientSecretAuthOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderClientSecretAuth | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._clientId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.clientId = this._clientId;
+    }
+    if (this._clientSecret !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.clientSecret = this._clientSecret;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderClientSecretAuth | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._clientId = undefined;
+      this._clientSecret = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._clientId = value.clientId;
+      this._clientSecret = value.clientSecret;
+    }
+  }
+
+  // client_id - computed: false, optional: false, required: true
+  private _clientId?: string; 
+  public get clientId() {
+    return this.getStringAttribute('client_id');
+  }
+  public set clientId(value: string) {
+    this._clientId = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get clientIdInput() {
+    return this._clientId;
+  }
+
+  // client_secret - computed: false, optional: false, required: true
+  private _clientSecret?: string; 
+  public get clientSecret() {
+    return this.getStringAttribute('client_secret');
+  }
+  public set clientSecret(value: string) {
+    this._clientSecret = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get clientSecretInput() {
+    return this._clientSecret;
+  }
+}
+export interface GoogleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderCustomIssuer {
+  /**
+  * Optional. The issuer identifier of the target Authorization Server.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_agent_identity_auth_provider#issuer GoogleAgentIdentityAuthProvider#issuer}
+  */
+  readonly issuer?: string;
+  /**
+  * Required. The token endpoint of the target OAuth authorization server to retrieve resource tokens.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_agent_identity_auth_provider#token_url GoogleAgentIdentityAuthProvider#token_url}
+  */
+  readonly tokenUrl: string;
+}
+
+export function googleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderCustomIssuerToTerraform(struct?: GoogleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderCustomIssuerOutputReference | GoogleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderCustomIssuer): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    issuer: cdktn.stringToTerraform(struct!.issuer),
+    token_url: cdktn.stringToTerraform(struct!.tokenUrl),
+  }
+}
+
+
+export function googleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderCustomIssuerToHclTerraform(struct?: GoogleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderCustomIssuerOutputReference | GoogleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderCustomIssuer): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    issuer: {
+      value: cdktn.stringToHclTerraform(struct!.issuer),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    token_url: {
+      value: cdktn.stringToHclTerraform(struct!.tokenUrl),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderCustomIssuerOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderCustomIssuer | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._issuer !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.issuer = this._issuer;
+    }
+    if (this._tokenUrl !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tokenUrl = this._tokenUrl;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderCustomIssuer | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._issuer = undefined;
+      this._tokenUrl = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._issuer = value.issuer;
+      this._tokenUrl = value.tokenUrl;
+    }
+  }
+
+  // issuer - computed: false, optional: true, required: false
+  private _issuer?: string; 
+  public get issuer() {
+    return this.getStringAttribute('issuer');
+  }
+  public set issuer(value: string) {
+    this._issuer = value;
+  }
+  public resetIssuer() {
+    this._issuer = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get issuerInput() {
+    return this._issuer;
+  }
+
+  // token_url - computed: false, optional: false, required: true
+  private _tokenUrl?: string; 
+  public get tokenUrl() {
+    return this.getStringAttribute('token_url');
+  }
+  public set tokenUrl(value: string) {
+    this._tokenUrl = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tokenUrlInput() {
+    return this._tokenUrl;
+  }
+}
+export interface GoogleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderIdTokenInput {
+  /**
+  * Optional additional claims to include when fetching an ID-JAG, represented as a JSON-encoded string.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_agent_identity_auth_provider#id_jag_additional_claims GoogleAgentIdentityAuthProvider#id_jag_additional_claims}
+  */
+  readonly idJagAdditionalClaims?: string;
+  /**
+  * The resource name of the ID-JAG auth provider. Format: 'projects/{{project}}/locations/{{location}}/authProviders/{{auth_provider}}'
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_agent_identity_auth_provider#id_jag_auth_provider GoogleAgentIdentityAuthProvider#id_jag_auth_provider}
+  */
+  readonly idJagAuthProvider?: string;
+}
+
+export function googleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderIdTokenInputToTerraform(struct?: GoogleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderIdTokenInputOutputReference | GoogleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderIdTokenInput): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    id_jag_additional_claims: cdktn.stringToTerraform(struct!.idJagAdditionalClaims),
+    id_jag_auth_provider: cdktn.stringToTerraform(struct!.idJagAuthProvider),
+  }
+}
+
+
+export function googleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderIdTokenInputToHclTerraform(struct?: GoogleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderIdTokenInputOutputReference | GoogleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderIdTokenInput): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    id_jag_additional_claims: {
+      value: cdktn.stringToHclTerraform(struct!.idJagAdditionalClaims),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    id_jag_auth_provider: {
+      value: cdktn.stringToHclTerraform(struct!.idJagAuthProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderIdTokenInputOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderIdTokenInput | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._idJagAdditionalClaims !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.idJagAdditionalClaims = this._idJagAdditionalClaims;
+    }
+    if (this._idJagAuthProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.idJagAuthProvider = this._idJagAuthProvider;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderIdTokenInput | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._idJagAdditionalClaims = undefined;
+      this._idJagAuthProvider = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._idJagAdditionalClaims = value.idJagAdditionalClaims;
+      this._idJagAuthProvider = value.idJagAuthProvider;
+    }
+  }
+
+  // id_jag_additional_claims - computed: false, optional: true, required: false
+  private _idJagAdditionalClaims?: string; 
+  public get idJagAdditionalClaims() {
+    return this.getStringAttribute('id_jag_additional_claims');
+  }
+  public set idJagAdditionalClaims(value: string) {
+    this._idJagAdditionalClaims = value;
+  }
+  public resetIdJagAdditionalClaims() {
+    this._idJagAdditionalClaims = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idJagAdditionalClaimsInput() {
+    return this._idJagAdditionalClaims;
+  }
+
+  // id_jag_auth_provider - computed: false, optional: true, required: false
+  private _idJagAuthProvider?: string; 
+  public get idJagAuthProvider() {
+    return this.getStringAttribute('id_jag_auth_provider');
+  }
+  public set idJagAuthProvider(value: string) {
+    this._idJagAuthProvider = value;
+  }
+  public resetIdJagAuthProvider() {
+    this._idJagAuthProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idJagAuthProviderInput() {
+    return this._idJagAuthProvider;
+  }
+}
+export interface GoogleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProvider {
+  /**
+  * Optional. Additional parameters to be passed to the token endpoint.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_agent_identity_auth_provider#additional_parameters GoogleAgentIdentityAuthProvider#additional_parameters}
+  */
+  readonly additionalParameters?: { [key: string]: string };
+  /**
+  * client_assertion_jwt_auth block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_agent_identity_auth_provider#client_assertion_jwt_auth GoogleAgentIdentityAuthProvider#client_assertion_jwt_auth}
+  */
+  readonly clientAssertionJwtAuth?: GoogleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderClientAssertionJwtAuth;
+  /**
+  * client_secret_auth block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_agent_identity_auth_provider#client_secret_auth GoogleAgentIdentityAuthProvider#client_secret_auth}
+  */
+  readonly clientSecretAuth?: GoogleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderClientSecretAuth;
+  /**
+  * custom_issuer block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_agent_identity_auth_provider#custom_issuer GoogleAgentIdentityAuthProvider#custom_issuer}
+  */
+  readonly customIssuer?: GoogleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderCustomIssuer;
+  /**
+  * id_token_input block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_agent_identity_auth_provider#id_token_input GoogleAgentIdentityAuthProvider#id_token_input}
+  */
+  readonly idTokenInput?: GoogleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderIdTokenInput;
+}
+
+export function googleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderToTerraform(struct?: GoogleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderOutputReference | GoogleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProvider): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    additional_parameters: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.additionalParameters),
+    client_assertion_jwt_auth: googleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderClientAssertionJwtAuthToTerraform(struct!.clientAssertionJwtAuth),
+    client_secret_auth: googleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderClientSecretAuthToTerraform(struct!.clientSecretAuth),
+    custom_issuer: googleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderCustomIssuerToTerraform(struct!.customIssuer),
+    id_token_input: googleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderIdTokenInputToTerraform(struct!.idTokenInput),
+  }
+}
+
+
+export function googleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderToHclTerraform(struct?: GoogleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderOutputReference | GoogleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProvider): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    additional_parameters: {
+      value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(struct!.additionalParameters),
+      isBlock: false,
+      type: "map",
+      storageClassType: "stringMap",
+    },
+    client_assertion_jwt_auth: {
+      value: googleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderClientAssertionJwtAuthToHclTerraform(struct!.clientAssertionJwtAuth),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderClientAssertionJwtAuthList",
+    },
+    client_secret_auth: {
+      value: googleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderClientSecretAuthToHclTerraform(struct!.clientSecretAuth),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderClientSecretAuthList",
+    },
+    custom_issuer: {
+      value: googleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderCustomIssuerToHclTerraform(struct!.customIssuer),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderCustomIssuerList",
+    },
+    id_token_input: {
+      value: googleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderIdTokenInputToHclTerraform(struct!.idTokenInput),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderIdTokenInputList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProvider | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._additionalParameters !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.additionalParameters = this._additionalParameters;
+    }
+    if (this._clientAssertionJwtAuth?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.clientAssertionJwtAuth = this._clientAssertionJwtAuth?.internalValue;
+    }
+    if (this._clientSecretAuth?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.clientSecretAuth = this._clientSecretAuth?.internalValue;
+    }
+    if (this._customIssuer?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.customIssuer = this._customIssuer?.internalValue;
+    }
+    if (this._idTokenInput?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.idTokenInput = this._idTokenInput?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProvider | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._additionalParameters = undefined;
+      this._clientAssertionJwtAuth.internalValue = undefined;
+      this._clientSecretAuth.internalValue = undefined;
+      this._customIssuer.internalValue = undefined;
+      this._idTokenInput.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._additionalParameters = value.additionalParameters;
+      this._clientAssertionJwtAuth.internalValue = value.clientAssertionJwtAuth;
+      this._clientSecretAuth.internalValue = value.clientSecretAuth;
+      this._customIssuer.internalValue = value.customIssuer;
+      this._idTokenInput.internalValue = value.idTokenInput;
+    }
+  }
+
+  // additional_parameters - computed: false, optional: true, required: false
+  private _additionalParameters?: { [key: string]: string }; 
+  public get additionalParameters() {
+    return this.getStringMapAttribute('additional_parameters');
+  }
+  public set additionalParameters(value: { [key: string]: string }) {
+    this._additionalParameters = value;
+  }
+  public resetAdditionalParameters() {
+    this._additionalParameters = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get additionalParametersInput() {
+    return this._additionalParameters;
+  }
+
+  // client_assertion_jwt_auth - computed: false, optional: true, required: false
+  private _clientAssertionJwtAuth = new GoogleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderClientAssertionJwtAuthOutputReference(this, "client_assertion_jwt_auth");
+  public get clientAssertionJwtAuth() {
+    return this._clientAssertionJwtAuth;
+  }
+  public putClientAssertionJwtAuth(value: GoogleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderClientAssertionJwtAuth) {
+    this._clientAssertionJwtAuth.internalValue = value;
+  }
+  public resetClientAssertionJwtAuth() {
+    this._clientAssertionJwtAuth.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get clientAssertionJwtAuthInput() {
+    return this._clientAssertionJwtAuth.internalValue;
+  }
+
+  // client_secret_auth - computed: false, optional: true, required: false
+  private _clientSecretAuth = new GoogleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderClientSecretAuthOutputReference(this, "client_secret_auth");
+  public get clientSecretAuth() {
+    return this._clientSecretAuth;
+  }
+  public putClientSecretAuth(value: GoogleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderClientSecretAuth) {
+    this._clientSecretAuth.internalValue = value;
+  }
+  public resetClientSecretAuth() {
+    this._clientSecretAuth.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get clientSecretAuthInput() {
+    return this._clientSecretAuth.internalValue;
+  }
+
+  // custom_issuer - computed: false, optional: true, required: false
+  private _customIssuer = new GoogleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderCustomIssuerOutputReference(this, "custom_issuer");
+  public get customIssuer() {
+    return this._customIssuer;
+  }
+  public putCustomIssuer(value: GoogleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderCustomIssuer) {
+    this._customIssuer.internalValue = value;
+  }
+  public resetCustomIssuer() {
+    this._customIssuer.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get customIssuerInput() {
+    return this._customIssuer.internalValue;
+  }
+
+  // id_token_input - computed: false, optional: true, required: false
+  private _idTokenInput = new GoogleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderIdTokenInputOutputReference(this, "id_token_input");
+  public get idTokenInput() {
+    return this._idTokenInput;
+  }
+  public putIdTokenInput(value: GoogleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderIdTokenInput) {
+    this._idTokenInput.internalValue = value;
+  }
+  public resetIdTokenInput() {
+    this._idTokenInput.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idTokenInputInput() {
+    return this._idTokenInput.internalValue;
+  }
+}
 export interface GoogleAgentIdentityAuthProviderAuthProviderTypeParams {
   /**
   * api_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_agent_identity_auth_provider#api_key GoogleAgentIdentityAuthProvider#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_agent_identity_auth_provider#api_key GoogleAgentIdentityAuthProvider#api_key}
   */
   readonly apiKey?: GoogleAgentIdentityAuthProviderAuthProviderTypeParamsApiKey;
   /**
+  * connector_reference_auth_provider block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_agent_identity_auth_provider#connector_reference_auth_provider GoogleAgentIdentityAuthProvider#connector_reference_auth_provider}
+  */
+  readonly connectorReferenceAuthProvider?: GoogleAgentIdentityAuthProviderAuthProviderTypeParamsConnectorReferenceAuthProvider;
+  /**
   * three_legged_oauth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_agent_identity_auth_provider#three_legged_oauth GoogleAgentIdentityAuthProvider#three_legged_oauth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_agent_identity_auth_provider#three_legged_oauth GoogleAgentIdentityAuthProvider#three_legged_oauth}
   */
   readonly threeLeggedOauth?: GoogleAgentIdentityAuthProviderAuthProviderTypeParamsThreeLeggedOauth;
   /**
   * two_legged_oauth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_agent_identity_auth_provider#two_legged_oauth GoogleAgentIdentityAuthProvider#two_legged_oauth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_agent_identity_auth_provider#two_legged_oauth GoogleAgentIdentityAuthProvider#two_legged_oauth}
   */
   readonly twoLeggedOauth?: GoogleAgentIdentityAuthProviderAuthProviderTypeParamsTwoLeggedOauth;
+  /**
+  * xaa_auth_provider block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_agent_identity_auth_provider#xaa_auth_provider GoogleAgentIdentityAuthProvider#xaa_auth_provider}
+  */
+  readonly xaaAuthProvider?: GoogleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProvider;
 }
 
 export function googleAgentIdentityAuthProviderAuthProviderTypeParamsToTerraform(struct?: GoogleAgentIdentityAuthProviderAuthProviderTypeParamsOutputReference | GoogleAgentIdentityAuthProviderAuthProviderTypeParams): any {
@@ -866,8 +1665,10 @@ export function googleAgentIdentityAuthProviderAuthProviderTypeParamsToTerraform
   }
   return {
     api_key: googleAgentIdentityAuthProviderAuthProviderTypeParamsApiKeyToTerraform(struct!.apiKey),
+    connector_reference_auth_provider: googleAgentIdentityAuthProviderAuthProviderTypeParamsConnectorReferenceAuthProviderToTerraform(struct!.connectorReferenceAuthProvider),
     three_legged_oauth: googleAgentIdentityAuthProviderAuthProviderTypeParamsThreeLeggedOauthToTerraform(struct!.threeLeggedOauth),
     two_legged_oauth: googleAgentIdentityAuthProviderAuthProviderTypeParamsTwoLeggedOauthToTerraform(struct!.twoLeggedOauth),
+    xaa_auth_provider: googleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderToTerraform(struct!.xaaAuthProvider),
   }
 }
 
@@ -884,6 +1685,12 @@ export function googleAgentIdentityAuthProviderAuthProviderTypeParamsToHclTerraf
       type: "list",
       storageClassType: "GoogleAgentIdentityAuthProviderAuthProviderTypeParamsApiKeyList",
     },
+    connector_reference_auth_provider: {
+      value: googleAgentIdentityAuthProviderAuthProviderTypeParamsConnectorReferenceAuthProviderToHclTerraform(struct!.connectorReferenceAuthProvider),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleAgentIdentityAuthProviderAuthProviderTypeParamsConnectorReferenceAuthProviderList",
+    },
     three_legged_oauth: {
       value: googleAgentIdentityAuthProviderAuthProviderTypeParamsThreeLeggedOauthToHclTerraform(struct!.threeLeggedOauth),
       isBlock: true,
@@ -895,6 +1702,12 @@ export function googleAgentIdentityAuthProviderAuthProviderTypeParamsToHclTerraf
       isBlock: true,
       type: "list",
       storageClassType: "GoogleAgentIdentityAuthProviderAuthProviderTypeParamsTwoLeggedOauthList",
+    },
+    xaa_auth_provider: {
+      value: googleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderToHclTerraform(struct!.xaaAuthProvider),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderList",
     },
   };
 
@@ -920,6 +1733,10 @@ export class GoogleAgentIdentityAuthProviderAuthProviderTypeParamsOutputReferenc
       hasAnyValues = true;
       internalValueResult.apiKey = this._apiKey?.internalValue;
     }
+    if (this._connectorReferenceAuthProvider?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.connectorReferenceAuthProvider = this._connectorReferenceAuthProvider?.internalValue;
+    }
     if (this._threeLeggedOauth?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.threeLeggedOauth = this._threeLeggedOauth?.internalValue;
@@ -928,6 +1745,10 @@ export class GoogleAgentIdentityAuthProviderAuthProviderTypeParamsOutputReferenc
       hasAnyValues = true;
       internalValueResult.twoLeggedOauth = this._twoLeggedOauth?.internalValue;
     }
+    if (this._xaaAuthProvider?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.xaaAuthProvider = this._xaaAuthProvider?.internalValue;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -935,14 +1756,18 @@ export class GoogleAgentIdentityAuthProviderAuthProviderTypeParamsOutputReferenc
     if (value === undefined) {
       this.isEmptyObject = false;
       this._apiKey.internalValue = undefined;
+      this._connectorReferenceAuthProvider.internalValue = undefined;
       this._threeLeggedOauth.internalValue = undefined;
       this._twoLeggedOauth.internalValue = undefined;
+      this._xaaAuthProvider.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._apiKey.internalValue = value.apiKey;
+      this._connectorReferenceAuthProvider.internalValue = value.connectorReferenceAuthProvider;
       this._threeLeggedOauth.internalValue = value.threeLeggedOauth;
       this._twoLeggedOauth.internalValue = value.twoLeggedOauth;
+      this._xaaAuthProvider.internalValue = value.xaaAuthProvider;
     }
   }
 
@@ -966,6 +1791,22 @@ export class GoogleAgentIdentityAuthProviderAuthProviderTypeParamsOutputReferenc
   // Temporarily expose input value. Use with caution.
   public get apiKeyInput() {
     return this._apiKey.internalValue;
+  }
+
+  // connector_reference_auth_provider - computed: false, optional: true, required: false
+  private _connectorReferenceAuthProvider = new GoogleAgentIdentityAuthProviderAuthProviderTypeParamsConnectorReferenceAuthProviderOutputReference(this, "connector_reference_auth_provider");
+  public get connectorReferenceAuthProvider() {
+    return this._connectorReferenceAuthProvider;
+  }
+  public putConnectorReferenceAuthProvider(value: GoogleAgentIdentityAuthProviderAuthProviderTypeParamsConnectorReferenceAuthProvider) {
+    this._connectorReferenceAuthProvider.internalValue = value;
+  }
+  public resetConnectorReferenceAuthProvider() {
+    this._connectorReferenceAuthProvider.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get connectorReferenceAuthProviderInput() {
+    return this._connectorReferenceAuthProvider.internalValue;
   }
 
   // three_legged_oauth - computed: false, optional: true, required: false
@@ -999,18 +1840,34 @@ export class GoogleAgentIdentityAuthProviderAuthProviderTypeParamsOutputReferenc
   public get twoLeggedOauthInput() {
     return this._twoLeggedOauth.internalValue;
   }
+
+  // xaa_auth_provider - computed: false, optional: true, required: false
+  private _xaaAuthProvider = new GoogleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProviderOutputReference(this, "xaa_auth_provider");
+  public get xaaAuthProvider() {
+    return this._xaaAuthProvider;
+  }
+  public putXaaAuthProvider(value: GoogleAgentIdentityAuthProviderAuthProviderTypeParamsXaaAuthProvider) {
+    this._xaaAuthProvider.internalValue = value;
+  }
+  public resetXaaAuthProvider() {
+    this._xaaAuthProvider.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get xaaAuthProviderInput() {
+    return this._xaaAuthProvider.internalValue;
+  }
 }
 export interface GoogleAgentIdentityAuthProviderTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_agent_identity_auth_provider#create GoogleAgentIdentityAuthProvider#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_agent_identity_auth_provider#create GoogleAgentIdentityAuthProvider#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_agent_identity_auth_provider#delete GoogleAgentIdentityAuthProvider#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_agent_identity_auth_provider#delete GoogleAgentIdentityAuthProvider#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_agent_identity_auth_provider#update GoogleAgentIdentityAuthProvider#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_agent_identity_auth_provider#update GoogleAgentIdentityAuthProvider#update}
   */
   readonly update?: string;
 }
@@ -1162,7 +2019,7 @@ export class GoogleAgentIdentityAuthProviderTimeoutsOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_agent_identity_auth_provider google_agent_identity_auth_provider}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_agent_identity_auth_provider google_agent_identity_auth_provider}
 */
 export class GoogleAgentIdentityAuthProvider extends cdktn.TerraformResource {
 
@@ -1178,7 +2035,7 @@ export class GoogleAgentIdentityAuthProvider extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleAgentIdentityAuthProvider resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleAgentIdentityAuthProvider to import
-  * @param importFromId The id of the existing GoogleAgentIdentityAuthProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_agent_identity_auth_provider#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleAgentIdentityAuthProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_agent_identity_auth_provider#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleAgentIdentityAuthProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1190,7 +2047,7 @@ export class GoogleAgentIdentityAuthProvider extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.11.0/docs/resources/google_agent_identity_auth_provider google_agent_identity_auth_provider} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.12.0/docs/resources/google_agent_identity_auth_provider google_agent_identity_auth_provider} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1201,7 +2058,7 @@ export class GoogleAgentIdentityAuthProvider extends cdktn.TerraformResource {
       terraformResourceType: 'google_agent_identity_auth_provider',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '8.11.0',
+        providerVersion: '8.12.0',
         providerVersionConstraint: '~> 8.0'
       },
       provider: config.provider,
